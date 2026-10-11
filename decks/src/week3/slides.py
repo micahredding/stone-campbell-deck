@@ -128,16 +128,6 @@ A('<section class="slide breath"><h2 style="max-width:none">Conscience is not &l
   '<div class="sub frag punch">It is &ldquo;I must.&rdquo;</div>'
   '<aside class=notes>One click. His word is <i>captive</i>: bound, not free. Conscience here is not a preference but an obligation before God. &ldquo;Neither safe nor right to go against conscience&rdquo;: not safe, because he must answer to God for it.</aside></section>')
 
-A('<section class="slide breath"><h2 style="max-width:none">Captive to the Word of God.</h2>'
-  '<div class=litany style="align-items:center">'
-  '<div class="no frag">Not to the pope&rsquo;s reading of it.</div>'
-  '<div class="no frag">Not to a council&rsquo;s.</div>'
-  '<div class="no frag">Not even to his own.</div>'
-  '<div class="no frag">Not to what he thinks it says.</div>'
-  '<div class="no frag" style="color:var(--gold)">To the Word of God itself.</div>'
-  '</div>'
-  '<aside class=notes>Five clicks; slow down on &ldquo;not even to his own.&rdquo; The proof is the first clause of the sentence: &ldquo;Unless I am convinced by the testimony of the Scriptures or by clear reason.&rdquo; He can still be corrected by the Word, so he is not treating his own reading as the Word. What binds him is the Word itself, and his conscience is where he answers to God for how faithfully he reads it. That is why no council can do it for him: an obligation cannot be handed to someone else.</aside></section>')
-
 A('<section class="slide breath"><div class=eyebrow>Luther did not invent this</div>'
   '<h2 style="max-width:none">Conscience binds.</h2>'
   '<div class=litany style="margin-top:2.4vmin">'
@@ -282,6 +272,17 @@ A('<section class="slide"><aside class=notes>Black.</aside></section>')
 
 # ---------- ADDENDUM (reference; not part of the telling) ----------
 A(C('Addendum', 'Reference material; not part of the telling.'))
+
+# parked from the conscience section (after "It is 'I must.'")
+A('<section class="slide breath"><h2 style="max-width:none">Captive to the Word of God.</h2>'
+  '<div class=litany style="align-items:center">'
+  '<div class="no frag">Not to the pope&rsquo;s reading of it.</div>'
+  '<div class="no frag">Not to a council&rsquo;s.</div>'
+  '<div class="no frag">Not even to his own.</div>'
+  '<div class="no frag">Not to what he thinks it says.</div>'
+  '<div class="no frag" style="color:var(--gold)">To the Word of God itself.</div>'
+  '</div>'
+  '<aside class=notes>Five clicks; slow down on &ldquo;not even to his own.&rdquo; The proof is the first clause of the sentence: &ldquo;Unless I am convinced by the testimony of the Scriptures or by clear reason.&rdquo; He can still be corrected by the Word, so he is not treating his own reading as the Word. What binds him is the Word itself, and his conscience is where he answers to God for how faithfully he reads it. That is why no council can do it for him: an obligation cannot be handed to someone else.</aside></section>')
 
 A('<section class="slide breath sect"><h2>Priesthood of all believers</h2><div class=table-line></div>'
   '<div class="sub frag">Every believer: the Spirit within, united with Christ, answering to God directly.</div>'
