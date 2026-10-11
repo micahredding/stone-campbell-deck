@@ -147,6 +147,10 @@ A(Q('&ldquo;&hellip;whoever comes out of the water of baptism can boast that he 
   N('One click. Why conscience is an obligation and not a preference. A year before Worms: &ldquo;we are all consecrated priests through baptism, as St. Peter says in I Peter 2[:9].&rdquo; Every baptized Christian has the Spirit within, is united with Christ, and stands before God directly.', 'The sentence continues: &ldquo;although of course it is not seemly that just anybody should exercise such office.&rdquo; Older translation (C. M. Jacobs, 1915): &ldquo;For whoever comes out of the water of baptism can boast that he is already consecrated priest, bishop and pope, though it is not seemly that every one should exercise the office.&rdquo;'))
 
 
+A('<section class="slide breath sect"><h2>Priesthood of all believers</h2><div class=table-line></div>'
+  '<div class="sub frag">Every believer: the Spirit within, united with Christ, answering to God directly.</div>'
+  '<aside class=notes>Card, one click. The ground under Worms: why conscience is an obligation and not a preference. No one can stand before God in your place, so no one can read the Word in your place either. It names what the last slides have shown, Catholic and Luther alike. Then Marburg: Luther could not grant it to Zwingli.</aside></section>')
+
 A('<section class="slide bleed"><div class=bg><div class="bgimg marburgbg"></div></div>'
   '<div class=credit>August Noack, <i>Religionsgespr&auml;ch zu Marburg 1529</i> (detail), 1867&ndash;69 &middot; public domain</div>'
   '<div class=eyebrow>Marburg &middot; October 1529</div>'
@@ -283,10 +287,6 @@ A('<section class="slide breath"><h2 style="max-width:none">Captive to the Word 
   '<div class="no frag" style="color:var(--gold)">To the Word of God itself.</div>'
   '</div>'
   '<aside class=notes>Five clicks; slow down on &ldquo;not even to his own.&rdquo; The proof is the first clause of the sentence: &ldquo;Unless I am convinced by the testimony of the Scriptures or by clear reason.&rdquo; He can still be corrected by the Word, so he is not treating his own reading as the Word. What binds him is the Word itself, and his conscience is where he answers to God for how faithfully he reads it. That is why no council can do it for him: an obligation cannot be handed to someone else.</aside></section>')
-
-A('<section class="slide breath sect"><h2>Priesthood of all believers</h2><div class=table-line></div>'
-  '<div class="sub frag">Every believer: the Spirit within, united with Christ, answering to God directly.</div>'
-  '<aside class=notes>Card, one click. The ground under Worms: why conscience is an obligation and not a preference. No one can stand before God in your place, so no one can read the Word in your place either. Then Luther&rsquo;s own line, a year before Worms.</aside></section>')
 
 A('<section class="slide"><div class=eyebrow>What every one of them had in common</div>'
   '<h2>Every one had a sword behind it.</h2>'
