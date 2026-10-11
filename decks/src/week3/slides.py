@@ -225,6 +225,10 @@ A('<section class="slide"><h2 style="font-size:clamp(60px,14vmin,180px);line-hei
 A('<section class="slide breath"><h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none;color:var(--gold)">Next week</h2>'
   '<aside class=notes>Campbell&rsquo;s answer is next week. Then the ideas from tonight.</aside></section>')
 
+A('<section class="slide room"><div class=eyebrow>&#9670; for discussion</div>'
+  '<h2>What is beautiful here? What do we carry forward?</h2>'
+  '<aside class=notes>Backup prompts (off the slide): Who have we treated the way Luther treated Zwingli, over a reading of Scripture? What instrument do we reach for when we want unity: a statement, a rule, a vote?<br>If the room is slow: &ldquo;Have you ever been the brother someone else judged for?&rdquo;</aside></section>')
+
 A('<section class="slide idea room"><div class="eyebrow quiet">Idea 1 of 7</div>'
   '<h2>Unity is <span style="color:var(--gold)">the design of religion.</span></h2>'
   '<aside class=notes>&ldquo;The grand design and native tendency of our holy religion&rdquo; is to unite us to God and to each other. Union with him first; union with each other in him next. From the Design of Religion: &ldquo;the first and foundation truth of our Christianity is union with him, and the very next to it in order, union with each other in him.&rdquo;</aside></section>')
