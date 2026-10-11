@@ -3,7 +3,7 @@ sys.path.insert(0,'decks/src/week3')
 from slides import S, PATDEFS, CHRISTENDOM_CSS
 
 body='\n\n'.join(S)
-for _k,_f in (('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','anabaptist_drowning.jpg')):
+for _k,_f in (('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_GROVE','grove.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','anabaptist_drowning.jpg')):
     body=body.replace(_k, 'data:image/jpeg;base64,'+__import__('base64').b64encode(open('decks/src/week3/'+_f,'rb').read()).decode())
 css=open('decks/src/week3/engine.css').read()
 css+= ('\n  /* ---- Week 3 type scale (inherited from Week 2) ---- */\n'
@@ -61,7 +61,7 @@ css += ('  /* ---- larger type, 2026-10-11 ---- */\n'
         '  #deck .slide .litany.tbl .no{font-size:clamp(22px,4.3vmin,54px)}\n'
         '  #deck .slide.wormsfull .bigquote{font-size:clamp(32px,7vmin,86px);max-width:46ch}\n'
         '  #deck .slide .litany.ideasum .no{font-size:clamp(30px,6.2vmin,78px);line-height:1.2;position:relative;padding-left:1.6em}#deck .slide .litany.ideasum .no>span:first-child{position:absolute;left:0;top:0}\n'
-        '  @media (min-aspect-ratio:3/2){#deck .recapshots .shot{width:min(42vmin,21.5vw)}}\n')
+        '  #deck .recapshots{flex-wrap:nowrap}#deck .recapshots .shot{width:min(34vmin,17vw)}#deck .recapshots .shot img{height:26vh!important}\n')
 css += '  #deck .litany .lcite{display:block;font-family:"IM Fell English SC",Georgia,serif;font-style:normal;font-size:.55em;letter-spacing:.1em;color:var(--smoke);margin-top:.3vmin}\n'
 import os
 if os.path.exists('decks/src/week3/marburg.jpg'):
