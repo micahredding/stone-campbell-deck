@@ -3,7 +3,7 @@ sys.path.insert(0,'decks/src/week3')
 from slides import S, PATDEFS, CHRISTENDOM_CSS
 
 body='\n\n'.join(S)
-for _k,_f in (('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg')):
+for _k,_f in (('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','manz.jpg')):
     body=body.replace(_k, 'data:image/jpeg;base64,'+__import__('base64').b64encode(open('decks/src/week3/'+_f,'rb').read()).decode())
 css=open('decks/src/week3/engine.css').read()
 css+= ('\n  /* ---- Week 3 type scale (inherited from Week 2) ---- */\n'
@@ -46,6 +46,7 @@ css += '  .slide.bleed .frag.sub{color:var(--bone)}\n'
 css += '  #deck .dimbg .bg::after{content:"";position:absolute;inset:0;background:rgba(14,11,9,.78)}\n  #deck .dimbg .bigquote{text-shadow:0 1px 6px rgba(0,0,0,.9)}\n'
 css += '  #deck .wormsfull .bigquote{line-height:1.2;font-size:clamp(30px,6.4vmin,78px);max-width:46ch}\n'
 css += '  #deck .slide .sub.punch{font-family:"IM Fell English",Georgia,serif;font-style:normal;font-size:clamp(30px,5.4vmin,68px);line-height:1.2;color:var(--gold);max-width:none;margin-top:2.4vmin}\n'
+css += '  #deck .rejslide{justify-content:center;gap:0}#deck .rejslide img{display:block;max-height:60vh;max-width:84vw;border-radius:.4vmin;box-shadow:0 1vmin 4vmin rgba(0,0,0,.6)}\n  #deck .rejslide figcaption{font-family:"IM Fell English SC",Georgia,serif;font-size:clamp(11px,1.5vmin,17px);letter-spacing:.1em;color:var(--smoke);margin-top:1vmin;text-align:center}\n  #deck .rejslide h2{max-width:none;margin-top:2.6vmin}\n'
 css += '  #deck .litany .lcite{display:block;font-family:"IM Fell English SC",Georgia,serif;font-style:normal;font-size:.55em;letter-spacing:.1em;color:var(--smoke);margin-top:.3vmin}\n'
 import os
 if os.path.exists('decks/src/week3/marburg.jpg'):

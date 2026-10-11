@@ -186,6 +186,26 @@ A(Q('&ldquo;We dare not, therefore, patronize <b>the rejection of God&rsquo;s de
 A(Q('&ldquo;&hellip;members of the same body, subjects of the same grace, objects of the same Divine love, bought with the same price, and joint-heirs of the same inheritance. <b>Whom God hath thus joined together no man should dare to put asunder.</b>&rdquo;', DA, 'Proposition 9') +
   N('The marriage line, turned on the brother. Not a creed&rsquo;s vocabulary: a family&rsquo;s. Every phrase is something God did, not something we agreed to. If God joined them, rejecting a brother is not housekeeping; it is putting asunder what God joined.', 'Full proposition: &ldquo;That all that are enabled through grace to make such a profession, and to manifest the reality of it in their tempers and conduct, should consider each other as the precious saints of God, should love each other as brethren, children of the same family and Father, temples of the same Spirit, members of the same body&hellip;&rdquo; Proposition 9 comes back in full in the Propositions section.'))
 
+A('<section class="slide rejslide"><div class=eyebrow>Worms &middot; 1521</div>'
+  '<figure style="margin:0"><img src="IMG_WORMSPIC" alt=""><figcaption>Anton von Werner, <i>Luther at the Diet of Worms</i>, 1877</figcaption></figure>'
+  '<h2>Rome rejects Luther.</h2>'
+  '<aside class=notes>Four slides, no clicks, one beat each. Same rhythm every time; let the room hear the pattern before you name it. Rome: excommunication (January 1521), then the Edict of Worms (May 1521) makes him an outlaw.</aside></section>')
+
+A('<section class="slide rejslide"><div class=eyebrow>Marburg &middot; 1529</div>'
+  '<figure style="margin:0"><img src="IMG_MARBURGPIC" alt=""><figcaption>August Noack, <i>Religionsgespr&auml;ch zu Marburg 1529</i> (detail), 1867&ndash;69</figcaption></figure>'
+  '<h2>Luther rejects Zwingli.</h2>'
+  '<aside class=notes>The man rejected at Worms, eight years later: &ldquo;You have a different spirit.&rdquo; No common table over the bodily presence.</aside></section>')
+
+A('<section class="slide rejslide"><div class=eyebrow>Zurich &middot; 1527</div>'
+  '<figure style="margin:0"><img src="IMG_MANZ" alt=""><figcaption>Heinrich Thomann, after Bullinger&rsquo;s <i>Reformationsgeschichte</i>, 1605 &middot; the drowning of Felix Manz</figcaption></figure>'
+  '<h2>Zwingli rejects the Anabaptists.</h2>'
+  '<aside class=notes>His own students, Grebel and Manz, over infant baptism. Zurich&rsquo;s council, with Zwingli&rsquo;s support, made rebaptism a capital crime (March 1526); Felix Manz was drowned in the Limmat, 5 January 1527, the first Protestant executed by Protestants. The picture: Manz in the boat at right, the crowds on both banks. Two years later, at Marburg, Zwingli would ask Luther for the hand he had refused Manz.<br>Each one was rejected for his conscience, and each one rejected the next man for his.</aside></section>')
+
+A('<section class="slide rejslide"><div class=eyebrow>Washington, Pennsylvania &middot; 1809</div>'
+  '<figure style="margin:0"><img src="IMG_TCAMPBELL" alt="" style="max-height:56vh"><figcaption>Thomas Campbell</figcaption></figure>'
+  '<h2 style="color:var(--gold);font-size:clamp(44px,9vmin,116px)">How dare you put asunder?</h2>'
+  '<aside class=notes>Then Campbell, turning Proposition 9 on all of them: &ldquo;Whom God hath thus joined together no man should dare to put asunder.&rdquo; Not one of the four was rejected for denying Christ. Each was rejected by a brother. Pause before moving on.</aside></section>')
+
 # ---------- WHY CAMPBELL COULD GO FURTHER: THE SWORD, AND THIS COUNTRY ----------
 A('<section class="slide"><h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none">What can<br>unite<br>Christians?</h2>'
   '<div class="sub frag">&ldquo;That they all may be one&hellip; that the world may believe that thou hast sent me.&rdquo;<br><span style="font-size:.7em;color:var(--bone-dim)">John 17:21</span></div>'
