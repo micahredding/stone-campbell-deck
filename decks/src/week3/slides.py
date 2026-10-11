@@ -35,6 +35,13 @@ A('<section class="slide" style="padding-bottom:10vmin"><div class="eyebrow quie
   '<p class=sub style="font-size:min(5vmin,3.6vw);max-width:none;margin-top:2vmin">The Story, Promise, and Future<br>of the Churches of Christ</p>'
   '<aside class=notes>The class title, as every week. Then the chapter.</aside></section>')
 
+A('<section class="slide"><div class=eyebrow>Quiz</div>'
+  '<h2 style="max-width:none">We do Bible things&hellip;</h2>'
+  '<div class="sub frag" style="max-width:none">&hellip;in Bible ways.</div>'
+  '<h2 style="max-width:none;margin-top:5vmin">We call Bible things&hellip;</h2>'
+  '<div class="sub frag" style="max-width:none">&hellip;by Bible names.</div>'
+  '<aside class=notes>Two clicks. Let the room finish each one. Movement slogans, not lines from the Declaration and Address. The document&rsquo;s own root for them: nothing as of divine obligation unless there is &ldquo;a &lsquo;Thus saith the Lord,&rsquo; either in express terms or by approved precedent.&rdquo; Tonight is about where that came from, and what it was meant for: unity, not a new fence.</aside></section>')
+
 # ---------- RECAP: Chapter 2 in pictures (images from decks/src/week2) ----------
 A('<section class="slide recapslide"><div class="eyebrow quiet">Last week &middot; Thomas Campbell&rsquo;s Heresy Trial</div>'
   '<div class=shots style="gap:3vmin">'
