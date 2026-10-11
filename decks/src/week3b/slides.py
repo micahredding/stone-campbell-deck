@@ -215,7 +215,7 @@ IDEAS = [
     (G('Only Christ', 'can make us one.'),
      'The Preamble: we cannot &ldquo;reasonably expect to find it anywhere but in Christ and his simple word.&rdquo; Every instrument on the egg was asked to do a job only Christ can do.'),
     (G('There is nothing wrong with a creed.', 'But a creed cannot make us one.'),
-     'Proposition 7: doctrinal exhibitions &ldquo;may be highly expedient&rdquo;; they are not to be made terms of communion. A creed can teach; it cannot unite.'),
+     'Proposition 7: although doctrinal exhibitions doctrinal exhibitions &ldquo;may be highly expedient&rdquo;; they are not to be made terms of communion.ldquo;be highly expedient,doctrinal exhibitions &ldquo;may be highly expedient&rdquo;; they are not to be made terms of communion.rdquo; they are not to be made terms of communion. A creed can teach; it cannot unite.'),
     (G('The church is', 'already one.'),
      'Proposition 1: &ldquo;essentially, intentionally, and constitutionally one.&rdquo; Unity is given, not built; the divisions are the innovation.'),
     (G('Make anything else a term of communion,', 'and it will divide us.'),

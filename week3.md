@@ -2,7 +2,7 @@
 
 [← All chapters](.)
 
-**Slides:** [Chapter 3 deck: The Declaration and Address](decks/week3-declaration-address.html) (Oct 11; [as taught](decks/week3-declaration-address-as-taught-2026-10-11.html), through slide 62) · [Part two: the answer](decks/week3b-declaration-address-part-two.html) (Oct 18)
+**Slides:** [Chapter 3 deck: The Declaration and Address](decks/week3-declaration-address.html) (Oct 11; [as taught](decks/week3-declaration-address-as-taught-2026-10-11.html), through slide 62) · continued in [Chapter 3b](week3b)
 
 **The Story:** A few decades after the American Declaration of Independence, Thomas Campbell pens a declaration of Christian unity. The body of Christ is already one, and ought not be divided by the arrogance of human opinions. 
 
@@ -20,10 +20,17 @@ Narrative…
 
 ## Ideas
 
-1. **Unity is given, not constructed.** The church is *already* one, "essentially, intentionally, and constitutionally"; the sects are the innovation.
-2. **The rule that opens the table hands you a razor.** "If we adopt that as a basis, then there is an end of infant baptism." The same principle that removes creedal fences also cuts things people love. Can a rule designed for peace avoid becoming a new fence?
-3. **It refused to be a creed — and its heirs made it one.** "By no means a Church"; "not as a new creed" — the document warns against its own later use. Honoring it means keeping it a plea, not a pattern.
-4. **The handoff.** The movement's future arrived reading its charter as it came off the press — and the father's answer committed the next generation before anyone knew where it led: "We make our appeal to the law and to the testimony. Whatever is not found therein we must of course abandon."
+As taught on Oct 11:
+
+1. **Unity is the design of religion.** "The grand design and native tendency of our holy religion is to reconcile and unite men to God, and to each other."
+2. **Division is a horrid evil.** Proposition 10: "antichristian, as it destroys the visible unity of the body of Christ."
+3. **Every instrument failed.** Creeds, councils, edicts, swords: each was offered for unity, and each left another division.
+4. **Conscience cannot be compelled.** Worms; Aquinas; Vatican II and the Catechism.
+5. **Conscience is an exercise of the priesthood of all believers.** There each believer stands before God, as his priest.
+6. **Commitment to the Word of God, not *interpretations* of the Word of God.** "Unless I am convinced by the testimony of the Scriptures or by clear reason."
+7. **No one may judge for his brother.** Luther claimed conscience for himself; Campbell claimed it for his brother.
+
+The original plan's ideas (unity given, the razor, the creed it refused to be, the handoff) moved to [Chapter 3b](week3b).
 
 ---
 
