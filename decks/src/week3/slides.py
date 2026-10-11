@@ -2,6 +2,8 @@
 # Week 3 deck content — The Declaration & Address.
 # The Christendom sequence (325–1806, the egg) is a reusable element: decks/src/elements/christendom.py.
 # Notes are a cue card: fact / source / your line. "→" marks a line that is Micah's to say.
+import os
+_HERE = os.path.dirname(os.path.abspath(__file__))
 import re, math
 
 def C(name, note=''):   # chapter card
@@ -206,29 +208,46 @@ A('<section class="slide rejslide"><div class=eyebrow>Washington, Pennsylvania &
   '<h2 style="color:var(--gold);font-size:clamp(44px,9vmin,116px)">How dare you put asunder?</h2>'
   '<aside class=notes>Then Campbell, turning Proposition 9 on all of them: &ldquo;Whom God hath thus joined together no man should dare to put asunder.&rdquo; Not one of the four was rejected for denying Christ. Each was rejected by a brother. Pause before moving on.</aside></section>')
 
-A('<section class="slide idea room"><div class="eyebrow quiet">Idea 1 of 5</div>'
+A('<section class="slide"><h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none">How do<br>Christians achieve<br>unity?</h2>'
+  '<aside class=notes>The question the whole hour has been circling. Let it hang.</aside></section>')
+
+A('<section class="slide breath"><div class=eyebrow>Next week</div>'
+  '<h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none">The answer.</h2>'
+  '<aside class=notes>Campbell&rsquo;s answer is next week. Then the ideas from tonight.</aside></section>')
+
+A('<section class="slide idea room"><div class="eyebrow quiet">Idea 1 of 7</div>'
   '<h2>Unity is <span style="color:var(--gold)">given, not built.</span></h2>'
   '<aside class=notes>Union with him first; union with each other in him next. From the Design of Religion: &ldquo;the first and foundation truth of our Christianity is union with him, and the very next to it in order, union with each other in him.&rdquo;</aside></section>')
 
-A('<section class="slide idea room"><div class="eyebrow quiet">Idea 2 of 5</div>'
+A('<section class="slide idea room"><div class="eyebrow quiet">Idea 2 of 7</div>'
   '<h2>Division is <span style="color:var(--gold)">a horrid evil.</span></h2>'
   '<aside class=notes>Not a difference of opinion: a wound in the body of Christ. Proposition 10: &ldquo;anti-christian, as it destroys the visible unity of the body of Christ.&rdquo; And the Evils of Division litany.</aside></section>')
 
-A('<section class="slide idea room"><div class="eyebrow quiet">Idea 3 of 5</div>'
+A('<section class="slide idea room"><div class="eyebrow quiet">Idea 3 of 7</div>'
   '<h2>Every instrument <span style="color:var(--gold)">failed.</span></h2>'
   '<aside class=notes>Creeds, councils, edicts, swords: each was offered for unity, and each left another division. The egg, 325 to 1806.</aside></section>')
 
-A('<section class="slide idea room"><div class="eyebrow quiet">Idea 4 of 5</div>'
+A('<section class="slide idea room"><div class="eyebrow quiet">Idea 4 of 7</div>'
   '<h2>Conscience <span style="color:var(--gold)">cannot be compelled.</span></h2>'
   '<aside class=notes>It binds because there you answer to God, as his priest. Worms; Aquinas; Vatican II and the Catechism (&ldquo;alone with God&rdquo;); Newman; Luther in 1520 on the baptized as priests.</aside></section>')
 
-A('<section class="slide idea room"><div class="eyebrow quiet">Idea 5 of 5</div>'
+A('<section class="slide idea room"><div class="eyebrow quiet">Idea 5 of 7</div>'
+  '<h2>Conscience is an exercise of <span style="color:var(--gold)">the priesthood of all believers.</span></h2>'
+  '<aside class=notes>Why conscience binds: it is where each believer stands before God, as his priest. The Catechism (&ldquo;alone with God&rdquo;; &ldquo;the whole community of believers is, as such, priestly&rdquo;); Newman (&ldquo;the aboriginal Vicar of Christ&rdquo;); Luther in 1520 (&ldquo;a consecrated priest, bishop, and pope&rdquo;).</aside></section>')
+
+A('<section class="slide idea room"><div class="eyebrow quiet">Idea 6 of 7</div>'
+  '<h2>Commitment to the Word of God, <span style="color:var(--gold)">not <i>interpretations</i> of the Word of God.</span></h2>'
+  '<aside class=notes>Luther at Worms: &ldquo;Unless I am convinced by the testimony of the Scriptures or by clear reason.&rdquo; Captive to the Word itself: not the pope&rsquo;s reading, not a council&rsquo;s, not even his own. That is what keeps conscience from becoming &ldquo;I can do what I want.&rdquo;</aside></section>')
+
+A('<section class="slide idea room"><div class="eyebrow quiet">Idea 7 of 7</div>'
   '<h2>No one may judge <span style="color:var(--gold)">for his brother.</span></h2>'
   '<aside class=notes>Luther claimed conscience for himself; Campbell claimed it for his brother. The Preamble (&ldquo;no man can judge for his brother&rdquo;), the Appendix (&ldquo;We dare not&hellip; patronize the rejection of God&rsquo;s dear children&rdquo;), Proposition 9, and the chain of rejections.</aside></section>')
 
 A('<section class="slide room"><div class=eyebrow>&#9670; for discussion</div>'
   '<h2>What is beautiful here? What do we carry forward?</h2>'
   '<aside class=notes>Backup prompts (off the slide): Who have we treated the way Luther treated Zwingli, over a reading of Scripture? What instrument do we reach for when we want unity: a statement, a rule, a vote?<br>If the room is slow: &ldquo;Have you ever been the brother someone else judged for?&rdquo;</aside></section>')
+
+A(open(_HERE + '/../week2/w1_siteslide.html').read().replace('<br>&rarr; Then, if the room wants more, the addendum is next.', ''))
 
 # ---------- WHY CAMPBELL COULD GO FURTHER: THE SWORD, AND THIS COUNTRY ----------
 A('<section class="slide"><h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none">What can<br>unite<br>Christians?</h2>'
