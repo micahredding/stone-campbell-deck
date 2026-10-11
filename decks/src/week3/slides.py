@@ -217,6 +217,8 @@ A('<section class="slide rejslide"><div class=eyebrow>Washington, Pennsylvania &
   '<h2 style="color:var(--gold);font-size:clamp(44px,9vmin,116px)">How dare you put asunder?</h2>'
   '<aside class=notes>Then Campbell, turning Proposition 9 on all of them: &ldquo;Whom God hath thus joined together no man should dare to put asunder.&rdquo; Not one of the four was rejected for denying Christ. Each was rejected by a brother. Pause before moving on.</aside></section>')
 
+A('<section class="slide"><aside class=notes>Black.</aside></section>')
+
 A('<section class="slide"><h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none">How do<br>Christians achieve<br>unity?</h2>'
   '<aside class=notes>The question the whole hour has been circling. Let it hang.</aside></section>')
 
@@ -256,6 +258,8 @@ A('<section class="slide room"><div class=eyebrow>&#9670; for discussion</div>'
   '<aside class=notes>Backup prompts (off the slide): Who have we treated the way Luther treated Zwingli, over a reading of Scripture? What instrument do we reach for when we want unity: a statement, a rule, a vote?<br>If the room is slow: &ldquo;Have you ever been the brother someone else judged for?&rdquo;</aside></section>')
 
 A(open(_HERE + '/../week2/w1_siteslide.html').read().replace('<br>&rarr; Then, if the room wants more, the addendum is next.', ''))
+
+A('<section class="slide"><aside class=notes>Black.</aside></section>')
 
 # ---------- WHY CAMPBELL COULD GO FURTHER: THE SWORD, AND THIS COUNTRY ----------
 A('<section class="slide"><h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none">What can<br>unite<br>Christians?</h2>'
