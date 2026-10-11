@@ -253,6 +253,18 @@ A('<section class="slide idea room"><div class="eyebrow quiet">Idea 7 of 7</div>
   '<h2>No one may judge <span style="color:var(--gold)">for his brother.</span></h2>'
   '<aside class=notes>Luther claimed conscience for himself; Campbell claimed it for his brother. The Preamble (&ldquo;no man can judge for his brother&rdquo;), the Appendix (&ldquo;We dare not&hellip; patronize the rejection of God&rsquo;s dear children&rdquo;), Proposition 9, and the chain of rejections.</aside></section>')
 
+A('<section class="slide room"><div class=eyebrow>Ideas</div>'
+  '<div class=litany style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">'
+  '<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">1.</span>Unity is the design of religion.</div>'
+  '<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">2.</span>Division is a horrid evil.</div>'
+  '<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">3.</span>Every instrument failed.</div>'
+  '<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">4.</span>Conscience cannot be compelled.</div>'
+  '<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">5.</span>Conscience is an exercise of the priesthood of all believers.</div>'
+  '<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">6.</span>Commitment to the Word of God, not <i>interpretations</i> of the Word of God.</div>'
+  '<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">7.</span>No one may judge for his brother.</div>'
+  '</div>'
+  '<aside class=notes>All seven at once, for the room to see together before the discussion.</aside></section>')
+
 A('<section class="slide room"><div class=eyebrow>&#9670; for discussion</div>'
   '<h2>What is beautiful here? What do we carry forward?</h2>'
   '<aside class=notes>Backup prompts (off the slide): Who have we treated the way Luther treated Zwingli, over a reading of Scripture? What instrument do we reach for when we want unity: a statement, a rule, a vote?<br>If the room is slow: &ldquo;Have you ever been the brother someone else judged for?&rdquo;</aside></section>')
