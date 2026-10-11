@@ -211,8 +211,7 @@ A('<section class="slide rejslide"><div class=eyebrow>Washington, Pennsylvania &
 A('<section class="slide"><h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none">How do<br>Christians achieve<br>unity?</h2>'
   '<aside class=notes>The question the whole hour has been circling. Let it hang.</aside></section>')
 
-A('<section class="slide breath"><div class=eyebrow>Next week</div>'
-  '<h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none">The answer.</h2>'
+A('<section class="slide breath"><h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none;color:var(--gold)">Next week</h2>'
   '<aside class=notes>Campbell&rsquo;s answer is next week. Then the ideas from tonight.</aside></section>')
 
 A('<section class="slide idea room"><div class="eyebrow quiet">Idea 1 of 7</div>'
