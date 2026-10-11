@@ -6,6 +6,7 @@
 - Keep presenter notes accurate when slides move; keep them tight.
 - Make text as large as the slide allows; match earlier weeks' formats (ideas, discussion, quiz, site slide).
 - Opening quizzes come from `quizzes.md`, not from the slide material.
+- Prioritize keeping Campbell quotations on screen; when simplifying, cut commentary and non-Campbell slides first, never move a Campbell quote to the notes without asking.
 
 ## Build-ins
 

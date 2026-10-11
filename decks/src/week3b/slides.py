@@ -211,9 +211,6 @@ A('<section class="slide breath"><div class=eyebrow>Last week</div>'
   '<h2 style="max-width:none">Conscience is an exercise of<br><span style="color:var(--gold)">the priesthood of all believers.</span></h2>'
   '<aside class=notes>Last week&rsquo;s fifth idea, the starting point tonight. In conscience each believer stands before God with no one in between, which is what a priest does. Luther, 1520: &ldquo;we are all consecrated priests through baptism.&rdquo; The Catechism, &sect;1546: &ldquo;The whole community of believers is, as such, priestly.&rdquo;</aside></section>')
 
-A(Q('&ldquo;But ye are a chosen generation, <b>a royal priesthood</b>, an holy nation, a peculiar people&hellip;&rdquo;', '1 Peter 2:9', 'Every believer') +
-  N('Said to the whole church, not to its clergy.'))
-
 A(Q('&ldquo;&hellip;every man must be allowed to judge for himself, as every man must bear his own judgment&mdash;<b>must give account of himself to God</b>.&rdquo;', DA, 'So conscience answers to Christ') +
   N('The Address, right after &ldquo;no man can judge for his brother,&rdquo; echoing Romans 14:12: &ldquo;every one of us shall give account of himself to God.&rdquo; Romans 14:4 is the same chapter: &ldquo;Who art thou that judgest another man&rsquo;s servant? to his own master he standeth or falleth.&rdquo;',
     '&rarr; If conscience is where I answer to Christ, then conscience is about Christ.'))
@@ -226,12 +223,9 @@ A('<section class="slide breath"><div class="litany bigl" style="align-items:cen
   '</div>'
   '<aside class=notes>Four clicks. Whom does your conscience answer to?</aside></section>')
 
-A('<section class="slide breath"><h2 style="max-width:none">So Christ makes us <span style="color:var(--gold)">different.</span></h2>'
+A('<section class="slide breath"><h2 style="max-width:none">Christ makes us <span style="color:var(--gold)">different.</span></h2>'
   '<div class="sub" style="max-width:none">Each of us answers to him, and each of us hears him imperfectly.</div>'
   '<aside class=notes>The careful version: our differences come from each of us answering to Christ for ourselves, through finite understanding. Not every difference is Christ&rsquo;s doing; some are our errors. But the variety is what you get when Christ, not a council, is the one we answer to.</aside></section>')
-
-A('<section class="slide breath"><h2 style="max-width:none">Different is not <span style="color:var(--gold)">divided.</span></h2>'
-  '<aside class=notes>Division is something else: it is what we do when we will not bear the difference. Last week: &ldquo;a horrid evil.&rdquo;</aside></section>')
 
 A(Q('&ldquo;&hellip;nor, indeed, is there anything either in Scripture or the nature of things that should induce us to expect <b>an entire unity of sentiment in the present imperfect state</b>.&rdquo;', DA, 'Campbell expected it') +
   N('From the Address. He does not expect us to agree on everything in this life.'))
@@ -254,9 +248,6 @@ A(pickL('Christ and his simple word</b>'))
 A('<section class="slide breath"><h2 style="max-width:none">Christ <span style="color:var(--gold)">already</span> unites us.</h2>'
   '<aside class=notes>Christ alone is the basis of unity because in Christ the church is already one. In the church, the unity is already there. We do not build it; we see it, or we fail to.</aside></section>')
 
-A('<section class="slide breath"><h2 style="max-width:none">Do we <span style="color:var(--gold)">recognize</span> it?</h2>'
-  '<aside class=notes>Ask it and let it hang. Then Proposition 1.</aside></section>')
-
 A(pickL('>Proposition 1<'))
 
 A(Q('&ldquo;For by one Spirit are we all baptized into one body, whether we be Jews or Gentiles, whether we be bond or free; and have been all made to drink into one Spirit.&rdquo;', '1 Corinthians 12:13', 'Already') +
@@ -264,6 +255,9 @@ A(Q('&ldquo;For by one Spirit are we all baptized into one body, whether we be J
 
 A(Q('&ldquo;&hellip;leaning upon their Beloved, and embracing each other in him, <b>holding fast the unity of the spirit</b> in the bond of peace.&rdquo;', DA, 'Holding fast') +
   N('The Address. &ldquo;Holding fast&rdquo; the unity, not making it. Ephesians 4:3 says the same: &ldquo;keep the unity of the Spirit.&rdquo; You can only keep what you already have.'))
+
+A('<section class="slide breath"><h2 style="max-width:none">Do we <span style="color:var(--gold)">recognize</span> it?</h2>'
+  '<aside class=notes>Ask it and let it hang. The church is already one; do we see it? Claim three answers: recognizing it is our visible unity.</aside></section>')
 
 # 3. Christ is the basis of our visible unity.
 A('<section class="slide breath"><h2 style="max-width:none">Christ is the basis of our <span style="color:var(--gold)">visible</span> unity.</h2>'
@@ -285,6 +279,9 @@ A(pickL('>Proposition 8<'))
 A(pickL('>Proposition 9<'))
 
 # 4. Christ is the basis of unanimity.
+A('<section class="slide breath"><h2 style="max-width:none">Christ is the basis of <span style="color:var(--gold)">unanimity.</span></h2>'
+  '<aside class=notes>Claim four. We are different now; Christ leads us toward one mind over time. The question is how.</aside></section>')
+
 A(Q('&ldquo;In so far, then, as this <b>holy unity and unanimity in faith and love</b> is attained, just in the same degree is the glory of God and the happiness of men promoted and secured.&rdquo;', DA, 'Unanimity matters') +
   N('Do not let anyone hear tonight as &ldquo;doctrine does not matter.&rdquo; Campbell wants agreement: unanimity is good, and the more the better. The question is only how it is reached.'))
 
@@ -302,7 +299,10 @@ A('<section class="slide"><div class=eyebrow>How Christ leads us into truth</div
   '&rarr; So unanimity is reached the way Christ allows: brothers reasoning together, the Spirit working on hearts, Scripture read and shared and argued over. Never by decree.</aside></section>')
 
 # 5. Christ and his word, not our interpretations.
-A(Q('&ldquo;With you all we desire to unite in the bonds of an entire Christian unity&mdash;<b>Christ alone being the head, the center, his word the rule</b>&hellip;&rdquo;', DA, 'Christ and his word') +
+A('<section class="slide breath"><h2 style="max-width:none">Christ and his word,<br><span style="color:var(--gold)">not our <i>interpretations</i> of his word.</span></h2>'
+  '<aside class=notes>Claim five. Last week&rsquo;s sixth idea, now as the ground of unity.</aside></section>')
+
+A(Q('&ldquo;With you all we desire to unite in the bonds of an entire Christian unity&mdash;<b>Christ alone being the head, the center, his word the rule</b>&hellip;&rdquo;', DA, 'The Address') +
   N('The Address. When Campbell says &ldquo;Christ and his word,&rdquo; listen for what he does not say.'))
 
 A('<section class="slide breath"><div class="litany bigl" style="align-items:center">'
@@ -311,7 +311,7 @@ A('<section class="slide breath"><div class="litany bigl" style="align-items:cen
   '<div class="no frag" style="color:var(--gold)">Christ, and Scripture itself.</div>'
   '</div>'
   '<aside class=notes>Three clicks. Last week&rsquo;s sixth idea, now as the ground of unity. We can gather around Christ and Scripture without making our readings of Scripture the test of fellowship.<br>'
-  'The objection: no one reads Scripture without interpreting it. True, and Campbell knows it. His line is not between reading and not reading; it is between what I hold and what I require of you. Proposition 6, next.</aside></section>')
+  'The objection: no one reads Scripture without interpreting it. True, and Campbell knows it. His line is not between reading and not reading; it is between what I hold and what I require of you. Next, in his words.</aside></section>')
 
 A(Q('&ldquo;We would then no longer <b>exalt our own opinions and inferences to an equality with express revelation</b>, by condemning and rejecting our brother for differing with us in those things.&rdquo;', DA, 'Hold it. Do not require it.') +
   N('From the Address. The fault is not having opinions and inferences; it is raising them to the level of Scripture and then rejecting a brother over them.',
@@ -332,6 +332,9 @@ A('<section class="slide breath"><h2 style="max-width:none">And yes, this is <sp
 
 A(Q('&ldquo;Ought they not, therefore, to bear with each other&mdash;&lsquo;to preserve the unity of the Spirit in the bond of peace; <b>forbearing one with another in love</b>?&rsquo;&rdquo;', DA, 'Forbearance') +
   N('From the Address, quoting Ephesians 4:2&ndash;3. The word he keeps returning to. Forbearance is not indifference: you only bear with what you actually disagree with.'))
+
+A('<section class="slide breath"><h2 style="max-width:none">Different is not <span style="color:var(--gold)">divided.</span></h2>'
+  '<aside class=notes>The conclusion of the argument. Forbearance is how different stays undivided. Division is something else: it is what we do when we will not bear the difference. Last week: &ldquo;a horrid evil.&rdquo;</aside></section>')
 
 # Today: love, indifference, or new lines?
 A('<section class="slide"><div class=eyebrow>Today</div>'
