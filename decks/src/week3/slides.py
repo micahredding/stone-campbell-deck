@@ -130,6 +130,9 @@ A('<section class="slide breath"><h2 style="max-width:none">Conscience is not &l
   '<div class="sub frag punch">It is &ldquo;I must.&rdquo;</div>'
   '<aside class=notes>One click. His word is <i>captive</i>: bound, not free. Conscience here is not a preference but an obligation before God. &ldquo;Neither safe nor right to go against conscience&rdquo;: not safe, because he must answer to God for it.</aside></section>')
 
+A('<section class="slide breath"><h2 style="max-width:none;line-height:1.15;font-size:clamp(48px,9.5vmin,120px)">Word of God<br><span style="color:var(--gold);font-size:1.6em;line-height:1">&ne;</span><br><i>interpretations</i> of the Word of God</h2>'
+  '<aside class=notes>What Luther is captive to. Not the pope&rsquo;s reading, not a council&rsquo;s, not even his own: &ldquo;Unless I am convinced by the testimony of the Scriptures or by clear reason.&rdquo; He can be corrected by the Word, so his reading is not the Word. That is what keeps conscience from becoming &ldquo;I can do what I want&rdquo;: it answers to something outside itself.</aside></section>')
+
 A('<section class="slide breath"><div class=eyebrow>Luther did not invent this</div>'
   '<h2 style="max-width:none">Conscience binds.</h2>'
   '<div class=litany style="margin-top:2.4vmin">'
