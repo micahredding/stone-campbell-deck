@@ -2,7 +2,7 @@
 
 [← All chapters](.)
 
-**Slides:** [Chapter 3 deck: The Declaration and Address](decks/week3-declaration-address.html) (Oct 11; taught through slide 62, "How do Christians achieve unity? / Next week") · [Part two: the answer](decks/week3b-declaration-address-part-two.html) (Oct 18)
+**Slides:** [Chapter 3 deck: The Declaration and Address](decks/week3-declaration-address.html) (Oct 11; [as taught](decks/week3-declaration-address-as-taught-2026-10-11.html), through slide 62) · [Part two: the answer](decks/week3b-declaration-address-part-two.html) (Oct 18)
 
 **The Story:** A few decades after the American Declaration of Independence, Thomas Campbell pens a declaration of Christian unity. The body of Christ is already one, and ought not be divided by the arrogance of human opinions. 
 
