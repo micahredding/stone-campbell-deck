@@ -164,7 +164,10 @@ A('<section class="slide"><div class=eyebrow>Worms, 1521 &middot; Washington, Pe
   '<div class="no frag">&ldquo;<b>unless I am convinced</b> by the testimony of the Scriptures or by clear reason&rdquo;</div><div class="no frag">&ldquo;not formally binding&hellip; <b>farther than they perceive the connection</b>&rdquo;</div>'
   '<div class="no frag">&ldquo;neither safe nor right <b>to go against conscience</b>&rdquo;</div><div class="no frag">&ldquo;<b>no man can judge for his brother</b>&rdquo;</div>'
   '</div>'
-  '<aside class=notes>Eight clicks, left then right on each row. Every line on the right is already on the left. The right column: the Preamble; the Address on a General Council; proposition 6; the Preamble again. Only the last row moves: Luther says <i>I</i> may not go against my conscience; Campbell says <i>no one</i> may go against his brother&rsquo;s.<br>That last row is exactly where Luther stopped. The next slide shows where.</aside></section>')
+  '<aside class=notes>Eight clicks, left then right on each row. Every line on the right is already on the left. The right column: the Preamble; the Address on a General Council; proposition 6; the Preamble again. Only the last row moves: Luther says <i>I</i> may not go against my conscience; Campbell says <i>no one</i> may go against his brother&rsquo;s.<br>That last row is exactly where Luther stopped. Marburg, after the next slide, shows where.</aside></section>')
+
+A('<section class="slide breath"><h2 style="font-size:clamp(56px,12vmin,150px);line-height:1.05;max-width:none">How far can<br>Luther take this?</h2>'
+  '<aside class=notes>He has claimed conscience for himself, before the emperor. Ask it plainly: will he grant it to the next man? Then Marburg.</aside></section>')
 
 A('<section class="slide bleed"><div class=bg><div class="bgimg marburgbg"></div></div>'
   '<div class=credit>August Noack, <i>Religionsgespr&auml;ch zu Marburg 1529</i> (detail), 1867&ndash;69 &middot; public domain</div>'
