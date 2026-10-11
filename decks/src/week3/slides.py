@@ -206,6 +206,34 @@ A('<section class="slide rejslide"><div class=eyebrow>Washington, Pennsylvania &
   '<h2 style="color:var(--gold);font-size:clamp(44px,9vmin,116px)">How dare you put asunder?</h2>'
   '<aside class=notes>Then Campbell, turning Proposition 9 on all of them: &ldquo;Whom God hath thus joined together no man should dare to put asunder.&rdquo; Not one of the four was rejected for denying Christ. Each was rejected by a brother. Pause before moving on.</aside></section>')
 
+A('<section class="slide breath ideaslide"><div class=eyebrow>So far</div>'
+  '<h2 style="max-width:none">Unity is given, not built.</h2>'
+  '<div class=sub style="max-width:none">Union with him first; union with each other in him next.</div>'
+  '<aside class=notes>Five idea slides, no clicks. One sentence each; let them stand. From the Design of Religion: &ldquo;the first and foundation truth of our Christianity is union with him, and the very next to it in order, union with each other in him.&rdquo;</aside></section>')
+
+A('<section class="slide breath ideaslide"><div class=eyebrow>So far</div>'
+  '<h2 style="max-width:none">Division is a horrid evil.</h2>'
+  '<div class=sub style="max-width:none">Not a difference of opinion. A wound in the body of Christ.</div>'
+  '<aside class=notes>Proposition 10: &ldquo;anti-christian, as it destroys the visible unity of the body of Christ&rdquo;; &ldquo;anti-scriptural&rdquo;; &ldquo;anti-natural.&rdquo; And the Evils of Division litany.</aside></section>')
+
+A('<section class="slide breath ideaslide"><div class=eyebrow>So far</div>'
+  '<h2 style="max-width:none">Every instrument failed.</h2>'
+  '<div class=sub style="max-width:none">Creeds, councils, edicts, swords: each was offered for unity, and each left another division.</div>'
+  '<aside class=notes>The egg, 325 to 1806.</aside></section>')
+
+A('<section class="slide breath ideaslide"><div class=eyebrow>So far</div>'
+  '<h2 style="max-width:none">Conscience cannot be compelled.</h2>'
+  '<div class=sub style="max-width:none">It binds because there you answer to God, as his priest.</div>'
+  '<aside class=notes>Worms; Aquinas; Vatican II and the Catechism (&ldquo;alone with God&rdquo;); Newman; Luther in 1520 on the baptized as priests.</aside></section>')
+
+A('<section class="slide breath ideaslide"><div class=eyebrow>So far</div>'
+  '<h2 style="max-width:none">No one may judge for his brother.</h2>'
+  '<div class=sub style="max-width:none">Luther claimed conscience for himself. Campbell claimed it for his brother.</div>'
+  '<aside class=notes>The Preamble (&ldquo;no man can judge for his brother&rdquo;), the Appendix (&ldquo;We dare not&hellip; patronize the rejection of God&rsquo;s dear children&rdquo;), Proposition 9, and the chain of rejections.</aside></section>')
+
+A('<section class="slide"><p class=bigquote style="font-size:clamp(36px,7.4vmin,92px)"><span class=q>What is beautiful here?<br>What do we carry forward?</span></p>'
+  '<aside class=notes>The class question. Open the room.</aside></section>')
+
 # ---------- WHY CAMPBELL COULD GO FURTHER: THE SWORD, AND THIS COUNTRY ----------
 A('<section class="slide"><h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none">What can<br>unite<br>Christians?</h2>'
   '<div class="sub frag">&ldquo;That they all may be one&hellip; that the world may believe that thou hast sent me.&rdquo;<br><span style="font-size:.7em;color:var(--bone-dim)">John 17:21</span></div>'
