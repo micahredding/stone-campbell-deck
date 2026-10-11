@@ -4,14 +4,14 @@
 
 **Slides:** [Chapter 3, part two: the answer](decks/week3b-declaration-address-part-two.html) (Oct 18)
 
-**The Story:** Last week ended on a question: how do Christians achieve unity? Conscience is where each believer answers to Christ, so Christ himself makes us different; no creed, council, or sword can remove differences that come from him. There can only be one answer: Christ alone. Christ already unites the church; our recognition of that is our visible unity; and unanimity comes the way Christ allows, by the Spirit, Scripture, and reason, never by decree. Then the test: our own table, and the Churches of Christ. As the proof-sheets come off the press, his son asks where the rule will lead.
+**The Story:** Last week ended on a question: how do Christians achieve unity? Conscience is where each believer answers to Christ, so Christ himself makes us different; no creed, council, or sword can remove differences that come from him. There can only be one answer: Christ alone. Christ already unites the church; our recognition of that is our visible unity; and unanimity comes the way Christ allows, by the Spirit, Scripture, and reason, never by decree. Then the test: the churches today, the Churches of Christ, and our own table.
 
 **The Idea**: Christ diversifies us, and only Christ can unite us. We gather around Christ and Scripture itself, without making our interpretations of Scripture the test of fellowship. And yes, it is difficult: that is how Christian community works.
 
 **Connections:**
 - Picks up exactly where [Chapter 3](week3) stopped: "How do Christians achieve unity?"
 - Proposition 1 is the sentence Chapter 2 ended on: the church of Christ upon earth is "essentially, intentionally, and constitutionally one."
-- Alexander Campbell enters the story here, reading the proof-sheets in wet ink — the handoff to Brush Run (Chapter 5).
+- Alexander Campbell reading the proof-sheets in wet ink (in the addendum) is the handoff to Brush Run (Chapter 5).
 
 ---
 
