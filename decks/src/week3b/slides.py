@@ -170,9 +170,15 @@ A = S.append
 A(pick('Our Wild<br>Democracy'))
 
 A('<section class="slide"><div class=eyebrow>Quiz</div>'
-  '<h2 style="max-width:none">Luther claimed conscience for himself&hellip;</h2>'
-  '<h2 class=frag style="max-width:none;color:var(--gold);margin-top:.6vmin">&hellip;Campbell claimed it for his brother.</h2>'
-  '<aside class=notes>One click. Let the room finish it. Last week&rsquo;s turn in one line.</aside></section>')
+  '<h2 style="max-width:none">We speak&hellip;</h2>'
+  '<h2 class=frag style="max-width:none;color:var(--gold);margin-top:.6vmin">&hellip;where the Bible speaks,</h2>'
+  '<h2 style="max-width:none;margin-top:3vmin">and we are silent&hellip;</h2>'
+  '<h2 class=frag style="max-width:none;color:var(--gold);margin-top:.6vmin">&hellip;where the Bible is silent.</h2>'
+  '<h2 style="max-width:none;margin-top:5vmin">No creed&hellip;</h2>'
+  '<h2 class=frag style="max-width:none;color:var(--gold);margin-top:.6vmin">&hellip;but Christ.</h2>'
+  '<aside class=notes>Three clicks. Let the room finish each one.<br>'
+  '&bull; The first is Thomas Campbell&rsquo;s own, from the meeting in 1809 that led to the Declaration and Address: &ldquo;Where the Scriptures speak, we speak; and where the Scriptures are silent, we are silent&rdquo; (Richardson, <i>Memoirs</i> 1:236).<br>'
+  '&bull; The second also comes as &ldquo;No creed but the Bible.&rdquo; Accept either. Tonight is about the first form: Christ alone.</aside></section>')
 
 CAP = 'font-family:Spectral,Georgia,serif;font-variant:normal;text-transform:none;letter-spacing:0;font-size:clamp(16px,2.6vmin,31px);line-height:1.3;margin-top:1.2vmin;color:var(--bone)'
 IMG = 'width:100%;height:30vh;object-fit:cover;border-radius:.4vmin'
@@ -317,7 +323,7 @@ A('<section class="slide"><div class=eyebrow>Today</div>'
   '<div class="no frag" style="color:var(--gold)">Or have we just started dividing over different things?</div>'
   '</div>'
   '<aside class=notes>Three clicks; take answers after each.<br>'
-  '&bull; More unity: in 1809 a Seceder minister was censured for giving the Supper to other Presbyterians. Since then: the World Council of Churches (1948); Vatican II&rsquo;s decree on ecumenism (1964), which accepts baptized Protestants as brothers; Lutheran&ndash;Catholic <i>Joint Declaration on Justification</i> (1999); full communion among Lutherans, Presbyterians, Reformed and UCC (1997). Most churches now welcome any baptized believer to the table.<br>'
+  '&bull; More unity: in 1807 Thomas Campbell himself was charged by his presbytery for giving the Supper to Presbyterians outside the Seceders; suspended in February 1808, then rebuked and admonished by the synod that May. Since then: the World Council of Churches (1948); Vatican II&rsquo;s decree on ecumenism (1964), which accepts baptized Protestants as brothers; Lutheran&ndash;Catholic <i>Joint Declaration on Justification</i> (1999); full communion among Lutherans, Presbyterians, Reformed and UCC (1997). Most churches now welcome any baptized believer to the table.<br>'
   '&bull; Stopped caring: denominational loyalty has collapsed; people switch churches over music or childcare. Christian Smith&rsquo;s &ldquo;moralistic therapeutic deism&rdquo; (<i>Soul Searching</i>, 2005): if nothing much is believed, there is nothing to divide over.<br>'
   '&bull; New lines: the old lines were doctrine and polity; the new ones run through sexuality and politics. The United Methodist Church lost about a quarter of its U.S. congregations, 2019&ndash;2023; the Anglican Church in North America formed in 2009. Many congregations now sort by party more than by creed.<br>'
   '&rarr; Campbell would not accept the second answer: forbearance only means something if you care.</aside></section>')
