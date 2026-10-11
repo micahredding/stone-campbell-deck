@@ -4,9 +4,9 @@
 
 **Slides:** [Chapter 3, part two: the answer](decks/week3b-declaration-address-part-two.html) (Oct 18)
 
-**The Story:** Last week ended on a question: if every creed, council, and sword in fifteen centuries failed to unite the church, how do Christians achieve unity? Thomas Campbell's answer: Christ alone, "as exhibited in the word." Then thirteen propositions to make it practical — and, as the proof-sheets come off the press, his son asks where the rule will lead.
+**The Story:** Last week ended on a question: how do Christians achieve unity? Conscience is where each believer answers to Christ, so Christ himself makes us different; no creed, council, or sword can remove differences that come from him. There can only be one answer: Christ alone. Christ already unites the church; our recognition of that is our visible unity; and unanimity comes the way Christ allows, by the Spirit, Scripture, and reason, never by decree. Then the test: our own table, and the Churches of Christ. As the proof-sheets come off the press, his son asks where the rule will lead.
 
-**The Idea**: Only Christ can make the church one. Nothing else — a creed, a council, a magistrate, our own customs — can be made a term of communion without dividing us. The Churches of Christ have lived the proof.
+**The Idea**: Christ diversifies us, and only Christ can unite us. We gather around Christ and Scripture itself, without making our interpretations of Scripture the test of fellowship. And yes, it is difficult: that is how Christian community works.
 
 **Connections:**
 - Picks up exactly where [Chapter 3](week3) stopped: "How do Christians achieve unity?"
@@ -17,12 +17,11 @@
 
 ## Ideas
 
-1. **Only Christ can make us one.** We cannot "reasonably expect to find it anywhere but in Christ and his simple word." Every instrument on the egg was asked to do a job only Christ can do.
-2. **There is nothing wrong with a creed. But a creed cannot make us one.** Proposition 7: although doctrinal exhibitions "be highly expedient," they are not to be made terms of communion.
-3. **The church is already one.** "Essentially, intentionally, and constitutionally one"; unity is given, not constructed, and the sects are the innovation.
-4. **Make anything else a term of communion, and it will divide us.** Nothing binding "farther than they perceive the connection." The Churches of Christ have lived the proof.
-5. **It refused to be a creed — and its heirs made it one.** "By no means a Church"; "not as a new creed." Honoring it means keeping it a plea, not a pattern.
-6. **The rule that opens the table can also cut.** "If you follow these out, you must become a Baptist." The father's answer — "Whatever is not found therein we must of course abandon" — committed the next generation before anyone knew where it led.
+1. **Christ diversifies us; only Christ can unite us.** Each of us "must give account of himself to God," so we will differ; Campbell expected no "entire unity of sentiment in the present imperfect state." Only Christ can unite us: "Christ and his simple word."
+2. **Christ already unites us.** Proposition 1: the church is "essentially, intentionally, and constitutionally one." We hold it fast ("holding fast the unity of the spirit in the bond of peace"), or we fail to see it.
+3. **Christ is the basis of our visible unity.** Our recognition of each other is our visible unity, and what we recognize is Christ's work: "the best external evidence of their union with him." Proposition 9: "Whom God hath thus joined together no man should dare to put asunder."
+4. **Christ is the basis of unanimity.** "Holy unity and unanimity in faith and love" is good, but it comes by the Spirit, Scripture, and reason, never by decree: "It is not the voice of the multitude, but the voice of truth, that has power with the conscience."
+5. **Christ and his word, not our *interpretations* of his word.** "Christ alone being the head, the center, his word the rule." Hold your reading; do not require it: "We would then no longer exalt our own opinions and inferences to an equality with express revelation, by condemning and rejecting our brother for differing with us in those things."
 
 ---
 

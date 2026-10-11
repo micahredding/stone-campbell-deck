@@ -62,6 +62,7 @@ css += ('  /* ---- larger type, 2026-10-11 ---- */\n'
         '  #deck .rejslide figcaption{font-size:clamp(13px,2vmin,24px)}\n'
         '  #deck .slide .litany.tbl .no{font-size:clamp(22px,4.3vmin,54px)}\n'
         '  #deck .slide.wormsfull .bigquote{font-size:clamp(32px,7vmin,86px);max-width:46ch}\n'
+        '  #deck .slide .litany.bigl .no{font-size:clamp(30px,6.4vmin,80px);line-height:1.25}\n'
         '  #deck .slide .litany.ideasum .no{font-size:clamp(30px,6.2vmin,78px);line-height:1.2;position:relative;padding-left:1.6em}#deck .slide .litany.ideasum .no>span:first-child{position:absolute;left:0;top:0}\n'
         '  #deck .recapshots{flex-wrap:nowrap}#deck .recapshots .shot{width:min(34vmin,17vw)}#deck .recapshots .shot img{height:26vh!important}\n')
 css += '  #deck .litany .lcite{display:block;font-family:"IM Fell English SC",Georgia,serif;font-style:normal;font-size:.55em;letter-spacing:.1em;color:var(--smoke);margin-top:.3vmin}\n'

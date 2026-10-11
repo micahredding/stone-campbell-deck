@@ -60,7 +60,7 @@ A('<section class="slide breath sect"><div class=eyebrow>The Address</div><h2>Th
   '<aside class=notes>Offered, the Address says just before them, not &ldquo;as an overture toward a new creed or standard for the Church, or as in any wise designed to be made a term of communion.&rdquo; Remember Chalcedon said the same. Read 1, 3, 6, 8, 9; the gold clause is the one to say twice.</aside></section>')
 
 A(Q('&ldquo;That the Church of Christ upon earth is <b>essentially, intentionally, and constitutionally one</b>; consisting of all those in every place that profess their faith in Christ and obedience to him in all things according to the Scriptures, and that manifest the same by their tempers and conduct, and of none else&hellip;&rdquo;', DA, 'Proposition 1') +
-  N('The class has heard the opening clause twice; now the whole sentence. Stand two: do you believe unity is given rather than built? If so, the sects are the innovation.'))
+  N('The class has heard the opening clause twice; now the whole sentence. Ask: do you believe unity is given rather than built? If so, the sects are the innovation.'))
 
 A(Q('&ldquo;That in order to do this, <b>nothing ought to be inculcated upon Christians as articles of faith; nor required of them as terms of communion, but what is expressly taught and enjoined upon them in the word of God</b>&hellip;&rdquo;', DA, 'Proposition 3') +
   N('The method. &ldquo;Expressly.&rdquo; This is the whole wager: strip terms of communion to what Scripture expressly says, and Christians will find they already agree on enough to live together.'))
@@ -72,7 +72,7 @@ A(Q('&ldquo;That as it is not necessary that persons should have a particular kn
   N('The one that answers Chalcedon directly: no term that excludes those who cannot understand it. The rest of the sentence: &ldquo;a profession of their faith in and obedience to him, in all things, according to his word, is all that is absolutely necessary to qualify them for admission into his Church.&rdquo;'))
 
 A(Q('&ldquo;That all that are enabled through grace to make such a profession&hellip; should consider each other as the precious saints of God, should <b>love each other as brethren</b>, children of the same family and Father, temples of the same Spirit, members of the same body&hellip; Whom God hath thus joined together no man should dare to put asunder.&rdquo;', DA, 'Proposition 9') +
-  N('The marriage line. Stand four: who are we not treating as brethren, and on what term?'))
+  N('The marriage line: recognition is not optional. Ask: who are we not treating as brethren, and on what term?'))
 
 # ---------- 7 OUR TABLE ----------
 A('<section class="slide room"><div class=eyebrow>Our table</div>'
@@ -199,12 +199,117 @@ A(pick('class="litany ideasum"').replace('<div class=eyebrow>Ideas</div>', '<div
   .replace('All seven at once, for the room to see together before the discussion.',
            'Last week&rsquo;s seven ideas, all at once. Read them, or let the room read them; do not re-teach.'))
 
-A('<section class="slide"><h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none">How do<br>Christians achieve<br>unity?</h2>'
-  '<div class="sub frag" style="max-width:none">&ldquo;That they all may be one&hellip; that the world may believe that thou hast sent me.&rdquo;<br><span style="font-size:.7em;color:var(--bone-dim)">John 17:21</span></div>'
-  '<aside class=notes>The question we stopped on. Then the prayer: a prayer, not a command, and for the sake of the world&rsquo;s belief. Pause before the answer.</aside></section>')
 
-# ---------- THE ANSWER (part one's material from "Christ alone" through Campbell's answer) ----------
-S += spanL('>Christ alone</h2>', '<div class=eyebrow>The answer</div>')
+# ---------- THE ANSWER ----------
+# 1. Christ diversifies us; only Christ can unite us.
+A('<section class="slide breath"><div class=eyebrow>Last week</div>'
+  '<h2 style="max-width:none">Conscience is an exercise of<br><span style="color:var(--gold)">the priesthood of all believers.</span></h2>'
+  '<div class="sub frag" style="max-width:none">&ldquo;But ye are a chosen generation, a royal priesthood&hellip;&rdquo; &middot; 1 Peter 2:9</div>'
+  '<aside class=notes>One click. Last week&rsquo;s fifth idea, the starting point tonight. In conscience each believer stands before God with no one in between, which is what a priest does. Luther, 1520: &ldquo;we are all consecrated priests through baptism.&rdquo; The Catechism, &sect;1546: &ldquo;The whole community of believers is, as such, priestly.&rdquo;</aside></section>')
+
+A(Q('&ldquo;&hellip;every man must be allowed to judge for himself, as every man must bear his own judgment&mdash;<b>must give account of himself to God</b>.&rdquo;', DA, 'So conscience answers to Christ',
+    sub='<div class="sub frag punch">Not to the pope. Not to a council. Not to me.</div>') +
+  N('One click. The Address, right after &ldquo;no man can judge for his brother,&rdquo; echoing Romans 14:12: &ldquo;every one of us shall give account of himself to God.&rdquo; Romans 14:4 is the same chapter: &ldquo;Who art thou that judgest another man&rsquo;s servant? to his own master he standeth or falleth.&rdquo;',
+    '&rarr; If conscience is where I answer to Christ, then conscience is about Christ.'))
+
+A('<section class="slide breath"><h2 style="max-width:none">So Christ makes us <span style="color:var(--gold)">different.</span></h2>'
+  '<div class="sub frag" style="max-width:none">Each of us answers to him, and each of us hears him imperfectly.</div>'
+  '<div class="sub frag punch">Different is not divided.</div>'
+  '<aside class=notes>Two clicks. The careful version: our differences come from each of us answering to Christ for ourselves, through finite understanding. Not every difference is Christ&rsquo;s doing; some are our errors. But the variety is what you get when Christ, not a council, is the one we answer to. Division is something else: it is what we do when we will not bear the difference. Last week: &ldquo;a horrid evil.&rdquo;</aside></section>')
+
+A(Q('&ldquo;&hellip;nor, indeed, is there anything either in Scripture or the nature of things that should induce us to expect <b>an entire unity of sentiment in the present imperfect state</b>.&rdquo;', DA, 'Campbell expected it',
+    sub='<div class="sub frag" style="max-width:none">&ldquo;Nor can we conceive what desirable purpose such a unity of sentiment would serve, except to render useless some of those gracious, self-denying, and compassionate precepts of <b>mutual sympathy and forbearance</b> which the word of God enjoins upon his people.&rdquo;</div>') +
+  N('One click. From the Address. He does not expect us to agree on everything, and he does not think it would be good if we did: a church with no differences would have no use for forbearance. Difference is where love has work to do.'))
+
+A('<section class="slide"><h2 style="max-width:none">How can we have unity,</h2>'
+  '<h2 class=frag style="max-width:none;color:var(--gold);margin-top:.6vmin">if Christ, working through us,<br>makes us so different?</h2>'
+  '<aside class=notes>One click. The problem in its sharpest form. If the source of our differences is Christ himself, no instrument can remove them: not a creed, not a council, not a sword.</aside></section>')
+
+A('<section class="slide"><h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none">How can<br>Christians have<br>unity?</h2>'
+  '<div class="sub frag" style="max-width:none">&ldquo;That they all may be one&hellip; that the world may believe that thou hast sent me.&rdquo;<br><span style="font-size:.7em;color:var(--bone-dim)">John 17:21</span></div>'
+  '<aside class=notes>The question we stopped on, now with the problem behind it. Then the prayer: a prayer, not a command, and for the sake of the world&rsquo;s belief. Pause.</aside></section>')
+
+A('<section class="slide breath"><h2 style="max-width:none">There can only be one answer.</h2>'
+  '<aside class=notes>Let it sit. Then the next slide.</aside></section>')
+
+S += spanL('>Christ alone</h2>', '>Proposition 7<')
+
+# 2. Christ already unites us in the church.
+A('<section class="slide breath"><h2 style="max-width:none">Christ <span style="color:var(--gold)">already</span> unites us.</h2>'
+  '<div class="sub frag" style="max-width:none">In the church, the unity is already there.</div>'
+  '<div class="sub frag punch">Do we recognize it?</div>'
+  '<aside class=notes>Two clicks. Christ alone is the basis of unity because in Christ the church is already one. We do not build it; we see it, or we fail to. Ask the question and let it hang.</aside></section>')
+
+A(pickL('>Proposition 1<'))
+
+A(Q('&ldquo;For by one Spirit are we all baptized into one body, whether we be Jews or Gentiles, whether we be bond or free; and have been all made to drink into one Spirit.&rdquo;', '1 Corinthians 12:13', 'Already',
+    sub='<div class="sub frag" style="max-width:none">&ldquo;&hellip;embracing each other in him, <b>holding fast the unity of the spirit</b> in the bond of peace.&rdquo; &middot; <span style="font-size:.8em">Declaration and Address</span></div>') +
+  N('One click. Paul: &ldquo;are we all baptized,&rdquo; past tense; the one body is a fact before it is a task. Campbell, in the Address: &ldquo;holding fast&rdquo; the unity, not making it. Ephesians 4:3 says the same: &ldquo;keep the unity of the Spirit.&rdquo; You can only keep what you already have.'))
+
+# 3. Christ is the basis of our visible unity.
+A('<section class="slide breath"><h2 style="max-width:none">Christ is the basis of our <span style="color:var(--gold)">visible</span> unity.</h2>'
+  '<div class="litany bigl" style="margin-top:2.4vmin">'
+  '<div class="no frag">Christ has made us one.</div>'
+  '<div class="no frag">We recognize what Christ has done.</div>'
+  '<div class="no frag">That recognition is our visible unity.</div>'
+  '<div class="no frag" style="color:var(--gold)">So Christ must be its basis, too.</div>'
+  '</div>'
+  '<aside class=notes>Four clicks. The unity is invisible until we recognize it in each other: at the table, in the pulpit, in the name &ldquo;brother.&rdquo; What we recognize is Christ&rsquo;s work in someone else. So the visible unity rests on the same ground as the real one. Put anything else there, and we are recognizing something other than Christ.</aside></section>')
+
+A(Q('&ldquo;This gracious unity and unanimity in Jesus would afford <b>the best external evidence of their union with him</b>, and of their conjoint interest in the Father&rsquo;s love.&rdquo;', DA, 'What the world sees') +
+  N('From the Address, and John 17:21 again: &ldquo;that the world may believe.&rdquo; Visible unity is the evidence of an invisible union. What the world is meant to see is Christ.'))
+
+A(pickL('>Proposition 8<'))
+A(pickL('>Proposition 9<'))
+
+# 4. Christ is the basis of unanimity.
+A(Q('&ldquo;In so far, then, as this <b>holy unity and unanimity in faith and love</b> is attained, just in the same degree is the glory of God and the happiness of men promoted and secured.&rdquo;', DA, 'Unanimity matters') +
+  N('Do not let anyone hear tonight as &ldquo;doctrine does not matter.&rdquo; Campbell wants agreement: unanimity is good, and the more the better. The question is only how it is reached.'))
+
+A(Q('&ldquo;It is not the voice of the multitude, but <b>the voice of truth</b>, that has power with the conscience; that can produce rational conviction and acceptable obedience.&rdquo;', DA, 'Not by decree',
+    sub='<div class="sub frag punch">Fiat cannot compel the conscience, and must not try.</div>') +
+  N('One click. From the Address, on a General Council. A vote, a council, a decree: none of them reaches the place where belief happens. &ldquo;Rational conviction&rdquo; and &ldquo;acceptable obedience&rdquo;: only truth produces those.'))
+
+A('<section class="slide"><div class=eyebrow>How Christ leads us into truth</div>'
+  '<div class="litany tbl" style="text-align:left;gap:2.2vmin;margin-top:1.4vmin">'
+  '<div class="no frag"><b style="color:var(--gold)">The Spirit.</b> &ldquo;&hellip;the Holy Spirit for our teacher and guide, to lead us into all truth&hellip;&rdquo;</div>'
+  '<div class="no frag"><b style="color:var(--gold)">Scripture.</b> &ldquo;&hellip;to form their judgment by the Divine word itself, and not by any human explication of it&hellip;&rdquo;</div>'
+  '<div class="no frag"><b style="color:var(--gold)">Reason.</b> &ldquo;We pretend not, therefore, to divest ourselves of reason&hellip;&rdquo;</div>'
+  '</div>'
+  '<div class="sub frag punch" style="max-width:none;margin-top:2.6vmin">All three speak to the conscience.</div>'
+  '<aside class=notes>Four clicks, all from the Declaration and Address: the Preamble (echoing John 16:13, &ldquo;he will guide you into all truth&rdquo;); the Address&rsquo;s appeal to those who form their judgment by the word &ldquo;humbly relying upon and looking for the promised assistance of Divine teaching&rdquo;; and the Address on reason, which goes on: &ldquo;nor yet, of any of its proper and legitimate operations upon Divinely revealed truths.&rdquo;<br>'
+  '&rarr; So unanimity is reached the way Christ allows: brothers reasoning together, the Spirit working on hearts, Scripture read and shared and argued over. Never by decree.</aside></section>')
+
+# 5. Christ and his word, not our interpretations.
+A(Q('&ldquo;With you all we desire to unite in the bonds of an entire Christian unity&mdash;<b>Christ alone being the head, the center, his word the rule</b>&hellip;&rdquo;', DA, 'Christ and his word') +
+  N('The Address. When Campbell says &ldquo;Christ and his word,&rdquo; listen for what he does not say.'))
+
+A('<section class="slide breath"><div class="litany bigl" style="align-items:center">'
+  '<div class="no frag">Not Christ and <i>our understanding</i> of Christ.</div>'
+  '<div class="no frag">Not Scripture and <i>our interpretation</i> of Scripture.</div>'
+  '<div class="no frag" style="color:var(--gold)">Christ, and Scripture itself.</div>'
+  '</div>'
+  '<aside class=notes>Three clicks. Last week&rsquo;s sixth idea, now as the ground of unity. We can gather around Christ and Scripture without making our readings of Scripture the test of fellowship.<br>'
+  'The objection: no one reads Scripture without interpreting it. True, and Campbell knows it. His line is not between reading and not reading; it is between what I hold and what I require of you. Proposition 6, next.</aside></section>')
+
+A(pickL('>Proposition 3<'))
+A(pickL('>Proposition 6<'))
+
+A(Q('&ldquo;We would then no longer <b>exalt our own opinions and inferences to an equality with express revelation</b>, by condemning and rejecting our brother for differing with us in those things.&rdquo;', DA, 'Hold it. Do not require it.',
+    sub='<div class="sub frag punch">Keep your reading. Do not make it your brother&rsquo;s test.</div>') +
+  N('One click. From the Address. The fault is not having opinions and inferences; it is raising them to the level of Scripture and then rejecting a brother over them.'))
+
+# And yes, this is difficult.
+A('<section class="slide breath"><h2 style="max-width:none">And yes, this is <span style="color:var(--gold)">difficult.</span></h2>'
+  '<div class="sub frag" style="max-width:none">That is how community works.</div>'
+  '<div class="sub frag punch">It is especially how Christian community works.</div>'
+  '<aside class=notes>Two clicks. Say it plainly: it would be easier to sign a paper. Living with brothers who read the same Bible and see differently takes patience, and Campbell says so.</aside></section>')
+
+A(Q('&ldquo;Ought they not, therefore, to bear with each other&mdash;&lsquo;to preserve the unity of the Spirit in the bond of peace; <b>forbearing one with another in love</b>?&rsquo;&rdquo;', DA, 'Forbearance') +
+  N('From the Address, quoting Ephesians 4:2&ndash;3. The word he keeps returning to. Forbearance is not indifference: you only bear with what you actually disagree with.'))
+
+# The test: our table, and the Churches of Christ
+S += spanL('<div class=eyebrow>Our table</div>', '<div class=eyebrow>The answer</div>')
 
 A(BLACK)
 
@@ -212,18 +317,16 @@ A(BLACK)
 DISCUSS = pick('&#9670; for discussion', 0)
 A(DISCUSS)
 IDEAS = [
-    (G('Only Christ', 'can make us one.'),
-     'The Preamble: we cannot &ldquo;reasonably expect to find it anywhere but in Christ and his simple word.&rdquo; Every instrument on the egg was asked to do a job only Christ can do.'),
-    (G('There is nothing wrong with a creed.', 'But a creed cannot make us one.'),
-     'Proposition 7: although doctrinal exhibitions doctrinal exhibitions &ldquo;may be highly expedient&rdquo;; they are not to be made terms of communion.ldquo;be highly expedient,doctrinal exhibitions &ldquo;may be highly expedient&rdquo;; they are not to be made terms of communion.rdquo; they are not to be made terms of communion. A creed can teach; it cannot unite.'),
-    (G('The church is', 'already one.'),
-     'Proposition 1: &ldquo;essentially, intentionally, and constitutionally one.&rdquo; Unity is given, not built; the divisions are the innovation.'),
-    (G('Make anything else a term of communion,', 'and it will divide us.'),
-     'Propositions 6, 8 and 9: nothing binding &ldquo;farther than they perceive the connection&rdquo;; no one excluded for what they do not yet know. The Churches of Christ have lived the proof.'),
-    (G('It refused to be a creed,', 'and its heirs made it one.'),
-     'Resolution IV: &ldquo;by no means considers itself a Church.&rdquo; Proposition 7&rsquo;s warning applies to the Declaration itself: honor it as a plea, not a pattern.'),
-    (G('The rule that opens the table', 'can also cut.'),
-     'Andrew Munro on the proof-sheets: &ldquo;if you follow these out, you must become a Baptist.&rdquo; Campbell&rsquo;s answer committed the next generation before anyone knew where it led.'),
+    (G('Christ diversifies us;', 'only Christ can unite us.'),
+     'Each of us answers to Christ for himself (&ldquo;must give account of himself to God&rdquo;), so we will differ. Campbell expected no &ldquo;entire unity of sentiment in the present imperfect state.&rdquo; No instrument can remove differences that come from Christ. Only Christ can unite us: &ldquo;Christ and his simple word.&rdquo;'),
+    (G('Christ already', 'unites us.'),
+     'Proposition 1: the church is &ldquo;essentially, intentionally, and constitutionally one.&rdquo; We do not build it; we hold it fast (&ldquo;holding fast the unity of the spirit&rdquo;), or we fail to see it.'),
+    (G('Christ is the basis of', 'our visible unity.'),
+     'Our recognition of each other is the visible unity, and what we recognize is Christ&rsquo;s work. Proposition 8: a profession of faith in Christ is &ldquo;all that is absolutely necessary&rdquo;; Proposition 9: &ldquo;Whom God hath thus joined together no man should dare to put asunder.&rdquo;'),
+    (G('Christ is the basis of', 'unanimity.'),
+     'Unanimity is good: &ldquo;holy unity and unanimity in faith and love.&rdquo; But it comes the way Christ allows, by the Spirit, Scripture and reason, never by decree: &ldquo;It is not the voice of the multitude, but the voice of truth, that has power with the conscience.&rdquo;'),
+    (G('Christ and his word,', 'not our <i>interpretations</i> of his word.'),
+     '&ldquo;Christ alone being the head, the center, his word the rule.&rdquo; Hold your reading; do not require it. Proposition 6: inferences are &ldquo;not formally binding upon the consciences of Christians farther than they perceive the connection.&rdquo;'),
 ]
 for k, (h, n) in enumerate(IDEAS, 1):
     A('<section class="slide idea room"><div class="eyebrow quiet">Idea %d of %d</div><h2>%s</h2><aside class=notes>%s</aside></section>'
@@ -232,7 +335,7 @@ plain = lambda h: re.sub(r'<span style="color:var\(--gold\)">(.*?)</span>', r'\1
 A('<section class="slide room"><div class=eyebrow>Ideas</div>'
   '<div class="litany ideasum" style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">'
   + ''.join('<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (k, plain(h)) for k, (h, _) in enumerate(IDEAS, 1)) +
-  '</div><aside class=notes>All six at once, before the discussion.</aside></section>')
+  '</div><aside class=notes>All five at once, before the discussion.</aside></section>')
 A(DISCUSS)
 A(pick('stone-campbell.micahredding.com'))
 A(pickL('Next week: the rise and fall of the Springfield Presbytery'))
