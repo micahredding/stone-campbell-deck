@@ -226,8 +226,8 @@ A('<section class="slide breath"><h2 style="font-size:clamp(60px,14vmin,180px);l
   '<aside class=notes>Campbell&rsquo;s answer is next week. Then the ideas from tonight.</aside></section>')
 
 A('<section class="slide idea room"><div class="eyebrow quiet">Idea 1 of 7</div>'
-  '<h2>Unity is <span style="color:var(--gold)">given, not built.</span></h2>'
-  '<aside class=notes>Union with him first; union with each other in him next. From the Design of Religion: &ldquo;the first and foundation truth of our Christianity is union with him, and the very next to it in order, union with each other in him.&rdquo;</aside></section>')
+  '<h2>Unity is <span style="color:var(--gold)">the design of religion.</span></h2>'
+  '<aside class=notes>&ldquo;The grand design and native tendency of our holy religion&rdquo; is to unite us to God and to each other. Union with him first; union with each other in him next. From the Design of Religion: &ldquo;the first and foundation truth of our Christianity is union with him, and the very next to it in order, union with each other in him.&rdquo;</aside></section>')
 
 A('<section class="slide idea room"><div class="eyebrow quiet">Idea 2 of 7</div>'
   '<h2>Division is <span style="color:var(--gold)">a horrid evil.</span></h2>'
