@@ -3,7 +3,7 @@ sys.path.insert(0,'decks/src/week3')
 from slides import S, PATDEFS, CHRISTENDOM_CSS
 
 body='\n\n'.join(S)
-for _k,_f in (('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','manz.jpg')):
+for _k,_f in (('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','anabaptist_drowning.jpg')):
     body=body.replace(_k, 'data:image/jpeg;base64,'+__import__('base64').b64encode(open('decks/src/week3/'+_f,'rb').read()).decode())
 css=open('decks/src/week3/engine.css').read()
 css+= ('\n  /* ---- Week 3 type scale (inherited from Week 2) ---- */\n'

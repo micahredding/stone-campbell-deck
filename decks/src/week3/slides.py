@@ -197,9 +197,9 @@ A('<section class="slide rejslide"><div class=eyebrow>Marburg &middot; 1529</div
   '<aside class=notes>The man rejected at Worms, eight years later: &ldquo;You have a different spirit.&rdquo; No common table over the bodily presence.</aside></section>')
 
 A('<section class="slide rejslide"><div class=eyebrow>Zurich &middot; 1527</div>'
-  '<figure style="margin:0"><img src="IMG_MANZ" alt=""><figcaption>Heinrich Thomann, after Bullinger&rsquo;s <i>Reformationsgeschichte</i>, 1605 &middot; the drowning of Felix Manz</figcaption></figure>'
+  '<figure style="margin:0"><img src="IMG_MANZ" alt=""><figcaption>Jan Luyken, <i>Martyrs Mirror</i>, 1685 &middot; hand-colored</figcaption></figure>'
   '<h2>Zwingli rejects the Anabaptists.</h2>'
-  '<aside class=notes>His own students, Grebel and Manz, over infant baptism. Zurich&rsquo;s council, with Zwingli&rsquo;s support, made rebaptism a capital crime (March 1526); Felix Manz was drowned in the Limmat, 5 January 1527, the first Protestant executed by Protestants. The picture: Manz in the boat at right, the crowds on both banks. Two years later, at Marburg, Zwingli would ask Luther for the hand he had refused Manz.<br>Each one was rejected for his conscience, and each one rejected the next man for his.</aside></section>')
+  '<aside class=notes>His own students, Grebel and Manz, over infant baptism. Zurich&rsquo;s council, with Zwingli&rsquo;s support, made rebaptism a capital crime (March 1526); Felix Manz was drowned in the Limmat, 5 January 1527, the first Protestant executed by Protestants. The picture is from the <i>Martyrs Mirror</i>, the Anabaptists&rsquo; own book of martyrs: an Anabaptist held under at the riverbank, as Manz was in the Limmat. (Zurich&rsquo;s own chronicle shows Manz&rsquo;s drowning too: Heinrich Thomann&rsquo;s 1605 copy of Bullinger.) Two years later, at Marburg, Zwingli would ask Luther for the hand he had refused Manz.<br>Each one was rejected for his conscience, and each one rejected the next man for his.</aside></section>')
 
 A('<section class="slide rejslide"><div class=eyebrow>Washington, Pennsylvania &middot; 1809</div>'
   '<figure style="margin:0"><img src="IMG_TCAMPBELL" alt="" style="max-height:56vh"><figcaption>Thomas Campbell</figcaption></figure>'
