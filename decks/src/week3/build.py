@@ -1,9 +1,11 @@
-import re, sys, base64
-sys.path.insert(0,'decks/src/week3')
+import re, sys, base64, os
+# PART=2 builds Chapter 3, part two (decks/src/week3b/slides.py) with this same engine, styles and images.
+PART = os.environ.get('PART', '1')
+sys.path.insert(0, 'decks/src/week3' if PART == '1' else 'decks/src/week3b')
 from slides import S, PATDEFS, CHRISTENDOM_CSS
 
 body='\n\n'.join(S)
-for _k,_f in (('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_GROVE','grove.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','anabaptist_drowning.jpg')):
+for _k,_f in (('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_GROVE','grove.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','anabaptist_drowning.jpg'),('IMG_EGG','recap_egg.jpg')):
     body=body.replace(_k, 'data:image/jpeg;base64,'+__import__('base64').b64encode(open('decks/src/week3/'+_f,'rb').read()).decode())
 css=open('decks/src/week3/engine.css').read()
 css+= ('\n  /* ---- Week 3 type scale (inherited from Week 2) ---- */\n'
@@ -72,13 +74,14 @@ else:
     print('note: decks/src/week3/marburg.jpg missing; the Marburg slide builds without its painting')
 
 js=open('decks/src/week3/engine.js').read()
-js=js.replace("'w1cur'","'w3cur'").replace("'w1mode'","'w3mode'").replace("'w1strip'","'w3strip'")
-js=js.replace("'w1presenter'","'w3presenter'")
+K = 'w3' if PART == '1' else 'w3b'
+js=js.replace("'w1cur'","'%scur'" % K).replace("'w1mode'","'%smode'" % K).replace("'w1strip'","'%sstrip'" % K)
+js=js.replace("'w1presenter'","'%spresenter'" % K)
 js=js.replace("||'read')","||'present')")
 
 html=('<!doctype html><html><head><meta charset=utf8>'
  '<meta name=viewport content="width=device-width,initial-scale=1">'
- '<title>Our Wild Democracy &middot; Chapter 3 &middot; The Declaration and Address</title>'
+ '<title>Our Wild Democracy &middot; Chapter 3 &middot; The Declaration and Address' + ('' if PART == '1' else ', part two') + '</title>'
  '<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap">'
  '<style>\n/* ============================================================\n'
  '   THE DECLARATION AND ADDRESS — Week 3 deck\n'
@@ -90,7 +93,7 @@ html=('<!doctype html><html><head><meta charset=utf8>'
  '<div id=hint>&rarr; / space / click &middot; f fullscreen &middot; n read/present &middot; p presenter window &middot; s notes on THIS screen</div>'
  '<div id=mode></div><div id=strip></div><div id=pres></div>\n' + js + '</html>')
 
-out='decks/week3-declaration-address.html'
+out='decks/week3-declaration-address.html' if PART == '1' else 'decks/week3b-declaration-address-part-two.html'
 open(out,'w').write(html)
 print("wrote", out)
 print("bytes:", len(html), "=", round(len(html)/1048576,2), "MB")
