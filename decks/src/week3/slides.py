@@ -186,6 +186,8 @@ A('<section class="slide bleed"><div class=bg><div class="bgimg marburgbg"></div
   '<div class="sub frag">He could not share the Lord&rsquo;s table with a brother who read the Lord&rsquo;s table differently.</div>'
   '<aside class=notes>The painting (detail): Luther, in the fur collar, holds Zwingli off; Zwingli points upward. In the full canvas Luther&rsquo;s hand is on <i>est</i> chalked on the table (&ldquo;this <i>is</i> my body&rdquo;). Fourteen articles agreed; on the fifteenth, everything but the bodily presence. Luther: &ldquo;Ihr habt einen andern Geist&rdquo;, &ldquo;You have a different spirit.&rdquo; As the accounts have it, he would not take Zwingli&rsquo;s hand as a brother&rsquo;s.<br>&rarr; Two men, both captive to the same Word. Only one would grant the other that.</aside></section>')
 
+A('<section class="slide"><aside class=notes>Black.</aside></section>')
+
 A('<section class="slide breath"><h2 style="max-width:none">Luther claimed conscience for himself.<br><span style="color:var(--gold)">Campbell claimed it for his brother.</span></h2>'
   '<aside class=notes>Say it once and stop. Not a new principle: the same principle, extended to the brother. Luther is not the villain here: the man of Worms and the man of Marburg were equally sincere. That is the point: conscience claimed for yourself is only half a sentence, and Campbell finishes it. This is the chapter in one line.</aside></section>')
 
