@@ -149,14 +149,7 @@ A(Q('&ldquo;&hellip;whoever comes out of the water of baptism can boast that he 
 
 A('<section class="slide breath sect"><h2>Priesthood of all believers</h2><div class=table-line></div>'
   '<div class="sub frag">Every believer: the Spirit within, united with Christ, answering to God directly.</div>'
-  '<aside class=notes>Card, one click. The ground under Worms: why conscience is an obligation and not a preference. No one can stand before God in your place, so no one can read the Word in your place either. It names what the last slides have shown, Catholic and Luther alike. Then Marburg: Luther could not grant it to Zwingli.</aside></section>')
-
-A('<section class="slide bleed"><div class=bg><div class="bgimg marburgbg"></div></div>'
-  '<div class=credit>August Noack, <i>Religionsgespr&auml;ch zu Marburg 1529</i> (detail), 1867&ndash;69 &middot; public domain</div>'
-  '<div class=eyebrow>Marburg &middot; October 1529</div>'
-  '<h2>Luther and Zwingli.</h2>'
-  '<div class="sub frag">He could not share the Lord&rsquo;s table with a brother who read the Lord&rsquo;s table differently.</div>'
-  '<aside class=notes>The painting (detail): Luther, left in the fur collar, holds Zwingli off with both hands; Zwingli points upward. In the full canvas Luther&rsquo;s other hand is on the word <i>est</i> chalked on the table (&ldquo;this <i>is</i> my body&rdquo;). Fourteen articles agreed, and on the fifteenth agreement on everything but the bodily presence. Luther to the Swiss: &ldquo;You have a different spirit.&rdquo; As the accounts have it, Zwingli offered his hand at the end and Luther would not take it as a brother&rsquo;s.<br>&rarr; Two men, both captive to the same Word, reading it as faithfully as they could. Only one of them would grant the other that.</aside></section>')
+  '<aside class=notes>Card, one click. The ground under Worms: why conscience is an obligation and not a preference. No one can stand before God in your place, so no one can read the Word in your place either. It names what the last slides have shown, Catholic and Luther alike. Then Worms beside Washington, and Marburg: Luther could not grant it to Zwingli.</aside></section>')
 
 A('<section class="slide"><div class=eyebrow>Worms, 1521 &middot; Washington, Pennsylvania, 1809</div>'
   '<div class=litany style="display:grid;grid-template-columns:1fr 1fr;column-gap:5vmin;row-gap:2.4vmin;text-align:left;max-width:92vw">'
@@ -166,7 +159,14 @@ A('<section class="slide"><div class=eyebrow>Worms, 1521 &middot; Washington, Pe
   '<div class="no frag">&ldquo;<b>unless I am convinced</b> by the testimony of the Scriptures or by clear reason&rdquo;</div><div class="no frag">&ldquo;not formally binding&hellip; <b>farther than they perceive the connection</b>&rdquo;</div>'
   '<div class="no frag">&ldquo;neither safe nor right <b>to go against conscience</b>&rdquo;</div><div class="no frag">&ldquo;<b>no man can judge for his brother</b>&rdquo;</div>'
   '</div>'
-  '<aside class=notes>Eight clicks, left then right on each row. Every line on the right is already on the left. The right column: the Preamble; the Address on a General Council; proposition 6; the Preamble again. Only the last row moves: Luther says <i>I</i> may not go against my conscience; Campbell says <i>no one</i> may go against his brother&rsquo;s.<br>That last row is exactly where Luther stopped, at Marburg (the slide before; also the 1529 slide on the egg): fourteen articles agreed, and on the fifteenth agreement on everything but the bodily presence. Luther to the Swiss: &ldquo;Ihr habt einen andern Geist&rdquo; &mdash; &ldquo;You have a different spirit.&rdquo; As the accounts have it, Zwingli offered his hand at the end and Luther would not take it as a brother&rsquo;s.</aside></section>')
+  '<aside class=notes>Eight clicks, left then right on each row. Every line on the right is already on the left. The right column: the Preamble; the Address on a General Council; proposition 6; the Preamble again. Only the last row moves: Luther says <i>I</i> may not go against my conscience; Campbell says <i>no one</i> may go against his brother&rsquo;s.<br>That last row is exactly where Luther stopped, at Marburg (the next slide; also the 1529 slide on the egg): fourteen articles agreed, and on the fifteenth agreement on everything but the bodily presence. Luther to the Swiss: &ldquo;Ihr habt einen andern Geist&rdquo; &mdash; &ldquo;You have a different spirit.&rdquo; As the accounts have it, Zwingli offered his hand at the end and Luther would not take it as a brother&rsquo;s.</aside></section>')
+
+A('<section class="slide bleed"><div class=bg><div class="bgimg marburgbg"></div></div>'
+  '<div class=credit>August Noack, <i>Religionsgespr&auml;ch zu Marburg 1529</i> (detail), 1867&ndash;69 &middot; public domain</div>'
+  '<div class=eyebrow>Marburg &middot; October 1529</div>'
+  '<h2>Luther and Zwingli.</h2>'
+  '<div class="sub frag">He could not share the Lord&rsquo;s table with a brother who read the Lord&rsquo;s table differently.</div>'
+  '<aside class=notes>The painting (detail): Luther, left in the fur collar, holds Zwingli off with both hands; Zwingli points upward. In the full canvas Luther&rsquo;s other hand is on the word <i>est</i> chalked on the table (&ldquo;this <i>is</i> my body&rdquo;). Fourteen articles agreed, and on the fifteenth agreement on everything but the bodily presence. Luther to the Swiss: &ldquo;You have a different spirit.&rdquo; As the accounts have it, Zwingli offered his hand at the end and Luther would not take it as a brother&rsquo;s.<br>&rarr; Two men, both captive to the same Word, reading it as faithfully as they could. Only one of them would grant the other that.</aside></section>')
 
 A('<section class="slide breath"><h2 style="max-width:none">Luther claimed conscience for himself.<br><span style="color:var(--gold)">Campbell claimed it for his brother.</span></h2>'
   '<aside class=notes>Say it once and stop. Not a new principle: the same principle, extended to the brother. Luther is not the villain here: the man of Worms and the man of Marburg were equally sincere. That is the point: conscience claimed for yourself is only half a sentence, and Campbell finishes it. This is the chapter in one line.</aside></section>')
