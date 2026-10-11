@@ -308,6 +308,26 @@ A('<section class="slide breath"><h2 style="max-width:none">And yes, this is <sp
 A(Q('&ldquo;Ought they not, therefore, to bear with each other&mdash;&lsquo;to preserve the unity of the Spirit in the bond of peace; <b>forbearing one with another in love</b>?&rsquo;&rdquo;', DA, 'Forbearance') +
   N('From the Address, quoting Ephesians 4:2&ndash;3. The word he keeps returning to. Forbearance is not indifference: you only bear with what you actually disagree with.'))
 
+# Today: love, indifference, or new lines?
+A('<section class="slide"><div class=eyebrow>Today</div>'
+  '<h2 style="max-width:none">We have more visible unity than they did in 1809.</h2>'
+  '<div class="litany bigl" style="margin-top:2.4vmin">'
+  '<div class="no frag">Is it because we have extended love?</div>'
+  '<div class="no frag">Or because we have stopped caring?</div>'
+  '<div class="no frag" style="color:var(--gold)">Or have we just started dividing over different things?</div>'
+  '</div>'
+  '<aside class=notes>Three clicks; take answers after each.<br>'
+  '&bull; More unity: in 1809 a Seceder minister was censured for giving the Supper to other Presbyterians. Since then: the World Council of Churches (1948); Vatican II&rsquo;s decree on ecumenism (1964), which accepts baptized Protestants as brothers; Lutheran&ndash;Catholic <i>Joint Declaration on Justification</i> (1999); full communion among Lutherans, Presbyterians, Reformed and UCC (1997). Most churches now welcome any baptized believer to the table.<br>'
+  '&bull; Stopped caring: denominational loyalty has collapsed; people switch churches over music or childcare. Christian Smith&rsquo;s &ldquo;moralistic therapeutic deism&rdquo; (<i>Soul Searching</i>, 2005): if nothing much is believed, there is nothing to divide over.<br>'
+  '&bull; New lines: the old lines were doctrine and polity; the new ones run through sexuality and politics. The United Methodist Church lost about a quarter of its U.S. congregations, 2019&ndash;2023; the Anglican Church in North America formed in 2009. Many congregations now sort by party more than by creed.<br>'
+  '&rarr; Campbell would not accept the second answer: forbearance only means something if you care.</aside></section>')
+
+A(Q('&ldquo;&hellip;manifesting to each other their <b>mutual charity and zeal for the truth</b>.&rdquo;', DA, 'Campbell wanted both',
+    sub='<div class="sub frag" style="max-width:none">Charged with indifference (&ldquo;Latitudinarianism&rdquo;), he answered: &ldquo;we intend to go just as far as it will suffer us, but <b>not one hair-breadth further</b>.&rdquo;</div>') +
+  N('One click. From the Address. Charity without zeal is indifference; zeal without charity is the egg. Campbell asks for both at once.',
+    'The charge in his day was Latitudinarianism: that unity this broad means nothing matters. His answer: go as far as Scripture allows, and not a hair further. That is not indifference; it is a fence drawn exactly where Scripture draws it.',
+    '&rarr; Which brings it home: what do we require at our table?'))
+
 # The test: our table, and the Churches of Christ
 S += spanL('<div class=eyebrow>Our table</div>', '<div class=eyebrow>The answer</div>')
 
