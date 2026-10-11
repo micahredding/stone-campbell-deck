@@ -48,6 +48,20 @@ css += '  #deck .wormsfull .bigquote{line-height:1.2;font-size:clamp(30px,6.4vmi
 css += '  #deck .slide .sub.punch{font-family:"IM Fell English",Georgia,serif;font-style:normal;font-size:clamp(30px,5.4vmin,68px);line-height:1.2;color:var(--gold);max-width:none;margin-top:2.4vmin}\n'
 css += '  #deck .rejslide{justify-content:center;gap:0}#deck .rejslide img{display:block;max-height:60vh;max-width:84vw;border-radius:.4vmin;box-shadow:0 1vmin 4vmin rgba(0,0,0,.6)}\n  #deck .rejslide figcaption{font-family:"IM Fell English SC",Georgia,serif;font-size:clamp(11px,1.5vmin,17px);letter-spacing:.1em;color:var(--smoke);margin-top:1vmin;text-align:center}\n  #deck .rejslide h2{max-width:none;margin-top:2.6vmin}\n'
 css += '  #deck .slide h2.url{max-width:none;margin-left:auto;margin-right:auto;text-align:center}#deck .siteslide .small{max-width:none}\n'
+css += ('  /* ---- larger type, 2026-10-11 ---- */\n'
+        '  #deck .slide h2{font-size:clamp(40px,8vmin,104px)}\n'
+        '  #deck .slide .sub{font-size:clamp(24px,4.3vmin,52px);max-width:38ch}\n'
+        '  #deck .slide .eyebrow{font-size:clamp(17px,3vmin,36px)}\n'
+        '  #deck .slide .bigquote.long{font-size:clamp(34px,7.2vmin,88px);max-width:38ch}\n'
+        '  #deck .slide .bigquote.xlong{font-size:clamp(26px,5.2vmin,62px);max-width:48ch}\n'
+        '  #deck .slide .cite{font-size:clamp(20px,3.3vmin,38px)}\n'
+        '  #deck .slide .litany .no{font-size:clamp(26px,5vmin,62px)}\n'
+        '  #deck .slide .small{font-size:clamp(19px,3vmin,34px)}\n'
+        '  #deck .rejslide figcaption{font-size:clamp(13px,2vmin,24px)}\n'
+        '  #deck .slide .litany.tbl .no{font-size:clamp(22px,4.3vmin,54px)}\n'
+        '  #deck .slide.wormsfull .bigquote{font-size:clamp(32px,7vmin,86px);max-width:46ch}\n'
+        '  #deck .slide .litany.ideasum .no{font-size:clamp(30px,6.2vmin,78px);line-height:1.2;position:relative;padding-left:1.6em}#deck .slide .litany.ideasum .no>span:first-child{position:absolute;left:0;top:0}\n'
+        '  @media (min-aspect-ratio:3/2){#deck .recapshots .shot{width:min(42vmin,21.5vw)}}\n')
 css += '  #deck .litany .lcite{display:block;font-family:"IM Fell English SC",Georgia,serif;font-style:normal;font-size:.55em;letter-spacing:.1em;color:var(--smoke);margin-top:.3vmin}\n'
 import os
 if os.path.exists('decks/src/week3/marburg.jpg'):

@@ -37,18 +37,18 @@ A('<section class="slide" style="padding-bottom:10vmin"><div class="eyebrow quie
 
 A('<section class="slide"><div class=eyebrow>Quiz</div>'
   '<h2 style="max-width:none">We do Bible things&hellip;</h2>'
-  '<div class="sub frag" style="max-width:none">&hellip;in Bible ways.</div>'
+  '<h2 class=frag style="max-width:none;color:var(--gold);margin-top:.6vmin">&hellip;in Bible ways.</h2>'
   '<h2 style="max-width:none;margin-top:5vmin">We call Bible things&hellip;</h2>'
-  '<div class="sub frag" style="max-width:none">&hellip;by Bible names.</div>'
+  '<h2 class=frag style="max-width:none;color:var(--gold);margin-top:.6vmin">&hellip;by Bible names.</h2>'
   '<aside class=notes>Two clicks. Let the room finish each one. Movement slogans, not lines from the Declaration and Address. The document&rsquo;s own root for them: nothing as of divine obligation unless there is &ldquo;a &lsquo;Thus saith the Lord,&rsquo; either in express terms or by approved precedent.&rdquo; Tonight is about where that came from, and what it was meant for: unity, not a new fence.</aside></section>')
 
 # ---------- RECAP: Chapter 2 in pictures (images from decks/src/week2) ----------
 A('<section class="slide recapslide"><div class="eyebrow quiet">Last week &middot; Thomas Campbell&rsquo;s Heresy Trial</div>'
-  '<div class=shots style="gap:3vmin">'
-  '<figure class="shot frag" style="--r:-1.5deg"><img src="IMG_TCAMPBELL" alt="" style="width:100%;height:30vh;object-fit:cover;border-radius:.4vmin"><figcaption style="font-family:Spectral,Georgia,serif;font-variant:normal;text-transform:none;letter-spacing:0;font-size:clamp(15px,2.4vmin,28px);line-height:1.35;margin-top:1.2vmin;color:var(--bone)"><b>Ireland.</b> Twice he works to unite the Seceders; twice his church courts shut it down.</figcaption></figure>'
-  '<figure class="shot frag" style="--r:1.2deg"><img src="IMG_SHIP" alt="" style="width:100%;height:30vh;object-fit:cover;border-radius:.4vmin"><figcaption style="font-family:Spectral,Georgia,serif;font-variant:normal;text-transform:none;letter-spacing:0;font-size:clamp(15px,2.4vmin,28px);line-height:1.35;margin-top:1.2vmin;color:var(--bone)"><b>April 1807.</b> He sails for America.</figcaption></figure>'
-  '<figure class="shot frag" style="--r:-1deg"><img src="IMG_MAP" alt="" style="width:100%;height:30vh;object-fit:cover;border-radius:.4vmin"><figcaption style="font-family:Spectral,Georgia,serif;font-variant:normal;text-transform:none;letter-spacing:0;font-size:clamp(15px,2.4vmin,28px);line-height:1.35;margin-top:1.2vmin;color:var(--bone)"><b>Western Pennsylvania.</b> Presbyterians who had not received communion in years.</figcaption></figure>'
-  '<figure class="shot frag" style="--r:1.8deg"><img src="IMG_TOKEN" alt="" style="width:100%;height:30vh;object-fit:cover;border-radius:.4vmin"><figcaption style="font-family:Spectral,Georgia,serif;font-variant:normal;text-transform:none;letter-spacing:0;font-size:clamp(15px,2.4vmin,28px);line-height:1.35;margin-top:1.2vmin;color:var(--bone)"><b>Conemaugh, August 1807.</b> He opens the table. He is tried and censured for it.</figcaption></figure>'
+  '<div class="shots recapshots" style="gap:3vmin">'
+  '<figure class="shot frag" style="--r:-1.5deg"><img src="IMG_TCAMPBELL" alt="" style="width:100%;height:30vh;object-fit:cover;border-radius:.4vmin"><figcaption style="font-family:Spectral,Georgia,serif;font-variant:normal;text-transform:none;letter-spacing:0;font-size:clamp(16px,2.6vmin,31px);line-height:1.3;margin-top:1.2vmin;color:var(--bone)"><b>Ireland.</b> Twice he works to unite the Seceders; twice his church courts shut it down.</figcaption></figure>'
+  '<figure class="shot frag" style="--r:1.2deg"><img src="IMG_SHIP" alt="" style="width:100%;height:30vh;object-fit:cover;border-radius:.4vmin"><figcaption style="font-family:Spectral,Georgia,serif;font-variant:normal;text-transform:none;letter-spacing:0;font-size:clamp(16px,2.6vmin,31px);line-height:1.3;margin-top:1.2vmin;color:var(--bone)"><b>April 1807.</b> He sails for America.</figcaption></figure>'
+  '<figure class="shot frag" style="--r:-1deg"><img src="IMG_MAP" alt="" style="width:100%;height:30vh;object-fit:cover;border-radius:.4vmin"><figcaption style="font-family:Spectral,Georgia,serif;font-variant:normal;text-transform:none;letter-spacing:0;font-size:clamp(16px,2.6vmin,31px);line-height:1.3;margin-top:1.2vmin;color:var(--bone)"><b>Western Pennsylvania.</b> Presbyterians who had not received communion in years.</figcaption></figure>'
+  '<figure class="shot frag" style="--r:1.8deg"><img src="IMG_TOKEN" alt="" style="width:100%;height:30vh;object-fit:cover;border-radius:.4vmin"><figcaption style="font-family:Spectral,Georgia,serif;font-variant:normal;text-transform:none;letter-spacing:0;font-size:clamp(16px,2.6vmin,31px);line-height:1.3;margin-top:1.2vmin;color:var(--bone)"><b>Conemaugh, August 1807.</b> He opens the table. He is tried and censured for it.</figcaption></figure>'
   '</div>'
   '<div class="sub frag" style="max-width:none;margin-top:3vmin">Put out, he preaches in a grove. That autumn they ask him to write down what they stand for.</div>'
   '<aside class=notes>Five clicks, about two minutes: the story so far in four pictures. Thomas Campbell (portrait); the ship (Robert Salmon, 1809, a ship of the kind, not the <i>Brutus</i>); Howell&rsquo;s 1792 map of Pennsylvania; a Scottish communion token, 1750, the fence at the table. Last week ended on the first sentence of what he wrote: the church of Christ upon earth is essentially, intentionally, and constitutionally one.</aside></section>')
@@ -167,7 +167,7 @@ A('<section class="slide breath sect"><h2>Priesthood of all believers</h2><div c
   '<aside class=notes>Card, one click. The ground under Worms: why conscience is an obligation and not a preference. No one can stand before God in your place, so no one can read the Word in your place either. It names what the last slides have shown, Catholic and Luther alike. Then Worms beside Washington, and Marburg: Luther could not grant it to Zwingli.</aside></section>')
 
 A('<section class="slide"><div class=eyebrow>Worms, 1521 &middot; Washington, Pennsylvania, 1809</div>'
-  '<div class=litany style="display:grid;grid-template-columns:1fr 1fr;column-gap:5vmin;row-gap:2.4vmin;text-align:left;max-width:92vw">'
+  '<div class="litany tbl" style="display:grid;grid-template-columns:1fr 1fr;column-gap:5vmin;row-gap:2.4vmin;text-align:left;max-width:92vw">'
   '<div class=eyebrow style="margin:0">Luther</div><div class=eyebrow style="margin:0">The Declaration and Address</div>'
   '<div class="no frag">&ldquo;my conscience is <b>captive to the Word of God</b>&rdquo;</div><div class="no frag">&ldquo;to this alone we feel ourselves <b>Divinely bound</b>&rdquo;</div>'
   '<div class="no frag">&ldquo;I do not trust either in the pope or <b>in councils alone</b>&rdquo;</div><div class="no frag">&ldquo;not <b>the voice of the multitude</b>, but the voice of truth&rdquo;</div>'
@@ -242,7 +242,7 @@ A('<section class="slide idea room"><div class="eyebrow quiet">Idea 1 of 7</div>
 
 A('<section class="slide idea room"><div class="eyebrow quiet">Idea 2 of 7</div>'
   '<h2>Division is <span style="color:var(--gold)">a horrid evil.</span></h2>'
-  '<aside class=notes>Not a difference of opinion: a wound in the body of Christ. Proposition 10: &ldquo;anti-christian, as it destroys the visible unity of the body of Christ.&rdquo; And the Evils of Division litany.</aside></section>')
+  '<aside class=notes>Not a difference of opinion: a wound in the body of Christ. Proposition 10: &ldquo;antichristian, as it destroys the visible unity of the body of Christ.&rdquo; And the Evils of Division litany.</aside></section>')
 
 A('<section class="slide idea room"><div class="eyebrow quiet">Idea 3 of 7</div>'
   '<h2>Every instrument <span style="color:var(--gold)">failed.</span></h2>'
@@ -265,7 +265,7 @@ A('<section class="slide idea room"><div class="eyebrow quiet">Idea 7 of 7</div>
   '<aside class=notes>Luther claimed conscience for himself; Campbell claimed it for his brother. The Preamble (&ldquo;no man can judge for his brother&rdquo;), the Appendix (&ldquo;We dare not&hellip; patronize the rejection of God&rsquo;s dear children&rdquo;), Proposition 9, and the chain of rejections.</aside></section>')
 
 A('<section class="slide room"><div class=eyebrow>Ideas</div>'
-  '<div class=litany style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">'
+  '<div class="litany ideasum" style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">'
   '<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">1.</span>Unity is the design of religion.</div>'
   '<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">2.</span>Division is a horrid evil.</div>'
   '<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">3.</span>Every instrument failed.</div>'
