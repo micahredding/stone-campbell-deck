@@ -227,12 +227,6 @@ A('<section class="slide breath"><h2 style="max-width:none">Christ makes us <spa
   '<div class="sub" style="max-width:none">Each of us answers to him, and each of us hears him imperfectly.</div>'
   '<aside class=notes>The careful version: our differences come from each of us answering to Christ for ourselves, through finite understanding. Not every difference is Christ&rsquo;s doing; some are our errors. But the variety is what you get when Christ, not a council, is the one we answer to.</aside></section>')
 
-A(Q('&ldquo;&hellip;nor, indeed, is there anything either in Scripture or the nature of things that should induce us to expect <b>an entire unity of sentiment in the present imperfect state</b>.&rdquo;', DA, 'Campbell expected it') +
-  N('From the Address. He does not expect us to agree on everything in this life.'))
-
-A(Q('&ldquo;Nor can we conceive what desirable purpose such a unity of sentiment would serve, except to render useless some of those gracious, self-denying, and compassionate precepts of <b>mutual sympathy and forbearance</b> which the word of God enjoins upon his people.&rdquo;', DA, 'And would not want it') +
-  N('The next sentence. He does not think it would be good if we did agree on everything: a church with no differences would have no use for forbearance. Difference is where love has work to do.'))
-
 
 A('<section class="slide"><h2 style="max-width:none">How can Christians have unity,</h2>'
   '<h2 class=frag style="max-width:none;color:var(--gold);margin-top:.6vmin">if Christ, working through us,<br>makes us so different?</h2>'
@@ -243,6 +237,41 @@ A('<section class="slide breath"><h2 style="max-width:none">There can only be on
   '<aside class=notes>One click. Say the line, let it sit, then click. Then the Preamble says it in his words.</aside></section>')
 
 A(pickL('Christ and his simple word</b>'))
+
+# Not another list; we will understand differently; that cannot be a boundary
+A('<section class="slide breath"><h2 style="max-width:none">We will not be united by <span style="color:var(--gold)">another list.</span></h2>'
+  '<div class=sub style="max-width:none">Not of propositions, not of doctrines, not of opinions.</div>'
+  '<aside class=notes>Christ alone means: not Christ plus a better confession. Campbell will not offer one, not even his own.</aside></section>')
+
+A(Q('&ldquo;And here we would ask: Have all or any of those human compilations been able to prevent divisions, to heal breaches, or to <b>produce and maintain unity of sentiment</b> even among those who have most firmly and solemnly embraced them?&rdquo;', DA, 'The record') +
+  N('From the Address. The egg in one sentence: every confession on it was signed, and every one split.'))
+
+A(Q('&ldquo;Let none imagine that the subjoined propositions are at all intended as <b>an overture toward a new creed</b> or standard for the Church, or as in any wise designed to be made a term of communion; nothing can be further from our intention.&rdquo;', DA, 'Not even his own') +
+  N('Just before the thirteen propositions. He refuses to let his own list become the next one.'))
+
+A('<section class="slide breath"><h2 style="max-width:none">We will understand <span style="color:var(--gold)">differently.</span></h2>'
+  '<aside class=notes>Not a failure to be fixed: it follows from each of us answering to Christ.</aside></section>')
+
+A(Q('&ldquo;&hellip;it appears highly questionable whether such a thing can at all be secured, by any expedient whatsoever, especially if we consider that it necessarily presupposes in so far <b>a unity or sameness of understanding</b>.&rdquo;', DA, 'One mind would need one understanding') +
+  N('From the Address, on &ldquo;unity of sentiment.&rdquo; Agreement on every point would require us all to understand alike, and no expedient can produce that.'))
+
+A(Q('&ldquo;&hellip;nor, indeed, is there anything either in Scripture or the nature of things that should induce us to expect <b>an entire unity of sentiment in the present imperfect state</b>.&rdquo;', DA, 'Campbell expected it') +
+  N('From the Address. He does not expect us to agree on everything in this life.'))
+
+A(Q('&ldquo;Nor can we conceive what desirable purpose such a unity of sentiment would serve, except to render useless some of those gracious, self-denying, and compassionate precepts of <b>mutual sympathy and forbearance</b> which the word of God enjoins upon his people.&rdquo;', DA, 'And would not want it') +
+  N('The next sentence. He does not think it would be good if we did agree on everything: a church with no differences would have no use for forbearance. Difference is where love has work to do.'))
+
+A('<section class="slide breath"><h2 style="max-width:none">So difference of understanding<br><span style="color:var(--gold)">cannot be a boundary of unity.</span></h2>'
+  '<aside class=notes>If we will inevitably understand differently, then a boundary drawn at understanding will divide the church forever. Campbell draws it in two propositions.</aside></section>')
+
+A('<section class="slide breath"><div class="litany bigl" style="align-items:center">'
+  '<div class="no frag" style="margin-bottom:2.4vmin">We cannot compel anyone<br>farther than they understand.</div>'
+  '<div class="no frag" style="color:var(--gold)">We cannot compel anyone<br>farther than they are required to understand.</div>'
+  '</div>'
+  '<aside class=notes>Two clicks. The first is Proposition 6: an inference binds a conscience only as far as it sees the connection. The second is Proposition 8: no one need understand everything to belong, so no one may be required to profess more than they know.</aside></section>')
+
+A(pickL('>Proposition 6<'))
+A(pickL('>Proposition 8<'))
 
 # 2. Christ already unites us in the church.
 A('<section class="slide breath"><h2 style="max-width:none">Christ <span style="color:var(--gold)">already</span> unites us.</h2>'
@@ -275,7 +304,6 @@ A(Q('&ldquo;This gracious unity and unanimity in Jesus would afford <b>the best 
 A(Q('&ldquo;That they all may be one&hellip; <b>that the world may believe</b> that thou hast sent me.&rdquo;', 'John 17:21', 'The prayer') +
   N('The prayer the Address echoes: a prayer, not a command, and for the sake of the world&rsquo;s belief.'))
 
-A(pickL('>Proposition 8<'))
 A(pickL('>Proposition 9<'))
 
 # 4. Christ is the basis of unanimity.
@@ -316,7 +344,7 @@ A('<section class="slide breath"><div class="litany bigl" style="align-items:cen
 A(Q('&ldquo;We would then no longer <b>exalt our own opinions and inferences to an equality with express revelation</b>, by condemning and rejecting our brother for differing with us in those things.&rdquo;', DA, 'Hold it. Do not require it.') +
   N('From the Address. The fault is not having opinions and inferences; it is raising them to the level of Scripture and then rejecting a brother over them.',
     'Proposition 3: nothing &ldquo;required of them as terms of communion, but what is expressly taught and enjoined upon them in the word of God.&rdquo;',
-    'Proposition 6: inferences &ldquo;fairly inferred, may be truly called the doctrine of God&rsquo;s holy word,&rdquo; yet are &ldquo;not formally binding upon the consciences of Christians farther than they perceive the connection&hellip; Therefore, no such deductions can be made terms of communion.&rdquo;',
+    'Proposition 6, from claim one: deductions &ldquo;do properly belong to the after and progressive edification of the Church.&rdquo;',
     '&rarr; Then say it plainly.'))
 
 A('<section class="slide breath"><h2 style="max-width:none">Keep your reading.<br><span style="color:var(--gold)">Do not make it your brother&rsquo;s test.</span></h2>'
