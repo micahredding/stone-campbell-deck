@@ -615,3 +615,21 @@ for x in OLD[_ai:]:
 for x in OLD[:_ai]:
     if id(x) in used or not _plain(x) or _plain(x).startswith(_skip): continue
     A(x)
+
+# ---------- presenter notes = the transcript (week3b-transcript.md, one section per slide) ----------
+_tx = open(os.path.join(_H, '..', '..', '..', 'week3b-transcript.md'), encoding='utf-8').read()
+_sec = re.split(r'^\*\*Slide (\d+) · .*?\*\*\s*$', _tx, flags=re.M)
+_NOTES = {}
+for _k in range(1, len(_sec) - 1, 2):
+    body = re.split(r'^(?:##|---)', _sec[_k + 1], flags=re.M)[0].strip()
+    paras = [p.strip() for p in re.split(r'\n\s*\n', body) if p.strip()]
+    def _esc(p):
+        p = _html.escape(p.lstrip('> ').strip(), quote=False)
+        p = re.sub(r'"(\S)', r'&ldquo;\1', p); p = p.replace('"', '&rdquo;').replace("'", '&rsquo;')
+        return p
+    _NOTES[int(_sec[_k])] = '<br><br>'.join(('<i>%s</i>' % _esc(p)) if p.startswith('>') else _esc(p) for p in paras)
+assert sorted(_NOTES) == list(range(1, len(_NOTES) + 1)), sorted(_NOTES)
+for _n, _t in _NOTES.items():
+    x = S[_n - 1]
+    assert '<aside class=notes>' in x, _n
+    S[_n - 1] = re.sub(r'<aside class=notes>.*?</aside>', lambda m: '<aside class=notes>%s</aside>' % _t, x, count=1, flags=re.S)
