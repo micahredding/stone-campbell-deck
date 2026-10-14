@@ -2,11 +2,11 @@
 
 [← All chapters](.)
 
-**Slides:** [Chapter 3, part two: the answer](decks/week3b-declaration-address-part-two.html) (Oct 18)
+**Slides:** [Declaration and Address, part two](decks/week3b-declaration-address-part-two.html) (Oct 18) · [transcript by slide](week3b-transcript)
 
-**The Story:** Last week ended on a question: how do Christians achieve unity? Conscience is where each believer answers to Christ, so Christ himself makes us different; no creed, council, or sword can remove differences that come from him. There can only be one answer: Christ alone. Christ already unites the church; our recognition of that is our visible unity; and unanimity comes the way Christ allows, by the Spirit, Scripture, and reason, never by decree. Then the test: the churches today, the Churches of Christ, and our own table.
+**The Story:** Every instrument of unity failed, because conscience cannot be compelled: someone always stands where Luther stood. Luther claimed conscience for himself; Campbell claimed it for his brother, as the way Christ has put his body together. If Christ makes us different, only Christ can make us one, and he already has: the church on earth is "essentially, intentionally, and constitutionally one." Our first duty is to recognize it, gathered around Christ and his word, not our interpretations of it.
 
-**The Idea**: Christ diversifies us, and only Christ can unite us. We gather around Christ and Scripture itself, without making our interpretations of Scripture the test of fellowship. And yes, it is difficult: that is how Christian community works.
+**The Idea**: Recognize the unity Christ has already made, and strive to act accordingly.
 
 **Connections:**
 - Picks up exactly where [Chapter 3](week3) stopped: "How do Christians achieve unity?"
@@ -17,11 +17,11 @@
 
 ## Ideas
 
-1. **Christ diversifies us; only Christ can unite us.** Each of us "must give account of himself to God," so we will differ; Campbell expected no "entire unity of sentiment in the present imperfect state." Only Christ can unite us: "Christ and his simple word."
-2. **Christ already unites us.** Proposition 1: the church is "essentially, intentionally, and constitutionally one." We hold it fast ("holding fast the unity of the spirit in the bond of peace"), or we fail to see it.
-3. **Christ is the basis of our visible unity.** Our recognition of each other is our visible unity, and what we recognize is Christ's work: "the best external evidence of their union with him." Proposition 9: "Whom God hath thus joined together no man should dare to put asunder."
-4. **Christ is the basis of unanimity.** "Holy unity and unanimity in faith and love" is good, but it comes by the Spirit, Scripture, and reason, never by decree: "It is not the voice of the multitude, but the voice of truth, that has power with the conscience."
-5. **Christ and his word, not our *interpretations* of his word.** "Christ alone being the head, the center, his word the rule." Hold your reading; do not require it: "We would then no longer exalt our own opinions and inferences to an equality with express revelation, by condemning and rejecting our brother for differing with us in those things."
+1. **Freedom of conscience is how Christ builds his body.** Judging for a brother is "a daring usurpation of his throne."
+2. **Only Christ can unite us.** "Anywhere but in Christ and his simple word." Confessions teach, "the more full and explicit… the better"; they cannot be the boundary of the body.
+3. **Christ has already made us one.** Proposition 1: "essentially, intentionally, and constitutionally one; consisting of all those in every place."
+4. **Our first duty is to recognize it.** "Not discerning the Lord's body" (1 Corinthians 11:29); Campbell at the table with other Presbyterians.
+5. **Christ and his word, not our *interpretations* of his word.** "Christ alone being the head, the center, his word the rule."
 
 ---
 

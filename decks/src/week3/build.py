@@ -5,6 +5,10 @@ sys.path.insert(0, 'decks/src/week3' if PART == '1' else 'decks/src/week3b')
 from slides import S, PATDEFS, CHRISTENDOM_CSS
 
 body='\n\n'.join(S)
+EGG = 'eggslide' in body
+if EGG:
+    sys.path.insert(0, 'decks/src/elements')
+    from egg_anim import EGG_ANIM_CSS, EGG_ANIM_JS
 for _k,_f in (('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_GROVE','grove.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','anabaptist_drowning.jpg'),('IMG_EGG','recap_egg.jpg')):
     body=body.replace(_k, 'data:image/jpeg;base64,'+__import__('base64').b64encode(open('decks/src/week3/'+_f,'rb').read()).decode())
 css=open('decks/src/week3/engine.css').read()
@@ -65,6 +69,7 @@ css += ('  /* ---- larger type, 2026-10-11 ---- */\n'
         '  #deck .slide .litany.bigl .no{font-size:clamp(30px,6.4vmin,80px);line-height:1.25}\n'
         '  #deck .slide .litany.ideasum .no{font-size:clamp(30px,6.2vmin,78px);line-height:1.2;position:relative;padding-left:1.6em}#deck .slide .litany.ideasum .no>span:first-child{position:absolute;left:0;top:0}\n'
         '  #deck .recapshots{flex-wrap:nowrap}#deck .recapshots .shot{width:min(34vmin,17vw)}#deck .recapshots .shot img{height:26vh!important}\n')
+if EGG: css += EGG_ANIM_CSS
 css += '  #deck .litany .lcite{display:block;font-family:"IM Fell English SC",Georgia,serif;font-style:normal;font-size:.55em;letter-spacing:.1em;color:var(--smoke);margin-top:.3vmin}\n'
 import os
 if os.path.exists('decks/src/week3/marburg.jpg'):
@@ -92,7 +97,7 @@ html=('<!doctype html><html><head><meta charset=utf8>'
  + css + '</style></head>\n<body>\n<svg width=0 height=0 style="position:absolute;visibility:visible" aria-hidden=true>' + PATDEFS + '</svg>\n<div id=deck>\n\n' + body +
  '\n\n</div>\n<div id=bar></div><div id=count></div>'
  '<div id=hint>&rarr; / space / click &middot; f fullscreen &middot; n read/present &middot; p presenter window &middot; s notes on THIS screen</div>'
- '<div id=mode></div><div id=strip></div><div id=pres></div>\n' + js + '</html>')
+ '<div id=mode></div><div id=strip></div><div id=pres></div>\n' + js + (EGG_ANIM_JS if EGG else '') + '</html>')
 
 out='decks/week3-declaration-address.html' if PART == '1' else 'decks/week3b-declaration-address-part-two.html'
 open(out,'w').write(html)

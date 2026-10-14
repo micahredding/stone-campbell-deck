@@ -426,3 +426,187 @@ assert len(_ad) == 1
 S += L[_ad[0]:]
 # the proof-sheets (Alexander and the Baptist warning): for when Alexander and baptism come up
 S += spanL('<div class=eyebrow>October 1809</div>', '<div class=eyebrow>The answer</div>')
+
+
+# =====================================================================================================
+# 2026-10-14 RESTRUCTURE, following Micah's transcript for Oct 18 (see week3b-transcript.md).
+# Everything above builds the previous order into OLD; the deck is re-assembled from OLD, from part-one
+# slides (w3.S), and from new slides. Any OLD content slide not used goes to the addendum.
+# =====================================================================================================
+import html as _html, sys as _sys
+_sys.path.insert(0, os.path.join(_H, '..', 'elements'))
+from egg_anim import egg_anim_slide
+
+OLD = S
+def _plain(x):
+    return re.sub(r'\s+', ' ', _html.unescape(re.sub(r'<[^>]+>', ' ', x.split('<aside')[0]))).strip()
+def find(lst, text):
+    hits = [x for x in lst if text in _plain(x)]
+    if len(hits) > 1: hits = [x for x in hits if _plain(x).startswith(text)] or hits
+    if len(hits) > 1: hits = [x for x in hits if _plain(x) == text] or hits
+    assert len(hits) == 1, (text, len(hits), [_plain(h)[:60] for h in hits])
+    return hits[0]
+used = set()
+def O(text):                       # a slide from the previous part-two order
+    x = find(OLD, text); used.add(id(x)); return x
+def P(text):                       # a part-one slide
+    return find(w3.S, text)
+G = lambda a, b: '%s <span style="color:var(--gold)">%s</span>' % (a, b)
+def ST(h, notes, eyebrow='', cls='slide breath'):       # a statement slide
+    e = '<div class=eyebrow>%s</div>' % eyebrow if eyebrow else ''
+    h = h.replace(' <span style="color:var(--gold)">', '<br><span style="color:var(--gold)">', 1)
+    return '<section class="%s">%s<h2 style="max-width:none">%s</h2><aside class=notes>%s</aside></section>' % (cls, e, h, notes)
+
+S = []
+A = S.append
+
+# ---------- OPENING ----------
+A(O('Our Wild Democracy The Story, Promise'))
+A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 3</div>'
+  '<h1>Declaration and Address,<br>part two</h1><div class=table-line></div>'
+  '<aside class=notes>Title up. &rarr; &ldquo;Last week we set the Declaration and Address in its history. Tonight, Campbell&rsquo;s answer.&rdquo;</aside></section>')
+used.add(id(find(OLD, 'Our Wild Democracy · Chapter 3, part two')))
+
+# ---------- 1. RECAP: EVERY INSTRUMENT OF UNITY FAILED ----------
+A(egg_anim_slide('Recap. One click per division: creeds and confessions, councils, emperors and magistrates, bishops and popes. '
+                 'Every one was offered as an instrument of unity; virtually every one failed, and often created the very division it meant to overcome. '
+                 'Last click: the egg breaks.'))
+A(P('Why did every instrument fail?'))
+
+# ---------- 2. BECAUSE CONSCIENCE CANNOT BE COMPELLED ----------
+A(P('Worms, 1521 Conscience cannot be compelled'))
+A(P('Here I stand “…my conscience is captive'))
+A(Q('&ldquo;Then Peter and the other apostles answered and said, <b>We ought to obey God rather than men</b>.&rdquo;', 'Acts 5:29', 'Not incidental') +
+  N('Not an incidental fact: a deep fact about Christianity itself. The church taught its people that God is obeyed before any human authority, and so every attempt at consensus by committee or council meets someone who says, &ldquo;I cannot.&rdquo;'))
+A(ST(G('Every instrument of unity meets someone', 'who says: <i>I cannot.</i>'),
+     'Pope, emperor, council, creed: &ldquo;here is where you must come.&rdquo; And someone always stands where Luther stood. That is why they fail, over and over.'))
+
+# ---------- 3. A LONG CHRISTIAN TRADITION ----------
+A(P('Luther did not invent this'))
+A(P('A human being must always obey'))
+
+# ---------- 4. CLAIMED, BUT NOT EXTENDED ----------
+A(P('Rome rejects Luther'))
+A(P('Luther rejects Zwingli'))
+A(P('Zwingli rejects the An'))
+A(P('Washington, Pennsylvania · 1809 Thomas Campbell How dare you put asunder?'))
+A(P('Luther claimed conscience for himself. Campbell claimed'))
+
+# ---------- 5. CONSCIENCE IS HOW CHRIST BUILDS THE BODY ----------
+A(ST(G('Freedom of conscience is how Christ', 'has put his body together.'),
+     'Campbell&rsquo;s move: the inability to compel conscience is not a roadblock on the way to unity. It is a constituent element of the body of Christ, an organizing principle of the church. To thwart it is to undo what Christ has done.'))
+A(P('Preamble “…as no man can be judged for his brother'))
+A(P('daring usurpation'))
+A(P('Luther, a year before Worms'))
+A(P('aboriginal Vicar'))
+A(O('Last week Conscience is an exercise of the priesthood'))
+A(O('So conscience answers to Christ'))
+A(O('Not to the pope. Not to a council. Not to me.'))
+
+# ---------- 6. THEN HOW CAN WE BE ONE? ----------
+A(O('Christ makes us different'))
+A(O('How can Christians have unity,'))
+A(O('We will not be united by'))
+A(O('We will understand differently'))
+A(O('Campbell expected it'))
+A(O('And would not want it'))
+
+# ---------- 7. ONLY CHRIST ----------
+A(O('There can only be one answer'))
+A(O('reasonably expect to find it anywhere but in Christ'))
+A(pickL('a job only Christ can do').replace('&rarr; Which is not to say creeds are bad.', '&rarr; Which is not to say confessions are bad.'))
+A(O('There is nothing wrong with a creed')
+  .replace('There is nothing wrong with a creed.', 'There is nothing wrong with a confession.')
+  .replace('But a creed cannot make us one.', 'But a confession cannot make us one.')
+  .replace('Two clicks. Not anti-creed: Nicaea is true, and the room says it. The fault on the egg was never the creed; it was the job the creed was given.',
+           'Two clicks. Campbell is not against confessions. For teaching, the fuller the better (Proposition 7, next). The fault on the egg was never the confession; it was the job the confession was given: to be the boundary of the body of Christ.'))
+A(O('Proposition 7'))
+
+# ---------- 8. CHRIST HAS ALREADY MADE US ONE ----------
+A(O('Christ already unites us.'))
+A(O('Proposition 1'))
+A('<section class="slide breath"><div class=eyebrow>Proposition 1, misread</div><div class="litany bigl" style="align-items:center">'
+  '<div class="no frag">Not only the ones with our name on the sign.</div>'
+  '<div class="no frag">Not only Rome.</div>'
+  '<div class="no frag">Not only Constantinople.</div>'
+  '<div class="no frag" style="color:var(--gold)">&ldquo;All those in every place.&rdquo;</div>'
+  '</div>'
+  '<aside class=notes>Four clicks. In Church of Christ circles the first proposition is sometimes quoted to mean the opposite of what it says: only the congregations with &ldquo;Church of Christ&rdquo; on the sign are the true church. Some Catholic and some Orthodox thinkers say the same of their own communions. Campbell says the opposite: the church on earth consists of Christians in every denomination, sect and division. Christ has made them one; we have not.</aside></section>')
+A(Q('&ldquo;We are divided, we know, but <b>how, when, and by what authority?</b>&rdquo;', 'David Bentley Hart, &ldquo;The Myth of Schism,&rdquo; 2008', 'East and West, after 1054') +
+  N('Hart, an Eastern Orthodox theologian, on the schism of 1054. In <i>Ecumenism Today: The Universal Church in the 21st Century</i>, ed. Francesca Aran Murphy and Christopher Asprey (Ashgate, 2008); reprinted at clarion-journal.com (2014).',
+    'He shows how porous the wall was for centuries: shared sacraments under the Ottomans and under communist rule, Syrian parishes in America where Catholic and Orthodox belong to &ldquo;one church and one altar.&rdquo; The same paragraph: &ldquo;Can the failure of communion between two patriarchs or bishops&hellip; create a real division of sacramentally united communions from one another?&rdquo;'))
+A(Q('&ldquo;&hellip;are we sure that we are? For, if not, then our division is simply sin&hellip; <b>a fiction of the will, and obedience to a lie</b>.&rdquo;', 'David Bentley Hart, &ldquo;The Myth of Schism,&rdquo; 2008', 'Are we divided?') +
+  N('The full sentence: &ldquo;This is not a moral question&mdash;how do we dare to remain disunited?&mdash;but a purely canonical one: are we sure that we are? For, if not, then our division is simply sin, a habit of desire and thought that feeds upon nothing but its own perverse passions and immanent logic, a fiction of the will, and obedience to a lie.&rdquo;',
+    '&rarr; The principle underneath: Christ makes the church one, and pope, bishop and council have neither the authority nor the ability to divide it. Constitutionally one, as Campbell says.'))
+A(O('Already “For by one Spirit'))
+A(O('Holding fast'))
+
+# ---------- 9. OUR FIRST DUTY: RECOGNIZE IT ----------
+A(O('Do we recognize it?'))
+A(Q('&ldquo;For he that eateth and drinketh unworthily, eateth and drinketh damnation to himself, <b>not discerning the Lord&rsquo;s body</b>.&rdquo;', '1 Corinthians 11:29', 'At the table') +
+  N('Paul&rsquo;s charge against the Corinthians: at the Supper they did not recognize the body of Christ in their brothers (11:17&ndash;34, the rich eating while the poor go hungry). That failure turns communion into judgment.'))
+A(ST(G('When Campbell gave the Supper to other Presbyterians,', 'he was discerning the body.'),
+     'The charge of 1807: he gave communion to Presbyterians outside the Seceders. He was recognizing the body of Christ across the lines his own synod drew.'))
+A(ST(G('No sect ever had the authority,', 'or the ability, to divide what Christ has joined.'),
+     'Whatever our sects and sub-sects have done with their divisions and anathemas, they never had the authority or the ability to divide the body Christ made one.'))
+A(O('Proposition 9'))
+A(O('Receive one another'))
+A(O('I receive you because Christ received you.'))
+A(ST(G('Our first duty:', 'recognize what Christ has already done.'),
+     'And stop pretending that anything else has taken precedence over Christ&rsquo;s own declaration and work.'))
+
+# ---------- 10. THE WORD OF GOD, NOT INTERPRETATIONS OF IT ----------
+A(O('Christ and his word, not our interpretations of his word.'))
+A(P('Worms, 18 April 1521'))
+A(O('Captive to the Word of God. Not to the pope'))
+A(P('Word of God ≠'))
+A(ST(G('Campbell is not trading the Westminster Confession', 'for an agreed reading of the Bible.'),
+     'How the supremacy of the Word has often been applied among us: a new legalism, as if Campbell threw out the Confession so we could all agree on one interpretation of the Bible instead. That is not what he says, and not what he can be saying.'))
+A(ST(G('If we cannot agree on the Westminster Confession,', 'how much less on all of Scripture?'),
+     'Campbell knows this. United on Christ and his word means our commitment to Christ and to his word, not to a particular interpretation of it.'))
+A(O('The Address “With you all we desire'))
+A(O('Not Christ and our understanding'))
+A(O('Hold it. Do not require it.'))
+A(O('Keep your reading.'))
+A(O('How Christ leads us into truth'))
+A(ST(G('We are united not by a shared interpretation,', 'but by a shared commitment to Scripture itself.'),
+     'Every week I meet with Christians who understand Scripture differently than I do. We wrestle with it; sometimes we move closer, sometimes farther apart. What unites us is a shared commitment to Scripture, which is part of our shared commitment to Christ: not our interpretation of Scripture, not our interpretation of Christ, but Christ himself.'))
+
+# ---------- LANDING ----------
+A(ST(G('Recognize the unity Christ has already made,', 'and strive to act accordingly.'),
+     'Where Campbell lands, and where we start.'))
+A(BLACK)
+
+# ---------- IDEAS ----------
+A(DISCUSS)
+IDEAS = [
+    (G('Freedom of conscience is how', 'Christ builds his body.'),
+     'We cannot compel conscience, and Christ does not ask us to: each believer answers to him as a priest. Campbell: judging for a brother is &ldquo;a daring usurpation of his throne.&rdquo;'),
+    (G('Only Christ', 'can unite us.'),
+     'If Christ is the reason for our diversity, Christ is the only one who can unite us: &ldquo;anywhere but in Christ and his simple word.&rdquo; Confessions teach; they cannot be the boundary of the body.'),
+    (G('Christ has already', 'made us one.'),
+     'Proposition 1: &ldquo;essentially, intentionally, and constitutionally one; consisting of all those in every place.&rdquo; Not only us.'),
+    (G('Our first duty is', 'to recognize it.'),
+     '&ldquo;Not discerning the Lord&rsquo;s body&rdquo; (1 Corinthians 11:29). Campbell at the table with other Presbyterians: recognizing what Christ has joined.'),
+    (G('Christ and his word,', 'not our <i>interpretations</i> of his word.'),
+     'Luther was captive to the Word of God, not to his reading of it. &ldquo;Christ alone being the head, the center, his word the rule.&rdquo; Keep your reading; do not make it your brother&rsquo;s test.'),
+]
+for k, (h, n) in enumerate(IDEAS, 1):
+    A('<section class="slide idea room"><div class="eyebrow quiet">Idea %d of %d</div><h2>%s</h2><aside class=notes>%s</aside></section>' % (k, len(IDEAS), h, n))
+A('<section class="slide room"><div class=eyebrow>Ideas</div>'
+  '<div class="litany ideasum" style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">'
+  + ''.join('<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (k, plain(h)) for k, (h, _) in enumerate(IDEAS, 1)) +
+  '</div><aside class=notes>All five at once, before the discussion.</aside></section>')
+A(DISCUSS)
+A(pick('stone-campbell.micahredding.com'))
+A(pickL('Next week: the rise and fall of the Springfield Presbytery'))
+A(BLACK)
+
+# ---------- ADDENDUM: the old addendum, then every earlier slide this telling does not use ----------
+_skip = ('Quiz', 'Idea ', 'Ideas 1.', '◆ for discussion', 'Online stone-campbell', 'Next week:')
+_ai = [k for k, x in enumerate(OLD) if '>Addendum</h2>' in x][0]
+for x in OLD[_ai:]:
+    if id(x) not in used: A(x)
+for x in OLD[:_ai]:
+    if id(x) in used or not _plain(x) or _plain(x).startswith(_skip): continue
+    A(x)
