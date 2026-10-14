@@ -59,8 +59,8 @@ A('<section class="slide breath sect"><div class=eyebrow>The Address</div><h2>Th
   '<div class=sub>Five of them.</div>'
   '<aside class=notes>Offered, the Address says just before them, not &ldquo;as an overture toward a new creed or standard for the Church, or as in any wise designed to be made a term of communion.&rdquo; Remember Chalcedon said the same. Read 1, 3, 6, 8, 9; the gold clause is the one to say twice.</aside></section>')
 
-A(Q('&ldquo;That the Church of Christ upon earth is <b>essentially, intentionally, and constitutionally one</b>; consisting of all those in every place that profess their faith in Christ and obedience to him in all things according to the Scriptures, and that manifest the same by their tempers and conduct, and of none else&hellip;&rdquo;', DA, 'Proposition 1') +
-  N('The class has heard the opening clause twice; now the whole sentence. Ask: do you believe unity is given rather than built? If so, the sects are the innovation.'))
+A(Q('&ldquo;That the Church of Christ upon earth is <b>essentially, intentionally, and constitutionally one</b>; consisting of all those in every place that profess their faith in Christ and obedience to him in all things&hellip;&rdquo;', DA, 'Proposition 1') +
+  N('The class has heard the opening clause twice; now more of it. The sentence goes on: &ldquo;according to the Scriptures, and that manifest the same by their tempers and conduct, and of none else.&rdquo; Ask: do you believe unity is given rather than built? If so, the sects are the innovation.'))
 
 A(Q('&ldquo;That in order to do this, <b>nothing ought to be inculcated upon Christians as articles of faith; nor required of them as terms of communion, but what is expressly taught and enjoined upon them in the word of God</b>&hellip;&rdquo;', DA, 'Proposition 3') +
   N('The method. &ldquo;Expressly.&rdquo; This is the whole wager: strip terms of communion to what Scripture expressly says, and Christians will find they already agree on enough to live together.'))
@@ -71,7 +71,7 @@ A(Q('&ldquo;That although inferences and deductions from Scripture premises, whe
 A(Q('&ldquo;That as it is not necessary that persons should have a particular knowledge or distinct apprehension of all Divinely revealed truths in order to entitle them to a place in the Church; <b>neither should they, for this purpose, be required to make a profession more extensive than their knowledge</b>&hellip;&rdquo;', DA, 'Proposition 8') +
   N('The one that answers Chalcedon directly: no term that excludes those who cannot understand it. The rest of the sentence: &ldquo;a profession of their faith in and obedience to him, in all things, according to his word, is all that is absolutely necessary to qualify them for admission into his Church.&rdquo;'))
 
-A(Q('&ldquo;That all that are enabled through grace to make such a profession&hellip; should consider each other as the precious saints of God, should <b>love each other as brethren</b>, children of the same family and Father, temples of the same Spirit, members of the same body&hellip; Whom God hath thus joined together no man should dare to put asunder.&rdquo;', DA, 'Proposition 9') +
+A(Q('&ldquo;That all that are enabled through grace to make such a profession&hellip; should consider each other as the precious saints of God, should <b>love each other as brethren</b>, children of the same family and Father, temples of the same Spirit, members of the same body&hellip; <span style="color:var(--gold)">Whom God hath thus joined together no man should dare to put asunder.</span>&rdquo;', DA, 'Proposition 9') +
   N('The marriage line: recognition is not optional. Ask: who are we not treating as brethren, and on what term?'))
 
 # ---------- 7 OUR TABLE ----------
@@ -532,13 +532,17 @@ A('<section class="slide breath"><div class=eyebrow>Proposition 1, misread</div>
   '<div class="no frag" style="color:var(--gold)">&ldquo;All those in every place.&rdquo;</div>'
   '</div>'
   '<aside class=notes>Four clicks. In Church of Christ circles the first proposition is sometimes quoted to mean the opposite of what it says: only the congregations with &ldquo;Church of Christ&rdquo; on the sign are the true church. Some Catholic and some Orthodox thinkers say the same of their own communions. Campbell says the opposite: the church on earth consists of Christians in every denomination, sect and division. Christ has made them one; we have not.</aside></section>')
+A('<section class="slide breath"><div class=eyebrow>David Bentley Hart</div>'
+  '<h2 style="max-width:none;font-size:clamp(52px,11vmin,130px)">&ldquo;The Myth of Schism&rdquo;</h2><div class=table-line style="margin:3vmin auto"></div>'
+  '<div class=sub style="max-width:none;font-size:clamp(26px,4.6vmin,56px)">In <i>Ecumenism Today: The Universal Church in the 21st Century</i></div>'
+  '<div class=sub style="max-width:none;font-size:clamp(22px,3.8vmin,46px);color:var(--bone-dim);margin-top:1.4vmin">ed. Francesca Aran Murphy and Christopher Asprey &middot; Ashgate, 2008</div>'
+  '<aside class=notes>An Eastern Orthodox theologian on the schism of 1054 between the Catholic and Orthodox churches: its history, and how to think about it. Reprinted at clarion-journal.com (2014).</aside></section>')
 A(Q('&ldquo;We are divided, we know, but <b>how, when, and by what authority?</b>&rdquo;', 'David Bentley Hart, &ldquo;The Myth of Schism,&rdquo; 2008', 'East and West, after 1054') +
   N('Hart, an Eastern Orthodox theologian, on the schism of 1054. In <i>Ecumenism Today: The Universal Church in the 21st Century</i>, ed. Francesca Aran Murphy and Christopher Asprey (Ashgate, 2008); reprinted at clarion-journal.com (2014).',
     'He shows how porous the wall was for centuries: shared sacraments under the Ottomans and under communist rule, Syrian parishes in America where Catholic and Orthodox belong to &ldquo;one church and one altar.&rdquo; The same paragraph: &ldquo;Can the failure of communion between two patriarchs or bishops&hellip; create a real division of sacramentally united communions from one another?&rdquo;'))
 A(Q('&ldquo;&hellip;are we sure that we are? For, if not, then our division is simply sin&hellip; <b>a fiction of the will, and obedience to a lie</b>.&rdquo;', 'David Bentley Hart, &ldquo;The Myth of Schism,&rdquo; 2008', 'Are we divided?') +
   N('The full sentence: &ldquo;This is not a moral question&mdash;how do we dare to remain disunited?&mdash;but a purely canonical one: are we sure that we are? For, if not, then our division is simply sin, a habit of desire and thought that feeds upon nothing but its own perverse passions and immanent logic, a fiction of the will, and obedience to a lie.&rdquo;',
     '&rarr; The principle underneath: Christ makes the church one, and pope, bishop and council have neither the authority nor the ability to divide it. Constitutionally one, as Campbell says.'))
-A(O('Already “For by one Spirit'))
 A(O('Holding fast'))
 
 # ---------- 9. OUR FIRST DUTY: RECOGNIZE IT ----------

@@ -104,11 +104,11 @@ so what do we do with this practically speaking? we know that the church is divi
 
 now, sometimes you, if you've heard this quoted in Church of Christ context, you might've heard this used to mean the opposite of what he's saying you might've heard it used to suggest that only people who have the name Church of Christ out front are actually part of the true church the true body of Christ you find some attitudes among Catholic and Orthodox thinkers who will say something to this effect that you know this is the true church and you know, if you are not part of us then you are not part of the true church Orthodox will say this Catholic some Catholics will say that some Orthodox will say this and of course you know some Church of Christ people will say this but that is not what Thomas Campbell is saying it's the opposite of what Thomas Campbell is saying he's saying the Church of Christ upon the earth consists of all those in every place it consists of Christians in all the denominations all the sects all the different divisions they all are already part of the church of Christ and the body of Christ Christ has made them one. We have not made them one and all the attempts that we have made to divide them and to define the boundaries according to our own principles and standards are in fact, erroneous
 
-**Slides 38–39 · David Bentley Hart, "The Myth of Schism"**
+**Slides 38–40 · David Bentley Hart, "The Myth of Schism" (citation, then two quotes)**
 
 I think David Bentley Hart an Eastern Orthodox theologian he has an essay from years ago, called The Myth of Schism and he's dealing with the 1054 schism between the Catholic Church and the Orthodox Church and he deals with the history of this of the schism and how to think about it, but I think the underlying principle he's getting at is that in fact, the body of Christ the church is made one by Christ and the pope and the bishop and the council, and whoever else has no authority to divide it and further, they have no ability to divide it.
 
-**Slides 40–41 · 1 Corinthians 12:13 · "Holding fast the unity of the spirit"**
+**Slide 41 · "Holding fast the unity of the spirit"**
 
 It's constitutionally one because of what Christ himself has done and that's what Thomas Campbell is saying the Church of Christ upon earth is constitutionally one
 
