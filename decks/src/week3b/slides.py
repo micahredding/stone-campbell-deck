@@ -543,7 +543,9 @@ A(Q('&ldquo;We are divided, we know, but <b>how, when, and by what authority?</b
 A(Q('&ldquo;&hellip;are we sure that we are? For, if not, then our division is simply sin&hellip; <b>a fiction of the will, and obedience to a lie</b>.&rdquo;', 'David Bentley Hart, &ldquo;The Myth of Schism,&rdquo; 2008', 'Are we divided?') +
   N('The full sentence: &ldquo;This is not a moral question&mdash;how do we dare to remain disunited?&mdash;but a purely canonical one: are we sure that we are? For, if not, then our division is simply sin, a habit of desire and thought that feeds upon nothing but its own perverse passions and immanent logic, a fiction of the will, and obedience to a lie.&rdquo;',
     '&rarr; The principle underneath: Christ makes the church one, and pope, bishop and council have neither the authority nor the ability to divide it. Constitutionally one, as Campbell says.'))
-A(O('Holding fast'))
+
+A(ST(G('No sect ever had the authority,', 'or the ability, to divide what Christ has joined.'),
+     'Whatever our sects and sub-sects have done with their divisions and anathemas, they never had the authority or the ability to divide the body Christ made one.'))
 
 # ---------- 9. OUR FIRST DUTY: RECOGNIZE IT ----------
 A(O('Do we recognize it?'))
@@ -551,8 +553,7 @@ A(Q('&ldquo;For he that eateth and drinketh unworthily, eateth and drinketh damn
   N('Paul&rsquo;s charge against the Corinthians: at the Supper they did not recognize the body of Christ in their brothers (11:17&ndash;34, the rich eating while the poor go hungry). That failure turns communion into judgment.'))
 A(ST(G('When Campbell gave the Supper to other Presbyterians,', 'he was discerning the body.'),
      'The charge of 1807: he gave communion to Presbyterians outside the Seceders. He was recognizing the body of Christ across the lines his own synod drew.'))
-A(ST(G('No sect ever had the authority,', 'or the ability, to divide what Christ has joined.'),
-     'Whatever our sects and sub-sects have done with their divisions and anathemas, they never had the authority or the ability to divide the body Christ made one.'))
+A(O('Holding fast'))
 A(O('Proposition 9'))
 A(O('Receive one another'))
 A(O('I receive you because Christ received you.'))

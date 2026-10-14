@@ -108,7 +108,7 @@ now, sometimes you, if you've heard this quoted in Church of Christ context, you
 
 I think David Bentley Hart an Eastern Orthodox theologian he has an essay from years ago, called The Myth of Schism and he's dealing with the 1054 schism between the Catholic Church and the Orthodox Church and he deals with the history of this of the schism and how to think about it, but I think the underlying principle he's getting at is that in fact, the body of Christ the church is made one by Christ and the pope and the bishop and the council, and whoever else has no authority to divide it and further, they have no ability to divide it.
 
-**Slide 41 · "Holding fast the unity of the spirit"**
+**Slide 41 · No sect ever had the authority, or the ability, to divide what Christ has joined.**
 
 It's constitutionally one because of what Christ himself has done and that's what Thomas Campbell is saying the Church of Christ upon earth is constitutionally one
 
@@ -118,7 +118,7 @@ It's constitutionally one because of what Christ himself has done and that's wha
 
 so what do we do with this yes, the first thing we do is to recognize it and I think this is part of the reason communion is so significant to this story right in 1 Corinthians 11 Paul critiques the Corinthians because in their practice of the Lord's Supper they are not recognizing the body of Christ. They're not recognizing the body of Christ in their brothers and so he says they're drinking communion they're drinking condemnation upon themselves because they have failed to recognize the body of Christ,
 
-**Slides 44–48 · When Campbell gave the Supper… he was discerning the body · No sect ever had the authority… · Proposition 9 · Romans 15:7 · I receive you because Christ received you**
+**Slides 44–48 · When Campbell gave the Supper… he was discerning the body · "Holding fast the unity of the spirit" · Proposition 9 · Romans 15:7 · I receive you because Christ received you**
 
 so when Thomas Campbell is extending communion to Christians of a different sect than his this is what he's doing. He's trying to recognize the body of Christ. He's trying to recognize that whatever our sects and sub-sects have done with their divisions and declaring people anathema and so forth they never actually had the authority nor the ability to divide what Christ himself has joined
 
