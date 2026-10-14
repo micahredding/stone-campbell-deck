@@ -116,7 +116,7 @@ def build():
     LAY = {k: layout(k, G[k]) for k in ORDER}
     W = max(g['width'] for g in G.values()) + 120
     rows = max(max([v['row'] for v in L.values()] or [0]) for L in LAY.values()) + 1
-    top = -R - 20; H = 2 * R + 20 + 1.4 * F + rows * ROWH
+    top = -R - 110; H = 2 * R + 110 + 1.4 * F + rows * ROWH   # room above: the egg sits well below the title, and the shards drift up into it
     # label tracks: every label on every step; absent = parked (invisible) at the piece it comes from / goes to
     names = []
     for k in ORDER:
@@ -222,7 +222,7 @@ EGG_ANIM_CSS = '''
   #deck .eggslide h2.eg-t{font-size:clamp(36px,6.8vmin,86px);max-width:none;transition:opacity .35s ease}
   #deck .eggslide .eg-line{margin-top:1vmin;font-family:Spectral,Georgia,serif;font-style:italic;font-size:clamp(16px,2.8vmin,34px);line-height:1.35;white-space:nowrap;color:var(--bone-dim);transition:opacity .35s ease}
   #deck .eggslide .eg-fade{opacity:0}
-  #deck .eggslide .eggfig{margin-top:1.5vmin;width:96vw;max-height:76vh;display:block}
+  #deck .eggslide .eggfig{margin-top:1.5vmin;width:96vw;max-height:78vh;display:block;overflow:visible}
   #deck .eggslide .eggstep{height:0}
   .eggfig .eg-p{stroke-width:1.5;stroke-linejoin:round;transition:d .9s cubic-bezier(.6,0,.3,1),fill .7s ease .25s,opacity .6s ease}
   .eggfig .eg-seam{fill:none;stroke:var(--ground);stroke-width:5;stroke-linejoin:round;transition:d .9s cubic-bezier(.6,0,.3,1),opacity .5s ease}
