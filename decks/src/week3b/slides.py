@@ -525,8 +525,7 @@ A(O('There is nothing wrong with a creed')
 A(O('Proposition 7'))
 
 # ---------- 8. CHRIST HAS ALREADY MADE US ONE ----------
-A('<section class="slide"><h2 style="font-size:clamp(56px,12vmin,160px);line-height:1.05;max-width:none">So what do we do with this,<br>practically speaking?</h2>'
-  '<aside class=notes>(transcript)</aside></section>')
+A(BLACK)
 A('<section class="slide breath"><h2 style="font-size:clamp(70px,17vmin,220px);line-height:1;max-width:none">Christ <span style="color:var(--gold)">already</span><br>unites us.</h2>'
   '<aside class=notes>(transcript)</aside></section>')
 used.add(id(find(OLD, 'Christ already unites us.')))
@@ -554,7 +553,10 @@ A(ST(G('No sect ever had the authority,', 'or the ability, to divide what Christ
      'Whatever our sects and sub-sects have done with their divisions and anathemas, they never had the authority or the ability to divide the body Christ made one.'))
 
 # ---------- 9. OUR FIRST DUTY: RECOGNIZE IT ----------
-A(O('Do we recognize it?'))
+A('<section class="slide"><h2 style="font-size:clamp(56px,12vmin,160px);line-height:1.05;max-width:none">So what do we do with this,<br>practically speaking?</h2>'
+  '<aside class=notes>(transcript)</aside></section>')
+A(ST(G('Our first duty:', 'recognize what Christ has already done.'),
+     'And stop pretending that anything else has taken precedence over Christ&rsquo;s own declaration and work.'))
 A(Q('&ldquo;For he that eateth and drinketh unworthily, eateth and drinketh damnation to himself, <b>not discerning the Lord&rsquo;s body</b>.&rdquo;', '1 Corinthians 11:29', 'At the table') +
   N('Paul&rsquo;s charge against the Corinthians: at the Supper they did not recognize the body of Christ in their brothers (11:17&ndash;34, the rich eating while the poor go hungry). That failure turns communion into judgment.'))
 A(ST(G('When Campbell gave the Supper to other Presbyterians,', 'he was discerning the body.'),
@@ -568,7 +570,6 @@ A(ST(G('Our first duty:', 'recognize what Christ has already done.'),
 # ---------- 10. THE WORD OF GOD, NOT INTERPRETATIONS OF IT ----------
 A(O('Christ and his word, not our interpretations of his word.'))
 A(P('Worms, 18 April 1521'))
-A(O('Captive to the Word of God. Not to the pope'))
 A(P('Word of God ≠'))
 A(ST(G('Campbell is not trading the Westminster Confession', 'for an agreed reading of the Bible.'),
      'How the supremacy of the Word has often been applied among us: a new legalism, as if Campbell threw out the Confession so we could all agree on one interpretation of the Bible instead. That is not what he says, and not what he can be saying.'))
@@ -578,7 +579,6 @@ A(O('The Address “With you all we desire'))
 A(O('Not Christ and our understanding'))
 A(O('Hold it. Do not require it.'))
 A(O('Keep your reading.'))
-A(O('How Christ leads us into truth'))
 A(ST(G('We are united not by a shared interpretation,', 'but by a shared commitment to Scripture itself.'),
      'Every week I meet with Christians who understand Scripture differently than I do. We wrestle with it; sometimes we move closer, sometimes farther apart. What unites us is a shared commitment to Scripture, which is part of our shared commitment to Christ: not our interpretation of Scripture, not our interpretation of Christ, but Christ himself.'))
 
@@ -628,8 +628,9 @@ for _txt, _k in (('Freedom of conscience is how Christ has put his body together
                  ('Our first duty: recognize what Christ has already done.', 4),
                  ('Christ and his word, not our interpretations of his word.', 5)):
     _i = [i for i, x in enumerate(S[:66]) if _plain(x) == _txt]
-    assert len(_i) == 1, (_txt, _i)
-    S[_i[0]] = re.sub(r'^(<section[^>]*>)(?:<div class=eyebrow>[^<]*</div>)?', lambda m: m.group(1) + '<div class=eyebrow>Idea %d of 5</div>' % _k, S[_i[0]], count=1)
+    assert _i, _txt
+    for _j in _i:      # Idea 4 is shown twice
+        S[_j] = re.sub(r'^(<section[^>]*>)(?:<div class=eyebrow>[^<]*</div>)?', lambda m: m.group(1) + '<div class=eyebrow>Idea %d of 5</div>' % _k, S[_j], count=1)
 
 # ---------- presenter notes = the transcript (week3b-transcript.md, one section per slide) ----------
 _tx = open(os.path.join(_H, '..', '..', '..', 'week3b-transcript.md'), encoding='utf-8').read()

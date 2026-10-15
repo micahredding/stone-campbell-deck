@@ -38,7 +38,7 @@ and say I cannot unless I'm convinced by reason and scripture because it is neit
 
 and this is not some incidental fact it's actually a deep fact about Christianity itself. It is essentially the fact that we have instilled the virtue of the idea that we must obey God rather than man
 
-**Slide 8 · Every instrument of unity meets someone who says: *I cannot.***
+**Slide 8 · Every instrument of unity meets someone who says: *I cannot.**
 
 and so this it has been an inescapable feature of Christian history every time we try to create consensus by committee or council or any other thing, we have an individual or a group who will stand up and say I cannot I cannot do it and so these instruments of unity fail and they fail over and over again,
 
@@ -164,7 +164,7 @@ but Campbell's point is no if we're educating people then then we should have as
 
 ## Christ has already made us one
 
-**Slide 36 · So what do we do with this, practically speaking?**
+**Slide 36 · (blank)**
 
 so what do we do with this practically speaking? we know that the church is divided and is always dividing in some sense
 
@@ -198,47 +198,47 @@ It's constitutionally one because of what Christ himself has done and that's wha
 
 ## Our first duty: recognize it
 
-**Slide 44 · Do we recognize it?**
+**Slide 44 · So what do we do with this, practically speaking?**
 
-so what do we do with this yes, the first thing we do is to recognize it
+so what do we do with this yes,
 
-**Slide 45 · 1 Corinthians 11:29, "not discerning the Lord's body"**
+**Slide 45 · Our first duty: recognize what Christ has already done. (Idea 4, first time)**
+
+the first thing we do is to recognize it
+
+**Slide 46 · 1 Corinthians 11:29, "not discerning the Lord's body"**
 
 and I think this is part of the reason communion is so significant to this story right in 1 Corinthians 11 Paul critiques the Corinthians because in their practice of the Lord's Supper they are not recognizing the body of Christ. They're not recognizing the body of Christ in their brothers and so he says they're drinking communion they're drinking condemnation upon themselves because they have failed to recognize the body of Christ,
 
-**Slide 46 · When Campbell gave the Supper to other Presbyterians, he was discerning the body.**
+**Slide 47 · When Campbell gave the Supper to other Presbyterians, he was discerning the body.**
 
 so when Thomas Campbell is extending communion to Christians of a different sect than his this is what he's doing. He's trying to recognize the body of Christ.
 
-**Slide 47 · "Holding fast the unity of the spirit"**
+**Slide 48 · "Holding fast the unity of the spirit"**
 
 He's trying to recognize that whatever our sects and sub-sects have done with their divisions and declaring people anathema and so forth
 
-**Slide 48 · Proposition 9**
+**Slide 49 · Proposition 9**
 
 they never actually had the authority nor the ability to divide what Christ himself has joined
 
-**Slide 49 · Romans 15:7**
+**Slide 50 · Romans 15:7**
 
 (No words in the transcript for this slide.)
 
-**Slide 50 · Our first duty: recognize what Christ has already done.**
+**Slide 51 · Our first duty: recognize what Christ has already done. (Idea 4, again)**
 
 so the first duty that Campbell is calling us to is to recognize recognize what Christ has already done and to stop pretending that there is something else that has taken precedence over Christ's own declaration and work
 
 ## The Word of God, not interpretations of it
 
-**Slide 51 · Christ and his word, not our interpretations of his word.**
+**Slide 52 · Christ and his word, not our interpretations of his word.**
 
 now, I wanna come back to something that I brought up last week
 
-**Slide 52 · Worms, 18 April 1521: "Unless I am convinced…"**
+**Slide 53 · Worms, 18 April 1521: "Unless I am convinced…"**
 
-and this is that Luther and his stance before the Diet of Worms he he declares himself to be captive to the word of God and he says, unless I am convinced by reason and scripture then here I stand I can do no other
-
-**Slide 53 · Captive to the Word of God**
-
-and what I was trying to suggest is that he's claiming an allegiance to the word of God, not to his opinions on the word of God he's not saying my opinion on this matter at this moment has now become a new creed for me he's saying I have an obligation to the word of God to wrestle with it to grapple with it to come to it and when I come away with an understanding of it then I have an obligation to follow that understanding according to my conscience,
+and this is that Luther and his stance before the Diet of Worms he he declares himself to be captive to the word of God and he says, unless I am convinced by reason and scripture then here I stand I can do no other and what I was trying to suggest is that he's claiming an allegiance to the word of God, not to his opinions on the word of God he's not saying my opinion on this matter at this moment has now become a new creed for me he's saying I have an obligation to the word of God to wrestle with it to grapple with it to come to it and when I come away with an understanding of it then I have an obligation to follow that understanding according to my conscience,
 
 **Slide 54 · Word of God ≠ interpretations of the Word of God**
 
@@ -268,20 +268,16 @@ he's saying let's be united on Christ
 
 our commitment to Christ our commitment to Christ's word
 
-**Slide 61 · Spirit / Scripture / Reason**
+**Slide 61 · We are united not by a shared interpretation, but by a shared commitment to Scripture itself.**
 
-and this is not I think an alien concept to most of us every week I meet with other Christians who have different understandings of scripture than I do and we talk about those understandings and we wrestle with them, and sometimes we move closer together in our interpretations, and sometimes we move farther apart in our interpretations but we usually move closer together as members of the body of Christ one way or the other
-
-**Slide 62 · We are united not by a shared interpretation, but by a shared commitment to Scripture itself.**
-
-we are not united by a shared commitment to a particular interpretation, but by a shared commitment to scripture itself, and this is and that shared commitment to scripture is part of our shared commitment to Christ again not our interpretation of scripture not our interpretation of Christ. We are united by Christ himself, and we are called into a commitment with the word of God, even when that commitment brings us by its very nature into all diversity of thought
+and this is not I think an alien concept to most of us every week I meet with other Christians who have different understandings of scripture than I do and we talk about those understandings and we wrestle with them, and sometimes we move closer together in our interpretations, and sometimes we move farther apart in our interpretations but we usually move closer together as members of the body of Christ one way or the other we are not united by a shared commitment to a particular interpretation, but by a shared commitment to scripture itself, and this is and that shared commitment to scripture is part of our shared commitment to Christ again not our interpretation of scripture not our interpretation of Christ. We are united by Christ himself, and we are called into a commitment with the word of God, even when that commitment brings us by its very nature into all diversity of thought
 
 ## Landing
 
-**Slide 63 · Recognize the unity Christ has already made, and strive to act accordingly.**
+**Slide 62 · Recognize the unity Christ has already made, and strive to act accordingly.**
 
 so this is where I think we we land with trying to understand what Campbell is doing and what he's setting out as the principle of unity going forward and simply that we must start by recognizing the existing unity of the body of Christ and striving to act accordingly
 
 ---
 
-Slides 64–75 (black, discussion, the five ideas, the ideas summary, discussion, site, next week, black) have no transcript; their notes stay as they are.
+Slides 63–74 (black, discussion, the five ideas, the ideas summary, discussion, site, next week, black) have no transcript; their notes stay as they are.
