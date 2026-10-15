@@ -512,6 +512,8 @@ A(O('Campbell expected it'))
 A(O('And would not want it'))
 
 # ---------- 7. ONLY CHRIST ----------
+A('<section class="slide"><h2 style="font-size:clamp(60px,14vmin,180px);line-height:1.02;max-width:none">How can<br>Christians<br>be united?</h2>'
+  '<aside class=notes>(transcript)</aside></section>')
 A(O('There can only be one answer'))
 A(O('reasonably expect to find it anywhere but in Christ'))
 A(pickL('a job only Christ can do').replace('&rarr; Which is not to say creeds are bad.', '&rarr; Which is not to say confessions are bad.'))

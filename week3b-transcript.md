@@ -138,146 +138,150 @@ nor even could we anticipate that were they to be uniform, that that would actua
 
 ## Only Christ
 
-**Slide 30 · There can only be one answer. / Christ alone**
+**Slide 30 · How can Christians be united?**
 
-so what how is unity to be achieved and of course, the answer the only answer that is possible is Christ himself
+so what how is unity to be achieved
 
-**Slide 31 · "…anywhere but in Christ and his simple word"**
+**Slide 31 · There can only be one answer. / Christ alone**
+
+and of course, the answer the only answer that is possible is Christ himself
+
+**Slide 32 · "…anywhere but in Christ and his simple word"**
 
 if Christ is the reason for our diversity and for our our inescapable role of conscience, then Christ is the only one who can actually unite us,
 
-**Slide 32 · Every time we hand… a job only Christ can do, it fails**
+**Slide 33 · Every time we hand… a job only Christ can do, it fails**
 
 and so the problem is not with confessions and creeds as tools of education
 
-**Slide 33 · There is nothing wrong with a confession**
+**Slide 34 · There is nothing wrong with a confession**
 
 Campbell will say this as well that in fact for the purposes of theological education confessions are are good and and the more detailed the better sometimes we look at the Apostles' Creed or Nicene Creed and celebrate them because they are short and and thus maybe easier to get people to agree on
 
-**Slide 34 · Proposition 7**
+**Slide 35 · Proposition 7**
 
 but Campbell's point is no if we're educating people then then we should have as much detail as we have available, but they cannot be the boundary markers of the body of Christ they cannot achieve the unity of the body of Christ and every time we try to use some instrument of unity to do what only Christ himself can do we will only create more division and animosity, and ultimately our purposes will fail
 
 ## Christ has already made us one
 
-**Slide 35 · Christ already unites us**
+**Slide 36 · Christ already unites us**
 
 so what do we do with this practically speaking? we know that the church is divided and is always dividing in some sense and the first thing, and the most fundamental thing that Thomas Campbell offers is that Christ in fact has already made us one
 
-**Slide 36 · Proposition 1**
+**Slide 37 · Proposition 1**
 
 so this is the first proposition of the Declaration and Address that the church of Christ upon earth is essentially constitutionally one consisting of all those in every place who put their faith in Christ and seek to obey him and of none others
 
-**Slide 37 · Proposition 1, misread: Not only the ones with our name on the sign / Rome / Constantinople / "All those in every place"**
+**Slide 38 · Proposition 1, misread: Not only the ones with our name on the sign / Rome / Constantinople / "All those in every place"**
 
 now, sometimes you, if you've heard this quoted in Church of Christ context, you might've heard this used to mean the opposite of what he's saying you might've heard it used to suggest that only people who have the name Church of Christ out front are actually part of the true church the true body of Christ you find some attitudes among Catholic and Orthodox thinkers who will say something to this effect that you know this is the true church and you know, if you are not part of us then you are not part of the true church Orthodox will say this Catholic some Catholics will say that some Orthodox will say this and of course you know some Church of Christ people will say this but that is not what Thomas Campbell is saying it's the opposite of what Thomas Campbell is saying he's saying the Church of Christ upon the earth consists of all those in every place it consists of Christians in all the denominations all the sects all the different divisions they all are already part of the church of Christ and the body of Christ Christ has made them one. We have not made them one and all the attempts that we have made to divide them and to define the boundaries according to our own principles and standards are in fact, erroneous
 
-**Slide 38 · David Bentley Hart, "The Myth of Schism" (citation)**
+**Slide 39 · David Bentley Hart, "The Myth of Schism" (citation)**
 
 I think David Bentley Hart an Eastern Orthodox theologian he has an essay from years ago, called The Myth of Schism and he's dealing with the 1054 schism between the Catholic Church and the Orthodox Church and he deals with the history of this of the schism and how to think about it,
 
-**Slide 39 · Hart: "We are divided, we know, but how, when, and by what authority?"**
+**Slide 40 · Hart: "We are divided, we know, but how, when, and by what authority?"**
 
 but I think the underlying principle he's getting at is that in fact, the body of Christ the church is made one by Christ
 
-**Slide 40 · Hart: "…are we sure that we are?"**
+**Slide 41 · Hart: "…are we sure that we are?"**
 
 and the pope and the bishop and the council, and whoever else has no authority to divide it and further, they have no ability to divide it.
 
-**Slide 41 · No sect ever had the authority, or the ability, to divide what Christ has joined.**
+**Slide 42 · No sect ever had the authority, or the ability, to divide what Christ has joined.**
 
 It's constitutionally one because of what Christ himself has done and that's what Thomas Campbell is saying the Church of Christ upon earth is constitutionally one
 
 ## Our first duty: recognize it
 
-**Slide 42 · Do we recognize it?**
+**Slide 43 · Do we recognize it?**
 
 so what do we do with this yes, the first thing we do is to recognize it
 
-**Slide 43 · 1 Corinthians 11:29, "not discerning the Lord's body"**
+**Slide 44 · 1 Corinthians 11:29, "not discerning the Lord's body"**
 
 and I think this is part of the reason communion is so significant to this story right in 1 Corinthians 11 Paul critiques the Corinthians because in their practice of the Lord's Supper they are not recognizing the body of Christ. They're not recognizing the body of Christ in their brothers and so he says they're drinking communion they're drinking condemnation upon themselves because they have failed to recognize the body of Christ,
 
-**Slide 44 · When Campbell gave the Supper to other Presbyterians, he was discerning the body.**
+**Slide 45 · When Campbell gave the Supper to other Presbyterians, he was discerning the body.**
 
 so when Thomas Campbell is extending communion to Christians of a different sect than his this is what he's doing. He's trying to recognize the body of Christ.
 
-**Slide 45 · "Holding fast the unity of the spirit"**
+**Slide 46 · "Holding fast the unity of the spirit"**
 
 He's trying to recognize that whatever our sects and sub-sects have done with their divisions and declaring people anathema and so forth
 
-**Slide 46 · Proposition 9**
+**Slide 47 · Proposition 9**
 
 they never actually had the authority nor the ability to divide what Christ himself has joined
 
-**Slide 47 · Romans 15:7**
+**Slide 48 · Romans 15:7**
 
 (No words in the transcript for this slide.)
 
-**Slide 48 · I receive you because Christ received you.**
+**Slide 49 · I receive you because Christ received you.**
 
 (No words in the transcript for this slide.)
 
-**Slide 49 · Our first duty: recognize what Christ has already done.**
+**Slide 50 · Our first duty: recognize what Christ has already done.**
 
 so the first duty that Campbell is calling us to is to recognize recognize what Christ has already done and to stop pretending that there is something else that has taken precedence over Christ's own declaration and work
 
 ## The Word of God, not interpretations of it
 
-**Slide 50 · Christ and his word, not our interpretations of his word.**
+**Slide 51 · Christ and his word, not our interpretations of his word.**
 
 now, I wanna come back to something that I brought up last week
 
-**Slide 51 · Worms, 18 April 1521: "Unless I am convinced…"**
+**Slide 52 · Worms, 18 April 1521: "Unless I am convinced…"**
 
 and this is that Luther and his stance before the Diet of Worms he he declares himself to be captive to the word of God and he says, unless I am convinced by reason and scripture then here I stand I can do no other
 
-**Slide 52 · Captive to the Word of God**
+**Slide 53 · Captive to the Word of God**
 
 and what I was trying to suggest is that he's claiming an allegiance to the word of God, not to his opinions on the word of God he's not saying my opinion on this matter at this moment has now become a new creed for me he's saying I have an obligation to the word of God to wrestle with it to grapple with it to come to it and when I come away with an understanding of it then I have an obligation to follow that understanding according to my conscience,
 
-**Slide 53 · Word of God ≠ interpretations of the Word of God**
+**Slide 54 · Word of God ≠ interpretations of the Word of God**
 
 but that's not an obligation upon you, according to your conscience you're not committed to my understanding or my interpretation you are committed to the word, I am committed to the word of God and if we want to persuade each other about our interpretation then we come together with reason and scripture and try to do so, and so this is I I think critically important for thinking about this concept and this language
 
-**Slide 54 · Campbell is not trading the Westminster Confession for an agreed reading of the Bible.**
+**Slide 55 · Campbell is not trading the Westminster Confession for an agreed reading of the Bible.**
 
 because in the Church of Christ and in Campbell and Stone, and so on, we will talk about the supremacy of the word of God and what this has often been interpreted as and often been applied as in our circles is a new kind of legalism where we think something like this, Thomas Campbell is throwing out the Westminster Confession and he's he's saying we're all just going to agree on interpreting the Bible
 
-**Slide 55 · If we cannot agree on the Westminster Confession, how much less on all of Scripture?**
+**Slide 56 · If we cannot agree on the Westminster Confession, how much less on all of Scripture?**
 
 and this is not what he's saying not what he can be saying because if it's impossible to agree on interpreting the Westminster Confession then how much more is it impossible to agree on interpretations of the Bible Campbell knows this
 
-**Slide 56 · "Christ alone being the head, the center, his word the rule"**
+**Slide 57 · "Christ alone being the head, the center, his word the rule"**
 
 so when he says that he wants us to be united on Christ and his word
 
-**Slide 57 · Not our understanding / not our interpretation / Christ and Scripture itself**
+**Slide 58 · Not our understanding / not our interpretation / Christ and Scripture itself**
 
 he's not saying to be united on Christ and a particular interpretation of that word
 
-**Slide 58 · Hold it. Do not require it.**
+**Slide 59 · Hold it. Do not require it.**
 
 he's saying let's be united on Christ
 
-**Slide 59 · Keep your reading. Do not make it your brother's test.**
+**Slide 60 · Keep your reading. Do not make it your brother's test.**
 
 our commitment to Christ our commitment to Christ's word
 
-**Slide 60 · Spirit / Scripture / Reason**
+**Slide 61 · Spirit / Scripture / Reason**
 
 and this is not I think an alien concept to most of us every week I meet with other Christians who have different understandings of scripture than I do and we talk about those understandings and we wrestle with them, and sometimes we move closer together in our interpretations, and sometimes we move farther apart in our interpretations but we usually move closer together as members of the body of Christ one way or the other
 
-**Slide 61 · We are united not by a shared interpretation, but by a shared commitment to Scripture itself.**
+**Slide 62 · We are united not by a shared interpretation, but by a shared commitment to Scripture itself.**
 
 we are not united by a shared commitment to a particular interpretation, but by a shared commitment to scripture itself, and this is and that shared commitment to scripture is part of our shared commitment to Christ again not our interpretation of scripture not our interpretation of Christ. We are united by Christ himself, and we are called into a commitment with the word of God, even when that commitment brings us by its very nature into all diversity of thought
 
 ## Landing
 
-**Slide 62 · Recognize the unity Christ has already made, and strive to act accordingly.**
+**Slide 63 · Recognize the unity Christ has already made, and strive to act accordingly.**
 
 so this is where I think we we land with trying to understand what Campbell is doing and what he's setting out as the principle of unity going forward and simply that we must start by recognizing the existing unity of the body of Christ and striving to act accordingly
 
 ---
 
-Slides 63–74 (black, discussion, the five ideas, the ideas summary, discussion, site, next week, black) have no transcript; their notes stay as they are.
+Slides 64–75 (black, discussion, the five ideas, the ideas summary, discussion, site, next week, black) have no transcript; their notes stay as they are.
