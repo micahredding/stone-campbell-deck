@@ -218,7 +218,7 @@ He's trying to recognize that whatever our sects and sub-sects have done with th
 
 they never actually had the authority nor the ability to divide what Christ himself has joined
 
-**Slide 49 · I receive you because Christ received you.**
+**Slide 49 · Romans 15:7**
 
 (No words in the transcript for this slide.)
 
