@@ -599,7 +599,7 @@ IDEAS = [
      'Luther was captive to the Word of God, not to his reading of it. &ldquo;Christ alone being the head, the center, his word the rule.&rdquo; Keep your reading; do not make it your brother&rsquo;s test.'),
 ]
 for k, (h, n) in enumerate(IDEAS, 1):
-    A('<section class="slide idea room"><div class="eyebrow quiet">Idea %d of %d</div><h2>%s</h2><aside class=notes>%s</aside></section>' % (k, len(IDEAS), h, n))
+    A('<section class="slide idea room"><div class=eyebrow>Idea %d of %d</div><h2>%s</h2><aside class=notes>%s</aside></section>' % (k, len(IDEAS), h, n))
 A('<section class="slide room"><div class=eyebrow>Ideas</div>'
   '<div class="litany ideasum" style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">'
   + ''.join('<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (k, plain(h)) for k, (h, _) in enumerate(IDEAS, 1)) +
@@ -617,6 +617,16 @@ for x in OLD[_ai:]:
 for x in OLD[:_ai]:
     if id(x) in used or not _plain(x) or _plain(x).startswith(_skip): continue
     A(x)
+
+# ---------- each idea, where it first arrives in the talk, carries the label it has at the end ----------
+for _txt, _k in (('Freedom of conscience is how Christ has put his body together.', 1),
+                 ('There can only be one answer. Christ alone', 2),
+                 ('Christ already unites us.', 3),
+                 ('Our first duty: recognize what Christ has already done.', 4),
+                 ('Christ and his word, not our interpretations of his word.', 5)):
+    _i = [i for i, x in enumerate(S[:66]) if _plain(x) == _txt]
+    assert len(_i) == 1, (_txt, _i)
+    S[_i[0]] = re.sub(r'^(<section[^>]*>)(?:<div class=eyebrow>[^<]*</div>)?', lambda m: m.group(1) + '<div class=eyebrow>Idea %d of 5</div>' % _k, S[_i[0]], count=1)
 
 # ---------- presenter notes = the transcript (week3b-transcript.md, one section per slide) ----------
 _tx = open(os.path.join(_H, '..', '..', '..', 'week3b-transcript.md'), encoding='utf-8').read()
