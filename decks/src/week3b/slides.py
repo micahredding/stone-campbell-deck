@@ -525,7 +525,11 @@ A(O('There is nothing wrong with a creed')
 A(O('Proposition 7'))
 
 # ---------- 8. CHRIST HAS ALREADY MADE US ONE ----------
-A(O('Christ already unites us.'))
+A('<section class="slide"><h2 style="font-size:clamp(56px,12vmin,160px);line-height:1.05;max-width:none">So what do we do with this,<br>practically speaking?</h2>'
+  '<aside class=notes>(transcript)</aside></section>')
+A('<section class="slide breath"><h2 style="font-size:clamp(70px,17vmin,220px);line-height:1;max-width:none">Christ <span style="color:var(--gold)">already</span><br>unites us.</h2>'
+  '<aside class=notes>(transcript)</aside></section>')
+used.add(id(find(OLD, 'Christ already unites us.')))
 A(O('Proposition 1'))
 A('<section class="slide breath"><div class=eyebrow>Proposition 1, misread</div><div class="litany bigl" style="align-items:center">'
   '<div class="no frag">Not only the ones with our name on the sign.</div>'
