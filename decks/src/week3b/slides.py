@@ -561,7 +561,6 @@ A(ST(G('When Campbell gave the Supper to other Presbyterians,', 'he was discerni
      'The charge of 1807: he gave communion to Presbyterians outside the Seceders. He was recognizing the body of Christ across the lines his own synod drew.'))
 A(O('Holding fast'))
 A(O('Proposition 9'))
-A(O('Receive one another'))
 A(O('I receive you because Christ received you.'))
 A(ST(G('Our first duty:', 'recognize what Christ has already done.'),
      'And stop pretending that anything else has taken precedence over Christ&rsquo;s own declaration and work.'))

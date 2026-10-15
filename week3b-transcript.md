@@ -218,74 +218,70 @@ He's trying to recognize that whatever our sects and sub-sects have done with th
 
 they never actually had the authority nor the ability to divide what Christ himself has joined
 
-**Slide 49 · Romans 15:7**
+**Slide 49 · I receive you because Christ received you.**
 
 (No words in the transcript for this slide.)
 
-**Slide 50 · I receive you because Christ received you.**
-
-(No words in the transcript for this slide.)
-
-**Slide 51 · Our first duty: recognize what Christ has already done.**
+**Slide 50 · Our first duty: recognize what Christ has already done.**
 
 so the first duty that Campbell is calling us to is to recognize recognize what Christ has already done and to stop pretending that there is something else that has taken precedence over Christ's own declaration and work
 
 ## The Word of God, not interpretations of it
 
-**Slide 52 · Christ and his word, not our interpretations of his word.**
+**Slide 51 · Christ and his word, not our interpretations of his word.**
 
 now, I wanna come back to something that I brought up last week
 
-**Slide 53 · Worms, 18 April 1521: "Unless I am convinced…"**
+**Slide 52 · Worms, 18 April 1521: "Unless I am convinced…"**
 
 and this is that Luther and his stance before the Diet of Worms he he declares himself to be captive to the word of God and he says, unless I am convinced by reason and scripture then here I stand I can do no other
 
-**Slide 54 · Captive to the Word of God**
+**Slide 53 · Captive to the Word of God**
 
 and what I was trying to suggest is that he's claiming an allegiance to the word of God, not to his opinions on the word of God he's not saying my opinion on this matter at this moment has now become a new creed for me he's saying I have an obligation to the word of God to wrestle with it to grapple with it to come to it and when I come away with an understanding of it then I have an obligation to follow that understanding according to my conscience,
 
-**Slide 55 · Word of God ≠ interpretations of the Word of God**
+**Slide 54 · Word of God ≠ interpretations of the Word of God**
 
 but that's not an obligation upon you, according to your conscience you're not committed to my understanding or my interpretation you are committed to the word, I am committed to the word of God and if we want to persuade each other about our interpretation then we come together with reason and scripture and try to do so, and so this is I I think critically important for thinking about this concept and this language
 
-**Slide 56 · Campbell is not trading the Westminster Confession for an agreed reading of the Bible.**
+**Slide 55 · Campbell is not trading the Westminster Confession for an agreed reading of the Bible.**
 
 because in the Church of Christ and in Campbell and Stone, and so on, we will talk about the supremacy of the word of God and what this has often been interpreted as and often been applied as in our circles is a new kind of legalism where we think something like this, Thomas Campbell is throwing out the Westminster Confession and he's he's saying we're all just going to agree on interpreting the Bible
 
-**Slide 57 · If we cannot agree on the Westminster Confession, how much less on all of Scripture?**
+**Slide 56 · If we cannot agree on the Westminster Confession, how much less on all of Scripture?**
 
 and this is not what he's saying not what he can be saying because if it's impossible to agree on interpreting the Westminster Confession then how much more is it impossible to agree on interpretations of the Bible Campbell knows this
 
-**Slide 58 · "Christ alone being the head, the center, his word the rule"**
+**Slide 57 · "Christ alone being the head, the center, his word the rule"**
 
 so when he says that he wants us to be united on Christ and his word
 
-**Slide 59 · Not our understanding / not our interpretation / Christ and Scripture itself**
+**Slide 58 · Not our understanding / not our interpretation / Christ and Scripture itself**
 
 he's not saying to be united on Christ and a particular interpretation of that word
 
-**Slide 60 · Hold it. Do not require it.**
+**Slide 59 · Hold it. Do not require it.**
 
 he's saying let's be united on Christ
 
-**Slide 61 · Keep your reading. Do not make it your brother's test.**
+**Slide 60 · Keep your reading. Do not make it your brother's test.**
 
 our commitment to Christ our commitment to Christ's word
 
-**Slide 62 · Spirit / Scripture / Reason**
+**Slide 61 · Spirit / Scripture / Reason**
 
 and this is not I think an alien concept to most of us every week I meet with other Christians who have different understandings of scripture than I do and we talk about those understandings and we wrestle with them, and sometimes we move closer together in our interpretations, and sometimes we move farther apart in our interpretations but we usually move closer together as members of the body of Christ one way or the other
 
-**Slide 63 · We are united not by a shared interpretation, but by a shared commitment to Scripture itself.**
+**Slide 62 · We are united not by a shared interpretation, but by a shared commitment to Scripture itself.**
 
 we are not united by a shared commitment to a particular interpretation, but by a shared commitment to scripture itself, and this is and that shared commitment to scripture is part of our shared commitment to Christ again not our interpretation of scripture not our interpretation of Christ. We are united by Christ himself, and we are called into a commitment with the word of God, even when that commitment brings us by its very nature into all diversity of thought
 
 ## Landing
 
-**Slide 64 · Recognize the unity Christ has already made, and strive to act accordingly.**
+**Slide 63 · Recognize the unity Christ has already made, and strive to act accordingly.**
 
 so this is where I think we we land with trying to understand what Campbell is doing and what he's setting out as the principle of unity going forward and simply that we must start by recognizing the existing unity of the body of Christ and striving to act accordingly
 
 ---
 
-Slides 65–76 (black, discussion, the five ideas, the ideas summary, discussion, site, next week, black) have no transcript; their notes stay as they are.
+Slides 64–75 (black, discussion, the five ideas, the ideas summary, discussion, site, next week, black) have no transcript; their notes stay as they are.
