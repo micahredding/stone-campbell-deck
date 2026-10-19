@@ -3,11 +3,11 @@
 The second slide of each deck is a short quiz drawn from this list (not from the slideshow material). Mark each item when used.
 
 - What are these? Extra points if you can sing this.
-- Finish this sentence: We speak (where the Bible speaks) and we are silent (where the Bible is silent).
+- Finish this sentence: We speak (where the Bible speaks) and we are silent (where the Bible is silent). — *used: Chapter 4*
 - We believe in doing Bible things (the Bible way). — *used: Chapter 3*
 - OR: We call Bible things (by Bible names). — *used: Chapter 3*
 - We are Christians only… (but not the only Christians). — *used: Chapter 2*
-- No creed (but Christ). (Alternative answer: the Bible.)
+- No creed (but Christ). (Alternative answer: the Bible.) — *used: Chapter 4*
 - When someone becomes a Christian, we say they: A) get saved B) accept Christ C) obey the gospel
 - How often should you go to church? (As often as the doors are open.)
 - What exhortation do you give someone who has a habit of missing worship? (Do not forsake the assembly.)
