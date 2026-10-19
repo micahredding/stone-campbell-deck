@@ -1,6 +1,7 @@
 # Deck conventions (Our Wild Democracy)
 
 - Build: `python3 decks/src/weekN/build.py` writes `decks/weekN-*.html`. Slides are Python strings in `decks/src/weekN/slides.py`; helpers `Q()` (quote), `N()` (notes), `C()` (card).
+- Chapters 3b and 4 build with the Chapter 3 engine: `python3 decks/src/week3b/build.py`, `python3 decks/src/week4/build.py` (both run `decks/src/week3/build.py` with `PART` set).
 - Merge every change to `main`.
 - Check every Declaration and Address quotation against the class site's full text (`stone-campbell/src/documents/declaration-and-address-fulltext.njk`).
 - Keep presenter notes accurate when slides move; keep them tight.

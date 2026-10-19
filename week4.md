@@ -67,10 +67,8 @@ Five years later, in Pennsylvania, Thomas Campbell would write that the church i
 
 ## Ideas
 
-1. **Exit without excommunication.** They withdrew from the synod's jurisdiction — but pointedly *not* from its communion, refusing to un-church their judges. The movement's founding moral gesture.
-2. **Institutions are mortal by design.** "It is appointed for all delegated bodies once to die." When a structure obstructs unity, the faithful act is willing dissolution — and they did it while *succeeding*, not while failing.
-3. **Conscience has a price tag.** Stone tore up his own salary paper in front of his congregations, having already freed his slaves — "I preferred honesty and a good conscience to all these things."
-4. **Freedom requires forbearance.** "Pray more and dispute less." A church that has given up its courts has nothing left to settle its quarrels but patience and prayer — and the will says so in the same breath that it gives up the courts.
+1. **Institutional self-sacrifice, in the name of unity.** Nine months old and thriving, the presbytery willed itself to "die, be dissolved, and sink into union with the Body of Christ at large." "It is appointed for all delegated bodies once to die."
+2. **Authority returns to the gathered congregation.** Each church to "choose her own preacher… admit members… remove offences; and never henceforth delegate her right of government to any man or set of men whatever."
 
 ---
 

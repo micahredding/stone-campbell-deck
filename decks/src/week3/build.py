@@ -1,7 +1,7 @@
 import re, sys, base64, os
 # PART=2 builds Chapter 3, part two (decks/src/week3b/slides.py) with this same engine, styles and images.
 PART = os.environ.get('PART', '1')
-sys.path.insert(0, 'decks/src/week3' if PART == '1' else 'decks/src/week3b')
+sys.path.insert(0, {'1': 'decks/src/week3', '2': 'decks/src/week3b', '4': 'decks/src/week4'}[PART])
 from slides import S, PATDEFS, CHRISTENDOM_CSS
 
 body='\n\n'.join(S)
@@ -9,8 +9,9 @@ EGG = 'eggslide' in body
 if EGG:
     sys.path.insert(0, 'decks/src/elements')
     from egg_anim import EGG_ANIM_CSS, EGG_ANIM_JS
-for _k,_f in (('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_GROVE','grove.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','anabaptist_drowning.jpg'),('IMG_EGG','recap_egg.jpg')):
-    body=body.replace(_k, 'data:image/jpeg;base64,'+__import__('base64').b64encode(open('decks/src/week3/'+_f,'rb').read()).decode())
+for _k,_f in (('IMG_STONE','stone.jpg'),('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_GROVE','grove.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','anabaptist_drowning.jpg'),('IMG_EGG','recap_egg.jpg')):
+    _p = 'decks/src/week4/'+_f if PART == '4' and os.path.exists('decks/src/week4/'+_f) else 'decks/src/week3/'+_f
+    if _k in body: body=body.replace(_k, 'data:image/jpeg;base64,'+__import__('base64').b64encode(open(_p,'rb').read()).decode())
 css=open('decks/src/week3/engine.css').read()
 css+= ('\n  /* ---- Week 3 type scale (inherited from Week 2) ---- */\n'
        '  #deck .slide h1{font-size:clamp(52px,11vmin,140px);line-height:1.05}\n'
@@ -70,6 +71,11 @@ css += ('  /* ---- larger type, 2026-10-11 ---- */\n'
         '  #deck .slide .litany.ideasum .no{font-size:clamp(30px,6.2vmin,78px);line-height:1.2;position:relative;padding-left:1.6em}#deck .slide .litany.ideasum .no>span:first-child{position:absolute;left:0;top:0}\n'
         '  #deck .recapshots{flex-wrap:nowrap}#deck .recapshots .shot{width:min(34vmin,17vw)}#deck .recapshots .shot img{height:26vh!important}\n')
 if EGG: css += EGG_ANIM_CSS
+if PART == '4':
+    css += '  .bgimg.househbg{background-image:url("%s");background-position:center 40%%;filter:sepia(.35) brightness(.75)}\n' % b64('decks/src/week4/meetinghouse.jpg')
+    css += ('  .wmap.all .th{opacity:.85}\n'
+            '  #deck .slide .wmap .ms-christ .th{font-size:clamp(22px,4vmin,48px)}#deck .slide .wmap .ms-pri .th{font-size:clamp(36px,7.4vmin,88px)}\n'
+            '  #deck .slide .wmap .ms-sec .th,#deck .slide .wmap .ms-pra .th{font-size:clamp(16px,2.8vmin,32px)}#deck .slide .ideasmap .small{font-size:clamp(14px,2.1vmin,24px)}\n')
 css += '  #deck .litany .lcite{display:block;font-family:"IM Fell English SC",Georgia,serif;font-style:normal;font-size:.55em;letter-spacing:.1em;color:var(--smoke);margin-top:.3vmin}\n'
 import os
 if os.path.exists('decks/src/week3/marburg.jpg'):
@@ -80,14 +86,14 @@ else:
     print('note: decks/src/week3/marburg.jpg missing; the Marburg slide builds without its painting')
 
 js=open('decks/src/week3/engine.js').read()
-K = 'w3' if PART == '1' else 'w3b'
+K = {'1': 'w3', '2': 'w3b', '4': 'w4'}[PART]
 js=js.replace("'w1cur'","'%scur'" % K).replace("'w1mode'","'%smode'" % K).replace("'w1strip'","'%sstrip'" % K)
 js=js.replace("'w1presenter'","'%spresenter'" % K)
 js=js.replace("||'read')","||'present')")
 
 html=('<!doctype html><html><head><meta charset=utf8>'
  '<meta name=viewport content="width=device-width,initial-scale=1">'
- '<title>Our Wild Democracy &middot; Chapter 3 &middot; The Declaration and Address' + ('' if PART == '1' else ', part two') + '</title>'
+ '<title>Our Wild Democracy &middot; ' + {'1': 'Chapter 3 &middot; The Declaration and Address', '2': 'Chapter 3 &middot; The Declaration and Address, part two', '4': 'Chapter 4 &middot; The Last Will and Testament'}[PART] + '</title>'
  '<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap">'
  '<style>\n/* ============================================================\n'
  '   THE DECLARATION AND ADDRESS — Week 3 deck\n'
@@ -99,7 +105,7 @@ html=('<!doctype html><html><head><meta charset=utf8>'
  '<div id=hint>&rarr; / space / click &middot; f fullscreen &middot; n read/present &middot; p presenter window &middot; s notes on THIS screen</div>'
  '<div id=mode></div><div id=strip></div><div id=pres></div>\n' + js + (EGG_ANIM_JS if EGG else '') + '</html>')
 
-out='decks/week3-declaration-address.html' if PART == '1' else 'decks/week3b-declaration-address-part-two.html'
+out={'1': 'decks/week3-declaration-address.html', '2': 'decks/week3b-declaration-address-part-two.html', '4': 'decks/week4-last-will.html'}[PART]
 open(out,'w').write(html)
 print("wrote", out)
 print("bytes:", len(html), "=", round(len(html)/1048576,2), "MB")
