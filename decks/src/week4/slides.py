@@ -31,10 +31,14 @@ WIT = 'The Witnesses&rsquo; Address, 1804'
 STONE = 'Barton W. Stone, <i>Biography</i> (1847)'
 
 IDEAS = [
+    ('Exit<br>' + G('without excommunication.'),
+     'They withdrew &ldquo;from their jurisdiction, but not from their communion,&rdquo; and would not un-church the men un-churching them. Thomas Campbell, five years later, the same move: he kept the practice he was condemned for, but &ldquo;he need not impose them upon others, by anywise requiring their approbation.&rdquo;'),
     ('Institutional self-sacrifice,<br>' + G('in the name of unity.'),
      'The presbytery was nine months old and thriving, and it willed itself to &ldquo;die, be dissolved, and sink into union with the Body of Christ at large.&rdquo; When their own institution began to stand where only Christ should stand, they let it die.'),
     ('Authority returns<br>' + G('to the gathered congregation.'),
      'Each church to &ldquo;choose her own preacher&hellip; admit members&hellip; remove offences; and never henceforth delegate her right of government to any man or set of men whatever.&rdquo; The priesthood of all believers, as polity.'),
+    ('Freedom<br>' + G('requires forbearance.'),
+     '&ldquo;Pray more and dispute less.&rdquo; A church that has given up its courts has nothing left to settle its quarrels but patience and prayer, and the will says so in the same breath as it gives up the courts.'),
 ]
 def IDEA(k):
     h, n = IDEAS[k - 1]
@@ -96,6 +100,12 @@ A(Q('&ldquo;In a short recess of Synod, we five withdrew to a private garden, wh
 
 A(CARD('They left the court.<br>' + G('They did not leave the table.'),
   'The chapter in one line. The men about to put them out were still their brothers, and they would not put anyone out in return. Last week&rsquo;s first idea, lived: conscience claimed for the brother, even the brother who judges you.'))
+
+A(IDEA(1))
+
+A(Q('&ldquo;&hellip;no man can relinquish his opinions or practices till once convinced that they are wrong&hellip; One thing, however, he may do: when not bound by an express command, <b>he need not impose them upon others, by anywise requiring their approbation</b>&hellip;&rdquo;', 'Thomas Campbell, <i>Declaration and Address</i>, 1809 &middot; Appendix', 'Five years later, the same move') +
+  N('Chapter 2: the Seceders tried and censured Thomas Campbell for giving the Supper to other Presbyterians. He did not give the practice up, and he did not require his judges to adopt it. That is exit without excommunication from the other side: keep your practice; do not make it your brother&rsquo;s test.',
+    'The sentence continues: &ldquo;and when this is done, the things, to them, are as good as dead, yea, as good as buried, too, being thus removed out of the way.&rdquo;'))
 
 A(Q('&ldquo;&hellip;we plead a privilege, which is granted in the Confession of Faith, chap. 1. sec. 9, 10&hellip; that <b>the infallible rule of interpreting Scripture, is not the Confession of Faith</b>, nor any human writings whatever, but the Scripture itself.&rdquo;', 'The five, letter to their congregations, September 1803 &middot; in Stone, <i>Biography</i> (1847)', 'Quoting the Confession against itself') +
   N('Their circular letter, drafted at the new presbytery&rsquo;s first meeting and signed by all five; it says the protest made the same plea. &ldquo;We wish to pay all due deference to the Confession of Faith, and other writings of our pious fathers; but&hellip;&rdquo;',
@@ -177,7 +187,7 @@ A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,
 A(Q('&ldquo;Imprimis. We will, that this body <b>die, be dissolved, and sink into union with the Body of Christ at large</b>; for there is but one body, and one spirit, even as we are called in one hope of our calling.&rdquo;', WILL, 'First bequest') +
   N('&ldquo;Imprimis&rdquo;: in the first place, the legal word. Ephesians 4:4. The presbytery does not dissolve into nothing; it sinks into the whole church. The heir is the Body of Christ at large.'))
 
-A(IDEA(1))
+A(IDEA(2))
 
 A(Q('&ldquo;We will, that our name of distinction, with its Reverend title, <b>be forgotten</b>, that there be but one Lord over God&rsquo;s heritage, and his name one.&rdquo;', WILL, 'Their name') +
   N('A will gives things away; this one gives away everything a church body has, starting with its name and its titles. They took the name Christian (Rice Haggard&rsquo;s pamphlet).'))
@@ -192,10 +202,12 @@ A(Q('&ldquo;We will, that each particular church, as a body&hellip; <b>choose he
   N('The biggest bequest. Everything the Synod did to them (try preachers, admit, exclude) is handed to the congregation. The priesthood of all believers, as polity.',
     '&rarr; Hold this one. Next week, at Brush Run, a congregation will use exactly this right.'))
 
-A(IDEA(2))
+A(IDEA(3))
 
 A(Q('&ldquo;We will, that preachers and people, cultivate a spirit of mutual forbearance; <b>pray more and dispute less</b>; and while they behold the signs of the times, look up, and confidently expect that redemption draweth nigh.&rdquo;', WILL, 'To preachers and people') +
   N('A church that has given away its courts has nothing left to settle its quarrels but forbearance and prayer, and the will says so in the same breath. Then: look up; redemption draweth nigh. They died expecting the future.'))
+
+A(IDEA(4))
 
 # ---------- 5 WHY ----------
 A(Q('&ldquo;&hellip;from its first existence it was knit together in love, lived in peace and concord, and <b>died a voluntary and happy death</b>.&rdquo;', WIT, 'The witnesses') +
@@ -221,11 +233,11 @@ A(BLACK)
 DISCUSS = re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>Backup prompts (off the slide): What do we keep alive mostly because it is ours? Who in our congregation holds authority that belongs to the gathered church? If our own church were thriving, could we let some part of it die for the sake of unity?<br>If the room is slow: &ldquo;What would you put in our will?&rdquo;</aside>',
                  w3b.pick('&#9670; for discussion', 0), flags=re.S)
 A(DISCUSS)
-A(IDEA(1)); A(IDEA(2))
+for _k in range(1, len(IDEAS) + 1): A(IDEA(_k))
 A('<section class="slide room"><div class=eyebrow>Ideas</div>'
   '<div class="litany ideasum" style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">'
   + ''.join('<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (k, plain(h)) for k, (h, _) in enumerate(IDEAS, 1)) +
-  '</div><aside class=notes>Both at once, before the discussion.</aside></section>')
+  '</div><aside class=notes>All four at once, before the discussion.</aside></section>')
 A(DISCUSS)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. Both of tonight&rsquo;s sources are there in full: the <i>Last Will and Testament</i> with the Witnesses&rsquo; Address, and Stone&rsquo;s <i>Biography</i>. Say &ldquo;sources and other information are on the site,&rdquo; and leave it there.</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))

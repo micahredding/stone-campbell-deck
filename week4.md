@@ -67,8 +67,10 @@ Five years later, in Pennsylvania, Thomas Campbell would write that the church i
 
 ## Ideas
 
-1. **Institutional self-sacrifice, in the name of unity.** Nine months old and thriving, the presbytery willed itself to "die, be dissolved, and sink into union with the Body of Christ at large." "It is appointed for all delegated bodies once to die."
-2. **Authority returns to the gathered congregation.** Each church to "choose her own preacher… admit members… remove offences; and never henceforth delegate her right of government to any man or set of men whatever."
+1. **Exit without excommunication.** They withdrew "from their jurisdiction, but not from their communion," refusing to un-church the men un-churching them. Thomas Campbell makes the same move from the other side: he keeps the practice he was condemned for, but "he need not impose them upon others, by anywise requiring their approbation" (Declaration and Address, Appendix).
+2. **Institutional self-sacrifice, in the name of unity.** Nine months old and thriving, the presbytery willed itself to "die, be dissolved, and sink into union with the Body of Christ at large." "It is appointed for all delegated bodies once to die."
+3. **Authority returns to the gathered congregation.** Each church to "choose her own preacher… admit members… remove offences; and never henceforth delegate her right of government to any man or set of men whatever."
+4. **Freedom requires forbearance.** "Pray more and dispute less." A church that has given up its courts has nothing left to settle its quarrels but patience and prayer.
 
 ---
 
