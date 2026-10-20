@@ -142,7 +142,7 @@ def locate(d, seg):
                 if j >= 0 and abs((j + len(b) + ob) - (i - oa) - len(t)) < len(t) * .15: return max(0, i - oa), j + len(b) + ob
                 i = d['norm'].find(a, i + 1)
     return None
-slide_doc, missed = {}, []
+slide_doc, missed, quotes = {}, [], []
 for si, s in enumerate(S):
     vis = re.sub(r'<aside class=notes>.*?</aside>', '', s, flags=re.S)
     K = [d['key'] for d in DOCS]
@@ -157,6 +157,7 @@ for si, s in enumerate(S):
             r = locate(DOCS[di], seg)
             if r:
                 for k in range(*r): DOCS[di]['labels'].setdefault(DOCS[di]['map'][k], set()).add(si)
+                quotes.append({'slide': si, 'doc': DOCS[di]['key'], 'text': seg.strip()})
                 slide_doc.setdefault(si, di); break
         else:
             missed.append((si, seg))
@@ -206,6 +207,16 @@ html = re.sub(r'<div id=hint>.*?</div>',
 
 out = 'decks/week4-last-will-map.html'
 open(out, 'w').write(html)
+# sidecar: the deck's structure for other tools, without the slide or document HTML
+side = {'deck': out, 'source': 'decks/src/week4/slides.py', 'built_by': 'decks/src/week4map/build.py',
+        'slides': [{'index': i, 'n': i + 1, 'title': MAP['titles'][i],
+                    'path': 'spine' if side_of[i] is None else SIDE[side_of[i]][0],
+                    'doc': DOCS[slide_doc[i]]['key'] if i in slide_doc else None} for i in range(len(S))],
+        'spine': spine, 'branches': branches, 'sections': sections,
+        'docs': [{'index': k, 'key': d['key'], 'title': re.sub(r'<[^>]+>', '', H.unescape(d['title'])), 'short': H.unescape(SHORT[d['key']])} for k, d in enumerate(DOCS)],
+        'doc_doors': doc_doors, 'quotes': quotes,
+        'unmatched': [{'slide': si, 'text': seg.strip()} for si, seg in missed]}
+open(out.replace('.html', '.json'), 'w').write(json.dumps(side, indent=1, ensure_ascii=False))
 print('wrote', out)
 print('spine', len(spine), 'slides;', len(branches), 'side paths:',
       ', '.join('%s (%d, off slide %d)' % (b['label'], len(b['slides']), b['fork'] + 1) for b in branches))
