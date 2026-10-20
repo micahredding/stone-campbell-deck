@@ -33,3 +33,46 @@
   #pres .pdoors{margin-top:1.6vmin;font-family:'IM Fell English SC',Georgia,serif;font-size:clamp(13px,2vmin,22px);letter-spacing:.08em;color:var(--bone-dim);line-height:1.6}
   #pres .pdoors b{color:var(--gold);font-weight:400}
   #pres .pdoors .seen{color:var(--smoke)}
+  /* ---- whole-document view ---- */
+  #doors .door.doc b::after{content:" \2750";color:var(--gold-dim)}
+  #ctx{position:fixed;right:2.2vmin;top:1.6vmin;z-index:11;font-family:'IM Fell English SC',Georgia,serif;font-size:clamp(12px,1.9vmin,22px);letter-spacing:.1em}
+  #ctx:empty{display:none}
+  #ctx span{color:var(--gold-dim);border:1px solid var(--ink-brown);border-radius:.4em;padding:.25em .7em;cursor:pointer;background:rgba(16,13,10,.8)}
+  #ctx span:hover{color:var(--gold);border-color:var(--gold-dim)}
+  #deck{transition:transform .45s cubic-bezier(.3,.7,.2,1),opacity .45s ease}
+  body.docon #deck{transform:scale(.5);opacity:0}
+  body.docon #doors,body.docon #crumb,body.docon #ctx,body.docon #hint{visibility:hidden}
+  #docv{position:fixed;inset:0;z-index:15;background:var(--ground);overflow-y:auto;padding:0 6vw 30vh;
+    opacity:0;visibility:hidden;transform:scale(1.6);transform-origin:50% 40%;
+    transition:transform .45s cubic-bezier(.3,.7,.2,1),opacity .45s ease,visibility 0s linear .45s}
+  body.docon #docv{opacity:1;visibility:visible;transform:none;transition:transform .45s cubic-bezier(.3,.7,.2,1),opacity .45s ease,visibility 0s}
+  #docv{--docw:min(100%,1040px)}
+  #docv .dhead{position:sticky;top:0;background:linear-gradient(var(--ground) 84%,rgba(16,13,10,0));padding:4vmin 6vw 3vmin;margin:0 -6vw;z-index:2}
+  #docv .dhead>*{max-width:var(--docw);margin-left:auto;margin-right:auto}
+  #docv .dhead h3{font-family:'IM Fell English',Georgia,serif;font-weight:400;color:var(--bone);font-size:clamp(24px,4.2vmin,50px);margin:.6vmin auto .4vmin;line-height:1.15}
+  #docv .dsub{font-family:Spectral,Georgia,serif;font-style:italic;color:var(--bone-dim);font-size:clamp(14px,2.1vmin,24px)}
+  #docv .dkey{font-family:Spectral,Georgia,serif;color:var(--smoke);font-size:clamp(12px,1.7vmin,19px);margin-top:1vmin!important}
+  #docv .dbody{max-width:var(--docw);margin:0 auto;font-family:Spectral,Georgia,serif;font-weight:300;color:var(--bone-dim);
+    font-size:clamp(18px,2.9vmin,32px);line-height:1.6;text-align:left}
+  #docv .dbody h2,#docv .dbody h3{font-family:'IM Fell English SC',Georgia,serif;font-weight:400;color:var(--gold);letter-spacing:.14em;font-size:.8em;margin:2.4em 0 .8em}
+  #docv .dbody p{margin:0 0 1em}
+  #docv .dbody blockquote{margin:0 0 1.4em;font-style:italic;padding-left:1.2em;border-left:2px solid var(--ink-brown)}
+  #docv .dbody blockquote span{display:none}
+  #docv .dbody ol{list-style:none;padding:0;margin:0}
+  #docv .dbody li{margin:0 0 1.1em}
+  #docv .dbody .item-label{display:block;font-family:'IM Fell English SC',Georgia,serif;color:var(--gold-dim);letter-spacing:.12em;font-size:.7em}
+  #docv .dbody .reading-signers ul{list-style:none;padding:0;columns:2;font-family:'IM Fell English',Georgia,serif}
+  #docv .dbody .reading-signers p{font-family:'IM Fell English SC',Georgia,serif;color:var(--gold-dim);letter-spacing:.1em;margin:.3em 0}
+  #docv .dbody .reading-body__argument{font-style:italic;color:var(--smoke)}
+  #docv mark{background:rgba(200,155,60,.10);color:var(--bone);border-bottom:2px dotted var(--gold-dim);cursor:pointer;padding:.05em 0;border-radius:0;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+  #docv mark+em,#docv em:has(mark){font-style:italic}
+  #docv mark.seen{background:rgba(200,155,60,.22);border-bottom-style:solid}
+  #docv mark.here{background:rgba(200,155,60,.42);border-bottom-color:var(--gold);color:#fff}
+  #docv mark:hover{background:rgba(200,155,60,.5)}
+  #map .page{fill:var(--ground);stroke:var(--smoke);stroke-width:1.5;cursor:pointer}
+  #map .page.seen{fill:var(--gold-dim);stroke:var(--gold-dim)}
+  #map .page.cur{stroke:var(--bone);stroke-width:3}
+  #map .pline{stroke:var(--smoke);stroke-width:1;pointer-events:none}
+  #map .root{stroke:var(--smoke);stroke-width:1;opacity:.13}
+  #map .root.seen{stroke:var(--gold-dim);opacity:.3}
+  #map .blab.src{font-size:21px;font-style:normal;font-family:'IM Fell English SC',Georgia,serif;letter-spacing:.06em}

@@ -27,7 +27,15 @@
   var where=slides.map(function(){return null});           /* slide -> {b:-1|branch, k:position} */
   spine.forEach(function(s,k){where[s]={b:-1,k:k}});
   branches.forEach(function(br,b){br.slides.forEach(function(s,k){where[s]={b:b,k:k}})});
-  function doorsAt(i){var a=[];branches.forEach(function(br,b){if(br.fork===i)a.push(b)});return a}
+  var docs=MAP.docs||[],docDoors=MAP.docDoors||[],slideDoc=MAP.slideDoc||{};
+  var docvEl=document.getElementById('docv'),ctxEl=document.getElementById('ctx');
+  /* exits from a spine slide: side paths ({b}) and whole documents ({d}) */
+  function exitsAt(i){var a=[];
+    branches.forEach(function(br,b){if(br.fork===i)a.push({b:b})});
+    docDoors.forEach(function(dd){if(dd.fork===i)a.push({d:dd.doc,label:dd.label})});return a}
+  function exitLabel(x){return x.b!=null?branches[x.b].label:x.label}
+  function exitSeen(x){return x.b!=null?branchSeen(x.b):!!seen['d'+x.d]}
+  function takeExit(x){if(x.b!=null)goto(branches[x.b].slides[0],false);else openDoc(x.d,cur)}
   function pathOf(i){var w=where[i];return w.b<0?spine:branches[w.b].slides}
   /* where → goes from slide i: along the path; off the end of a side path, back to its fork */
   function nextOf(i){var w=where[i],p=pathOf(i);
@@ -48,8 +56,8 @@
     w.classList.toggle('on',t?t.classList.contains('on'):true)})}
   function notesOf(i){var a=slides[i].querySelector('aside.notes');return a?a.innerHTML:''}
   function titleOf(i){return MAP.titles[i]||'—'}
-  function doorHTML(i,tag){return doorsAt(i).map(function(b,n){
-      return '<'+tag+' class="door'+(branchSeen(b)?' seen':'')+'" data-b="'+b+'"><b>'+(n+1)+'</b>'+branches[b].label+'</'+tag+'>'}).join(tag==='div'?'':'<br>')}
+  function doorHTML(i){return exitsAt(i).map(function(x,n){
+      return '<div class="door'+(x.d!=null?' doc':'')+(exitSeen(x)?' seen':'')+'" data-x="'+n+'"><b>'+(n+1)+'</b>'+exitLabel(x)+'</div>'}).join('')}
   function render(){
     syncWP(cur);
     seen[cur]=1;LS.set('w4mseen',JSON.stringify(seen));
@@ -63,11 +71,12 @@
       bar.style.width=((where[br.fork].k+1)/spine.length*100)+'%'}
     /* doors show once the slide is fully built, so they never step on a reveal */
     var built=fragsOf(cur).every(function(f){return f.classList.contains('on')});
-    doorsEl.innerHTML=built?doorHTML(cur,'div'):'';
+    doorsEl.innerHTML=built?doorHTML(cur):'';
+    ctxEl.innerHTML=(built&&slideDoc[cur]!=null)?'<span>&#10530; in the document</span>':'';
     strip.innerHTML='<i>'+(cur+1)+'</i> &nbsp; '+notesOf(cur);
     var nx=nextOf(cur);
     LS.set('w4mcur',String(cur));LS.set('w4mnext',String(nx));
-    LS.set('w4mdoors',JSON.stringify(doorsAt(cur).map(function(b){return [branches[b].label,branchSeen(b)?1:0]})));
+    LS.set('w4mdoors',JSON.stringify(exitsAt(cur).map(function(x){return [exitLabel(x),exitSeen(x)?1:0]})));
     try{history.replaceState(null,'',location.search+'#'+(cur+1))}catch(e){}
     if(document.body.classList.contains('mapon'))drawMap();
   }
@@ -93,10 +102,10 @@
     var p=prevOf(cur);if(p>=0)goto(p,true);
   }
   function door(n){                     /* n = 0-based door index, or -1 for the first one not yet taken */
-    var d=doorsAt(cur);if(!d.length)return;
-    if(n<0){n=0;for(var k=0;k<d.length;k++){if(!branchSeen(d[k])){n=k;break}}}
+    var d=exitsAt(cur);if(!d.length)return;
+    if(n<0){n=0;for(var k=0;k<d.length;k++){if(!exitSeen(d[k])){n=k;break}}}
     if(n>=d.length)return;
-    goto(branches[d[n]].slides[0],false);
+    takeExit(d[n]);
   }
   function up(){var w=where[cur];if(w.b>=0)goto(branches[w.b].fork,true)}
   function fadeHint(){interacted=true;hint.classList.add('gone')}
@@ -109,14 +118,31 @@
   function drawMap(){
     var W=1600,X0=50,X1=W-50,Y=96,DY=46,FAN=125,step=(X1-X0)/Math.max(1,spine.length-1);
     var depth=Math.max.apply(null,branches.map(function(b){return b.slides.length}).concat([1]));
-    var H=Y+70+depth*DY+90,s=[],lastX=-1e9,lift=0;
+    var H=Y+70+depth*DY+90+170,s=[],lastX=-1e9,lift=0;
     s.push('<svg viewBox="0 0 '+W+' '+H+'" xmlns="http://www.w3.org/2000/svg">');
     s.push('<line class=rail x1='+X0+' y1='+Y+' x2='+X1+' y2='+Y+' />');
+    /* where every dot sits, so the sources' roots can be drawn first, under everything */
+    var P={};spine.forEach(function(sl,k){P[sl]={x:X0+k*step,y:Y}});
+    branches.forEach(function(br,b){var fx=X0+where[br.fork].k*step,sibs=exitsAt(br.fork),sib=sibs.map(function(x){return x.b}).indexOf(b);
+      var x=Math.min(X1-40,Math.max(X0+40,fx+(sib-(sibs.length-1)/2)*FAN));br.slides.forEach(function(sl,k){P[sl]={x:x,y:Y+56+k*DY}})});
+    /* sources row: each whole document sits under the stretch of the hour that quotes it,
+       with a faint root up to every slide drawn from it */
+    var YS=H-120;
+    docs.forEach(function(D,di){
+      var xs=[],sx=[];Object.keys(slideDoc).forEach(function(k){if(slideDoc[k]===di){xs.push(P[+k]);if(where[+k].b<0)sx.push(P[+k].x)}});
+      if(!xs.length)return;
+      var x=(sx.length?sx:xs.map(function(p){return p.x})).reduce(function(t,v){return t+v},0)/(sx.length||xs.length),ok=!!seen['d'+di];
+      xs.forEach(function(p){s.push('<line class="root'+(ok?' seen':'')+'" x1='+x+' y1='+(YS-6)+' x2='+p.x+' y2='+(p.y+10)+' />')});
+      s.push('<rect class="page'+(ok?' seen':'')+(docOpen===di?' cur':'')+'" x='+(x-17)+' y='+(YS-4)+' width=34 height=44 rx=2 data-d='+di+' />');
+      for(var l=0;l<4;l++)s.push('<line class=pline x1='+(x-10)+' x2='+(x+10)+' y1='+(YS+6+l*8)+' y2='+(YS+6+l*8)+' />');
+      var lab=docDoors.filter(function(dd){return dd.doc===di}).map(function(dd){return dd.label})[0]||D.title;
+      s.push('<text class="blab src'+(ok?' seen':'')+'" text-anchor=middle x='+x+' y='+(YS+68)+'>'+lab.replace(/&rsquo;/g,'\u2019').replace(/, whole$/,'')+'</text>');
+    });
     MAP.sections.forEach(function(sec){var x=X0+sec.at*step;
       lift=(x-lastX<150&&!lift)?26:0;lastX=x;   /* close neighbours take turns on two rows */
       s.push('<line class=twig x1='+x+' y1='+(Y-44-lift)+' x2='+x+' y2='+(Y-16)+' /><text class=sec x='+x+' y='+(Y-52-lift)+'>'+sec.label+'</text>')});
     branches.forEach(function(br,b){
-      var fx=X0+where[br.fork].k*step,sibs=doorsAt(br.fork),sib=sibs.indexOf(b);
+      var fx=X0+where[br.fork].k*step,sibs=exitsAt(br.fork),sib=sibs.map(function(x){return x.b}).indexOf(b);
       var x=Math.min(X1-40,Math.max(X0+40,fx+(sib-(sibs.length-1)/2)*FAN)),ok=branchSeen(b);
       var y0=Y+56,yEnd=y0+(br.slides.length-1)*DY;
       s.push('<path class="twig'+(ok?' seen':'')+'" d="M'+fx+' '+Y+' L'+x+' '+y0+' L'+x+' '+yEnd+'" fill=none />');
@@ -128,7 +154,7 @@
     s.push('</svg>');
     var nSide=branches.length,nSeen=branches.filter(function(b,i){return branchSeen(i)}).length;
     mapEl.innerHTML='<h3>Chapter 4 &middot; the map</h3><div class=mk>'+nSeen+' of '+nSide+
-      ' side paths walked &middot; filled = visited &middot; click any dot &middot; m or Esc to close &middot; r clears the trail</div>'+s.join('')+'<div class=tip id=maptip></div>';
+      ' side paths walked &middot; pages = whole documents &middot; filled = visited &middot; click any dot &middot; m or Esc to close &middot; r clears the trail</div>'+s.join('')+'<div class=tip id=maptip></div>';
   }
   function dot(x,y,sl,side){
     return '<circle class="dot'+(side?' side':'')+(seen[sl]?' seen':'')+(sl===cur?' cur':'')+'" cx='+x+' cy='+y+' r='+(sl===cur?12:8)+' data-s='+sl+' />';
@@ -138,11 +164,42 @@
     document.body.classList.toggle('mapon',on);if(on)drawMap();
   }
   mapEl.addEventListener('mouseover',function(e){var d=e.target.closest('.dot');var t=document.getElementById('maptip');
-    if(t)t.textContent=d?((+d.getAttribute('data-s')+1)+' · '+titleOf(+d.getAttribute('data-s'))):''});
+    var pg=e.target.closest('.page');
+    if(t)t.innerHTML=d?((+d.getAttribute('data-s')+1)+' · '+titleOf(+d.getAttribute('data-s'))):(pg?docs[+pg.getAttribute('data-d')].title:'')});
   mapEl.addEventListener('click',function(e){e.stopPropagation();var d=e.target.closest('.dot');
-    if(d){toggleMap(false);goto(+d.getAttribute('data-s'),false)}});
+    if(d){toggleMap(false);goto(+d.getAttribute('data-s'),false);return}
+    var pg=e.target.closest('.page');if(pg){toggleMap(false);openDoc(+pg.getAttribute('data-d'))}});
   doorsEl.addEventListener('click',function(e){e.stopPropagation();var d=e.target.closest('.door');
-    if(d)goto(branches[+d.getAttribute('data-b')].slides[0],false)});
+    if(d){var x=exitsAt(cur)[+d.getAttribute('data-x')];if(x)takeExit(x)}});
+  ctxEl.addEventListener('click',function(e){e.stopPropagation();zoomOut()});
+
+  /* ---- whole documents: zoom out from a quote to its page, zoom in from any marked passage ---- */
+  var docOpen=-1;
+  function docOn(){return docOpen>=0}
+  function openDoc(d,focus){
+    docOpen=d;seen['d'+d]=1;LS.set('w4mseen',JSON.stringify(seen));LS.set('w4mdoc',String(d));
+    var D=docs[d];
+    docvEl.innerHTML='<div class=dhead><div class=eyebrow>The whole document</div><h3>'+D.title+'</h3><div class=dsub>'+D.sub+'</div>'+
+      '<div class=dkey>Gold: quoted in tonight&rsquo;s slides &middot; filled = already shown &middot; click a passage to zoom in &middot; z or Esc: back to the slide</div></div>'+
+      '<div class=dbody>'+D.html+'</div>';
+    var here=null;
+    [].slice.call(docvEl.querySelectorAll('mark')).forEach(function(m){
+      var ss=m.getAttribute('data-s').split(' ').map(Number);
+      if(ss.some(function(x){return seen[x]}))m.classList.add('seen');
+      if(focus!=null&&ss.indexOf(focus)>=0){m.classList.add('here');here=here||m}
+      m.title=ss.map(function(x){return 'slide '+(x+1)+' · '+titleOf(x)}).join('\n');
+    });
+    document.body.classList.add('docon');
+    docvEl.scrollTop=0;
+    if(here)docvEl.scrollTop=Math.max(0,here.offsetTop-docvEl.clientHeight*.38);
+    if(document.body.classList.contains('mapon'))toggleMap(false);
+  }
+  function closeDoc(){docOpen=-1;LS.set('w4mdoc','-1');document.body.classList.remove('docon')}
+  function zoomOut(){if(docOn()){closeDoc();return}var d=slideDoc[cur];if(d!=null)openDoc(d,cur)}
+  docvEl.addEventListener('click',function(e){e.stopPropagation();var m=e.target.closest('mark');if(!m)return;
+    var ss=m.getAttribute('data-s').split(' ').map(Number);
+    var t=ss.indexOf(cur)>=0?cur:(ss.filter(function(x){return where[x].b<0})[0]);if(t==null)t=ss[0];
+    closeDoc();goto(t,true)});
 
   /* ---- preview pane (?preview=1): NOW (off=0) or NEXT along the path (off=1) ---- */
   if(isPrev){
@@ -171,7 +228,7 @@
       '<div class=plabel id=pplabel>NEXT</div>'+
       '<div class=pwrap id=ppwrap><iframe id=ppif src="'+pbase+'?preview=1&off=1"></iframe></div>'+
       '<div class=pnexttitle id=ppnt></div><div class=pdoors id=ppdoors></div>'+
-      '<div class=pkeys>&rarr; next &middot; &darr; or 1&ndash;3 side path &middot; &uarr; back &middot; m map</div></div>';
+      '<div class=pkeys>&rarr; next &middot; &darr; or 1&ndash;3 side path &middot; &uarr; back &middot; z document &middot; m map</div></div>';
     var ppif=document.getElementById('ppif'),ppwrap=document.getElementById('ppwrap');
     var ppif0=document.getElementById('ppif0'),ppwrap0=document.getElementById('ppwrap0');
     function pfit(){ppif.style.transform='scale('+(ppwrap.clientWidth/1920)+')';ppif0.style.transform='scale('+(ppwrap0.clientWidth/1920)+')'}
@@ -181,12 +238,12 @@
     ppif.addEventListener('load',ppush);ppif0.addEventListener('load',ppush);
     var lastKey='';
     function tick(){
-      var c=sharedCur(),n=sharedNext(),dj=LS.get('w4mdoors')||'[]';ppush();
-      var key=c+'|'+n+'|'+dj;
+      var c=sharedCur(),n=sharedNext(),dj=LS.get('w4mdoors')||'[]',dv=+(LS.get('w4mdoc')||'-1');ppush();
+      var key=c+'|'+n+'|'+dj+'|'+dv;
       if(key!==lastKey){lastKey=key;
         var w=where[c];
         document.getElementById('ppn').textContent=w.b<0?('spine '+(w.k+1)+' / '+spine.length):('side path · '+branches[w.b].label+' · '+(w.k+1)+' / '+branches[w.b].slides.length);
-        document.getElementById('ppt').textContent=titleOf(c);
+        document.getElementById('ppt').innerHTML=dv>=0?('<span style="color:var(--bone)">ROOM SEES THE DOCUMENT:</span> '+docs[dv].title+' &middot; z to return'):titleOf(c).replace(/</g,'&lt;');
         document.getElementById('ppnotes').innerHTML=notesOf(c);
         var back=w.b>=0&&n===branches[w.b].fork;
         document.getElementById('pplabel').textContent=n<0?'END OF DECK':(back?'NEXT · back to the spine':'NEXT');
@@ -209,6 +266,7 @@
         case '1':case '2':case '3':case '4':cmd('door'+e.key);break;
         case 'm':case 'M':cmd('map');break;
         case 'Escape':cmd('mapoff');break;
+        case 'z':case 'Z':cmd('zoom');break;
         case 'f':case 'F':
           if(document.fullscreenElement)document.exitFullscreen&&document.exitFullscreen();
           else document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();
@@ -220,12 +278,18 @@
   function run(c){
     if(c==='next')next();else if(c==='prev')prev();else if(c==='door')door(-1);
     else if(c==='up')up();else if(c==='map')toggleMap();else if(c==='mapoff')toggleMap(false);
+    else if(c==='zoom')zoomOut();
     else if(c.slice(0,4)==='door')door(+c.slice(4)-1);
   }
   document.addEventListener('keydown',function(e){
     if(e.metaKey||e.ctrlKey||e.altKey)return;
     var mapOn=document.body.classList.contains('mapon');
+    if(docOn()){if(e.key==='z'||e.key==='Z'||e.key==='Escape'){e.preventDefault();closeDoc()}
+      else if(e.key==='m'||e.key==='M')toggleMap(true);
+      else if(e.key==='f'||e.key==='F'){if(document.fullscreenElement)document.exitFullscreen&&document.exitFullscreen();else document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen()}
+      return}
     switch(e.key){
+      case 'z':case 'Z':if(!mapOn)zoomOut();break;
       case 'ArrowRight':case ' ':case 'PageDown':e.preventDefault();if(!mapOn)next();break;
       case 'ArrowLeft':case 'Backspace':case 'PageUp':e.preventDefault();if(!mapOn)prev();break;
       case 'ArrowDown':e.preventDefault();if(!mapOn)door(-1);break;
@@ -246,12 +310,12 @@
     }
   });
   document.addEventListener('click',function(e){
-    if(e.target.closest('#strip')||document.body.classList.contains('mapon'))return;
+    if(e.target.closest('#strip')||document.body.classList.contains('mapon')||docOn())return;
     (e.clientX<innerWidth/5)?prev():next()});
   var tx=null,ty=null;
   document.addEventListener('touchstart',function(e){tx=e.touches[0].clientX;ty=e.touches[0].clientY},{passive:true});
   document.addEventListener('touchend',function(e){
-    if(tx==null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=ty=null;
+    if(tx==null||docOn()||document.body.classList.contains('mapon')){tx=null;return}var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;tx=ty=null;
     if(Math.abs(dy)>Math.abs(dx)){if(dy<-40)door(-1);else if(dy>40)up();return}
     if(dx<-40)next();else if(dx>40)prev();
   },{passive:true});
