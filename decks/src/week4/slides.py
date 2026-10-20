@@ -98,6 +98,9 @@ A('<section class="slide plateslide tight"><figure class="plate short"><img src=
 A(Q('&ldquo;In a short recess of Synod, we five withdrew to a private garden, where, after prayer for direction, and a free conversation, with a perfect unanimity we drew up a protest&hellip; and a declaration of our independence, and of our <b>withdrawal from their jurisdiction, but not from their communion</b>.&rdquo;', STONE, 'The garden') +
   N('Five men, a recess, a garden, prayer. &ldquo;A declaration of our independence&rdquo;: his words, twenty-seven years after the other one. The protest is dated 10 September 1803.'))
 
+A(Q('&ldquo;This protest we immediately presented to the Synod, through their Moderator &mdash; it was altogether unexpected by them, and produced very unpleasant feelings; and <b>a profound silence for a few minutes ensued</b>.&rdquo;', STONE) +
+  N('Let the room have a few seconds of silence of its own.'))
+
 A(CARD('They left the court.<br>' + G('They did not leave the table.'),
   'The chapter in one line. The men about to put them out were still their brothers, and they would not put anyone out in return. Last week&rsquo;s first idea, lived: conscience claimed for the brother, even the brother who judges you.'))
 
@@ -118,10 +121,21 @@ A('<section class="slide"><div class=eyebrow>Westminster Confession, 1646 &middo
   '<div class="no frag"><b style="color:var(--gold)">1.10</b> &ldquo;The supreme Judge, by which all controversies of religion are to be determined, and all decrees of councils&hellip; are to be examined&hellip; can be no other but <b>the Holy Spirit speaking in the Scripture</b>.&rdquo;</div>'
   '</div>'
   '<aside class=notes>Two clicks. The Synod tried them by the Confession; the Confession says every council&rsquo;s decree is to be examined by Scripture, and the only supreme judge is the Spirit speaking in Scripture. That includes the Synod, and the Confession itself. (Text as in the 1646 Confession; 1.9 goes on: &ldquo;when there is a question about the true and full sense of any scripture&hellip; it [must] be searched and known by other places that speak more clearly.&rdquo;)<br>'
-  '&rarr; They did not reject the Confession. They took it at its word.</aside></section>')
+  '&rarr; They did not reject the Confession. They took it at its word. And the same book says more.</aside></section>')
 
-A(Q('&ldquo;This protest we immediately presented to the Synod, through their Moderator &mdash; it was altogether unexpected by them, and produced very unpleasant feelings; and <b>a profound silence for a few minutes ensued</b>.&rdquo;', STONE) +
-  N('Let the room have a few seconds of silence of its own.'))
+A('<section class="slide"><div class=eyebrow>The same Confession</div>'
+  '<div class=litany style="text-align:left;gap:3.4vmin;margin-top:1.4vmin;max-width:88vw">'
+  '<div class="no frag"><b style="color:var(--gold)">20.2</b> &ldquo;<b>God alone is Lord of the conscience</b>, and hath left it free from the doctrines and commandments of men&hellip;&rdquo;</div>'
+  '<div class="no frag"><b style="color:var(--gold)">31.3</b> &ldquo;All synods or councils since the apostles&rsquo; times, whether general or particular, <b>may err, and many have erred</b>; therefore they are not to be made the rule of faith or practice&hellip;&rdquo;</div>'
+  '</div>'
+  '<aside class=notes>Two clicks. Chapter 20, Of Christian Liberty and Liberty of Conscience; chapter 31, Of Synods and Councils (31.3 in the American text the Synod used; 31.4 in the 1646 original). 20.2 goes on: &ldquo;the requiring an implicit faith, and an absolute and blind obedience, is to destroy liberty of conscience, and reason also.&rdquo; 31.3 ends: &ldquo;but to be used as a help in both.&rdquo;<br>'
+  '&rarr; The Synod of Kentucky was a synod. By its own Confession, it may err.</aside></section>')
+
+A(CARD('These men were radical.<br>' + G('But they were also faithful.'),
+  'Radical in what they did: walked out of a synod, tore up a salary, dissolved their own presbytery. Faithful in why.'))
+
+A(CARD('They were not breaking with their tradition.<br>' + G('They were honoring its deepest impulses.'),
+  'Scripture as the only infallible rule; God alone Lord of the conscience; councils may err. Every one is in the Westminster Confession. The Reformation&rsquo;s own principles, taken seriously: Luther at Worms, again. &rarr; And they pressed them further than the Synod would.'))
 
 A('<section class="slide"><div class=eyebrow>The Synod sends a committee to win them back</div>'
   '<div class=litany>'
