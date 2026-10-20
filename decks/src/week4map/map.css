@@ -76,3 +76,4 @@
   #map .root{stroke:var(--smoke);stroke-width:1;opacity:.13}
   #map .root.seen{stroke:var(--gold-dim);opacity:.3}
   #map .blab.src{font-size:21px;font-style:normal;font-family:'IM Fell English SC',Georgia,serif;letter-spacing:.06em}
+  #docv .dbody table{width:100%;font-size:.72em;margin:0 0 1.2em}#docv .dbody td{padding:.1em .4em;vertical-align:top}#docv .dbody center{display:block}

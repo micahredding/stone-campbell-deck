@@ -118,25 +118,34 @@
   function drawMap(){
     var W=1600,X0=50,X1=W-50,Y=96,DY=46,FAN=125,step=(X1-X0)/Math.max(1,spine.length-1);
     var depth=Math.max.apply(null,branches.map(function(b){return b.slides.length}).concat([1]));
-    var H=Y+70+depth*DY+90+170,s=[],lastX=-1e9,lift=0;
+    var H=Y+70+depth*DY+90+200,s=[],lastX=-1e9,lift=0;
     s.push('<svg viewBox="0 0 '+W+' '+H+'" xmlns="http://www.w3.org/2000/svg">');
     s.push('<line class=rail x1='+X0+' y1='+Y+' x2='+X1+' y2='+Y+' />');
     /* where every dot sits, so the sources' roots can be drawn first, under everything */
     var P={};spine.forEach(function(sl,k){P[sl]={x:X0+k*step,y:Y}});
     branches.forEach(function(br,b){var fx=X0+where[br.fork].k*step,sibs=exitsAt(br.fork),sib=sibs.map(function(x){return x.b}).indexOf(b);
       var x=Math.min(X1-40,Math.max(X0+40,fx+(sib-(sibs.length-1)/2)*FAN));br.slides.forEach(function(sl,k){P[sl]={x:x,y:Y+56+k*DY}})});
-    /* sources row: each whole document sits under the stretch of the hour that quotes it,
-       with a faint root up to every slide drawn from it */
-    var YS=H-120;
+    /* sources row: each whole document sits under the stretch of the hour that quotes it (pushed apart so
+       labels never touch), with a faint root up to every slide drawn from it */
+    var YS=H-120,SRC=[];
     docs.forEach(function(D,di){
       var xs=[],sx=[];Object.keys(slideDoc).forEach(function(k){if(slideDoc[k]===di){xs.push(P[+k]);if(where[+k].b<0)sx.push(P[+k].x)}});
       if(!xs.length)return;
-      var x=(sx.length?sx:xs.map(function(p){return p.x})).reduce(function(t,v){return t+v},0)/(sx.length||xs.length),ok=!!seen['d'+di];
-      xs.forEach(function(p){s.push('<line class="root'+(ok?' seen':'')+'" x1='+x+' y1='+(YS-6)+' x2='+p.x+' y2='+(p.y+10)+' />')});
+      var v=sx.length?sx:xs.map(function(p){return p.x});
+      SRC.push({di:di,xs:xs,x:v.reduce(function(t,q){return t+q},0)/v.length});
+    });
+    SRC.sort(function(a,b){return a.x-b.x});
+    var GAP=230;
+    for(var i=1;i<SRC.length;i++)SRC[i].x=Math.max(SRC[i].x,SRC[i-1].x+GAP);
+    if(SRC.length&&SRC[SRC.length-1].x>X1-80){SRC[SRC.length-1].x=X1-80;for(i=SRC.length-2;i>=0;i--)SRC[i].x=Math.min(SRC[i].x,SRC[i+1].x-GAP)}
+    if(SRC.length&&SRC[0].x<X0+80){SRC[0].x=X0+80;for(i=1;i<SRC.length;i++)SRC[i].x=Math.max(SRC[i].x,SRC[i-1].x+GAP)}
+    SRC.forEach(function(r){
+      var x=r.x,di=r.di,ok=!!seen['d'+di];
+      r.xs.forEach(function(p){s.push('<line class="root'+(ok?' seen':'')+'" x1='+x+' y1='+(YS-6)+' x2='+p.x+' y2='+(p.y+10)+' />')});
       s.push('<rect class="page'+(ok?' seen':'')+(docOpen===di?' cur':'')+'" x='+(x-17)+' y='+(YS-4)+' width=34 height=44 rx=2 data-d='+di+' />');
       for(var l=0;l<4;l++)s.push('<line class=pline x1='+(x-10)+' x2='+(x+10)+' y1='+(YS+6+l*8)+' y2='+(YS+6+l*8)+' />');
-      var lab=docDoors.filter(function(dd){return dd.doc===di}).map(function(dd){return dd.label})[0]||D.title;
-      s.push('<text class="blab src'+(ok?' seen':'')+'" text-anchor=middle x='+x+' y='+(YS+68)+'>'+lab.replace(/&rsquo;/g,'\u2019').replace(/, whole$/,'')+'</text>');
+      s.push('<text class="blab src'+(ok?' seen':'')+'" text-anchor=middle>'+wrap(docs[di].short.replace(/&rsquo;/g,'\u2019'),18).map(function(t,k){
+        return '<tspan x='+x+' y='+(YS+68+k*24)+'>'+t+'</tspan>'}).join('')+'</text>');
     });
     MAP.sections.forEach(function(sec){var x=X0+sec.at*step;
       lift=(x-lastX<150&&!lift)?26:0;lastX=x;   /* close neighbours take turns on two rows */

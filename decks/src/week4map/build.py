@@ -91,7 +91,18 @@ DOCS = [
     {'key': 'stone', 'title': 'Barton W. Stone, <i>Biography</i> (1847), chapter VII',
      'sub': 'His own account of the trial, the garden, the cost, and the will',
      'html': clean(between('biography-barton-stone-fulltext.njk', '<h3 id="bio-ch-7">', '<h3 id="bio-ch-8">'))},
+    {'key': 'apology', 'title': 'The Springfield Presbytery&rsquo;s <i>Apology</i> (1804), Part I',
+     'sub': 'The five&rsquo;s own history: the trial, the protest, the letter to their congregations, the suspension &middot; as reprinted in Stone&rsquo;s <i>Biography</i>',
+     'html': clean(between('biography-barton-stone-fulltext.njk', '<h3 id="apology-i">', '<h2 id="apology-ii">'))},
+    {'key': 'dna', 'title': 'Thomas Campbell, <i>Declaration and Address</i> (1809)',
+     'sub': 'The whole of it: Declaration, Address, Propositions, Appendix',
+     'html': clean(between('declaration-and-address-fulltext.njk', '<h2 id="declaration">', '<!-- SOURCE CITATION -->'))},
+    {'key': 'wcf', 'title': 'The Westminster Confession of Faith',
+     'sub': 'The Synod&rsquo;s standard &middot; American text of 1788 (OPC edition; a few later amendments and small variants elsewhere)',
+     'html': clean(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'sources', 'westminster-confession-american.html')).read())},
 ]
+SHORT = {'will': 'The whole will', 'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history',
+         'dna': 'The Declaration and Address', 'wcf': 'The Westminster Confession'}
 DOC_DOORS = [('Stone&rsquo;s own account, whole', 'fiery ordeal', 1),
              ('The whole will', 'The reading of the will.', 0)]
 
@@ -134,9 +145,13 @@ def locate(d, seg):
 slide_doc, missed = {}, []
 for si, s in enumerate(S):
     vis = re.sub(r'<aside class=notes>.*?</aside>', '', s, flags=re.S)
-    if 'Biography' in vis: order = [1]
-    elif 'Last Will and Testament' in vis or 'Witnesses' in vis: order = [0]
-    else: order = [0, 1]
+    K = [d['key'] for d in DOCS]
+    if 'Westminster' in vis or 'same Confession' in vis: order = [K.index('wcf')]
+    elif 'Declaration and Address' in vis: order = [K.index('dna')]
+    elif 'letter to their congregations' in vis: order = [K.index('apology')]
+    elif 'Biography' in vis: order = [K.index('stone'), K.index('apology')]
+    elif 'Last Will and Testament' in vis or 'Witnesses' in vis: order = [K.index('will')]
+    else: order = list(range(len(DOCS)))
     for seg in segments(s):
         for di in order:
             r = locate(DOCS[di], seg)
@@ -170,7 +185,7 @@ def render_doc(d):
             run.append(c)
         flush()
     return ''.join(out)
-docs_out = [{'title': d['title'], 'sub': d['sub'], 'html': render_doc(d)} for d in DOCS]
+docs_out = [{'title': d['title'], 'sub': d['sub'], 'short': SHORT[d['key']], 'html': render_doc(d)} for d in DOCS]
 doc_doors = []
 for label, a, di in DOC_DOORS:
     f = find(a); assert side_of[f] is None, label
