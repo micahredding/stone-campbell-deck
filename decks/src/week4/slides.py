@@ -74,8 +74,14 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
   'The hour: the will&rsquo;s opening 3 &middot; the trial and the garden 10 &middot; the cost 4 &middot; it worked, and the problem 8 &middot; the reading of the will 12 &middot; our table 8 &middot; close 5.</aside></section>')
 
 # ---------- THE HOOK ----------
+A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,10vmin,128px);line-height:1.1">&ldquo;We will, that this body die,</h2>'
+  '<h2 class=frag style="max-width:none;font-size:clamp(32px,6vmin,80px);line-height:1.2;margin-top:3vmin">' + G('be dissolved, and sink into union with the Body of Christ at large&hellip;') + '&rdquo;</h2>'
+  '<div class=cite style="margin-top:3vmin">' + WILL + '</div>'
+  '<aside class=notes>The cold open. One click. Read the first line and stop; let &ldquo;die&rdquo; sit before the rest comes up.<br>'
+  '&rarr; &ldquo;A church body wrote that about itself. How did we get here?&rdquo;</aside></section>')
+
 A(Q('&ldquo;The Presbytery of Springfield, sitting at Cane Ridge&hellip; being, through a gracious Providence, <b>in more than ordinary bodily health, growing in strength and size daily</b>, and in perfect soundness and composure of mind; but knowing that it is appointed for all delegated bodies once to die&hellip; do make and ordain this our Last Will and Testament&hellip;&rdquo;', WILL, 'June 28, 1804') +
-  N('The will&rsquo;s opening, in the legal form of a real will. Read it slowly; the joke is in &ldquo;more than ordinary bodily health.&rdquo; Nobody makes a will because they are growing in strength and size daily.',
+  N('Who is &ldquo;this body&rdquo;? The will&rsquo;s opening, in the legal form of a real will. Read it slowly; the joke is in &ldquo;more than ordinary bodily health.&rdquo; Nobody makes a will because they are growing in strength and size daily.',
     '&rarr; This church body was nine months old, and thriving.'))
 
 A('<section class="slide room"><h2>Why would a church body that was <span style="color:var(--gold)">thriving</span> write its own will?</h2>'
@@ -199,7 +205,7 @@ A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,
   '<aside class=notes>From the preamble, after &ldquo;more than ordinary bodily health.&rdquo; Hebrews 9:27, &ldquo;it is appointed unto men once to die,&rdquo; applied to institutions. Every presbytery, synod, board and program is a delegated body: it holds authority on loan. It is mortal by design.</aside></section>')
 
 A(Q('&ldquo;Imprimis. We will, that this body <b>die, be dissolved, and sink into union with the Body of Christ at large</b>; for there is but one body, and one spirit, even as we are called in one hope of our calling.&rdquo;', WILL, 'First bequest') +
-  N('&ldquo;Imprimis&rdquo;: in the first place, the legal word. Ephesians 4:4. The presbytery does not dissolve into nothing; it sinks into the whole church. The heir is the Body of Christ at large.'))
+  N('The line we opened with; now the room knows how they got here. &ldquo;Imprimis&rdquo;: in the first place, the legal word. Ephesians 4:4. The presbytery does not dissolve into nothing; it sinks into the whole church. The heir is the Body of Christ at large.'))
 
 A(IDEA(2))
 
