@@ -64,7 +64,7 @@ A('<section class="slide"><div class=eyebrow>Quiz</div>'
 
 _sum = [x for x in w3b.S if 'class="litany ideasum"' in x and '<div class=eyebrow>Ideas</div>' in x]
 assert len(_sum) == 1
-A(_sum[0].replace('<div class=eyebrow>Ideas</div>', '<div class=eyebrow>Last week&rsquo;s ideas</div>')
+A(_sum[0].replace('Christ builds his body.', 'Christ has built his body.').replace('<div class=eyebrow>Ideas</div>', '<div class=eyebrow>Last week&rsquo;s ideas</div>')
   .replace('All five at once, before the discussion.', 'Last week&rsquo;s five ideas, all at once. Read them, or let the room read them; do not re-teach.<br>&rarr; &ldquo;Tonight, five years earlier: men who acted on idea three before Campbell wrote it down.&rdquo;'))
 
 A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 4</div>'
