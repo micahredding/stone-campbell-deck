@@ -124,13 +124,12 @@ A(Q('&ldquo;In a short recess of Synod, we five withdrew to a private garden, wh
 A(Q('&ldquo;This protest we immediately presented to the Synod, through their Moderator &mdash; it was altogether unexpected by them, and produced very unpleasant feelings; and <b>a profound silence for a few minutes ensued</b>.&rdquo;', STONE) +
   N('Let the room have a few seconds of silence of its own.'))
 
-A(Q('&ldquo;We do not desire, nor do we consider ourselves to be separated from the Presbyterian church, as Christians, whether ministers or people; we still wish to continue united to them in the bonds of love: <b>we will admit to communion as formerly, and desire to be admitted</b>. It is not our design to form a party.&rdquo;', 'The five, letter to their congregations, September 1803 &middot; in Stone, <i>Biography</i> (1847)', 'Exit without excommunication') +
-  N('Their circular letter, written right after the protest. They withdrew from the Synod&rsquo;s jurisdiction, and in the same breath kept the table open both ways: they would still give communion to the men putting them out, and still ask to receive it from them.',
-    '&rarr; They left the court. They did not leave the table.',
-    '&rarr; Campbell will do the same thing.'))
-
 A(CARD('They did not withdraw communion.',
   'Make the Campbell connection here, out loud. The cue, from the <i>Declaration and Address</i> (1809, Appendix): &ldquo;no man can relinquish his opinions or practices till once convinced that they are wrong&hellip; One thing, however, he may do: when not bound by an express command, he need not impose them upon others, by anywise requiring their approbation.&rdquo; Luther claimed conscience for himself; Campbell extended it to his brother. The Synod could keep communion on its terms; he only asked to keep it on his.'))
+
+A(Q('&ldquo;We do not desire, nor do we consider ourselves to be separated from the Presbyterian church, as Christians, whether ministers or people; we still wish to continue united to them in the bonds of love: <b>we will admit to communion as formerly, and desire to be admitted</b>. It is not our design to form a party.&rdquo;', 'The five, letter to their congregations, September 1803 &middot; in Stone, <i>Biography</i> (1847)', 'Exit without excommunication') +
+  N('Their circular letter, written right after the protest. They withdrew from the Synod&rsquo;s jurisdiction, and in the same breath kept the table open both ways: they would still give communion to the men putting them out, and still ask to receive it from them.',
+    '&rarr; They left the court. They did not leave the table.'))
 
 A(Q('&ldquo;&hellip;we plead a privilege, which is granted in the Confession of Faith, chap. 1. sec. 9, 10&hellip; that <b>the infallible rule of interpreting Scripture, is not the Confession of Faith</b>, nor any human writings whatever, but the Scripture itself.&rdquo;', 'The five, letter to their congregations, September 1803 &middot; in Stone, <i>Biography</i> (1847)', 'Quoting the Confession against itself') +
   N('Their circular letter, drafted at the new presbytery&rsquo;s first meeting and signed by all five; it says the protest made the same plea. &ldquo;We wish to pay all due deference to the Confession of Faith, and other writings of our pious fathers; but&hellip;&rdquo;',
