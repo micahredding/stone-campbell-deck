@@ -71,10 +71,9 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
 
 # ---------- THE HOOK ----------
 A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,10vmin,128px);line-height:1.1">&ldquo;We will, that this body die,</h2>'
-  '<h2 class=frag style="max-width:none;font-size:clamp(42px,8.5vmin,112px);line-height:1.12;margin-top:2.4vmin">' + G('be dissolved, and sink into union<br>with the Body of Christ at large;') + '</h2>'
-  '<h2 class=frag style="max-width:none;font-size:clamp(28px,5vmin,64px);line-height:1.25;margin-top:2.4vmin">for there is but one body, and one spirit, even as we are called in one hope of our calling.&rdquo;</h2>'
+  '<h2 class=frag style="max-width:none;font-size:clamp(42px,8.5vmin,112px);line-height:1.12;margin-top:2.4vmin">' + G('be dissolved, and sink into union<br>with the Body of Christ at large&hellip;') + '&rdquo;</h2>'
   '<div class=cite style="margin-top:3vmin">' + WILL + '</div>'
-  '<aside class=notes>The cold open. Two clicks. Read the first line and stop; let &ldquo;die&rdquo; sit before the rest comes up. The last line is Ephesians 4:4.<br>'
+  '<aside class=notes>The cold open. One click. Read the first line and stop; let &ldquo;die&rdquo; sit before the rest comes up. The sentence goes on: &ldquo;for there is but one body, and one spirit, even as we are called in one hope of our calling&rdquo; (Ephesians 4:4).<br>'
   '&rarr; &ldquo;A church body wrote that about itself. How did we get here?&rdquo;</aside></section>')
 
 # ---------- 1 THE TRIAL ----------
