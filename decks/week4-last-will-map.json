@@ -99,7 +99,7 @@
    "n": 14,
    "title": "Obey God rather than men \"When we neglected it [the Westminster Confession] and followed t",
    "path": "spine",
-   "doc": null
+   "doc": "apology"
   },
   {
    "index": 14,
@@ -690,6 +690,16 @@
    "text": "It was plainly hinted to us, that we would not be forgotten by the Synod."
   },
   {
+   "slide": 13,
+   "doc": "apology",
+   "text": "When we neglected it"
+  },
+  {
+   "slide": 13,
+   "doc": "apology",
+   "text": "and followed the Spirit of God, in his word, our minds were enlightened, and our souls were quickened. But when we compared this light, with the confession, they would not agree. We could not withstand God. We chose to hearken to God, rather than men"
+  },
+  {
    "slide": 14,
    "doc": "stone",
    "text": "In a short recess of Synod, we five withdrew to a private garden, where, after prayer for direction, and a free conversation, with a perfect unanimity we drew up a protest"
@@ -930,14 +940,5 @@
    "text": "the Bible as the only sure guide to heaven."
   }
  ],
- "unmatched": [
-  {
-   "slide": 13,
-   "text": "When we neglected it"
-  },
-  {
-   "slide": 13,
-   "text": "and followed the Spirit of God, in his word, our minds were enlightened, and our souls were quickened. But when we compared this light, with the confession, they would not agree. We could not withstand God. We chose to hearken to God, rather than men"
-  }
- ]
+ "unmatched": []
 }

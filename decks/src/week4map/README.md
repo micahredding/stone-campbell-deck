@@ -68,11 +68,11 @@ DOC_DOORS = [('The whole will', 'The reading of the will.', 0), ...]  # (label, 
 1. Take the visible HTML (presenter notes removed) and collect every `&ldquo;…&rdquo;` run.
 2. Split each run at ellipses and `[bracketed insertions]`. Keep pieces with at least 16 letters.
 3. Choose which documents to search from the slide's citation text:
+   - `<i>Apology</i>` (and no `Biography`) → apology. Checked first, since an *Apology* slide may name Westminster in a bracket.
    - `Westminster` / `same Confession` → wcf
    - `Declaration and Address` → dna
    - `letter to their congregations` → apology
    - `Biography` → stone, then apology
-   - `<i>Apology</i>` (and no `Biography`) → apology
    - `Last Will and Testament` / `Witnesses` → will
    - anything else → all documents, in `DOCS` order.
 4. Match on **letters and digits only**, so case, punctuation and spacing don't matter ("Caneridge" matches "Cane Ridge"). If there's no exact match, a fuzzy pass looks for two 24-letter windows in order at about the right distance. The windows are shifted inward to step over an OCR slip near either end.

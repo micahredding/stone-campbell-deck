@@ -145,11 +145,11 @@ slide_doc, missed, quotes = {}, [], []
 for si, s in enumerate(S):
     vis = re.sub(r'<aside class=notes>.*?</aside>', '', s, flags=re.S)
     K = [d['key'] for d in DOCS]
-    if 'Westminster' in vis or 'same Confession' in vis: order = [K.index('wcf')]
+    if '<i>Apology</i>' in vis and 'Biography' not in vis: order = [K.index('apology')]
+    elif 'Westminster' in vis or 'same Confession' in vis: order = [K.index('wcf')]
     elif 'Declaration and Address' in vis: order = [K.index('dna')]
     elif 'letter to their congregations' in vis: order = [K.index('apology')]
     elif 'Biography' in vis: order = [K.index('stone'), K.index('apology')]
-    elif '<i>Apology</i>' in vis: order = [K.index('apology')]
     elif 'Last Will and Testament' in vis or 'Witnesses' in vis: order = [K.index('will')]
     else: order = list(range(len(DOCS)))
     for seg in segments(s):
