@@ -27,7 +27,7 @@ plain = lambda h: re.sub(r'<span style="color:var\(--gold\)">(.*?)</span>', r'\1
 BLACK = '<section class="slide"><aside class=notes>Black.</aside></section>'
 
 WILL = 'Last Will and Testament of the Springfield Presbytery, 1804'
-WIT = 'The Witnesses&rsquo; Address, 1804'
+WIT = 'The Witnesses&rsquo; Address, appended to the Last Will and Testament, 1804'
 STONE = 'Barton W. Stone, <i>Biography</i> (1847)'
 
 IDEAS = [
@@ -249,7 +249,7 @@ A(Q('&ldquo;We will, that preachers and people, cultivate a spirit of mutual for
 
 
 # ---------- 5 WHY ----------
-A(Q('&ldquo;&hellip;from its first existence it was knit together in love, lived in peace and concord, and <b>died a voluntary and happy death</b>.&rdquo;', WIT, 'The witnesses') +
+A(Q('&ldquo;&hellip;from its first existence it [the Springfield Presbytery] was knit together in love, lived in peace and concord, and <b>died a voluntary and happy death</b>.&rdquo;', WIT, 'The witnesses to the will') +
   N('Not a split, not a failure, not a scandal. A happy death.'))
 
 A(Q('&ldquo;&hellip;from a principle of love to Christians of every name, the precious cause of Jesus, and <b>dying sinners who are kept from the Lord by the existence of sects and parties</b> in the church, they have cheerfully consented to retire from the din and fury of conflicting parties &mdash; sink out of the view of fleshly minds, and die the death.&rdquo;', WIT, 'Why') +
