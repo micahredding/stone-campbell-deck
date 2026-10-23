@@ -181,9 +181,9 @@ A(Q('&ldquo;I preferred honesty and a good conscience to all these things. Havin
 # ---------- 3 IT WORKED, AND THE PROBLEM ----------
 A('<section class="slide"><h2>It worked.</h2>'
   '<div class=litany>'
-  '<div class="no frag">They form the <b>Springfield Presbytery</b> and publish the <i>Apology</i>: no authoritative creed but the Bible.</div>'
+  '<div class="no frag">They form the <b>Springfield Presbytery</b> and publish the <i>Apology</i>.</div>'
   '<div class="no frag">The <i>Apology</i> &ldquo;was quickly <b>republished by the Methodists</b> in Virginia, except our remarks upon creeds.&rdquo;</div>'
-  '<div class="no frag">The pamphlets against them, &ldquo;full of misrepresentation and invective,&rdquo; <b>spread their views</b>.</div>'
+  '<div class="no frag">Pamphlets against them, &ldquo;full of misrepresentation and invective,&rdquo; <b>spread their views</b>.</div>'
   '<div class="no frag">People &ldquo;disgusted and offended&rdquo; by the attacks &ldquo;were driven from them, and <b>cleaved to us</b>.&rdquo;</div>'
   '</div><div class=cite>' + STONE + '</div>'
   '<aside class=notes>Four clicks. Stone: &ldquo;This book produced a great effect in the Christian community.&rdquo; Churches planted, preachers multiplied.<br>&rarr; Which is exactly when the problem began.</aside></section>')
