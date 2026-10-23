@@ -65,18 +65,23 @@ assert len(_sum) == 1
 A(_sum[0].replace('Christ builds his body.', 'Christ has built his body.').replace('<div class=eyebrow>Ideas</div>', '<div class=eyebrow>Last week&rsquo;s ideas</div>')
   .replace('All five at once, before the discussion.', 'Last week&rsquo;s five ideas, all at once. Read them, or let the room read them; do not re-teach.<br>&rarr; &ldquo;Tonight, five years earlier: men who acted on idea three before Campbell wrote it down.&rdquo;'))
 
-A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 4</div>'
-  '<h1>The Last Will<br>and Testament</h1><div class=table-line></div>'
-  '<div class=sub>Cane Ridge, Kentucky &middot; June 28, 1804</div>'
-  '<aside class=notes>Title up. The frame for the hour is a will-reading: who died, of what, what they left, and to whom.<br>'
-  'The hour: the will&rsquo;s opening 3 &middot; the trial and the garden 10 &middot; the cost 4 &middot; it worked, and the problem 8 &middot; the reading of the will 12 &middot; our table 8 &middot; close 5.</aside></section>')
-
 # ---------- THE HOOK ----------
 A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,10vmin,128px);line-height:1.1">&ldquo;We will, that this body die,</h2>'
   '<h2 class=frag style="max-width:none;font-size:clamp(42px,8.5vmin,112px);line-height:1.12;margin-top:2.4vmin">' + G('be dissolved, and sink into union<br>with the Body of Christ at large&hellip;') + '&rdquo;</h2>'
   '<div class=cite style="margin-top:3vmin">' + WILL + '</div>'
   '<aside class=notes>The cold open. One click. Read the first line and stop; let &ldquo;die&rdquo; sit before the rest comes up. The sentence goes on: &ldquo;for there is but one body, and one spirit, even as we are called in one hope of our calling&rdquo; (Ephesians 4:4).<br>'
-  '&rarr; &ldquo;A church body wrote that about itself. How did we get here?&rdquo;</aside></section>')
+  '&rarr; Then name it: the title.</aside></section>')
+
+A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 4</div>'
+  '<h1>The Last Will<br>and Testament</h1><div class=table-line></div>'
+  '<div class=sub>Cane Ridge, Kentucky &middot; June 28, 1804</div>'
+  '<aside class=notes>Two documents set the course of our movement: the <i>Declaration and Address</i> (the last few weeks) and this one. This one is five years older. Then the recap: Cane Ridge; Thomas Campbell&rsquo;s fight for unity, carried from Ireland to America; communion for Christians outside his sect; his trial. Unity and freedom of conscience, all along, as one question.<br>The frame for the hour is a will-reading: who died, of what, what they left, and to whom.<br>'
+  'The hour: the will&rsquo;s opening 3 &middot; the trial and the garden 10 &middot; the cost 4 &middot; it worked, and the problem 8 &middot; the reading of the will 12 &middot; our table 8 &middot; close 5.</aside></section>')
+
+A('<section class="slide room"><h2 style="max-width:none">How do we claim the unity of the body of Christ?</h2>'
+  '<h2 class=frag style="max-width:none;margin-top:3vmin">How do we live that now?</h2>'
+  '<h2 class=frag style="max-width:none;margin-top:3vmin;color:var(--gold)">And what does it ask of our conscience?</h2>'
+  '<aside class=notes>Two clicks. For them these were not two questions but one. What does unity compel conscience to do: to extend, to give up. &rarr; &ldquo;We&rsquo;re going to see how far they were willing to take this.&rdquo;</aside></section>')
 
 # ---------- 1 THE TRIAL ----------
 A('<section class="slide breath sect"><h2>A few years after Cane Ridge&hellip;</h2><div class=table-line></div>'
@@ -99,6 +104,7 @@ A(Q('&ldquo;We urged upon the sinner to <b>believe now</b>, and receive salvatio
 
 A(Q('&ldquo;When we began first to preach these things, the people appeared as just awakened from the sleep of ages &mdash; <b>they seemed to see for the first time that they were responsible beings</b>&hellip;&rdquo;', STONE) +
   N('The sentence goes on: &ldquo;and that a refusal to use the means appointed, was a damning sin.&rdquo;',
+    '&rarr; Grandmother: the mining camp, the Church of Christ, agency.',
     'Then the reaction: &ldquo;The sticklers for orthodoxy amongst us writhed under these doctrines&rdquo;; they &ldquo;painfully saw their Confession of Faith neglected.&rdquo;',
     '&rarr; It flourished, and it drew enough ire that the first one they went after was McNemar.'))
 
@@ -192,7 +198,7 @@ A('<section class="slide"><h2>It worked.</h2>'
 A(CARD('The Springfield Presbytery<br>' + G('flourished.'),
   'Churches planted, preachers multiplied. &rarr; Which is exactly when the problem began.'))
 
-A(Q('&ldquo;&hellip;they endeavored to cultivate a spirit of love and unity with all Christians; but found it extremely difficult to suppress the idea that they themselves were a party separate from others. <b>This difficulty increased in proportion to their success.</b>&rdquo;', WIT, 'Why they did it') +
+A(Q('&ldquo;&hellip;they endeavored to cultivate a spirit of love and unity with all Christians; but found it extremely difficult to suppress the idea that they themselves were a party separate from others. <b>This difficulty increased in proportion to their success in the ministry.</b> <b>Jealousies were excited in the minds of other denominations</b>&hellip;&rdquo;', WIT, 'Why they did it') +
   N('The witnesses who signed the will, explaining it. They left a party because it fenced Christians apart. Now people saw them as a party, and they began to feel like one. Stone: &ldquo;we had not worn our name more than one year, before we saw it savored of a party spirit.&rdquo;'))
 
 A(CARD('Success was making them<br>' + G('the thing they had protested.'),
@@ -201,8 +207,9 @@ A(CARD('Success was making them<br>' + G('the thing they had protested.'),
 A(Q('&ldquo;We will, that our weak brethren, who may have been <b>wishing to make the Presbytery of Springfield their king</b>, and wot not what is now become of it, betake themselves to the Rock of Ages, and follow Jesus for the future.&rdquo;', WILL, 'From the will') +
   N('Their own people. Gentle, and a little funny: &ldquo;wot not what is now become of it.&rdquo; The presbytery was being asked to stand where Christ stands.'))
 
-A(Q('&ldquo;&hellip;they soon found that there was <b>neither precept nor example in the New Testament for such confederacies</b> as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc.&rdquo;', WIT, 'Writing a book on church government') +
-  N('At their last meeting they set out to write <i>Observations on Church Government</i>. The research convicted the researchers: their own presbytery was one of these confederacies. &ldquo;While they continued in the connection in which they then stood, they were off the foundation of the Apostles and Prophets.&rdquo; (The book never appeared.)'))
+A(Q('&ldquo;&hellip;<i>Observations on Church Government</i>, in which the world will see <b>the beautiful simplicity of Christian church government, stript of human inventions and lordly traditions</b>. As they proceeded in the investigation of that subject, they soon found that there was neither precept nor example in the New Testament for such confederacies as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc.&rdquo;', WIT, 'Writing a book on church government') +
+  N('What they found was not only an absence. The authority Christ gave belongs to the gathered church; the will says so: &ldquo;native right of internal government&rdquo;, &ldquo;Christ speaking in them.&rdquo; Your reading, and say it as yours: Matthew 18:20, where two or three are gathered (next week&rsquo;s title); every believer a priest. Every other institution answers to that.',
+    'At their last meeting they set out to write <i>Observations on Church Government</i>. The research convicted the researchers: their own presbytery was one of these confederacies. &ldquo;While they continued in the connection in which they then stood, they were off the foundation of the Apostles and Prophets.&rdquo; (The book never appeared.)'))
 
 A(CARD('They caught their own presbytery<br>' + G('being handed a job only Christ can do.'),
   'Last week&rsquo;s thesis, lived five years before it was written: anything asked to do a job only Christ can do will fail. They did not wait for it to fail. &rarr; So they let it die.'))
