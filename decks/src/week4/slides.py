@@ -31,10 +31,12 @@ WIT = 'The Witnesses&rsquo; Address, appended to the Last Will and Testament, 18
 STONE = 'Barton W. Stone, <i>Biography</i> (1847)'
 
 IDEAS = [
-    ('Willingness to sacrifice<br>' + G('our own institutions.'),
-     'Not just walking away from other people&rsquo;s institutions, not just rebelling against them: sacrificing their own. The presbytery was nine months old and thriving, and they willed it to &ldquo;die, be dissolved, and sink into union with the Body of Christ at large.&rdquo; Tearing down an idol they had built themselves. Compare Campbell: he extended conscience to others, not just claimed it for himself; Stone gave up his own institution, not just other people&rsquo;s.'),
-    ('Authority returns to the gathered church,<br>' + G('and to the Spirit.'),
-     'Each church, &ldquo;actuated by the same spirit,&rdquo; to &ldquo;choose her own preacher&hellip; admit members&hellip; remove offences; and never henceforth delegate her right of government to any man or set of men whatever.&rdquo; No proof of a minister&rsquo;s authority &ldquo;but Christ speaking in them&rdquo;; the people to &ldquo;adopt the law of the spirit of life in Christ Jesus.&rdquo;'),
+    ('Freedom of conscience:<br>' + G('obey God rather than men.'),
+     'Last week&rsquo;s idea again, now under trial. &ldquo;We could not withstand God. We chose to hearken to God, rather than men.&rdquo; Their own Confession says it: &ldquo;God alone is Lord of the conscience.&rdquo;'),
+    ('Unity:<br>' + G('refusing to excommunicate.'),
+     'They withdrew &ldquo;from their jurisdiction, but not from their communion,&rdquo; and would not un-church the men un-churching them: &ldquo;we will admit to communion as formerly, and desire to be admitted.&rdquo; Campbell, five years later, the same: conscience extended to his brother, not just claimed for himself.'),
+    ('Institutional self-sacrifice,<br>' + G('for unity and freedom.'),
+     'Not just walking away from other people&rsquo;s institutions, not just rebelling against them: sacrificing their own. Stone first gave up his own living; then the five gave up their presbytery. For unity: &ldquo;sink into union with the Body of Christ at large.&rdquo; For freedom: &ldquo;that the people may have free course to the Bible.&rdquo;'),
 ]
 def IDEA(k):
     h, n = IDEAS[k - 1]
@@ -117,6 +119,8 @@ A(Q('&ldquo;When we neglected it [the Westminster Confession] and followed the S
   N('Acts 5:29. From the <i>Apology</i> they published the next year, on the Confession; the sentence before: &ldquo;That book never helped, but hindered our faith.&rdquo; The sentence ends: &ldquo;and therefore, have taken our leave of that book.&rdquo;',
     '&rarr; So, in a recess of the Synod&hellip;'))
 
+A(IDEA(1))
+
 A(Q('&ldquo;In a short recess of Synod, we five withdrew to a private garden, where, after prayer for direction, and a free conversation, with a perfect unanimity we drew up a protest&hellip; and a declaration of our independence, and of our <b>withdrawal from their jurisdiction, but not from their communion</b>.&rdquo;', STONE, 'The garden') +
   N('Five men, a recess, a garden, prayer. &ldquo;A declaration of our independence&rdquo;: his words, twenty-seven years after the other one. The protest is dated 10 September 1803.'))
 
@@ -156,6 +160,8 @@ A(CARD('These men were radical.<br>' + G('But they were also faithful.'),
 
 A(CARD('They were not breaking with their tradition.<br>' + G('They were honoring its deepest impulses.'),
   'Scripture as the only infallible rule; God alone Lord of the conscience; councils may err. Every one is in the Westminster Confession. The Reformation&rsquo;s own principles, taken seriously: Luther at Worms, again. &rarr; And they pressed them further than the Synod would.'))
+
+A(IDEA(2))
 
 A('<section class="slide"><div class=eyebrow>The Synod sends a committee to win them back</div>'
   '<div class=litany>'
@@ -222,7 +228,7 @@ A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,
 A(Q('&ldquo;Imprimis. We will, that this body <b>die, be dissolved, and sink into union with the Body of Christ at large</b>; for there is but one body, and one spirit, even as we are called in one hope of our calling.&rdquo;', WILL, 'First bequest') +
   N('The line we opened with; now the room knows how they got here. &ldquo;Imprimis&rdquo;: in the first place, the legal word. Ephesians 4:4. The presbytery does not dissolve into nothing; it sinks into the whole church. The heir is the Body of Christ at large.'))
 
-A(IDEA(1))
+A(IDEA(3))
 
 A(Q('&ldquo;We will, that our name of distinction, with its Reverend title, <b>be forgotten</b>, that there be but one Lord over God&rsquo;s heritage, and his name one.&rdquo;', WILL, 'Their name') +
   N('A will gives things away; this one gives away everything a church body has, starting with its name and its titles. They took the name Christian (Rice Haggard&rsquo;s pamphlet).'))
@@ -236,8 +242,6 @@ A(Q('&ldquo;We will, that the church of Christ assume her <b>native right of int
 A(Q('&ldquo;We will, that each particular church, as a body, <b>actuated by the same spirit</b>, choose her own preacher, and support him by a free will offering&hellip; admit members &mdash; remove offences; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;', WILL, 'To every congregation') +
   N('The biggest bequest. Everything the Synod did to them (try preachers, admit, exclude) is handed to the congregation. The priesthood of all believers, as polity.',
     '&rarr; Hold this one. Next week, at Brush Run, a congregation will use exactly this right.'))
-
-A(IDEA(2))
 
 A(Q('&ldquo;We will, that preachers and people, cultivate a spirit of mutual forbearance; <b>pray more and dispute less</b>; and while they behold the signs of the times, look up, and confidently expect that redemption draweth nigh.&rdquo;', WILL, 'To preachers and people') +
   N('A church that has given away its courts has nothing left to settle its quarrels but forbearance and prayer, and the will says so in the same breath. Then: look up; redemption draweth nigh. They died expecting the future.'))
@@ -272,7 +276,7 @@ for _k in range(1, len(IDEAS) + 1): A(IDEA(_k))
 A('<section class="slide room"><div class=eyebrow>Ideas</div>'
   '<div class="litany ideasum" style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">'
   + ''.join('<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (k, plain(h)) for k, (h, _) in enumerate(IDEAS, 1)) +
-  '</div><aside class=notes>Both at once, before the discussion.</aside></section>')
+  '</div><aside class=notes>All three at once, before the discussion.</aside></section>')
 A(DISCUSS)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. Both of tonight&rsquo;s sources are there in full: the <i>Last Will and Testament</i> with the Witnesses&rsquo; Address, and Stone&rsquo;s <i>Biography</i>. Say &ldquo;sources and other information are on the site,&rdquo; and leave it there.</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))
