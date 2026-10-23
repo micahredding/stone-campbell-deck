@@ -58,7 +58,7 @@ DOC_DOORS = [('The whole will', 'The reading of the will.', 0), ...]  # (label, 
 |---|---|---|
 | `will` | Last Will and Testament, with the Witnesses' Address | site `last-will-fulltext.njk` |
 | `stone` | Stone, *Biography* (1847), ch. VII | site `biography-barton-stone-fulltext.njk` |
-| `apology` | *Apology* (1804), Part I, with the five's letter to their congregations | same file, `#apology-i` |
+| `apology` | *Apology* (1804), Part I (with the five's letter to their congregations) and Part III (remarks on creeds and the Confession) | same file, `#apology-i` and `#apology-iii` |
 | `dna` | Thomas Campbell, *Declaration and Address* (1809) | site `declaration-and-address-fulltext.njk` |
 | `wcf` | Westminster Confession, American text | `sources/westminster-confession-american.html` |
 
@@ -72,6 +72,7 @@ DOC_DOORS = [('The whole will', 'The reading of the will.', 0), ...]  # (label, 
    - `Declaration and Address` → dna
    - `letter to their congregations` → apology
    - `Biography` → stone, then apology
+   - `<i>Apology</i>` (and no `Biography`) → apology
    - `Last Will and Testament` / `Witnesses` → will
    - anything else → all documents, in `DOCS` order.
 4. Match on **letters and digits only**, so case, punctuation and spacing don't matter ("Caneridge" matches "Cane Ridge"). If there's no exact match, a fuzzy pass looks for two 24-letter windows in order at about the right distance. The windows are shifted inward to step over an OCR slip near either end.

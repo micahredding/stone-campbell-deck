@@ -10,9 +10,7 @@ import os, re, json
 
 SIDE = [
     # (label,                                first-slide anchor,                         last-slide anchor)
-    ('Five years later: Thomas Campbell',     'Five years later, the same move',           'Five years later, the same move'),
     ('Quoting the Confession against itself', 'Quoting the Confession against itself',     'honoring its deepest impulses'),
-    ('The Synod strikes back',                'sends a committee to win them back',        'pope of Rome had to suspend Luther'),
     ('What their research found',             'make the Presbytery of Springfield their king', 'a job only Christ can do'),
     ('The rest of the bequests',              'our name of distinction',                   'native right of internal government'),
     ('Why, in their own words',               'dying sinners who are kept from the Lord',  'dying sinners who are kept from the Lord'),
@@ -21,7 +19,7 @@ SIDE = [
 # Sections of the spine, for the map's labels: (label, anchor on the section's first slide)
 SECTIONS = [
     ('Opening', 'Otter Creek'), ('The hook', 'The cold open.'),
-    ('The trial', 'What the five preached'), ('The cost', 'not only were churches divided'),
+    ('The five', 'A few years after Cane Ridge'), ('The trial', 'fiery ordeal'), ('The cost', 'not only were churches divided'),
     ('It worked', 'It worked.'), ('The reading of the will', 'The reading of the will.'),
     ('Why', 'voluntary and happy death'), ('Our table', 'Our table'), ('Close', 'for discussion'),
 ]
@@ -91,9 +89,10 @@ DOCS = [
     {'key': 'stone', 'title': 'Barton W. Stone, <i>Biography</i> (1847), chapter VII',
      'sub': 'His own account of the trial, the garden, the cost, and the will',
      'html': clean(between('biography-barton-stone-fulltext.njk', '<h3 id="bio-ch-7">', '<h3 id="bio-ch-8">'))},
-    {'key': 'apology', 'title': 'The Springfield Presbytery&rsquo;s <i>Apology</i> (1804), Part I',
-     'sub': 'The five&rsquo;s own history: the trial, the protest, the letter to their congregations, the suspension &middot; as reprinted in Stone&rsquo;s <i>Biography</i>',
-     'html': clean(between('biography-barton-stone-fulltext.njk', '<h3 id="apology-i">', '<h2 id="apology-ii">'))},
+    {'key': 'apology', 'title': 'The Springfield Presbytery&rsquo;s <i>Apology</i> (1804), Parts I and III',
+     'sub': 'The five&rsquo;s own history (the trial, the protest, the letter to their congregations, the suspension) and their remarks on creeds and the Confession &middot; as reprinted in Stone&rsquo;s <i>Biography</i>',
+     'html': clean(between('biography-barton-stone-fulltext.njk', '<h3 id="apology-i">', '<h2 id="apology-ii">')
+                   + between('biography-barton-stone-fulltext.njk', '<h2 id="apology-iii">', '<h2 id="character">'))},
     {'key': 'dna', 'title': 'Thomas Campbell, <i>Declaration and Address</i> (1809)',
      'sub': 'The whole of it: Declaration, Address, Propositions, Appendix',
      'html': clean(between('declaration-and-address-fulltext.njk', '<h2 id="declaration">', '<!-- SOURCE CITATION -->'))},
@@ -150,6 +149,7 @@ for si, s in enumerate(S):
     elif 'Declaration and Address' in vis: order = [K.index('dna')]
     elif 'letter to their congregations' in vis: order = [K.index('apology')]
     elif 'Biography' in vis: order = [K.index('stone'), K.index('apology')]
+    elif '<i>Apology</i>' in vis: order = [K.index('apology')]
     elif 'Last Will and Testament' in vis or 'Witnesses' in vis: order = [K.index('will')]
     else: order = list(range(len(DOCS)))
     for seg in segments(s):

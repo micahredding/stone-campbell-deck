@@ -31,14 +31,10 @@ WIT = 'The Witnesses&rsquo; Address, 1804'
 STONE = 'Barton W. Stone, <i>Biography</i> (1847)'
 
 IDEAS = [
-    ('Exit<br>' + G('without excommunication.'),
-     'They withdrew &ldquo;from their jurisdiction, but not from their communion,&rdquo; and would not un-church the men un-churching them. Thomas Campbell, five years later, the same move: he kept the practice he was condemned for, but &ldquo;he need not impose them upon others, by anywise requiring their approbation.&rdquo;'),
-    ('Institutional self-sacrifice,<br>' + G('in the name of unity.'),
-     'The presbytery was nine months old and thriving, and it willed itself to &ldquo;die, be dissolved, and sink into union with the Body of Christ at large.&rdquo; When their own institution began to stand where only Christ should stand, they let it die.'),
-    ('Authority returns<br>' + G('to the gathered congregation.'),
-     'Each church to &ldquo;choose her own preacher&hellip; admit members&hellip; remove offences; and never henceforth delegate her right of government to any man or set of men whatever.&rdquo; The priesthood of all believers, as polity.'),
-    ('Freedom<br>' + G('requires forbearance.'),
-     '&ldquo;Pray more and dispute less.&rdquo; A church that has given up its courts has nothing left to settle its quarrels but patience and prayer, and the will says so in the same breath as it gives up the courts.'),
+    ('Willingness to sacrifice<br>' + G('our own institutions.'),
+     'Not just walking away from other people&rsquo;s institutions, not just rebelling against them: sacrificing their own. The presbytery was nine months old and thriving, and they willed it to &ldquo;die, be dissolved, and sink into union with the Body of Christ at large.&rdquo; Tearing down an idol they had built themselves. Compare Campbell: he extended conscience to others, not just claimed it for himself; Stone gave up his own institution, not just other people&rsquo;s.'),
+    ('Authority returns to the gathered church,<br>' + G('and to the Spirit.'),
+     'Each church, &ldquo;actuated by the same spirit,&rdquo; to &ldquo;choose her own preacher&hellip; admit members&hellip; remove offences; and never henceforth delegate her right of government to any man or set of men whatever.&rdquo; No proof of a minister&rsquo;s authority &ldquo;but Christ speaking in them&rdquo;; the people to &ldquo;adopt the law of the spirit of life in Christ Jesus.&rdquo;'),
 ]
 def IDEA(k):
     h, n = IDEAS[k - 1]
@@ -80,17 +76,14 @@ A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,
   '<aside class=notes>The cold open. One click. Read the first line and stop; let &ldquo;die&rdquo; sit before the rest comes up.<br>'
   '&rarr; &ldquo;A church body wrote that about itself. How did we get here?&rdquo;</aside></section>')
 
-A(Q('&ldquo;The Presbytery of Springfield, sitting at Cane Ridge&hellip; being, through a gracious Providence, <b>in more than ordinary bodily health, growing in strength and size daily</b>, and in perfect soundness and composure of mind; but knowing that it is appointed for all delegated bodies once to die&hellip; do make and ordain this our Last Will and Testament&hellip;&rdquo;', WILL, 'June 28, 1804') +
-  N('Who is &ldquo;this body&rdquo;? The will&rsquo;s opening, in the legal form of a real will. Read it slowly; the joke is in &ldquo;more than ordinary bodily health.&rdquo; Nobody makes a will because they are growing in strength and size daily.',
-    '&rarr; This church body was nine months old, and thriving.'))
-
-A('<section class="slide room"><h2>Why would a church body that was <span style="color:var(--gold)">thriving</span> write its own will?</h2>'
-  '<aside class=notes>Ask it and take one or two guesses. Don&rsquo;t answer. &rarr; &ldquo;To find out, go back to what five preachers were preaching, and the trial it led to in Lexington.&rdquo;</aside></section>')
-
 # ---------- 1 THE TRIAL ----------
+A(Q('&ldquo;There were at this time <b>five preachers</b> in the Presbyterian connection, who were in the same strain of preaching, and <b>whose doctrine was different from that taught in the Confession of Faith</b> of that body. Their names were, Richard McNemar, John Thompson, John Dunlavy, Robert Marshall, and myself&hellip;&rdquo;', STONE, 'A few years after Cane Ridge') +
+  N('The revival has kept going since Cane Ridge, and Stone is one of five ministers preaching in its strain. The sentence goes on: &ldquo;the three former lived in Ohio, the two latter in Kentucky.&rdquo; David Purviance, then a candidate for the ministry, &ldquo;was of the same faith.&rdquo;',
+    '&rarr; Here is what they preached.'))
+
 A(Q('&ldquo;The distinguishing doctrine preached by us was, that <b>God loved the world &mdash; the whole world</b>, and sent his Son to save them&hellip; that the gospel was the means of salvation&hellip; that God required us to believe in his Son, and had given us sufficient evidence in his Word to produce faith in us&hellip; that <b>sinners were capable of understanding and believing this testimony</b>, and of acting upon it by coming to the Saviour and obeying him, and from him obtaining salvation and the Holy Spirit.&rdquo;', STONE, 'What the five preached') +
   N('Clipped from the slide: &ldquo;on condition that they believed in him&rdquo; (after &ldquo;save them&rdquo;); &ldquo;but that this means would never be effectual to this end, until believed and obeyed by us&rdquo; (after &ldquo;the means of salvation&rdquo;); and &ldquo;if attended to by us&rdquo; (after &ldquo;faith in us&rdquo;).',
-    'Context for the trial: what the revival preachers were preaching. Stone names the five just before this: McNemar, Thompson, Dunlavy, Marshall, and himself, &ldquo;whose doctrine was different from that taught in the Confession of Faith.&rdquo; Purviance, then a candidate, held it too.',
+    'Their distinctive teaching.',
     'Against Westminster: Christ died for the elect only, and the sinner can do nothing until God first regenerates him. Here: the whole world, and the sinner is able to believe.'))
 
 A(Q('&ldquo;We urged upon the sinner to <b>believe now</b>, and receive salvation&hellip; that God was as willing to save them now, as he ever was, or ever would be&mdash; that <b>no previous qualification was required</b>, or necessary in order to believe in Jesus, and come to him&hellip; that <b>Jesus died for all</b>, and that all things were now ready.&rdquo;', STONE) +
@@ -101,7 +94,7 @@ A(Q('&ldquo;We urged upon the sinner to <b>believe now</b>, and receive salvatio
 A(Q('&ldquo;When we began first to preach these things, the people appeared as just awakened from the sleep of ages &mdash; <b>they seemed to see for the first time that they were responsible beings</b>&hellip;&rdquo;', STONE) +
   N('The sentence goes on: &ldquo;and that a refusal to use the means appointed, was a damning sin.&rdquo;',
     'Then the reaction: &ldquo;The sticklers for orthodoxy amongst us writhed under these doctrines&rdquo;; they &ldquo;painfully saw their Confession of Faith neglected.&rdquo;',
-    '&rarr; And the first one they went after was McNemar.'))
+    '&rarr; It flourished, and it drew enough ire that the first one they went after was McNemar.'))
 
 A(Q('&ldquo;&hellip;first took McNemar through their <b>fiery ordeal</b>, for preaching these anti-calvinistic doctrines.&rdquo;', STONE, 'Richard McNemar, 1770&ndash;1839') +
   N('McNemar, a revival preacher in Ohio. His crime: preaching what the revival preached, that the gospel offer is open to everyone and anyone may respond. That is not what the Westminster Confession says, and every Presbyterian minister had sworn to the Confession.',
@@ -116,6 +109,10 @@ A('<section class="slide plateslide tight"><figure class="plate short"><img src=
   '<p class="bigquote long" style="margin-top:2vmin"><span class=q>&ldquo;It was plainly hinted to us, that <b>we would not be forgotten</b> by the Synod.&rdquo;</span></p>'
   '<aside class=notes>Stone, whom the room met at Cane Ridge in Chapter 1. &ldquo;We waited anxiously for the issue, till we plainly saw it would be adverse to him, and consequently to us all.&rdquo;</aside></section>')
 
+A(Q('&ldquo;When we neglected it and followed the Spirit of God, in his word, our minds were enlightened, and our souls were quickened. But when we compared this light, with the confession, they would not agree. We could not withstand God. <b>We chose to hearken to God, rather than men</b>&hellip;&rdquo;', 'Springfield Presbytery, <i>Apology</i> (1804)', 'Obey God rather than men') +
+  N('Acts 5:29. From the <i>Apology</i> they published the next year, on the Confession (&ldquo;it&rdquo; is &ldquo;that book&rdquo;). The sentence ends: &ldquo;and therefore, have taken our leave of that book.&rdquo;',
+    '&rarr; So, in a recess of the Synod&hellip;'))
+
 A(Q('&ldquo;In a short recess of Synod, we five withdrew to a private garden, where, after prayer for direction, and a free conversation, with a perfect unanimity we drew up a protest&hellip; and a declaration of our independence, and of our <b>withdrawal from their jurisdiction, but not from their communion</b>.&rdquo;', STONE, 'The garden') +
   N('Five men, a recess, a garden, prayer. &ldquo;A declaration of our independence&rdquo;: his words, twenty-seven years after the other one. The protest is dated 10 September 1803.'))
 
@@ -123,9 +120,7 @@ A(Q('&ldquo;This protest we immediately presented to the Synod, through their Mo
   N('Let the room have a few seconds of silence of its own.'))
 
 A(CARD('They left the court.<br>' + G('They did not leave the table.'),
-  'The chapter in one line. The men about to put them out were still their brothers, and they would not put anyone out in return. Last week&rsquo;s first idea, lived: conscience claimed for the brother, even the brother who judges you.'))
-
-A(IDEA(1))
+  'The chapter in one line. The men about to put them out were still their brothers, and they would not put anyone out in return. Last week&rsquo;s first idea, lived: conscience claimed for the brother, even the brother who judges you. &rarr; Campbell will do the same thing.'))
 
 A(Q('&ldquo;&hellip;no man can relinquish his opinions or practices till once convinced that they are wrong&hellip; One thing, however, he may do: when not bound by an express command, <b>he need not impose them upon others, by anywise requiring their approbation</b>&hellip;&rdquo;', 'Thomas Campbell, <i>Declaration and Address</i>, 1809 &middot; Appendix', 'Five years later, the same move') +
   N('Chapter 2: the Seceders tried and censured Thomas Campbell for giving the Supper to other Presbyterians. He did not give the practice up, and he did not require his judges to adopt it. That is exit without excommunication from the other side: keep your practice; do not make it your brother&rsquo;s test.',
@@ -215,6 +210,10 @@ A('<section class="slide bleed"><div class=bg><div class="bgimg househbg"></div>
 A(Q('&ldquo;For where a testament is, there must of necessity be <b>the death of the testator</b>&hellip; Verily, verily I say unto you, except a corn of wheat fall into the ground and die, it abideth alone; but <b>if it die, it bringeth forth much fruit</b>.&rdquo;', 'The will&rsquo;s epigraph &middot; Hebrews 9:16; John 12:24', 'At the top of the page') +
   N('They put the theology at the top. A will has no force while the testator lives. The inheritance can only pass when the presbytery is gone.'))
 
+A(Q('&ldquo;The Presbytery of Springfield, sitting at Cane Ridge&hellip; being, through a gracious Providence, <b>in more than ordinary bodily health, growing in strength and size daily</b>, and in perfect soundness and composure of mind; but knowing that it is appointed for all delegated bodies once to die&hellip; do make and ordain this our Last Will and Testament&hellip;&rdquo;', WILL, 'June 28, 1804') +
+  N('The will&rsquo;s opening, in the legal form of a real will. Read it slowly; the joke is in &ldquo;more than ordinary bodily health.&rdquo; Nobody makes a will because they are growing in strength and size daily.',
+    '&rarr; This church body was nine months old, and thriving.'))
+
 A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,10vmin,128px);line-height:1.1">&ldquo;&hellip;it is appointed for<br>all delegated bodies<br>' + G('once to die.') + '&rdquo;</h2>'
   '<div class=cite style="margin-top:3vmin">' + WILL + '</div>'
   '<aside class=notes>From the preamble, after &ldquo;more than ordinary bodily health.&rdquo; Hebrews 9:27, &ldquo;it is appointed unto men once to die,&rdquo; applied to institutions. Every presbytery, synod, board and program is a delegated body: it holds authority on loan. It is mortal by design.</aside></section>')
@@ -222,27 +221,26 @@ A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,
 A(Q('&ldquo;Imprimis. We will, that this body <b>die, be dissolved, and sink into union with the Body of Christ at large</b>; for there is but one body, and one spirit, even as we are called in one hope of our calling.&rdquo;', WILL, 'First bequest') +
   N('The line we opened with; now the room knows how they got here. &ldquo;Imprimis&rdquo;: in the first place, the legal word. Ephesians 4:4. The presbytery does not dissolve into nothing; it sinks into the whole church. The heir is the Body of Christ at large.'))
 
-A(IDEA(2))
+A(IDEA(1))
 
 A(Q('&ldquo;We will, that our name of distinction, with its Reverend title, <b>be forgotten</b>, that there be but one Lord over God&rsquo;s heritage, and his name one.&rdquo;', WILL, 'Their name') +
   N('A will gives things away; this one gives away everything a church body has, starting with its name and its titles. They took the name Christian (Rice Haggard&rsquo;s pamphlet).'))
 
-A(Q('&ldquo;We will, that our power of making laws for the government of the church, and executing them by delegated authority, <b>forever cease</b>; that the people may have free course to the Bible&hellip;&rdquo;', WILL, 'Their power') +
-  N('Not abolished: bequeathed. The power to make law for the church goes back to where they think it belongs. The sentence ends: &ldquo;and adopt the law of the spirit of life in Christ Jesus.&rdquo;'))
+A(Q('&ldquo;We will, that our power of making laws for the government of the church, and executing them by delegated authority, <b>forever cease</b>; that the people may have free course to the Bible, and adopt <b>the law of the spirit of life in Christ Jesus</b>.&rdquo;', WILL, 'Their power') +
+  N('Not abolished: bequeathed. The power to make law for the church goes back to where they think it belongs.'))
 
 A(Q('&ldquo;We will, that the church of Christ assume her <b>native right of internal government</b>&hellip; and admit no other proof of their authority, but Christ speaking in them.&rdquo;', WILL, 'To the church') +
   N('&ldquo;Native&rdquo;: it was always hers. The church will &ldquo;try her candidates for the ministry, as to their soundness in the faith, acquaintance with experimental religion, gravity and aptness to teach.&rdquo; What the Synod did to McNemar, the congregation now does, and the only credential is &ldquo;Christ speaking in them.&rdquo;'))
 
-A(Q('&ldquo;We will, that each particular church, as a body&hellip; <b>choose her own preacher</b>, and support him by a free will offering&hellip; admit members &mdash; remove offences; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;', WILL, 'To every congregation') +
+A(Q('&ldquo;We will, that each particular church, as a body, <b>actuated by the same spirit</b>, choose her own preacher, and support him by a free will offering&hellip; admit members &mdash; remove offences; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;', WILL, 'To every congregation') +
   N('The biggest bequest. Everything the Synod did to them (try preachers, admit, exclude) is handed to the congregation. The priesthood of all believers, as polity.',
     '&rarr; Hold this one. Next week, at Brush Run, a congregation will use exactly this right.'))
 
-A(IDEA(3))
+A(IDEA(2))
 
 A(Q('&ldquo;We will, that preachers and people, cultivate a spirit of mutual forbearance; <b>pray more and dispute less</b>; and while they behold the signs of the times, look up, and confidently expect that redemption draweth nigh.&rdquo;', WILL, 'To preachers and people') +
   N('A church that has given away its courts has nothing left to settle its quarrels but forbearance and prayer, and the will says so in the same breath. Then: look up; redemption draweth nigh. They died expecting the future.'))
 
-A(IDEA(4))
 
 # ---------- 5 WHY ----------
 A(Q('&ldquo;&hellip;from its first existence it was knit together in love, lived in peace and concord, and <b>died a voluntary and happy death</b>.&rdquo;', WIT, 'The witnesses') +
@@ -272,7 +270,7 @@ for _k in range(1, len(IDEAS) + 1): A(IDEA(_k))
 A('<section class="slide room"><div class=eyebrow>Ideas</div>'
   '<div class="litany ideasum" style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">'
   + ''.join('<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (k, plain(h)) for k, (h, _) in enumerate(IDEAS, 1)) +
-  '</div><aside class=notes>All four at once, before the discussion.</aside></section>')
+  '</div><aside class=notes>Both at once, before the discussion.</aside></section>')
 A(DISCUSS)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. Both of tonight&rsquo;s sources are there in full: the <i>Last Will and Testament</i> with the Witnesses&rsquo; Address, and Stone&rsquo;s <i>Biography</i>. Say &ldquo;sources and other information are on the site,&rdquo; and leave it there.</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))
