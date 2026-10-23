@@ -85,9 +85,22 @@ A(Q('&ldquo;The Presbytery of Springfield, sitting at Cane Ridge&hellip; being, 
     '&rarr; This church body was nine months old, and thriving.'))
 
 A('<section class="slide room"><h2>Why would a church body that was <span style="color:var(--gold)">thriving</span> write its own will?</h2>'
-  '<aside class=notes>Ask it and take one or two guesses. Don&rsquo;t answer. &rarr; &ldquo;To find out, go back nine months, to a trial in Lexington.&rdquo;</aside></section>')
+  '<aside class=notes>Ask it and take one or two guesses. Don&rsquo;t answer. &rarr; &ldquo;To find out, go back to what five preachers were preaching, and the trial it led to in Lexington.&rdquo;</aside></section>')
 
 # ---------- 1 THE TRIAL ----------
+A(Q('&ldquo;The distinguishing doctrine preached by us was, that <b>God loved the world &mdash; the whole world</b>, and sent his Son to save them, on condition that they believed in him &mdash; that the gospel was the means of salvation &mdash; but that this means would never be effectual to this end, until believed and obeyed by us &mdash; that God required us to believe in his Son, and had given us sufficient evidence in his Word to produce faith in us, if attended to by us &mdash; that <b>sinners were capable of understanding and believing this testimony</b>, and of acting upon it by coming to the Saviour and obeying him, and from him obtaining salvation and the Holy Spirit.&rdquo;', STONE, 'What the five preached') +
+  N('Context for the trial: what the revival preachers were preaching. Stone names the five just before this: McNemar, Thompson, Dunlavy, Marshall, and himself, &ldquo;whose doctrine was different from that taught in the Confession of Faith.&rdquo; Purviance, then a candidate, held it too.',
+    'Against Westminster: Christ died for the elect only, and the sinner can do nothing until God first regenerates him. Here: the whole world, and the sinner is able to believe.'))
+
+A(Q('&ldquo;We urged upon the sinner to <b>believe now</b>, and receive salvation &mdash; that in vain they looked for the Spirit to be given them, while they remained in unbelief &mdash; they must believe before the Spirit or salvation would be given them &mdash; that God was as willing to save them now, as he ever was, or ever would be&mdash; that <b>no previous qualification was required</b>, or necessary in order to believe in Jesus, and come to him &mdash; that if they were sinners, this was their divine warrant to believe in him, and to come to him for salvation &mdash; that <b>Jesus died for all</b>, and that all things were now ready.&rdquo;', STONE) +
+  N('The same paragraph, continued. &ldquo;No previous qualification&rdquo; is the open table again, as doctrine: nothing stands between the sinner and Christ.',
+    'Stone says this is the doctrine of their <i>Apology</i>, and that he later dissented from its account of the Atonement.'))
+
+A(Q('&ldquo;When we began first to preach these things, the people appeared as just awakened from the sleep of ages &mdash; <b>they seemed to see for the first time that they were responsible beings</b>&hellip;&rdquo;', STONE) +
+  N('The sentence goes on: &ldquo;and that a refusal to use the means appointed, was a damning sin.&rdquo;',
+    'Then the reaction: &ldquo;The sticklers for orthodoxy amongst us writhed under these doctrines&rdquo;; they &ldquo;painfully saw their Confession of Faith neglected.&rdquo;',
+    '&rarr; And the first one they went after was McNemar.'))
+
 A(Q('&ldquo;&hellip;first took McNemar through their <b>fiery ordeal</b>, for preaching these anti-calvinistic doctrines.&rdquo;', STONE, 'Richard McNemar, 1770&ndash;1839') +
   N('McNemar, a revival preacher in Ohio. His crime: preaching what the revival preached, that the gospel offer is open to everyone and anyone may respond. That is not what the Westminster Confession says, and every Presbyterian minister had sworn to the Confession.',
     'The &ldquo;ordeal&rdquo; was his own presbytery, the Washington Presbytery (Stone&rsquo;s sentence calls it &ldquo;the Presbytery of Springfield, in Ohio&rdquo;; the records say Washington, and the name would only confuse here). The Synod of Kentucky censured that presbytery for not dealing with him, and his case came up to the Synod at Lexington, September 1803.'))
