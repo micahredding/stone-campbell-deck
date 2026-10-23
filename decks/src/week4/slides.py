@@ -165,10 +165,6 @@ A('<section class="slide"><div class=eyebrow>The Synod sends a committee to win 
   '</div><div class=cite>' + STONE + '</div>'
   '<aside class=notes>Three clicks, and a smile. The committee sent to bring them back lost a member to them. Rice was the father of Kentucky Presbyterianism and Stone honors him (&ldquo;of precious memory&rdquo;), but his argument, Stone says, &ldquo;could have no effect on minds ardent in the search of truth.&rdquo; The logic: the creed is the only thing between you and atheism. Last week answered that.<br>&rarr; Then the Synod suspended them anyway, and sent committees to read &ldquo;the Synod&rsquo;s bull of suspension&rdquo; in their pulpits and declare their churches vacant.</aside></section>')
 
-A(Q('&ldquo;&hellip;not only were churches divided, but families; those who before had lived in harmony and love, were now set in hostile array against each other. What scenes of confusion and distress! <b>not produced by the Bible; but by human authoritative creeds</b>&hellip;&rdquo;', STONE) +
-  N('The cost to the people. The sentence goes on: &ldquo;My heart was sickened, and effectually turned against such creeds, as nuisances of religious society, and the very bane of Christian unity.&rdquo;',
-    '&rarr; Then the cost to Stone.'))
-
 # ---------- 2 THE COST ----------
 A(Q('&ldquo;I called together my congregations, and informed them that I could no longer conscientiously preach to support the Presbyterian church&hellip; that I absolved them from all obligations in a pecuniary point of view, and then <b>in their presence tore up their salary obligation to me</b>&hellip;&rdquo;', STONE, 'Cane Ridge and Concord &middot; late 1803') +
   N('Mime it if you like. He kept preaching to them, &ldquo;but not in the relation that had previously existed between us.&rdquo; Of the people: &ldquo;Never have I found a more loving, kind, and orderly people in any country.&rdquo; Of the day: &ldquo;This was truly a day of sorrow, and the impressions of it are indelible.&rdquo;'))

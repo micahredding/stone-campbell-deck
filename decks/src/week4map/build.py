@@ -19,7 +19,7 @@ SIDE = [
 # Sections of the spine, for the map's labels: (label, anchor on the section's first slide)
 SECTIONS = [
     ('Opening', 'Otter Creek'), ('The hook', 'The cold open.'),
-    ('The five', 'A few years after Cane Ridge'), ('The trial', 'fiery ordeal'), ('The cost', 'not only were churches divided'),
+    ('The five', 'A few years after Cane Ridge'), ('The trial', 'fiery ordeal'), ('The cost', 'I called together my congregations'),
     ('It worked', 'It worked.'), ('The reading of the will', 'The reading of the will.'),
     ('Why', 'voluntary and happy death'), ('Our table', 'Our table'), ('Close', 'for discussion'),
 ]
