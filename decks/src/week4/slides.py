@@ -135,17 +135,9 @@ A(CARD('They did not withdraw communion.',
 A(Q('&ldquo;&hellip;we plead a privilege, which is granted in the Confession of Faith, chap. 1. sec. 9, 10&hellip; that <b>the infallible rule of interpreting Scripture, is not the Confession of Faith</b>, nor any human writings whatever, but the Scripture itself.&rdquo;', 'The five, letter to their congregations, September 1803 &middot; in Stone, <i>Biography</i> (1847)', 'Quoting the Confession against itself') +
   N('Their circular letter, drafted at the new presbytery&rsquo;s first meeting and signed by all five; it says the protest made the same plea. &ldquo;We wish to pay all due deference to the Confession of Faith, and other writings of our pious fathers; but&hellip;&rdquo;',
     'The same letter: &ldquo;We do not desire, nor do we consider ourselves to be separated from the Presbyterian church&hellip; we will admit to communion as formerly, and desire to be admitted. It is not our design to form a party.&rdquo;',
-    '&rarr; The book they were tried by says it is not the final word. Next slide: what it actually says.'))
+    '&rarr; The book they were tried by says it is not the final word. 1.9: &ldquo;The infallible rule of interpretation of Scripture, is the Scripture itself.&rdquo; 1.10: the supreme judge of every council&rsquo;s decree &ldquo;can be no other but the Holy Spirit speaking in the Scripture.&rdquo; And the same book says more.'))
 
-A('<section class="slide"><div class=eyebrow>Westminster Confession, 1646 &middot; chapter 1</div>'
-  '<div class=litany style="text-align:left;gap:3.4vmin;margin-top:1.4vmin;max-width:88vw">'
-  '<div class="no frag"><b style="color:var(--gold)">1.9</b> &ldquo;The infallible rule of interpretation of Scripture, is <b>the Scripture itself</b>&hellip;&rdquo;</div>'
-  '<div class="no frag"><b style="color:var(--gold)">1.10</b> &ldquo;The supreme Judge, by which all controversies of religion are to be determined, and all decrees of councils&hellip; are to be examined&hellip; can be no other but <b>the Holy Spirit speaking in the Scripture</b>.&rdquo;</div>'
-  '</div>'
-  '<aside class=notes>Two clicks. The Synod tried them by the Confession; the Confession says every council&rsquo;s decree is to be examined by Scripture, and the only supreme judge is the Spirit speaking in Scripture. That includes the Synod, and the Confession itself. (Text as in the 1646 Confession; 1.9 goes on: &ldquo;when there is a question about the true and full sense of any scripture&hellip; it [must] be searched and known by other places that speak more clearly.&rdquo;)<br>'
-  '&rarr; They did not reject the Confession. They took it at its word. And the same book says more.</aside></section>')
-
-A('<section class="slide"><div class=eyebrow>The same Confession</div>'
+A('<section class="slide"><div class=eyebrow>The Westminster Confession</div>'
   '<div class=litany style="text-align:left;gap:3.4vmin;margin-top:1.4vmin;max-width:88vw">'
   '<div class="no frag"><b style="color:var(--gold)">20.2</b> &ldquo;<b>God alone is Lord of the conscience</b>, and hath left it free from the doctrines and commandments of men&hellip;&rdquo;</div>'
   '<div class="no frag"><b style="color:var(--gold)">31.3</b> &ldquo;All synods or councils since the apostles&rsquo; times, whether general or particular, <b>may err, and many have erred</b>; therefore they are not to be made the rule of faith or practice&hellip;&rdquo;</div>'
