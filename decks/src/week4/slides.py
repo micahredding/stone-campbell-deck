@@ -186,7 +186,10 @@ A('<section class="slide"><h2>It worked.</h2>'
   '<div class="no frag">Pamphlets against them, &ldquo;full of misrepresentation and invective,&rdquo; <b>spread their views</b>.</div>'
   '<div class="no frag">People &ldquo;disgusted and offended&rdquo; by the attacks &ldquo;were driven from them, and <b>cleaved to us</b>.&rdquo;</div>'
   '</div><div class=cite>' + STONE + '</div>'
-  '<aside class=notes>Four clicks. Stone: &ldquo;This book produced a great effect in the Christian community.&rdquo; Churches planted, preachers multiplied.<br>&rarr; Which is exactly when the problem began.</aside></section>')
+  '<aside class=notes>Four clicks. Stone: &ldquo;This book produced a great effect in the Christian community.&rdquo;</aside></section>')
+
+A(CARD('The Springfield Presbytery<br>' + G('flourished.'),
+  'Churches planted, preachers multiplied. &rarr; Which is exactly when the problem began.'))
 
 A(Q('&ldquo;&hellip;they endeavored to cultivate a spirit of love and unity with all Christians; but found it extremely difficult to suppress the idea that they themselves were a party separate from others. <b>This difficulty increased in proportion to their success.</b>&rdquo;', WIT, 'Why they did it') +
   N('The witnesses who signed the will, explaining it. They left a party because it fenced Christians apart. Now people saw them as a party, and they began to feel like one. Stone: &ldquo;we had not worn our name more than one year, before we saw it savored of a party spirit.&rdquo;'))
