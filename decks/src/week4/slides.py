@@ -114,8 +114,8 @@ A('<section class="slide plateslide tight"><figure class="plate short"><img src=
   '<p class="bigquote long" style="margin-top:2vmin"><span class=q>&ldquo;It was plainly hinted to us, that <b>we would not be forgotten</b> by the Synod.&rdquo;</span></p>'
   '<aside class=notes>Stone, whom the room met at Cane Ridge in Chapter 1. &ldquo;We waited anxiously for the issue, till we plainly saw it would be adverse to him, and consequently to us all.&rdquo;</aside></section>')
 
-A(Q('&ldquo;When we neglected it and followed the Spirit of God, in his word, our minds were enlightened, and our souls were quickened. But when we compared this light, with the confession, they would not agree. We could not withstand God. <b>We chose to hearken to God, rather than men</b>&hellip;&rdquo;', 'Springfield Presbytery, <i>Apology</i> (1804)', 'Obey God rather than men') +
-  N('Acts 5:29. From the <i>Apology</i> they published the next year, on the Confession (&ldquo;it&rdquo; is &ldquo;that book&rdquo;). The sentence ends: &ldquo;and therefore, have taken our leave of that book.&rdquo;',
+A(Q('&ldquo;When we neglected it [the Confession of Faith] and followed the Spirit of God, in his word, our minds were enlightened, and our souls were quickened. But when we compared this light, with the confession, they would not agree. We could not withstand God. <b>We chose to hearken to God, rather than men</b>&hellip;&rdquo;', 'Springfield Presbytery, <i>Apology</i> (1804)', 'Obey God rather than men') +
+  N('Acts 5:29. From the <i>Apology</i> they published the next year, on the Confession; the sentence before: &ldquo;That book never helped, but hindered our faith.&rdquo; The sentence ends: &ldquo;and therefore, have taken our leave of that book.&rdquo;',
     '&rarr; So, in a recess of the Synod&hellip;'))
 
 A(Q('&ldquo;In a short recess of Synod, we five withdrew to a private garden, where, after prayer for direction, and a free conversation, with a perfect unanimity we drew up a protest&hellip; and a declaration of our independence, and of our <b>withdrawal from their jurisdiction, but not from their communion</b>.&rdquo;', STONE, 'The garden') +
