@@ -165,10 +165,7 @@ A('<section class="slide"><div class=eyebrow>The Synod sends a committee to win 
   '<div class="no frag">Another, &ldquo;old father David Rice,&rdquo; argued &ldquo;that every departure from Calvinism was an advance to atheism&rdquo;:</div>'
   '<div class="no frag" style="color:var(--gold)">Calvinism &rarr; Arminianism &rarr; Pelagianism &rarr; deism &rarr; atheism</div>'
   '</div><div class=cite>' + STONE + '</div>'
-  '<aside class=notes>Three clicks, and a smile. The committee sent to bring them back lost a member to them. Rice was the father of Kentucky Presbyterianism and Stone honors him (&ldquo;of precious memory&rdquo;), but his argument, Stone says, &ldquo;could have no effect on minds ardent in the search of truth.&rdquo; The logic: the creed is the only thing between you and atheism. Last week answered that.</aside></section>')
-
-A(Q('&ldquo;We insisted that after we had orderly protested, and withdrawn, that the Synod had <b>no better right to suspend us, than the pope of Rome had to suspend Luther</b>, after he had done the same thing.&rdquo;', STONE, 'The suspension') +
-  N('The Synod suspended them anyway and sent committees to read &ldquo;the Synod&rsquo;s bull of suspension&rdquo; in their pulpits and declare their churches vacant. &ldquo;Bull&rdquo; is the pope&rsquo;s word, on purpose. Luther again, from last week: Worms.'))
+  '<aside class=notes>Three clicks, and a smile. The committee sent to bring them back lost a member to them. Rice was the father of Kentucky Presbyterianism and Stone honors him (&ldquo;of precious memory&rdquo;), but his argument, Stone says, &ldquo;could have no effect on minds ardent in the search of truth.&rdquo; The logic: the creed is the only thing between you and atheism. Last week answered that.<br>&rarr; Then the Synod suspended them anyway, and sent committees to read &ldquo;the Synod&rsquo;s bull of suspension&rdquo; in their pulpits and declare their churches vacant.</aside></section>')
 
 A(Q('&ldquo;&hellip;not only were churches divided, but families; those who before had lived in harmony and love, were now set in hostile array against each other. What scenes of confusion and distress! <b>not produced by the Bible; but by human authoritative creeds</b>&hellip;&rdquo;', STONE) +
   N('The cost to the people. The sentence goes on: &ldquo;My heart was sickened, and effectually turned against such creeds, as nuisances of religious society, and the very bane of Christian unity.&rdquo;',
@@ -186,10 +183,11 @@ A(Q('&ldquo;I preferred honesty and a good conscience to all these things. Havin
 A('<section class="slide"><h2>It worked.</h2>'
   '<div class=litany>'
   '<div class="no frag">They form the <b>Springfield Presbytery</b> and publish the <i>Apology</i>: no authoritative creed but the Bible.</div>'
+  '<div class="no frag">The <i>Apology</i> &ldquo;was quickly <b>republished by the Methodists</b> in Virginia, except our remarks upon creeds.&rdquo;</div>'
   '<div class="no frag">The pamphlets against them, &ldquo;full of misrepresentation and invective,&rdquo; <b>spread their views</b>.</div>'
   '<div class="no frag">People &ldquo;disgusted and offended&rdquo; by the attacks &ldquo;were driven from them, and <b>cleaved to us</b>.&rdquo;</div>'
   '</div><div class=cite>' + STONE + '</div>'
-  '<aside class=notes>Three clicks. The Methodists in Virginia reprinted the <i>Apology</i>, &ldquo;except our remarks upon creeds.&rdquo; Churches planted, preachers multiplied.<br>&rarr; Which is exactly when the problem began.</aside></section>')
+  '<aside class=notes>Four clicks. Stone: &ldquo;This book produced a great effect in the Christian community.&rdquo; Churches planted, preachers multiplied.<br>&rarr; Which is exactly when the problem began.</aside></section>')
 
 A(Q('&ldquo;&hellip;they endeavored to cultivate a spirit of love and unity with all Christians; but found it extremely difficult to suppress the idea that they themselves were a party separate from others. <b>This difficulty increased in proportion to their success.</b>&rdquo;', WIT, 'Why they did it') +
   N('The witnesses who signed the will, explaining it. They left a party because it fenced Christians apart. Now people saw them as a party, and they began to feel like one. Stone: &ldquo;we had not worn our name more than one year, before we saw it savored of a party spirit.&rdquo;'))
