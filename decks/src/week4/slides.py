@@ -250,7 +250,7 @@ A(Q('&ldquo;&hellip;from its first existence it [the Springfield Presbytery] was
   N('Not a split, not a failure, not a scandal. A happy death.'))
 
 
-A(Q('&ldquo;We heartily unite with our Christian brethren of every name, in thanksgiving to God for the display of his goodness in the glorious work he is carrying on&hellip; which we hope will terminate in <b>the universal spread of the Gospel, and the unity of the church</b>.&rdquo;', WIT, 'The last words') +
+A(Q('&ldquo;We heartily unite with our <b>Christian brethren of every name</b>, in thanksgiving to God for the display of his goodness in the glorious work he is carrying on&hellip; which we hope will terminate in <b>the universal spread of the Gospel, and the unity of the church</b>.&rdquo;', WIT, 'The last words') +
   N('The closing sentence of the whole pamphlet, just before &ldquo;The End.&rdquo; The cut is &ldquo;in our Western country.&rdquo; Cane Ridge is still the background: the glorious work is the revival.'))
 A(Q('&ldquo;Having divested ourselves of all party creeds, and party names, and trusting alone in God, and the word of his grace, we became a by-word and laughing stock to the sects around; all prophesying our speedy annihilation. Yet <b>from this period I date the commencement of that reformation</b>, which has progressed to this day.&rdquo;', STONE, 'After the will') +
   N('&ldquo;Party names&rdquo; is the name Springfield Presbytery. Just before this: &ldquo;we had not worn our name more than one year, before we saw it savored of a party spirit. With the man-made creeds we threw it overboard, and took the name Christian.&rdquo;',
