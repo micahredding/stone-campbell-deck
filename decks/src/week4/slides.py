@@ -67,8 +67,8 @@ A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,
 
 _sum = [x for x in w3b.S if 'class="litany ideasum"' in x and '<div class=eyebrow>Ideas</div>' in x]
 assert len(_sum) == 1
-A(_sum[0].replace('Christ builds his body.', 'Christ has built his body.').replace('<div class=eyebrow>Ideas</div>', '<div class=eyebrow>Last week&rsquo;s ideas</div>')
-  .replace('All five at once, before the discussion.', 'Last week&rsquo;s five ideas, all at once. Read them, or let the room read them; do not re-teach.<br>&rarr; &ldquo;Tonight, five years earlier: men who acted on idea three before Campbell wrote it down.&rdquo;'))
+A(re.sub(r'<div class=no><span[^>]*>5\.</span>.*?</div>', '', _sum[0], flags=re.S).replace('Christ builds his body.', 'Christ has built his body.').replace('<div class=eyebrow>Ideas</div>', '<div class=eyebrow>Last week&rsquo;s ideas</div>')
+  .replace('All five at once, before the discussion.', 'Four of last week&rsquo;s ideas, all at once. Read them, or let the room read them; do not re-teach.<br>&rarr; &ldquo;Tonight, five years earlier: men who acted on idea three before Campbell wrote it down.&rdquo;'))
 
 A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 4</div>'
   '<h1>The Last Will<br>and Testament</h1><div class=table-line></div>'
