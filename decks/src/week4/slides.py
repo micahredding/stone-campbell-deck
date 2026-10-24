@@ -72,8 +72,8 @@ A(re.sub(r'<div class=no><span[^>]*>5\.</span>.*?</div>', '', _sum[0], flags=re.
 
 A('<section class="slide room"><h2 style="max-width:none">How do we claim the unity of the body of Christ?</h2>'
   '<h2 class=frag style="max-width:none;margin-top:3vmin">How do we live that now?</h2>'
-  '<h2 class=frag style="max-width:none;margin-top:3vmin;color:var(--gold)">And what does it ask of our conscience?</h2>'
-  '<aside class=notes>Two clicks. For them these were not two questions but one. What does unity compel conscience to do: to extend, to give up. &rarr; &ldquo;We&rsquo;re going to see how far they were willing to take this.&rdquo;</aside></section>')
+  '<h2 class=frag style="max-width:none;margin-top:3vmin;color:var(--gold)">What are they willing to sacrifice in order to do this?</h2>'
+  '<aside class=notes>Two clicks. If Christ&rsquo;s body is already one, what is our responsibility? How far will they go to hold on to it? &rarr; &ldquo;We&rsquo;re going to see how far they were willing to take this.&rdquo;</aside></section>')
 
 A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 4</div>'
   '<h1>The Last Will<br>and Testament</h1><div class=table-line></div>'
@@ -199,13 +199,27 @@ A('<section class="slide">'
   '<aside class=notes>Three clicks. The Methodists reprinted it &ldquo;except our remarks upon creeds.&rdquo; Stone: &ldquo;This book produced a great effect in the Christian community.&rdquo;</aside></section>')
 
 A(CARD('The Springfield Presbytery<br>' + G('flourished.'),
-  'Churches planted, preachers multiplied. &rarr; At their last meeting, they set out to write a book on church government.'))
+  'Churches planted, preachers multiplied. Side path: their book on church government, and the will&rsquo;s bequests on it. &rarr; Which is exactly when the problem began.'))
 
 
-# ---------- CHURCH GOVERNMENT ----------
+
+# ---------- SIDE PATH: CHURCH GOVERNMENT (copies of the governance bequests; the originals stay in the will) ----------
 A(Q('&ldquo;&hellip;<i>Observations on Church Government</i>, in which the world will see <b>the beautiful simplicity of Christian church government, stript of human inventions and lordly traditions</b>.&rdquo;', WIT, 'Writing a book on church government') +
   N('What they found was not only an absence. The authority Christ gave belongs to the gathered church; the will says so: &ldquo;native right of internal government&rdquo;, &ldquo;Christ speaking in them.&rdquo; Your reading, and say it as yours: Matthew 18:20, where two or three are gathered (next week&rsquo;s title); every believer a priest. Every other institution answers to that.',
     'At their last meeting they set out to write <i>Observations on Church Government</i>. The next sentence: &ldquo;As they proceeded in the investigation of that subject, they soon found that there was neither precept nor example in the New Testament for such confederacies as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc.&rdquo; The research convicted the researchers: their own presbytery was one of these confederacies. &ldquo;While they continued in the connection in which they then stood, they were off the foundation of the Apostles and Prophets.&rdquo; (The book never appeared.)'))
+
+A(Q('&ldquo;We will, that our power of making laws for the government of the church, and executing them by delegated authority, <b>forever cease</b>; that the people may have free course to the Bible, and adopt <b>the law of the spirit of life in Christ Jesus</b>.&rdquo;', WILL, 'Their power') +
+  N('Not abolished: bequeathed. The power to make law for the church goes back to where they think it belongs.'))
+
+A(Q('&ldquo;We will, that candidates for the Gospel ministry henceforth study the holy scriptures with fervent prayer, and <b>obtain license from God to preach the simple Gospel, with the Holy Ghost sent down from heaven</b>&hellip;&rdquo;', WILL, 'To the ministers') +
+  N('No presbytery to license a preacher now. The license comes from God, and the Spirit is the credential.', 'The sentence goes on: &ldquo;without any mixture of philosophy, vain deceit, traditions of men, or the rudiments of the world.&rdquo;'))
+
+A(Q('&ldquo;We will, that the church of Christ assume her <b>native right of internal government</b>&hellip; and admit no other proof of their authority, but Christ speaking in them.&rdquo;', WILL, 'To the church') +
+  N('&ldquo;Native&rdquo;: it was always hers. The church will &ldquo;try her candidates for the ministry, as to their soundness in the faith, acquaintance with experimental religion, gravity and aptness to teach.&rdquo; What the Synod did to McNemar, the congregation now does, and the only credential is &ldquo;Christ speaking in them.&rdquo;'))
+
+A(Q('&ldquo;We will, that each particular church, as a body, <b>actuated by the same spirit</b>, choose her own preacher, and support him by a free will offering&hellip; admit members &mdash; remove offences; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;', WILL, 'To every congregation') +
+  N('The biggest bequest. Everything the Synod did to them (try preachers, admit, exclude) is handed to the congregation. The priesthood of all believers, as polity.',
+    '&rarr; Hold this one. Next week, at Brush Run, a congregation will use exactly this right.'))
 # ---------- 4 CHURCH GOVERNMENT ----------
 # ---------- 5 WHY THEY DISSOLVED ----------
 A(Q('&ldquo;&hellip;they endeavored to cultivate a spirit of love and unity with all Christians; but found it extremely difficult to suppress the idea that they themselves were a party separate from others. <b>This difficulty increased in proportion to their success in the ministry.</b> <b>Jealousies were excited in the minds of other denominations</b>&hellip;&rdquo;', WIT, 'Why they did it') +
@@ -221,12 +235,10 @@ A(Q('&ldquo;Therefore, from a principle of love to Christians of every name, the
   N('The three reasons: love of Christians of every name; the cause of Jesus; and the people outside, kept from the Lord by our divisions. &rarr; So they wrote their will.'))
 
 # ---------- 4 THE READING OF THE WILL ----------
-A(C('The Last Will &amp; Testament', 'Cane Ridge, June 28, 1804.'))
-
 A('<section class="slide bleed"><div class=bg><div class="bgimg househbg"></div></div>'
   '<div class=credit>Cane Ridge Meeting House &middot; HABS, Theodore Webb, 1934</div>'
   '<div class=eyebrow>Cane Ridge &middot; June 28, 1804</div>'
-  '<h2>The reading of the will.</h2>'
+  '<h2>The Last Will &amp; Testament</h2>'
   '<aside class=notes>Back to the room of Chapter 1. Three years earlier, thousands came through the mud to an open table here. The will is dated &ldquo;sitting at Cane Ridge,&rdquo; by tradition in this meetinghouse. Signed by six: the five from the garden and David Purviance.</aside></section>')
 
 A(Q('&ldquo;For where a testament is, there must of necessity be <b>the death of the testator</b>&hellip; Verily, verily I say unto you, except a corn of wheat fall into the ground and die, it abideth alone; but <b>if it die, it bringeth forth much fruit</b>.&rdquo;', 'The will&rsquo;s epigraph &middot; Hebrews 9:16; John 12:24', 'At the top of the page') +
@@ -234,11 +246,8 @@ A(Q('&ldquo;For where a testament is, there must of necessity be <b>the death of
 
 A(Q('&ldquo;The Presbytery of Springfield, sitting at Cane Ridge&hellip; being, through a gracious Providence, <b>in more than ordinary bodily health, growing in strength and size daily</b>, and in perfect soundness and composure of mind; but knowing that it is appointed for all delegated bodies once to die&hellip; do make and ordain this our Last Will and Testament&hellip;&rdquo;', WILL, 'June 28, 1804') +
   N('The will&rsquo;s opening, in the legal form of a real will. Read it slowly; the joke is in &ldquo;more than ordinary bodily health.&rdquo; Nobody makes a will because they are growing in strength and size daily.',
-    '&rarr; This church body was nine months old, and thriving.'))
-
-A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,10vmin,128px);line-height:1.1">&ldquo;&hellip;it is appointed for<br>all delegated bodies<br>' + G('once to die.') + '&rdquo;</h2>'
-  '<div class=cite style="margin-top:3vmin">' + WILL + '</div>'
-  '<aside class=notes>From the preamble, after &ldquo;more than ordinary bodily health.&rdquo; Hebrews 9:27, &ldquo;it is appointed unto men once to die,&rdquo; applied to institutions. Every presbytery, synod, board and program is a delegated body: it holds authority on loan. It is mortal by design.</aside></section>')
+    '&rarr; This church body was nine months old, and thriving.',
+    '&ldquo;Once to die&rdquo;: Hebrews 9:27, &ldquo;it is appointed unto men once to die,&rdquo; applied to institutions. Every presbytery, synod, board and program is a delegated body: it holds authority on loan. It is mortal by design.'))
 
 A(Q('&ldquo;We will, that this body <b>die, be dissolved, and sink into union with the Body of Christ at large</b>; for there is but one body, and one spirit, even as we are called in one hope of our calling.&rdquo;', WILL, 'First bequest') +
   N('The line we opened with; now the room knows how they got here. In the will it opens with &ldquo;Imprimis&rdquo;: in the first place, the legal word. Ephesians 4:4. The presbytery does not dissolve into nothing; it sinks into the whole church. The heir is the Body of Christ at large.'))
@@ -272,10 +281,6 @@ A(Q('&ldquo;&hellip;from its first existence it [the Springfield Presbytery] was
 
 A(Q('&ldquo;We heartily unite with our <b>Christian brethren of every name</b>, in thanksgiving to God for the display of his goodness in the glorious work he is carrying on&hellip; which we hope will terminate in <b>the universal spread of the Gospel, and the unity of the church</b>.&rdquo;', WIT, 'The last words') +
   N('The closing sentence of the whole pamphlet, just before &ldquo;The End.&rdquo; The cut is &ldquo;in our Western country.&rdquo; Cane Ridge is still the background: the glorious work is the revival.'))
-A(Q('&ldquo;Having divested ourselves of all party creeds, and party names, and trusting alone in God, and the word of his grace, we became a by-word and laughing stock to the sects around; all prophesying our speedy annihilation. Yet <b>from this period I date the commencement of that reformation</b>, which has progressed to this day.&rdquo;', STONE, 'After the will') +
-  N('&ldquo;Party names&rdquo; is the name Springfield Presbytery. Just before this: &ldquo;we had not worn our name more than one year, before we saw it savored of a party spirit. With the man-made creeds we threw it overboard, and took the name Christian.&rdquo;',
-    'Stone does not date the movement from Cane Ridge in 1801, or from the garden in 1803. He dates it from here: the giving up of the party.'))
-
 A(CARD('A will only takes effect<br>when someone dies.<br>' + G('The heir was the whole church of Christ.'),
   'Let it sit before the room.'))
 

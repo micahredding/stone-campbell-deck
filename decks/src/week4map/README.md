@@ -51,7 +51,7 @@ The rules:
 ```python
 DOCS = [{'key': 'will', 'title': ..., 'sub': ..., 'html': ...}, ...]   # order matters (see below)
 SHORT = {'will': 'The whole will', ...}                                # labels on the map's sources row
-DOC_DOORS = [('The whole will', 'The reading of the will.', 0), ...]  # (label, spine-slide anchor, doc index)
+DOC_DOORS = [('The whole will', '<h2>The Last Will &amp; Testament</h2>', 0), ...]  # (label, spine-slide anchor, doc index)
 ```
 
 | key | Document | Source |
