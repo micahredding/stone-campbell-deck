@@ -12,6 +12,7 @@ SIDE = [
     # (label,                                first-slide anchor,                         last-slide anchor)
     ('Quoting the Confession against itself', 'Quoting the Confession against itself',     'honoring its deepest impulses'),
     ('Church government',                     'Writing a book on church government',       'each particular church, as a body'),
+    ('Our table',                             '<div class=eyebrow>Our table</div>',        '<div class=eyebrow>Our table</div>'),
     ('Addendum',                              "Reference material; not part of the telling", 'What this week touched'),
 ]
 # Sections of the spine, for the map's labels: (label, anchor on the section's first slide)
@@ -20,7 +21,7 @@ SECTIONS = [
     ('The five', 'A few years after Cane Ridge'), ('The trial and the break', '<h2>The Trial</h2>'),
     ('The rise', '<h2>The Rise of the Springfield Presbytery</h2>'),
     ('Why they dissolved', 'endeavored to cultivate a spirit of love'), ('The Last Will', '<h2>The Last Will &amp; Testament</h2>'),
-    ('Our table', 'Our table'), ('Close', 'for discussion'),
+    ('Close', 'for discussion'),
 ]
 
 os.environ['PART'] = '4'

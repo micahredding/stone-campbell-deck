@@ -392,7 +392,7 @@
    "index": 55,
    "n": 56,
    "title": "Our table What in our church is \"in more than ordinary bodily health\"? Would we be willing",
-   "path": "spine",
+   "path": "Our table",
    "doc": "will"
   },
   {
@@ -533,7 +533,6 @@
   52,
   53,
   54,
-  55,
   56,
   57,
   58,
@@ -566,6 +565,13 @@
     34,
     35,
     36
+   ]
+  },
+  {
+   "label": "Our table",
+   "fork": 54,
+   "slides": [
+    55
    ]
   },
   {
@@ -608,12 +614,8 @@
    "at": 31
   },
   {
-   "label": "Our table",
-   "at": 45
-  },
-  {
    "label": "Close",
-   "at": 47
+   "at": 46
   }
  ],
  "docs": [
