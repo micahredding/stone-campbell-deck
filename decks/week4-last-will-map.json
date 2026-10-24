@@ -76,37 +76,37 @@
   {
    "index": 10,
    "n": 11,
-   "title": "The Trial",
+   "title": "Obey God rather than men \"When we neglected it [the Westminster Confession] and followed t",
    "path": "spine",
-   "doc": null
+   "doc": "apology"
   },
   {
    "index": 11,
    "n": 12,
-   "title": "The Synod of Kentucky Lexington, September 1803 Richard McNemar is on trial. Four other mi",
+   "title": "The Trial",
    "path": "spine",
    "doc": null
   },
   {
    "index": 12,
    "n": 13,
-   "title": "Richard McNemar, 1770-1839 \"...first took McNemar through their fiery ordeal , for preachi",
+   "title": "The Synod of Kentucky Lexington, September 1803 Richard McNemar is on trial. Four other mi",
    "path": "spine",
-   "doc": "stone"
+   "doc": null
   },
   {
    "index": 13,
    "n": 14,
-   "title": "Barton W. Stone, 1772-1844 minister of Cane Ridge and Concord \"It was plainly hinted to us",
+   "title": "Richard McNemar, 1770-1839 \"...first took McNemar through their fiery ordeal , for preachi",
    "path": "spine",
    "doc": "stone"
   },
   {
    "index": 14,
    "n": 15,
-   "title": "Obey God rather than men \"When we neglected it [the Westminster Confession] and followed t",
+   "title": "Barton W. Stone, 1772-1844 minister of Cane Ridge and Concord \"It was plainly hinted to us",
    "path": "spine",
-   "doc": "apology"
+   "doc": "stone"
   },
   {
    "index": 15,
@@ -585,7 +585,7 @@
   },
   {
    "label": "The trial and the break",
-   "at": 10
+   "at": 11
   },
   {
    "label": "The rise",
@@ -647,7 +647,7 @@
  "doc_doors": [
   {
    "label": "Stone&rsquo;s own account, whole",
-   "fork": 12,
+   "fork": 13,
    "doc": 1
   },
   {
@@ -708,24 +708,24 @@
    "text": "When we began first to preach these things, the people appeared as just awakened from the sleep of ages — they seemed to see for the first time that they were responsible beings"
   },
   {
-   "slide": 12,
-   "doc": "stone",
-   "text": "first took McNemar through their fiery ordeal, for preaching these anti-calvinistic doctrines."
-  },
-  {
-   "slide": 13,
-   "doc": "stone",
-   "text": "It was plainly hinted to us, that we would not be forgotten by the Synod."
-  },
-  {
-   "slide": 14,
+   "slide": 10,
    "doc": "apology",
    "text": "When we neglected it"
   },
   {
-   "slide": 14,
+   "slide": 10,
    "doc": "apology",
    "text": "and followed the Spirit of God, in his word, our minds were enlightened, and our souls were quickened. But when we compared this light, with the confession, they would not agree. We could not withstand God. We chose to hearken to God, rather than men"
+  },
+  {
+   "slide": 13,
+   "doc": "stone",
+   "text": "first took McNemar through their fiery ordeal, for preaching these anti-calvinistic doctrines."
+  },
+  {
+   "slide": 14,
+   "doc": "stone",
+   "text": "It was plainly hinted to us, that we would not be forgotten by the Synod."
   },
   {
    "slide": 15,

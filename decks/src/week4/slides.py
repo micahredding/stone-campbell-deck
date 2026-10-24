@@ -98,9 +98,12 @@ A(Q('&ldquo;We urged upon the sinner to <b>believe now</b>, and receive salvatio
 A(Q('&ldquo;When we began first to preach these things, the people appeared as just awakened from the sleep of ages &mdash; <b>they seemed to see for the first time that they were responsible beings</b>&hellip;&rdquo;', STONE) +
   N('The sentence goes on: &ldquo;and that a refusal to use the means appointed, was a damning sin.&rdquo;',
     '&rarr; Grandmother: the mining camp, the Church of Christ, agency.',
-    'Then the reaction: &ldquo;The sticklers for orthodoxy amongst us writhed under these doctrines&rdquo;; they &ldquo;painfully saw their Confession of Faith neglected.&rdquo;',
-    '&rarr; It flourished, and it drew enough ire that the first one they went after was McNemar.'))
+    'Then the reaction: &ldquo;The sticklers for orthodoxy amongst us writhed under these doctrines&rdquo;; they &ldquo;painfully saw their Confession of Faith neglected.&rdquo;'))
 
+
+A(Q('&ldquo;When we neglected it [the Westminster Confession] and followed the Spirit of God, in his word, our minds were enlightened, and our souls were quickened. But when we compared this light, with the confession, they would not agree. We could not withstand God. <b>We chose to hearken to God, rather than men</b>&hellip;&rdquo;', 'Springfield Presbytery, <i>Apology</i> (1804)', 'Obey God rather than men') +
+  N('Acts 5:29. From the <i>Apology</i> they published the next year, on the Confession; the sentence before: &ldquo;That book never helped, but hindered our faith.&rdquo; The sentence ends: &ldquo;and therefore, have taken our leave of that book.&rdquo;',
+    '&rarr; It flourished, and it drew enough ire that the first one they went after was McNemar.'))
 A(C('The Trial', 'Lexington, September 1803.'))
 
 A('<section class="slide"><div class=eyebrow>The Synod of Kentucky &middot; Lexington, September 1803</div>'
@@ -114,12 +117,7 @@ A(Q('&ldquo;&hellip;first took McNemar through their <b>fiery ordeal</b>, for pr
 
 A('<section class="slide plateslide tight"><figure class="plate short"><img src="IMG_STONE" alt="" style="max-height:58vh"><figcaption>Barton W. Stone, 1772&ndash;1844 &middot; minister of Cane Ridge and Concord</figcaption></figure>'
   '<p class="bigquote long" style="margin-top:2vmin"><span class=q>&ldquo;It was plainly hinted to us, that <b>we would not be forgotten</b> by the Synod.&rdquo;</span></p>'
-  '<aside class=notes>Stone, whom the room met at Cane Ridge in Chapter 1. &ldquo;We waited anxiously for the issue, till we plainly saw it would be adverse to him, and consequently to us all.&rdquo;</aside></section>')
-
-A(Q('&ldquo;When we neglected it [the Westminster Confession] and followed the Spirit of God, in his word, our minds were enlightened, and our souls were quickened. But when we compared this light, with the confession, they would not agree. We could not withstand God. <b>We chose to hearken to God, rather than men</b>&hellip;&rdquo;', 'Springfield Presbytery, <i>Apology</i> (1804)', 'Obey God rather than men') +
-  N('Acts 5:29. From the <i>Apology</i> they published the next year, on the Confession; the sentence before: &ldquo;That book never helped, but hindered our faith.&rdquo; The sentence ends: &ldquo;and therefore, have taken our leave of that book.&rdquo;',
-    '&rarr; So, in a recess of the Synod&hellip;'))
-
+  '<aside class=notes>Stone, whom the room met at Cane Ridge in Chapter 1. &ldquo;We waited anxiously for the issue, till we plainly saw it would be adverse to him, and consequently to us all.&rdquo;<br>&rarr; So, in a recess of the Synod&hellip;</aside></section>')
 
 A(Q('&ldquo;In a short recess of Synod, we five withdrew to a private garden, where, after prayer for direction, and a free conversation, with a perfect unanimity we drew up a protest&hellip; and a declaration of our independence, and of our <b>withdrawal from their jurisdiction, but not from their communion</b>.&rdquo;', STONE, 'The garden') +
   N('Five men, a recess, a garden, prayer. &ldquo;A declaration of our independence&rdquo;: his words, twenty-seven years after the other one. The protest is dated 10 September 1803.'))
