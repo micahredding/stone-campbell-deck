@@ -119,9 +119,8 @@ A(Q('&ldquo;&hellip;first took McNemar through their <b>fiery ordeal</b>, for pr
   N('McNemar, a revival preacher in Ohio. His crime: preaching what the revival preached, that the gospel offer is open to everyone and anyone may respond. That is not what the Westminster Confession says, and every Presbyterian minister had sworn to the Confession.',
     'The &ldquo;ordeal&rdquo; was his own presbytery, the Washington Presbytery (Stone&rsquo;s sentence calls it &ldquo;the Presbytery of Springfield, in Ohio&rdquo;; the records say Washington, and the name would only confuse here). The Synod of Kentucky censured that presbytery for not dealing with him, and his case came up to the Synod at Lexington, September 1803.'))
 
-A('<section class="slide plateslide tight"><figure class="plate short"><img src="IMG_STONE" alt="" style="max-height:58vh"><figcaption>Barton W. Stone, 1772&ndash;1844 &middot; minister of Cane Ridge and Concord</figcaption></figure>'
-  '<p class="bigquote long" style="margin-top:2vmin"><span class=q>&ldquo;It was plainly hinted to us, that <b>we would not be forgotten</b> by the Synod.&rdquo;</span></p>'
-  '<aside class=notes>Stone, whom the room met at Cane Ridge in Chapter 1. &ldquo;We waited anxiously for the issue, till we plainly saw it would be adverse to him, and consequently to us all.&rdquo;<br>&rarr; So, in a recess of the Synod&hellip;</aside></section>')
+A(Q('&ldquo;It was plainly hinted to us, that <b>we would not be forgotten</b> by the Synod.&rdquo;', STONE) +
+  N('Stone, whom the room met at Cane Ridge in Chapter 1. &ldquo;We waited anxiously for the issue, till we plainly saw it would be adverse to him, and consequently to us all.&rdquo;<br>&rarr; So, in a recess of the Synod&hellip;'))
 
 A(Q('&ldquo;In a short recess of Synod, we five withdrew to a private garden, where, after prayer for direction, and a free conversation, with a perfect unanimity we drew up a protest&hellip; and a declaration of our independence, and of our <b>withdrawal from their jurisdiction, but not from their communion</b>.&rdquo;', STONE, 'The garden') +
   N('Five men, a recess, a garden, prayer. &ldquo;A declaration of our independence&rdquo;: his words, twenty-seven years after the other one. The protest is dated 10 September 1803.'))
@@ -177,6 +176,10 @@ A('<section class="slide"><div class=eyebrow>David Rice</div>'
   '<aside class=notes>One click. Rice was the father of Kentucky Presbyterianism, and Stone still honors him; but his argument, Stone says, &ldquo;could have no effect on minds ardent in the search of truth.&rdquo; The logic: the creed is the only thing between you and atheism. Last week answered that.<br>&rarr; Then the Synod suspended them anyway, and sent committees to read &ldquo;the Synod&rsquo;s bull of suspension&rdquo; in their pulpits and declare their churches vacant.</aside></section>')
 
 # ---------- 2 THE COST ----------
+A('<section class="slide plateslide"><figure class="plate"><img src="IMG_STONE" alt="Bronze bust of Barton W. Stone" style="max-height:70vh">'
+  '<figcaption>Barton W. Stone, 1772&ndash;1844 &middot; bust at Cane Ridge &middot; photo Jim Tingle, CC BY-SA 4.0</figcaption></figure>'
+  '<aside class=notes>Stone goes home to his congregations at Cane Ridge and Concord. (Bronze bust in the Cane Ridge cemetery; photo by Jim Tingle, Wikimedia Commons, CC BY-SA 4.0.)</aside></section>')
+
 A(Q('&ldquo;I called together my congregations, and informed them that I could no longer conscientiously preach to support the Presbyterian church&hellip; that I absolved them from all obligations in a pecuniary point of view, and then <b>in their presence tore up their salary obligation to me</b>&hellip;&rdquo;', STONE, 'Cane Ridge and Concord &middot; late 1803') +
   N('Mime it if you like. He kept preaching to them, &ldquo;but not in the relation that had previously existed between us.&rdquo; Of the people: &ldquo;Never have I found a more loving, kind, and orderly people in any country.&rdquo; Of the day: &ldquo;This was truly a day of sorrow, and the impressions of it are indelible.&rdquo;'))
 
@@ -272,8 +275,8 @@ A(Q('&ldquo;We will, that preachers and people, cultivate a spirit of mutual for
   N('A church that has given away its courts has nothing left to settle its quarrels but forbearance and prayer, and the will says so in the same breath. Then: look up; redemption draweth nigh. They died expecting the future.'))
 
 
-A(Q('&ldquo;We will, that our weak brethren, who may have been <b>wishing to make the Presbytery of Springfield their king</b>, and wot not what is now become of it, betake themselves to the Rock of Ages, and follow Jesus for the future.&rdquo;', WILL, 'Their weak brethren') +
-  N('Their own people. Gentle, and a little funny: &ldquo;wot not what is now become of it.&rdquo; The presbytery was being asked to stand where Christ stands.'))
+A(Q('&ldquo;We will, that our weak brethren, who may have been <b>wishing to make the Presbytery of Springfield their king</b>&hellip; betake themselves to the Rock of Ages, and follow Jesus for the future.&rdquo;', WILL, 'Their weak brethren') +
+  N('Their own people. Gentle, and a little funny: after &ldquo;their king&rdquo; the will adds &ldquo;and wot not what is now become of it.&rdquo; The presbytery was being asked to stand where Christ stands.'))
 A(Q('&ldquo;&hellip;from its first existence it [the Springfield Presbytery] was knit together in love, lived in peace and concord, and <b>died a voluntary and happy death</b>.&rdquo;', WIT, 'The witnesses to the will') +
   N('Not a split, not a failure, not a scandal. A happy death.'))
 
