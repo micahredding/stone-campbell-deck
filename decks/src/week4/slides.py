@@ -165,12 +165,12 @@ A('<section class="slide"><div class=eyebrow>The Synod sends a committee to win 
   '<div class=cite>' + STONE + '</div>'
   '<aside class=notes>A smile. The committee sent to bring them back lost a member to them.</aside></section>')
 
-A('<section class="slide"><div class=eyebrow>Another of the committee</div>'
+A('<section class="slide"><div class=eyebrow>David Rice</div>'
   '<div class=litany>'
-  '<div class=no>&ldquo;Old father David Rice&rdquo; argued &ldquo;that every departure from Calvinism was an advance to atheism&rdquo;:</div>'
+  '<div class=no>&ldquo;Another of the committee, old father David Rice, <b>of precious memory</b>, on whose influence the Synod chiefly depended to reclaim us, urged one argument worthy of record, it was this &mdash; that every departure from Calvinism was an advance to atheism.&rdquo;</div>'
   '<div class="no frag" style="color:var(--gold)">Calvinism &rarr; Arminianism &rarr; Pelagianism &rarr; deism &rarr; atheism</div>'
   '</div><div class=cite>' + STONE + '</div>'
-  '<aside class=notes>One click. Rice was the father of Kentucky Presbyterianism and Stone honors him (&ldquo;of precious memory&rdquo;), but his argument, Stone says, &ldquo;could have no effect on minds ardent in the search of truth.&rdquo; The logic: the creed is the only thing between you and atheism. Last week answered that.<br>&rarr; Then the Synod suspended them anyway, and sent committees to read &ldquo;the Synod&rsquo;s bull of suspension&rdquo; in their pulpits and declare their churches vacant.</aside></section>')
+  '<aside class=notes>One click. Rice was the father of Kentucky Presbyterianism, and Stone still honors him; but his argument, Stone says, &ldquo;could have no effect on minds ardent in the search of truth.&rdquo; The logic: the creed is the only thing between you and atheism. Last week answered that.<br>&rarr; Then the Synod suspended them anyway, and sent committees to read &ldquo;the Synod&rsquo;s bull of suspension&rdquo; in their pulpits and declare their churches vacant.</aside></section>')
 
 # ---------- 2 THE COST ----------
 A(Q('&ldquo;I called together my congregations, and informed them that I could no longer conscientiously preach to support the Presbyterian church&hellip; that I absolved them from all obligations in a pecuniary point of view, and then <b>in their presence tore up their salary obligation to me</b>&hellip;&rdquo;', STONE, 'Cane Ridge and Concord &middot; late 1803') +
