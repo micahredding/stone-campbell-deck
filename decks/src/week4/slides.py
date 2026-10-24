@@ -76,11 +76,6 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
   '<aside class=notes>Two documents set the course of our movement: the <i>Declaration and Address</i> (the last few weeks) and this one. This one is five years older. Then the recap: Cane Ridge; Thomas Campbell&rsquo;s fight for unity, carried from Ireland to America; communion for Christians outside his sect; his trial. Unity and freedom of conscience, all along, as one question.<br>The frame for the hour is a will-reading: who died, of what, what they left, and to whom.<br>'
   'The hour: the will&rsquo;s opening 3 &middot; the trial and the garden 10 &middot; the cost 4 &middot; it worked, and the problem 8 &middot; the reading of the will 12 &middot; our table 8 &middot; close 5.</aside></section>')
 
-A('<section class="slide room"><h2 style="max-width:none">How do we claim the unity of the body of Christ?</h2>'
-  '<h2 class=frag style="max-width:none;margin-top:3vmin">How do we live that now?</h2>'
-  '<h2 class=frag style="max-width:none;margin-top:3vmin;color:var(--gold)">And what does it ask of our conscience?</h2>'
-  '<aside class=notes>Two clicks. For them these were not two questions but one. What does unity compel conscience to do: to extend, to give up. &rarr; &ldquo;We&rsquo;re going to see how far they were willing to take this.&rdquo;</aside></section>')
-
 # ---------- 1 THE TRIAL ----------
 A('<section class="slide breath sect"><h2>A few years after Cane Ridge&hellip;</h2><div class=table-line></div>'
   '<div class=sub>Kentucky and Ohio &middot; 1803</div>'
@@ -214,6 +209,11 @@ A(Q('&ldquo;Therefore, from a principle of love to Christians of every name, the
   N('The three reasons: love of Christians of every name; the cause of Jesus; and the people outside, kept from the Lord by our divisions. &rarr; So they wrote their will.'))
 
 # ---------- 4 THE READING OF THE WILL ----------
+A('<section class="slide room"><h2 style="max-width:none">How do we claim the unity of the body of Christ?</h2>'
+  '<h2 class=frag style="max-width:none;margin-top:3vmin">How do we live that now?</h2>'
+  '<h2 class=frag style="max-width:none;margin-top:3vmin;color:var(--gold)">And what does it ask of our conscience?</h2>'
+  '<aside class=notes>Two clicks. For them these were not two questions but one. What does unity compel conscience to do: to extend, to give up. &rarr; &ldquo;Here is how far they were willing to take it.&rdquo;</aside></section>')
+
 A(C('The Last Will &amp; Testament', 'Cane Ridge, June 28, 1804.'))
 
 A('<section class="slide bleed"><div class=bg><div class="bgimg househbg"></div></div>'
