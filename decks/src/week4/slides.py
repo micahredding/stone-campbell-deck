@@ -241,8 +241,8 @@ A('<section class="slide bleed"><div class=bg><div class="bgimg househbg"></div>
   '<h2>The Last Will &amp; Testament</h2>'
   '<aside class=notes>Back to the room of Chapter 1. Three years earlier, thousands came through the mud to an open table here. The will is dated &ldquo;sitting at Cane Ridge,&rdquo; by tradition in this meetinghouse. Signed by six: the five from the garden and David Purviance.</aside></section>')
 
-A(Q('&ldquo;For where a testament is, there must of necessity be <b>the death of the testator</b>&hellip; Verily, verily I say unto you, except a corn of wheat fall into the ground and die, it abideth alone; but <b>if it die, it bringeth forth much fruit</b>.&rdquo;', 'The will&rsquo;s epigraph &middot; Hebrews 9:16; John 12:24', 'At the top of the page') +
-  N('They put the theology at the top. A will has no force while the testator lives. The inheritance can only pass when the presbytery is gone.'))
+A(Q('&ldquo;Verily, verily I say unto you, except a corn of wheat fall into the ground and die, it abideth alone; but <b>if it die, it bringeth forth much fruit</b>.&rdquo;', 'The will&rsquo;s epigraph &middot; John 12:24', 'At the top of the page') +
+  N('They put the theology at the top. The epigraph opens with Hebrews 9:16: &ldquo;For where a testament is, there must of necessity be the death of the testator.&rdquo; A will has no force while the testator lives. The inheritance can only pass when the presbytery is gone.'))
 
 A(Q('&ldquo;The Presbytery of Springfield, sitting at Cane Ridge&hellip; being, through a gracious Providence, <b>in more than ordinary bodily health, growing in strength and size daily</b>, and in perfect soundness and composure of mind; but knowing that it is appointed for all delegated bodies once to die&hellip; do make and ordain this our Last Will and Testament&hellip;&rdquo;', WILL, 'June 28, 1804') +
   N('The will&rsquo;s opening, in the legal form of a real will. Read it slowly; the joke is in &ldquo;more than ordinary bodily health.&rdquo; Nobody makes a will because they are growing in strength and size daily.',
