@@ -58,17 +58,17 @@ A('<section class="slide"><div class=eyebrow>Quiz</div>'
   '</div>'
   '<aside class=notes>One click points to the answer. Let the room answer first.<br>&bull; B: <i>Contending for the Faith</i>, a conservative Churches of Christ paper (Ira Y. Rice Jr., from 1970).<br>&bull; <i>Christianity Today</i> is the evangelical magazine Billy Graham founded (1956); <i>Charisma</i> is Pentecostal and charismatic (1975).</aside></section>')
 
-_sum = [x for x in w3b.S if 'class="litany ideasum"' in x and '<div class=eyebrow>Ideas</div>' in x]
-assert len(_sum) == 1
-A(_sum[0].replace('Christ builds his body.', 'Christ has built his body.').replace('<div class=eyebrow>Ideas</div>', '<div class=eyebrow>Last week&rsquo;s ideas</div>')
-  .replace('All five at once, before the discussion.', 'Last week&rsquo;s five ideas, all at once. Read them, or let the room read them; do not re-teach.<br>&rarr; &ldquo;Tonight, five years earlier: men who acted on idea three before Campbell wrote it down.&rdquo;'))
-
 # ---------- THE HOOK ----------
 A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,10vmin,128px);line-height:1.1">&ldquo;We will, that this body die,</h2>'
   '<h2 style="max-width:none;font-size:clamp(48px,10vmin,128px);line-height:1.1;margin-top:1vmin">' + G('be dissolved, and sink into union<br>with the Body of Christ at large&hellip;') + '&rdquo;</h2>'
   '<div class=cite style="margin-top:3vmin">' + WILL + '</div>'
   '<aside class=notes>The cold open. No clicks. Read the first line and stop; let &ldquo;die&rdquo; sit before you read on. The sentence goes on: &ldquo;for there is but one body, and one spirit, even as we are called in one hope of our calling&rdquo; (Ephesians 4:4).<br>'
-  '&rarr; Then name it: the title.</aside></section>')
+  '&rarr; Then last week&rsquo;s ideas, and then name it: the title.</aside></section>')
+
+_sum = [x for x in w3b.S if 'class="litany ideasum"' in x and '<div class=eyebrow>Ideas</div>' in x]
+assert len(_sum) == 1
+A(_sum[0].replace('Christ builds his body.', 'Christ has built his body.').replace('<div class=eyebrow>Ideas</div>', '<div class=eyebrow>Last week&rsquo;s ideas</div>')
+  .replace('All five at once, before the discussion.', 'Last week&rsquo;s five ideas, all at once. Read them, or let the room read them; do not re-teach.<br>&rarr; &ldquo;Tonight, five years earlier: men who acted on idea three before Campbell wrote it down.&rdquo;'))
 
 A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 4</div>'
   '<h1>The Last Will<br>and Testament</h1><div class=table-line></div>'
