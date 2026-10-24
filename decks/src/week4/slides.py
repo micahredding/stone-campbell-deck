@@ -181,11 +181,11 @@ A(Q('&ldquo;I called together my congregations, and informed them that I could n
 
 A(Q('&ldquo;I preferred honesty and a good conscience to all these things. Having now no support from the congregations, and having emancipated my slaves, I turned my attention cheerfully, though awkwardly, to labor on my little farm&hellip; often on my return home, <b>I found the weeds were getting ahead of my corn</b>.&rdquo;', STONE) +
   N('He had already freed the people he had enslaved. Now no salary either. He preached almost every night and worked the field at night &ldquo;while others were asleep.&rdquo;',
-    '&rarr; And here is the surprise: it worked.'))
+    '&rarr; And here is the surprise: they flourished.'))
 
 
 # ---------- 3 FORMED AND FLOURISHING ----------
-A('<section class="slide"><h2>It worked.</h2>'
+A('<section class="slide"><h2>The Rise of the Springfield Presbytery</h2>'
   '<div class=litany>'
   '<div class="no frag">They form the <b>Springfield Presbytery</b> and publish the <i>Apology</i>.</div>'
   '<div class="no frag">The <i>Apology</i> &ldquo;was quickly <b>republished by the Methodists</b> in Virginia, except our remarks upon creeds.&rdquo;</div>'

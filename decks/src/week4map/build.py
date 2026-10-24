@@ -19,7 +19,7 @@ SIDE = [
 SECTIONS = [
     ('Opening', 'Otter Creek'), ('The hook', 'The cold open.'),
     ('The five', 'A few years after Cane Ridge'), ('The trial and the break', 'fiery ordeal'),
-    ('Formed and flourishing', 'It worked.'), ('Church government', 'Writing a book on church government'),
+    ('Formed and flourishing', 'The Rise of the Springfield Presbytery'), ('Church government', 'Writing a book on church government'),
     ('Why they dissolved', 'endeavored to cultivate a spirit of love'), ('The Last Will', 'The reading of the will.'),
     ('Our table', 'Our table'), ('Close', 'for discussion'),
 ]
