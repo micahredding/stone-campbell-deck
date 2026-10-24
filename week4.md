@@ -6,7 +6,7 @@
 
 **The Idea**: Our movement is built on institutional self-sacrifice, and the willingness to lay down every obstacle to unity and freedom. And to relentlessly embrace the priesthood of all believers.
 
-**Slides:** [Chapter 4 deck](decks/week4-last-will.html)
+**Slides:** [Chapter 4 deck](decks/week4-last-will-map.html)
 **Connections:**
 - Chapter 3's thesis, lived five years earlier: anything asked to do a job only Christ can do will fail. These men caught their own presbytery being handed that job — "wishing to make the Presbytery of Springfield their king" — and ended it before it could take it.
 - Chapter 2's echo in the other founding stream: the same heresy machinery, five years earlier, with a different ending — the five walked together, built something, and then laid it down.

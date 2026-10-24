@@ -1,4 +1,4 @@
-# Chapter 4 builds with the Chapter 3 engine: PART=4 python3 decks/src/week3/build.py
+# Chapter 4 has one deck, the map deck: this runs decks/src/week4map/build.py, which writes
+# decks/week4-last-will-map.html (and its .json sidecar). No linear Chapter 4 deck is built.
 import os, runpy
-os.environ['PART'] = '4'
-runpy.run_path(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'week3', 'build.py'), run_name='__main__')
+runpy.run_path(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'week4map', 'build.py'), run_name='__main__')

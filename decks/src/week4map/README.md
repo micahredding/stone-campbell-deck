@@ -2,7 +2,7 @@
 
 A map deck is a slide deck laid out as a **map** instead of a single line. It has a **spine** (the talk if nothing else happens), **side paths** that hang off it, and **whole source documents** you can zoom into from any slide that quotes them. Chapter 4 is the first one: `decks/week4-last-will-map.html`.
 
-The map deck is a **view**. It adds no content of its own. The slides come from the linear deck's source (`decks/src/week4/slides.py`), and the documents come from the class site's full texts. So an edit to a slide shows up in both the linear deck and the map deck on the next build. The linear deck (`decks/week4-last-will.html`) is unaffected and still builds as before.
+The map deck is a **view**. It adds no content of its own. The slides come from `decks/src/week4/slides.py`, and the documents come from the class site's full texts. Chapter 4 has **one deck**, this one: the separate linear deck was retired on 2026-10-24 (its last build is in git history). Pressing next all the way through plays the spine in order, which is the straight talk. Slides are listed in `slides.py` in the order the spine and side paths need them; a side path's slides sit right after its fork.
 
 ## Files
 

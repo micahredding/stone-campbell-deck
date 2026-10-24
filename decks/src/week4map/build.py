@@ -1,6 +1,6 @@
-# Chapter 4 as a map: the same slides as decks/week4-last-will.html, arranged as a spine
-# with side paths. Content stays in decks/src/week4/slides.py; this file only says which
-# runs of slides are side paths. Edit the slides there and both decks pick it up.
+# Chapter 4's deck, as a map: the slides in decks/src/week4/slides.py, arranged as a spine
+# with side paths. Content stays in slides.py; this file only says which runs of slides are
+# side paths. (Chapter 4 has no separate linear deck; the spine is the straight run.)
 #   python3 decks/src/week4map/build.py   ->  decks/week4-last-will-map.html
 #
 # A side path is a contiguous run of slides, named by an anchor phrase on its first and last
