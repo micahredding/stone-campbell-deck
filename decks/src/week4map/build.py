@@ -13,7 +13,6 @@ SIDE = [
     ('Quoting the Confession against itself', 'Quoting the Confession against itself',     'honoring its deepest impulses'),
     ('Making the presbytery their king',      'make the Presbytery of Springfield their king', 'make the Presbytery of Springfield their king'),
     ('The rest of the bequests',              'our name of distinction',                   'native right of internal government'),
-    ('Why, in their own words',               'dying sinners who are kept from the Lord',  'dying sinners who are kept from the Lord'),
     ('Addendum',                              "Reference material; not part of the telling", 'What this week touched'),
 ]
 # Sections of the spine, for the map's labels: (label, anchor on the section's first slide)

@@ -342,8 +342,8 @@
   {
    "index": 48,
    "n": 49,
-   "title": "Why \"...from a principle of love to Christians of every name, the precious cause of Jesus,",
-   "path": "Why, in their own words",
+   "title": "Why \"Therefore, from a principle of love to Christians of every name, the precious cause o",
+   "path": "spine",
    "doc": "will"
   },
   {
@@ -499,6 +499,7 @@
   45,
   46,
   47,
+  48,
   49,
   50,
   51,
@@ -539,13 +540,6 @@
     42,
     43,
     44
-   ]
-  },
-  {
-   "label": "Why, in their own words",
-   "fork": 47,
-   "slides": [
-    48
    ]
   },
   {
@@ -593,11 +587,11 @@
   },
   {
    "label": "Our table",
-   "at": 41
+   "at": 42
   },
   {
    "label": "Close",
-   "at": 43
+   "at": 44
   }
  ],
  "docs": [
@@ -838,7 +832,7 @@
   {
    "slide": 34,
    "doc": "will",
-   "text": "Observations on Church Government, in which the world will see the beautiful simplicity of Christian church government, stript of human inventions and lordly traditions. As they proceeded in the investigation of that subject, they soon found that there was neither precept nor example in the New Testament for such confederacies as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc."
+   "text": "Observations on Church Government, in which the world will see the beautiful simplicity of Christian church government, stript of human inventions and lordly traditions."
   },
   {
    "slide": 37,
@@ -923,7 +917,7 @@
   {
    "slide": 48,
    "doc": "will",
-   "text": "from a principle of love to Christians of every name, the precious cause of Jesus, and dying sinners who are kept from the Lord by the existence of sects and parties in the church, they have cheerfully consented to retire from the din and fury of conflicting parties — sink out of the view of fleshly minds, and die the death."
+   "text": "Therefore, from a principle of love to Christians of every name, the precious cause of Jesus, and dying sinners who are kept from the Lord by the existence of sects and parties in the church, they have cheerfully consented to retire from the din and fury of conflicting parties — sink out of the view of fleshly minds, and die the death."
   },
   {
    "slide": 49,
