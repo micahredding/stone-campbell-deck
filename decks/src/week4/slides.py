@@ -251,8 +251,8 @@ A(Q('&ldquo;We will, that our name of distinction, with its Reverend title, <b>b
 A(Q('&ldquo;We will, that our power of making laws for the government of the church, and executing them by delegated authority, <b>forever cease</b>; that the people may have free course to the Bible, and adopt <b>the law of the spirit of life in Christ Jesus</b>.&rdquo;', WILL, 'Their power') +
   N('Not abolished: bequeathed. The power to make law for the church goes back to where they think it belongs.'))
 
-A(Q('&ldquo;We will, that candidates for the Gospel ministry henceforth study the holy scriptures with fervent prayer, and <b>obtain license from God to preach the simple Gospel, with the Holy Ghost sent down from heaven</b>, without any mixture of philosophy, vain deceit, traditions of men, or the rudiments of the world.&rdquo;', WILL, 'To the ministers') +
-  N('No presbytery to license a preacher now. The license comes from God, and the Spirit is the credential.'))
+A(Q('&ldquo;We will, that candidates for the Gospel ministry henceforth study the holy scriptures with fervent prayer, and <b>obtain license from God to preach the simple Gospel, with the Holy Ghost sent down from heaven</b>&hellip;&rdquo;', WILL, 'To the ministers') +
+  N('No presbytery to license a preacher now. The license comes from God, and the Spirit is the credential.', 'The sentence goes on: &ldquo;without any mixture of philosophy, vain deceit, traditions of men, or the rudiments of the world.&rdquo;'))
 
 A(Q('&ldquo;We will, that the church of Christ assume her <b>native right of internal government</b>&hellip; and admit no other proof of their authority, but Christ speaking in them.&rdquo;', WILL, 'To the church') +
   N('&ldquo;Native&rdquo;: it was always hers. The church will &ldquo;try her candidates for the ministry, as to their soundness in the faith, acquaintance with experimental religion, gravity and aptness to teach.&rdquo; What the Synod did to McNemar, the congregation now does, and the only credential is &ldquo;Christ speaking in them.&rdquo;'))
