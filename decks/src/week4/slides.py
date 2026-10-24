@@ -31,10 +31,10 @@ WIT = 'The Witnesses&rsquo; Address, appended to the Last Will and Testament, 18
 STONE = 'Barton W. Stone, <i>Biography</i> (1847)'
 
 IDEAS = [
-    ('Freedom of conscience:<br>' + G('claimed for ourselves, extended to others.'),
-     'Claimed: &ldquo;We chose to hearken to God, rather than men.&rdquo; Paid for: Stone tears up his salary obligation in front of his congregations, and goes back to the farm. Extended: they would not excommunicate their judges: &ldquo;we will admit to communion as formerly, and desire to be admitted.&rdquo; Campbell, five years later, the same.'),
     ('Unity:<br>' + G('institutional self-sacrifice.'),
      'Not just rejecting other religious authorities for the sake of unity, but dissolving even their own: &ldquo;We will, that this body die, be dissolved, and sink into union with the Body of Christ at large.&rdquo; The presbytery was thriving, and they let it die.'),
+    ('Freedom of conscience:<br>' + G('claimed for ourselves, extended to others.'),
+     'Claimed: &ldquo;We chose to hearken to God, rather than men.&rdquo; Paid for: Stone tears up his salary obligation in front of his congregations, and goes back to the farm. Extended: they would not excommunicate their judges: &ldquo;we will admit to communion as formerly, and desire to be admitted.&rdquo; Campbell, five years later, the same.'),
     ('Priesthood:<br>' + G('authority belongs to gathered believers.'),
      'Each church, &ldquo;actuated by the same spirit,&rdquo; to &ldquo;choose her own preacher&hellip; admit members&hellip; remove offences; and never henceforth delegate her right of government to any man or set of men whatever.&rdquo; No proof of a minister&rsquo;s authority &ldquo;but Christ speaking in them.&rdquo; &rarr; Next week, at Brush Run, a congregation uses exactly this right.'),
 ]
@@ -183,9 +183,8 @@ A(Q('&ldquo;I preferred honesty and a good conscience to all these things. Havin
   N('He had already freed the people he had enslaved. Now no salary either. He preached almost every night and worked the field at night &ldquo;while others were asleep.&rdquo;',
     '&rarr; And here is the surprise: it worked.'))
 
-A(IDEA(1))
 
-# ---------- 3 IT WORKED, AND THE PROBLEM ----------
+# ---------- 3 FORMED AND FLOURISHING ----------
 A('<section class="slide"><h2>It worked.</h2>'
   '<div class=litany>'
   '<div class="no frag">They form the <b>Springfield Presbytery</b> and publish the <i>Apology</i>.</div>'
@@ -196,8 +195,14 @@ A('<section class="slide"><h2>It worked.</h2>'
   '<aside class=notes>Four clicks. Stone: &ldquo;This book produced a great effect in the Christian community.&rdquo;</aside></section>')
 
 A(CARD('The Springfield Presbytery<br>' + G('flourished.'),
-  'Churches planted, preachers multiplied. &rarr; Which is exactly when the problem began.'))
+  'Churches planted, preachers multiplied. &rarr; At their last meeting, they set out to write a book on church government.'))
 
+# ---------- 4 CHURCH GOVERNMENT ----------
+A(Q('&ldquo;&hellip;<i>Observations on Church Government</i>, in which the world will see <b>the beautiful simplicity of Christian church government, stript of human inventions and lordly traditions</b>.&rdquo;', WIT, 'Writing a book on church government') +
+  N('What they found was not only an absence. The authority Christ gave belongs to the gathered church; the will says so: &ldquo;native right of internal government&rdquo;, &ldquo;Christ speaking in them.&rdquo; Your reading, and say it as yours: Matthew 18:20, where two or three are gathered (next week&rsquo;s title); every believer a priest. Every other institution answers to that.',
+    'At their last meeting they set out to write <i>Observations on Church Government</i>. The next sentence: &ldquo;As they proceeded in the investigation of that subject, they soon found that there was neither precept nor example in the New Testament for such confederacies as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc.&rdquo; The research convicted the researchers: their own presbytery was one of these confederacies. &ldquo;While they continued in the connection in which they then stood, they were off the foundation of the Apostles and Prophets.&rdquo; (The book never appeared.)'))
+
+# ---------- 5 WHY THEY DISSOLVED ----------
 A(Q('&ldquo;&hellip;they endeavored to cultivate a spirit of love and unity with all Christians; but found it extremely difficult to suppress the idea that they themselves were a party separate from others. <b>This difficulty increased in proportion to their success in the ministry.</b> <b>Jealousies were excited in the minds of other denominations</b>&hellip;&rdquo;', WIT, 'Why they did it') +
   N('The witnesses who signed the will, explaining it. They left a party because it fenced Christians apart. Now people saw them as a party, and they began to feel like one. Stone: &ldquo;we had not worn our name more than one year, before we saw it savored of a party spirit.&rdquo;'))
 
@@ -207,12 +212,11 @@ A(CARD('Success was making them<br>' + G('the thing they had protested.'),
 A(Q('&ldquo;We will, that our weak brethren, who may have been <b>wishing to make the Presbytery of Springfield their king</b>, and wot not what is now become of it, betake themselves to the Rock of Ages, and follow Jesus for the future.&rdquo;', WILL, 'From the will') +
   N('Their own people. Gentle, and a little funny: &ldquo;wot not what is now become of it.&rdquo; The presbytery was being asked to stand where Christ stands.'))
 
-A(Q('&ldquo;&hellip;<i>Observations on Church Government</i>, in which the world will see <b>the beautiful simplicity of Christian church government, stript of human inventions and lordly traditions</b>.&rdquo;', WIT, 'Writing a book on church government') +
-  N('What they found was not only an absence. The authority Christ gave belongs to the gathered church; the will says so: &ldquo;native right of internal government&rdquo;, &ldquo;Christ speaking in them.&rdquo; Your reading, and say it as yours: Matthew 18:20, where two or three are gathered (next week&rsquo;s title); every believer a priest. Every other institution answers to that.',
-    'At their last meeting they set out to write <i>Observations on Church Government</i>. The next sentence: &ldquo;As they proceeded in the investigation of that subject, they soon found that there was neither precept nor example in the New Testament for such confederacies as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc.&rdquo; The research convicted the researchers: their own presbytery was one of these confederacies. &ldquo;While they continued in the connection in which they then stood, they were off the foundation of the Apostles and Prophets.&rdquo; (The book never appeared.)'))
-
 A(CARD('They caught their own presbytery<br>' + G('being handed a job only Christ can do.'),
-  'Last week&rsquo;s thesis, lived five years before it was written: anything asked to do a job only Christ can do will fail. They did not wait for it to fail. &rarr; So they let it die.'))
+  'Last week&rsquo;s thesis, lived five years before it was written: anything asked to do a job only Christ can do will fail. They did not wait for it to fail.'))
+
+A(Q('&ldquo;Therefore, from a principle of love to Christians of every name, the precious cause of Jesus, and <b>dying sinners who are kept from the Lord by the existence of sects and parties</b> in the church, they have cheerfully consented to retire from the din and fury of conflicting parties &mdash; sink out of the view of fleshly minds, and die the death.&rdquo;', WIT, 'Why') +
+  N('The three reasons: love of Christians of every name; the cause of Jesus; and the people outside, kept from the Lord by our divisions. &rarr; So they wrote their will.'))
 
 # ---------- 4 THE READING OF THE WILL ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg househbg"></div></div>'
@@ -235,7 +239,6 @@ A('<section class="slide breath"><h2 style="max-width:none;font-size:clamp(48px,
 A(Q('&ldquo;Imprimis. We will, that this body <b>die, be dissolved, and sink into union with the Body of Christ at large</b>; for there is but one body, and one spirit, even as we are called in one hope of our calling.&rdquo;', WILL, 'First bequest') +
   N('The line we opened with; now the room knows how they got here. &ldquo;Imprimis&rdquo;: in the first place, the legal word. Ephesians 4:4. The presbytery does not dissolve into nothing; it sinks into the whole church. The heir is the Body of Christ at large.'))
 
-A(IDEA(2))
 
 A(Q('&ldquo;We will, that our name of distinction, with its Reverend title, <b>be forgotten</b>, that there be but one Lord over God&rsquo;s heritage, and his name one.&rdquo;', WILL, 'Their name') +
   N('A will gives things away; this one gives away everything a church body has, starting with its name and its titles. They took the name Christian (Rice Haggard&rsquo;s pamphlet).'))
@@ -250,18 +253,12 @@ A(Q('&ldquo;We will, that each particular church, as a body, <b>actuated by the 
   N('The biggest bequest. Everything the Synod did to them (try preachers, admit, exclude) is handed to the congregation. The priesthood of all believers, as polity.',
     '&rarr; Hold this one. Next week, at Brush Run, a congregation will use exactly this right.'))
 
-A(IDEA(3))
 
 A(Q('&ldquo;We will, that preachers and people, cultivate a spirit of mutual forbearance; <b>pray more and dispute less</b>; and while they behold the signs of the times, look up, and confidently expect that redemption draweth nigh.&rdquo;', WILL, 'To preachers and people') +
   N('A church that has given away its courts has nothing left to settle its quarrels but forbearance and prayer, and the will says so in the same breath. Then: look up; redemption draweth nigh. They died expecting the future.'))
 
-
-# ---------- 5 WHY ----------
 A(Q('&ldquo;&hellip;from its first existence it [the Springfield Presbytery] was knit together in love, lived in peace and concord, and <b>died a voluntary and happy death</b>.&rdquo;', WIT, 'The witnesses to the will') +
   N('Not a split, not a failure, not a scandal. A happy death.'))
-
-A(Q('&ldquo;Therefore, from a principle of love to Christians of every name, the precious cause of Jesus, and <b>dying sinners who are kept from the Lord by the existence of sects and parties</b> in the church, they have cheerfully consented to retire from the din and fury of conflicting parties &mdash; sink out of the view of fleshly minds, and die the death.&rdquo;', WIT, 'Why') +
-  N('The three reasons: love of Christians of every name; the cause of Jesus; and the people outside, kept from the Lord by our divisions.'))
 
 A(Q('&ldquo;Having divested ourselves of all party creeds, and party names, and trusting alone in God, and the word of his grace, we became a by-word and laughing stock to the sects around; all prophesying our speedy annihilation. Yet <b>from this period I date the commencement of that reformation</b>, which has progressed to this day.&rdquo;', STONE, 'After the will') +
   N('&ldquo;Party names&rdquo; is the name Springfield Presbytery. Just before this: &ldquo;we had not worn our name more than one year, before we saw it savored of a party spirit. With the man-made creeds we threw it overboard, and took the name Christian.&rdquo;',
