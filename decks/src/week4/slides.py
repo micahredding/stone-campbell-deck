@@ -188,11 +188,11 @@ A(Q('&ldquo;I preferred honesty and a good conscience to all these things. Havin
 A('<section class="slide"><h2>The Rise of the Springfield Presbytery</h2>'
   '<div class=litany>'
   '<div class="no frag">They form the <b>Springfield Presbytery</b> and publish the <i>Apology</i>.</div>'
-  '<div class="no frag">The <i>Apology</i> &ldquo;was quickly <b>republished by the Methodists</b> in Virginia, except our remarks upon creeds.&rdquo;</div>'
+  '<div class="no frag">The <i>Apology</i> &ldquo;was quickly <b>republished by the Methodists</b> in Virginia&hellip;&rdquo;</div>'
   '<div class="no frag">Pamphlets against them, &ldquo;full of misrepresentation and invective,&rdquo; <b>spread their views</b>.</div>'
   '<div class="no frag">People &ldquo;disgusted and offended&rdquo; by the attacks &ldquo;were driven from them, and <b>cleaved to us</b>.&rdquo;</div>'
   '</div><div class=cite>' + STONE + '</div>'
-  '<aside class=notes>Four clicks. Stone: &ldquo;This book produced a great effect in the Christian community.&rdquo;</aside></section>')
+  '<aside class=notes>Four clicks. The Methodists reprinted it &ldquo;except our remarks upon creeds.&rdquo; Stone: &ldquo;This book produced a great effect in the Christian community.&rdquo;</aside></section>')
 
 A(CARD('The Springfield Presbytery<br>' + G('flourished.'),
   'Churches planted, preachers multiplied. &rarr; At their last meeting, they set out to write a book on church government.'))
