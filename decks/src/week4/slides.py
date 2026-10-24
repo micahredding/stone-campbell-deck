@@ -161,12 +161,16 @@ A(CARD('They were not breaking with their tradition.<br>' + G('They were honorin
 
 
 A('<section class="slide"><div class=eyebrow>The Synod sends a committee to win them back</div>'
+  '<p class="bigquote"><span class=q>One of the committee, Matthew Houston, &ldquo;became convinced that the doctrine we preached was true, and <b>soon after united with us</b>.&rdquo;</span></p>'
+  '<div class=cite>' + STONE + '</div>'
+  '<aside class=notes>A smile. The committee sent to bring them back lost a member to them.</aside></section>')
+
+A('<section class="slide"><div class=eyebrow>Another of the committee</div>'
   '<div class=litany>'
-  '<div class="no frag">One of the committee, Matthew Houston, &ldquo;became convinced that the doctrine we preached was true, and <b>soon after united with us</b>.&rdquo;</div>'
-  '<div class="no frag">Another, &ldquo;old father David Rice,&rdquo; argued &ldquo;that every departure from Calvinism was an advance to atheism&rdquo;:</div>'
+  '<div class=no>&ldquo;Old father David Rice&rdquo; argued &ldquo;that every departure from Calvinism was an advance to atheism&rdquo;:</div>'
   '<div class="no frag" style="color:var(--gold)">Calvinism &rarr; Arminianism &rarr; Pelagianism &rarr; deism &rarr; atheism</div>'
   '</div><div class=cite>' + STONE + '</div>'
-  '<aside class=notes>Three clicks, and a smile. The committee sent to bring them back lost a member to them. Rice was the father of Kentucky Presbyterianism and Stone honors him (&ldquo;of precious memory&rdquo;), but his argument, Stone says, &ldquo;could have no effect on minds ardent in the search of truth.&rdquo; The logic: the creed is the only thing between you and atheism. Last week answered that.<br>&rarr; Then the Synod suspended them anyway, and sent committees to read &ldquo;the Synod&rsquo;s bull of suspension&rdquo; in their pulpits and declare their churches vacant.</aside></section>')
+  '<aside class=notes>One click. Rice was the father of Kentucky Presbyterianism and Stone honors him (&ldquo;of precious memory&rdquo;), but his argument, Stone says, &ldquo;could have no effect on minds ardent in the search of truth.&rdquo; The logic: the creed is the only thing between you and atheism. Last week answered that.<br>&rarr; Then the Synod suspended them anyway, and sent committees to read &ldquo;the Synod&rsquo;s bull of suspension&rdquo; in their pulpits and declare their churches vacant.</aside></section>')
 
 # ---------- 2 THE COST ----------
 A(Q('&ldquo;I called together my congregations, and informed them that I could no longer conscientiously preach to support the Presbyterian church&hellip; that I absolved them from all obligations in a pecuniary point of view, and then <b>in their presence tore up their salary obligation to me</b>&hellip;&rdquo;', STONE, 'Cane Ridge and Concord &middot; late 1803') +
