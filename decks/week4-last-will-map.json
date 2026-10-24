@@ -308,7 +308,7 @@
    "index": 43,
    "n": 44,
    "title": "Their name \"We will, that our name of distinction, with its Reverend title, be forgotten ,",
-   "path": "Their name",
+   "path": "spine",
    "doc": "will"
   },
   {
@@ -519,6 +519,7 @@
   40,
   41,
   42,
+  43,
   44,
   45,
   46,
@@ -551,13 +552,6 @@
     22,
     23,
     24
-   ]
-  },
-  {
-   "label": "Their name",
-   "fork": 42,
-   "slides": [
-    43
    ]
   },
   {
@@ -605,11 +599,11 @@
   },
   {
    "label": "Our table",
-   "at": 48
+   "at": 49
   },
   {
    "label": "Close",
-   "at": 50
+   "at": 51
   }
  ],
  "docs": [

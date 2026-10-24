@@ -11,7 +11,6 @@ import os, re, json
 SIDE = [
     # (label,                                first-slide anchor,                         last-slide anchor)
     ('Quoting the Confession against itself', 'Quoting the Confession against itself',     'honoring its deepest impulses'),
-    ('Their name',                            'our name of distinction',                   'our name of distinction'),
     ('Addendum',                              "Reference material; not part of the telling", 'What this week touched'),
 ]
 # Sections of the spine, for the map's labels: (label, anchor on the section's first slide)
