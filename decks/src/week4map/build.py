@@ -19,8 +19,8 @@ SECTIONS = [
     ('Opening', 'Otter Creek'), ('The hook', 'The cold open.'),
     ('The five', 'A few years after Cane Ridge'), ('The trial and the break', '<h2>The Trial</h2>'),
     ('The rise', '<h2>The Rise of the Springfield Presbytery</h2>'),
-    ('Why they dissolved', 'endeavored to cultivate a spirit of love'), ('The Last Will', '<h2>The Last Will &amp; Testament</h2>'),
-    ('The Bequest', '<h2>The Bequest</h2>'), ('Our table', 'Our table'), ('Close', 'for discussion'),
+    ('Church government', 'Writing a book on church government'), ('Why they dissolved', 'endeavored to cultivate a spirit of love'), ('The Last Will', '<h2>The Last Will &amp; Testament</h2>'),
+    ('Our table', 'Our table'), ('Close', 'for discussion'),
 ]
 
 os.environ['PART'] = '4'

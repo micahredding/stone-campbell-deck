@@ -199,8 +199,13 @@ A('<section class="slide">'
   '<aside class=notes>Three clicks. The Methodists reprinted it &ldquo;except our remarks upon creeds.&rdquo; Stone: &ldquo;This book produced a great effect in the Christian community.&rdquo;</aside></section>')
 
 A(CARD('The Springfield Presbytery<br>' + G('flourished.'),
-  'Churches planted, preachers multiplied. &rarr; Which is exactly when the problem began.'))
+  'Churches planted, preachers multiplied. &rarr; At their last meeting, they set out to write a book on church government.'))
 
+
+# ---------- CHURCH GOVERNMENT ----------
+A(Q('&ldquo;&hellip;<i>Observations on Church Government</i>, in which the world will see <b>the beautiful simplicity of Christian church government, stript of human inventions and lordly traditions</b>.&rdquo;', WIT, 'Writing a book on church government') +
+  N('What they found was not only an absence. The authority Christ gave belongs to the gathered church; the will says so: &ldquo;native right of internal government&rdquo;, &ldquo;Christ speaking in them.&rdquo; Your reading, and say it as yours: Matthew 18:20, where two or three are gathered (next week&rsquo;s title); every believer a priest. Every other institution answers to that.',
+    'At their last meeting they set out to write <i>Observations on Church Government</i>. The next sentence: &ldquo;As they proceeded in the investigation of that subject, they soon found that there was neither precept nor example in the New Testament for such confederacies as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc.&rdquo; The research convicted the researchers: their own presbytery was one of these confederacies. &ldquo;While they continued in the connection in which they then stood, they were off the foundation of the Apostles and Prophets.&rdquo; (The book never appeared.)'))
 # ---------- 4 CHURCH GOVERNMENT ----------
 # ---------- 5 WHY THEY DISSOLVED ----------
 A(Q('&ldquo;&hellip;they endeavored to cultivate a spirit of love and unity with all Christians; but found it extremely difficult to suppress the idea that they themselves were a party separate from others. <b>This difficulty increased in proportion to their success in the ministry.</b> <b>Jealousies were excited in the minds of other denominations</b>&hellip;&rdquo;', WIT, 'Why they did it') +
@@ -242,6 +247,19 @@ A(Q('&ldquo;Imprimis. We will, that this body <b>die, be dissolved, and sink int
 A(Q('&ldquo;We will, that our name of distinction, with its Reverend title, <b>be forgotten</b>, that there be but one Lord over God&rsquo;s heritage, and his name one.&rdquo;', WILL, 'Their name') +
   N('A will gives things away; this one gives away everything a church body has, starting with its name and its titles. They took the name Christian (Rice Haggard&rsquo;s pamphlet).'))
 
+
+A(Q('&ldquo;We will, that our power of making laws for the government of the church, and executing them by delegated authority, <b>forever cease</b>; that the people may have free course to the Bible, and adopt <b>the law of the spirit of life in Christ Jesus</b>.&rdquo;', WILL, 'Their power') +
+  N('Not abolished: bequeathed. The power to make law for the church goes back to where they think it belongs.'))
+
+A(Q('&ldquo;We will, that candidates for the Gospel ministry henceforth study the holy scriptures with fervent prayer, and <b>obtain license from God to preach the simple Gospel, with the Holy Ghost sent down from heaven</b>, without any mixture of philosophy, vain deceit, traditions of men, or the rudiments of the world.&rdquo;', WILL, 'To the ministers') +
+  N('No presbytery to license a preacher now. The license comes from God, and the Spirit is the credential.'))
+
+A(Q('&ldquo;We will, that the church of Christ assume her <b>native right of internal government</b>&hellip; and admit no other proof of their authority, but Christ speaking in them.&rdquo;', WILL, 'To the church') +
+  N('&ldquo;Native&rdquo;: it was always hers. The church will &ldquo;try her candidates for the ministry, as to their soundness in the faith, acquaintance with experimental religion, gravity and aptness to teach.&rdquo; What the Synod did to McNemar, the congregation now does, and the only credential is &ldquo;Christ speaking in them.&rdquo;'))
+
+A(Q('&ldquo;We will, that each particular church, as a body, <b>actuated by the same spirit</b>, choose her own preacher, and support him by a free will offering&hellip; admit members &mdash; remove offences; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;', WILL, 'To every congregation') +
+  N('The biggest bequest. Everything the Synod did to them (try preachers, admit, exclude) is handed to the congregation. The priesthood of all believers, as polity.',
+    '&rarr; Hold this one. Next week, at Brush Run, a congregation will use exactly this right.'))
 A(Q('&ldquo;We will, that preachers and people, cultivate a spirit of mutual forbearance; <b>pray more and dispute less</b>; and while they behold the signs of the times, look up, and confidently expect that redemption draweth nigh.&rdquo;', WILL, 'To preachers and people') +
   N('A church that has given away its courts has nothing left to settle its quarrels but forbearance and prayer, and the will says so in the same breath. Then: look up; redemption draweth nigh. They died expecting the future.'))
 
@@ -260,26 +278,6 @@ A(Q('&ldquo;Having divested ourselves of all party creeds, and party names, and 
 
 A(CARD('A will only takes effect<br>when someone dies.<br>' + G('The heir was the whole church of Christ.'),
   'Let it sit before the room.'))
-
-# ---------- 7 THE BEQUEST ----------
-A(C('The Bequest', 'On church government: what the heir received.'))
-
-A(Q('&ldquo;&hellip;<i>Observations on Church Government</i>, in which the world will see <b>the beautiful simplicity of Christian church government, stript of human inventions and lordly traditions</b>.&rdquo;', WIT, 'Writing a book on church government') +
-  N('Back to their last meeting before the will: they set out to write a book on church government. What they found was not only an absence. The authority Christ gave belongs to the gathered church; the will says so: &ldquo;native right of internal government&rdquo;, &ldquo;Christ speaking in them.&rdquo; Your reading, and say it as yours: Matthew 18:20, where two or three are gathered (next week&rsquo;s title); every believer a priest. Every other institution answers to that.',
-    'At their last meeting they set out to write <i>Observations on Church Government</i>. The next sentence: &ldquo;As they proceeded in the investigation of that subject, they soon found that there was neither precept nor example in the New Testament for such confederacies as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc.&rdquo; The research convicted the researchers: their own presbytery was one of these confederacies. &ldquo;While they continued in the connection in which they then stood, they were off the foundation of the Apostles and Prophets.&rdquo; (The book never appeared.)'))
-
-A(Q('&ldquo;We will, that our power of making laws for the government of the church, and executing them by delegated authority, <b>forever cease</b>; that the people may have free course to the Bible, and adopt <b>the law of the spirit of life in Christ Jesus</b>.&rdquo;', WILL, 'Their power') +
-  N('Not abolished: bequeathed. The power to make law for the church goes back to where they think it belongs.'))
-
-A(Q('&ldquo;We will, that the church of Christ assume her <b>native right of internal government</b>&hellip; and admit no other proof of their authority, but Christ speaking in them.&rdquo;', WILL, 'To the church') +
-  N('&ldquo;Native&rdquo;: it was always hers. The church will &ldquo;try her candidates for the ministry, as to their soundness in the faith, acquaintance with experimental religion, gravity and aptness to teach.&rdquo; What the Synod did to McNemar, the congregation now does, and the only credential is &ldquo;Christ speaking in them.&rdquo;'))
-
-A(Q('&ldquo;We will, that each particular church, as a body, <b>actuated by the same spirit</b>, choose her own preacher, and support him by a free will offering&hellip; admit members &mdash; remove offences; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;', WILL, 'To every congregation') +
-  N('The biggest bequest. Everything the Synod did to them (try preachers, admit, exclude) is handed to the congregation. The priesthood of all believers, as polity.',
-    '&rarr; Hold this one. Next week, at Brush Run, a congregation will use exactly this right.'))
-
-A(Q('&ldquo;We will, that candidates for the Gospel ministry henceforth study the holy scriptures with fervent prayer, and <b>obtain license from God to preach the simple Gospel, with the Holy Ghost sent down from heaven</b>, without any mixture of philosophy, vain deceit, traditions of men, or the rudiments of the world.&rdquo;', WILL, 'To the ministers') +
-  N('No presbytery to license a preacher now. The license comes from God, and the Spirit is the credential.'))
 
 # ---------- OUR TABLE ----------
 A('<section class="slide room"><div class=eyebrow>Our table</div>'
