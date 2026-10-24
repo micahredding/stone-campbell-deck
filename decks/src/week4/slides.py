@@ -50,15 +50,13 @@ A = S.append
 A(w3b.S[0])                                     # the class title
 
 A('<section class="slide"><div class=eyebrow>Quiz</div>'
-  '<h2 style="max-width:none">We speak&hellip;</h2>'
-  '<h2 class=frag style="max-width:none;color:var(--gold);margin-top:.6vmin">&hellip;where the Bible speaks,</h2>'
-  '<h2 style="max-width:none;margin-top:3vmin">and we are silent&hellip;</h2>'
-  '<h2 class=frag style="max-width:none;color:var(--gold);margin-top:.6vmin">&hellip;where the Bible is silent.</h2>'
-  '<h2 style="max-width:none;margin-top:5vmin">No creed&hellip;</h2>'
-  '<h2 class=frag style="max-width:none;color:var(--gold);margin-top:.6vmin">&hellip;but Christ.</h2>'
-  '<aside class=notes>Three clicks. Let the room finish each one.<br>'
-  '&bull; The first is Thomas Campbell&rsquo;s, 1809: &ldquo;Where the Scriptures speak, we speak; and where the Scriptures are silent, we are silent&rdquo; (Richardson, <i>Memoirs</i> 1:236).<br>'
-  '&bull; The second also comes as &ldquo;No creed but the Bible.&rdquo; Accept either. Tonight&rsquo;s five men said it first, in 1803: &ldquo;all authoritative creeds, but the Bible alone.&rdquo;</aside></section>')
+  '<h2 style="max-width:none">Which of the following is a Restoration Movement publication?</h2>'
+  '<div class="litany" style="text-align:left;gap:1.6vmin;margin-top:4vmin">'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">A.</span><i>Christianity Today</i></div>'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">B.</span><i>Contending for the Faith</i><span class=frag style="color:var(--gold);margin-left:.5em">&larr;</span></div>'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">C.</span><i>Charisma</i> Magazine</div>'
+  '</div>'
+  '<aside class=notes>One click points to the answer. Let the room answer first.<br>&bull; B: <i>Contending for the Faith</i>, a conservative Churches of Christ paper (Ira Y. Rice Jr., from 1970).<br>&bull; <i>Christianity Today</i> is the evangelical magazine Billy Graham founded (1956); <i>Charisma</i> is Pentecostal and charismatic (1975).</aside></section>')
 
 _sum = [x for x in w3b.S if 'class="litany ideasum"' in x and '<div class=eyebrow>Ideas</div>' in x]
 assert len(_sum) == 1
