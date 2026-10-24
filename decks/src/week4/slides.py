@@ -176,9 +176,9 @@ A('<section class="slide"><div class=eyebrow>David Rice</div>'
   '<aside class=notes>One click. Rice was the father of Kentucky Presbyterianism, and Stone still honors him; but his argument, Stone says, &ldquo;could have no effect on minds ardent in the search of truth.&rdquo; The logic: the creed is the only thing between you and atheism. Last week answered that.<br>&rarr; Then the Synod suspended them anyway, and sent committees to read &ldquo;the Synod&rsquo;s bull of suspension&rdquo; in their pulpits and declare their churches vacant.</aside></section>')
 
 # ---------- 2 THE COST ----------
-A('<section class="slide plateslide"><figure class="plate"><img src="IMG_STONE" alt="Bronze bust of Barton W. Stone" style="max-height:70vh">'
-  '<figcaption>Barton W. Stone, 1772&ndash;1844 &middot; bust at Cane Ridge &middot; photo Jim Tingle, CC BY-SA 4.0</figcaption></figure>'
-  '<aside class=notes>Stone goes home to his congregations at Cane Ridge and Concord. (Bronze bust in the Cane Ridge cemetery; photo by Jim Tingle, Wikimedia Commons, CC BY-SA 4.0.)</aside></section>')
+A('<section class="slide plateslide"><figure class="plate"><img src="IMG_STONE" alt="Barton W. Stone, engraved portrait" style="max-height:72vh">'
+  '<figcaption>Barton W. Stone, 1772&ndash;1844 &middot; engraving by J. C. Buttre (detail)</figcaption></figure>'
+  '<aside class=notes>Stone goes home to his congregations at Cane Ridge and Concord. (Detail of J. C. Buttre&rsquo;s engraving <i>Pioneers in the Great Religious Reformation of the Nineteenth Century</i>; public domain.)</aside></section>')
 
 A(Q('&ldquo;I called together my congregations, and informed them that I could no longer conscientiously preach to support the Presbyterian church&hellip; that I absolved them from all obligations in a pecuniary point of view, and then <b>in their presence tore up their salary obligation to me</b>&hellip;&rdquo;', STONE, 'Cane Ridge and Concord &middot; late 1803') +
   N('Mime it if you like. He kept preaching to them, &ldquo;but not in the relation that had previously existed between us.&rdquo; Of the people: &ldquo;Never have I found a more loving, kind, and orderly people in any country.&rdquo; Of the day: &ldquo;This was truly a day of sorrow, and the impressions of it are indelible.&rdquo;'))
@@ -242,6 +242,10 @@ A('<section class="slide bleed"><div class=bg><div class="bgimg househbg"></div>
   '<div class=eyebrow>Cane Ridge &middot; June 28, 1804</div>'
   '<h2>The Last Will &amp; Testament</h2>'
   '<aside class=notes>Back to the room of Chapter 1. Three years earlier, thousands came through the mud to an open table here. The will is dated &ldquo;sitting at Cane Ridge,&rdquo; by tradition in this meetinghouse. Signed by six: the five from the garden and David Purviance.</aside></section>')
+
+A('<section class="slide plateslide"><figure class="plate"><img src="IMG_SIGNING" alt="Stained-glass window: the signing of the Last Will and Testament" style="max-height:72vh">'
+  '<figcaption>The signing of the Last Will and Testament &middot; stained glass, Cane Ridge &middot; photo Chris Light, CC BY-SA 4.0</figcaption></figure>'
+  '<aside class=notes>Six signed the will: the five from the garden and David Purviance. The window shows seven figures; it is a modern window, not a likeness. There is no picture of the five from life. (Photo Chris Light, Wikimedia Commons, CC BY-SA 4.0.)</aside></section>')
 
 A(Q('&ldquo;Verily, verily I say unto you, except a corn of wheat fall into the ground and die, it abideth alone; but <b>if it die, it bringeth forth much fruit</b>.&rdquo;', 'The will&rsquo;s epigraph &middot; John 12:24', 'At the top of the page') +
   N('They put the theology at the top. The epigraph opens with Hebrews 9:16: &ldquo;For where a testament is, there must of necessity be the death of the testator.&rdquo; A will has no force while the testator lives. The inheritance can only pass when the presbytery is gone.'))
