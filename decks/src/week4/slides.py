@@ -108,14 +108,16 @@ A(Q('&ldquo;When we began first to preach these things, the people appeared as j
     'Then the reaction: &ldquo;The sticklers for orthodoxy amongst us writhed under these doctrines&rdquo;; they &ldquo;painfully saw their Confession of Faith neglected.&rdquo;',
     '&rarr; It flourished, and it drew enough ire that the first one they went after was McNemar.'))
 
-A(Q('&ldquo;&hellip;first took McNemar through their <b>fiery ordeal</b>, for preaching these anti-calvinistic doctrines.&rdquo;', STONE, 'Richard McNemar, 1770&ndash;1839') +
-  N('McNemar, a revival preacher in Ohio. His crime: preaching what the revival preached, that the gospel offer is open to everyone and anyone may respond. That is not what the Westminster Confession says, and every Presbyterian minister had sworn to the Confession.',
-    'The &ldquo;ordeal&rdquo; was his own presbytery, the Washington Presbytery (Stone&rsquo;s sentence calls it &ldquo;the Presbytery of Springfield, in Ohio&rdquo;; the records say Washington, and the name would only confuse here). The Synod of Kentucky censured that presbytery for not dealing with him, and his case came up to the Synod at Lexington, September 1803.'))
+A(C('The Trial', 'Lexington, September 1803.'))
 
 A('<section class="slide"><div class=eyebrow>The Synod of Kentucky &middot; Lexington, September 1803</div>'
   '<h2>Richard McNemar is on trial.</h2>'
   '<div class=sub>Four other ministers are watching.<br>They preach what he preaches.</div>'
   '<aside class=notes>The four: Robert Marshall, John Dunlavy, John Thompson, and Barton Stone, the minister of Cane Ridge. Same machinery as Chapter 2, on the other side of the mountains.</aside></section>')
+
+A(Q('&ldquo;&hellip;first took McNemar through their <b>fiery ordeal</b>, for preaching these anti-calvinistic doctrines.&rdquo;', STONE, 'Richard McNemar, 1770&ndash;1839') +
+  N('McNemar, a revival preacher in Ohio. His crime: preaching what the revival preached, that the gospel offer is open to everyone and anyone may respond. That is not what the Westminster Confession says, and every Presbyterian minister had sworn to the Confession.',
+    'The &ldquo;ordeal&rdquo; was his own presbytery, the Washington Presbytery (Stone&rsquo;s sentence calls it &ldquo;the Presbytery of Springfield, in Ohio&rdquo;; the records say Washington, and the name would only confuse here). The Synod of Kentucky censured that presbytery for not dealing with him, and his case came up to the Synod at Lexington, September 1803.'))
 
 A('<section class="slide plateslide tight"><figure class="plate short"><img src="IMG_STONE" alt="" style="max-height:58vh"><figcaption>Barton W. Stone, 1772&ndash;1844 &middot; minister of Cane Ridge and Concord</figcaption></figure>'
   '<p class="bigquote long" style="margin-top:2vmin"><span class=q>&ldquo;It was plainly hinted to us, that <b>we would not be forgotten</b> by the Synod.&rdquo;</span></p>'
@@ -185,23 +187,21 @@ A(Q('&ldquo;I preferred honesty and a good conscience to all these things. Havin
 
 
 # ---------- 3 FORMED AND FLOURISHING ----------
-A('<section class="slide"><h2>The Rise of the Springfield Presbytery</h2>'
+A(C('The Rise of the Springfield Presbytery', 'Late 1803 to 1804.'))
+
+A('<section class="slide">'
   '<div class=litany>'
-  '<div class="no frag">They form the <b>Springfield Presbytery</b> and publish the <i>Apology</i>.</div>'
+  '<div class="no">They form the <b>Springfield Presbytery</b> and publish the <i>Apology</i>.</div>'
   '<div class="no frag">The <i>Apology</i> &ldquo;was quickly <b>republished by the Methodists</b> in Virginia&hellip;&rdquo;</div>'
   '<div class="no frag">Pamphlets against them, &ldquo;full of misrepresentation and invective,&rdquo; <b>spread their views</b>.</div>'
   '<div class="no frag">People &ldquo;disgusted and offended&rdquo; by the attacks &ldquo;were driven from them, and <b>cleaved to us</b>.&rdquo;</div>'
   '</div><div class=cite>' + STONE + '</div>'
-  '<aside class=notes>Four clicks. The Methodists reprinted it &ldquo;except our remarks upon creeds.&rdquo; Stone: &ldquo;This book produced a great effect in the Christian community.&rdquo;</aside></section>')
+  '<aside class=notes>Three clicks. The Methodists reprinted it &ldquo;except our remarks upon creeds.&rdquo; Stone: &ldquo;This book produced a great effect in the Christian community.&rdquo;</aside></section>')
 
 A(CARD('The Springfield Presbytery<br>' + G('flourished.'),
-  'Churches planted, preachers multiplied. &rarr; At their last meeting, they set out to write a book on church government.'))
+  'Churches planted, preachers multiplied. &rarr; Which is exactly when the problem began.'))
 
 # ---------- 4 CHURCH GOVERNMENT ----------
-A(Q('&ldquo;&hellip;<i>Observations on Church Government</i>, in which the world will see <b>the beautiful simplicity of Christian church government, stript of human inventions and lordly traditions</b>.&rdquo;', WIT, 'Writing a book on church government') +
-  N('What they found was not only an absence. The authority Christ gave belongs to the gathered church; the will says so: &ldquo;native right of internal government&rdquo;, &ldquo;Christ speaking in them.&rdquo; Your reading, and say it as yours: Matthew 18:20, where two or three are gathered (next week&rsquo;s title); every believer a priest. Every other institution answers to that.',
-    'At their last meeting they set out to write <i>Observations on Church Government</i>. The next sentence: &ldquo;As they proceeded in the investigation of that subject, they soon found that there was neither precept nor example in the New Testament for such confederacies as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc.&rdquo; The research convicted the researchers: their own presbytery was one of these confederacies. &ldquo;While they continued in the connection in which they then stood, they were off the foundation of the Apostles and Prophets.&rdquo; (The book never appeared.)'))
-
 # ---------- 5 WHY THEY DISSOLVED ----------
 A(Q('&ldquo;&hellip;they endeavored to cultivate a spirit of love and unity with all Christians; but found it extremely difficult to suppress the idea that they themselves were a party separate from others. <b>This difficulty increased in proportion to their success in the ministry.</b> <b>Jealousies were excited in the minds of other denominations</b>&hellip;&rdquo;', WIT, 'Why they did it') +
   N('The witnesses who signed the will, explaining it. They left a party because it fenced Christians apart. Now people saw them as a party, and they began to feel like one. Stone: &ldquo;we had not worn our name more than one year, before we saw it savored of a party spirit.&rdquo;'))
@@ -219,6 +219,8 @@ A(Q('&ldquo;Therefore, from a principle of love to Christians of every name, the
   N('The three reasons: love of Christians of every name; the cause of Jesus; and the people outside, kept from the Lord by our divisions. &rarr; So they wrote their will.'))
 
 # ---------- 4 THE READING OF THE WILL ----------
+A(C('The Last Will &amp; Testament', 'Cane Ridge, June 28, 1804.'))
+
 A('<section class="slide bleed"><div class=bg><div class="bgimg househbg"></div></div>'
   '<div class=credit>Cane Ridge Meeting House &middot; HABS, Theodore Webb, 1934</div>'
   '<div class=eyebrow>Cane Ridge &middot; June 28, 1804</div>'
@@ -243,17 +245,6 @@ A(Q('&ldquo;Imprimis. We will, that this body <b>die, be dissolved, and sink int
 A(Q('&ldquo;We will, that our name of distinction, with its Reverend title, <b>be forgotten</b>, that there be but one Lord over God&rsquo;s heritage, and his name one.&rdquo;', WILL, 'Their name') +
   N('A will gives things away; this one gives away everything a church body has, starting with its name and its titles. They took the name Christian (Rice Haggard&rsquo;s pamphlet).'))
 
-A(Q('&ldquo;We will, that our power of making laws for the government of the church, and executing them by delegated authority, <b>forever cease</b>; that the people may have free course to the Bible, and adopt <b>the law of the spirit of life in Christ Jesus</b>.&rdquo;', WILL, 'Their power') +
-  N('Not abolished: bequeathed. The power to make law for the church goes back to where they think it belongs.'))
-
-A(Q('&ldquo;We will, that the church of Christ assume her <b>native right of internal government</b>&hellip; and admit no other proof of their authority, but Christ speaking in them.&rdquo;', WILL, 'To the church') +
-  N('&ldquo;Native&rdquo;: it was always hers. The church will &ldquo;try her candidates for the ministry, as to their soundness in the faith, acquaintance with experimental religion, gravity and aptness to teach.&rdquo; What the Synod did to McNemar, the congregation now does, and the only credential is &ldquo;Christ speaking in them.&rdquo;'))
-
-A(Q('&ldquo;We will, that each particular church, as a body, <b>actuated by the same spirit</b>, choose her own preacher, and support him by a free will offering&hellip; admit members &mdash; remove offences; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;', WILL, 'To every congregation') +
-  N('The biggest bequest. Everything the Synod did to them (try preachers, admit, exclude) is handed to the congregation. The priesthood of all believers, as polity.',
-    '&rarr; Hold this one. Next week, at Brush Run, a congregation will use exactly this right.'))
-
-
 A(Q('&ldquo;We will, that preachers and people, cultivate a spirit of mutual forbearance; <b>pray more and dispute less</b>; and while they behold the signs of the times, look up, and confidently expect that redemption draweth nigh.&rdquo;', WILL, 'To preachers and people') +
   N('A church that has given away its courts has nothing left to settle its quarrels but forbearance and prayer, and the will says so in the same breath. Then: look up; redemption draweth nigh. They died expecting the future.'))
 
@@ -266,6 +257,26 @@ A(Q('&ldquo;Having divested ourselves of all party creeds, and party names, and 
 
 A(CARD('A will only takes effect<br>when someone dies.<br>' + G('The heir was the whole church of Christ.'),
   'Let it sit before the room.'))
+
+# ---------- 7 THE BEQUEST ----------
+A(C('The Bequest', 'On church government: what the heir received.'))
+
+A(Q('&ldquo;&hellip;<i>Observations on Church Government</i>, in which the world will see <b>the beautiful simplicity of Christian church government, stript of human inventions and lordly traditions</b>.&rdquo;', WIT, 'Writing a book on church government') +
+  N('Back to their last meeting before the will: they set out to write a book on church government. What they found was not only an absence. The authority Christ gave belongs to the gathered church; the will says so: &ldquo;native right of internal government&rdquo;, &ldquo;Christ speaking in them.&rdquo; Your reading, and say it as yours: Matthew 18:20, where two or three are gathered (next week&rsquo;s title); every believer a priest. Every other institution answers to that.',
+    'At their last meeting they set out to write <i>Observations on Church Government</i>. The next sentence: &ldquo;As they proceeded in the investigation of that subject, they soon found that there was neither precept nor example in the New Testament for such confederacies as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc.&rdquo; The research convicted the researchers: their own presbytery was one of these confederacies. &ldquo;While they continued in the connection in which they then stood, they were off the foundation of the Apostles and Prophets.&rdquo; (The book never appeared.)'))
+
+A(Q('&ldquo;We will, that our power of making laws for the government of the church, and executing them by delegated authority, <b>forever cease</b>; that the people may have free course to the Bible, and adopt <b>the law of the spirit of life in Christ Jesus</b>.&rdquo;', WILL, 'Their power') +
+  N('Not abolished: bequeathed. The power to make law for the church goes back to where they think it belongs.'))
+
+A(Q('&ldquo;We will, that the church of Christ assume her <b>native right of internal government</b>&hellip; and admit no other proof of their authority, but Christ speaking in them.&rdquo;', WILL, 'To the church') +
+  N('&ldquo;Native&rdquo;: it was always hers. The church will &ldquo;try her candidates for the ministry, as to their soundness in the faith, acquaintance with experimental religion, gravity and aptness to teach.&rdquo; What the Synod did to McNemar, the congregation now does, and the only credential is &ldquo;Christ speaking in them.&rdquo;'))
+
+A(Q('&ldquo;We will, that each particular church, as a body, <b>actuated by the same spirit</b>, choose her own preacher, and support him by a free will offering&hellip; admit members &mdash; remove offences; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;', WILL, 'To every congregation') +
+  N('The biggest bequest. Everything the Synod did to them (try preachers, admit, exclude) is handed to the congregation. The priesthood of all believers, as polity.',
+    '&rarr; Hold this one. Next week, at Brush Run, a congregation will use exactly this right.'))
+
+A(Q('&ldquo;We will, that candidates for the Gospel ministry henceforth study the holy scriptures with fervent prayer, and <b>obtain license from God to preach the simple Gospel, with the Holy Ghost sent down from heaven</b>, without any mixture of philosophy, vain deceit, traditions of men, or the rudiments of the world.&rdquo;', WILL, 'To the ministers') +
+  N('No presbytery to license a preacher now. The license comes from God, and the Spirit is the credential.'))
 
 # ---------- OUR TABLE ----------
 A('<section class="slide room"><div class=eyebrow>Our table</div>'
