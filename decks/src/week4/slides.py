@@ -207,9 +207,6 @@ A(Q('&ldquo;&hellip;they endeavored to cultivate a spirit of love and unity with
 A(CARD('Success was making them<br>' + G('the thing they had protested.'),
   'Say it once. Failure would have been easy to read; success was the danger.'))
 
-A(Q('&ldquo;We will, that our weak brethren, who may have been <b>wishing to make the Presbytery of Springfield their king</b>, and wot not what is now become of it, betake themselves to the Rock of Ages, and follow Jesus for the future.&rdquo;', WILL, 'From the will') +
-  N('Their own people. Gentle, and a little funny: &ldquo;wot not what is now become of it.&rdquo; The presbytery was being asked to stand where Christ stands.'))
-
 A(CARD('They caught their own presbytery<br>' + G('being handed a job only Christ can do.'),
   'Last week&rsquo;s thesis, lived five years before it was written: anything asked to do a job only Christ can do will fail. They did not wait for it to fail.'))
 
@@ -246,9 +243,15 @@ A(Q('&ldquo;We will, that our name of distinction, with its Reverend title, <b>b
 A(Q('&ldquo;We will, that preachers and people, cultivate a spirit of mutual forbearance; <b>pray more and dispute less</b>; and while they behold the signs of the times, look up, and confidently expect that redemption draweth nigh.&rdquo;', WILL, 'To preachers and people') +
   N('A church that has given away its courts has nothing left to settle its quarrels but forbearance and prayer, and the will says so in the same breath. Then: look up; redemption draweth nigh. They died expecting the future.'))
 
+
+A(Q('&ldquo;We will, that our weak brethren, who may have been <b>wishing to make the Presbytery of Springfield their king</b>, and wot not what is now become of it, betake themselves to the Rock of Ages, and follow Jesus for the future.&rdquo;', WILL, 'Their weak brethren') +
+  N('Their own people. Gentle, and a little funny: &ldquo;wot not what is now become of it.&rdquo; The presbytery was being asked to stand where Christ stands.'))
 A(Q('&ldquo;&hellip;from its first existence it [the Springfield Presbytery] was knit together in love, lived in peace and concord, and <b>died a voluntary and happy death</b>.&rdquo;', WIT, 'The witnesses to the will') +
   N('Not a split, not a failure, not a scandal. A happy death.'))
 
+
+A(Q('&ldquo;We heartily unite with our Christian brethren of every name, in thanksgiving to God for the display of his goodness in the glorious work he is carrying on&hellip; which we hope will terminate in <b>the universal spread of the Gospel, and the unity of the church</b>.&rdquo;', WIT, 'The last words') +
+  N('The closing sentence of the whole pamphlet, just before &ldquo;The End.&rdquo; The cut is &ldquo;in our Western country.&rdquo; Cane Ridge is still the background: the glorious work is the revival.'))
 A(Q('&ldquo;Having divested ourselves of all party creeds, and party names, and trusting alone in God, and the word of his grace, we became a by-word and laughing stock to the sects around; all prophesying our speedy annihilation. Yet <b>from this period I date the commencement of that reformation</b>, which has progressed to this day.&rdquo;', STONE, 'After the will') +
   N('&ldquo;Party names&rdquo; is the name Springfield Presbytery. Just before this: &ldquo;we had not worn our name more than one year, before we saw it savored of a party spirit. With the man-made creeds we threw it overboard, and took the name Christian.&rdquo;',
     'Stone does not date the movement from Cane Ridge in 1801, or from the garden in 1803. He dates it from here: the giving up of the party.'))

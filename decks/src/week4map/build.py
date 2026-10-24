@@ -11,7 +11,6 @@ import os, re, json
 SIDE = [
     # (label,                                first-slide anchor,                         last-slide anchor)
     ('Quoting the Confession against itself', 'Quoting the Confession against itself',     'honoring its deepest impulses'),
-    ('Making the presbytery their king',      'make the Presbytery of Springfield their king', 'make the Presbytery of Springfield their king'),
     ('Their name',                            'our name of distinction',                   'our name of distinction'),
     ('Addendum',                              "Reference material; not part of the telling", 'What this week touched'),
 ]
