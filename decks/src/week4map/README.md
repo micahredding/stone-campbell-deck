@@ -45,6 +45,7 @@ The rules:
 - A side path **hangs from the spine slide just before it** (its *fork*). Several side paths in a row share one fork. That's how Idea 1 has three doors.
 - An anchor resolves to the **first** slide containing it. Pick a phrase unique to the slide.
 - Section anchors must land on spine slides.
+- To hide a slide without deleting it, write `HIDE(...)` in place of `A(...)` in `slides.py`. The build leaves it out, and its quotes go unmarked. Change it back to `A` to show it again.
 
 ## Documents
 

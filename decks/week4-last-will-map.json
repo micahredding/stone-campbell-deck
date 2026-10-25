@@ -349,153 +349,139 @@
   {
    "index": 49,
    "n": 50,
-   "title": "To the ministers \"We will, that candidates for the Gospel ministry henceforth study the ho",
+   "title": "To the church \"We will, that the church of Christ assume her native right of internal gove",
    "path": "spine",
    "doc": "will"
   },
   {
    "index": 50,
    "n": 51,
-   "title": "To the church \"We will, that the church of Christ assume her native right of internal gove",
+   "title": "To preachers and people \"We will, that preachers and people, cultivate a spirit of mutual ",
    "path": "spine",
    "doc": "will"
   },
   {
    "index": 51,
    "n": 52,
-   "title": "To every congregation \"We will, that each particular church, as a body, actuated by the sa",
+   "title": "Their weak brethren \"We will, that our weak brethren, who may have been wishing to make th",
    "path": "spine",
    "doc": "will"
   },
   {
    "index": 52,
    "n": 53,
-   "title": "To preachers and people \"We will, that preachers and people, cultivate a spirit of mutual ",
+   "title": "The witnesses to the will \"...from its first existence it [the Springfield Presbytery] was",
    "path": "spine",
    "doc": "will"
   },
   {
    "index": 53,
    "n": 54,
-   "title": "Their weak brethren \"We will, that our weak brethren, who may have been wishing to make th",
+   "title": "The last words \"We heartily unite with our Christian brethren of every name , in thanksgiv",
    "path": "spine",
    "doc": "will"
   },
   {
    "index": 54,
    "n": 55,
-   "title": "The witnesses to the will \"...from its first existence it [the Springfield Presbytery] was",
+   "title": "A will only takes effect when someone dies. The heir was the whole church of Christ.",
    "path": "spine",
-   "doc": "will"
+   "doc": null
   },
   {
    "index": 55,
    "n": 56,
-   "title": "The last words \"We heartily unite with our Christian brethren of every name , in thanksgiv",
-   "path": "spine",
+   "title": "Our table What in our church is \"in more than ordinary bodily health\"? Would we be willing",
+   "path": "Our table",
    "doc": "will"
   },
   {
    "index": 56,
    "n": 57,
-   "title": "A will only takes effect when someone dies. The heir was the whole church of Christ.",
+   "title": "(black)",
    "path": "spine",
    "doc": null
   },
   {
    "index": 57,
    "n": 58,
-   "title": "Our table What in our church is \"in more than ordinary bodily health\"? Would we be willing",
-   "path": "Our table",
-   "doc": "will"
+   "title": "for discussion What is beautiful here? What do we carry forward?",
+   "path": "spine",
+   "doc": null
   },
   {
    "index": 58,
    "n": 59,
-   "title": "(black)",
+   "title": "Idea 1 of 3 Unity: institutional self-sacrifice.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 59,
    "n": 60,
-   "title": "for discussion What is beautiful here? What do we carry forward?",
+   "title": "Idea 2 of 3 Freedom of conscience: claimed for ourselves, extended to others.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 60,
    "n": 61,
-   "title": "Idea 1 of 3 Unity: institutional self-sacrifice.",
+   "title": "Idea 3 of 3 Priesthood: authority belongs to gathered believers.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 61,
    "n": 62,
-   "title": "Idea 2 of 3 Freedom of conscience: claimed for ourselves, extended to others.",
+   "title": "Ideas 1. Unity: institutional self-sacrifice. 2. Freedom of conscience: claimed for oursel",
    "path": "spine",
    "doc": null
   },
   {
    "index": 62,
    "n": 63,
-   "title": "Idea 3 of 3 Priesthood: authority belongs to gathered believers.",
+   "title": "for discussion What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
   {
    "index": 63,
    "n": 64,
-   "title": "Ideas 1. Unity: institutional self-sacrifice. 2. Freedom of conscience: claimed for oursel",
+   "title": "Online stone-campbell.micahredding.com Home Timeline Exhibits People Exhibits Timeline Peo",
    "path": "spine",
    "doc": null
   },
   {
    "index": 64,
    "n": 65,
-   "title": "for discussion What is beautiful here? What do we carry forward?",
+   "title": "Next week: wherever two or three are gathered. The will gave every congregation the right ",
    "path": "spine",
    "doc": null
   },
   {
    "index": 65,
    "n": 66,
-   "title": "Online stone-campbell.micahredding.com Home Timeline Exhibits People Exhibits Timeline Peo",
+   "title": "(black)",
    "path": "spine",
    "doc": null
   },
   {
    "index": 66,
    "n": 67,
-   "title": "Next week: wherever two or three are gathered. The will gave every congregation the right ",
-   "path": "spine",
-   "doc": null
-  },
-  {
-   "index": 67,
-   "n": 68,
-   "title": "(black)",
-   "path": "spine",
-   "doc": null
-  },
-  {
-   "index": 68,
-   "n": 69,
    "title": "Addendum",
    "path": "Addendum",
    "doc": null
   },
   {
-   "index": 69,
-   "n": 70,
+   "index": 67,
+   "n": 68,
    "title": "What they left Their name, and the Reverend title: \" be forgotten , that there be but one ",
    "path": "Addendum",
    "doc": "will"
   },
   {
-   "index": 70,
-   "n": 71,
+   "index": 68,
+   "n": 69,
    "title": "What this week touched CHRIST ALONE UNITY PRIESTHOOD FUTURE HOMECOMING SELF-SACRIFICE FREE",
    "path": "Addendum",
    "doc": null
@@ -547,8 +533,8 @@
   52,
   53,
   54,
-  55,
   56,
+  57,
   58,
   59,
   60,
@@ -556,9 +542,7 @@
   62,
   63,
   64,
-  65,
-  66,
-  67
+  65
  ],
  "branches": [
   {
@@ -585,18 +569,18 @@
   },
   {
    "label": "Our table",
-   "fork": 56,
+   "fork": 54,
    "slides": [
-    57
+    55
    ]
   },
   {
    "label": "Addendum",
-   "fork": 67,
+   "fork": 65,
    "slides": [
-    68,
-    69,
-    70
+    66,
+    67,
+    68
    ]
   }
  ],
@@ -631,7 +615,7 @@
   },
   {
    "label": "Close",
-   "at": 48
+   "at": 46
   }
  ],
  "docs": [
@@ -942,80 +926,65 @@
   {
    "slide": 49,
    "doc": "will",
-   "text": "We will, that candidates for the Gospel ministry henceforth study the holy scriptures with fervent prayer, and obtain license from God to preach the simple Gospel, with the Holy Ghost sent down from heaven"
-  },
-  {
-   "slide": 50,
-   "doc": "will",
    "text": "We will, that the church of Christ assume her native right of internal government"
   },
   {
-   "slide": 50,
+   "slide": 49,
    "doc": "will",
    "text": "and admit no other proof of their authority, but Christ speaking in them."
   },
   {
-   "slide": 51,
-   "doc": "will",
-   "text": "We will, that each particular church, as a body, actuated by the same spirit, choose her own preacher, and support him by a free will offering"
-  },
-  {
-   "slide": 51,
-   "doc": "will",
-   "text": "admit members — remove offences; and never henceforth delegate her right of government to any man or set of men whatever."
-  },
-  {
-   "slide": 52,
+   "slide": 50,
    "doc": "will",
    "text": "We will, that preachers and people, cultivate a spirit of mutual forbearance; pray more and dispute less; and while they behold the signs of the times, look up, and confidently expect that redemption draweth nigh."
   },
   {
-   "slide": 53,
+   "slide": 51,
    "doc": "will",
    "text": "We will, that our weak brethren, who may have been wishing to make the Presbytery of Springfield their king"
   },
   {
-   "slide": 53,
+   "slide": 51,
    "doc": "will",
    "text": "betake themselves to the Rock of Ages, and follow Jesus for the future."
   },
   {
-   "slide": 54,
+   "slide": 52,
    "doc": "will",
    "text": "from its first existence it"
   },
   {
-   "slide": 54,
+   "slide": 52,
    "doc": "will",
    "text": "was knit together in love, lived in peace and concord, and died a voluntary and happy death."
   },
   {
-   "slide": 55,
+   "slide": 53,
    "doc": "will",
    "text": "We heartily unite with our Christian brethren of every name, in thanksgiving to God for the display of his goodness in the glorious work he is carrying on"
   },
   {
-   "slide": 55,
+   "slide": 53,
    "doc": "will",
    "text": "which we hope will terminate in the universal spread of the Gospel, and the unity of the church."
   },
   {
-   "slide": 57,
+   "slide": 55,
    "doc": "will",
    "text": "in more than ordinary bodily health"
   },
   {
-   "slide": 69,
+   "slide": 67,
    "doc": "will",
    "text": "be forgotten, that there be but one Lord over God’s heritage, and his name one."
   },
   {
-   "slide": 69,
+   "slide": 67,
    "doc": "will",
    "text": "forever cease; that the people may have free course to the Bible."
   },
   {
-   "slide": 69,
+   "slide": 67,
    "doc": "will",
    "text": "the Bible as the only sure guide to heaven."
   }
