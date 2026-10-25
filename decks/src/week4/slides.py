@@ -186,6 +186,12 @@ A(CARD('The Synod suspends them all.',
 A('<section class="slide plateslide"><figure class="plate"><img src="IMG_STONE" alt="Barton W. Stone, engraved portrait" style="max-height:72vh">'
   '<figcaption>Barton W. Stone, 1772&ndash;1844 &middot; engraving by J. C. Buttre (detail)</figcaption></figure>'
   '<aside class=notes>Stone goes home to his congregations at Cane Ridge and Concord. (Detail of J. C. Buttre&rsquo;s engraving <i>Pioneers in the Great Religious Reformation of the Nineteenth Century</i>; public domain.)</aside></section>')
+A('<section class="slide plateslide"><figure class="plate"><img src="IMG_STUMP" alt="Stained-glass window: Stone preaching from a tree stump" style="max-height:72vh">'
+  '<figcaption>Stone preaching at Cane Ridge &middot; stained glass, Cane Ridge &middot; photo Chris Light, CC BY-SA 4.0</figcaption></figure>'
+  '<aside class=notes>A memorial window at the Cane Ridge shrine, not a record.</aside></section>')
+A('<section class="slide plateslide"><figure class="plate"><img src="IMG_PULPIT" alt="Cane Ridge Meeting House, interior, the pulpit niche" style="max-height:72vh">'
+  '<figcaption>Cane Ridge Meeting House, the pulpit niche &middot; HABS, Theodore Webb, 1934</figcaption></figure>'
+  '<aside class=notes>His pulpit.</aside></section>')
 
 A(Q('&ldquo;I called together my congregations, and informed them that I could no longer conscientiously preach to support the Presbyterian church&hellip; that I absolved them from all obligations in a pecuniary point of view, and then <b>in their presence tore up their salary obligation to me</b>&hellip;&rdquo;', STONE, 'Cane Ridge and Concord &middot; late 1803') +
   N('Mime it if you like. He kept preaching to them, &ldquo;but not in the relation that had previously existed between us.&rdquo; Of the people: &ldquo;Never have I found a more loving, kind, and orderly people in any country.&rdquo; Of the day: &ldquo;This was truly a day of sorrow, and the impressions of it are indelible.&rdquo;'))
@@ -239,6 +245,8 @@ A(CARD('Success was making them<br>' + G('the thing they had protested.'),
 
 A(CARD('They caught their own presbytery<br>' + G('being handed a job only Christ can do.'),
   'Last week&rsquo;s thesis, lived five years before it was written: anything asked to do a job only Christ can do will fail. They did not wait for it to fail.'))
+
+A(C('The Decision', ''))
 
 A(Q('&ldquo;Therefore, from a principle of love to Christians of every name, the precious cause of Jesus, and <b>dying sinners who are kept from the Lord by the existence of sects and parties</b> in the church, they have cheerfully consented to retire from the din and fury of conflicting parties &mdash; sink out of the view of fleshly minds, and die the death.&rdquo;', WIT, 'Why') +
   N('The three reasons: love of Christians of every name; the cause of Jesus; and the people outside, kept from the Lord by our divisions. &rarr; So they wrote their will.'))
