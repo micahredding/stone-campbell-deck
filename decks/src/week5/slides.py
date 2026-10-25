@@ -14,6 +14,7 @@ def _load(name, rel):
     m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m); return m
 w3b = _load('w3bslides', 'week3b/slides.py')
 w4 = _load('w4slides', 'week4/slides.py')
+R = _load('resources', 'resources.py')       # shared side paths and documents (decks/src/resources.py)
 w3 = w3b.w3
 PATDEFS, CHRISTENDOM_CSS = w3b.PATDEFS, w3b.CHRISTENDOM_CSS
 
@@ -142,6 +143,12 @@ A(DIM('<section class="slide"><div class=eyebrow>The &ldquo;important reasons,&r
   '</div><div class=cite>' + MIN + '</div>'
   '<aside class=notes>Four clicks. The third is the cold open. The list ends: &ldquo;because it is not consistent with the regulations of the Presbyterian Church that Synod should form a connection with any ministers, churches or associations.&rdquo; Thomas, reading it, said he felt &ldquo;quite relieved&rdquo;: it was not for any immorality.</aside></section>', 'synodbg5'))
 
+# side path: the Confession against itself (shared resource), with the Synod of Pittsburg's case
+for _x in R.westminster(extra=[
+    Q('&ldquo;The Confession of Faith of the Synod declared the Bible to be the only rule of faith and practice, and yet when a respectable body of religious persons apply for admission, they are ruled out, <b>because they will have no other rule than the Bible</b>!&rdquo;', RICH, 'The Synod of Pittsburg, by its own Confession') +
+    N('Richardson&rsquo;s comment on the Synod&rsquo;s refusal. He goes on: &ldquo;In the case of Thomas Campbell it was the &lsquo;Confession,&rsquo; and not the Bible, that was made the standard by which one of the best of men was denied religious fellowship.&rdquo;')]):
+    A(_x)
+
 A(CARD('Rejected by the Seceders in 1808.<br>' + G('Rejected by the Presbyterians in 1810.'),
   'Twice now, for the same thing: the Bible alone, and a table open to other Christians. &rarr; &ldquo;And the Synod had named the son. The son answered.&rdquo;'))
 
@@ -192,6 +199,7 @@ A(BIGQ(Q('&ldquo;At this meeting, <b>Thomas Campbell was appointed elder</b>, an
 
 A(CARD('No bishop. No presbytery.<br>' + G('A congregation.'),
   'Let it sit. This is the thing the Synod could not imagine: a church that makes its own ministers.'))
+for _x in R.governance(): A(_x)                   # side path: who governs the church (shared resource)
 
 A('<section class="slide breath"><div class=eyebrow>What they sang &middot; Psalm 118, the Scottish metrical version</div>'
   '<div class=litany style="gap:.6vmin">'

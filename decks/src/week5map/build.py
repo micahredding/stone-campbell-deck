@@ -5,11 +5,13 @@
 import os, sys
 _H = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(_H, '..'))
-import mapdeck
+import mapdeck, resources as R
 
 SIDE = [
     # (label,                      first-slide anchor,                      last-slide anchor)
+    R.WESTMINSTER,
     ('Richardson&rsquo;s note',     '<div class=eyebrow>Richardson&rsquo;s note</div>', '<div class=eyebrow>Richardson&rsquo;s note</div>'),
+    R.GOVERNANCE,
     ('Who was not at the table',   'who was not at the table',              'who was not at the table'),
     ('Addendum',                   'Reference material; not part of the telling', 'What this week touched'),
 ]
@@ -21,30 +23,18 @@ SECTIONS = [
     ('Tying back', '<h2>Two Wills, One Bequest</h2>'), ('Close', 'for discussion'),
 ]
 
-# The sources whole: Richardson's Memoirs (excerpts, in sources/), and from the class site
-# (stone-campbell-site/src/documents) the Declaration and Address and the Last Will. Set SITE to the
-# site checkout if it is not ~/projects/stone-campbell-site.
-def docs(between, clean):
-    return [
-        {'key': 'rich', 'title': 'Robert Richardson, <i>Memoirs of Alexander Campbell</i>, vol. 1 (1868)',
-         'sub': 'The wreck, the first sermon, the Synod&rsquo;s minutes, Alexander&rsquo;s reply, Brush Run, the ordination &middot; excerpts, machine-read from the Internet Archive scan',
-         'html': clean(open(os.path.join(_H, 'sources', 'richardson-memoirs-v1-excerpts.html')).read())},
-        {'key': 'dna', 'title': 'Thomas Campbell, <i>Declaration and Address</i> (1809)',
-         'sub': 'The whole of it: Declaration, Address, Propositions, Appendix',
-         'html': clean(between('declaration-and-address-fulltext.njk', '<h2 id="declaration">', '<!-- SOURCE CITATION -->'))},
-        {'key': 'will', 'title': 'The Last Will and Testament of the Springfield Presbytery',
-         'sub': 'Cane Ridge, June 28, 1804 &middot; with the Witnesses&rsquo; Address',
-         'html': clean(between('last-will-fulltext.njk', '<h2 id="epigraph">', '<!-- SOURCE CITATION -->'))},
-    ]
-
-SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will'}
-DOC_DOORS = [('Richardson&rsquo;s account, whole', '<h2>Brush Run</h2>', 0)]
-
-# Which documents a slide's quotes are looked for in, read from its citation text.
-def doc_order(vis, K):
-    if 'Declaration and Address' in vis: return [K.index('dna')]
-    if 'Last Will and Testament' in vis: return [K.index('will')]
-    return [K.index('rich')] + [i for i in range(len(K)) if K[i] != 'rich']
+# The sources whole, from the shared library (decks/src/resources.py): Richardson's Memoirs (excerpts),
+# the Declaration and Address, the Last Will, the Westminster Confession, Scripture (KJV), and Stone's
+# own account. Set SITE to the class site checkout if it is not ~/projects/stone-campbell-site.
+DOC_KEYS = ['rich', 'dna', 'will', 'wcf', 'kjv', 'stone', 'apology']
+def docs(between, clean): return R.docs(between, clean, DOC_KEYS)
+SHORT = R.SHORT
+DOC_DOORS = [('Richardson&rsquo;s account, whole', '<h2>Brush Run</h2>', 0),
+             ('The Westminster Confession, whole', '<h2>The Synod of Pittsburg</h2>', 3),
+             ('The whole Declaration and Address', '<h2>Two Wills, One Bequest</h2>', 1),
+             ('The whole will', '<h2>Two Wills, One Bequest</h2>', 2),
+             ('Scripture on the church (KJV)', 'Wherever Two or Three<br>Are Gathered', 4)]
+doc_order = R.doc_order
 
 mapdeck.build({
     'part': '5', 'key': 'w5', 'chapter': 'Chapter 5', 'title': 'Chapter 5 &middot; Wherever Two or Three Are Gathered',

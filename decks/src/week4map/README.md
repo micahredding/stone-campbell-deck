@@ -7,6 +7,8 @@ The map deck is a **view**. It adds no content of its own. The slides come from 
 
 The builder itself is `decks/src/mapdeck.py`, shared with Chapter 5 (`decks/src/week5map/build.py`). A chapter's `build.py` is only its configuration: side paths, sections, source documents, which document each slide's quotes come from, and the output name.
 
+**Shared resources** (`decks/src/resources.py`, Chapter 5 on): the source documents, whole (Richardson's *Memoirs* excerpts, the *Declaration and Address*, the *Last Will*, the Westminster Confession, Scripture in the KJV (`decks/src/sources/scripture-kjv.html`), Stone's own account and the *Apology*), one rule for which document a slide's quotes are checked against, and side paths any chapter can hang off its spine: `westminster()` (quoting the Confession against itself) and `governance()` (who governs the church: Matthew 18, the priesthood texts, Westminster 30, the *Declaration and Address*, the Witnesses' Address and the will, Alexander Campbell). A chapter adds a resource's slides with `A(...)` where it should hang, passing chapter-specific slides as `extra`, and lists its anchor tuple (`R.WESTMINSTER`, `R.GOVERNANCE`) in `SIDE`. To add a resource, write a function returning its slides (unique eyebrow on the first, unique phrase on the last) and an anchor tuple.
+
 ## Files
 
 | Path | What it is |
