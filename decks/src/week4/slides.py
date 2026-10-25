@@ -71,11 +71,11 @@ assert len(_sum) == 1
 A(re.sub(r'<div class=no><span[^>]*>5\.</span>.*?</div>', '', _sum[0], flags=re.S).replace('Christ builds his body.', 'Christ has built his body.').replace('Our first duty is', 'Our duty is').replace('<div class=eyebrow>Ideas</div>', '<div class=eyebrow>Last week&rsquo;s ideas</div>')
   .replace('All five at once, before the discussion.', 'Four of last week&rsquo;s ideas, all at once. Read them, or let the room read them; do not re-teach.<br>&rarr; &ldquo;Tonight, five years earlier: men who acted on idea three before Campbell wrote it down.&rdquo;'))
 
-A('<section class="slide room"><h2 style="max-width:16ch;font-size:clamp(44px,11vmin,130px);line-height:1.12">What are they willing to sacrifice in order to do this?</h2>'
+A('<section class="slide room"><h2 style="max-width:16ch;font-size:clamp(44px,11vmin,130px);line-height:1.12">What are they willing to sacrifice?</h2>'
   '<aside class=notes>The unity of Christ&rsquo;s body: how far will they go to hold on to it? &rarr; &ldquo;We&rsquo;re going to see how far they were willing to take this.&rdquo;</aside></section>')
 
 A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 4</div>'
-  '<h1>The Last Will<br>and Testament</h1><div class=table-line></div>'
+  '<h1>The Last Will and Testament<br>of the Springfield Presbytery</h1><div class=table-line></div>'
   '<div class=sub>Cane Ridge, Kentucky &middot; June 28, 1804</div>'
   '<aside class=notes>Two documents set the course of our movement: the <i>Declaration and Address</i> (the last few weeks) and this one. This one is five years older. Then the recap: Cane Ridge; Thomas Campbell&rsquo;s fight for unity, carried from Ireland to America; communion for Christians outside his sect; his trial. Unity and freedom of conscience, all along, as one question.<br>The frame for the hour is a will-reading: who died, of what, what they left, and to whom.<br>'
   'The hour: the will&rsquo;s opening 3 &middot; the trial and the garden 10 &middot; the cost 4 &middot; it worked, and the problem 8 &middot; the reading of the will 12 &middot; our table 8 &middot; close 5.</aside></section>')
