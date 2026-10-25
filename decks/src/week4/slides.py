@@ -203,7 +203,7 @@ A('<section class="slide">'
   '<div class="no">They form the <b>Springfield Presbytery</b> and publish the <i>Apology</i>.</div>'
   '<div class="no frag">The <i>Apology</i> &ldquo;was quickly <b>republished by the Methodists</b> in Virginia&hellip;&rdquo;</div>'
   '<div class="no frag">Pamphlets against them, &ldquo;full of misrepresentation and invective,&rdquo; <b>spread their views</b>.</div>'
-  '<div class="no frag">People &ldquo;disgusted and offended&rdquo; by the attacks &ldquo;were driven from them, and <b>cleaved to us</b>.&rdquo;</div>'
+  '<div class="no frag">People &ldquo;were driven from them, and <b>cleaved to us</b>.&rdquo;</div>'
   '</div><div class=cite>' + STONE + '</div>'
   '<aside class=notes>Three clicks. The Methodists reprinted it &ldquo;except our remarks upon creeds.&rdquo; Stone: &ldquo;This book produced a great effect in the Christian community.&rdquo;</aside></section>')
 
