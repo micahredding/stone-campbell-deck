@@ -171,7 +171,7 @@ A('<section class="slide"><div class=eyebrow>The Synod sends a committee to win 
 
 A('<section class="slide"><div class=eyebrow>David Rice</div>'
   '<div class=litany>'
-  '<div class=no>&ldquo;&hellip;old father David Rice, <b>of precious memory</b>, &hellip; urged one argument worthy of record, it was this &mdash; that every departure from Calvinism was an advance to atheism.&rdquo;</div>'
+  '<div class=no style="font-size:clamp(32px,7.2vmin,88px);line-height:1.18">&ldquo;&hellip;old father David Rice, <b>of precious memory</b>, &hellip; urged one argument worthy of record, it was this &mdash; that every departure from Calvinism was an advance to atheism.&rdquo;</div>'
   '<div class="no frag" style="color:var(--gold)">Calvinism &rarr; Arminianism &rarr; Pelagianism &rarr; deism &rarr; atheism</div>'
   '</div><div class=cite>' + STONE + '</div>'
   '<aside class=notes>One click. Rice was the father of Kentucky Presbyterianism, and Stone still honors him; but his argument, Stone says, &ldquo;could have no effect on minds ardent in the search of truth.&rdquo; The logic: the creed is the only thing between you and atheism. Last week answered that.</aside></section>')
