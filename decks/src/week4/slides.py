@@ -321,7 +321,7 @@ A(Q('&ldquo;Having divested ourselves of all party creeds, and party names, and 
 A('<section class="slide plateslide"><figure class="plate"><img src="IMG_WORMSPIC" alt="Luther at the Diet of Worms" style="max-height:72vh">'
   '<figcaption>Anton von Werner, <i>Luther at the Diet of Worms</i>, 1877</figcaption></figure>'
   '<aside class=notes>This is what they were willing to sacrifice. Luther, and the Reformers after him, rejected a religious authority over them that bound their conscience. Thomas Campbell extended freedom of conscience to others. These men gave up religious authority when it got in the way of the body of Christ: their own.</aside></section>')
-A(CARD('The reformation began, not when they left behind<br>someone else&rsquo;s religious institution,<br>' + G('but when they dissolved their own.'),
+A(CARD('Luther&rsquo;s reformation began when he rejected<br>someone else&rsquo;s religious authority.<br><br>' + G('Their reformation began<br>when they dissolved their own.'),
   'Let it land.'))
 A(BLACK)
 
