@@ -188,7 +188,7 @@
   {
    "index": 26,
    "n": 27,
-   "title": "David Rice \"Another of the committee, old father David Rice, of precious memory , on whose",
+   "title": "David Rice \"Another of the committee, old father David Rice, of precious memory , ... urge",
    "path": "spine",
    "doc": "stone"
   },
@@ -812,7 +812,12 @@
   {
    "slide": 26,
    "doc": "stone",
-   "text": "Another of the committee, old father David Rice, of precious memory, on whose influence the Synod chiefly depended to reclaim us, urged one argument worthy of record, it was this — that every departure from Calvinism was an advance to atheism."
+   "text": "Another of the committee, old father David Rice, of precious memory,"
+  },
+  {
+   "slide": 26,
+   "doc": "stone",
+   "text": "urged one argument worthy of record, it was this — that every departure from Calvinism was an advance to atheism."
   },
   {
    "slide": 28,
