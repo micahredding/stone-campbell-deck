@@ -116,10 +116,12 @@ A('<section class="slide bleed"><div class=bg><div class="bgimg synodbg"></div><
   '<h2>The Trial</h2>'
   '<aside class=notes>Lexington, September 1803. The picture is another synod: Dort, in Holland, 1618, where a Calvinist synod tried the Arminian ministers. The same charge.</aside></section>')
 
-A('<section class="slide"><div class=eyebrow>The Synod of Kentucky &middot; Lexington, September 1803</div>'
+A('<section class="slide bleed"><div class=bg><div class="bgimg commonsbg"></div></div>'
+  '<div class=credit>Karl Anton Hickel, <i>The House of Commons, 1793&ndash;94</i></div>'
+  '<div class=eyebrow style="max-width:none;white-space:nowrap;text-shadow:0 1px 6px rgba(0,0,0,.95)">The Synod of Kentucky &middot; Lexington, September 1803</div>'
   '<h2>Richard McNemar is on trial.</h2>'
   '<div class=sub>Four other ministers are watching.<br>They preach what he preaches.</div>'
-  '<aside class=notes>The four: Robert Marshall, John Dunlavy, John Thompson, and Barton Stone, the minister of Cane Ridge. Same machinery as Chapter 2, on the other side of the mountains.</aside></section>')
+  '<aside class=notes>The four: Robert Marshall, John Dunlavy, John Thompson, and Barton Stone, the minister of Cane Ridge. Same machinery as Chapter 2, on the other side of the mountains. (The picture: the House of Commons, 1793&ndash;94; the dress of the day, not the Synod.)</aside></section>')
 
 A(Q('&ldquo;&hellip;first took McNemar through their <b>fiery ordeal</b>, for preaching these anti-calvinistic doctrines.&rdquo;', STONE, 'Richard McNemar, 1770&ndash;1839') +
   N('McNemar, a revival preacher in Ohio. His crime: preaching what the revival preached, that the gospel offer is open to everyone and anyone may respond. That is not what the Westminster Confession says, and every Presbyterian minister had sworn to the Confession.',
