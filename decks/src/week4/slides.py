@@ -91,7 +91,7 @@ A(Q('&ldquo;There were at this time <b>five preachers</b>&hellip; who were in th
   N('The revival has kept going since Cane Ridge, and Stone is one of five ministers preaching in its strain. The sentence goes on: &ldquo;the three former lived in Ohio, the two latter in Kentucky.&rdquo; David Purviance, then a candidate for the ministry, &ldquo;was of the same faith.&rdquo;',
     '&rarr; Here is what they preached.'))
 
-A(Q('&ldquo;The distinguishing doctrine preached by us was, that <b>God loved the world &mdash; the whole world</b>, and sent his Son to save them&hellip; that the gospel was the means of salvation&hellip; that <b>sinners were capable of understanding and believing this testimony</b>, and of acting upon it by coming to the Saviour and obeying him, and from him obtaining salvation and the Holy Spirit.&rdquo;', STONE, 'What the five preached') +
+A(Q('&ldquo;The distinguishing doctrine preached by us was, that <b>God loved the world &mdash; the whole world</b>, and sent his Son to save them&hellip; that the gospel was the means of salvation&hellip; that <b>sinners were capable of understanding and believing this testimony</b>, and of acting upon it by coming to the Saviour&hellip; and from him obtaining salvation and the Holy Spirit.&rdquo;', STONE, 'What the five preached') +
   N('Clipped from the slide: &ldquo;on condition that they believed in him&rdquo; (after &ldquo;save them&rdquo;); &ldquo;but that this means would never be effectual to this end, until believed and obeyed by us&rdquo; (after &ldquo;the means of salvation&rdquo;); and, after that, &ldquo;that God required us to believe in his Son, and had given us sufficient evidence in his Word to produce faith in us, if attended to by us.&rdquo;',
     'Their distinctive teaching.',
     'Against Westminster: Christ died for the elect only, and the sinner can do nothing until God first regenerates him. Here: the whole world, and the sinner is able to believe.'))
@@ -123,11 +123,11 @@ A('<section class="slide bleed"><div class=bg><div class="bgimg commonsbg"></div
   '<div class=sub>Four other ministers are watching.<br>They preach what he preaches.</div>'
   '<aside class=notes>The four: Robert Marshall, John Dunlavy, John Thompson, and Barton Stone, the minister of Cane Ridge. Same machinery as Chapter 2, on the other side of the mountains. (The picture: the House of Commons, 1793&ndash;94; the dress of the day, not the Synod.)</aside></section>')
 
-A(Q('&ldquo;&hellip;first took McNemar through their <b>fiery ordeal</b>, for preaching these anti-calvinistic doctrines.&rdquo;', STONE, 'Richard McNemar, 1770&ndash;1839') +
+A(Q('&ldquo;&hellip;first took McNemar through their <b>fiery ordeal</b>, for preaching these anti-calvinistic doctrines.&rdquo;', STONE, 'Richard McNemar, 1770&ndash;1839', cls='slide bleed midbleed dimbg').replace('lutherbg', 'synodbg') +
   N('McNemar, a revival preacher in Ohio. His crime: preaching what the revival preached, that the gospel offer is open to everyone and anyone may respond. That is not what the Westminster Confession says, and every Presbyterian minister had sworn to the Confession.',
     'The &ldquo;ordeal&rdquo; was his own presbytery, the Washington Presbytery (Stone&rsquo;s sentence calls it &ldquo;the Presbytery of Springfield, in Ohio&rdquo;; the records say Washington, and the name would only confuse here). The Synod of Kentucky censured that presbytery for not dealing with him, and his case came up to the Synod at Lexington, September 1803.'))
 
-A(Q('&ldquo;It was plainly hinted to us, that <b>we would not be forgotten</b> by the Synod.&rdquo;', STONE) +
+A(Q('&ldquo;It was plainly hinted to us, that <b>we would not be forgotten</b> by the Synod.&rdquo;', STONE, cls='slide bleed midbleed dimbg').replace('lutherbg', 'synodbg') +
   N('Stone, whom the room met at Cane Ridge in Chapter 1. &ldquo;We waited anxiously for the issue, till we plainly saw it would be adverse to him, and consequently to us all.&rdquo;<br>&rarr; So, in a recess of the Synod&hellip;'))
 
 A(CARD('They pray.',
@@ -140,7 +140,7 @@ A(Q('&ldquo;When we neglected it [the Westminster Confession] and followed the S
 A(Q('&ldquo;In a short recess of Synod, we five withdrew to a private garden, where, after prayer for direction, and a free conversation, with a perfect unanimity we drew up a protest&hellip; and a declaration of our independence, and of our <b>withdrawal from their jurisdiction, but not from their communion</b>.&rdquo;', STONE, 'The garden') +
   N('Five men, a recess, a garden, prayer. &ldquo;A declaration of our independence&rdquo;: his words, twenty-seven years after the other one. The protest is dated 10 September 1803.'))
 
-A(Q('&ldquo;This protest we immediately presented to the Synod, through their Moderator &mdash; it was altogether unexpected by them, and produced very unpleasant feelings; and <b>a profound silence for a few minutes ensued</b>.&rdquo;', STONE) +
+A(Q('&ldquo;This protest we immediately presented to the Synod&hellip; it was altogether unexpected by them, and produced very unpleasant feelings; and <b>a profound silence for a few minutes ensued</b>.&rdquo;', STONE) +
   N('Let the room have a few seconds of silence of its own.'))
 
 A(CARD('They did not withdraw communion.',

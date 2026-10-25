@@ -139,7 +139,7 @@
   {
    "index": 19,
    "n": 20,
-   "title": "\"This protest we immediately presented to the Synod, through their Moderator - it was alto",
+   "title": "\"This protest we immediately presented to the Synod... it was altogether unexpected by the",
    "path": "spine",
    "doc": "stone"
   },
@@ -766,7 +766,12 @@
   {
    "slide": 8,
    "doc": "stone",
-   "text": "that sinners were capable of understanding and believing this testimony, and of acting upon it by coming to the Saviour and obeying him, and from him obtaining salvation and the Holy Spirit."
+   "text": "that sinners were capable of understanding and believing this testimony, and of acting upon it by coming to the Saviour"
+  },
+  {
+   "slide": 8,
+   "doc": "stone",
+   "text": "and from him obtaining salvation and the Holy Spirit."
   },
   {
    "slide": 9,
@@ -826,7 +831,12 @@
   {
    "slide": 19,
    "doc": "stone",
-   "text": "This protest we immediately presented to the Synod, through their Moderator — it was altogether unexpected by them, and produced very unpleasant feelings; and a profound silence for a few minutes ensued."
+   "text": "This protest we immediately presented to the Synod"
+  },
+  {
+   "slide": 19,
+   "doc": "stone",
+   "text": "it was altogether unexpected by them, and produced very unpleasant feelings; and a profound silence for a few minutes ensued."
   },
   {
    "slide": 21,
