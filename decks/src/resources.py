@@ -52,6 +52,9 @@ def docs(between, clean, keys):
         'wcf': lambda: {'title': 'The Westminster Confession of Faith',
             'sub': 'The Presbyterian standard &middot; American text of 1788 (OPC edition)',
             'html': clean(src('week4map', 'sources', 'westminster-confession-american.html'))},
+        'cb': lambda: {'title': 'Alexander Campbell, <i>The Christian Baptist</i>, July 5, 1824',
+            'sub': '&ldquo;Essays on Ecclesiastical Characters, Councils, Creeds, and Sects, No. III&rdquo; &middot; the opening, transcribed from the 1835 edition',
+            'html': clean(src('sources', 'christian-baptist-1824-ecclesiastical-courts.html'))},
         'kjv': lambda: {'title': 'Scripture, King James Version',
             'sub': 'Passages on the church, its officers, and its table',
             'html': clean(src('sources', 'scripture-kjv.html'))},
@@ -60,12 +63,13 @@ def docs(between, clean, keys):
 
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
-         'kjv': 'Scripture (KJV)'}
+         'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
     if 'Westminster' in vis or 'same Confession' in vis: o = has('wcf')
     elif '(KJV)' in vis: o = has('kjv')
+    elif 'Christian Baptist' in vis: o = has('cb')
     elif 'Declaration and Address' in vis: o = has('dna')
     elif ('<i>Apology</i>' in vis and 'Biography' not in vis) or 'letter to their congregations' in vis: o = has('apology')
     elif 'Biography' in vis: o = has('stone', 'apology')
@@ -119,6 +123,12 @@ def governance(extra=()):
 
         Q('&ldquo;For where <b>two or three are gathered together in my name</b>, there am I in the midst of them.&rdquo;', 'Matthew 18:20 (KJV)') +
         N('The <i>Declaration and Address</i> quotes it to the friends of reform: &ldquo;Let not the paucity of your number&hellip; prove an insuperable discouragement.&rdquo;'),
+
+        Q('&ldquo;&lsquo;What ye bind on earth shall be bound in heaven&rsquo; is <b>the awful sanction of the Church&rsquo;s judgment</b>, in justly rejecting any person. Take away this, and it has no sanction at all.&rdquo;', DA, 'Thomas Campbell on Matthew 18 &middot; Appendix') +
+        N('Matthew 18:18 gives the church&rsquo;s verdict heaven&rsquo;s weight. So to cast someone out over an opinion is to pronounce him lost: &ldquo;Does he not henceforth become to us as a heathen man and a publican?&rdquo; The weight is why the church must not spend it on opinions.'),
+
+        Q('&ldquo;An individual church or congregation of Christ&rsquo;s disciples is <b>the only ecclesiastical body recognized in the New Testament</b>. Such a society is &lsquo;the highest court of Christ&rsquo; on earth.&rdquo;', 'Alexander Campbell, <i>Christian Baptist</i>, July 5, 1824') +
+        N('From &ldquo;Essays on Ecclesiastical Characters, Councils, Creeds, and Sects, No. III.&rdquo; Every session, presbytery, synod, assembly or conference that legislates or rules &ldquo;essentially becomes &lsquo;the man of sin and the son of perdition.&rsquo;&rdquo; He then reprints Alexander Carson on Matthew 18: &ldquo;Here the last appeal is to the church. He does not say, If he does not hear the church, take him to the presbytery&hellip;&rdquo;'),
 
         '<section class="slide"><div class=eyebrow>Every believer</div>'
         '<div class=litany style="gap:3vmin;font-size:1.35em;max-width:84vw">'
