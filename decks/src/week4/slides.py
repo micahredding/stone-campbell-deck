@@ -170,7 +170,7 @@ A('<section class="slide"><div class=eyebrow>The Synod sends a committee to win 
 
 A('<section class="slide"><div class=eyebrow>David Rice</div>'
   '<div class=litany>'
-  '<div class=no>&ldquo;Another of the committee, old father David Rice, <b>of precious memory</b>, &hellip; urged one argument worthy of record, it was this &mdash; that every departure from Calvinism was an advance to atheism.&rdquo;</div>'
+  '<div class=no>&ldquo;&hellip;old father David Rice, <b>of precious memory</b>, &hellip; urged one argument worthy of record, it was this &mdash; that every departure from Calvinism was an advance to atheism.&rdquo;</div>'
   '<div class="no frag" style="color:var(--gold)">Calvinism &rarr; Arminianism &rarr; Pelagianism &rarr; deism &rarr; atheism</div>'
   '</div><div class=cite>' + STONE + '</div>'
   '<aside class=notes>One click. Rice was the father of Kentucky Presbyterianism, and Stone still honors him; but his argument, Stone says, &ldquo;could have no effect on minds ardent in the search of truth.&rdquo; The logic: the creed is the only thing between you and atheism. Last week answered that.<br>&rarr; Then the Synod suspended them anyway, and sent committees to read &ldquo;the Synod&rsquo;s bull of suspension&rdquo; in their pulpits and declare their churches vacant.</aside></section>')
