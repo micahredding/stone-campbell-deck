@@ -11,6 +11,7 @@ import os, re, json
 SIDE = [
     # (label,                                first-slide anchor,                         last-slide anchor)
     ('Quoting the Confession against itself', 'Quoting the Confession against itself',     'honoring its deepest impulses'),
+    ('David Rice',                            '<div class=eyebrow>David Rice</div>',       '<div class=eyebrow>David Rice</div>'),
     ('Church government',                     'Writing a book on church government',       'each particular church, as a body'),
     ('Our table',                             '<div class=eyebrow>Our table</div>',        '<div class=eyebrow>Our table</div>'),
     ('Addendum',                              "Reference material; not part of the telling", 'What this week touched'),

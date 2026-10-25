@@ -203,7 +203,7 @@
    "index": 28,
    "n": 29,
    "title": "David Rice \"...old father David Rice, of precious memory , ... urged one argument worthy o",
-   "path": "spine",
+   "path": "David Rice",
    "doc": "stone"
   },
   {
@@ -574,7 +574,6 @@
   20,
   21,
   27,
-  28,
   29,
   30,
   31,
@@ -629,6 +628,13 @@
    ]
   },
   {
+   "label": "David Rice",
+   "fork": 27,
+   "slides": [
+    28
+   ]
+  },
+  {
    "label": "Church government",
    "fork": 37,
    "slides": [
@@ -675,19 +681,19 @@
   },
   {
    "label": "The rise",
-   "at": 30
+   "at": 29
   },
   {
    "label": "Why they dissolved",
-   "at": 33
+   "at": 32
   },
   {
    "label": "The Last Will",
-   "at": 38
+   "at": 37
   },
   {
    "label": "Close",
-   "at": 55
+   "at": 54
   }
  ],
  "docs": [
