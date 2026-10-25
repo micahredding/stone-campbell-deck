@@ -1,0 +1,765 @@
+{
+ "deck": "decks/week5-brush-run-map.html",
+ "source": "decks/src/week5/slides.py",
+ "built_by": "decks/src/week5map/build.py",
+ "slides": [
+  {
+   "index": 0,
+   "n": 1,
+   "title": "Otter Creek Fall 2026 Our Wild Democracy The Story, Promise, and Future of the Churches of",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 1,
+   "n": 2,
+   "title": "Quiz Which is the preferred title for our preacher? A. Pastor B. Reverend C. Brother D. No",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 2,
+   "n": 3,
+   "title": "Why the Synod would not have them \"for encouraging or countenancing his son to preach the ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 3,
+   "n": 4,
+   "title": "Last week's ideas 1. Unity: institutional self-sacrifice. 2. Freedom of conscience: claime",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 4,
+   "n": 5,
+   "title": "Who has authority?",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 5,
+   "n": 6,
+   "title": "Our Wild Democracy Chapter 5 Wherever Two or Three Are Gathered Brush Run, Pennsylvania 18",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 6,
+   "n": 7,
+   "title": "Philippe-Jacques de Loutherbourg, A Shipwreck off a Rocky Coast not the Hibernia Islay, Sc",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 7,
+   "n": 8,
+   "title": "On the stump of the broken mast \"It was then in that solemn hour, that he gave himself up ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 8,
+   "n": 9,
+   "title": "Glasgow 1808-09 from Chapter 2 He heard other preachers, the thing his father was condemne",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 9,
+   "n": 10,
+   "title": "On the road, 1809 \"...instead of fearing opposition from him to the views to which he had ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 10,
+   "n": 11,
+   "title": "An American forest, 19th-century painting not the Templeton farm July 15, 1810 a grove on ",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 11,
+   "n": 12,
+   "title": "\"When the hour arrived, he rose up with modest dignity, in the temporary stand erected for",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 12,
+   "n": 13,
+   "title": "In his first year he preached one hundred and six sermons.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 13,
+   "n": 14,
+   "title": "The Synod of Dort, 1618-19 painting attributed to Pouwels Weyts, c. 1621 Washington, Penns",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 14,
+   "n": 15,
+   "title": "October 4, 1810 \"...the Synod unanimously resolved, that however specious the plan of the ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 15,
+   "n": 16,
+   "title": "\"...Mr. Campbell's request to be received into ministerial and Christian communion cannot ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 16,
+   "n": 17,
+   "title": "The \"important reasons,\" October 5 \"for expressing his belief that there are some opinions",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 17,
+   "n": 18,
+   "title": "Rejected by the Seceders in 1808. Rejected by the Presbyterians in 1810.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 18,
+   "n": 19,
+   "title": "Alexander Answers",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 19,
+   "n": 20,
+   "title": "\"It is again objected that it opens a door for lay preaching .\" Alexander Campbell, reply ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 20,
+   "n": 21,
+   "title": "\"The clergy are the opposite to the laity. Both these terms are used in Scripture to denot",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 21,
+   "n": 22,
+   "title": "\"We would be obliged to some person of exquisite keenness of distinction to point out and ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 22,
+   "n": 23,
+   "title": "Richardson's note \"...there is not, in Scripture, the slightest ground for the distinction",
+   "path": "Richardson&rsquo;s note",
+   "doc": "rich"
+  },
+  {
+   "index": 23,
+   "n": 24,
+   "title": "\"I dare not be a party man for these reasons... Because no party will receive into communi",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 24,
+   "n": 25,
+   "title": "The Brush Run meeting house, reconstructed at Bethany courtesy of Bethany College May 4, 1",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 25,
+   "n": 26,
+   "title": "Thomas Campbell, spring 1811 \"It was with great reluctance that he finally concluded to ta",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 26,
+   "n": 27,
+   "title": "\"This Society by no means considers itself a Church , nor does at all assume to itself the",
+   "path": "spine",
+   "doc": "dna"
+  },
+  {
+   "index": 27,
+   "n": 28,
+   "title": "The test question \"Certainly, James Foster is a member, having been with us from the begin",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 28,
+   "n": 29,
+   "title": "May 4, 1811 \"At this meeting, Thomas Campbell was appointed elder , and Alexander was lice",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 29,
+   "n": 30,
+   "title": "No bishop. No presbytery. A congregation.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 30,
+   "n": 31,
+   "title": "What they sang Psalm 118, the Scottish metrical version \"Thou sore hast thrust that I migh",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 31,
+   "n": 32,
+   "title": "The next day May 5, 1811 their first Lord's Supper \"...in assembling there on that occasio",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 32,
+   "n": 33,
+   "title": "Every Lord's day \"...the Lord's Supper, which, according to the custom of the Independent ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 33,
+   "n": 34,
+   "title": "Side path who was not at the table \"The reason being asked, Joseph Bryant replied, that he",
+   "path": "Who was not at the table",
+   "doc": "rich"
+  },
+  {
+   "index": 34,
+   "n": 35,
+   "title": "January 1, 1812 The Ordination",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 35,
+   "n": 36,
+   "title": "December 25, 1811 his own list \"Special instances of Divine power which I consider to bind",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 36,
+   "n": 37,
+   "title": "\"You see that ordination is not a mere unmeaning thing, but consists in the choice of the ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 37,
+   "n": 38,
+   "title": "\"Why do we contend for uninterrupted succession in ordination, seeing it is not the person",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 38,
+   "n": 39,
+   "title": "Asked why he preached without authority \" Who has authority? Who gave the Presbytery autho",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 39,
+   "n": 40,
+   "title": "\"We do hereby certify that Alexander Campbell... was, according to the principles of this ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 40,
+   "n": 41,
+   "title": "Signed Thomas Campbell, senior minister George Sharp William Gilcrist James Foster John Da",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 41,
+   "n": 42,
+   "title": "Two Wills, One Bequest",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 42,
+   "n": 43,
+   "title": "Cane Ridge, 1804 \"We will, that each particular church, as a body, actuated by the same sp",
+   "path": "spine",
+   "doc": "will"
+  },
+  {
+   "index": 43,
+   "n": 44,
+   "title": "\"...for where two or three are gathered together in my name , there am I in the midst of t",
+   "path": "spine",
+   "doc": "dna"
+  },
+  {
+   "index": 44,
+   "n": 45,
+   "title": "The Springfield Presbytery died so that congregations could choose. Brush Run chose.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 45,
+   "n": 46,
+   "title": "(black)",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 46,
+   "n": 47,
+   "title": "for discussion What is beautiful here? What do we carry forward?",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 47,
+   "n": 48,
+   "title": "Idea 1 of 3 The priesthood of all believers is real authority.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 48,
+   "n": 49,
+   "title": "Idea 2 of 3 The power to ordain belongs to the people.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 49,
+   "n": 50,
+   "title": "Idea 3 of 3 The table is a taste of the age to come.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 50,
+   "n": 51,
+   "title": "Ideas 1. The priesthood of all believers is real authority. 2. The power to ordain belongs",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 51,
+   "n": 52,
+   "title": "for discussion What is beautiful here? What do we carry forward?",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 52,
+   "n": 53,
+   "title": "Online stone-campbell.micahredding.com Home Timeline Exhibits People Exhibits Timeline Peo",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 53,
+   "n": 54,
+   "title": "Next week: living into God's future. \"An emblem of the millennial state of the Church.\" In",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 54,
+   "n": 55,
+   "title": "(black)",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 55,
+   "n": 56,
+   "title": "Addendum",
+   "path": "Addendum",
+   "doc": null
+  },
+  {
+   "index": 56,
+   "n": 57,
+   "title": "The year, in order Oct 1808 the Hibernia wrecked off Islay; Glasgow for the winter Sep 180",
+   "path": "Addendum",
+   "doc": null
+  },
+  {
+   "index": 57,
+   "n": 58,
+   "title": "What this week touched CHRIST ALONE UNITY PRIESTHOOD FUTURE HOMECOMING SELF-SACRIFICE FREE",
+   "path": "Addendum",
+   "doc": null
+  }
+ ],
+ "spine": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54
+ ],
+ "branches": [
+  {
+   "label": "Richardson&rsquo;s note",
+   "fork": 21,
+   "slides": [
+    22
+   ]
+  },
+  {
+   "label": "Who was not at the table",
+   "fork": 32,
+   "slides": [
+    33
+   ]
+  },
+  {
+   "label": "Addendum",
+   "fork": 54,
+   "slides": [
+    55,
+    56,
+    57
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "label": "Opening",
+   "at": 0
+  },
+  {
+   "label": "The hook",
+   "at": 2
+  },
+  {
+   "label": "The sea",
+   "at": 6
+  },
+  {
+   "label": "The first sermon",
+   "at": 10
+  },
+  {
+   "label": "The Synod",
+   "at": 13
+  },
+  {
+   "label": "Alexander answers",
+   "at": 18
+  },
+  {
+   "label": "Brush Run",
+   "at": 23
+  },
+  {
+   "label": "The ordination",
+   "at": 32
+  },
+  {
+   "label": "Tying back",
+   "at": 39
+  },
+  {
+   "label": "Close",
+   "at": 44
+  }
+ ],
+ "docs": [
+  {
+   "index": 0,
+   "key": "rich",
+   "title": "Robert Richardson, Memoirs of Alexander Campbell, vol. 1 (1868)",
+   "short": "Richardson’s <i>Memoirs</i>"
+  },
+  {
+   "index": 1,
+   "key": "dna",
+   "title": "Thomas Campbell, Declaration and Address (1809)",
+   "short": "The Declaration and Address"
+  },
+  {
+   "index": 2,
+   "key": "will",
+   "title": "The Last Will and Testament of the Springfield Presbytery",
+   "short": "The whole will"
+  }
+ ],
+ "doc_doors": [
+  {
+   "label": "Richardson&rsquo;s account, whole",
+   "fork": 24,
+   "doc": 0
+  }
+ ],
+ "quotes": [
+  {
+   "slide": 2,
+   "doc": "rich",
+   "text": "for encouraging or countenancing his son to preach the gospel without any regular authority"
+  },
+  {
+   "slide": 7,
+   "doc": "rich",
+   "text": "It was then in that solemn hour, that he gave himself up wholly to God, and resolved that, if saved from the present peril, he would certainly spend his entire life in the ministry of the gospel."
+  },
+  {
+   "slide": 9,
+   "doc": "rich",
+   "text": "instead of fearing opposition from him to the views to which he had himself been definitely brought while in Glasgow, he found him already, though by a somewhat different method, led practically to the very same conclusions."
+  },
+  {
+   "slide": 11,
+   "doc": "rich",
+   "text": "When the hour arrived, he rose up with modest dignity, in the temporary stand erected for the occasion, in front of which the audience were seated upon rough planks or upon the grass beneath the shady maples"
+  },
+  {
+   "slide": 14,
+   "doc": "rich",
+   "text": "the Synod unanimously resolved, that however specious the plan of the Christian Association and however seducing its professions"
+  },
+  {
+   "slide": 14,
+   "doc": "rich",
+   "text": "the Synod are constrained to disapprove the plan and its native effects."
+  },
+  {
+   "slide": 15,
+   "doc": "rich",
+   "text": "Mr. Campbell’s request to be received into ministerial and Christian communion cannot be granted."
+  },
+  {
+   "slide": 16,
+   "doc": "rich",
+   "text": "important reasons,"
+  },
+  {
+   "slide": 16,
+   "doc": "rich",
+   "text": "for expressing his belief that there are some opinions taught in our Confession of Faith which are not founded in the Bible"
+  },
+  {
+   "slide": 16,
+   "doc": "rich",
+   "text": "for declaring that the administration of baptism to infants is not authorized by scriptural precept or example"
+  },
+  {
+   "slide": 16,
+   "doc": "rich",
+   "text": "for encouraging or countenancing his son to preach the gospel without any regular authority"
+  },
+  {
+   "slide": 16,
+   "doc": "rich",
+   "text": "for opposing creeds and confessions as injurious to the interests of religion"
+  },
+  {
+   "slide": 19,
+   "doc": "rich",
+   "text": "It is again objected that it opens a door for lay preaching."
+  },
+  {
+   "slide": 20,
+   "doc": "rich",
+   "text": "The clergy are the opposite to the laity. Both these terms are used in Scripture to denote God’s people. Trace them to their origin and we find no difference."
+  },
+  {
+   "slide": 21,
+   "doc": "rich",
+   "text": "We would be obliged to some person of exquisite keenness of distinction to point out and define the difference between laical and clerical preachers."
+  },
+  {
+   "slide": 22,
+   "doc": "rich",
+   "text": "there is not, in Scripture, the slightest ground for the distinction between clergy and laity. On the contrary, all the disciples collectively are denominated a ‘royal priesthood,’"
+  },
+  {
+   "slide": 23,
+   "doc": "rich",
+   "text": "I dare not be a party man for these reasons"
+  },
+  {
+   "slide": 23,
+   "doc": "rich",
+   "text": "Because no party will receive into communion all whom God would receive into heaven."
+  },
+  {
+   "slide": 25,
+   "doc": "rich",
+   "text": "It was with great reluctance that he finally concluded to take this step, and to separate himself from those whom he desired to recognize as brethren."
+  },
+  {
+   "slide": 26,
+   "doc": "dna",
+   "text": "This Society by no means considers itself a Church, nor does at all assume to itself the powers peculiar to such a society"
+  },
+  {
+   "slide": 27,
+   "doc": "rich",
+   "text": "Certainly, James Foster is a member, having been with us from the beginning, and his religious sentiments being perfectly well known to all."
+  },
+  {
+   "slide": 28,
+   "doc": "rich",
+   "text": "At this meeting, Thomas Campbell was appointed elder, and Alexander was licensed to preach the gospel. Four deacons were also chosen"
+  },
+  {
+   "slide": 30,
+   "doc": "rich",
+   "text": "Thou sore hast thrust that I might fall;But my Lord helped me"
+  },
+  {
+   "slide": 30,
+   "doc": "rich",
+   "text": "I shall not die, but live, and shallThe works of God discover."
+  },
+  {
+   "slide": 31,
+   "doc": "rich",
+   "text": "in assembling there on that occasion, they furnished an emblem of the millennial state of the Church, nay, an emblem of the heavenly state, when men of different nations, and known by different names, should sit down together in the kingdom of God."
+  },
+  {
+   "slide": 32,
+   "doc": "rich",
+   "text": "the Lord’s Supper, which, according to the custom of the Independent churches in Scotland, was now celebrated weekly."
+  },
+  {
+   "slide": 33,
+   "doc": "rich",
+   "text": "The reason being asked, Joseph Bryant replied, that he did not consider himself authorized to partake, as he had never been baptized."
+  },
+  {
+   "slide": 35,
+   "doc": "rich",
+   "text": "Special instances of Divine power which I consider to bind me under obligations to be specially devoted to Him"
+  },
+  {
+   "slide": 35,
+   "doc": "rich",
+   "text": "III. In resolving, when in imminent danger at sea, to serve God in this way, on two occasions of extraordinary deliverance"
+  },
+  {
+   "slide": 35,
+   "doc": "rich",
+   "text": "XI. In giving me a call from the Church to preach the Gospel"
+  },
+  {
+   "slide": 35,
+   "doc": "rich",
+   "text": "XII. In my desire to suffer hardships and reproach in that good work."
+  },
+  {
+   "slide": 36,
+   "doc": "rich",
+   "text": "You see that ordination is not a mere unmeaning thing, but consists in the choice of the people, which must be hearty"
+  },
+  {
+   "slide": 37,
+   "doc": "rich",
+   "text": "Why do we contend for uninterrupted succession in ordination, seeing it is not the persons called bishops who have the power, but the people?"
+  },
+  {
+   "slide": 38,
+   "doc": "rich",
+   "text": "Who has authority?Who gave the Presbytery authority to license men?Who gave the Presbytery authority to make laws for the Church?Who gave the Presbytery authority to decide religious matters by vote?Who gave the Presbytery authority to choose ministers?"
+  },
+  {
+   "slide": 39,
+   "doc": "rich",
+   "text": "We do hereby certify that Alexander Campbell"
+  },
+  {
+   "slide": 39,
+   "doc": "rich",
+   "text": "was, according to the principles of this Church regularly chosen and ordained a minister thereof, upon the first day of January, one thousand eight hundred and twelve."
+  },
+  {
+   "slide": 42,
+   "doc": "will",
+   "text": "We will, that each particular church, as a body, actuated by the same spirit, choose her own preacher"
+  },
+  {
+   "slide": 42,
+   "doc": "will",
+   "text": "and never henceforth delegate her right of government to any man or set of men whatever."
+  },
+  {
+   "slide": 43,
+   "doc": "dna",
+   "text": "for where two or three are gathered together in my name, there am I in the midst of them."
+  },
+  {
+   "slide": 53,
+   "doc": "rich",
+   "text": "An emblem of the millennial state of the Church."
+  }
+ ],
+ "unmatched": []
+}

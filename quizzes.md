@@ -11,7 +11,7 @@ The second slide of each deck is a short quiz drawn from this list (not from the
 - When someone becomes a Christian, we say they: A) get saved B) accept Christ C) obey the gospel
 - How often should you go to church? (As often as the doors are open.)
 - What exhortation do you give someone who has a habit of missing worship? (Do not forsake the assembly.)
-- Which is the preferred title for our preacher? A) pastor B) reverend C) brother D) none of the above
+- Which is the preferred title for our preacher? A) pastor B) reverend C) brother D) none of the above — *used: Chapter 5*
 - What was carved on the front of the communion table in your church? (Do this in remembrance of me.)
 - When do we celebrate Easter? (Every Sunday.)
 - What is the anthem of the church of Christ? (728b)

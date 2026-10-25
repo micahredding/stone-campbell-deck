@@ -1,7 +1,7 @@
 import re, sys, base64, os
 # PART=2 builds Chapter 3, part two (decks/src/week3b/slides.py) with this same engine, styles and images.
 PART = os.environ.get('PART', '1')
-sys.path.insert(0, {'1': 'decks/src/week3', '2': 'decks/src/week3b', '4': 'decks/src/week4'}[PART])
+sys.path.insert(0, {'1': 'decks/src/week3', '2': 'decks/src/week3b', '4': 'decks/src/week4', '5': 'decks/src/week5'}[PART])
 from slides import S, PATDEFS, CHRISTENDOM_CSS
 
 body='\n\n'.join(S)
@@ -9,8 +9,9 @@ EGG = 'eggslide' in body
 if EGG:
     sys.path.insert(0, 'decks/src/elements')
     from egg_anim import EGG_ANIM_CSS, EGG_ANIM_JS
-for _k,_f in (('IMG_STONE','stone.jpg'),('IMG_SIGNING','signing.jpg'),('IMG_STUMP','stump.jpg'),('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_GROVE','grove.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','anabaptist_drowning.jpg'),('IMG_EGG','recap_egg.jpg')):
-    _p = 'decks/src/week4/'+_f if PART == '4' and os.path.exists('decks/src/week4/'+_f) else 'decks/src/week3/'+_f
+for _k,_f in (('IMG_STONE','stone.jpg'),('IMG_SIGNING','signing.jpg'),('IMG_STUMP','stump.jpg'),('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_GROVE','grove.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','anabaptist_drowning.jpg'),('IMG_EGG','recap_egg.jpg'),('IMG_ACAMPBELL','acampbell.jpg'),('IMG_BRUSHRUN','brushrun.jpg')):
+    _dirs = {'4': ['decks/src/week4/'], '5': ['decks/src/week5/', 'decks/src/week2/']}.get(PART, []) + ['decks/src/week3/']   # a chapter's own images first
+    _p = next((d+_f for d in _dirs if os.path.exists(d+_f)), 'decks/src/week3/'+_f)
     if _k in body: body=body.replace(_k, 'data:image/jpeg;base64,'+__import__('base64').b64encode(open(_p,'rb').read()).decode())
 css=open('decks/src/week3/engine.css').read()
 css+= ('\n  /* ---- Week 3 type scale (inherited from Week 2) ---- */\n'
@@ -81,6 +82,12 @@ if PART == '4':
     css += ('  .wmap.all .th{opacity:.85}\n'
             '  #deck .slide .wmap .ms-christ .th{font-size:clamp(22px,4vmin,48px)}#deck .slide .wmap .ms-pri .th{font-size:clamp(36px,7.4vmin,88px)}\n'
             '  #deck .slide .wmap .ms-sec .th,#deck .slide .wmap .ms-pra .th{font-size:clamp(16px,2.8vmin,32px)}#deck .slide .ideasmap .small{font-size:clamp(14px,2.1vmin,24px)}\n')
+if PART == '5':
+    css += '  .bgimg.wreckbg5{background-image:url("%s");background-position:center 45%%}\n' % b64('decks/src/week2/wreck.jpg')
+    css += '  .bgimg.grovebg5{background-image:url("%s");background-position:center 35%%}\n' % b64('decks/src/week3/grove.jpg')
+    css += '  .bgimg.synodbg5{background-image:url("%s");background-position:center 40%%}\n' % b64('decks/src/week4/synod.jpg')
+    css += '  .bgimg.brushbg{background-image:url("%s");background-position:center 45%%}\n' % b64('decks/src/week5/brushrun.jpg')
+    css += '  .bgimg.islaybg{background-image:url("%s");background-position:center 60%%}\n' % b64('decks/src/week2/indaal.jpg')
 css += '  #deck .litany .lcite{display:block;font-family:"IM Fell English SC",Georgia,serif;font-style:normal;font-size:.55em;letter-spacing:.1em;color:var(--smoke);margin-top:.3vmin}\n'
 import os
 if os.path.exists('decks/src/week3/marburg.jpg'):
@@ -91,14 +98,14 @@ else:
     print('note: decks/src/week3/marburg.jpg missing; the Marburg slide builds without its painting')
 
 js=open('decks/src/week3/engine.js').read()
-K = {'1': 'w3', '2': 'w3b', '4': 'w4'}[PART]
+K = {'1': 'w3', '2': 'w3b', '4': 'w4', '5': 'w5'}[PART]
 js=js.replace("'w1cur'","'%scur'" % K).replace("'w1mode'","'%smode'" % K).replace("'w1strip'","'%sstrip'" % K)
 js=js.replace("'w1presenter'","'%spresenter'" % K)
 js=js.replace("||'read')","||'present')")
 
 html=('<!doctype html><html><head><meta charset=utf8>'
  '<meta name=viewport content="width=device-width,initial-scale=1">'
- '<title>Our Wild Democracy &middot; ' + {'1': 'Chapter 3 &middot; The Declaration and Address', '2': 'Chapter 3 &middot; The Declaration and Address, part two', '4': 'Chapter 4 &middot; The Last Will and Testament'}[PART] + '</title>'
+ '<title>Our Wild Democracy &middot; ' + {'1': 'Chapter 3 &middot; The Declaration and Address', '2': 'Chapter 3 &middot; The Declaration and Address, part two', '4': 'Chapter 4 &middot; The Last Will and Testament', '5': 'Chapter 5 &middot; Wherever Two or Three Are Gathered'}[PART] + '</title>'
  '<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap">'
  '<style>\n/* ============================================================\n'
  '   THE DECLARATION AND ADDRESS — Week 3 deck\n'
@@ -110,7 +117,7 @@ html=('<!doctype html><html><head><meta charset=utf8>'
  '<div id=hint>&rarr; / space / click &middot; f fullscreen &middot; n read/present &middot; p presenter window &middot; s notes on THIS screen</div>'
  '<div id=mode></div><div id=strip></div><div id=pres></div>\n' + js + (EGG_ANIM_JS if EGG else '') + '</html>')
 
-out={'1': 'decks/week3-declaration-address.html', '2': 'decks/week3b-declaration-address-part-two.html', '4': 'decks/week4-last-will.html'}[PART]
+out={'1': 'decks/week3-declaration-address.html', '2': 'decks/week3b-declaration-address-part-two.html', '4': 'decks/week4-last-will.html', '5': 'decks/week5-brush-run.html'}[PART]
 open(out,'w').write(html)
 print("wrote", out)
 print("bytes:", len(html), "=", round(len(html)/1048576,2), "MB")
