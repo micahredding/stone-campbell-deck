@@ -72,6 +72,7 @@ css += ('  /* ---- larger type, 2026-10-11 ---- */\n'
         '  #deck .recapshots{flex-wrap:nowrap}#deck .recapshots .shot{width:min(34vmin,17vw)}#deck .recapshots .shot img{height:26vh!important}\n')
 if EGG: css += EGG_ANIM_CSS
 if PART == '4':
+    css += '  .bgimg.roadbg4{background-image:url("%s");background-position:center 60%%}\n' % b64('decks/src/week4/road.jpg')
     css += '  .bgimg.househbg{background-image:url("%s");background-position:center 40%%;filter:sepia(.35) brightness(.75)}\n' % b64('decks/src/week4/meetinghouse.jpg')
     css += ('  .wmap.all .th{opacity:.85}\n'
             '  #deck .slide .wmap .ms-christ .th{font-size:clamp(22px,4vmin,48px)}#deck .slide .wmap .ms-pri .th{font-size:clamp(36px,7.4vmin,88px)}\n'
