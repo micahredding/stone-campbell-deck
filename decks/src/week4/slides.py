@@ -111,7 +111,10 @@ A(Q('&ldquo;When we began first to preach these things, the people appeared as j
     '&rarr; It flourished, and it drew enough ire that the first one they went after was McNemar.'))
 
 
-A(C('The Trial', 'Lexington, September 1803.'))
+A('<section class="slide bleed"><div class=bg><div class="bgimg synodbg"></div></div>'
+  '<div class=credit>The Synod of Dort, 1618&ndash;19 &middot; painting attributed to Pouwels Weyts, c. 1621</div>'
+  '<h2>The Trial</h2>'
+  '<aside class=notes>Lexington, September 1803. The picture is another synod: Dort, in Holland, 1618, where a Calvinist synod tried the Arminian ministers. The same charge.</aside></section>')
 
 A('<section class="slide"><div class=eyebrow>The Synod of Kentucky &middot; Lexington, September 1803</div>'
   '<h2>Richard McNemar is on trial.</h2>'
@@ -173,10 +176,12 @@ A(CARD('They were not breaking with their tradition.<br>' + G('They were honorin
   'Scripture as the only infallible rule; God alone Lord of the conscience; councils may err. Every one is in the Westminster Confession. The Reformation&rsquo;s own principles, taken seriously: Luther at Worms, again. &rarr; And they pressed them further than the Synod would.'))
 
 
-A('<section class="slide"><div class=eyebrow>The Synod sends a committee to win them back</div>'
+A('<section class="slide bleed midbleed dimbg"><div class=bg><div class="bgimg justicesbg"></div></div>'
+  '<div class=credit>Robert Herdman, <i>A Conventicle Preacher before the Justices</i>, 1870s</div>'
+  '<div class=eyebrow>The Synod sends a committee to win them back</div>'
   '<p class="bigquote"><span class=q>One of the committee, Matthew Houston, &ldquo;became convinced that the doctrine we preached was true, and <b>soon after united with us</b>.&rdquo;</span></p>'
   '<div class=cite>' + STONE + '</div>'
-  '<aside class=notes>A smile. The committee sent to bring them back lost a member to them.</aside></section>')
+  '<aside class=notes>A smile. The committee sent to bring them back lost a member to them. (The picture: a Scottish field preacher before the justices, painted in the 1870s.)</aside></section>')
 
 A('<section class="slide"><div class=eyebrow>David Rice</div>'
   '<div class=litany>'

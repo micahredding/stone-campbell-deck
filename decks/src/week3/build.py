@@ -73,6 +73,9 @@ css += ('  /* ---- larger type, 2026-10-11 ---- */\n'
 if EGG: css += EGG_ANIM_CSS
 if PART == '4':
     css += '  .bgimg.farmbg{background-image:url("%s");background-position:center 55%%}\n' % b64('decks/src/week4/farm.jpg')
+    css += '  .bgimg.synodbg{background-image:url("%s");background-position:center 40%%}\n' % b64('decks/src/week4/synod.jpg')
+    css += '  .bgimg.justicesbg{background-image:url("%s");background-position:center}\n' % b64('decks/src/week4/justices.jpg')
+    css += '  #deck .slide:has(.justicesbg) .bg::after{background:rgba(14,11,9,.58)}\n  #deck .slide:has(.justicesbg) .bigquote{text-shadow:0 1px 8px rgba(0,0,0,.95),0 0 3vmin rgba(0,0,0,.8)}\n'
     css += '  .bgimg.roadbg4{background-image:url("%s");background-position:center 60%%}\n' % b64('decks/src/week4/road.jpg')
     css += '  .bgimg.househbg{background-image:url("%s");background-position:center 40%%;filter:sepia(.35) brightness(.75)}\n' % b64('decks/src/week4/meetinghouse.jpg')
     css += ('  .wmap.all .th{opacity:.85}\n'
