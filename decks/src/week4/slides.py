@@ -199,9 +199,10 @@ A('<section class="slide plateslide"><figure class="plate"><img src="IMG_STUMP" 
 A(Q('&ldquo;I called together my congregations, and informed them that I could no longer conscientiously preach to support the Presbyterian church&hellip; that I absolved them from all obligations in a pecuniary point of view, and then <b>in their presence tore up their salary obligation to me</b>&hellip;&rdquo;', STONE, 'Cane Ridge and Concord &middot; late 1803') +
   N('Mime it if you like. He kept preaching to them, &ldquo;but not in the relation that had previously existed between us.&rdquo; Of the people: &ldquo;Never have I found a more loving, kind, and orderly people in any country.&rdquo; Of the day: &ldquo;This was truly a day of sorrow, and the impressions of it are indelible.&rdquo;'))
 
-A(Q('&ldquo;I preferred honesty and a good conscience to all these things. Having now no support from the congregations, and having emancipated my slaves, I turned my attention cheerfully, though awkwardly, to labor on my little farm&hellip; often on my return home, <b>I found the weeds were getting ahead of my corn</b>.&rdquo;', STONE) +
+A(Q('&ldquo;I preferred honesty and a good conscience to all these things. Having now no support from the congregations, and having emancipated my slaves, I turned my attention cheerfully, though awkwardly, to labor on my little farm&hellip; often on my return home, <b>I found the weeds were getting ahead of my corn</b>.&rdquo;', STONE, cls='slide bleed midbleed dimbg').replace('lutherbg', 'farmbg').replace('<div class=bg>', '<div class=credit>A cabin and clearing &middot; wood engraving in O. Turner, <i>Pioneer History of the Holland Purchase</i>, 1850</div><div class=bg>') +
   N('He had already freed the people he had enslaved. Now no salary either. He preached almost every night and worked the field at night &ldquo;while others were asleep.&rdquo;',
     'Busier than ever: a farm to keep, and every place calling him to preach. The other four, the same.',
+    'The picture is a frontier clearing in western New York (engraving, 1850): the kind of farm, not Stone&rsquo;s own.',
     '&rarr; And here is the surprise: they flourished.'))
 
 
