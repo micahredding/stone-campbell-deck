@@ -195,9 +195,6 @@ A('<section class="slide plateslide"><figure class="plate"><img src="IMG_STONE" 
 A('<section class="slide plateslide"><figure class="plate"><img src="IMG_STUMP" alt="Stained-glass window: Stone preaching from a tree stump" style="max-height:72vh">'
   '<figcaption>Stone preaching at Cane Ridge &middot; stained glass, Cane Ridge &middot; photo Chris Light, CC BY-SA 4.0</figcaption></figure>'
   '<aside class=notes>A memorial window at the Cane Ridge shrine, not a record.</aside></section>')
-A('<section class="slide plateslide"><figure class="plate"><img src="IMG_PULPIT" alt="Cane Ridge Meeting House, interior, the pulpit niche" style="max-height:72vh">'
-  '<figcaption>Cane Ridge Meeting House, the pulpit niche &middot; HABS, Theodore Webb, 1934</figcaption></figure>'
-  '<aside class=notes>His pulpit.</aside></section>')
 
 A(Q('&ldquo;I called together my congregations, and informed them that I could no longer conscientiously preach to support the Presbyterian church&hellip; that I absolved them from all obligations in a pecuniary point of view, and then <b>in their presence tore up their salary obligation to me</b>&hellip;&rdquo;', STONE, 'Cane Ridge and Concord &middot; late 1803') +
   N('Mime it if you like. He kept preaching to them, &ldquo;but not in the relation that had previously existed between us.&rdquo; Of the people: &ldquo;Never have I found a more loving, kind, and orderly people in any country.&rdquo; Of the day: &ldquo;This was truly a day of sorrow, and the impressions of it are indelible.&rdquo;'))
