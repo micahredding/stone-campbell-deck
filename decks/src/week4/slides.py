@@ -96,13 +96,13 @@ A(Q('&ldquo;The distinguishing doctrine preached by us was, that <b>God loved th
     'Their distinctive teaching.',
     'Against Westminster: Christ died for the elect only, and the sinner can do nothing until God first regenerates him. Here: the whole world, and the sinner is able to believe.'))
 
-A('<section class="slide room"><h2 style="max-width:16ch;font-size:clamp(44px,11vmin,130px);line-height:1.12">How radical is this?</h2>'
-  '<aside class=notes>Ask the room: does this sound reasonable, or radical? Presbyterian preachers were taught otherwise: the sinner waited in distress, at the mourner&rsquo;s bench, for the conviction that God had chosen him. Stone spent about a year that way. These men came to believe God had already called the sinner: come now.</aside></section>')
-
 A(Q('&ldquo;We urged upon the sinner to <b>believe now</b>, and receive salvation&hellip; that God was as willing to save them now&hellip; that <b>no previous qualification was required</b>, or necessary in order to believe in Jesus, and come to him&hellip; that <b>Jesus died for all</b>, and that all things were now ready.&rdquo;', STONE) +
   N('Clipped from the slide, after &ldquo;receive salvation&rdquo;: &ldquo;that in vain they looked for the Spirit to be given them, while they remained in unbelief &mdash; they must believe before the Spirit or salvation would be given them.&rdquo; And after &ldquo;come to him&rdquo;: &ldquo;that if they were sinners, this was their divine warrant to believe in him, and to come to him for salvation.&rdquo;',
     'The same paragraph, continued. &ldquo;No previous qualification&rdquo; is the open table again, as doctrine: nothing stands between the sinner and Christ.',
     'Stone says this is the doctrine of their <i>Apology</i>, and that he later dissented from its account of the Atonement.'))
+
+A('<section class="slide room"><h2 style="max-width:16ch;font-size:clamp(44px,11vmin,130px);line-height:1.12">How radical is this?</h2>'
+  '<aside class=notes>Ask the room: does this sound reasonable, or radical? Presbyterian preachers were taught otherwise: the sinner waited in distress, at the mourner&rsquo;s bench, for the conviction that God had chosen him. Stone spent about a year that way. These men came to believe God had already called the sinner: come now.</aside></section>')
 
 A(Q('&ldquo;When we began first to preach these things, the people appeared as just awakened from the sleep of ages &mdash; <b>they seemed to see for the first time that they were responsible beings</b>&hellip;&rdquo;', STONE) +
   N('The sentence goes on: &ldquo;and that a refusal to use the means appointed, was a damning sin.&rdquo;',
