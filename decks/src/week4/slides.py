@@ -296,6 +296,9 @@ A('<section class="slide room"><div class=eyebrow>Our table</div>'
   '<h2>What in our church is &ldquo;in more than ordinary bodily health&rdquo;?</h2>'
   '<div class="sub frag">Would we be willing to let it die?</div>'
   '<aside class=notes>Discussion, eight minutes. Not what is failing: what is thriving. A program, a name, a building, a way of doing things, a reputation. Which of them is starting to stand where only Christ should stand? Leave it open.</aside></section>')
+# ---------- (spine continues; Our table hangs off the heir card) ----------
+A(CARD('The reformation began, not when they left behind<br>someone else&rsquo;s religious institution,<br>' + G('but when they dissolved their own.'),
+  'Let it land.'))
 A(BLACK)
 
 # ---------- IDEAS ----------

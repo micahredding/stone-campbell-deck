@@ -398,90 +398,97 @@
   {
    "index": 56,
    "n": 57,
-   "title": "(black)",
+   "title": "The reformation began, not when they left behind someone else's religious institution, but",
    "path": "spine",
    "doc": null
   },
   {
    "index": 57,
    "n": 58,
-   "title": "for discussion What is beautiful here? What do we carry forward?",
+   "title": "(black)",
    "path": "spine",
    "doc": null
   },
   {
    "index": 58,
    "n": 59,
-   "title": "Idea 1 of 3 Unity: institutional self-sacrifice.",
+   "title": "for discussion What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
   {
    "index": 59,
    "n": 60,
-   "title": "Idea 2 of 3 Freedom of conscience: claimed for ourselves, extended to others.",
+   "title": "Idea 1 of 3 Unity: institutional self-sacrifice.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 60,
    "n": 61,
-   "title": "Idea 3 of 3 Priesthood: authority belongs to gathered believers.",
+   "title": "Idea 2 of 3 Freedom of conscience: claimed for ourselves, extended to others.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 61,
    "n": 62,
-   "title": "Ideas 1. Unity: institutional self-sacrifice. 2. Freedom of conscience: claimed for oursel",
+   "title": "Idea 3 of 3 Priesthood: authority belongs to gathered believers.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 62,
    "n": 63,
-   "title": "for discussion What is beautiful here? What do we carry forward?",
+   "title": "Ideas 1. Unity: institutional self-sacrifice. 2. Freedom of conscience: claimed for oursel",
    "path": "spine",
    "doc": null
   },
   {
    "index": 63,
    "n": 64,
-   "title": "Online stone-campbell.micahredding.com Home Timeline Exhibits People Exhibits Timeline Peo",
+   "title": "for discussion What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
   {
    "index": 64,
    "n": 65,
-   "title": "Next week: wherever two or three are gathered. The will gave every congregation the right ",
+   "title": "Online stone-campbell.micahredding.com Home Timeline Exhibits People Exhibits Timeline Peo",
    "path": "spine",
    "doc": null
   },
   {
    "index": 65,
    "n": 66,
-   "title": "(black)",
+   "title": "Next week: wherever two or three are gathered. The will gave every congregation the right ",
    "path": "spine",
    "doc": null
   },
   {
    "index": 66,
    "n": 67,
-   "title": "Addendum",
-   "path": "Addendum",
+   "title": "(black)",
+   "path": "spine",
    "doc": null
   },
   {
    "index": 67,
    "n": 68,
+   "title": "Addendum",
+   "path": "Addendum",
+   "doc": null
+  },
+  {
+   "index": 68,
+   "n": 69,
    "title": "What they left Their name, and the Reverend title: \" be forgotten , that there be but one ",
    "path": "Addendum",
    "doc": "will"
   },
   {
-   "index": 68,
-   "n": 69,
+   "index": 69,
+   "n": 70,
    "title": "What this week touched CHRIST ALONE UNITY PRIESTHOOD FUTURE HOMECOMING SELF-SACRIFICE FREE",
    "path": "Addendum",
    "doc": null
@@ -542,7 +549,8 @@
   62,
   63,
   64,
-  65
+  65,
+  66
  ],
  "branches": [
   {
@@ -576,11 +584,11 @@
   },
   {
    "label": "Addendum",
-   "fork": 65,
+   "fork": 66,
    "slides": [
-    66,
     67,
-    68
+    68,
+    69
    ]
   }
  ],
@@ -615,7 +623,7 @@
   },
   {
    "label": "Close",
-   "at": 46
+   "at": 47
   }
  ],
  "docs": [
@@ -974,17 +982,17 @@
    "text": "in more than ordinary bodily health"
   },
   {
-   "slide": 67,
+   "slide": 68,
    "doc": "will",
    "text": "be forgotten, that there be but one Lord over God’s heritage, and his name one."
   },
   {
-   "slide": 67,
+   "slide": 68,
    "doc": "will",
    "text": "forever cease; that the people may have free course to the Bible."
   },
   {
-   "slide": 67,
+   "slide": 68,
    "doc": "will",
    "text": "the Bible as the only sure guide to heaven."
   }
