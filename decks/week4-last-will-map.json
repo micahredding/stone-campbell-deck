@@ -433,97 +433,111 @@
   {
    "index": 61,
    "n": 62,
-   "title": "The reformation began, not when they left behind someone else's religious institution, but",
+   "title": "Anton von Werner, Luther at the Diet of Worms , 1877",
    "path": "spine",
    "doc": null
   },
   {
    "index": 62,
    "n": 63,
-   "title": "(black)",
+   "title": "After the will \"Having divested ourselves of all party creeds, and party names, and trusti",
    "path": "spine",
-   "doc": null
+   "doc": "stone"
   },
   {
    "index": 63,
    "n": 64,
-   "title": "for discussion What is beautiful here? What do we carry forward?",
+   "title": "The reformation began, not when they left behind someone else's religious institution, but",
    "path": "spine",
    "doc": null
   },
   {
    "index": 64,
    "n": 65,
-   "title": "Idea 1 of 3 Unity: institutional self-sacrifice.",
+   "title": "(black)",
    "path": "spine",
    "doc": null
   },
   {
    "index": 65,
    "n": 66,
-   "title": "Idea 2 of 3 Freedom of conscience: claimed for ourselves, extended to others.",
+   "title": "for discussion What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
   {
    "index": 66,
    "n": 67,
-   "title": "Idea 3 of 3 Priesthood: authority belongs to gathered believers.",
+   "title": "Idea 1 of 3 Unity: institutional self-sacrifice.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 67,
    "n": 68,
-   "title": "Ideas 1. Unity: institutional self-sacrifice. 2. Freedom of conscience: claimed for oursel",
+   "title": "Idea 2 of 3 Freedom of conscience: claimed for ourselves, extended to others.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 68,
    "n": 69,
-   "title": "for discussion What is beautiful here? What do we carry forward?",
+   "title": "Idea 3 of 3 Priesthood: authority belongs to gathered believers.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 69,
    "n": 70,
-   "title": "Online stone-campbell.micahredding.com Home Timeline Exhibits People Exhibits Timeline Peo",
+   "title": "Ideas 1. Unity: institutional self-sacrifice. 2. Freedom of conscience: claimed for oursel",
    "path": "spine",
    "doc": null
   },
   {
    "index": 70,
    "n": 71,
-   "title": "Next week: wherever two or three are gathered. The will gave every congregation the right ",
+   "title": "for discussion What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
   {
    "index": 71,
    "n": 72,
-   "title": "(black)",
+   "title": "Online stone-campbell.micahredding.com Home Timeline Exhibits People Exhibits Timeline Peo",
    "path": "spine",
    "doc": null
   },
   {
    "index": 72,
    "n": 73,
-   "title": "Addendum",
-   "path": "Addendum",
+   "title": "Next week: wherever two or three are gathered. The will gave every congregation the right ",
+   "path": "spine",
    "doc": null
   },
   {
    "index": 73,
    "n": 74,
+   "title": "(black)",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 74,
+   "n": 75,
+   "title": "Addendum",
+   "path": "Addendum",
+   "doc": null
+  },
+  {
+   "index": 75,
+   "n": 76,
    "title": "What they left Their name, and the Reverend title: \" be forgotten , that there be but one ",
    "path": "Addendum",
    "doc": "will"
   },
   {
-   "index": 74,
-   "n": 75,
+   "index": 76,
+   "n": 77,
    "title": "What this week touched CHRIST ALONE UNITY PRIESTHOOD FUTURE HOMECOMING SELF-SACRIFICE FREE",
    "path": "Addendum",
    "doc": null
@@ -590,7 +604,9 @@
   68,
   69,
   70,
-  71
+  71,
+  72,
+  73
  ],
  "branches": [
   {
@@ -624,11 +640,11 @@
   },
   {
    "label": "Addendum",
-   "fork": 71,
+   "fork": 73,
    "slides": [
-    72,
-    73,
-    74
+    74,
+    75,
+    76
    ]
   }
  ],
@@ -663,7 +679,7 @@
   },
   {
    "label": "Close",
-   "at": 52
+   "at": 54
   }
  ],
  "docs": [
@@ -735,11 +751,6 @@
    "slide": 8,
    "doc": "stone",
    "text": "that the gospel was the means of salvation"
-  },
-  {
-   "slide": 8,
-   "doc": "stone",
-   "text": "that God required us to believe in his Son"
   },
   {
    "slide": 8,
@@ -1027,17 +1038,22 @@
    "text": "in more than ordinary bodily health"
   },
   {
-   "slide": 73,
+   "slide": 62,
+   "doc": "stone",
+   "text": "Having divested ourselves of all party creeds, and party names, and trusting alone in God, and the word of his grace, we became a by-word and laughing stock to the sects around; all prophesying our speedy annihilation. Yet from this period I date the commencement of that reformation, which has progressed to this day."
+  },
+  {
+   "slide": 75,
    "doc": "will",
    "text": "be forgotten, that there be but one Lord over God’s heritage, and his name one."
   },
   {
-   "slide": 73,
+   "slide": 75,
    "doc": "will",
    "text": "forever cease; that the people may have free course to the Bible."
   },
   {
-   "slide": 73,
+   "slide": 75,
    "doc": "will",
    "text": "the Bible as the only sure guide to heaven."
   }

@@ -89,15 +89,16 @@ A(Q('&ldquo;There were at this time <b>five preachers</b>&hellip; who were in th
   N('The revival has kept going since Cane Ridge, and Stone is one of five ministers preaching in its strain. The sentence goes on: &ldquo;the three former lived in Ohio, the two latter in Kentucky.&rdquo; David Purviance, then a candidate for the ministry, &ldquo;was of the same faith.&rdquo;',
     '&rarr; Here is what they preached.'))
 
-A(Q('&ldquo;The distinguishing doctrine preached by us was, that <b>God loved the world &mdash; the whole world</b>, and sent his Son to save them&hellip; that the gospel was the means of salvation&hellip; that God required us to believe in his Son&hellip; that <b>sinners were capable of understanding and believing this testimony</b>, and of acting upon it by coming to the Saviour and obeying him, and from him obtaining salvation and the Holy Spirit.&rdquo;', STONE, 'What the five preached') +
-  N('Clipped from the slide: &ldquo;on condition that they believed in him&rdquo; (after &ldquo;save them&rdquo;); &ldquo;but that this means would never be effectual to this end, until believed and obeyed by us&rdquo; (after &ldquo;the means of salvation&rdquo;); and &ldquo;if attended to by us&rdquo; (after &ldquo;faith in us&rdquo;).',
+A(Q('&ldquo;The distinguishing doctrine preached by us was, that <b>God loved the world &mdash; the whole world</b>, and sent his Son to save them&hellip; that the gospel was the means of salvation&hellip; that <b>sinners were capable of understanding and believing this testimony</b>, and of acting upon it by coming to the Saviour and obeying him, and from him obtaining salvation and the Holy Spirit.&rdquo;', STONE, 'What the five preached') +
+  N('Clipped from the slide: &ldquo;on condition that they believed in him&rdquo; (after &ldquo;save them&rdquo;); &ldquo;but that this means would never be effectual to this end, until believed and obeyed by us&rdquo; (after &ldquo;the means of salvation&rdquo;); and, after that, &ldquo;that God required us to believe in his Son, and had given us sufficient evidence in his Word to produce faith in us, if attended to by us.&rdquo;',
     'Their distinctive teaching.',
     'Against Westminster: Christ died for the elect only, and the sinner can do nothing until God first regenerates him. Here: the whole world, and the sinner is able to believe.'))
 
 A(Q('&ldquo;We urged upon the sinner to <b>believe now</b>, and receive salvation&hellip; that God was as willing to save them now&hellip; that <b>no previous qualification was required</b>, or necessary in order to believe in Jesus, and come to him&hellip; that <b>Jesus died for all</b>, and that all things were now ready.&rdquo;', STONE) +
   N('Clipped from the slide, after &ldquo;receive salvation&rdquo;: &ldquo;that in vain they looked for the Spirit to be given them, while they remained in unbelief &mdash; they must believe before the Spirit or salvation would be given them.&rdquo; And after &ldquo;come to him&rdquo;: &ldquo;that if they were sinners, this was their divine warrant to believe in him, and to come to him for salvation.&rdquo;',
     'The same paragraph, continued. &ldquo;No previous qualification&rdquo; is the open table again, as doctrine: nothing stands between the sinner and Christ.',
-    'Stone says this is the doctrine of their <i>Apology</i>, and that he later dissented from its account of the Atonement.'))
+    'Stone says this is the doctrine of their <i>Apology</i>, and that he later dissented from its account of the Atonement.',
+    'Ask the room: does this sound reasonable, or radical? Presbyterian preachers were taught otherwise: the sinner waited in distress, at the mourner&rsquo;s bench, for the conviction that God had chosen him. Stone spent about a year that way. These men came to believe God had already called the sinner: come now.'))
 
 A(Q('&ldquo;When we began first to preach these things, the people appeared as just awakened from the sleep of ages &mdash; <b>they seemed to see for the first time that they were responsible beings</b>&hellip;&rdquo;', STONE) +
   N('The sentence goes on: &ldquo;and that a refusal to use the means appointed, was a damning sin.&rdquo;',
@@ -124,7 +125,8 @@ A(CARD('They pray.',
   'In the recess, before they write a word.'))
 
 A(Q('&ldquo;When we neglected it [the Westminster Confession] and followed the Spirit of God, in his word, our minds were enlightened, and our souls were quickened. But when we compared this light, with the confession, they would not agree. We could not withstand God. <b>We chose to hearken to God, rather than men</b>&hellip;&rdquo;', 'Springfield Presbytery, <i>Apology</i> (1804)', 'Obey God rather than men') +
-  N('Acts 5:29. From the <i>Apology</i> they published the next year, on the Confession; the sentence before: &ldquo;That book never helped, but hindered our faith.&rdquo; The sentence ends: &ldquo;and therefore, have taken our leave of that book.&rdquo;'))
+  N('Acts 5:29. From the <i>Apology</i> they published the next year, on the Confession; the sentence before: &ldquo;That book never helped, but hindered our faith.&rdquo; The sentence ends: &ldquo;and therefore, have taken our leave of that book.&rdquo;',
+    'Their rationalism: not against the Spirit, but looking for the Spirit&rsquo;s fruits and following where they lead.'))
 
 A(Q('&ldquo;In a short recess of Synod, we five withdrew to a private garden, where, after prayer for direction, and a free conversation, with a perfect unanimity we drew up a protest&hellip; and a declaration of our independence, and of our <b>withdrawal from their jurisdiction, but not from their communion</b>.&rdquo;', STONE, 'The garden') +
   N('Five men, a recess, a garden, prayer. &ldquo;A declaration of our independence&rdquo;: his words, twenty-seven years after the other one. The protest is dated 10 September 1803.'))
@@ -198,6 +200,7 @@ A(Q('&ldquo;I called together my congregations, and informed them that I could n
 
 A(Q('&ldquo;I preferred honesty and a good conscience to all these things. Having now no support from the congregations, and having emancipated my slaves, I turned my attention cheerfully, though awkwardly, to labor on my little farm&hellip; often on my return home, <b>I found the weeds were getting ahead of my corn</b>.&rdquo;', STONE) +
   N('He had already freed the people he had enslaved. Now no salary either. He preached almost every night and worked the field at night &ldquo;while others were asleep.&rdquo;',
+    'Busier than ever: a farm to keep, and every place calling him to preach. The other four, the same.',
     '&rarr; And here is the surprise: they flourished.'))
 
 
@@ -266,7 +269,7 @@ A(Q('&ldquo;Verily, verily I say unto you, except a corn of wheat fall into the 
   N('They put the theology at the top. The epigraph opens with Hebrews 9:16: &ldquo;For where a testament is, there must of necessity be the death of the testator.&rdquo; A will has no force while the testator lives. The inheritance can only pass when the presbytery is gone.'))
 
 A(Q('&ldquo;The Presbytery of Springfield, sitting at Cane Ridge&hellip; being, through a gracious Providence, <b>in more than ordinary bodily health, growing in strength and size daily</b>, and in perfect soundness and composure of mind; but knowing that it is appointed for all delegated bodies once to die&hellip; do make and ordain this our Last Will and Testament&hellip;&rdquo;', WILL, 'June 28, 1804') +
-  N('The will&rsquo;s opening, in the legal form of a real will. Read it slowly; the joke is in &ldquo;more than ordinary bodily health.&rdquo; Nobody makes a will because they are growing in strength and size daily.',
+  N('The will&rsquo;s opening, in the legal form of a real will. Read it slowly; the joke is in &ldquo;more than ordinary bodily health.&rdquo; Nobody makes a will because they are growing in strength and size daily. The whole will is short, and funny: they poke fun at themselves and at others, in good spirit.',
     '&rarr; This church body was nine months old, and thriving.',
     '&ldquo;Once to die&rdquo;: Hebrews 9:27, &ldquo;it is appointed unto men once to die,&rdquo; applied to institutions. Every presbytery, synod, board and program is a delegated body: it holds authority on loan. It is mortal by design.'))
 
@@ -311,6 +314,12 @@ A('<section class="slide room"><div class=eyebrow>Our table</div>'
   '<div class="sub frag">Would we be willing to let it die?</div>'
   '<aside class=notes>Discussion, eight minutes. Not what is failing: what is thriving. A program, a name, a building, a way of doing things, a reputation. Which of them is starting to stand where only Christ should stand? Leave it open.</aside></section>')
 # ---------- (spine continues; Our table hangs off the heir card) ----------
+A('<section class="slide plateslide"><figure class="plate"><img src="IMG_WORMSPIC" alt="Luther at the Diet of Worms" style="max-height:72vh">'
+  '<figcaption>Anton von Werner, <i>Luther at the Diet of Worms</i>, 1877</figcaption></figure>'
+  '<aside class=notes>This is what they were willing to sacrifice. Luther, and the Reformers after him, rejected a religious authority over them that bound their conscience. Thomas Campbell extended freedom of conscience to others. These men gave up religious authority when it got in the way of the body of Christ: their own.</aside></section>')
+A(Q('&ldquo;Having divested ourselves of all party creeds, and party names, and trusting alone in God, and the word of his grace, we became a by-word and laughing stock to the sects around; all prophesying our speedy annihilation. Yet <b>from this period I date the commencement of that reformation</b>, which has progressed to this day.&rdquo;', STONE, 'After the will') +
+  N('&ldquo;Party names&rdquo; is the name Springfield Presbytery. Just before this: &ldquo;we had not worn our name more than one year, before we saw it savored of a party spirit. With the man-made creeds we threw it overboard, and took the name Christian.&rdquo;',
+    'Stone does not date the movement from Cane Ridge in 1801, or from the garden in 1803. He dates it from here: the giving up of the party.'))
 A(CARD('The reformation began, not when they left behind<br>someone else&rsquo;s religious institution,<br>' + G('but when they dissolved their own.'),
   'Let it land.'))
 A(BLACK)
