@@ -85,7 +85,7 @@ A('<section class="slide breath sect"><h2>A few years after Cane Ridge&hellip;</
   '<div class=sub>Kentucky and Ohio &middot; 1803</div>'
   '<aside class=notes>Setup. Cane Ridge was August 1801; the revival kept spreading, and by 1803 five Presbyterian ministers were preaching in its strain.</aside></section>')
 
-A(Q('&ldquo;There were at this time <b>five preachers</b> in the Presbyterian connection, who were in the same strain of preaching, and <b>whose doctrine was different from that taught in the Confession of Faith</b> of that body. Their names were, Richard McNemar, John Thompson, John Dunlavy, Robert Marshall, and myself&hellip;&rdquo;', STONE, 'Five preachers') +
+A(Q('&ldquo;There were at this time <b>five preachers</b>&hellip; who were in the same strain of preaching, and <b>whose doctrine was different from that taught in the Confession of Faith</b> of that body. Their names were, Richard McNemar, John Thompson, John Dunlavy, Robert Marshall, and myself&hellip;&rdquo;', STONE, 'Five preachers') +
   N('The revival has kept going since Cane Ridge, and Stone is one of five ministers preaching in its strain. The sentence goes on: &ldquo;the three former lived in Ohio, the two latter in Kentucky.&rdquo; David Purviance, then a candidate for the ministry, &ldquo;was of the same faith.&rdquo;',
     '&rarr; Here is what they preached.'))
 

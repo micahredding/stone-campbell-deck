@@ -55,7 +55,7 @@
   {
    "index": 7,
    "n": 8,
-   "title": "Five preachers \"There were at this time five preachers in the Presbyterian connection, who",
+   "title": "Five preachers \"There were at this time five preachers ... who were in the same strain of ",
    "path": "spine",
    "doc": "stone"
   },
@@ -687,7 +687,12 @@
   {
    "slide": 7,
    "doc": "stone",
-   "text": "There were at this time five preachers in the Presbyterian connection, who were in the same strain of preaching, and whose doctrine was different from that taught in the Confession of Faith of that body. Their names were, Richard McNemar, John Thompson, John Dunlavy, Robert Marshall, and myself"
+   "text": "There were at this time five preachers"
+  },
+  {
+   "slide": 7,
+   "doc": "stone",
+   "text": "who were in the same strain of preaching, and whose doctrine was different from that taught in the Confession of Faith of that body. Their names were, Richard McNemar, John Thompson, John Dunlavy, Robert Marshall, and myself"
   },
   {
    "slide": 8,
