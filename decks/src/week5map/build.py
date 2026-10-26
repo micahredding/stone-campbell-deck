@@ -18,7 +18,7 @@ SIDE = [
 ]
 SECTIONS = [
     ('Opening', 'Otter Creek'), ('The sea', '<h2>Alexander and the Sea</h2>'),
-    ('Glasgow', 'He went to hear other preachers.'), ('Reunion', 'Thomas rode out to meet them.'),
+    ('Glasgow', 'He went to hear other preachers.'), ('Reunion', '<h2>Family Reunion</h2>'),
     ('Brush Run', '<h2>Brush Run</h2>'), ('The ordination', '<h2>The Ordination</h2>'),
     ('Who serves the table?', '<h2>Who serves the table?</h2>'), ('Two or three gathered', '<h2>Where two or three are gathered</h2>'),
     ('Close', 'for discussion'),

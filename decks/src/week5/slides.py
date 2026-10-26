@@ -82,16 +82,17 @@ A('<section class="slide bleed"><div class=bg><div class="bgimg wreckbg5"></div>
   '<div class=credit>Philippe-Jacques de Loutherbourg, <i>A Shipwreck off a Rocky Coast</i> &middot; not the Hibernia</div>'
   '<div class=eyebrow>Islay, Scotland &middot; October 7, 1808</div>'
   '<h2>Alexander and the Sea</h2>'
-  '<aside class=notes>From Chapter 2, told again because tonight hangs on it. His father is in America, already on trial before the Seceders. Alexander, twenty, has been left in charge of the family.</aside></section>')
+  '<aside class=notes>Chapter 2&rsquo;s last section, which we never reached. The son&rsquo;s story while the father&rsquo;s is still open: his father is in America, on trial before the Seceders; Alexander, twenty, has been left in charge of the family. In Glasgow he will do, one after another, three things his father was charged with.</aside></section>')
 A('<section class="slide"><h2 style="max-width:none">October 1808: the family sails</h2>'
   '<div class=days style="font-size:clamp(22px,4.2vmin,52px);gap:2vmin">'
   '<div class="d frag"><span class=dn style="flex:0 0 4.6em">Sep 20</span><span>The family sets out for Londonderry. The <i>Hibernia</i> is not ready; they wait eight days.</span></div>'
   '<div class="d frag"><span class=dn style="flex:0 0 4.6em">Oct 1</span><span>The <i>Hibernia</i> sails, firing her ten cannon in farewell.</span></div>'
+  '<div class="d frag"><span class=dn style="flex:0 0 4.6em">Oct 2</span><span>Out into the Atlantic, then anchored again off Inishowen.</span></div>'
   '<div class="d frag"><span class=dn style="flex:0 0 4.6em">Oct 3</span><span>Contrary winds off Malin Head. They run before the gale all night.</span></div>'
   '<div class="d frag"><span class=dn style="flex:0 0 4.6em">Oct 4</span><span>The coast of Scotland. They anchor in Loch Indaal, on Islay, and wait for wind.</span></div>'
   '<div class="d frag"><span class=dn style="flex:0 0 4.6em">Oct 7</span><span style="color:var(--gold)">Evening. Alexander wakes from a dream.</span></div>'
   '</div>'
-  '<aside class=notes>Five clicks; brisk until the last. Thomas had sailed ahead in 1807; now the family follows. Oct 7: Alexander dozes while reading to his sister Dorothea, and wakes alarmed: he dreamed the ship struck a rock and the water rushed in. (Richardson 1:94&ndash;99.)</aside></section>')
+  '<aside class=notes>Six clicks; brisk until the last. Thomas had sailed ahead in 1807; now the family follows. Oct 7: Alexander dozes while reading to his sister Dorothea, and wakes alarmed: he dreamed the ship struck a rock and the water rushed in. (Richardson 1:94&ndash;99.)</aside></section>')
 
 A(Q('&ldquo;<b>I will not undress to-night.</b> I will lay my shoes within my reach, and be ready to rise at a moment&rsquo;s warning&hellip;&rdquo;', 'Alexander Campbell, after the dream &middot; in Richardson, <i>Memoirs</i>', 'October 7, evening') +
   N('He told the family, and had them make ready. Let it sit before you click.'))
@@ -108,13 +109,13 @@ A(DIM(Q('&ldquo;It was then in that solemn hour, that he gave himself up wholly 
   N('The next sentence. Everyone survived; stranded ten months, the family wintered in Glasgow and Alexander studied at the university.',
     '&rarr; &ldquo;Hold the mast. It comes back at the ordination.&rdquo;'))
 # ---------- GLASGOW ----------
-A('<section class="slide"><div class=eyebrow>Glasgow &middot; winter 1808&ndash;09</div>'
+A('<section class="slide"><div class=eyebrow><span style="color:var(--gold)">1 &middot; Article 4</span> &middot; Glasgow, winter 1808&ndash;09</div>'
   '<h2>He went to hear other preachers.</h2>'
   '<div class="sub frag">Above all <b>Greville Ewing</b>: fifteen hundred people in a converted circus.</div>'
   '<div class="sub frag">The very thing his father was tried for: <b><i>occasional hearing</i></b>.</div>'
   '<aside class=notes>Two clicks. The family wintered in Glasgow after the wreck; Alexander studied at the university. He found the Seceder minister &ldquo;a prosy speaker&rdquo; and went to hear others whenever he could, above all Ewing at the Tabernacle. Back in Pennsylvania his father had been condemned for saying Seceders might hear ministers of other churches.<br>&rarr; &ldquo;The son is doing every week what the father was condemned for.&rdquo;</aside></section>')
 
-A('<section class="slide"><div class=eyebrow>At Ewing&rsquo;s house</div>'
+A('<section class="slide"><div class=eyebrow><span style="color:var(--gold)">2 &middot; Articles 2 &amp; 3</span> &middot; at Ewing&rsquo;s house</div>'
   '<h2>Ewing told him the story of the Haldanes.</h2>'
   '<div class="sub frag">Two Scottish <b>laymen</b> who began preaching the gospel without ordination.</div>'
   '<div class="sub frag">James Haldane was <b>arrested at the instigation of the clergy</b>.</div>'
@@ -127,7 +128,7 @@ A(Q('&ldquo;&hellip;he did not feel himself at liberty to abandon rashly the che
   N('The same page as &ldquo;domineering Synods.&rdquo; Everything pulled him toward Ewing&rsquo;s freedom; everything he loved held him to his father&rsquo;s church, where &ldquo;he had thought it his duty to be a regular communicant.&rdquo;',
     'Call back the mast: the boy who vowed his life to his father&rsquo;s ministry.'))
 
-A('<section class="slide"><div class=eyebrow>Glasgow &middot; spring 1809</div>'
+A('<section class="slide"><div class=eyebrow><span style="color:var(--gold)">3 &middot; The table</span> &middot; Glasgow, spring 1809</div>'
   '<h2>The communion season came. He was examined, and given the token.</h2>'
   '<div class="sub frag">Eight hundred communicants, eight or nine tables. <b>He waited for the last one.</b></div>'
   '<aside class=notes>One click. The Seceder church&rsquo;s spring communion. No letter from Ireland, so the elders examined him and gave him the lead token, his ticket to the table.</aside></section>')
@@ -141,6 +142,8 @@ A(Q('&ldquo;&hellip;the ring of the token, falling upon the plate, announced the
     '&rarr; Silence. Do not explain it.'))
 
 # ---------- FAMILY REUNION ----------
+A(C('Family Reunion', 'October 1809. The family finally lands in Philadelphia and crosses the mountains.'))
+
 A('<section class="slide"><div class=eyebrow>October 1809 &middot; the road into Washington, Pennsylvania</div>'
   '<h2>Thomas rode out to meet them.</h2>'
   '<div class="sub frag">On the ride back he told his son everything: the trial, the rebuke, and that <b>he had left the Seceders</b>.</div>'
@@ -152,6 +155,9 @@ A('<section class="slide hard"><h2>The father opened the table to people who had
   '<div class="sub frag">The son held a valid token, and would not use it.</div>'
   '<div class="sub frag"><b>Neither knew.</b></div>'
   '<aside class=notes>Two clicks. Say it plain and stop.<br>The father had been tried for serving the Supper to Presbyterians of other kinds in 1807; the son had walked away from a fenced table in 1809.</aside></section>')
+
+A(Q('&ldquo;The Church of Christ upon earth is <b>essentially, intentionally, and constitutionally one</b>; consisting of all those in every place that profess their faith in Christ&hellip;&rdquo;', DA, 'That fall they asked him to write down what they stood for') +
+  N('Chapter 3: the <i>Declaration and Address</i>, which Alexander read in proof that autumn. Optional sting: the presbytery formally deposed Thomas on April 18, 1810, seven months after it was published.'))
 # ---------- BRUSH RUN ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg brushbg"></div></div>'
   '<div class=credit>The Brush Run meeting house, reconstructed at Bethany &middot; courtesy of Bethany College</div>'
@@ -222,8 +228,8 @@ A(SRC(BIGQ(Q('&ldquo;&hellip;he that gives thanks for the loaf should break it <
 A(BIGQ(Q('&ldquo;I dare not be a party man for these reasons&hellip; <b>Because no party will receive into communion all whom God would receive into heaven.</b>&rdquo;', AC + ', 1810', 'Throwback &middot; open communion'), 'clamp(32px,7.2vmin,90px)', '34ch') +
   N('Throwback to 1810, a year before Brush Run: an address after a sermon at Mr. Buchanan&rsquo;s. The next line: &ldquo;God loves his children more than our creeds, and man was not made for the Bible, but the Bible for man.&rdquo;',
     'Chapter 1&rsquo;s table and Chapter 2&rsquo;s trial, in one sentence.'))
-A(BIGQ(Q('&ldquo;That the Church of Christ upon earth is <b>essentially, intentionally, and constitutionally one</b>&hellip;&rdquo;', DA + ', Proposition 1', 'Throwback &middot; Thomas Campbell, 1809'), 'clamp(36px,8vmin,100px)', '28ch') +
-  N('Chapter 3. One church, of &ldquo;all those in every place that profess their faith in Christ.&rdquo; The table is where that oneness is shown, or denied.'))
+A(BIGQ(Q('&ldquo;That division among the Christians is <b>a horrid evil, fraught with many evils</b>. It is antichristian, as it <b>destroys the visible unity of the body of Christ</b>&hellip;&rdquo;', DA + ', Proposition 10', 'Throwback &middot; Thomas Campbell, 1809')) +
+  N('Chapter 3. The table is where that unity is shown, or denied: a fenced table divides the body at the very place it is meant to be one.'))
 A(CARD('Open to all.<br>' + G('Hosted by any.'),
   'Brush Run&rsquo;s table was weekly and its fences were coming down. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers. Not only open; hosted by any.'))
 for _x in R.table(): A(_x)                       # side path: who keeps the table (shared resource)
