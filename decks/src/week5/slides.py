@@ -260,6 +260,7 @@ A('<section class="slide"><div class=eyebrow>Signed</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);color:var(--gold)">George Sharp &middot; William Gilcrist &middot; James Foster &middot; John Dawson, deacons</div>'
   '</div><div class=cite>The ordination certificate &middot; in Richardson, <i>Memoirs</i></div>'
   '<aside class=notes>One click. His father, and four farmers. One of them, James Foster, is the man nearly kept out by the test question. The man who would debate Robert Owen and the Catholic bishop of Cincinnati, and found a college, was ordained by a creekside congregation of about thirty.</aside></section>')
+for _x in R.universals(): A(_x)                  # side path: the whole church remembers (shared resource)
 
 # ---------- TYING BACK ----------
 A(C('Two Wills, One Bequest', 'Tie it back. Kentucky, 1804, and Pennsylvania, 1811: neither side knew the other existed. Stone and Alexander Campbell would not meet until 1824.'))

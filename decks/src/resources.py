@@ -55,6 +55,9 @@ def docs(between, clean, keys):
         'cb': lambda: {'title': 'Alexander Campbell, <i>The Christian Baptist</i>, July 5, 1824',
             'sub': '&ldquo;Essays on Ecclesiastical Characters, Councils, Creeds, and Sects, No. III&rdquo; &middot; the opening, transcribed from the 1835 edition',
             'html': clean(src('sources', 'christian-baptist-1824-ecclesiastical-courts.html'))},
+        'church': lambda: {'title': 'The whole church: excerpts on priesthood, governance, baptism, and the table',
+            'sub': 'Cyprian, Leo the Great, Luther (1523), the Eastern Patriarchs (1848), Schmemann, Afanasiev, Vatican II, Pope Francis, the 2024 Synod, the Lima text',
+            'html': clean(src('sources', 'the-whole-church.html'))},
         'kjv': lambda: {'title': 'Scripture, King James Version',
             'sub': 'Passages on the church, its officers, and its table',
             'html': clean(src('sources', 'scripture-kjv.html'))},
@@ -63,11 +66,12 @@ def docs(between, clean, keys):
 
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
-         'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824'}
+         'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
-    if 'Westminster' in vis or 'same Confession' in vis: o = has('wcf')
+    if 'data-src=church' in vis: o = has('church') + [i for i in range(len(K)) if K[i] != 'church']
+    elif 'Westminster' in vis or 'same Confession' in vis: o = has('wcf')
     elif '(KJV)' in vis: o = has('kjv')
     elif 'Christian Baptist' in vis: o = has('cb')
     elif 'Declaration and Address' in vis: o = has('dna')
@@ -169,3 +173,75 @@ def governance(extra=()):
         CARD('Christ in the midst of two or three.<br>' + G('Every other office answers to that.'),
              'The end of the resource. &rarr; Back to the spine.'),
     ]
+
+# ---------- side path: the whole church remembers (the universals) ----------
+UNIVERSALS = ('The whole church remembers', '<div class=eyebrow>The whole church remembers', 'we try to practice every Lord')
+def _u(quote, cite, eyebrow='', note=''):
+    """a quote slide whose quotes are checked against the whole-church excerpts"""
+    return Q(quote, cite, eyebrow).replace('<section class="slide"', '<section data-src=church class="slide"', 1) + N(note)
+def universals(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>The whole church remembers &middot; a resource</div>'
+        '<h2 style="max-width:none">What the whole church knows</h2>'
+        '<div class=sub>The priesthood of all &middot; the governance of all<br>baptism &middot; the table every Lord&rsquo;s day</div>'
+        '<aside class=notes>A resource. The claim: the Church of Christ stands for what is most universal in the church, and is distinctive only where others have let one of these slip. Catholic, Orthodox, Lutheran and ecumenical voices, in their own words. Every quote is in the document &ldquo;The whole church.&rdquo;</aside></section>',
+
+        # the priesthood of all
+        _u('&ldquo;The New Testament never uses the term &lsquo;priesthood&rsquo; or &lsquo;priest&rsquo; (<i>hiereus</i>) to designate the ordained ministry&hellip; the term is reserved&hellip; for the unique priesthood of Jesus Christ and&hellip; for <b>the royal and prophetic priesthood of all baptized</b>.&rdquo;',
+           'World Council of Churches, <i>Baptism, Eucharist and Ministry</i> (1982), Ministry 17', 'The priesthood of all',
+           'The Lima text: the most widely studied ecumenical document of the century, drafted by a commission that included Catholic and Orthodox theologians.'),
+        _u('&ldquo;The gift of the Spirit that every member of the faithful receives in the sacrament of initiation is <b>the charism of royal priesthood</b>.&rdquo;',
+           'Nicolas Afanasiev, <i>The Church of the Holy Spirit</i>, p. 3', 'Orthodox',
+           'A Russian Orthodox theologian in Paris (d. 1966). His second chapter is titled &ldquo;The Ordination of Laics&rdquo;: every baptized Christian is ordained.'),
+        _u('&ldquo;The first, the basic definition of man is that <b>he is the priest</b>.&rdquo;',
+           'Alexander Schmemann, <i>For the Life of the World</i> (1963)', 'Orthodox',
+           'Not of clergy: of every human being, who receives the world from God and offers it back. The same book: &ldquo;Religion is needed where there is a wall of separation between God and man. But Christ&hellip; has broken down the wall&hellip; He has inaugurated a new life, not a new religion.&rdquo; (Page to verify against the book.)'),
+
+        # the governance of all
+        _u('&ldquo;&hellip;I made up my mind to do nothing on my own private opinion, without your advice and <b>without the consent of the people</b>.&rdquo;',
+           'Cyprian, bishop of Carthage, c. 250', 'The governance of all',
+           'A bishop of the third century, to his clergy, on how he had governed from the beginning.'),
+        _u('&ldquo;<b>He who is to govern all, should be chosen by all.</b>&rdquo;',
+           'Leo the Great, bishop of Rome, Letter 10 (444)', '',
+           'The next sentence: &ldquo;The consent of the clergy, the testimony of those held in honour, the approval of the orders and the laity should be required.&rdquo; A pope.'),
+        '<section data-src=church class="slide"><div class=eyebrow>Luther, 1523 &middot; for the congregation at Leisnig</div>'
+        '<div class=litany style="font-size:1.6em;max-width:86vw;gap:3.4vmin">'
+        '<div class="no frag">&ldquo;&hellip;<b>the sheep are to judge</b> whether what they teach is the voice of Christ or the voice of strangers.&rdquo;</div>'
+        '<div class="no frag">&ldquo;All teachers should and must, therefore, be <b>subject with their teaching to the judgment of the hearers</b>.&rdquo;</div>'
+        '</div><div class=cite>Martin Luther, <i>That a Christian Assembly or Congregation Has the Right and Power to Judge All Teaching and to Call, Appoint, and Dismiss Teachers</i> (1523)</div>'
+        '<aside class=notes>Two clicks. Leisnig had dismissed the priest its patron appointed and elected its own. Luther: &ldquo;If the bishop does not confirm him, he is none the less confirmed by virtue of the call of the congregation.&rdquo; Later he settled for princes running the church. Our preachers answer to the congregation: this is why.</aside></section>',
+        _u('&ldquo;&hellip;<b>the protector of religion is the very body of the Church, even the people themselves</b>&hellip;&rdquo;',
+           'Encyclical of the Eastern Patriarchs (1848)', 'Orthodox',
+           'The four Orthodox patriarchs, answering Pius IX: neither patriarchs nor councils could introduce novelties, because the people guard the faith. And at every Orthodox ordination the people still shout <i>Axios!</i>, &ldquo;He is worthy!&rdquo;, the trace of the time when the whole church chose.'),
+        _u('&ldquo;&hellip;in this Church, as in an inverted pyramid, <b>the top is located beneath the base</b>. Consequently, those who exercise authority are called &lsquo;ministers&rsquo;, because, in the original meaning of the word, <b>they are the least of all</b>.&rdquo;',
+           'Pope Francis, October 17, 2015', 'Catholic',
+           'The same address quotes &ldquo;a principle dear to the Church of the first millennium&rdquo;: <i>quod omnes tangit ab omnibus tractari debet</i>, what touches all should be discussed by all.'),
+        _u('&ldquo;<b>Juridical power is a substitute for love</b> in actual social life&hellip; In the Church, where perfect love dwells, there is no need for such a substitute.&rdquo;',
+           'Nicolas Afanasiev, <i>The Church of the Holy Spirit</i>, p. 274', 'Why it is beautiful',
+           'The case for congregational governance is not a legal one. Where love governs, the apparatus of power is unnecessary.'),
+
+        # baptism
+        '<section data-src=church class="slide"><div class=eyebrow>Baptism &middot; the Synod on Synodality, 2024</div>'
+        '<div class=litany style="font-size:1.6em;max-width:86vw;gap:3.4vmin">'
+        '<div class="no frag">&ldquo;There is <b>nothing higher than this baptismal dignity</b>, equally bestowed upon each person&hellip;&rdquo;</div>'
+        '<div class="no frag">&ldquo;&hellip;as well as constituting the basis of synodality, <b>Baptism is also the foundation of ecumenism</b>.&rdquo;</div>'
+        '</div><div class=cite>Final Document of the Synod on Synodality, October 26, 2024, &sect;21, &sect;23</div>'
+        '<aside class=notes>Two clicks. Received by Pope Francis as part of his ordinary teaching. Baptism, not ordination, as the root of the church&rsquo;s life and of its unity.</aside></section>',
+        _u('&ldquo;Our common baptism, which unites us to Christ in faith, is thus <b>a basic bond of unity</b>.&rdquo;',
+           'World Council of Churches, <i>Baptism, Eucharist and Ministry</i> (1982), Baptism 6', 'Baptism',
+           'Baptism as what unites. Where baptism becomes a fence, a universal has slipped.'),
+
+        # the table
+        '<section data-src=church class="slide"><div class=eyebrow>The table every Lord&rsquo;s day</div>'
+        '<div class=litany style="font-size:1.6em;max-width:86vw;gap:3.4vmin">'
+        '<div class="no frag">&ldquo;&hellip;the Lord&rsquo;s Supper&hellip; <b>was now celebrated weekly</b>.&rdquo; <span class=lcite>Brush Run, 1811 &middot; Richardson, <i>Memoirs</i></span></div>'
+        '<div class="no frag">&ldquo;As the eucharist celebrates the resurrection of Christ, it is appropriate that it should take place <b>at least every Sunday</b>.&rdquo; <span class=lcite><i>Baptism, Eucharist and Ministry</i> (1982), Eucharist 31</span></div>'
+        '</div>'
+        '<aside class=notes>Two clicks. A congregation by a creek in 1811, and the ecumenical movement in 1982, arriving at the same table.</aside></section>',
+    ] + list(extra) + [
+        Q('&ldquo;To the intent that now unto the principalities and powers in heavenly places <b>might be known by the church the manifold wisdom of God</b>&hellip;&rdquo;', 'Ephesians 3:10 (KJV)') +
+        N('The church exists to show something. Our practices (no clergy class, members at the table, the congregation choosing, everyone singing) are testimony as much as order: a small visible demonstration of what the whole church confesses.'),
+        CARD('What the whole church confesses,<br>' + G('we try to practice every Lord&rsquo;s day.'),
+             'The end of the resource. Distinctive only where others let a universal slip. &rarr; Back to the spine.'),
+    ]
+
