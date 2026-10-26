@@ -921,7 +921,7 @@
   function sharedNext(){var c=parseInt(LS.get('w4mnext')||'-1',10);return isNaN(c)?-1:c}
 
   /* ---- the map overlay: spine left to right, side paths hanging below their fork ---- */
-  function wrap(t,n){var w=t.split(' '),L=[],c='';w.forEach(function(x){if(c&&(c+' '+x).length>n){L.push(c);c=x}else c=c?c+' '+x:x});if(c)L.push(c);return L}
+  function wrap(t,n){var w=t.replace(/<[^>]+>/g,'').split(' '),L=[],c='';w.forEach(function(x){if(c&&(c+' '+x).length>n){L.push(c);c=x}else c=c?c+' '+x:x});if(c)L.push(c);return L}
   function drawMap(){
     var W=1600,X0=50,X1=W-50,Y=96,DY=46,FAN=125,step=(X1-X0)/Math.max(1,spine.length-1);
     var depth=Math.max.apply(null,branches.map(function(b){return b.slides.length}).concat([1]));
@@ -954,7 +954,7 @@
       s.push('<text class="blab src'+(ok?' seen':'')+'" text-anchor=middle>'+wrap(docs[di].short.replace(/&rsquo;/g,'\u2019'),18).map(function(t,k){
         return '<tspan x='+x+' y='+(YS+68+k*24)+'>'+t+'</tspan>'}).join('')+'</text>');
     });
-    MAP.sections.forEach(function(sec){var x=X0+sec.at*step;
+    MAP.sections.forEach(function(sec){var x=X0+sec.at*step;sec={at:sec.at,label:sec.label.replace(/<[^>]+>/g,'')};
       lift=(x-lastX<150&&!lift)?26:0;lastX=x;   /* close neighbours take turns on two rows */
       s.push('<line class=twig x1='+x+' y1='+(Y-44-lift)+' x2='+x+' y2='+(Y-16)+' /><text class=sec x='+x+' y='+(Y-52-lift)+'>'+sec.label+'</text>')});
     branches.forEach(function(br,b){
