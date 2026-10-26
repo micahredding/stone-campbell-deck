@@ -76,15 +76,36 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
   '<div class=sub>Brush Run, Pennsylvania &middot; 1811&ndash;1812</div>'
   '<aside class=notes>Matthew 18:20, and the <i>Declaration and Address</i> quotes it (we will see where). The Campbells&rsquo; side of the story, picking up where Chapter 2 left Alexander: off the coast of Scotland. Two points tonight: who serves the table, and where authority lives.<br>'
-  'The hour: the sea 3 &middot; Glasgow 5 &middot; reunion 3 &middot; Brush Run 8 &middot; the ordination 8 &middot; who serves the table 7 &middot; two or three gathered 9 &middot; close 10.</aside></section>')
+  'The hour: the sea 6 &middot; Glasgow 7 &middot; reunion 3 &middot; Brush Run 8 &middot; the ordination 8 &middot; who serves the table 7 &middot; two or three gathered 9 &middot; close 10.</aside></section>')
 # ---------- ALEXANDER AND THE SEA ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg wreckbg5"></div></div>'
   '<div class=credit>Philippe-Jacques de Loutherbourg, <i>A Shipwreck off a Rocky Coast</i> &middot; not the Hibernia</div>'
   '<div class=eyebrow>Islay, Scotland &middot; October 7, 1808</div>'
   '<h2>Alexander and the Sea</h2>'
-  '<aside class=notes>Recap from Chapter 2, quickly. His father is in America, already on trial before the Seceders. Alexander, twenty, sails with his mother and the children on the Hibernia. It drags its anchors in a gale and strikes a rock off Islay at night. They cut away the masts.</aside></section>')
+  '<aside class=notes>From Chapter 2, told again because tonight hangs on it. His father is in America, already on trial before the Seceders. Alexander, twenty, has been left in charge of the family.</aside></section>')
+A('<section class="slide"><h2 style="max-width:none">October 1808: the family sails</h2>'
+  '<div class=days style="font-size:clamp(22px,4.2vmin,52px);gap:2vmin">'
+  '<div class="d frag"><span class=dn style="flex:0 0 4.6em">Sep 20</span><span>The family sets out for Londonderry. The <i>Hibernia</i> is not ready; they wait eight days.</span></div>'
+  '<div class="d frag"><span class=dn style="flex:0 0 4.6em">Oct 1</span><span>The <i>Hibernia</i> sails, firing her ten cannon in farewell.</span></div>'
+  '<div class="d frag"><span class=dn style="flex:0 0 4.6em">Oct 3</span><span>Contrary winds off Malin Head. They run before the gale all night.</span></div>'
+  '<div class="d frag"><span class=dn style="flex:0 0 4.6em">Oct 4</span><span>The coast of Scotland. They anchor in Loch Indaal, on Islay, and wait for wind.</span></div>'
+  '<div class="d frag"><span class=dn style="flex:0 0 4.6em">Oct 7</span><span style="color:var(--gold)">Evening. Alexander wakes from a dream.</span></div>'
+  '</div>'
+  '<aside class=notes>Five clicks; brisk until the last. Thomas had sailed ahead in 1807; now the family follows. Oct 7: Alexander dozes while reading to his sister Dorothea, and wakes alarmed: he dreamed the ship struck a rock and the water rushed in. (Richardson 1:94&ndash;99.)</aside></section>')
+
+A(Q('&ldquo;<b>I will not undress to-night.</b> I will lay my shoes within my reach, and be ready to rise at a moment&rsquo;s warning&hellip;&rdquo;', 'Alexander Campbell, after the dream &middot; in Richardson, <i>Memoirs</i>', 'October 7, evening') +
+  N('He told the family, and had them make ready. Let it sit before you click.'))
+
+A('<section class="slide bleed"><div class=bg><div class="bgimg wreckbg5"></div></div>'
+  '<div class=credit>Philippe-Jacques de Loutherbourg, <i>A Shipwreck off a Rocky Coast</i> &middot; not the Hibernia</div>'
+  '<h2>That night, a gale blew in.</h2>'
+  '<aside class=notes>About ten o&rsquo;clock the gale turned into the bay. The ship dragged her anchors onto a sunken rock; the water came in; they cut away the masts. No help could reach them until morning. Meanwhile his father had been tried and condemned in America, and Alexander did not know.</aside></section>')
+
+A(DIM(Q('&ldquo;<b>He thought of his father&rsquo;s noble life</b>, devoted to God and to the salvation of his fellow-beings, and felt that such a calling&hellip; was, indeed, <b>the highest and most worthy sphere of action</b> in which any human being could engage.&rdquo;', RICH, 'On the stump of the broken mast'), 'wreckbg5') +
+  N('Night, the storm still on. He sat on the stump of the broken mast, expecting to die, and thought of his father.',
+    '&rarr; His calling is born out of admiring his father. Within months, his conscience will lead him away from his father&rsquo;s church.'))
 A(DIM(Q('&ldquo;It was then in that solemn hour, that he gave himself up wholly to God, and resolved that, if saved from the present peril, <b>he would certainly spend his entire life in the ministry of the gospel</b>.&rdquo;', RICH, 'On the stump of the broken mast'), 'wreckbg5') +
-  N('He sat on the stump of the broken mast and &ldquo;thought of his father&rsquo;s noble life.&rdquo; Everyone survived; the family wintered in Glasgow.',
+  N('The next sentence. Everyone survived; stranded ten months, the family wintered in Glasgow and Alexander studied at the university.',
     '&rarr; &ldquo;Hold the mast. It comes back at the ordination.&rdquo;'))
 # ---------- GLASGOW ----------
 A('<section class="slide"><div class=eyebrow>Glasgow &middot; winter 1808&ndash;09</div>'
@@ -102,10 +123,18 @@ A('<section class="slide"><div class=eyebrow>At Ewing&rsquo;s house</div>'
 A(Q('&ldquo;&hellip;the principles of Congregationalism entertained by Mr. Ewing, which secured <b>an entire emancipation from the control of domineering Synods and General Assemblies</b>&hellip;&rdquo;', RICH, 'What he came to want') +
   N('&ldquo;&hellip;and which seemed to him much more accordant with primitive usage.&rdquo; The congregation free of the church courts: the seed of tonight.'))
 
+A(Q('&ldquo;&hellip;he did not feel himself at liberty to abandon rashly the cherished religious sentiments of his youth, and <b>the Seceder Church to which his father and the family belonged</b>&hellip;&rdquo;', RICH, 'But it was his father&rsquo;s church') +
+  N('The same page as &ldquo;domineering Synods.&rdquo; Everything pulled him toward Ewing&rsquo;s freedom; everything he loved held him to his father&rsquo;s church, where &ldquo;he had thought it his duty to be a regular communicant.&rdquo;',
+    'Call back the mast: the boy who vowed his life to his father&rsquo;s ministry.'))
+
 A('<section class="slide"><div class=eyebrow>Glasgow &middot; spring 1809</div>'
   '<h2>The communion season came. He was examined, and given the token.</h2>'
   '<div class="sub frag">Eight hundred communicants, eight or nine tables. <b>He waited for the last one.</b></div>'
-  '<aside class=notes>One click. The Seceder church&rsquo;s spring communion. No letter from Ireland, so the elders examined him and gave him the lead token, his ticket to the table. Richardson: he felt both &ldquo;misgivings as to the propriety of sanctioning any longer, by participation, a religious system which he disapproved&rdquo; and &ldquo;his sincere desire to comply with all his religious obligations.&rdquo; He waited, hoping his doubts would settle.</aside></section>')
+  '<aside class=notes>One click. The Seceder church&rsquo;s spring communion. No letter from Ireland, so the elders examined him and gave him the lead token, his ticket to the table.</aside></section>')
+
+A(Q('&ldquo;His conscientious misgivings as to the propriety of <b>sanctioning any longer, by participation</b>, a religious system which he disapproved, and, on the other hand, his sincere desire to comply with all his religious obligations, <b>created a serious conflict in his mind, from which he found it impossible to escape</b>.&rdquo;', RICH, 'Why he waited') +
+  N('Taking part would put his stamp on the system; leaving would break with his father&rsquo;s church. He waited for the last table &ldquo;in hopes of being able to overcome his scruples.&rdquo; He wanted to stay.',
+    'Hit the word <b>sanctioning</b>. His father, leaving the Seceders in America, would use the same word.'))
 
 A(Q('&ldquo;&hellip;the ring of the token, falling upon the plate, announced the instant at which he renounced Presbyterianism for ever &mdash; <b>the leaden voucher becoming thus a token not of communion but of separation</b>.&rdquo;', RICH, '', 'slide hard') +
   N('When the plate came round he dropped the token on it, and when the bread and wine came down the table he &ldquo;declined to partake.&rdquo; He told no one.',
