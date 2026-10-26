@@ -9,6 +9,8 @@
 #   governance(extra=[])        -> side path: who governs the church (Matthew 18, the priesthood texts, the
 #                                  Declaration and Address, the Last Will, Alexander Campbell)
 #   constitution(extra=[])      -> side path: confession or constitution (Westminster 30; D&A Propositions 4 and 2)
+#   weekly(extra=[])            -> side path: the table every Lord's day (Didache, Justin, Calvin, Wesley, Lima, Brush Run,
+#                                  the Disciples-Catholic dialogue)
 #   universals(extra=[])        -> side path: the whole church remembers (priesthood, governance, baptism,
 #                                  the table, from Cyprian to the Lima text)
 #   campbell_reread(extra=[])   -> side path: Alexander Campbell, reread (the ancient order as liberation and
@@ -21,7 +23,7 @@
 #   unity(extra=[])             -> resource: union, all his life (Thomas Campbell's Declaration and Address, which
 #                                  Alexander endorsed; the 1810 party-man address; the Christian Baptist; The Christian
 #                                  System; Lunenburg; the open Campbell). Also its own deck: decks/src/unity/build.py
-#   WESTMINSTER, GOVERNANCE, CONSTITUTION, UNIVERSALS,
+#   WESTMINSTER, GOVERNANCE, CONSTITUTION, UNIVERSALS, WEEKLY,
 #   CAMPBELL_REREAD, EKKLESIA, TABLE, UNITY -> (label, first-slide anchor, last-slide anchor) for SIDE
 #
 # Each resource's quotes are checked against a document: give a slide data-src=<key> to route it (see
@@ -234,7 +236,7 @@ def universals(extra=()):
     return [
         '<section class="slide breath"><div class=eyebrow>The whole church remembers &middot; a resource</div>'
         '<h2 style="max-width:none">What the whole church knows</h2>'
-        '<div class=sub>The priesthood of all &middot; the governance of all<br>baptism &middot; the table every Lord&rsquo;s day</div>'
+        '<div class=sub>The priesthood of all &middot; the consent of all<br>baptism that unites</div>'
         '<aside class=notes>A resource. The claim: the Church of Christ stands for what is most universal in the church, and is distinctive only where others have let one of these slip. Catholic, Orthodox, Lutheran and ecumenical voices, in their own words. Every quote is in the document &ldquo;The whole church.&rdquo;</aside></section>',
 
         # the priesthood of all
@@ -261,6 +263,12 @@ def universals(extra=()):
         '<div class="no frag">&ldquo;All teachers should and must, therefore, be <b>subject with their teaching to the judgment of the hearers</b>.&rdquo;</div>'
         '</div><div class=cite>Martin Luther, <i>That a Christian Assembly or Congregation Has the Right and Power to Judge All Teaching and to Call, Appoint, and Dismiss Teachers</i> (1523)</div>'
         '<aside class=notes>Two clicks. Leisnig had dismissed the priest its patron appointed and elected its own. Luther: &ldquo;If the bishop does not confirm him, he is none the less confirmed by virtue of the call of the congregation.&rdquo; Later he settled for princes running the church. Our preachers answer to the congregation: this is why.</aside></section>',
+        _u('&ldquo;&hellip;no one can deny that every Christian has God&rsquo;s Word and is taught of God and <b>anointed by Him to the priesthood</b>.&rdquo;',
+           'Martin Luther, <i>That a Christian Assembly or Congregation Has the Right and Power to Judge All Teaching and to Call, Appoint, and Dismiss Teachers</i> (1523)', 'Luther, 1523 &middot; a witness',
+           'The ground of the congregation&rsquo;s right: every baptized Christian is a priest.'),
+        _u('&ldquo;If the bishop does not confirm him, <b>he is none the less confirmed by virtue of the call of the congregation</b>.&rdquo;',
+           'Martin Luther (1523)', 'Luther, 1523',
+           'Luther wrote it and later settled for princes running the church. Brush Run, three centuries on, did it.'),
         _u('&ldquo;&hellip;<b>the protector of religion is the very body of the Church, even the people themselves</b>&hellip;&rdquo;',
            'Encyclical of the Eastern Patriarchs (1848)', 'Orthodox',
            'The four Orthodox patriarchs, answering Pius IX: neither patriarchs nor councils could introduce novelties, because the people guard the faith. And at every Orthodox ordination the people still shout <i>Axios!</i>, &ldquo;He is worthy!&rdquo;, the trace of the time when the whole church chose.'),
@@ -282,13 +290,6 @@ def universals(extra=()):
            'World Council of Churches, <i>Baptism, Eucharist and Ministry</i> (1982), Baptism 6', 'Baptism',
            'Baptism as what unites. Where baptism becomes a fence, a universal has slipped.'),
 
-        # the table
-        '<section data-src=church class="slide"><div class=eyebrow>The table every Lord&rsquo;s day</div>'
-        '<div class=litany style="font-size:1.6em;max-width:86vw;gap:3.4vmin">'
-        '<div class="no frag">&ldquo;&hellip;the Lord&rsquo;s Supper&hellip; <b>was now celebrated weekly</b>.&rdquo; <span class=lcite>Brush Run, 1811 &middot; Richardson, <i>Memoirs</i></span></div>'
-        '<div class="no frag">&ldquo;As the eucharist celebrates the resurrection of Christ, it is appropriate that it should take place <b>at least every Sunday</b>.&rdquo; <span class=lcite><i>Baptism, Eucharist and Ministry</i> (1982), Eucharist 31</span></div>'
-        '</div>'
-        '<aside class=notes>Two clicks. A congregation by a creek in 1811, and the ecumenical movement in 1982, arriving at the same table.</aside></section>',
     ] + list(extra) + [
         Q('&ldquo;To the intent that now unto the principalities and powers in heavenly places <b>might be known by the church the manifold wisdom of God</b>&hellip;&rdquo;', 'Ephesians 3:10 (KJV)') +
         N('The church exists to show something. Our practices (no clergy class, members at the table, the congregation choosing, everyone singing) are testimony as much as order: a small visible demonstration of what the whole church confesses.'),
@@ -638,4 +639,41 @@ def unity(extra=()):
     ] + list(extra) + [
         CARD('From 1809 to 1848,<br>' + G('He never stopped saying it.'),
              'The end. The Church of Christ upon earth is one. The Ancient Order was meant to serve that, never to replace it. &rarr; Back to the spine.'),
+    ]
+
+# ---------- side path: the table every Lord's day (weekly communion; split from the whole church remembers) ----------
+WEEKLY = ('Every Lord&rsquo;s day', '<div class=eyebrow>Every Lord&rsquo;s day &middot; a resource</div>', 'Brush Run kept it.')
+def weekly(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>Every Lord&rsquo;s day &middot; a resource</div>'
+        '<h2 style="max-width:none">The table every Lord&rsquo;s day</h2>'
+        '<div class=sub>The early church, the Reformers, Wesley,<br>the ecumenical movement, and Brush Run</div>'
+        '<aside class=notes>A resource. Weekly communion is not a Church of Christ peculiarity: it is the oldest practice of the church, which almost everyone has said they want back. Every quote is in the document &ldquo;The whole church.&rdquo;</aside></section>',
+        _u('&ldquo;But <b>every Lord&rsquo;s day</b> gather yourselves together, and <b>break bread</b>, and give thanksgiving&hellip;&rdquo;',
+           'The <i>Didache</i> 14 (c. 100)', 'The early church',
+           'A church manual from about the end of the first century. The sentence goes on: &ldquo;after having confessed your transgressions, that your sacrifice may be pure.&rdquo;'),
+        _u('&ldquo;And on the day called Sunday&hellip; bread and wine and water are brought, and the president in like manner offers prayers and thanksgivings, according to his ability, and <b>the people assent, saying Amen</b>&hellip;&rdquo;',
+           'Justin Martyr, <i>First Apology</i> 67 (c. 155)', 'c. 155',
+           'Every Sunday, in Rome. &ldquo;According to his ability&rdquo;: no fixed prayer. And the people&rsquo;s Amen is part of the act.'),
+        _u('&ldquo;<b>Each week, at least, the table of the Lord ought to have been spread</b> for the company of Christians&hellip;&rdquo;',
+           'John Calvin, <i>Institutes</i> 4.17.46', 'The Reformers',
+           'Calvin wanted it and never got it: Geneva&rsquo;s council held him to quarterly communion. Also 4.17.44: &ldquo;no meeting of the Church is held without the word, prayer, the dispensation of the Supper, and alms.&rdquo;'),
+        _u('&ldquo;I also advise the elders to administer the Supper of the Lord <b>on every Lord&rsquo;s Day</b>.&rdquo;',
+           'John Wesley to the American Methodists, 1784', 'Wesley',
+           'His letter sending the first Methodist elders to America. (The Wesley Corpus calls its transcription provisional.)'),
+        '<section data-src=church class="slide"><div class=eyebrow>The table every Lord&rsquo;s day</div>'
+        '<div class=litany style="font-size:1.6em;max-width:86vw;gap:3.4vmin">'
+        '<div class="no frag">&ldquo;&hellip;the Lord&rsquo;s Supper&hellip; <b>was now celebrated weekly</b>.&rdquo; <span class=lcite>Brush Run, 1811 &middot; Richardson, <i>Memoirs</i></span></div>'
+        '<div class="no frag">&ldquo;As the eucharist celebrates the resurrection of Christ, it is appropriate that it should take place <b>at least every Sunday</b>.&rdquo; <span class=lcite><i>Baptism, Eucharist and Ministry</i> (1982), Eucharist 31</span></div>'
+        '</div>'
+        '<aside class=notes>Two clicks. A congregation by a creek in 1811, and the ecumenical movement in 1982, arriving at the same table.</aside></section>',
+        _u('&ldquo;It came from the desire to lead the Church towards <b>a unity rooted in the weekly celebration of the Lord&rsquo;s Supper</b>.&rdquo;',
+           'Disciples of Christ&ndash;Roman Catholic dialogue, <i>The Church as Communion in Christ</i> (1992)', 'Rome, on us',
+           'The Catholic Church&rsquo;s own dialogue with the Disciples, describing the Stone-Campbell movement. A study document, not official teaching on either side.'),
+        _u('&ldquo;This phase of the dialogue has achieved consensus that <b>the weekly celebration of the Eucharist is fundamental to an understanding of the Christian life</b>&hellip;&rdquo;',
+           'Disciples&ndash;Catholic dialogue, <i>Do This in Memory of Me</i> (2018)', '',
+           'The same report: the Disciples&rsquo; weekly Supper, &ldquo;inclusive in practice,&rdquo; &ldquo;has had a significant influence on their determined effort to work for Christian unity.&rdquo; Honest limit: the Catholic table is still closed to Disciples.'),
+    ] + list(extra) + [
+        CARD('The whole church has asked for it.<br>' + G('Brush Run kept it.'),
+             'The end of the resource. &rarr; Back to the spine.'),
     ]

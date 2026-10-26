@@ -202,6 +202,7 @@ A('<section class="slide"><div class=eyebrow>The next day &middot; May 5, 1811 &
   '<aside class=notes>The high point of the hour. His text: John 6:48, &ldquo;I am that bread of life.&rdquo; Richardson is summarizing his sermon notes.<br>&rarr; &ldquo;The table is not only a memory. It is the future, arriving early: everyone who will be at the last table, at this one.&rdquo; Chapter 1&rsquo;s table, again.</aside></section>')
 A(BIGQ(Q('&ldquo;&hellip;the Lord&rsquo;s Supper, which, according to the custom of the Independent churches in Scotland, <b>was now celebrated weekly</b>.&rdquo;', RICH, 'Every Lord&rsquo;s day')) +
   N('The Haldane churches again. At Cane Ridge the Supper came once or twice a year, after weeks of preparation and a token. At Brush Run, every Sunday, from the beginning. That is us.'))
+for _x in R.weekly(): A(_x)                      # side path: the table every Lord's day (shared resource)
 A(BIGQ(Q('&ldquo;The reason being asked, Joseph Bryant replied, that <b>he did not consider himself authorized to partake</b>, as he had never been baptized.&rdquo;', RICH, 'Side path &middot; who was not at the table')) +
   N('Side path. Three members never baptized: Joseph Bryant, Margaret Fullerton, Abraham Altars. On July 4, 1811 Thomas Campbell immersed them in a deep pool of Buffalo Creek, standing on a root at the edge, unimmersed himself. The baptism question opens here; it gets its own chapter.'))
 # ---------- THE ORDINATION ----------
@@ -239,11 +240,7 @@ A('<section class="slide"><div class=eyebrow>Signed</div>'
   '<aside class=notes>One click. His father, and four farmers. One of them, James Foster, is the man nearly kept out by the test question. The man who would debate Robert Owen and the Catholic bishop of Cincinnati, and found a college, was ordained by a creekside congregation of about thirty.</aside></section>')
 for _x in R.universals(): A(_x)                  # side path: the whole church remembers (shared resource)
 A(CARD('A minister, made by<br>' + G('the priesthood of all believers.'),
-  'The meaning Brush Run attached to it: the authority to make a minister is in the congregation, because every member is a priest. Side path: Luther as a witness.'))
-A(SRC(BIGQ(Q('&ldquo;&hellip;no one can deny that every Christian has God&rsquo;s Word and is taught of God and <b>anointed by Him to the priesthood</b>.&rdquo;', 'Martin Luther, <i>That a Christian Assembly or Congregation Has the Right and Power to Judge All Teaching and to Call, Appoint, and Dismiss Teachers</i> (1523)', 'A witness &middot; Luther, 1523'), 'clamp(32px,7.2vmin,90px)', '34ch'), 'church') +
-  N('Written for the congregation at Leisnig in Saxony, which had dismissed the priest its patron appointed and wanted to call its own. Every baptized Christian is a priest; so the congregation may call.'))
-A(SRC(BIGQ(Q('&ldquo;If the bishop does not confirm him, <b>he is none the less confirmed by virtue of the call of the congregation</b>.&rdquo;', 'Martin Luther (1523)', 'Luther, 1523'), 'clamp(36px,8vmin,100px)', '28ch'), 'church') +
-  N('Luther wrote it and later settled for princes running the church. Brush Run, three centuries on, did it.'))
+  'The meaning Brush Run attached to it: the authority to make a minister is in the congregation, because every member is a priest. Luther is a witness in &ldquo;The whole church remembers.&rdquo;'))
 # ---------- POINT ONE: WHO SERVES THE TABLE? ----------
 A(C('Who serves the table?', 'The first point. Brush Run kept the Supper every Lord&rsquo;s day, open to every Christian. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers.'))
 A(SRC(BIGQ(Q('&ldquo;May they not, <b>without a human priest to consecrate the way for them</b>, approach the Lord&rsquo;s table, and <b>handle the loaf and cup</b>?&rdquo;', CS, 'The same priesthood keeps the table'), 'clamp(32px,7.2vmin,90px)', '34ch'), 'acr') +
