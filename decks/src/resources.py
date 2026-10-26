@@ -517,8 +517,8 @@ def unity(extra=()):
              'Alexander Campbell, <i>The Christian Baptist</i>, April 1825', 'In the middle of the Ancient Order') +
            N('The same months as the first &ldquo;Restoration of the Ancient Order&rdquo; essays. Not a merger of denominations: the Christians scattered through every denomination, uniting. In 1837 he quoted this very passage to prove he had always believed there were Christians among the sects.')),
 
-        _n(BIG(Q('&ldquo;&hellip;if I thought there was any man on this continent who would go farther than I to heal all divisions and to unite all christians&hellip; <b>I would travel on foot a hundred miles to see him and to confess my faults to him</b>.&rdquo;',
-                 'Alexander Campbell, <i>The Christian Baptist</i>, 1827'))) +
+        _n(BIG(Q('&ldquo;&hellip;if I thought there was <b>any man on this continent who would go farther than I to heal all divisions</b> and to unite all christians&hellip; I would travel on foot a hundred miles <b>to see him and to confess my faults to him</b>.&rdquo;',
+                 'Alexander Campbell, <i>The Christian Baptist</i>, 1827', 'If anyone loved union more'))) +
         N('To a Baptist critic, Spencer Clack. He goes on: the union of all who acknowledge Jesus is &ldquo;the <i>summum bonum</i>, the grand ultimatum of all my &lsquo;writings, orations, lectures,&rsquo; and social prayers.&rdquo;'),
 
         _n(Q('&ldquo;If, then, the phrases &lsquo;Ancient Gospel,&rsquo; or &lsquo;Ancient Order of Things,&rsquo; should become <b>a dividing discrimination among Christians</b>, we must enter our protest against them&hellip;&rdquo;',

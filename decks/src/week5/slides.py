@@ -193,8 +193,23 @@ A(BIGQ(Q('&ldquo;This Society <b>by no means considers itself a Church</b>, nor 
   N('What they promised in 1809: &ldquo;merely as voluntary advocates for Church reformation.&rdquo; A society can preach; it cannot keep the Supper or ordain.',
     '&rarr; &ldquo;Now they would have to be one.&rdquo;'))
 
-A(BIGQ(Q('&ldquo;Certainly, James Foster is a member, <b>having been with us from the beginning</b>, and his religious sentiments being perfectly well known to all.&rdquo;', 'Alexander Campbell, May 4, 1811 &middot; in Richardson, <i>Memoirs</i>', 'The test question')) +
-  N('Thomas had each member answer a test question: &ldquo;What is the meritorious cause of a sinner&rsquo;s acceptance with God?&rdquo; Foster missed that meeting. Some said he was not a member. Alexander, &ldquo;not entirely convinced that there was any authority for such a test,&rdquo; stood up.',
+A('<section class="slide"><div class=eyebrow>Who is James Foster?</div>'
+  '<div class=litany style="text-align:left;gap:2.6vmin;font-size:1.9em;max-width:88vw">'
+  '<div class="no frag">Born in Ireland, 1785; knew Alexander as a boy at Rich-Hill.</div>'
+  '<div class="no frag">&ldquo;An Independent in Ireland&rdquo;: already doubted infant baptism.</div>'
+  '<div class="no frag">Came over in 1807; a member of the Christian Association from the start.</div>'
+  '</div><div class=cite>' + RICH + '</div>'
+  '<aside class=notes>Three clicks. Thomas Hodgens&rsquo;s son-in-law; they sailed together and settled near Hickory. It was Foster who asked Thomas Campbell, riding together, &ldquo;Father Campbell, how could you, in the absence of any authority in the Word of God, baptize a child&hellip;?&rdquo; Later elder of Brush Run (1813). Alexander rode out to visit him in 1864; Foster outlived him, dying in 1869.</aside></section>')
+
+A(BIGQ(Q('&ldquo;&hellip;each should be required to give a satisfactory answer to the question: <b>What is the meritorious cause of a sinner&rsquo;s acceptance with God?</b>&rdquo;', RICH, 'Thomas Campbell&rsquo;s test, spring 1811')) +
+  N('Before forming a church, Thomas had each member give &ldquo;some personal and public evidence of a fitting knowledge of the way of salvation.&rdquo; Two answers were judged unsatisfactory; their admission was postponed.',
+    'A doctrinal test at the door, from the author of the <i>Declaration and Address</i>.'))
+
+A(BIGQ(Q('&ldquo;<b>Is James Foster a member</b>, not having been present at the time the test question was propounded?&rdquo;', RICH, 'May 4, 1811 &middot; the day of organizing')) +
+  N('Foster had missed the meeting where the question was asked. &ldquo;Some seemed to think not.&rdquo;'))
+
+A(BIGQ(Q('&ldquo;Certainly, James Foster is a member, <b>having been with us from the beginning</b>, and his religious sentiments being perfectly well known to all.&rdquo;', 'Alexander Campbell, May 4, 1811 &middot; in Richardson, <i>Memoirs</i>', 'Alexander stands up')) +
+  N('Alexander was &ldquo;not entirely convinced that there was any authority for such a test.&rdquo;',
     'Richardson: &ldquo;The test question, accordingly, was not propounded to him, nor to any one else afterward.&rdquo; No creed at the door, from the first day.'))
 for _x in R.unity(): A(_x)                       # side path: union, all his life (shared resource)
 
