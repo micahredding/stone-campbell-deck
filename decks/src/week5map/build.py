@@ -8,6 +8,8 @@ sys.path.insert(0, os.path.join(_H, '..'))
 import mapdeck, resources as R
 
 SIDE = [
+    ('Against succession', '<div class=eyebrow>Against succession', 'Asked why he preached without authority'),
+    ('Luther, a witness', 'A witness &middot; Luther, 1523', 'confirmed by virtue of the call of the congregation'),
     # (label,                      first-slide anchor,                      last-slide anchor)
     R.GOVERNANCE,
     R.UNIVERSALS,
