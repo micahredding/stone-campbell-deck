@@ -295,6 +295,7 @@ A(SRC(BIGQ(Q('&ldquo;&hellip;he that gives thanks for the loaf should break it <
 
 A(CARD('Open to all.<br>' + G('Hosted by any.'),
   'Brush Run&rsquo;s table was weekly and its fences were coming down. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers. Not only open; hosted by any.'))
+for _x in R.table(): A(_x)                       # side path: who keeps the table (shared resource)
 
 # ---------- TYING BACK ----------
 A(C('Two Wills, One Bequest', 'Tie it back. Kentucky, 1804, and Pennsylvania, 1811: neither side knew the other existed. Stone and Alexander Campbell would not meet until 1824.'))

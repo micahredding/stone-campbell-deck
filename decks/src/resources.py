@@ -15,11 +15,14 @@
 #   ekklesia(extra=[])          -> side path: the church as ekklesia, the assembly (the Greek citizens' assembly,
 #                                  1 Corinthians 14 in Campbell's Living Oracles, Tyndale, Campbell's
 #                                  "fountain of official power", and his warning against "a democracy of the whole")
+#   table(extra=[])             -> side path: who keeps the table (who may give thanks and serve at the Supper,
+#                                  from the Scotch Baptists and Campbell to Stone, Lipscomb and today)
 #   WESTMINSTER, GOVERNANCE, UNIVERSALS,
-#   CAMPBELL_REREAD, EKKLESIA   -> (label, first-slide anchor, last-slide anchor) for SIDE
+#   CAMPBELL_REREAD, EKKLESIA, TABLE -> (label, first-slide anchor, last-slide anchor) for SIDE
 #
 # Each resource's quotes are checked against a document: give a slide data-src=<key> to route it (see
-# doc_order). Keys: church (the-whole-church.html), acr (campbell-reread.html), ekk (ekklesia.html).
+# doc_order). Keys: church (the-whole-church.html), acr (campbell-reread.html), ekk (ekklesia.html), tbl (the-table.html).
+# The catalogue, with how to hang a resource and where its research lives: decks/src/RESOURCES.md
 #
 # Add a resource: write a function returning a list of slides, give its first slide a unique eyebrow and
 # its last a unique phrase, and add the anchor tuple here. Quotes in it must be in one of the documents.
@@ -78,6 +81,9 @@ def docs(between, clean, keys):
         'ekk': lambda: {'title': 'The church as <i>ekklēsia</i>: excerpts',
             'sub': 'Euripides, Demosthenes, Hansen, the Living Oracles, van Kooten, Miller, Esler, Tyndale, Carson, Campbell, Lindsay',
             'html': clean(src('sources', 'ekklesia.html'))},
+        'tbl': lambda: {'title': 'Who keeps the table: excerpts',
+            'sub': 'Scotch Baptists, Campbell, Stone&rsquo;s <i>Christian Messenger</i>, Lipscomb, the ecumenical record, and today',
+            'html': clean(src('sources', 'the-table.html'))},
         'kjv': lambda: {'title': 'Scripture, King James Version',
             'sub': 'Passages on the church, its officers, and its table',
             'html': clean(src('sources', 'scripture-kjv.html'))},
@@ -87,13 +93,14 @@ def docs(between, clean, keys):
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
-         'acr': 'Campbell, reread', 'ekk': 'The assembly'}
+         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
     if 'data-src=church' in vis: o = has('church') + [i for i in range(len(K)) if K[i] != 'church']
     elif 'data-src=acr' in vis: o = has('acr')
     elif 'data-src=ekk' in vis: o = has('ekk')
+    elif 'data-src=tbl' in vis: o = has('tbl')
     elif 'Westminster' in vis or 'same Confession' in vis: o = has('wcf')
     elif '(KJV)' in vis: o = has('kjv')
     elif 'Christian Baptist' in vis: o = has('cb')
@@ -399,4 +406,80 @@ def ekklesia(extra=()):
     ] + list(extra) + [
         CARD('Not a building. Not a clergy.<br>' + G('The people, assembled.'),
              'The end of the resource. <i>Ekklēsia</i> names the gathering, every member with a voice, under Christ. &rarr; Back to the spine.'),
+    ]
+
+# ---------- side path: who keeps the table ----------
+TABLE = ('Who keeps the table', '<div class=eyebrow>Who keeps the table', 'Everyone waits on everyone')
+CS_LOAF = 'Alexander Campbell, <i>The Christian System</i> (1839), &ldquo;Breaking the Loaf&rdquo;'
+CM = 'Stone&rsquo;s <i>Christian Messenger</i>'
+def _t(slide):
+    return slide.replace('<section class="slide', '<section data-src=tbl class="slide', 1)
+def table(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>Who keeps the table &middot; a resource</div>'
+        '<h2 style="max-width:none">Who may give thanks<br>for the bread?</h2>'
+        '<aside class=notes>A resource. Ask the room first: in your congregation, who gives thanks for the bread, and why that person? The answer in our churches (any disciple, not a priest) has two roots: the royal priesthood, and Matthew 18:20, where the smallest gathering is a church that may keep the Supper. It was contested from the start: in Scotland, between Campbell and Stone, and among us still. Every quote is in the document &ldquo;Who keeps the table.&rdquo;</aside></section>',
+
+        _t(Q('&ldquo;&hellip;<b>where three are, a church is</b>, albeit they be laics.&rdquo;',
+             'Tertullian, <i>On Exhortation to Chastity</i> 7 (c. 210)', 'Before us') +
+           N('The sentence before: where there is no clergy, &ldquo;you offer, and baptize, and are priest, alone for yourself.&rdquo; Tertullian is echoing Matthew 18:20. The old church knew the thought; it did not keep it.')),
+
+        _t(Q('&ldquo;The apparent question at issue was: <b>may a group of believers not set in order with a presbytery eat the Lord&rsquo;s Supper</b> or not?&rdquo;',
+             'D. B. Murray, on the Scotch Baptists, <i>Baptist Quarterly</i> (1989)', 'Scotland') +
+           N('The Scottish independents the Campbells knew in Glasgow were split on exactly this. Glasites and strict Scotch Baptists: no Supper without an elder. The Glasgow Scotch Baptists divided over &ldquo;eating without elders&rdquo; in 1810, the year after Alexander left. The British Churches of Christ grew from the side that ate without elders.')),
+
+        _t(Q('&ldquo;&hellip;were only two christians in any place, <b>such as on shipboard</b>&hellip; they ought to commemorate the death of Christ on the first day of the week&hellip;&rdquo;',
+             'Ballantine&rsquo;s <i>Essays on the Elder&rsquo;s Office</i>, reprinted in ' + CM + ' (1835)', 'Two or three') +
+           N('The ground: &ldquo;our Lord gives directions, Mat. xviii. 15&mdash;20. to the smallest number that might thus meet in his name.&rdquo; Two or three gathered are a church, and a church keeps the Supper. (Recall Alexander on the Hibernia.)')),
+
+        _t(BIG(Q('&ldquo;Is there any thing to be done at the table of the Lord, which <b>any brother, who can give thanks for a crucified Savior</b>, and repeat the words of the institution, cannot do?&rdquo;',
+                 'The same essay, in ' + CM + ' (1835)'))) +
+        N('It goes on: to suppose &ldquo;that none but an Elder can administer the Supper&rdquo; attributes &ldquo;some sanctity and power to an Elder which the scriptures do not warrant.&rdquo; Printed in Barton Stone&rsquo;s own paper.'),
+
+        _t(BIG(Q('&ldquo;&lsquo;The administration of ordinances&rsquo; is <b>a popish phrase</b>, and ought to be cashiered from the christian vocabulary.&rdquo;',
+                 'Alexander Campbell, <i>The Christian Baptist</i> (1827)', 'Campbell'))) +
+        N('Answering a reader. He goes on: persons the church appoints, &ldquo;when attending their respective duties,&rdquo; are &ldquo;administering all the ordinances.&rdquo; The church&rsquo;s appointment is what gives &ldquo;an official right&rdquo;; no sacred power passes through it.'),
+
+        _t(Q('&ldquo;He would not tolerate a disciple in his church to baptize a candidate, nor to &lsquo;administer the Lord&rsquo;s supper,&rsquo; <b>nor to pray over the loaf or the cup</b>.&rdquo;',
+             'Alexander Campbell, <i>Millennial Harbinger</i> (1830)', 'The test of a clergy') +
+           N('His proof that a preacher belongs to &ldquo;the aspiring priesthood&rdquo;: he will not let an ordinary disciple give thanks at the table. If he does permit it, Campbell says, &ldquo;I will except him from the priesthood.&rdquo;')),
+
+        '<section data-src=tbl class="slide"><div class=eyebrow>A church with no bishop &middot; from Campbell&rsquo;s memorandum book</div>'
+        '<div class=litany style="font-size:1.85em;max-width:88vw;gap:2.8vmin;text-align:left">'
+        '<div class="no frag">&ldquo;&hellip;they had appointed <b>two senior members</b>, of a very grave deportment, <b>to preside in their meetings</b>.&rdquo;</div>'
+        '<div class="no frag">&ldquo;&hellip;he took a small loaf from the table, and in one or two periods <b>gave thanks for it</b>.&rdquo;</div>'
+        '<div class="no frag">&ldquo;&hellip;<b>each one waiting upon his brother, until all were served</b>.&rdquo;</div>'
+        '</div><div class=cite>' + CS_LOAF + '</div>'
+        '<aside class=notes>Three clicks. About fifty members, no one fit to be a bishop; the two presiders &ldquo;were not competent to labor in the word and teaching.&rdquo; The loaf passed &ldquo;from one to another&rdquo;: &ldquo;no stiffness, no formality, no pageantry; all was easy, familiar, solemn, cheerful.&rdquo; Campbell&rsquo;s picture of the ancient order at the table.</aside></section>',
+
+        _t(Q('&ldquo;He may of right <b>preach, baptize, and dispense the supper</b>, as well as pray for all men, when circumstances demand it.&rdquo;',
+             'Alexander Campbell, <i>The Christian System</i> (1839)', 'His qualifier') +
+           N('Of every Christian. But: &ldquo;This concession does not&hellip; authorize any individual to assume to do what has been given in charge to them&rdquo; (the appointed officers). &ldquo;Liberty without licentiousness, and government without tyranny.&rdquo; In 1840: &ldquo;Official grace and official virtue are the very essence of popery.&rdquo;')),
+
+        _t(Q('&ldquo;For you cannot find in the New Testament one instance of the church having authority to ordain elders or bishops or deacons, or to administer baptism or the supper. <b>You will find that the ministry existed before the church</b>&hellip;&rdquo;',
+             CM + ' (1830)', 'Stone&rsquo;s Christians') +
+           N('Attributed to Stone by the <i>Messenger</i>&rsquo;s index. The Christians ordained their elders, kept the Supper seldom, and held that the ordained should administer it. The exact opposite of &ldquo;the fountain of official power.&rdquo;')),
+
+        _t(Q('&ldquo;&hellip;they believe that <b>no person but a preacher has a right to administer the ordinances</b> &mdash; such as the breaking of the loaf&hellip;&rdquo;',
+             'A letter from Lexington, Kentucky, February 1832 &middot; <i>Millennial Harbinger</i>', 'The union, 1832') +
+           N('The month after Stone and &ldquo;Raccoon&rdquo; John Smith shook hands in Lexington. A local union of Christians and Reformers broke up over this: whether a church without an ordained preacher could break the loaf. They &ldquo;become very much alarmed at the idea of uncommon folks receiving the name of kings and priests to the Lord.&rdquo;')),
+
+        _t(BIG(Q('&ldquo;When he is absent the church can do nothing. <b>Like a widow forlorn and desolate, she is solitary and silent.</b>&rdquo;',
+                 'Alexander Campbell, &ldquo;The Union,&rdquo; <i>Millennial Harbinger</i> (1832)'))) +
+        N('Campbell&rsquo;s reply, about the preacher &ldquo;called and sent&hellip; to administer ordinances&rdquo;: make him indispensable and the congregation cannot even meet at its own table.'),
+
+        _t(Q('&ldquo;One, of course, leads in giving thanks. <b>This is not officiating, for any disciple can do this.</b> It does not pertain to any office.&rdquo;',
+             'David Lipscomb, <i>Queries and Answers</i> (1910)', 'The Churches of Christ settle it') +
+           N('Lipscomb (Gospel Advocate, Nashville): &ldquo;The elders, or those who preside, can call on any disciple to do this. He only expresses aloud and leads in what every disciple does.&rdquo; Our practice: members give thanks at the table; the elders arrange it.')),
+
+        '<section data-src=tbl class="slide"><div class=eyebrow>Three paths from one table</div>'
+        '<div class=litany style="font-size:1.7em;max-width:88vw;gap:2.8vmin;text-align:left">'
+        '<div class="no frag">&ldquo;An ordained minister, as representative of Christ presiding at the Lord&rsquo;s Table, <b>serves in Christ&rsquo;s place as host</b> at the Table.&rdquo; <span class=lcite>Disciples&ndash;Catholic dialogue, 2009</span></div>'
+        '<div class="no frag">&ldquo;&hellip;within Australian Churches of Christ <b>&lsquo;lay presidency&rsquo; is almost the norm</b>&hellip;&rdquo; <span class=lcite>Churches of Christ in Australia to the World Council, 1986</span></div>'
+        '<div class="no frag">&ldquo;&hellip;we have denied women the opportunity to pass Communion trays because <b>we have described it as a &lsquo;leadership role.&rsquo;</b>&rdquo; <span class=lcite>David Kneip, Siburt Institute, ACU, 2025</span></div>'
+        '</div>'
+        '<aside class=notes>Three clicks. The Disciples, in dialogue with Rome, came back to the minister as Christ&rsquo;s representative; Campbell had said the one who breaks the loaf does so &ldquo;not as the representative of the Lord, but after his example.&rdquo; Australia kept mutual ministry. Our churches kept &ldquo;any disciple&rdquo; but read it as &ldquo;any man,&rdquo; and now argue whether passing a tray is leadership or service. In 2020 every household became its own table.</aside></section>',
+    ] + list(extra) + [
+        CARD('No one stands in Christ&rsquo;s place.<br>' + G('Everyone waits on everyone.'),
+             'The end of the resource. &ldquo;Each one waiting upon his brother, until all were served.&rdquo; Open to all; hosted by any. &rarr; Back to the spine.'),
     ]
