@@ -33,12 +33,15 @@ AC = 'Alexander Campbell'
 MIN = 'Minutes of the Synod of Pittsburg, October 1810 &middot; in Richardson, <i>Memoirs</i>'
 DA = 'Thomas Campbell, <i>Declaration and Address</i> (1809)'
 WILL = w4.WILL
+CS = 'Alexander Campbell, <i>The Christian System</i> (1839), &ldquo;Breaking the Loaf&rdquo;'
+def SRC(slide, key):   # check this slide's quotes against one shared document (resources.py: 'church', 'acr')
+    return slide.replace('<section class="slide', '<section data-src=%s class="slide' % key, 1)
 
 IDEAS = [
     ('The priesthood of all believers<br>' + G('is real authority.'),
-     'It inheres in every Christian and in the gathered church, not in an order above them. &ldquo;The clergy are the opposite to the laity&hellip; Trace them to their origin and we find no difference.&rdquo; Our movement embraces this deeply: no clergy-laity line, any brother may preside at the table.'),
+     'It inheres in every Christian and in the gathered church, not in an order above them. &ldquo;The clergy are the opposite to the laity&hellip; Trace them to their origin and we find no difference.&rdquo; Our movement embraces this deeply: no clergy-laity line, and the table kept by the congregation itself. Campbell: the royal priesthood is &ldquo;consecrated to officiate&rdquo;, not by a bishop&rsquo;s hands but by Christ&rsquo;s blood.'),
     ('The power to ordain<br>' + G('belongs to the people.'),
-     '&ldquo;It is not the persons called bishops who have the power, but the people.&rdquo; Ordination does not confer authority; it testifies to it. Cane Ridge willed it in 1804; Brush Run did it in 1812.'),
+     '&ldquo;It is not the persons called bishops who have the power, but the people.&rdquo; Ordination does not confer authority; it testifies to it. Matthew 18 gives the keys to the gathered church; Luther said it in 1523; Cane Ridge willed it in 1804; Brush Run did it in 1812.'),
     ('The table is a taste of<br>' + G('the age to come.'),
      'At the first Lord&rsquo;s Supper at Brush Run: &ldquo;an emblem of the millennial state of the Church&rdquo;, men of different names sitting down together in the kingdom of God. Not a memorial only: God&rsquo;s future, arriving early. That is why the fences around it had to come down. &rarr; Next week: the Millennial Harbinger.'),
 ]
@@ -241,6 +244,17 @@ A('<section class="slide breath"><p class="bigquote" style="font-size:clamp(38px
   '<div class=cite>' + AC + ', sermon on Titus 1:5 &middot; in Richardson, <i>Memoirs</i></div>'
   '<aside class=notes>The second high point. No apostolic succession, no line of hands from Peter to now that makes a minister. The power is in the people.<br>Richardson: he did not regard ordination &ldquo;as conferring any authority, but as a public testimony that the persons ordained possessed the necessary authority.&rdquo;</aside></section>')
 
+A(BIGQ(Q('&ldquo;&hellip;<b>tell it unto the church</b>&hellip; Verily I say unto you, <b>Whatsoever ye shall bind on earth shall be bound in heaven</b>&hellip;&rdquo;', 'Matthew 18:17&ndash;18 (KJV)', 'Where the keys are'), 'clamp(34px,7.6vmin,96px)', '30ch') +
+  N('In Matthew 16 the keys go to Peter. In Matthew 18 the binding and loosing go to &ldquo;the church&rdquo;: the gathering that hears a brother&rsquo;s case. Two verses later, two or three gathered, and Christ in the midst.',
+    'Thomas Campbell, in the <i>Declaration and Address</i>: this is &ldquo;the awful sanction of the Church&rsquo;s judgment.&rdquo;',
+    '&rarr; A church that can bind and loose can surely choose its own minister.'))
+
+A(SRC(BIGQ(Q('&ldquo;&hellip;no one can deny that every Christian has God&rsquo;s Word and is taught of God and <b>anointed by Him to the priesthood</b>.&rdquo;', 'Martin Luther, <i>That a Christian Assembly or Congregation Has the Right and Power to Judge All Teaching and to Call, Appoint, and Dismiss Teachers</i> (1523)', 'Not new &middot; Luther, 1523'), 'clamp(32px,7.2vmin,90px)', '34ch'), 'church') +
+  N('Written for the congregation at Leisnig in Saxony, which had dismissed the priest its patron appointed and wanted to call its own. Every baptized Christian is a priest; so the congregation may call.'))
+
+A(SRC(BIGQ(Q('&ldquo;If the bishop does not confirm him, <b>he is none the less confirmed by virtue of the call of the congregation</b>.&rdquo;', 'Martin Luther (1523)', 'Luther, 1523'), 'clamp(36px,8vmin,100px)', '28ch'), 'church') +
+  N('Luther wrote it and later settled for princes running the church. Brush Run, three centuries on, did it.'))
+
 A('<section class="slide"><div class=eyebrow>Asked why he preached without authority</div>'
   '<div class=litany style="gap:1.2vmin">'
   '<div class=no style="font-size:clamp(30px,6vmin,76px)">&ldquo;<b>Who has authority?</b></div>'
@@ -263,12 +277,33 @@ A('<section class="slide"><div class=eyebrow>Signed</div>'
   '<aside class=notes>One click. His father, and four farmers. One of them, James Foster, is the man nearly kept out by the test question. The man who would debate Robert Owen and the Catholic bishop of Cincinnati, and found a college, was ordained by a creekside congregation of about thirty.</aside></section>')
 for _x in R.universals(): A(_x)                  # side path: the whole church remembers (shared resource)
 
+A(CARD('A minister, made by<br>' + G('the priesthood of all believers.'),
+  'Matthew 18, Luther, the Last Will, Brush Run: the authority to ordain is in the gathered church, because every member is a priest.<br>&rarr; And if the priesthood can ordain, it can keep the table.'))
+
+A(SRC(BIGQ(Q('&ldquo;May they not, <b>without a human priest to consecrate the way for them</b>, approach the Lord&rsquo;s table, and <b>handle the loaf and cup</b>?&rdquo;', CS, 'The same priesthood keeps the table'), 'clamp(32px,7.2vmin,90px)', '34ch'), 'acr') +
+  N('Later, in <i>The Christian System</i>. The sentence before: &ldquo;May not, then, holy and royal priests thank God for the Lord&rsquo;s table, its loaf, and cup of wine?&rdquo;',
+    'He had already written, in the <i>Christian Baptist</i> (1827): &ldquo;&lsquo;The administration of ordinances&rsquo; is a popish phrase, and ought to be cashiered from the christian vocabulary.&rdquo;'))
+
+A(SRC(BIGQ(Q('&ldquo;&hellip;the royal priesthood may approach the Lord&rsquo;s table without fear, inasmuch as they are <b>consecrated to officiate</b> by a blood&hellip;&rdquo;', CS), 'clamp(34px,7.6vmin,96px)', '30ch'), 'acr') +
+  N('Consecrated to officiate: not by a bishop&rsquo;s hands, by Christ&rsquo;s blood. Every baptized member is ordained to the table.',
+    'Against the clergyman who says &ldquo;Stand by, I am holier than thou&rdquo;: he &ldquo;desecrates the royal priesthood of Jesus Christ.&rdquo;'))
+
+A(SRC(BIGQ(Q('&ldquo;&hellip;he that gives thanks for the loaf should break it <b>not as the representative of the Lord, but after his example</b>&hellip; And thus <b>they as priests feast upon his sacrifice</b>.&rdquo;', CS), 'clamp(32px,7.2vmin,90px)', '34ch'), 'acr') +
+  N('Between the two halves: the disciples hand the loaf &ldquo;to one another,&rdquo; and the one who broke it eats with them. No one stands in for Christ; everyone serves everyone.',
+    '&rarr; In our congregations the thanks at the table are given by members, not by the preacher. That is this, still.'))
+
+A(CARD('Open to all.<br>' + G('Hosted by any.'),
+  'Brush Run&rsquo;s table was weekly and its fences were coming down. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers. Not only open; hosted by any.'))
+
 # ---------- TYING BACK ----------
 A(C('Two Wills, One Bequest', 'Tie it back. Kentucky, 1804, and Pennsylvania, 1811: neither side knew the other existed. Stone and Alexander Campbell would not meet until 1824.'))
 
 A(BIGQ(Q('&ldquo;We will, that each particular church, as a body, actuated by the same spirit, <b>choose her own preacher</b>&hellip; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;', WILL, 'Cane Ridge, 1804')) +
   N('Last week: the bequest to every congregation. Seven years later and hundreds of miles away, a congregation that never heard of the will does exactly this.',
-    'The ministers&rsquo; bequest, too: &ldquo;obtain license from God to preach the simple Gospel.&rdquo;'))
+    'Brush Run chose its own preacher, licensed him, and ordained him.'))
+
+A(BIGQ(Q('&ldquo;We will, that candidates for the Gospel ministry henceforth study the holy scriptures with fervent prayer, and <b>obtain license from God</b> to preach the simple Gospel&hellip;&rdquo;', WILL, 'Cane Ridge, 1804')) +
+  N('No presbytery&rsquo;s license. In May 1811 Brush Run licensed Alexander; in January 1812 it ordained him. The license from God, recognized by the congregation.'))
 
 A(BIGQ(Q('&ldquo;&hellip;for where <b>two or three are gathered together in my name</b>, there am I in the midst of them.&rdquo;', DA + ', quoting Matthew 18:20'), 'clamp(36px,8vmin,100px)', '28ch') +
   N('The <i>Address</i>, to the friends of reform: &ldquo;Let not the paucity of your number in any given district, prove an insuperable discouragement.&rdquo; Thirty people at a creek. Christ in the midst of them.',
