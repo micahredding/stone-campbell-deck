@@ -27,7 +27,7 @@ Whole source documents available to any deck (`docs(between, clean, keys)`): `ri
 
 ## Where the research behind them lives
 
-- **The research database**, `micahredding/stone-campbell-database` on GitHub (Micah's iCloud folder `Documents/3/research/stone-campbell-research`; the GitHub copy is a snapshot plus additions, so new work may need copying into iCloud). Folder `10 Research Projects/`:
+- **The research database**, `micahredding/stone-campbell-database` on GitHub (the GitHub copy of Micah's iCloud folder `Documents/3/research/stone-campbell-research`, synced from it by "Sync iCloud vault" commits; work added on GitHub reaches iCloud only when copied or pulled back). Folder `10 Research Projects/`:
   - `Ekklesia and Greek Democracy/`
   - `The Ecumenical Consensus/` (the Lima text, weekly communion, the Disciples–Catholic dialogue)
   - `Alexander Campbell Reread/` (including honest shadows: slavery and more)
