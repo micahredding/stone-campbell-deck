@@ -12,8 +12,14 @@
 #                                  the table, from Cyprian to the Lima text)
 #   campbell_reread(extra=[])   -> side path: Alexander Campbell, reread (the ancient order as liberation and
 #                                  foretaste; Lunenburg 1837; the Address on War, 1848)
-#   WESTMINSTER, GOVERNANCE,
-#   UNIVERSALS, CAMPBELL_REREAD -> (label, first-slide anchor, last-slide anchor) for SIDE
+#   ekklesia(extra=[])          -> side path: the church as ekklesia, the assembly (the Greek citizens' assembly,
+#                                  1 Corinthians 14 in Campbell's Living Oracles, Tyndale, Campbell's
+#                                  "fountain of official power", and his warning against "a democracy of the whole")
+#   WESTMINSTER, GOVERNANCE, UNIVERSALS,
+#   CAMPBELL_REREAD, EKKLESIA   -> (label, first-slide anchor, last-slide anchor) for SIDE
+#
+# Each resource's quotes are checked against a document: give a slide data-src=<key> to route it (see
+# doc_order). Keys: church (the-whole-church.html), acr (campbell-reread.html), ekk (ekklesia.html).
 #
 # Add a resource: write a function returning a list of slides, give its first slide a unique eyebrow and
 # its last a unique phrase, and add the anchor tuple here. Quotes in it must be in one of the documents.
@@ -26,6 +32,9 @@ def _load(name, rel):
 w3b = _load('w3bslides', 'week3b/slides.py')
 w4 = _load('w4slides', 'week4/slides.py')
 Q, N = w3b.w3.Q, w3b.w3.N
+def BIG(slide, size='clamp(34px,7.6vmin,96px)', width='30ch'):   # a quote set larger than Q's default
+    import re as _re
+    return _re.sub(r'<p class="bigquote( long| xlong)?">', lambda m: '<p class="bigquote%s" style="font-size:%s;max-width:%s;line-height:1.2">' % (m.group(1) or '', size, width), slide, 1)
 CARD, G = w4.CARD, w4.G
 
 WILL, WIT, STONE = w4.WILL, w4.WIT, w4.STONE
@@ -66,6 +75,9 @@ def docs(between, clean, keys):
         'acr': lambda: {'title': 'Alexander Campbell, reread: excerpts',
             'sub': '<i>The Christian Baptist</i> (1825, 1829, 1830), the Lunenburg letter (1837), the Address on War (1848) &middot; transcribed from the scans',
             'html': clean(src('sources', 'campbell-reread.html'))},
+        'ekk': lambda: {'title': 'The church as <i>ekklēsia</i>: excerpts',
+            'sub': 'Euripides, Demosthenes, Hansen, the Living Oracles, van Kooten, Miller, Esler, Tyndale, Carson, Campbell, Lindsay',
+            'html': clean(src('sources', 'ekklesia.html'))},
         'kjv': lambda: {'title': 'Scripture, King James Version',
             'sub': 'Passages on the church, its officers, and its table',
             'html': clean(src('sources', 'scripture-kjv.html'))},
@@ -75,12 +87,13 @@ def docs(between, clean, keys):
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
-         'acr': 'Campbell, reread'}
+         'acr': 'Campbell, reread', 'ekk': 'The assembly'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
     if 'data-src=church' in vis: o = has('church') + [i for i in range(len(K)) if K[i] != 'church']
     elif 'data-src=acr' in vis: o = has('acr')
+    elif 'data-src=ekk' in vis: o = has('ekk')
     elif 'Westminster' in vis or 'same Confession' in vis: o = has('wcf')
     elif '(KJV)' in vis: o = has('kjv')
     elif 'Christian Baptist' in vis: o = has('cb')
@@ -316,4 +329,74 @@ def campbell_reread(extra=()):
     ] + list(extra) + [
         CARD('Not a pattern to police.<br>' + G('A future to rehearse.'),
              'The end of the resource. Honest shadows: the same man was slow and divided on slavery, and later writers drew the narrower Campbell from him too. Both are in him; we choose which to inherit. &rarr; Back to the spine.'),
+    ]
+
+# ---------- side path: the church as ekklesia, the assembly ----------
+EKKLESIA = ('The assembly', '<div class=eyebrow>The church as <i>ekklēsia</i>', 'The people, assembled')
+LO = 'The Living Oracles, Alexander Campbell&rsquo;s New Testament (1826)'
+def _e(slide):
+    return slide.replace('<section class="slide', '<section data-src=ekk class="slide', 1)
+def ekklesia(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>The church as <i>ekklēsia</i> &middot; a resource</div>'
+        '<h2 style="max-width:none">The word Paul chose<br>was the name of the citizens&rsquo; assembly</h2>'
+        '<aside class=notes>A resource. In every Greek city Paul visited, <i>ekklēsia</i> was the regular meeting of the citizens: the body that heard, debated and voted. Paul named the churches with that word. Scholars now argue the democratic overtones were deliberate; others trace the word to the Greek Old Testament&rsquo;s word for Israel&rsquo;s assembly (<i>qahal</i>). Both are assemblies of the whole people. Every quote is in the document &ldquo;The assembly.&rdquo;</aside></section>',
+
+        _e(Q('&ldquo;Freedom&rsquo;s mark is also seen in this: <b>Who hath wholesome counsel to declare unto the state?</b>&hellip; What greater equality can there be in a city?&rdquo;',
+             'Euripides, <i>Suppliants</i> (c. 423 BC), trans. Coleridge', 'Athens: the open floor') +
+           N('Theseus, defending democracy to a king&rsquo;s herald. The line echoes what the herald cried at every Athenian assembly: <i>Tis agoreuein bouletai?</i>, &ldquo;Who wishes to speak?&rdquo; Any citizen could stand. Demosthenes remembers the morning Philip of Macedon took Elatea: &ldquo;the marshal put the question, Who wishes to speak? No one came forward.&rdquo; He calls that cry &ldquo;the civic voice of our country.&rdquo;',
+             'All citizens over twenty could attend; votes were by show of hands. &ldquo;Citizens&rdquo; meant adult men only: women, slaves and foreigners were shut out.')),
+
+        _e(Q('&ldquo;&hellip;it shall be determined in <b>a legal congregation</b>&hellip; And when he had said these things, <b>he dismissed the congregation</b>.&rdquo;',
+             'Acts 19:39&ndash;41 &middot; ' + LO, 'The same word, in the New Testament') +
+           N('The riot at Ephesus. The town clerk sends the mob home and points them to the city&rsquo;s regular assembly. Luke calls both the mob and the lawful assembly <i>ekklēsia</i>. Campbell&rsquo;s New Testament gives the civic assembly and the church one English word: congregation.')),
+
+        _e(Q('&ldquo;&hellip;Paul wished to portray his communities as <b>alternative organizations existing alongside the civic assemblies</b>&hellip; in many respects, the functioning of the Christian <i>ekklēsia</i> mirrors the operations of the civic assemblies.&rdquo;',
+             'George H. van Kooten, <i>New Testament Studies</i> (2012)', 'The scholars') +
+           N('Van Kooten (Groningen, now Cambridge). Anna C. Miller, <i>Corinthian Democracy</i> (2015): the Corinthians understood themselves as &ldquo;a powerful, democratic assembly.&rdquo; Philip Esler, who thinks the word came from the Greek Old Testament, still says Paul&rsquo;s churches took on the connotations of &ldquo;civic voting assemblies.&rdquo;')),
+
+        _e(Q('&ldquo;When you are come together, <b>each of you has a psalm, has a discourse</b>, has a foreign language, has a revelation, has an interpretation!&rdquo;',
+             '1 Corinthians 14:26 &middot; ' + LO, 'The Christian assembly') +
+           N('Not a herald asking who wishes to speak: the Spirit has given every member something to bring. &ldquo;To each is given the manifestation of the Spirit&rdquo; (12:7).')),
+
+        '<section data-src=ekk class="slide"><div class=eyebrow>The floor passes &middot; 1 Corinthians 14:29&ndash;31</div>'
+        '<div class=litany style="font-size:2.7em;max-width:88vw;gap:3vmin">'
+        '<div class="no frag">&ldquo;&hellip;<b>and let the others judge</b>.&rdquo;</div>'
+        '<div class="no frag">&ldquo;&hellip;you can all prophesy, <b>one by one</b>,&rdquo;</div>'
+        '<div class="no frag">&ldquo;&hellip;<b>that all may learn, and all may be comforted</b>.&rdquo;</div>'
+        '</div><div class=cite>' + LO + '</div>'
+        '<aside class=notes>Three clicks. Speakers take turns; the gathered body weighs what is said. And the verse before: &ldquo;if to another, sitting by, any thing be revealed, let the first be silent.&rdquo; The floor passes. Caution: 14:34&ndash;35 silences women, against 11:5 where they pray and prophesy; many scholars think those verses were added later.</aside></section>',
+
+        '<section data-src=ekk class="slide"><div class=eyebrow>The assembly decides</div>'
+        '<div class=litany style="font-size:2.7em;max-width:88vw;gap:3vmin">'
+        '<div class="no frag">&ldquo;&hellip;this punishment, which was inflicted <b>by the majority</b>.&rdquo; <span class=lcite>2 Corinthians 2:6</span></div>'
+        '<div class="no frag">&ldquo;&hellip;who was also <b>chosen by the congregations</b> our fellow-traveller.&rdquo; <span class=lcite>2 Corinthians 8:19</span></div>'
+        '</div><div class=cite>' + LO + '</div>'
+        '<aside class=notes>Two clicks. A vote, and an election. The Greek for &ldquo;chosen&rdquo; in 8:19 is <i>cheirotonētheis</i>, literally &ldquo;by stretching out the hand&rdquo;: the word for electing by show of hands. Esler: 2:6 &ldquo;takes us straight into the dynamics of the political <i>ekklēsia</i> as a voting assembly.&rdquo;</aside></section>',
+
+        _e(Q('&ldquo;&hellip;where I found this word <i>ecclesia</i>, <b>I interpreted it by this word congregation</b>.&rdquo;',
+             'William Tyndale, answering Thomas More (1531)', 'The translators&rsquo; fight') +
+           N('Tyndale&rsquo;s reason: the clergy had taken for themselves &ldquo;the term that of right is common unto all the whole congregation of them that believe in Christ.&rdquo; More attacked him for it. King James&rsquo;s rules for the 1611 translators, rule 3: &ldquo;the Word Churche not to be translated Congregation.&rdquo;')),
+
+        _e(Q('&ldquo;<b>Wherever the word church is found</b> in the common version, <b>congregation will be found in this</b>.&rdquo;',
+             'Alexander Campbell, appendix to the Living Oracles', 'Campbell takes Tyndale&rsquo;s side') +
+           N('His reason: &ldquo;The term church, or kirk, is an abbreviation of the word <i>kyriou oikos</i>, the house of the Lord, and does not translate the term <i>ekklēsia</i>.&rdquo; In 1824 he had printed Alexander Carson&rsquo;s gloss: the Greeks, &ldquo;particularly the Athenians,&rdquo; used it &ldquo;for their popular assemblies&hellip; in which none but citizens had a right to sit.&rdquo;')),
+
+        _e(BIG(Q('&ldquo;<b>The community, the church, the multitude of the faithful, are the fountain of official power.</b> This power descends from the body itself &mdash; not from its servants.&rdquo;',
+                 'Alexander Campbell, <i>The Christian System</i> (1839)', 'Where authority comes from'))) +
+        N('From his chapter on the ministry. It continues: &ldquo;How much surer and purer is ecclesiastic authority thus derived from Christ the head, immediately through his body, than when derived through a long, doubtful, corrupt dynasty of bishops or pontiffs!&rdquo;'),
+
+        _e(BIG(Q('&ldquo;<b>Servants made by servants are servants of servants.</b>&rdquo;', 'Alexander Campbell, <i>The Christian System</i> (1839)'), 'clamp(44px,10vmin,130px)', '20ch')) +
+        N('The next sentence after &ldquo;the fountain of official power.&rdquo; Against ordination handed down through a line of clergy: office comes from the body, through Christ, not from the officers.'),
+
+        _e(Q('&ldquo;No wonder that broils and heart-burnings, and scandals of all sorts disturb those communities <b>ruled by a democracy of the whole</b> &mdash; where every thing is to be judged in public and full assembly. Such is not the Christian system.&rdquo;',
+             'Alexander Campbell, <i>The Christian System</i> (1839)', 'His limit') +
+           N('Say it plainly: Campbell was not a direct democrat. The whole congregation receives and excludes members and chooses its officers; elders hear cases of discipline. Christ is king, and his law is not put to a vote. His model: the people are the source of office, and the officers serve.')),
+
+        _e(Q('&ldquo;&hellip;<b>modern democracy began with the experience of the Puritan congregations</b>.&rdquo;',
+             'A. D. Lindsay, <i>The Modern Democratic State</i> (1943)', 'And back again') +
+           N('A political philosopher (Master of Balliol, Oxford), seeing it from the other direction: the self-governing congregation as the seedbed of modern democracy. The <i>ekklēsia</i> took the city&rsquo;s word; the city later learned from the congregation.')),
+    ] + list(extra) + [
+        CARD('Not a building. Not a clergy.<br>' + G('The people, assembled.'),
+             'The end of the resource. <i>Ekklēsia</i> names the gathering, every member with a voice, under Christ. &rarr; Back to the spine.'),
     ]

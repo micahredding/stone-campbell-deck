@@ -248,6 +248,7 @@ A(BIGQ(Q('&ldquo;&hellip;<b>tell it unto the church</b>&hellip; Verily I say unt
   N('In Matthew 16 the keys go to Peter. In Matthew 18 the binding and loosing go to &ldquo;the church&rdquo;: the gathering that hears a brother&rsquo;s case. Two verses later, two or three gathered, and Christ in the midst.',
     'Thomas Campbell, in the <i>Declaration and Address</i>: this is &ldquo;the awful sanction of the Church&rsquo;s judgment.&rdquo;',
     '&rarr; A church that can bind and loose can surely choose its own minister.'))
+for _x in R.ekklesia(): A(_x)                    # side path: the church as ekklesia, the assembly (shared resource)
 
 A(SRC(BIGQ(Q('&ldquo;&hellip;no one can deny that every Christian has God&rsquo;s Word and is taught of God and <b>anointed by Him to the priesthood</b>.&rdquo;', 'Martin Luther, <i>That a Christian Assembly or Congregation Has the Right and Power to Judge All Teaching and to Call, Appoint, and Dismiss Teachers</i> (1523)', 'Not new &middot; Luther, 1523'), 'clamp(32px,7.2vmin,90px)', '34ch'), 'church') +
   N('Written for the congregation at Leisnig in Saxony, which had dismissed the priest its patron appointed and wanted to call its own. Every baptized Christian is a priest; so the congregation may call.'))
