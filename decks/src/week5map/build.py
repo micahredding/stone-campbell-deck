@@ -13,7 +13,6 @@ SIDE = [
     ('Richardson&rsquo;s note',     '<div class=eyebrow>Richardson&rsquo;s note</div>', '<div class=eyebrow>Richardson&rsquo;s note</div>'),
     R.GOVERNANCE,
     R.UNIVERSALS,
-    R.CAMPBELL_REREAD,
     R.EKKLESIA,
     R.TABLE,
     ('Who was not at the table',   'who was not at the table',              'who was not at the table'),
