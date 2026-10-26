@@ -196,6 +196,7 @@ A(BIGQ(Q('&ldquo;This Society <b>by no means considers itself a Church</b>, nor 
 A(BIGQ(Q('&ldquo;Certainly, James Foster is a member, <b>having been with us from the beginning</b>, and his religious sentiments being perfectly well known to all.&rdquo;', 'Alexander Campbell, May 4, 1811 &middot; in Richardson, <i>Memoirs</i>', 'The test question')) +
   N('Thomas had each member answer a test question: &ldquo;What is the meritorious cause of a sinner&rsquo;s acceptance with God?&rdquo; Foster missed that meeting. Some said he was not a member. Alexander, &ldquo;not entirely convinced that there was any authority for such a test,&rdquo; stood up.',
     'Richardson: &ldquo;The test question, accordingly, was not propounded to him, nor to any one else afterward.&rdquo; No creed at the door, from the first day.'))
+for _x in R.unity(): A(_x)                       # side path: union, all his life (shared resource)
 
 A(BIGQ(Q('&ldquo;At this meeting, <b>Thomas Campbell was appointed elder</b>, and <b>Alexander was licensed to preach the gospel</b>. Four deacons were also chosen&hellip;&rdquo;', RICH, 'May 4, 1811')) +
   N('The deacons: John Dawson, George Sharp, William Gilcrist, James Foster. About thirty members.',

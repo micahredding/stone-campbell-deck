@@ -17,11 +17,13 @@
 #                                  "fountain of official power")
 #   table(extra=[])             -> side path: who keeps the table (who may give thanks and serve at the Supper,
 #                                  from the Scotch Baptists and Campbell to Stone, Lipscomb and today)
+#   unity(extra=[])             -> side path: union, all his life (Thomas Campbell's Declaration and Address, which
+#                                  Alexander endorsed, through the Christian Baptist, The Christian System, Lunenburg)
 #   WESTMINSTER, GOVERNANCE, UNIVERSALS,
-#   CAMPBELL_REREAD, EKKLESIA, TABLE -> (label, first-slide anchor, last-slide anchor) for SIDE
+#   CAMPBELL_REREAD, EKKLESIA, TABLE, UNITY -> (label, first-slide anchor, last-slide anchor) for SIDE
 #
 # Each resource's quotes are checked against a document: give a slide data-src=<key> to route it (see
-# doc_order). Keys: church (the-whole-church.html), acr (campbell-reread.html), ekk (ekklesia.html), tbl (the-table.html).
+# doc_order). Keys: church (the-whole-church.html), acr (campbell-reread.html), ekk (ekklesia.html), tbl (the-table.html), uni (campbell-unity.html).
 # The catalogue, with how to hang a resource and where its research lives: decks/src/RESOURCES.md
 #
 # Add a resource: write a function returning a list of slides, give its first slide a unique eyebrow and
@@ -84,6 +86,9 @@ def docs(between, clean, keys):
         'tbl': lambda: {'title': 'Who keeps the table: excerpts',
             'sub': 'Scotch Baptists, Campbell, Stone&rsquo;s <i>Christian Messenger</i>, Lipscomb, the ecumenical record, and today',
             'html': clean(src('sources', 'the-table.html'))},
+        'uni': lambda: {'title': 'Alexander Campbell on the union of Christians: excerpts',
+            'sub': 'Richardson, <i>The Christian System</i>, the <i>Christian Baptist</i> (1825&ndash;1830), the <i>Millennial Harbinger</i> (1837)',
+            'html': clean(src('sources', 'campbell-unity.html'))},
         'kjv': lambda: {'title': 'Scripture, King James Version',
             'sub': 'Passages on the church, its officers, and its table',
             'html': clean(src('sources', 'scripture-kjv.html'))},
@@ -93,7 +98,7 @@ def docs(between, clean, keys):
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
-         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table'}
+         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
@@ -101,6 +106,7 @@ def doc_order(vis, K):
     elif 'data-src=acr' in vis: o = has('acr')
     elif 'data-src=ekk' in vis: o = has('ekk')
     elif 'data-src=tbl' in vis: o = has('tbl')
+    elif 'data-src=uni' in vis: o = has('uni')
     elif 'Westminster' in vis or 'same Confession' in vis: o = has('wcf')
     elif '(KJV)' in vis: o = has('kjv')
     elif 'Christian Baptist' in vis: o = has('cb')
@@ -478,4 +484,66 @@ def table(extra=()):
     ] + list(extra) + [
         CARD('No one stands in Christ&rsquo;s place.<br>' + G('Everyone waits on everyone.'),
              'The end of the resource. &ldquo;Each one waiting upon his brother, until all were served.&rdquo; Open to all; hosted by any. &rarr; Back to the spine.'),
+    ]
+
+# ---------- side path: union, all his life ----------
+UNITY = ('Union, all his life', '<div class=eyebrow>Union, all his life', 'He never stopped saying it')
+DA_TC = 'Thomas Campbell, <i>Declaration and Address</i> (1809)'
+def _n(slide):
+    return slide.replace('<section class="slide', '<section data-src=uni class="slide', 1)
+def unity(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>Union, all his life &middot; a resource</div>'
+        '<h2 style="max-width:none">The union of all Christians,<br>from his father&rsquo;s page to Lunenburg</h2>'
+        '<aside class=notes>A resource. Alexander Campbell is remembered for the Ancient Order. He began with his father&rsquo;s plea for union, said it was the first statement of the whole cause, and repeated it through the Ancient Order years and after. Every Campbell quote is in the document &ldquo;Campbell on union.&rdquo;</aside></section>',
+
+        BIG(Q('&ldquo;That the Church of Christ upon earth is <b>essentially, intentionally, and constitutionally one</b>&hellip;&rdquo;',
+              DA_TC + ', Proposition 1', 'Thomas Campbell, 1809')) +
+        N('It goes on: &ldquo;consisting of all those in every place that profess their faith in Christ and obedience to him in all things according to the Scriptures.&rdquo; Not one denomination: everyone, everywhere, who confesses Christ.'),
+
+        Q('&ldquo;That division among the Christians is <b>a horrid evil, fraught with many evils</b>. It is antichristian, as it destroys the visible unity of the body of Christ; as if he were divided against himself&hellip;&rdquo;',
+          DA_TC + ', Proposition 10') +
+        N('Then: &ldquo;antiscriptural&hellip; antinatural.&rdquo; Division is not a difference of style. It is Christ divided against himself.'),
+
+        _n(Q('&ldquo;While examining the proof-sheets of the &lsquo;Declaration and Address&rsquo;&hellip; <b>he was greatly impressed with the importance of the principles laid down</b>&hellip;&rdquo;',
+             'Robert Richardson, <i>Memoirs of Alexander Campbell</i> (1868)', 'The son reads the proofs') +
+           N('Autumn 1809: Alexander, just off the boat from Scotland, read his father&rsquo;s pages as they came from the printer in Washington, Pennsylvania. He took them as his own program for life.')),
+
+        _n(Q('&ldquo;&hellip;a project many years ago for <b>uniting the sects, or rather the Christians in all the sects</b>, upon a clear and scriptural bond of union&hellip; This was offered in the year 1809, in the &lsquo;Declaration and Address.&rsquo;&rdquo;',
+             'Alexander Campbell, <i>The Christian System</i> (1839), Preface', 'Thirty years later') +
+           N('He names his father&rsquo;s document as the start of the whole movement: &ldquo;The first piece that was written on the subject of the great position appeared from the pen of Thomas Campbell, Senior, in the year 1809.&rdquo; It made &ldquo;faith in Christ and obedience to him the only test of Christian character, and the only bond of church union.&rdquo; Wryly: &ldquo;It was indeed approved by all; but adopted and practised by none.&rdquo;')),
+
+        _n(Q('&ldquo;I have no idea of seeing, nor one wish to see, the sects unite in one grand army&hellip; It is only <b>the disciples of Christ dispersed among them</b>, that reason and benevolence would call out of them. <b>Let them unite who love the Lord</b>&hellip;&rdquo;',
+             'Alexander Campbell, <i>The Christian Baptist</i>, April 1825', 'In the middle of the Ancient Order') +
+           N('The same months as the first &ldquo;Restoration of the Ancient Order&rdquo; essays. Not a merger of denominations: the Christians scattered through every denomination, uniting. In 1837 he quoted this very passage to prove he had always believed there were Christians among the sects.')),
+
+        _n(BIG(Q('&ldquo;&hellip;if I thought there was any man on this continent who would go farther than I to heal all divisions and to unite all christians&hellip; <b>I would travel on foot a hundred miles to see him and to confess my faults to him</b>.&rdquo;',
+                 'Alexander Campbell, <i>The Christian Baptist</i>, 1827'))) +
+        N('To a Baptist critic, Spencer Clack. He goes on: the union of all who acknowledge Jesus is &ldquo;the <i>summum bonum</i>, the grand ultimatum of all my &lsquo;writings, orations, lectures,&rsquo; and social prayers.&rdquo;'),
+
+        _n(Q('&ldquo;If, then, the phrases &lsquo;Ancient Gospel,&rsquo; or &lsquo;Ancient Order of Things,&rsquo; should become <b>a dividing discrimination among Christians</b>, we must enter our protest against them&hellip;&rdquo;',
+             'Alexander Campbell, <i>The Christian Baptist</i>, 1829', 'Against his own slogan') +
+           N('He saw the danger in his own phrase: the Ancient Order turning into one more party badge. He protested in advance.')),
+
+        _n(Q('&ldquo;&hellip;to lay a foundation, <b>an imperishable foundation, for the union of all christians</b>, and for their co-operation in spreading the glorious gospel throughout the world.&rdquo;',
+             'Alexander Campbell, <i>The Christian Baptist</i>, &ldquo;Concluding Remarks,&rdquo; 1830', 'What the Ancient Order was for') +
+           N('His summary of the seven years of the <i>Christian Baptist</i>: restore the ancient order, emancipate the conscience, and lay a foundation for the union of all Christians. The order was the means; union was the end.')),
+
+        '<section data-src=uni class="slide"><div class=eyebrow>Two propositions &middot; <i>The Christian System</i>, 1839</div>'
+        '<div class=litany style="font-size:1.9em;max-width:88vw;gap:3vmin">'
+        '<div class="no frag">&ldquo;1st. <b>Nothing is essential to the conversion of the world but the union and co-operation of Christians.</b>&rdquo;</div>'
+        '<div class="no frag">&ldquo;2d. <b>Nothing is essential to the union of Christians but the Apostles&rsquo; teaching or testimony.</b>&rdquo;</div>'
+        '</div><div class=cite>Alexander Campbell, <i>The Christian System</i>, &ldquo;Foundation of Christian Union&rdquo;</div>'
+        '<aside class=notes>Two clicks. John 17: &ldquo;that they all may be one&hellip; that the world may believe.&rdquo; He goes on: &ldquo;Neither truth alone nor union alone is sufficient to subdue the unbelieving nations; but truth and union combined are omnipotent.&rdquo;</aside></section>',
+
+        _n(Q('&ldquo;&hellip;I could not hesitate a moment in giving the preference of my heart <b>to him that loveth most</b>. Did I act otherwise, I would be a pure sectarian, <b>a Pharisee among Christians</b>.&rdquo;',
+             'Alexander Campbell, <i>Millennial Harbinger</i>, September 1837', 'Lunenburg, 1837') +
+           N('A woman from Lunenburg, Virginia, objected that he had called the unimmersed Christians. His answer: a Christian is &ldquo;every one that believes in his heart that Jesus of Nazareth is the Messiah, the Son of God; repents of his sins, and obeys him in all things according to his measure of knowledge of his will.&rdquo; Not even immersion would he make the test.')),
+
+        _n(Q('&ldquo;&hellip;what could mean all that we have written upon the union of Christians on apostolic grounds, <b>had we taught that all Christians in the world were already united in our own community</b>?&rdquo;',
+             'Alexander Campbell, <i>Millennial Harbinger</i>, 1837', 'Answering the critics') +
+           N('His readers were angry. He refused to retreat: &ldquo;I have neither conceded nor surrendered any thing for which I ever contended&hellip; the opinion now expressed&hellip; is one that I have always avowed.&rdquo; A plea for union only makes sense if there are Christians outside your own church.')),
+    ] + list(extra) + [
+        CARD('From 1809 to 1837 and beyond,<br>' + G('He never stopped saying it.'),
+             'The end of the resource. The Church of Christ upon earth is one. The Ancient Order was meant to serve that, never to replace it. &rarr; Back to the spine.'),
     ]
