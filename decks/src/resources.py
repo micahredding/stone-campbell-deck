@@ -8,7 +8,12 @@
 #   westminster(extra=[])       -> side path: quoting the Westminster Confession against itself
 #   governance(extra=[])        -> side path: who governs the church (Matthew 18, Westminster 30, the
 #                                  Declaration and Address, the Last Will, Alexander Campbell)
-#   WESTMINSTER, GOVERNANCE     -> (label, first-slide anchor, last-slide anchor) for SIDE
+#   universals(extra=[])        -> side path: the whole church remembers (priesthood, governance, baptism,
+#                                  the table, from Cyprian to the Lima text)
+#   campbell_reread(extra=[])   -> side path: Alexander Campbell, reread (the ancient order as liberation and
+#                                  foretaste; Lunenburg 1837; the Address on War, 1848)
+#   WESTMINSTER, GOVERNANCE,
+#   UNIVERSALS, CAMPBELL_REREAD -> (label, first-slide anchor, last-slide anchor) for SIDE
 #
 # Add a resource: write a function returning a list of slides, give its first slide a unique eyebrow and
 # its last a unique phrase, and add the anchor tuple here. Quotes in it must be in one of the documents.
@@ -58,6 +63,9 @@ def docs(between, clean, keys):
         'church': lambda: {'title': 'The whole church: excerpts on priesthood, governance, baptism, and the table',
             'sub': 'Cyprian, Leo the Great, Luther (1523), the Eastern Patriarchs (1848), Schmemann, Afanasiev, Vatican II, Pope Francis, the 2024 Synod, the Lima text',
             'html': clean(src('sources', 'the-whole-church.html'))},
+        'acr': lambda: {'title': 'Alexander Campbell, reread: excerpts',
+            'sub': '<i>The Christian Baptist</i> (1825, 1829, 1830), the Lunenburg letter (1837), the Address on War (1848) &middot; transcribed from the scans',
+            'html': clean(src('sources', 'campbell-reread.html'))},
         'kjv': lambda: {'title': 'Scripture, King James Version',
             'sub': 'Passages on the church, its officers, and its table',
             'html': clean(src('sources', 'scripture-kjv.html'))},
@@ -66,11 +74,13 @@ def docs(between, clean, keys):
 
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
-         'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church'}
+         'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
+         'acr': 'Campbell, reread'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
     if 'data-src=church' in vis: o = has('church') + [i for i in range(len(K)) if K[i] != 'church']
+    elif 'data-src=acr' in vis: o = has('acr')
     elif 'Westminster' in vis or 'same Confession' in vis: o = has('wcf')
     elif '(KJV)' in vis: o = has('kjv')
     elif 'Christian Baptist' in vis: o = has('cb')
@@ -245,3 +255,65 @@ def universals(extra=()):
              'The end of the resource. Distinctive only where others let a universal slip. &rarr; Back to the spine.'),
     ]
 
+
+# ---------- side path: Alexander Campbell, reread ----------
+CAMPBELL_REREAD = ('Alexander Campbell, reread', '<div class=eyebrow>Alexander Campbell, reread', 'A future to rehearse')
+AC_CB = 'Alexander Campbell, <i>The Christian Baptist</i>'
+AC_MH = 'Alexander Campbell, <i>Millennial Harbinger</i>, September 1837'
+AC_W = 'Alexander Campbell, &ldquo;Address on War,&rdquo; Wheeling, 1848'
+def _a(quote, cite, eyebrow='', note=''):
+    """a quote slide whose quotes are checked against the Campbell excerpts"""
+    return Q(quote, cite, eyebrow).replace('<section class="slide"', '<section data-src=acr class="slide"', 1) + N(note)
+def campbell_reread(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>Alexander Campbell, reread &middot; a resource</div>'
+        '<h2 style="max-width:none">The ancient order was a hope,<br>not a fence</h2>'
+        '<aside class=notes>A resource. Campbell is remembered as the father of the pattern: get the forms right. In his own words the ancient order was the means; freedom of conscience, the union of all Christians and a foretaste of the age to come were the end. Every quote is in the document &ldquo;Campbell, reread.&rdquo;</aside></section>',
+
+        # the ancient order, reread
+        _a('&ldquo;A restoration of the ancient order of things is all that is necessary to <b>the happiness and usefulness of christians</b>.&rdquo;',
+           AC_CB + ', 1825', 'The ancient order, reread',
+           'The first essay of the series, &ldquo;A Restoration of the Ancient Order of Things. No. I.&rdquo; Its measure: happiness and usefulness, not correctness. The same essay: &ldquo;we have had reformations enough.&rdquo;'),
+        _a('&ldquo;Just in so far as the ancient order of things&hellip; is restored, <b>just so far has the Millennium commenced</b>, and so far have its blessings been enjoyed.&rdquo;',
+           AC_CB + ', 1825', 'Not a rulebook: a foretaste',
+           'Restoration looks forward. Recovering the church&rsquo;s first practices is how the age to come begins early, the same thought as Brush Run&rsquo;s table, &ldquo;an emblem of the millennial state of the Church.&rdquo;'),
+        _a('&ldquo;If, then, the phrases &lsquo;Ancient Gospel,&rsquo; or &lsquo;Ancient Order of Things,&rsquo; should become <b>a dividing discrimination among Christians</b>, we must enter our protest against them&hellip;&rdquo;',
+           AC_CB + ', 1829', 'Against his own slogan',
+           'The next line: &ldquo;We now use them not for the discrimination of persons, but for the discrimination of truth from error.&rdquo; He foresaw the phrase becoming a badge, and protested in advance.'),
+        _a('&ldquo;&hellip;the time will come when the terms <b>glad tidings, christian, and congregation</b>, without any epithet or adjunct, will be universally received&hellip;&rdquo;',
+           AC_CB + ', 1829', '',
+           'No party name, not even his own. The plain words, held in common by all.'),
+        '<section data-src=acr class="slide"><div class=eyebrow>What the <i>Christian Baptist</i> was for &middot; 1830</div>'
+        '<div class=litany style="font-size:1.75em;max-width:88vw;gap:2.8vmin">'
+        '<div class="no frag">&ldquo;&hellip;to restore <b>a pure speech</b> to the people of God&rdquo;</div>'
+        '<div class="no frag">&ldquo;&hellip;to restore <b>the ancient order of things</b> in the christian kingdom&rdquo;</div>'
+        '<div class="no frag">&ldquo;&hellip;to <b>emancipate the conscience</b> from the dominion of human authority in matters of religion&rdquo;</div>'
+        '<div class="no frag">&ldquo;&hellip;for <b>the union of all christians</b>&rdquo;</div>'
+        '</div><div class=cite>' + AC_CB + ', &ldquo;Concluding Remarks&rdquo; (1830)</div>'
+        '<aside class=notes>Four clicks. His own summary of seven years. The ancient order is one item of four, and the list ends in conscience and union.</aside></section>',
+        CARD('The ancient order was the means.<br>' + G('Freedom and union were the end.'),
+             'The pattern served the promise. Read him the other way round and you get the legalism he is blamed for.'),
+
+        # the open Campbell
+        Q('&ldquo;<b>God loves his children more than our creeds</b>, and man was not made for the Bible, but the Bible for man.&rdquo;',
+          AC_R + ', 1810', 'The open Campbell') +
+        N('Twenty-one years old, explaining why he would not join a party: &ldquo;Because no party will receive into communion all whom God would receive into heaven.&rdquo;'),
+        _a('&ldquo;But who is a Christian? I answer, Every one that believes in his heart that Jesus of Nazareth is the Messiah, the Son of God; repents of his sins, and obeys him in all things <b>according to his measure of knowledge of his will</b>.&rdquo;',
+           AC_MH, 'Lunenburg, 1837',
+           'He had written that &ldquo;we find in all Protestant parties Christians as exemplary as ourselves.&rdquo; A sister in Lunenburg, Virginia, wrote to object: how could the unimmersed be Christians? This is his answer.'),
+        _a('&ldquo;I cannot, therefore, make <b>any one duty</b> the standard of Christian state or character, <b>not even immersion</b>&hellip;&rdquo;',
+           AC_MH, 'Lunenburg, 1837',
+           'The father of believer&rsquo;s immersion in our movement, refusing to make it the test of who is a Christian. He went on teaching immersion; he would not use it to unchurch anyone.'),
+        _a('&ldquo;&hellip;I could not hesitate a moment in giving the preference of my heart <b>to him that loveth most</b>. Did I act otherwise, I would be a pure sectarian, <b>a Pharisee among Christians</b>.&rdquo;',
+           AC_MH, 'Lunenburg, 1837',
+           'The sentence before: &ldquo;Should I find a Pedobaptist more intelligent in the Christian Scriptures, more spiritually-minded and more devoted to the Lord than a Baptist&hellip;&rdquo; The letters that came in were angry; he answered them for months and did not retreat.'),
+        _a('&ldquo;&hellip;we have no Christian nation or kingdom in the world, but that <b>Christ has one grand kingdom, composed of all the Christian communities in the world</b>&hellip;&rdquo;',
+           AC_W, 'The Address on War',
+           'Delivered in 1848, during the Mexican War, as a lecture on whether one Christian nation may make war on another. The church is one kingdom across every border, so the question becomes: can Christ&rsquo;s kingdom fight itself?'),
+        _a('&ldquo;Their sovereign Lord, the King of nations, is called &lsquo;the Prince of Peace.&rsquo; How, then, could a Christian soldier&hellip; enlist to fight the battles of <b>a Caesar, a Hannibal, a Tamerlane, a Napoleon, or even a Victoria</b>?&rdquo;',
+           AC_W, 'The Address on War',
+           'He goes further than refusal: &ldquo;Why not&hellip; have a congress of nations and a high court of nations&rdquo; to settle disputes, decades before anyone built one. And: &ldquo;the moral desolations of war surpass even its horrors.&rdquo;'),
+    ] + list(extra) + [
+        CARD('Not a pattern to police.<br>' + G('A future to rehearse.'),
+             'The end of the resource. Honest shadows: the same man was slow and divided on slavery, and later writers drew the narrower Campbell from him too. Both are in him; we choose which to inherit. &rarr; Back to the spine.'),
+    ]

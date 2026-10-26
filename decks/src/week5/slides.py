@@ -174,6 +174,7 @@ A('<section class="slide"><div class=eyebrow>Richardson&rsquo;s note</div>'
 A(BIGQ(Q('&ldquo;I dare not be a party man for these reasons&hellip; <b>Because no party will receive into communion all whom God would receive into heaven.</b>&rdquo;', AC + ', 1810'), 'clamp(32px,7.2vmin,90px)', '34ch') +
   N('From an address after a sermon at Mr. Buchanan&rsquo;s, the same season. The next line: &ldquo;God loves his children more than our creeds, and man was not made for the Bible, but the Bible for man.&rdquo;',
     'Chapter 1&rsquo;s table and Chapter 2&rsquo;s trial, in one sentence.'))
+for _x in R.campbell_reread(): A(_x)             # side path: Alexander Campbell, reread (shared resource)
 
 # ---------- BRUSH RUN ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg brushbg"></div></div>'
