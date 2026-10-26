@@ -76,7 +76,7 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
   '<div class=sub>Brush Run, Pennsylvania &middot; 1811&ndash;1812</div>'
   '<aside class=notes>Matthew 18:20, and the <i>Declaration and Address</i> quotes it (we will see where). The Campbells&rsquo; side of the story, picking up where Chapter 2 left Alexander: off the coast of Scotland. Two points tonight: who serves the table, and where authority lives.<br>'
-  'The hour: the sea 3 &middot; Glasgow 4 &middot; reunion 3 &middot; the first sermon 4 &middot; Brush Run 8 &middot; the ordination 8 &middot; who serves the table 7 &middot; two or three gathered 9 &middot; close 10.</aside></section>')
+  'The hour: the sea 3 &middot; Glasgow 5 &middot; reunion 3 &middot; Brush Run 8 &middot; the ordination 8 &middot; who serves the table 7 &middot; two or three gathered 9 &middot; close 10.</aside></section>')
 # ---------- ALEXANDER AND THE SEA ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg wreckbg5"></div></div>'
   '<div class=credit>Philippe-Jacques de Loutherbourg, <i>A Shipwreck off a Rocky Coast</i> &middot; not the Hibernia</div>'
@@ -88,10 +88,16 @@ A(DIM(Q('&ldquo;It was then in that solemn hour, that he gave himself up wholly 
     '&rarr; &ldquo;Hold the mast. It comes back at the ordination.&rdquo;'))
 # ---------- GLASGOW ----------
 A('<section class="slide"><div class=eyebrow>Glasgow &middot; winter 1808&ndash;09</div>'
-  '<h2>He went to hear Greville Ewing.</h2>'
-  '<div class="sub frag">Fifteen hundred people in a converted circus.</div>'
-  '<div class="sub frag">Ewing told him of the Haldanes: <b>laymen who preached without ordination</b>.</div>'
-  '<aside class=notes>Two clicks. The family wintered in Glasgow after the wreck; Alexander studied at the university and was often at Ewing&rsquo;s house. Ewing had left the Church of Scotland to join the Haldanes, ran their Tabernacle, and kept the Supper weekly. James Haldane preached for years before anyone ordained him, and was once arrested &ldquo;at the instigation of the clergy.&rdquo; Hearing other preachers was exactly what his father had been tried for.</aside></section>')
+  '<h2>He went to hear other preachers.</h2>'
+  '<div class="sub frag">Above all <b>Greville Ewing</b>: fifteen hundred people in a converted circus.</div>'
+  '<div class="sub frag">The very thing his father was tried for: <b><i>occasional hearing</i></b>.</div>'
+  '<aside class=notes>Two clicks. The family wintered in Glasgow after the wreck; Alexander studied at the university. He found the Seceder minister &ldquo;a prosy speaker&rdquo; and went to hear others whenever he could, above all Ewing at the Tabernacle. Back in Pennsylvania his father had been condemned for saying Seceders might hear ministers of other churches.<br>&rarr; &ldquo;The son is doing every week what the father was condemned for.&rdquo;</aside></section>')
+
+A('<section class="slide"><div class=eyebrow>At Ewing&rsquo;s house</div>'
+  '<h2>Ewing told him the story of the Haldanes.</h2>'
+  '<div class="sub frag">Two Scottish <b>laymen</b> who began preaching the gospel without ordination.</div>'
+  '<div class="sub frag">James Haldane was <b>arrested at the instigation of the clergy</b>.</div>'
+  '<aside class=notes>Two clicks. Robert and James Haldane, wealthy ex-navy laymen; James preached for years before he was ordained. Ewing had left the Church of Scotland to join them, ran their Glasgow Tabernacle, and kept the Supper weekly. His father had also been condemned for letting elders, not ministers, pray and exhort. Richardson says this story, more than anything, changed Alexander&rsquo;s mind.</aside></section>')
 
 A(Q('&ldquo;&hellip;the principles of Congregationalism entertained by Mr. Ewing, which secured <b>an entire emancipation from the control of domineering Synods and General Assemblies</b>&hellip;&rdquo;', RICH, 'What he came to want') +
   N('&ldquo;&hellip;and which seemed to him much more accordant with primitive usage.&rdquo; The congregation free of the church courts: the seed of tonight.'))
@@ -117,23 +123,6 @@ A('<section class="slide hard"><h2>The father opened the table to people who had
   '<div class="sub frag">The son held a valid token, and would not use it.</div>'
   '<div class="sub frag"><b>Neither knew.</b></div>'
   '<aside class=notes>Two clicks. Say it plain and stop.<br>The father had been tried for serving the Supper to Presbyterians of other kinds in 1807; the son had walked away from a fenced table in 1809.</aside></section>')
-# ---------- THE FIRST SERMON ----------
-A('<section class="slide bleed"><div class=bg><div class="bgimg grovebg5"></div></div>'
-  '<div class=credit>An American forest, 19th-century painting &middot; not the Templeton farm</div>'
-  '<div class=eyebrow>July 15, 1810 &middot; a grove on Major Templeton&rsquo;s farm</div>'
-  '<h2>His first sermon</h2>'
-  '<aside class=notes>Eight miles from Washington, Pennsylvania. He was twenty-one. His father had had him speak once, briefly, at a house meeting that spring; this was his first real sermon, written out and memorized.</aside></section>')
-A(BIGQ(Q('&ldquo;When the hour arrived, he rose up with modest dignity, in the temporary stand erected for the occasion, in front of which the audience were seated <b>upon rough planks or upon the grass beneath the shady maples</b>&hellip;&rdquo;', RICH)) +
-  N('His text: the close of the Sermon on the Mount, Matthew 7:24&ndash;27, the wise man who built his house upon a rock.',
-    'No church building, no ordination, no license.'))
-A(CARD('In his first year he preached<br>' + G('one hundred and six sermons.'),
-  'Richardson: &ldquo;no less than one hundred and six sermons&rdquo;, at the crossroads, in Washington, at Buffalo, in houses, into Ohio. Nobody had ordained him. &rarr; &ldquo;Someone noticed.&rdquo;'))
-# ---------- THE SYNOD ----------
-A('<section class="slide breath"><div class=eyebrow>October 1810 &middot; why the Synod would not have Thomas Campbell</div>'
-  '<h2 style="max-width:22ch;font-size:clamp(44px,8.6vmin,112px);line-height:1.12">&ldquo;for encouraging or countenancing his son to preach the gospel ' + G('without any regular authority') + '&rdquo;</h2>'
-  '<div class=cite style="margin-top:3vmin">' + MIN + '</div>'
-  '<aside class=notes>No clicks. In October 1810 Thomas Campbell asked the Presbyterian Synod of Pittsburg to receive him. Among their reasons for refusing: his son. Alexander was doing what his father was charged with countenancing, preaching with no presbytery&rsquo;s license.<br>&rarr; &ldquo;Who gave him authority? Hold that; Brush Run answers it.&rdquo;</aside></section>')
-
 # ---------- BRUSH RUN ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg brushbg"></div></div>'
   '<div class=credit>The Brush Run meeting house, reconstructed at Bethany &middot; courtesy of Bethany College</div>'
@@ -278,12 +267,22 @@ A('<section class="slide ideasmap"><div class=eyebrow>What this week touched</di
 # Not in Chapter 5. Kept for another day as its own deck: decks/src/reserve5/build.py (RES below).
 RES = []
 RS = RES.append
-RS('<section class="slide"><div class=eyebrow>Glasgow &middot; 1808&ndash;09 &middot; from Chapter 2</div>'
-  '<div class="litany bigl">'
-  '<div class="no frag">He heard other preachers, the thing his father was condemned for.</div>'
-  '<div class="no frag">He heard of the Haldanes: <b>laymen who preached without ordination</b>.</div>'
-  '<div class="no frag">He held a communion token, and <b>would not use it</b>.</div>'
-  '</div><aside class=notes>Three clicks, one per line; quickly, the room has heard it. The Haldanes matter tonight: two Scottish laymen, preaching the gospel unordained, one of them arrested at the clergy&rsquo;s instigation.</aside></section>')
+RS('<section class="slide bleed"><div class=bg><div class="bgimg grovebg5"></div></div>'
+  '<div class=credit>An American forest, 19th-century painting &middot; not the Templeton farm</div>'
+  '<div class=eyebrow>July 15, 1810 &middot; a grove on Major Templeton&rsquo;s farm</div>'
+  '<h2>His first sermon</h2>'
+  '<aside class=notes>Eight miles from Washington, Pennsylvania. He was twenty-one. His father had had him speak once, briefly, at a house meeting that spring; this was his first real sermon, written out and memorized.</aside></section>')
+RS(BIGQ(Q('&ldquo;When the hour arrived, he rose up with modest dignity, in the temporary stand erected for the occasion, in front of which the audience were seated <b>upon rough planks or upon the grass beneath the shady maples</b>&hellip;&rdquo;', RICH)) +
+  N('His text: the close of the Sermon on the Mount, Matthew 7:24&ndash;27, the wise man who built his house upon a rock.',
+    'No church building, no ordination, no license.'))
+RS(CARD('In his first year he preached<br>' + G('one hundred and six sermons.'),
+  'Richardson: &ldquo;no less than one hundred and six sermons&rdquo;, at the crossroads, in Washington, at Buffalo, in houses, into Ohio. Nobody had ordained him. &rarr; &ldquo;Someone noticed.&rdquo;'))
+# ---------- THE SYNOD ----------
+RS('<section class="slide breath"><div class=eyebrow>October 1810 &middot; why the Synod would not have Thomas Campbell</div>'
+  '<h2 style="max-width:22ch;font-size:clamp(44px,8.6vmin,112px);line-height:1.12">&ldquo;for encouraging or countenancing his son to preach the gospel ' + G('without any regular authority') + '&rdquo;</h2>'
+  '<div class=cite style="margin-top:3vmin">' + MIN + '</div>'
+  '<aside class=notes>No clicks. In October 1810 Thomas Campbell asked the Presbyterian Synod of Pittsburg to receive him. Among their reasons for refusing: his son. Alexander was doing what his father was charged with countenancing, preaching with no presbytery&rsquo;s license.<br>&rarr; &ldquo;Who gave him authority? Hold that; Brush Run answers it.&rdquo;</aside></section>')
+
 RS('<section class="slide bleed"><div class=bg><div class="bgimg synodbg5"></div></div>'
   '<div class=credit>The Synod of Dort, 1618&ndash;19 &middot; painting attributed to Pouwels Weyts, c. 1621</div>'
   '<div class=eyebrow>Washington, Pennsylvania &middot; October 1810</div>'

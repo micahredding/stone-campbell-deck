@@ -10,7 +10,7 @@ SIDE = [
     ('Richardson&rsquo;s note', '<div class=eyebrow>Richardson&rsquo;s note</div>', '<div class=eyebrow>Richardson&rsquo;s note</div>'),
 ]
 SECTIONS = [
-    ('Opening', '<h1>The Synod and the Reply</h1>'),
+    ('Opening', '<h1>The Synod and the Reply</h1>'), ('The first sermon', '<h2>His first sermon</h2>'),
     ('The Synod', '<h2>The Synod of Pittsburg</h2>'), ('Alexander answers', '<h2>Alexander Answers</h2>'),
     ('Brush Run, more', 'by no means considers itself a Church'),
 ]
