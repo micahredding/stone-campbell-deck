@@ -10,6 +10,7 @@
 - Make text as large as the slide allows; match earlier weeks' formats (ideas, discussion, quiz, site slide).
 - Opening quizzes come from `quizzes.md`, not from the slide material.
 - Chapter 3b's presenter notes for slides 1–62 are generated from `week3b-transcript.md` (one `**Slide N · …**` section per slide). Edit notes there, and keep its slide numbers in step when slides move.
+- **Primary themes, Chapter 5 on:** ordination at the hands of the congregation (so authority lives in the congregation) and serving the table (not only open to all, but hosted by any). Both go straight to the priesthood of all believers; frame slides, ideas and side paths around them (`resources.py`: the assembly, who keeps the table, church government).
 - Prioritize keeping Campbell quotations on screen; when simplifying, cut commentary and non-Campbell slides first, never move a Campbell quote to the notes without asking.
 
 ## Build-ins

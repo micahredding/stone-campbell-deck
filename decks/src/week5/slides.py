@@ -42,8 +42,8 @@ IDEAS = [
      'It inheres in every Christian and in the gathered church, not in an order above them. &ldquo;The clergy are the opposite to the laity&hellip; Trace them to their origin and we find no difference.&rdquo; Our movement embraces this deeply: no clergy-laity line, and the table kept by the congregation itself. Campbell: the royal priesthood is &ldquo;consecrated to officiate&rdquo;, not by a bishop&rsquo;s hands but by Christ&rsquo;s blood.'),
     ('The power to ordain<br>' + G('belongs to the people.'),
      '&ldquo;It is not the persons called bishops who have the power, but the people.&rdquo; Ordination does not confer authority; it testifies to it. Matthew 18 gives the keys to the gathered church; Luther said it in 1523; Cane Ridge willed it in 1804; Brush Run did it in 1812.'),
-    ('The table is a taste of<br>' + G('the age to come.'),
-     'At the first Lord&rsquo;s Supper at Brush Run: &ldquo;an emblem of the millennial state of the Church&rdquo;, men of different names sitting down together in the kingdom of God. Not a memorial only: God&rsquo;s future, arriving early. That is why the fences around it had to come down. &rarr; Next week: the Millennial Harbinger.'),
+    ('The priesthood of all believers<br>' + G('keeps the table.'),
+     'Not only open to all: hosted by any. Campbell: the royal priesthood is &ldquo;consecrated to officiate&rdquo;; the one who gives thanks breaks the loaf &ldquo;not as the representative of the Lord, but after his example.&rdquo; Lipscomb: &ldquo;This is not officiating, for any disciple can do this.&rdquo; And the table is a taste of the age to come: &ldquo;an emblem of the millennial state of the Church.&rdquo; &rarr; Next week: the Millennial Harbinger.'),
 ]
 def IDEA(k):
     h, n = IDEAS[k - 1]
@@ -317,7 +317,7 @@ A(CARD('The Springfield Presbytery died<br>so that congregations could choose.<b
 A(BLACK)
 
 # ---------- CLOSE ----------
-DISCUSS = re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>Backup prompts (off the slide): Who has authority in our congregation, and where did it come from? What would it mean to believe every member could be called? What does our table look like as a taste of the age to come?</aside>',
+DISCUSS = re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>Backup prompts (off the slide): Who has authority in our congregation, and where did it come from? What would it mean to believe every member could be called? Who gives thanks at our table, and why that person?</aside>',
                  w3b.pick('&#9670; for discussion', 0), flags=re.S)
 A(DISCUSS)
 for _k in range(1, len(IDEAS) + 1): A(IDEA(_k))

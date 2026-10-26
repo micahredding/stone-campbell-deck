@@ -14,7 +14,7 @@
 #                                  foretaste; Lunenburg 1837; the Address on War, 1848)
 #   ekklesia(extra=[])          -> side path: the church as ekklesia, the assembly (the Greek citizens' assembly,
 #                                  1 Corinthians 14 in Campbell's Living Oracles, Tyndale, Campbell's
-#                                  "fountain of official power", and his warning against "a democracy of the whole")
+#                                  "fountain of official power")
 #   table(extra=[])             -> side path: who keeps the table (who may give thanks and serve at the Supper,
 #                                  from the Scotch Baptists and Campbell to Stone, Lipscomb and today)
 #   WESTMINSTER, GOVERNANCE, UNIVERSALS,
@@ -395,10 +395,6 @@ def ekklesia(extra=()):
 
         _e(BIG(Q('&ldquo;<b>Servants made by servants are servants of servants.</b>&rdquo;', 'Alexander Campbell, <i>The Christian System</i> (1839)'), 'clamp(44px,10vmin,130px)', '20ch')) +
         N('The next sentence after &ldquo;the fountain of official power.&rdquo; Against ordination handed down through a line of clergy: office comes from the body, through Christ, not from the officers.'),
-
-        _e(Q('&ldquo;No wonder that broils and heart-burnings, and scandals of all sorts disturb those communities <b>ruled by a democracy of the whole</b> &mdash; where every thing is to be judged in public and full assembly. Such is not the Christian system.&rdquo;',
-             'Alexander Campbell, <i>The Christian System</i> (1839)', 'His limit') +
-           N('Say it plainly: Campbell was not a direct democrat. The whole congregation receives and excludes members and chooses its officers; elders hear cases of discipline. Christ is king, and his law is not put to a vote. His model: the people are the source of office, and the officers serve.')),
 
         _e(Q('&ldquo;&hellip;<b>modern democracy began with the experience of the Puritan congregations</b>.&rdquo;',
              'A. D. Lindsay, <i>The Modern Democratic State</i> (1943)', 'And back again') +
