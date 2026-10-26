@@ -9,8 +9,6 @@ import mapdeck, resources as R
 
 SIDE = [
     # (label,                      first-slide anchor,                      last-slide anchor)
-    R.WESTMINSTER,
-    ('Richardson&rsquo;s note',     '<div class=eyebrow>Richardson&rsquo;s note</div>', '<div class=eyebrow>Richardson&rsquo;s note</div>'),
     R.GOVERNANCE,
     R.UNIVERSALS,
     R.EKKLESIA,
@@ -19,11 +17,11 @@ SIDE = [
     ('Addendum',                   'Reference material; not part of the telling', 'What this week touched'),
 ]
 SECTIONS = [
-    ('Opening', 'Otter Creek'), ('The hook', 'The cold open.'),
-    ('The sea', '<h2>Alexander and the Sea</h2>'), ('The first sermon', '<h2>His first sermon</h2>'),
-    ('The Synod', '<h2>The Synod of Pittsburg</h2>'), ('Alexander answers', '<h2>Alexander Answers</h2>'),
+    ('Opening', 'Otter Creek'), ('The sea', '<h2>Alexander and the Sea</h2>'),
+    ('Glasgow', 'He went to hear Greville Ewing.'), ('Reunion', 'Thomas rode out to meet them.'),
     ('Brush Run', '<h2>Brush Run</h2>'), ('The ordination', '<h2>The Ordination</h2>'),
-    ('Tying back', '<h2>Two Wills, One Bequest</h2>'), ('Close', 'for discussion'),
+    ('Who serves the table?', '<h2>Who serves the table?</h2>'), ('Two or three gathered', '<h2>Where two or three are gathered</h2>'),
+    ('Close', 'for discussion'),
 ]
 
 # The sources whole, from the shared library (decks/src/resources.py): Richardson's Memoirs (excerpts),
@@ -33,9 +31,8 @@ DOC_KEYS = ['rich', 'dna', 'will', 'wcf', 'kjv', 'stone', 'apology', 'cb', 'chur
 def docs(between, clean): return R.docs(between, clean, DOC_KEYS)
 SHORT = R.SHORT
 DOC_DOORS = [('Richardson&rsquo;s account, whole', '<h2>Brush Run</h2>', 0),
-             ('The Westminster Confession, whole', '<h2>The Synod of Pittsburg</h2>', 3),
-             ('The whole Declaration and Address', '<h2>Two Wills, One Bequest</h2>', 1),
-             ('The whole will', '<h2>Two Wills, One Bequest</h2>', 2),
+             ('The whole Declaration and Address', '<h2>Where two or three are gathered</h2>', 1),
+             ('The whole will', '<h2>Where two or three are gathered</h2>', 2),
              ('Scripture on the church (KJV)', 'Wherever Two or Three<br>Are Gathered', 4)]
 doc_order = R.doc_order
 

@@ -1,0 +1,425 @@
+{
+ "deck": "decks/reserve-synod-and-reply-map.html",
+ "source": "decks/src/week5/slides.py (RES)",
+ "built_by": "decks/src/reserve5/build.py",
+ "slides": [
+  {
+   "index": 0,
+   "n": 1,
+   "title": "Our Wild Democracy in reserve The Synod and the Reply Washington, Pennsylvania 1810",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 1,
+   "n": 2,
+   "title": "Why the Synod would not have them \"for encouraging or countenancing his son to preach the ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 2,
+   "n": 3,
+   "title": "Glasgow 1808-09 from Chapter 2 He heard other preachers, the thing his father was condemne",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 3,
+   "n": 4,
+   "title": "An American forest, 19th-century painting not the Templeton farm July 15, 1810 a grove on ",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 4,
+   "n": 5,
+   "title": "\"When the hour arrived, he rose up with modest dignity, in the temporary stand erected for",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 5,
+   "n": 6,
+   "title": "In his first year he preached one hundred and six sermons.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 6,
+   "n": 7,
+   "title": "The Synod of Dort, 1618-19 painting attributed to Pouwels Weyts, c. 1621 Washington, Penns",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 7,
+   "n": 8,
+   "title": "October 4, 1810 \"...the Synod unanimously resolved, that however specious the plan of the ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 8,
+   "n": 9,
+   "title": "\"...Mr. Campbell's request to be received into ministerial and Christian communion cannot ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 9,
+   "n": 10,
+   "title": "The \"important reasons,\" October 5 \"for expressing his belief that there are some opinions",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 10,
+   "n": 11,
+   "title": "Quoting the Confession against itself The Westminster Confession The standard they were al",
+   "path": "Quoting the Confession against itself",
+   "doc": null
+  },
+  {
+   "index": 11,
+   "n": 12,
+   "title": "\"The whole counsel of God... is either expressly set down in Scripture, or by good and nec",
+   "path": "Quoting the Confession against itself",
+   "doc": "wcf"
+  },
+  {
+   "index": 12,
+   "n": 13,
+   "title": "Westminster Confession chapter 1 1.9 \"The infallible rule of interpretation of Scripture i",
+   "path": "Quoting the Confession against itself",
+   "doc": "wcf"
+  },
+  {
+   "index": 13,
+   "n": 14,
+   "title": "The same Confession 20.2 \" God alone is Lord of the conscience , and hath left it free fro",
+   "path": "Quoting the Confession against itself",
+   "doc": "wcf"
+  },
+  {
+   "index": 14,
+   "n": 15,
+   "title": "The Synod of Pittsburg, by its own Confession \"The Confession of Faith of the Synod declar",
+   "path": "Quoting the Confession against itself",
+   "doc": "rich"
+  },
+  {
+   "index": 15,
+   "n": 16,
+   "title": "They were not breaking with their tradition. They were honoring its deepest impulses.",
+   "path": "Quoting the Confession against itself",
+   "doc": null
+  },
+  {
+   "index": 16,
+   "n": 17,
+   "title": "Rejected by the Seceders in 1808. Rejected by the Presbyterians in 1810.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 17,
+   "n": 18,
+   "title": "Alexander Answers",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 18,
+   "n": 19,
+   "title": "\"It is again objected that it opens a door for lay preaching .\" Alexander Campbell, reply ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 19,
+   "n": 20,
+   "title": "\"The clergy are the opposite to the laity. Both these terms are used in Scripture to denot",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 20,
+   "n": 21,
+   "title": "\"We would be obliged to some person of exquisite keenness of distinction to point out and ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 21,
+   "n": 22,
+   "title": "Richardson's note \"...there is not, in Scripture, the slightest ground for the distinction",
+   "path": "Richardson&rsquo;s note",
+   "doc": "rich"
+  },
+  {
+   "index": 22,
+   "n": 23,
+   "title": "\"This Society by no means considers itself a Church , nor does at all assume to itself the",
+   "path": "spine",
+   "doc": "dna"
+  },
+  {
+   "index": 23,
+   "n": 24,
+   "title": "What they sang Psalm 118, the Scottish metrical version \"Thou sore hast thrust that I migh",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 24,
+   "n": 25,
+   "title": "Two Wills, One Bequest",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 25,
+   "n": 26,
+   "title": "(black)",
+   "path": "spine",
+   "doc": null
+  }
+ ],
+ "spine": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  16,
+  17,
+  18,
+  19,
+  20,
+  22,
+  23,
+  24,
+  25
+ ],
+ "branches": [
+  {
+   "label": "Quoting the Confession against itself",
+   "fork": 9,
+   "slides": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "label": "Richardson&rsquo;s note",
+   "fork": 20,
+   "slides": [
+    21
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "label": "Opening",
+   "at": 0
+  },
+  {
+   "label": "The first sermon",
+   "at": 3
+  },
+  {
+   "label": "The Synod",
+   "at": 6
+  },
+  {
+   "label": "Alexander answers",
+   "at": 11
+  },
+  {
+   "label": "Brush Run, more",
+   "at": 15
+  }
+ ],
+ "docs": [
+  {
+   "index": 0,
+   "key": "rich",
+   "title": "Robert Richardson, Memoirs of Alexander Campbell, vol. 1 (1868)",
+   "short": "Richardson’s <i>Memoirs</i>"
+  },
+  {
+   "index": 1,
+   "key": "wcf",
+   "title": "The Westminster Confession of Faith",
+   "short": "The Westminster Confession"
+  },
+  {
+   "index": 2,
+   "key": "dna",
+   "title": "Thomas Campbell, Declaration and Address (1809)",
+   "short": "The Declaration and Address"
+  },
+  {
+   "index": 3,
+   "key": "will",
+   "title": "The Last Will and Testament of the Springfield Presbytery",
+   "short": "The whole will"
+  },
+  {
+   "index": 4,
+   "key": "kjv",
+   "title": "Scripture, King James Version",
+   "short": "Scripture (KJV)"
+  }
+ ],
+ "doc_doors": [
+  {
+   "label": "Richardson&rsquo;s account, whole",
+   "fork": 3,
+   "doc": 0
+  },
+  {
+   "label": "The Westminster Confession, whole",
+   "fork": 6,
+   "doc": 1
+  }
+ ],
+ "quotes": [
+  {
+   "slide": 1,
+   "doc": "rich",
+   "text": "for encouraging or countenancing his son to preach the gospel without any regular authority"
+  },
+  {
+   "slide": 4,
+   "doc": "rich",
+   "text": "When the hour arrived, he rose up with modest dignity, in the temporary stand erected for the occasion, in front of which the audience were seated upon rough planks or upon the grass beneath the shady maples"
+  },
+  {
+   "slide": 7,
+   "doc": "rich",
+   "text": "the Synod unanimously resolved, that however specious the plan of the Christian Association and however seducing its professions"
+  },
+  {
+   "slide": 7,
+   "doc": "rich",
+   "text": "the Synod are constrained to disapprove the plan and its native effects."
+  },
+  {
+   "slide": 8,
+   "doc": "rich",
+   "text": "Mr. Campbell’s request to be received into ministerial and Christian communion cannot be granted."
+  },
+  {
+   "slide": 9,
+   "doc": "rich",
+   "text": "important reasons,"
+  },
+  {
+   "slide": 9,
+   "doc": "rich",
+   "text": "for expressing his belief that there are some opinions taught in our Confession of Faith which are not founded in the Bible"
+  },
+  {
+   "slide": 9,
+   "doc": "rich",
+   "text": "for declaring that the administration of baptism to infants is not authorized by scriptural precept or example"
+  },
+  {
+   "slide": 9,
+   "doc": "rich",
+   "text": "for encouraging or countenancing his son to preach the gospel without any regular authority"
+  },
+  {
+   "slide": 9,
+   "doc": "rich",
+   "text": "for opposing creeds and confessions as injurious to the interests of religion"
+  },
+  {
+   "slide": 11,
+   "doc": "wcf",
+   "text": "The whole counsel of God"
+  },
+  {
+   "slide": 11,
+   "doc": "wcf",
+   "text": "is either expressly set down in Scripture, or by good and necessary consequence may be deduced from Scripture: unto which nothing at any time is to be added, whether by new revelations of the Spirit, or traditions of men."
+  },
+  {
+   "slide": 12,
+   "doc": "wcf",
+   "text": "The infallible rule of interpretation of Scripture is the Scripture itself"
+  },
+  {
+   "slide": 12,
+   "doc": "wcf",
+   "text": "The supreme judge by which all controversies of religion are to be determined, and all decrees of councils"
+  },
+  {
+   "slide": 12,
+   "doc": "wcf",
+   "text": "can be no other but the Holy Spirit speaking in the Scripture."
+  },
+  {
+   "slide": 13,
+   "doc": "wcf",
+   "text": "God alone is Lord of the conscience, and hath left it free from the doctrines and commandments of men"
+  },
+  {
+   "slide": 13,
+   "doc": "wcf",
+   "text": "All synods or councils, since the Apostles’ times, whether general or particular, may err; and many have erred. Therefore they are not to be made the rule of faith, or practice"
+  },
+  {
+   "slide": 14,
+   "doc": "rich",
+   "text": "The Confession of Faith of the Synod declared the Bible to be the only rule of faith and practice, and yet when a respectable body of religious persons apply for admission, they are ruled out, because they will have no other rule than the Bible!"
+  },
+  {
+   "slide": 18,
+   "doc": "rich",
+   "text": "It is again objected that it opens a door for lay preaching."
+  },
+  {
+   "slide": 19,
+   "doc": "rich",
+   "text": "The clergy are the opposite to the laity. Both these terms are used in Scripture to denote God’s people. Trace them to their origin and we find no difference."
+  },
+  {
+   "slide": 20,
+   "doc": "rich",
+   "text": "We would be obliged to some person of exquisite keenness of distinction to point out and define the difference between laical and clerical preachers."
+  },
+  {
+   "slide": 21,
+   "doc": "rich",
+   "text": "there is not, in Scripture, the slightest ground for the distinction between clergy and laity. On the contrary, all the disciples collectively are denominated a ‘royal priesthood,’"
+  },
+  {
+   "slide": 22,
+   "doc": "dna",
+   "text": "This Society by no means considers itself a Church, nor does at all assume to itself the powers peculiar to such a society"
+  },
+  {
+   "slide": 23,
+   "doc": "rich",
+   "text": "Thou sore hast thrust that I might fall;But my Lord helped me"
+  },
+  {
+   "slide": 23,
+   "doc": "rich",
+   "text": "I shall not die, but live, and shallThe works of God discover."
+  }
+ ],
+ "unmatched": []
+}

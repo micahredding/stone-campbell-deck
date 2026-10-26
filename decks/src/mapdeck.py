@@ -18,6 +18,9 @@ def build(cfg):
     html, S, js = ns['html'], ns['S'], ns['js']
 
     assert all(s.count('class="slide') == 1 for s in S), 'one section per slide expected'
+    for i, s in enumerate(S):   # an unclosed tag swallows every later slide, so stop the build instead
+        for t in ('section', 'aside'):
+            assert s.count('<' + t) == s.count('</' + t + '>'), 'slide %d: unclosed <%s>: %s' % (i + 1, t, re.sub(r'<[^>]+>', ' ', s)[:80])
     assert html.count('<section') == len(S)
 
     def find(anchor, after=-1):
