@@ -9,7 +9,7 @@ EGG = 'eggslide' in body
 if EGG:
     sys.path.insert(0, 'decks/src/elements')
     from egg_anim import EGG_ANIM_CSS, EGG_ANIM_JS
-for _k,_f in (('IMG_STONE','stone.jpg'),('IMG_SIGNING','signing.jpg'),('IMG_STUMP','stump.jpg'),('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_GROVE','grove.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','anabaptist_drowning.jpg'),('IMG_EGG','recap_egg.jpg'),('IMG_ACAMPBELL','acampbell.jpg'),('IMG_BRUSHRUN','brushrun.jpg')):
+for _k,_f in (('IMG_STONE','stone.jpg'),('IMG_SIGNING','signing.jpg'),('IMG_STUMP','stump.jpg'),('IMG_TCAMPBELL','tcampbell.jpg'),('IMG_SHIP','ship.jpg'),('IMG_MAP','map_marked.jpg'),('IMG_TOKEN','token.jpg'),('IMG_GROVE','grove.jpg'),('IMG_WORMSPIC','luther.jpg'),('IMG_MARBURGPIC','marburg.jpg'),('IMG_MANZ','anabaptist_drowning.jpg'),('IMG_EGG','recap_egg.jpg'),('IMG_ACAMPBELL','acampbell.jpg'),('IMG_BRUSHRUN','brushrun.jpg'),('IMG_DNA','dna_cover.jpg'),('IMG_LWT','lwt_title.jpg')):
     _dirs = {'4': ['decks/src/week4/'], '5': ['decks/src/week5/', 'decks/src/week2/'], 'r5': ['decks/src/week5/', 'decks/src/week2/']}.get(PART, []) + ['decks/src/week3/']   # a chapter's own images first
     _p = next((d+_f for d in _dirs if os.path.exists(d+_f)), 'decks/src/week3/'+_f)
     if _k in body: body=body.replace(_k, 'data:image/jpeg;base64,'+__import__('base64').b64encode(open(_p,'rb').read()).decode())
