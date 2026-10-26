@@ -76,7 +76,7 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
   '<div class=sub>Brush Run, Pennsylvania &middot; 1811&ndash;1812</div>'
   '<aside class=notes>Matthew 18:20, and the <i>Declaration and Address</i> quotes it (we will see where). The Campbells&rsquo; side of the story, picking up where Chapter 2 left Alexander: off the coast of Scotland. Two points tonight: who serves the table, and where authority lives.<br>'
-  'The hour: the sea 3 &middot; Glasgow 4 &middot; reunion 3 &middot; Brush Run 12 &middot; the ordination 8 &middot; who serves the table 7 &middot; two or three gathered 9 &middot; close 10.</aside></section>')
+  'The hour: the sea 3 &middot; Glasgow 4 &middot; reunion 3 &middot; the first sermon 4 &middot; Brush Run 8 &middot; the ordination 8 &middot; who serves the table 7 &middot; two or three gathered 9 &middot; close 10.</aside></section>')
 # ---------- ALEXANDER AND THE SEA ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg wreckbg5"></div></div>'
   '<div class=credit>Philippe-Jacques de Loutherbourg, <i>A Shipwreck off a Rocky Coast</i> &middot; not the Hibernia</div>'
@@ -117,6 +117,23 @@ A('<section class="slide hard"><h2>The father opened the table to people who had
   '<div class="sub frag">The son held a valid token, and would not use it.</div>'
   '<div class="sub frag"><b>Neither knew.</b></div>'
   '<aside class=notes>Two clicks. Say it plain and stop.<br>The father had been tried for serving the Supper to Presbyterians of other kinds in 1807; the son had walked away from a fenced table in 1809.</aside></section>')
+# ---------- THE FIRST SERMON ----------
+A('<section class="slide bleed"><div class=bg><div class="bgimg grovebg5"></div></div>'
+  '<div class=credit>An American forest, 19th-century painting &middot; not the Templeton farm</div>'
+  '<div class=eyebrow>July 15, 1810 &middot; a grove on Major Templeton&rsquo;s farm</div>'
+  '<h2>His first sermon</h2>'
+  '<aside class=notes>Eight miles from Washington, Pennsylvania. He was twenty-one. His father had had him speak once, briefly, at a house meeting that spring; this was his first real sermon, written out and memorized.</aside></section>')
+A(BIGQ(Q('&ldquo;When the hour arrived, he rose up with modest dignity, in the temporary stand erected for the occasion, in front of which the audience were seated <b>upon rough planks or upon the grass beneath the shady maples</b>&hellip;&rdquo;', RICH)) +
+  N('His text: the close of the Sermon on the Mount, Matthew 7:24&ndash;27, the wise man who built his house upon a rock.',
+    'No church building, no ordination, no license.'))
+A(CARD('In his first year he preached<br>' + G('one hundred and six sermons.'),
+  'Richardson: &ldquo;no less than one hundred and six sermons&rdquo;, at the crossroads, in Washington, at Buffalo, in houses, into Ohio. Nobody had ordained him. &rarr; &ldquo;Someone noticed.&rdquo;'))
+# ---------- THE SYNOD ----------
+A('<section class="slide breath"><div class=eyebrow>October 1810 &middot; why the Synod would not have Thomas Campbell</div>'
+  '<h2 style="max-width:22ch;font-size:clamp(44px,8.6vmin,112px);line-height:1.12">&ldquo;for encouraging or countenancing his son to preach the gospel ' + G('without any regular authority') + '&rdquo;</h2>'
+  '<div class=cite style="margin-top:3vmin">' + MIN + '</div>'
+  '<aside class=notes>No clicks. In October 1810 Thomas Campbell asked the Presbyterian Synod of Pittsburg to receive him. Among their reasons for refusing: his son. Alexander was doing what his father was charged with countenancing, preaching with no presbytery&rsquo;s license.<br>&rarr; &ldquo;Who gave him authority? Hold that; Brush Run answers it.&rdquo;</aside></section>')
+
 # ---------- BRUSH RUN ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg brushbg"></div></div>'
   '<div class=credit>The Brush Run meeting house, reconstructed at Bethany &middot; courtesy of Bethany College</div>'
@@ -125,21 +142,6 @@ A('<section class="slide bleed"><div class=bg><div class="bgimg brushbg"></div><
   '<aside class=notes>A creek and a few farms, about eight miles from Washington. The meeting house was a plain frame building, never finished; it was later sold, moved, used as a blacksmith shop, a post office and a barn, and rebuilt at Bethany in 1909.</aside></section>')
 A(BIGQ(Q('&ldquo;It was with <b>great reluctance</b> that he finally concluded to take this step, and to separate himself from those whom he desired to recognize as brethren.&rdquo;', RICH, 'Thomas Campbell, spring 1811')) +
   N('Every overture refused, Thomas concluded &ldquo;that the Christian Association should assume the character of an independent Church.&rdquo; The thing he had dreaded since 1809.'))
-A('<section class="slide"><div class=eyebrow>Who is James Foster?</div>'
-  '<div class=litany style="text-align:left;gap:2.6vmin;font-size:1.9em;max-width:88vw">'
-  '<div class="no frag">Born in Ireland, 1785; knew Alexander as a boy at Rich-Hill.</div>'
-  '<div class="no frag">&ldquo;An Independent in Ireland&rdquo;: already doubted infant baptism.</div>'
-  '<div class="no frag">Came over in 1807; a member of the Christian Association from the start.</div>'
-  '</div><div class=cite>' + RICH + '</div>'
-  '<aside class=notes>Three clicks. Thomas Hodgens&rsquo;s son-in-law; they sailed together and settled near Hickory. It was Foster who asked Thomas Campbell, riding together, &ldquo;Father Campbell, how could you, in the absence of any authority in the Word of God, baptize a child&hellip;?&rdquo; Later elder of Brush Run (1813). Alexander rode out to visit him in 1864; Foster outlived him, dying in 1869.</aside></section>')
-A(BIGQ(Q('&ldquo;&hellip;each should be required to give a satisfactory answer to the question: <b>What is the meritorious cause of a sinner&rsquo;s acceptance with God?</b>&rdquo;', RICH, 'Thomas Campbell&rsquo;s test, spring 1811')) +
-  N('Before forming a church, Thomas had each member give &ldquo;some personal and public evidence of a fitting knowledge of the way of salvation.&rdquo; Two answers were judged unsatisfactory; their admission was postponed.',
-    'A doctrinal test at the door, from the author of the <i>Declaration and Address</i>.'))
-A(BIGQ(Q('&ldquo;<b>Is James Foster a member</b>, not having been present at the time the test question was propounded?&rdquo;', RICH, 'May 4, 1811 &middot; the day of organizing')) +
-  N('Foster had missed the meeting where the question was asked. &ldquo;Some seemed to think not.&rdquo;'))
-A(BIGQ(Q('&ldquo;Certainly, James Foster is a member, <b>having been with us from the beginning</b>, and his religious sentiments being perfectly well known to all.&rdquo;', 'Alexander Campbell, May 4, 1811 &middot; in Richardson, <i>Memoirs</i>', 'Alexander stands up')) +
-  N('Alexander was &ldquo;not entirely convinced that there was any authority for such a test.&rdquo;',
-    'Richardson: &ldquo;The test question, accordingly, was not propounded to him, nor to any one else afterward.&rdquo; No creed at the door, from the first day.'))
 A(BIGQ(Q('&ldquo;At this meeting, <b>Thomas Campbell was appointed elder</b>, and <b>Alexander was licensed to preach the gospel</b>. Four deacons were also chosen&hellip;&rdquo;', RICH, 'May 4, 1811')) +
   N('The deacons: John Dawson, George Sharp, William Gilcrist, James Foster. About thirty members.',
     'No presbytery licensed him. The church did.'))
@@ -276,28 +278,12 @@ A('<section class="slide ideasmap"><div class=eyebrow>What this week touched</di
 # Not in Chapter 5. Kept for another day as its own deck: decks/src/reserve5/build.py (RES below).
 RES = []
 RS = RES.append
-RS('<section class="slide breath"><div class=eyebrow>Why the Synod would not have them</div>'
-  '<h2 style="max-width:22ch;font-size:clamp(44px,8.6vmin,112px);line-height:1.12">&ldquo;for encouraging or countenancing his son to preach the gospel ' + G('without any regular authority') + '&rdquo;</h2>'
-  '<div class=cite style="margin-top:3vmin">' + MIN + '</div>'
-  '<aside class=notes>The cold open. No clicks. Thomas Campbell asked the Presbyterian Synod to take him in, October 1810. One of their reasons for refusing was his son.<br>&rarr; &ldquo;Who gave him authority? That is tonight&rsquo;s question.&rdquo;</aside></section>')
 RS('<section class="slide"><div class=eyebrow>Glasgow &middot; 1808&ndash;09 &middot; from Chapter 2</div>'
   '<div class="litany bigl">'
   '<div class="no frag">He heard other preachers, the thing his father was condemned for.</div>'
   '<div class="no frag">He heard of the Haldanes: <b>laymen who preached without ordination</b>.</div>'
   '<div class="no frag">He held a communion token, and <b>would not use it</b>.</div>'
   '</div><aside class=notes>Three clicks, one per line; quickly, the room has heard it. The Haldanes matter tonight: two Scottish laymen, preaching the gospel unordained, one of them arrested at the clergy&rsquo;s instigation.</aside></section>')
-# ---------- THE FIRST SERMON ----------
-RS('<section class="slide bleed"><div class=bg><div class="bgimg grovebg5"></div></div>'
-  '<div class=credit>An American forest, 19th-century painting &middot; not the Templeton farm</div>'
-  '<div class=eyebrow>July 15, 1810 &middot; a grove on Major Templeton&rsquo;s farm</div>'
-  '<h2>His first sermon</h2>'
-  '<aside class=notes>Eight miles from Washington, Pennsylvania. He was twenty-one. His father had had him speak once, briefly, at a house meeting that spring; this was his first real sermon, written out and memorized.</aside></section>')
-RS(BIGQ(Q('&ldquo;When the hour arrived, he rose up with modest dignity, in the temporary stand erected for the occasion, in front of which the audience were seated <b>upon rough planks or upon the grass beneath the shady maples</b>&hellip;&rdquo;', RICH)) +
-  N('His text: the close of the Sermon on the Mount, Matthew 7:24&ndash;27, the wise man who built his house upon a rock.',
-    'No church building, no ordination, no license.'))
-RS(CARD('In his first year he preached<br>' + G('one hundred and six sermons.'),
-  'Richardson: &ldquo;no less than one hundred and six sermons&rdquo;, at the crossroads, in Washington, at Buffalo, in houses, into Ohio. Nobody had ordained him. &rarr; &ldquo;Someone noticed.&rdquo;'))
-# ---------- THE SYNOD ----------
 RS('<section class="slide bleed"><div class=bg><div class="bgimg synodbg5"></div></div>'
   '<div class=credit>The Synod of Dort, 1618&ndash;19 &middot; painting attributed to Pouwels Weyts, c. 1621</div>'
   '<div class=eyebrow>Washington, Pennsylvania &middot; October 1810</div>'

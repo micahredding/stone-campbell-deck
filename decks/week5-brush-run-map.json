@@ -104,42 +104,42 @@
   {
    "index": 14,
    "n": 15,
-   "title": "The Brush Run meeting house, reconstructed at Bethany courtesy of Bethany College May 4, 1",
+   "title": "An American forest, 19th-century painting not the Templeton farm July 15, 1810 a grove on ",
    "path": "spine",
    "doc": null
   },
   {
    "index": 15,
    "n": 16,
-   "title": "Thomas Campbell, spring 1811 \"It was with great reluctance that he finally concluded to ta",
+   "title": "\"When the hour arrived, he rose up with modest dignity, in the temporary stand erected for",
    "path": "spine",
    "doc": "rich"
   },
   {
    "index": 16,
    "n": 17,
-   "title": "Who is James Foster? Born in Ireland, 1785; knew Alexander as a boy at Rich-Hill. \"An Inde",
+   "title": "In his first year he preached one hundred and six sermons.",
    "path": "spine",
-   "doc": "rich"
+   "doc": null
   },
   {
    "index": 17,
    "n": 18,
-   "title": "Thomas Campbell's test, spring 1811 \"...each should be required to give a satisfactory ans",
+   "title": "October 1810 why the Synod would not have Thomas Campbell \"for encouraging or countenancin",
    "path": "spine",
    "doc": "rich"
   },
   {
    "index": 18,
    "n": 19,
-   "title": "May 4, 1811 the day of organizing \" Is James Foster a member , not having been present at ",
+   "title": "The Brush Run meeting house, reconstructed at Bethany courtesy of Bethany College May 4, 1",
    "path": "spine",
-   "doc": "rich"
+   "doc": null
   },
   {
    "index": 19,
    "n": 20,
-   "title": "Alexander stands up \"Certainly, James Foster is a member, having been with us from the beg",
+   "title": "Thomas Campbell, spring 1811 \"It was with great reluctance that he finally concluded to ta",
    "path": "spine",
    "doc": "rich"
   },
@@ -1006,8 +1006,12 @@
    "at": 11
   },
   {
-   "label": "Brush Run",
+   "label": "The first sermon",
    "at": 14
+  },
+  {
+   "label": "Brush Run",
+   "at": 18
   },
   {
    "label": "The ordination",
@@ -1103,7 +1107,7 @@
  "doc_doors": [
   {
    "label": "Richardson&rsquo;s account, whole",
-   "fork": 14,
+   "fork": 18,
    "doc": 0
   },
   {
@@ -1146,27 +1150,17 @@
   {
    "slide": 15,
    "doc": "rich",
-   "text": "It was with great reluctance that he finally concluded to take this step, and to separate himself from those whom he desired to recognize as brethren."
-  },
-  {
-   "slide": 16,
-   "doc": "rich",
-   "text": "An Independent in Ireland"
+   "text": "When the hour arrived, he rose up with modest dignity, in the temporary stand erected for the occasion, in front of which the audience were seated upon rough planks or upon the grass beneath the shady maples"
   },
   {
    "slide": 17,
    "doc": "rich",
-   "text": "each should be required to give a satisfactory answer to the question: What is the meritorious cause of a sinner’s acceptance with God?"
-  },
-  {
-   "slide": 18,
-   "doc": "rich",
-   "text": "Is James Foster a member, not having been present at the time the test question was propounded?"
+   "text": "for encouraging or countenancing his son to preach the gospel without any regular authority"
   },
   {
    "slide": 19,
    "doc": "rich",
-   "text": "Certainly, James Foster is a member, having been with us from the beginning, and his religious sentiments being perfectly well known to all."
+   "text": "It was with great reluctance that he finally concluded to take this step, and to separate himself from those whom he desired to recognize as brethren."
   },
   {
    "slide": 20,
