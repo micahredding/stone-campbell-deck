@@ -1,0 +1,568 @@
+{
+ "deck": "decks/union-all-his-life-map.html",
+ "source": "decks/src/resources.py (unity)",
+ "built_by": "decks/src/unity/build.py",
+ "slides": [
+  {
+   "index": 0,
+   "n": 1,
+   "title": "Our Wild Democracy a resource Union, All His Life Alexander Campbell and the union of all ",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 1,
+   "n": 2,
+   "title": "Union, all his life a resource The union of all Christians, from his father's page to Lune",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 2,
+   "n": 3,
+   "title": "Union, all his life His father's plea Washington, Pennsylvania, 1809",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 3,
+   "n": 4,
+   "title": "Thomas Campbell, 1809 \"That the Church of Christ upon earth is essentially, intentionally,",
+   "path": "spine",
+   "doc": "dna"
+  },
+  {
+   "index": 4,
+   "n": 5,
+   "title": "\"That division among the Christians is a horrid evil, fraught with many evils . It is anti",
+   "path": "spine",
+   "doc": "dna"
+  },
+  {
+   "index": 5,
+   "n": 6,
+   "title": "The son reads the proofs \"While examining the proof-sheets of the 'Declaration and Address",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 6,
+   "n": 7,
+   "title": "Thirty years later, he says so \"...a project many years ago for uniting the sects, or rath",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 7,
+   "n": 8,
+   "title": "Union, all his life No party man The young Alexander, 1810-1811",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 8,
+   "n": 9,
+   "title": "\"I dare not be a party man for these reasons... Because no party will receive into communi",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 9,
+   "n": 10,
+   "title": "\" God loves his children more than our creeds , and man was not made for the Bible, but th",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 10,
+   "n": 11,
+   "title": "No test at the door \"Certainly, James Foster is a member, having been with us from the beg",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 11,
+   "n": 12,
+   "title": "Free inquiry \" I call no man master upon the earth ... I have endeavored to read the scrip",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 12,
+   "n": 13,
+   "title": "Union, all his life In the middle of the Ancient Order The Christian Baptist , 1823-1830, ",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 13,
+   "n": 14,
+   "title": "The same months as \"the Ancient Order\" \"I have no idea of seeing, nor one wish to see, the",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 14,
+   "n": 15,
+   "title": "If anyone loved union more \"...if I thought there was any man on this continent who would ",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 15,
+   "n": 16,
+   "title": "Why he fought the creeds \"...those human institutions supplanted the Bible, made the word ",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 16,
+   "n": 17,
+   "title": "And against no creed but the Bible \"But the Bible will do no better if men approach it wit",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 17,
+   "n": 18,
+   "title": "Against his own slogan \"If, then, the phrases 'Ancient Gospel,' or 'Ancient Order of Thing",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 18,
+   "n": 19,
+   "title": "What the Ancient Order was for \"...to lay a foundation, an imperishable foundation, for th",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 19,
+   "n": 20,
+   "title": "Two propositions The Christian System , 1839 \"1st. Nothing is essential to the conversion ",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 20,
+   "n": 21,
+   "title": "Union, all his life Lunenburg, 1837 Are there Christians among the sects?",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 21,
+   "n": 22,
+   "title": "His answer to a sister in Lunenburg \"...if there be no Christians in the Protestant sects.",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 22,
+   "n": 23,
+   "title": "Lunenburg, 1837 \"But who is a Christian? \" \"I answer, Every one that believes in his heart",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 23,
+   "n": 24,
+   "title": "\"I cannot, therefore, make any one duty the standard of Christian state or character, not ",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 24,
+   "n": 25,
+   "title": "\"It is the image of Christ the Christian looks for and loves; and this does not consist in",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 25,
+   "n": 26,
+   "title": "\"...I could not hesitate a moment in giving the preference of my heart to him that loveth ",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 26,
+   "n": 27,
+   "title": "The letters came \"...the term Christian was given first to immersed believers... but we do",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 27,
+   "n": 28,
+   "title": "\"It would indeed fully open the eyes of the community to the fact that there are but few '",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 28,
+   "n": 29,
+   "title": "He did not retreat \"...what could mean all that we have written upon the union of Christia",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 29,
+   "n": 30,
+   "title": "Union, all his life The open Campbell Discussion, schools, and peace",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 30,
+   "n": 31,
+   "title": "\"We must, then, all submit to the new order of things, and do homage to his Majesty Free D",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 31,
+   "n": 32,
+   "title": "Schools for every child \"...Government is wanting in the essential ends of its being... wh",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 32,
+   "n": 33,
+   "title": "The Address on War \"...we have no Christian nation or kingdom in the world, but that Chris",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 33,
+   "n": 34,
+   "title": "\"Their sovereign Lord, the King of nations, is called 'the Prince of Peace.' How, then, co",
+   "path": "spine",
+   "doc": "uni"
+  },
+  {
+   "index": 34,
+   "n": 35,
+   "title": "From 1809 to 1848, He never stopped saying it.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 35,
+   "n": 36,
+   "title": "(black)",
+   "path": "spine",
+   "doc": null
+  }
+ ],
+ "spine": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35
+ ],
+ "branches": [],
+ "sections": [
+  {
+   "label": "Opening",
+   "at": 0
+  },
+  {
+   "label": "His father&rsquo;s plea",
+   "at": 2
+  },
+  {
+   "label": "No party man",
+   "at": 7
+  },
+  {
+   "label": "The Ancient Order",
+   "at": 12
+  },
+  {
+   "label": "Lunenburg",
+   "at": 20
+  },
+  {
+   "label": "The open Campbell",
+   "at": 29
+  }
+ ],
+ "docs": [
+  {
+   "index": 0,
+   "key": "uni",
+   "title": "Alexander Campbell on the union of Christians: excerpts",
+   "short": "Campbell on union"
+  },
+  {
+   "index": 1,
+   "key": "dna",
+   "title": "Thomas Campbell, Declaration and Address (1809)",
+   "short": "The Declaration and Address"
+  }
+ ],
+ "doc_doors": [
+  {
+   "label": "Campbell on union, the sources",
+   "fork": 2,
+   "doc": 0
+  },
+  {
+   "label": "The whole Declaration and Address",
+   "fork": 2,
+   "doc": 1
+  }
+ ],
+ "quotes": [
+  {
+   "slide": 3,
+   "doc": "dna",
+   "text": "That the Church of Christ upon earth is essentially, intentionally, and constitutionally one"
+  },
+  {
+   "slide": 4,
+   "doc": "dna",
+   "text": "That division among the Christians is a horrid evil, fraught with many evils. It is antichristian, as it destroys the visible unity of the body of Christ; as if he were divided against himself"
+  },
+  {
+   "slide": 5,
+   "doc": "uni",
+   "text": "While examining the proof-sheets of the ‘Declaration and Address’"
+  },
+  {
+   "slide": 5,
+   "doc": "uni",
+   "text": "he was greatly impressed with the importance of the principles laid down"
+  },
+  {
+   "slide": 6,
+   "doc": "uni",
+   "text": "a project many years ago for uniting the sects, or rather the Christians in all the sects, upon a clear and scriptural bond of union"
+  },
+  {
+   "slide": 6,
+   "doc": "uni",
+   "text": "This was offered in the year 1809, in the ‘Declaration and Address.’"
+  },
+  {
+   "slide": 8,
+   "doc": "uni",
+   "text": "I dare not be a party man for these reasons"
+  },
+  {
+   "slide": 8,
+   "doc": "uni",
+   "text": "Because no party will receive into communion all whom God would receive into heaven."
+  },
+  {
+   "slide": 9,
+   "doc": "uni",
+   "text": "God loves his children more than our creeds, and man was not made for the Bible, but the Bible for man."
+  },
+  {
+   "slide": 10,
+   "doc": "uni",
+   "text": "Certainly, James Foster is a member, having been with us from the beginning, and his religious sentiments being perfectly well known to all."
+  },
+  {
+   "slide": 11,
+   "doc": "uni",
+   "text": "I call no man master upon the earth"
+  },
+  {
+   "slide": 11,
+   "doc": "uni",
+   "text": "I have endeavored to read the scriptures as though no one had read them before me"
+  },
+  {
+   "slide": 13,
+   "doc": "uni",
+   "text": "I have no idea of seeing, nor one wish to see, the sects unite in one grand army"
+  },
+  {
+   "slide": 13,
+   "doc": "uni",
+   "text": "It is only the disciples of Christ dispersed among them, that reason and benevolence would call out of them. Let them unite who love the Lord"
+  },
+  {
+   "slide": 14,
+   "doc": "uni",
+   "text": "if I thought there was any man on this continent who would go farther than I to heal all divisions and to unite all christians"
+  },
+  {
+   "slide": 14,
+   "doc": "uni",
+   "text": "I would travel on foot a hundred miles to see him and to confess my faults to him."
+  },
+  {
+   "slide": 15,
+   "doc": "uni",
+   "text": "those human institutions supplanted the Bible, made the word of God of non-effect, were fatal to the intelligence, union, purity, holiness, and happiness of the disciples of Christ"
+  },
+  {
+   "slide": 16,
+   "doc": "uni",
+   "text": "But the Bible will do no better if men approach it with a set of opinions or a human symbol in their minds. For then it is not the Bible, but the opinions in the mind, that form the bond of union."
+  },
+  {
+   "slide": 17,
+   "doc": "uni",
+   "text": "If, then, the phrases ‘Ancient Gospel,’ or ‘Ancient Order of Things,’ should become a dividing discrimination among Christians, we must enter our protest against them"
+  },
+  {
+   "slide": 18,
+   "doc": "uni",
+   "text": "to lay a foundation, an imperishable foundation, for the union of all christians, and for their co-operation in spreading the glorious gospel throughout the world."
+  },
+  {
+   "slide": 18,
+   "doc": "uni",
+   "text": "Concluding Remarks,"
+  },
+  {
+   "slide": 19,
+   "doc": "uni",
+   "text": "1st. Nothing is essential to the conversion of the world but the union and co-operation of Christians."
+  },
+  {
+   "slide": 19,
+   "doc": "uni",
+   "text": "2d. Nothing is essential to the union of Christians but the Apostles’ teaching or testimony."
+  },
+  {
+   "slide": 19,
+   "doc": "uni",
+   "text": "Foundation of Christian Union"
+  },
+  {
+   "slide": 21,
+   "doc": "uni",
+   "text": "if there be no Christians in the Protestant sects"
+  },
+  {
+   "slide": 21,
+   "doc": "uni",
+   "text": "for many centuries there has been no church of Christ, no Christians in the world; and the promises"
+  },
+  {
+   "slide": 21,
+   "doc": "uni",
+   "text": "have failed, and the gates of hell have prevailed against his church! This cannot be; and therefore there are Christians among the sects."
+  },
+  {
+   "slide": 22,
+   "doc": "uni",
+   "text": "But who is a Christian?"
+  },
+  {
+   "slide": 22,
+   "doc": "uni",
+   "text": "I answer, Every one that believes in his heart that Jesus of Nazareth is the Messiah, the Son of God; repents of his sins, and obeys him in all thingsaccording to his measure of knowledge of his will."
+  },
+  {
+   "slide": 23,
+   "doc": "uni",
+   "text": "I cannot, therefore, make any one duty the standard of Christian state or character, not even immersion"
+  },
+  {
+   "slide": 24,
+   "doc": "uni",
+   "text": "It is the image of Christ the Christian looks for and loves; and this does not consist in being exact in a few items, but in general devotion to the whole truth as far as known."
+  },
+  {
+   "slide": 25,
+   "doc": "uni",
+   "text": "I could not hesitate a moment in giving the preference of my heart to him that loveth most. Did I act otherwise, I would be a pure sectarian, a Pharisee among Christians."
+  },
+  {
+   "slide": 26,
+   "doc": "uni",
+   "text": "the term Christian was given first to immersed believers"
+  },
+  {
+   "slide": 26,
+   "doc": "uni",
+   "text": "but we do not think that it was given to them because they were immersed, but because they had put on Christ"
+  },
+  {
+   "slide": 27,
+   "doc": "uni",
+   "text": "It would indeed fully open the eyes of the community to the fact that there are but few ‘Campbellites’ in the country. Too many of my correspondents, however, seem to me to have written rather to show that they are not ‘Campbellites’"
+  },
+  {
+   "slide": 28,
+   "doc": "uni",
+   "text": "what could mean all that we have written upon the union of Christians on apostolic grounds, had we taught that all Christians in the world were already united in our own community?"
+  },
+  {
+   "slide": 30,
+   "doc": "uni",
+   "text": "We must, then, all submit to the new order of things, and do homage to his Majesty Free Discussion."
+  },
+  {
+   "slide": 31,
+   "doc": "uni",
+   "text": "Government is wanting in the essential ends of its being"
+  },
+  {
+   "slide": 31,
+   "doc": "uni",
+   "text": "which makes not the education of every child born upon its territory its primary concern"
+  },
+  {
+   "slide": 31,
+   "doc": "uni",
+   "text": "intelligence and freedom are but two names for the same thing."
+  },
+  {
+   "slide": 32,
+   "doc": "uni",
+   "text": "we have no Christian nation or kingdom in the world, but that Christ has one grand kingdom, composed of all the Christian communities in the world"
+  },
+  {
+   "slide": 33,
+   "doc": "uni",
+   "text": "Their sovereign Lord, the King of nations, is called ‘the Prince of Peace.’ How, then, could a Christian soldier"
+  },
+  {
+   "slide": 33,
+   "doc": "uni",
+   "text": "enlist to fight the battles of a Caesar, a Hannibal, a Tamerlane, a Napoleon, or even a Victoria?"
+  }
+ ],
+ "unmatched": []
+}

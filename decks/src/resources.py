@@ -17,8 +17,9 @@
 #                                  "fountain of official power")
 #   table(extra=[])             -> side path: who keeps the table (who may give thanks and serve at the Supper,
 #                                  from the Scotch Baptists and Campbell to Stone, Lipscomb and today)
-#   unity(extra=[])             -> side path: union, all his life (Thomas Campbell's Declaration and Address, which
-#                                  Alexander endorsed, through the Christian Baptist, The Christian System, Lunenburg)
+#   unity(extra=[])             -> resource: union, all his life (Thomas Campbell's Declaration and Address, which
+#                                  Alexander endorsed; the 1810 party-man address; the Christian Baptist; The Christian
+#                                  System; Lunenburg; the open Campbell). Also its own deck: decks/src/unity/build.py
 #   WESTMINSTER, GOVERNANCE, UNIVERSALS,
 #   CAMPBELL_REREAD, EKKLESIA, TABLE, UNITY -> (label, first-slide anchor, last-slide anchor) for SIDE
 #
@@ -486,64 +487,128 @@ def table(extra=()):
              'The end of the resource. &ldquo;Each one waiting upon his brother, until all were served.&rdquo; Open to all; hosted by any. &rarr; Back to the spine.'),
     ]
 
-# ---------- side path: union, all his life ----------
+# ---------- resource: union, all his life (also built as its own deck: decks/src/unity/build.py) ----------
 UNITY = ('Union, all his life', '<div class=eyebrow>Union, all his life', 'He never stopped saying it')
 DA_TC = 'Thomas Campbell, <i>Declaration and Address</i> (1809)'
+AC_R10 = 'Alexander Campbell, c. 1810 &middot; in Richardson, <i>Memoirs</i>'
+MH37 = 'Alexander Campbell, <i>Millennial Harbinger</i>'
+WAR = 'Alexander Campbell, &ldquo;Address on War,&rdquo; Wheeling, 1848'
 def _n(slide):
     return slide.replace('<section class="slide', '<section data-src=uni class="slide', 1)
+def _sec(title, sub):   # a section heading inside the resource
+    return ('<section class="slide breath"><div class=eyebrow>Union, all his life</div><h2 style="max-width:none">%s</h2>'
+            '<div class=sub>%s</div></section>' % (title, sub))
 def unity(extra=()):
     return [
         '<section class="slide breath"><div class=eyebrow>Union, all his life &middot; a resource</div>'
         '<h2 style="max-width:none">The union of all Christians,<br>from his father&rsquo;s page to Lunenburg</h2>'
-        '<aside class=notes>A resource. Alexander Campbell is remembered for the Ancient Order. He began with his father&rsquo;s plea for union, said it was the first statement of the whole cause, and repeated it through the Ancient Order years and after. Every Campbell quote is in the document &ldquo;Campbell on union.&rdquo;</aside></section>',
+        '<aside class=notes>A resource, and its own deck. Alexander Campbell is remembered for the Ancient Order. He began with his father&rsquo;s plea for union, called it the first statement of the whole cause, and kept saying it through the Ancient Order years and after; and outside the Ancient Order he was a man of free inquiry and wide sympathy. Every Campbell quote is in the document &ldquo;Campbell on union.&rdquo;</aside></section>',
 
+        # ---- his father's plea ----
+        _sec('His father&rsquo;s plea', 'Washington, Pennsylvania, 1809'),
         BIG(Q('&ldquo;That the Church of Christ upon earth is <b>essentially, intentionally, and constitutionally one</b>&hellip;&rdquo;',
               DA_TC + ', Proposition 1', 'Thomas Campbell, 1809')) +
         N('It goes on: &ldquo;consisting of all those in every place that profess their faith in Christ and obedience to him in all things according to the Scriptures.&rdquo; Not one denomination: everyone, everywhere, who confesses Christ.'),
-
         Q('&ldquo;That division among the Christians is <b>a horrid evil, fraught with many evils</b>. It is antichristian, as it destroys the visible unity of the body of Christ; as if he were divided against himself&hellip;&rdquo;',
           DA_TC + ', Proposition 10') +
         N('Then: &ldquo;antiscriptural&hellip; antinatural.&rdquo; Division is not a difference of style. It is Christ divided against himself.'),
-
         _n(Q('&ldquo;While examining the proof-sheets of the &lsquo;Declaration and Address&rsquo;&hellip; <b>he was greatly impressed with the importance of the principles laid down</b>&hellip;&rdquo;',
              'Robert Richardson, <i>Memoirs of Alexander Campbell</i> (1868)', 'The son reads the proofs') +
-           N('Autumn 1809: Alexander, just off the boat from Scotland, read his father&rsquo;s pages as they came from the printer in Washington, Pennsylvania. He took them as his own program for life.')),
-
+           N('Autumn 1809: Alexander, just over from Scotland, read his father&rsquo;s pages as they came from the printer. He took them as his own program for life.')),
         _n(Q('&ldquo;&hellip;a project many years ago for <b>uniting the sects, or rather the Christians in all the sects</b>, upon a clear and scriptural bond of union&hellip; This was offered in the year 1809, in the &lsquo;Declaration and Address.&rsquo;&rdquo;',
-             'Alexander Campbell, <i>The Christian System</i> (1839), Preface', 'Thirty years later') +
-           N('He names his father&rsquo;s document as the start of the whole movement: &ldquo;The first piece that was written on the subject of the great position appeared from the pen of Thomas Campbell, Senior, in the year 1809.&rdquo; It made &ldquo;faith in Christ and obedience to him the only test of Christian character, and the only bond of church union.&rdquo; Wryly: &ldquo;It was indeed approved by all; but adopted and practised by none.&rdquo;')),
+             'Alexander Campbell, <i>The Christian System</i> (1839), Preface', 'Thirty years later, he says so') +
+           N('&ldquo;The first piece that was written on the subject of the great position appeared from the pen of Thomas Campbell, Senior, in the year 1809.&rdquo; It made &ldquo;faith in Christ and obedience to him the only test of Christian character, and the only bond of church union.&rdquo; Wryly: &ldquo;It was indeed approved by all; but adopted and practised by none.&rdquo;')),
 
+        # ---- the young Campbell ----
+        _sec('No party man', 'The young Alexander, 1810&ndash;1811'),
+        _n(BIG(Q('&ldquo;I dare not be a party man for these reasons&hellip; <b>Because no party will receive into communion all whom God would receive into heaven.</b>&rdquo;',
+                 AC_R10), 'clamp(34px,7.6vmin,96px)', '32ch')) +
+        N('An address after a sermon at Mr. Buchanan&rsquo;s; Richardson dates it only &ldquo;about this period&rdquo; (1810). Reason 1: &ldquo;Christ has forbidden me.&rdquo; Reason 3: &ldquo;The man that promotes the interests of a party stands next in guilt to the man that made it.&rdquo;'),
+        _n(BIG(Q('&ldquo;<b>God loves his children more than our creeds</b>, and man was not made for the Bible, but the Bible for man.&rdquo;',
+                 AC_R10), 'clamp(38px,8.4vmin,108px)', '26ch')) +
+        N('The very next sentence of the same address. Twenty-one years old.'),
+        _n(Q('&ldquo;Certainly, James Foster is a member, <b>having been with us from the beginning</b>, and his religious sentiments being perfectly well known to all.&rdquo;',
+             'Alexander Campbell, Brush Run, May 4, 1811 &middot; in Richardson, <i>Memoirs</i>', 'No test at the door') +
+           N('His father had asked every member a test question, &ldquo;What is the meritorious cause of a sinner&rsquo;s acceptance with God?&rdquo; Foster missed that meeting; some said he was not a member. Alexander stood up. Richardson: &ldquo;The test question, accordingly, was not propounded to him, nor to any one else afterward.&rdquo;')),
+
+        # ---- free inquiry ----
+        _n(Q('&ldquo;<b>I call no man master upon the earth</b>&hellip; I have endeavored to read the scriptures <b>as though no one had read them before me</b>&hellip;&rdquo;',
+             'Alexander Campbell, <i>The Christian Baptist</i>, 1826', 'Free inquiry') +
+           N('Even his father: &ldquo;there is no man with whom I have debated more, and reasoned more&hellip; than he.&rdquo; And against himself: &ldquo;I am as much on my guard against reading them to-day, through the medium of my own views yesterday, or a week ago, as I am against being influenced by any foreign name, authority, or system, whatever.&rdquo; No fixed pattern, not even his own.')),
+
+        # ---- in the middle of the Ancient Order ----
+        _sec('In the middle of the Ancient Order', 'The <i>Christian Baptist</i>, 1823&ndash;1830, and <i>The Christian System</i>'),
         _n(Q('&ldquo;I have no idea of seeing, nor one wish to see, the sects unite in one grand army&hellip; It is only <b>the disciples of Christ dispersed among them</b>, that reason and benevolence would call out of them. <b>Let them unite who love the Lord</b>&hellip;&rdquo;',
-             'Alexander Campbell, <i>The Christian Baptist</i>, April 1825', 'In the middle of the Ancient Order') +
-           N('The same months as the first &ldquo;Restoration of the Ancient Order&rdquo; essays. Not a merger of denominations: the Christians scattered through every denomination, uniting. In 1837 he quoted this very passage to prove he had always believed there were Christians among the sects.')),
-
+             'Alexander Campbell, <i>The Christian Baptist</i>, April 1825', 'The same months as &ldquo;the Ancient Order&rdquo;') +
+           N('The first &ldquo;Restoration of the Ancient Order&rdquo; essays began that February. Not a merger of denominations (&ldquo;dangerous to our liberties and laws&rdquo;): the Christians scattered through every denomination, uniting. In 1837 he quoted this passage to prove he had always believed there were Christians among the sects.')),
         _n(BIG(Q('&ldquo;&hellip;if I thought there was <b>any man on this continent who would go farther than I to heal all divisions</b> and to unite all christians&hellip; I would travel on foot a hundred miles <b>to see him and to confess my faults to him</b>.&rdquo;',
                  'Alexander Campbell, <i>The Christian Baptist</i>, 1827', 'If anyone loved union more'))) +
         N('To a Baptist critic, Spencer Clack. He goes on: the union of all who acknowledge Jesus is &ldquo;the <i>summum bonum</i>, the grand ultimatum of all my &lsquo;writings, orations, lectures,&rsquo; and social prayers.&rdquo;'),
-
+        _n(Q('&ldquo;&hellip;those human institutions supplanted the Bible, made the word of God of non-effect, <b>were fatal to the intelligence, union, purity, holiness, and happiness of the disciples of Christ</b>&hellip;&rdquo;',
+             'Alexander Campbell, <i>The Christian System</i> (1839), Preface', 'Why he fought the creeds') +
+           N('Not to put his own opinions in their place: the enterprise &ldquo;warred against them, not because of their hostility to any private or favorite opinions which were desired to be substituted for them.&rdquo; The creeds were against union.')),
+        _n(Q('&ldquo;But the Bible will do no better if men approach it with a set of opinions or a human symbol in their minds. <b>For then it is not the Bible, but the opinions in the mind, that form the bond of union.</b>&rdquo;',
+             'Alexander Campbell, <i>The Christian System</i> (1839)', 'And against <i>no creed but the Bible</i>') +
+           N('A creed can hide inside the slogan that rejects creeds. He saw it.')),
         _n(Q('&ldquo;If, then, the phrases &lsquo;Ancient Gospel,&rsquo; or &lsquo;Ancient Order of Things,&rsquo; should become <b>a dividing discrimination among Christians</b>, we must enter our protest against them&hellip;&rdquo;',
              'Alexander Campbell, <i>The Christian Baptist</i>, 1829', 'Against his own slogan') +
            N('He saw the danger in his own phrase: the Ancient Order turning into one more party badge. He protested in advance.')),
-
         _n(Q('&ldquo;&hellip;to lay a foundation, <b>an imperishable foundation, for the union of all christians</b>, and for their co-operation in spreading the glorious gospel throughout the world.&rdquo;',
              'Alexander Campbell, <i>The Christian Baptist</i>, &ldquo;Concluding Remarks,&rdquo; 1830', 'What the Ancient Order was for') +
-           N('His summary of the seven years of the <i>Christian Baptist</i>: restore the ancient order, emancipate the conscience, and lay a foundation for the union of all Christians. The order was the means; union was the end.')),
-
+           N('His summary of seven years: restore the ancient order, emancipate the conscience, and lay a foundation for the union of all Christians. The order was the means; union was the end.')),
         '<section data-src=uni class="slide"><div class=eyebrow>Two propositions &middot; <i>The Christian System</i>, 1839</div>'
-        '<div class=litany style="font-size:1.9em;max-width:88vw;gap:3vmin">'
+        '<div class=litany style="font-size:2.4em;max-width:90vw;gap:3vmin">'
         '<div class="no frag">&ldquo;1st. <b>Nothing is essential to the conversion of the world but the union and co-operation of Christians.</b>&rdquo;</div>'
         '<div class="no frag">&ldquo;2d. <b>Nothing is essential to the union of Christians but the Apostles&rsquo; teaching or testimony.</b>&rdquo;</div>'
         '</div><div class=cite>Alexander Campbell, <i>The Christian System</i>, &ldquo;Foundation of Christian Union&rdquo;</div>'
         '<aside class=notes>Two clicks. John 17: &ldquo;that they all may be one&hellip; that the world may believe.&rdquo; He goes on: &ldquo;Neither truth alone nor union alone is sufficient to subdue the unbelieving nations; but truth and union combined are omnipotent.&rdquo;</aside></section>',
 
-        _n(Q('&ldquo;&hellip;I could not hesitate a moment in giving the preference of my heart <b>to him that loveth most</b>. Did I act otherwise, I would be a pure sectarian, <b>a Pharisee among Christians</b>.&rdquo;',
-             'Alexander Campbell, <i>Millennial Harbinger</i>, September 1837', 'Lunenburg, 1837') +
-           N('A woman from Lunenburg, Virginia, objected that he had called the unimmersed Christians. His answer: a Christian is &ldquo;every one that believes in his heart that Jesus of Nazareth is the Messiah, the Son of God; repents of his sins, and obeys him in all things according to his measure of knowledge of his will.&rdquo; Not even immersion would he make the test.')),
-
+        # ---- Lunenburg ----
+        _sec('Lunenburg, 1837', 'Are there Christians among the sects?'),
+        _n(BIG(Q('&ldquo;&hellip;if there be no Christians in the Protestant sects&hellip; for many centuries there has been no church of Christ, no Christians in the world; and the promises&hellip; have failed, and the gates of hell have prevailed against his church! <b>This cannot be; and therefore there are Christians among the sects.</b>&rdquo;',
+             MH37 + ', September 1837', 'His answer to a sister in Lunenburg'), 'clamp(28px,6vmin,76px)', '44ch') +
+           N('He had written that &ldquo;we find in all Protestant parties Christians as exemplary as ourselves.&rdquo; A woman in Lunenburg, Virginia, wrote to object: how could the unimmersed be Christians?')),
+        '<section data-src=uni class="slide"><div class=eyebrow>Lunenburg, 1837</div>'
+        '<div class=litany style="font-size:2.3em;max-width:90vw;gap:2.6vmin">'
+        '<div class="no frag">&ldquo;But <b>who is a Christian?</b>&rdquo;</div>'
+        '<div class="no frag">&ldquo;I answer, Every one that believes in his heart that Jesus of Nazareth is the Messiah, the Son of God; repents of his sins, and obeys him in all things</div>'
+        '<div class="no frag"><b>according to his measure of knowledge of his will</b>.&rdquo;</div>'
+        '</div><div class=cite>' + MH37 + ', September 1837</div>'
+        '<aside class=notes>Three clicks: the question, the answer, and the phrase that carries it, &ldquo;according to his measure of knowledge.&rdquo;</aside></section>',
+        _n(BIG(Q('&ldquo;I cannot, therefore, make <b>any one duty</b> the standard of Christian state or character, <b>not even immersion</b>&hellip;&rdquo;',
+                 MH37 + ', September 1837'), 'clamp(38px,8.4vmin,108px)', '26ch')) +
+        N('The rest of the sentence: nor &ldquo;in my heart regard all that have been sprinkled in infancy without their own knowledge and consent, as aliens from Christ and the well-grounded hope of heaven.&rdquo; He went on teaching immersion. He would not use it to unchurch anyone.'),
+        _n(BIG(Q('&ldquo;It is the image of Christ the Christian looks for and loves; and this does not consist in <b>being exact in a few items</b>, but in general devotion to the whole truth as far as known.&rdquo;',
+                 MH37 + ', September 1837'))) +
+        N('The best single answer in his own words to the charge of legalism.'),
+        _n(BIG(Q('&ldquo;&hellip;I could not hesitate a moment in giving the preference of my heart <b>to him that loveth most</b>. Did I act otherwise, I would be a pure sectarian, <b>a Pharisee among Christians</b>.&rdquo;',
+                 MH37 + ', September 1837'))) +
+        N('The sentence before: &ldquo;Should I find a Pedobaptist more intelligent in the Christian Scriptures, more spiritually-minded and more devoted to the Lord than a Baptist, or one immersed on a profession of the ancient faith&hellip;&rdquo;'),
+        _n(Q('&ldquo;&hellip;the term Christian was given first to immersed believers&hellip; but we do not think that it was given to them because they were immersed, <b>but because they had put on Christ</b>&hellip;&rdquo;',
+             MH37 + ', November 1837', 'The letters came') +
+           N('Answering the objections that poured in.')),
+        _n(Q('&ldquo;It would indeed fully open the eyes of the community to the fact that <b>there are but few &lsquo;Campbellites&rsquo; in the country</b>. Too many of my correspondents, however, seem to me to have written rather to show that they are not &lsquo;Campbellites&rsquo;&hellip;&rdquo;',
+             MH37 + ', December 1837') +
+           N('His readers were more exclusive than he was. Ask: where did the exclusivity come from?')),
         _n(Q('&ldquo;&hellip;what could mean all that we have written upon the union of Christians on apostolic grounds, <b>had we taught that all Christians in the world were already united in our own community</b>?&rdquo;',
-             'Alexander Campbell, <i>Millennial Harbinger</i>, 1837', 'Answering the critics') +
-           N('His readers were angry. He refused to retreat: &ldquo;I have neither conceded nor surrendered any thing for which I ever contended&hellip; the opinion now expressed&hellip; is one that I have always avowed.&rdquo; A plea for union only makes sense if there are Christians outside your own church.')),
+             MH37 + ', December 1837', 'He did not retreat') +
+           N('&ldquo;I have neither conceded nor surrendered any thing for which I ever contended; but that, on the contrary, the opinion now expressed&hellip; is one that I have always avowed.&rdquo; A plea for union only makes sense if there are Christians outside your own church.')),
+
+        # ---- the open Campbell, beyond ----
+        _sec('The open Campbell', 'Discussion, schools, and peace'),
+        _n(BIG(Q('&ldquo;We must, then, all submit to the new order of things, and <b>do homage to his Majesty Free Discussion</b>.&rdquo;',
+                 MH37 + ', February 1845'), 'clamp(38px,8.4vmin,108px)', '26ch')) +
+        N('Honest context: this sentence opens his 1845 series &ldquo;Our Position to American Slavery,&rdquo; which held that the relation of master and slave was not in itself sinful and refused to make slavery a test of fellowship. His open principle, and his shadow, on the same page.'),
+        _n(Q('&ldquo;&hellip;Government is wanting in the essential ends of its being&hellip; which makes not <b>the education of every child born upon its territory</b> its primary concern&hellip; <b>intelligence and freedom are but two names for the same thing</b>.&rdquo;',
+             'Alexander Campbell, &ldquo;On Common Schools,&rdquo; Clarksburg, Virginia, 1841', 'Schools for every child') +
+           N('He campaigned for tax-supported common schools in western Virginia and founded Bethany College (1840). Shadow: in 1841 Virginia, &ldquo;every child&rdquo; did not include enslaved children; in 1845 he called the ban on teaching slaves to read an &ldquo;unchristian ordinance.&rdquo;')),
+        _n(Q('&ldquo;&hellip;we have no Christian nation or kingdom in the world, but that <b>Christ has one grand kingdom, composed of all the Christian communities in the world</b>&hellip;&rdquo;',
+             WAR, 'The Address on War') +
+           N('Delivered in 1848, after the Mexican War, on whether one Christian nation may make war on another. The church is one kingdom across every border; so can Christ&rsquo;s kingdom fight itself?')),
+        _n(Q('&ldquo;Their sovereign Lord, the King of nations, is called &lsquo;the Prince of Peace.&rsquo; How, then, could a Christian soldier&hellip; enlist to fight the battles of <b>a Caesar, a Hannibal, a Tamerlane, a Napoleon, or even a Victoria</b>?&rdquo;',
+             WAR) +
+           N('And a proposal decades early: &ldquo;Why not&hellip; have a congress of nations and a high court of nations for adjudicating and terminating all international misunderstandings and complaints?&rdquo;')),
     ] + list(extra) + [
-        CARD('From 1809 to 1837 and beyond,<br>' + G('He never stopped saying it.'),
-             'The end of the resource. The Church of Christ upon earth is one. The Ancient Order was meant to serve that, never to replace it. &rarr; Back to the spine.'),
+        CARD('From 1809 to 1848,<br>' + G('He never stopped saying it.'),
+             'The end. The Church of Christ upon earth is one. The Ancient Order was meant to serve that, never to replace it. &rarr; Back to the spine.'),
     ]

@@ -211,7 +211,6 @@ A(BIGQ(Q('&ldquo;<b>Is James Foster a member</b>, not having been present at the
 A(BIGQ(Q('&ldquo;Certainly, James Foster is a member, <b>having been with us from the beginning</b>, and his religious sentiments being perfectly well known to all.&rdquo;', 'Alexander Campbell, May 4, 1811 &middot; in Richardson, <i>Memoirs</i>', 'Alexander stands up')) +
   N('Alexander was &ldquo;not entirely convinced that there was any authority for such a test.&rdquo;',
     'Richardson: &ldquo;The test question, accordingly, was not propounded to him, nor to any one else afterward.&rdquo; No creed at the door, from the first day.'))
-for _x in R.unity(): A(_x)                       # side path: union, all his life (shared resource)
 
 A(BIGQ(Q('&ldquo;At this meeting, <b>Thomas Campbell was appointed elder</b>, and <b>Alexander was licensed to preach the gospel</b>. Four deacons were also chosen&hellip;&rdquo;', RICH, 'May 4, 1811')) +
   N('The deacons: John Dawson, George Sharp, William Gilcrist, James Foster. About thirty members.',
