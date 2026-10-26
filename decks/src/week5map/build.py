@@ -12,6 +12,7 @@ SIDE = [
     ('Luther, a witness', 'A witness &middot; Luther, 1523', 'confirmed by virtue of the call of the congregation'),
     # (label,                      first-slide anchor,                      last-slide anchor)
     R.GOVERNANCE,
+    R.CONSTITUTION,
     R.UNIVERSALS,
     R.EKKLESIA,
     R.TABLE,

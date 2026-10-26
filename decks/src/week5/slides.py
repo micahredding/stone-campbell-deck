@@ -195,6 +195,7 @@ A(BIGQ(Q('&ldquo;At this meeting, <b>Thomas Campbell was appointed elder</b>, an
 A(CARD('No bishop. No presbytery.<br>' + G('A congregation.'),
   'Let it sit. This is the thing no church court could imagine: a church that makes its own ministers.'))
 for _x in R.governance(): A(_x)                   # side path: who governs the church (shared resource)
+for _x in R.constitution(): A(_x)                # side path: confession or constitution (shared resource)
 A('<section class="slide"><div class=eyebrow>The next day &middot; May 5, 1811 &middot; their first Lord&rsquo;s Supper</div>'
   '<p class="bigquote" style="font-size:clamp(30px,6.4vmin,80px);max-width:36ch;line-height:1.22"><span class=q>&ldquo;&hellip;in assembling there on that occasion, they furnished <b>an emblem of the millennial state of the Church</b>, nay, an emblem of the heavenly state, when men of different nations, and known by different names, <b>should sit down together in the kingdom of God</b>.&rdquo;</span></p>'
   '<div class=cite>Alexander Campbell&rsquo;s communion sermon &middot; in Richardson, <i>Memoirs</i></div>'

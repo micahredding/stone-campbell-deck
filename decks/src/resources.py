@@ -6,8 +6,9 @@
 #   docs(between, clean, keys)  -> the documents, in the order given      SHORT[key] -> label on the map
 #   doc_order(vis, keys)        -> which documents a slide's quotes are checked against, from its citation
 #   westminster(extra=[])       -> side path: quoting the Westminster Confession against itself
-#   governance(extra=[])        -> side path: who governs the church (Matthew 18, Westminster 30, the
+#   governance(extra=[])        -> side path: who governs the church (Matthew 18, the priesthood texts, the
 #                                  Declaration and Address, the Last Will, Alexander Campbell)
+#   constitution(extra=[])      -> side path: confession or constitution (Westminster 30; D&A Propositions 4 and 2)
 #   universals(extra=[])        -> side path: the whole church remembers (priesthood, governance, baptism,
 #                                  the table, from Cyprian to the Lima text)
 #   campbell_reread(extra=[])   -> side path: Alexander Campbell, reread (the ancient order as liberation and
@@ -20,7 +21,7 @@
 #   unity(extra=[])             -> resource: union, all his life (Thomas Campbell's Declaration and Address, which
 #                                  Alexander endorsed; the 1810 party-man address; the Christian Baptist; The Christian
 #                                  System; Lunenburg; the open Campbell). Also its own deck: decks/src/unity/build.py
-#   WESTMINSTER, GOVERNANCE, UNIVERSALS,
+#   WESTMINSTER, GOVERNANCE, CONSTITUTION, UNIVERSALS,
 #   CAMPBELL_REREAD, EKKLESIA, TABLE, UNITY -> (label, first-slide anchor, last-slide anchor) for SIDE
 #
 # Each resource's quotes are checked against a document: give a slide data-src=<key> to route it (see
@@ -156,8 +157,8 @@ def governance(extra=()):
     return [
         '<section class="slide breath"><div class=eyebrow>Church government &middot; a resource</div>'
         '<h2 style="max-width:none">Who governs the church?</h2>'
-        '<div class=sub>What Jesus said, what the Confession said,<br>what Cane Ridge willed, and what Brush Run did.</div>'
-        '<aside class=notes>A resource, to take when the room asks. The sources run in order: Matthew 18, the priesthood texts, Westminster 30, the <i>Declaration and Address</i>, the Witnesses&rsquo; Address and the Last Will, Alexander Campbell.</aside></section>',
+        '<div class=sub>What Jesus said, what Cane Ridge willed,<br>and what Brush Run did.</div>'
+        '<aside class=notes>A resource, to take when the room asks. The sources run in order: Matthew 18, the priesthood texts, the <i>Declaration and Address</i> on Matthew 18, the Witnesses&rsquo; Address and the Last Will, Alexander Campbell.</aside></section>',
 
         Q('&ldquo;&hellip;<b>tell it unto the church</b>: but if he neglect to hear the church, let him be unto thee as an heathen man and a publican. Verily I say unto you, <b>Whatsoever ye shall bind on earth shall be bound in heaven</b>&hellip;&rdquo;', 'Matthew 18:17&ndash;18 (KJV)', 'To the gathered church') +
         N('In Matthew 16:19 the keys go to Peter. Here the binding and loosing go to &ldquo;the church&rdquo;: the gathering that hears a brother&rsquo;s trespass. The next verses: two who agree; two or three gathered.'),
@@ -177,19 +178,6 @@ def governance(extra=()):
         '<div class="no frag">&ldquo;And hath made us <b>kings and priests unto God</b> and his Father&hellip;&rdquo; <span class=lcite>Revelation 1:6 (KJV)</span></div>'
         '</div><aside class=notes>Two clicks. Said of the whole church, not of an order within it. Richardson&rsquo;s note on Alexander&rsquo;s reply cites both.</aside></section>',
 
-        '<section class="slide"><div class=eyebrow>The other answer &middot; Westminster Confession, chapter 30</div>'
-        '<div class=litany style="text-align:left;gap:3vmin;max-width:88vw;font-size:1.35em">'
-        '<div class="no frag"><b style="color:var(--gold)">30.1</b> &ldquo;The Lord Jesus, as King and Head of his church, hath therein appointed a government, <b>in the hand of church officers</b>&hellip;&rdquo;</div>'
-        '<div class="no frag"><b style="color:var(--gold)">30.2</b> &ldquo;To these officers <b>the keys of the kingdom of heaven are committed</b>&hellip;&rdquo;</div>'
-        '</div><div class=cite>' + WCF + '</div>'
-        '<aside class=notes>Two clicks. Of Church Censures. Matthew 18 gives the binding and loosing to the church; Westminster gives the keys to its officers. Richardson: Thomas Campbell, applying to the Synod of Pittsburg, accepted the Confession &ldquo;with the exception that&hellip; [he] objected to the chapter conferring power upon the clergy.&rdquo;</aside></section>',
-
-        Q('&ldquo;&hellip;the New Testament is <b>as perfect a constitution for the worship, discipline, and government of the New Testament Church</b>&hellip; as the Old Testament was for the worship, discipline, and government of the Old Testament Church&hellip;&rdquo;', DA, 'Proposition 4') +
-        N('The constitution is the New Testament. Nothing written since governs the church.'),
-
-        Q('&ldquo;That although the Church of Christ upon earth must necessarily exist in <b>particular and distinct societies, locally separate one from another</b>, yet there ought to be no schisms, no uncharitable divisions among them.&rdquo;', DA, 'Proposition 2') +
-        N('Local congregations, many; one church. The locality is natural; the division is the sin.'),
-
         Q('&ldquo;&hellip;they soon found that there was <b>neither precept nor example in the New Testament</b> for such confederacies as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc.&rdquo;', WIT) +
         N('Researching a book on church government, the Springfield Presbytery found that it was itself one of these confederacies; it dissolved itself.'),
 
@@ -208,6 +196,32 @@ def governance(extra=()):
         N('Richardson&rsquo;s summary of Alexander&rsquo;s view, which he says &ldquo;he continued to maintain unchanged through life.&rdquo; Ordination recognizes; it does not confer.'),
     ] + list(extra) + [
         CARD('Christ in the midst of two or three.<br>' + G('Every other office answers to that.'),
+             'The end of the resource. &rarr; Back to the spine.'),
+    ]
+
+# ---------- side path: confession or constitution (split from church government) ----------
+CONSTITUTION = ('Confession or constitution', '<div class=eyebrow>Confession or constitution &middot; a resource</div>', 'The New Testament is its constitution')
+def constitution(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>Confession or constitution &middot; a resource</div>'
+        '<h2 style="max-width:none">What governs the church?</h2>'
+        '<div class=sub>The Westminster Confession, and the <i>Declaration and Address</i></div>'
+        '<aside class=notes>A resource, split from &ldquo;Church government.&rdquo; Two answers: a confession that puts the keys in the hands of officers, and Thomas Campbell&rsquo;s New Testament as the church&rsquo;s whole constitution, with many local congregations and one church.</aside></section>',
+        '<section class="slide"><div class=eyebrow>The other answer &middot; Westminster Confession, chapter 30</div>'
+        '<div class=litany style="text-align:left;gap:3vmin;max-width:88vw;font-size:1.35em">'
+        '<div class="no frag"><b style="color:var(--gold)">30.1</b> &ldquo;The Lord Jesus, as King and Head of his church, hath therein appointed a government, <b>in the hand of church officers</b>&hellip;&rdquo;</div>'
+        '<div class="no frag"><b style="color:var(--gold)">30.2</b> &ldquo;To these officers <b>the keys of the kingdom of heaven are committed</b>&hellip;&rdquo;</div>'
+        '</div><div class=cite>' + WCF + '</div>'
+        '<aside class=notes>Two clicks. Of Church Censures. Matthew 18 gives the binding and loosing to the church; Westminster gives the keys to its officers. Richardson: Thomas Campbell, applying to the Synod of Pittsburg, accepted the Confession &ldquo;with the exception that&hellip; [he] objected to the chapter conferring power upon the clergy.&rdquo;</aside></section>',
+
+        Q('&ldquo;&hellip;the New Testament is <b>as perfect a constitution for the worship, discipline, and government of the New Testament Church</b>&hellip; as the Old Testament was for the worship, discipline, and government of the Old Testament Church&hellip;&rdquo;', DA, 'Proposition 4') +
+        N('The constitution is the New Testament. Nothing written since governs the church.'),
+
+        Q('&ldquo;That although the Church of Christ upon earth must necessarily exist in <b>particular and distinct societies, locally separate one from another</b>, yet there ought to be no schisms, no uncharitable divisions among them.&rdquo;', DA, 'Proposition 2') +
+        N('Local congregations, many; one church. The locality is natural; the division is the sin.'),
+
+    ] + list(extra) + [
+        CARD('Not a confession over the church.<br>' + G('The New Testament is its constitution.'),
              'The end of the resource. &rarr; Back to the spine.'),
     ]
 

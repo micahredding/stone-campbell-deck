@@ -17,7 +17,8 @@ A slide is routed to its document by a `data-src=<key>` attribute on its `<secti
 | Resource | Function / anchor | Document key → file | Hung in |
 |---|---|---|---|
 | Quoting the Westminster Confession against itself | `westminster(extra)` / `WESTMINSTER` | `wcf` → `week4map/sources/westminster-confession-american.html` | The reserve deck "The Synod and the Reply" (`decks/reserve-synod-and-reply-map.html`) |
-| Church government (Matthew 18, Westminster 30, the D&A, the Last Will, Campbell) | `governance()` / `GOVERNANCE` | `kjv`, `wcf`, `dna`, `will`, `cb` | Ch. 5 |
+| Church government (Matthew 18, the priesthood texts, the D&A on Matthew 18, the Last Will, Campbell) | `governance()` / `GOVERNANCE` | `kjv`, `dna`, `will`, `cb` | Ch. 5 |
+| Confession or constitution (Westminster 30; D&A Propositions 4 and 2) | `constitution()` / `CONSTITUTION` | `wcf`, `dna` | Ch. 5 (beside Church government) |
 | The whole church remembers (priesthood, governance, baptism, the table, from Cyprian to the Lima text) | `universals()` / `UNIVERSALS` | `church` → `sources/the-whole-church.html` | Ch. 5 |
 | Alexander Campbell, reread (the Ancient Order as liberation and foretaste; Lunenburg; the Address on War) | `campbell_reread()` / `CAMPBELL_REREAD` | `acr` → `sources/campbell-reread.html` | Side path in the "Union, All His Life" deck (off the Ancient Order section); no longer in Ch. 5 |
 | The assembly: the church as *ekklēsia* (the Greek citizens' assembly, 1 Cor 14, Tyndale, Campbell's "fountain of official power") | `ekklesia()` / `EKKLESIA` | `ekk` → `sources/ekklesia.html` | Ch. 5 |
