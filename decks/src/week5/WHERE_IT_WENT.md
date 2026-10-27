@@ -36,11 +36,15 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
   - "Who serves the table?" (Campbell's royal-priesthood passages, "a horrid evil," "Open to all. Hosted by any.") is the side path *Who serves the table?*, with *Who keeps the table* beside it.
   - "Where two or three are gathered" (Matthew 18, the D&A on Matthew 18, the Last Will's "choose her own preacher," "Brush Run chose.") is the side path *Where two or three are gathered*.
   - *The assembly* (`ekklesia()`) and *The whole church remembers* now fork from the "fountain of official power" slide in the new section "Why the people?".
-- **Brush Run, shortened.** Three slides are now `HIDE(...)` in `slides.py`: kept in the source, left out of the deck. Change `HIDE` back to `A` to show one again.
+- **Brush Run, shortened.** Two slides are now `HIDE(...)` in `slides.py`: kept in the source, left out of the deck. Change `HIDE` back to `A` to show one again.
   - The 1810 meeting house.
   - Job 8:7, "Though thy beginning was small."
-  - "the Society must obtain admission into some regularly organized religious body…"
-  The Synod's refusal now sits in the notes of the new "Why a church" slide.
+- **"Two ways not to become a sect"** (Micah, 27 Oct 2026). Stone's side dissolved its own body; the Campbells tried to join existing ones. This is now a run in Brush Run:
+  - "the Society must obtain admission into some regularly organized religious body…" (shown again, no longer hidden);
+  - the Synod of Pittsburg's "cannot be granted" (also in the reserve deck);
+  - the two-column slide (the Last Will's "sink into union" beside "obtain admission");
+  - the Baptist flash-forward (Alexander, *Millennial Harbinger* 1848: "I had no idea of uniting with the Baptists…", and the 1813 overture "provided always…");
+  - the card "Refused by the Presbyterians, they became Baptists."
 - **The opening question slide** ("Who has authority? / Who may serve the table?") is hidden (`HIDE`) while Micah works on a reframing (27 Oct 2026).
 - **The Last Will's ministry items** ("choose her own preacher", "obtain license from God") and the card "Brush Run chose." moved from the *Where two or three are gathered* side path into "Why the people?". They are now two highlighted Springfield slides, joined by "our power of making laws… forever cease" and "assume her native right of internal government". That side path now holds Matthew 18 and the *D&A* on Matthew 18:20.
 - **"I dare not be a party man…"** moved from point one to the new spine section on Alexander's own words about the table (1810).
