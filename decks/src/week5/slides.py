@@ -231,18 +231,7 @@ A('<section class="slide"><div class=eyebrow>December 25, 1811 &middot; his own 
   '<aside class=notes>Three clicks. Twelve reasons; three shown. The mast comes back: &ldquo;two occasions&rdquo; are the Hibernia off Islay in 1808, and the 1809 crossing on the Latonia, which sprang a leak and nearly went down in a squall.<br>Number XI: the call came from the church, not from a court.</aside></section>')
 A(BIGQ(Q('&ldquo;You see that ordination is not a mere unmeaning thing, but <b>consists in the choice of the people</b>, which must be hearty&hellip;&rdquo;', AC + ', sermon on Titus 1:5 &middot; in Richardson, <i>Memoirs</i>'), 'clamp(32px,7.2vmin,90px)', '34ch') +
   N('His notes for a sermon that winter. The sentence goes on: &ldquo;and that it might be evidenced, the elders or rulers impose their hands.&rdquo; The laying on of hands shows the choice; it does not make it. Richardson: he regarded ordination not &ldquo;as conferring any authority, but as a public testimony that the persons ordained possessed the necessary authority.&rdquo; The authority is the congregation&rsquo;s.'))
-A('<section class="slide breath"><div class=eyebrow>Against succession &middot; a side path</div><p class="bigquote" style="font-size:clamp(38px,8.4vmin,108px);max-width:26ch;line-height:1.16"><span class=q>&ldquo;Why do we contend for uninterrupted succession in ordination, seeing it is <b>not the persons called bishops who have the power, but the people?</b>&rdquo;</span></p>'
-  '<div class=cite>' + AC + ', sermon on Titus 1:5 &middot; in Richardson, <i>Memoirs</i></div>'
-  '<aside class=notes>Side path: the argument with the alternatives, for when the room asks. No apostolic succession, no line of hands from Peter to now that makes a minister. The power is in the people.<br>Richardson: he did not regard ordination &ldquo;as conferring any authority, but as a public testimony that the persons ordained possessed the necessary authority.&rdquo;</aside></section>')
-A('<section class="slide"><div class=eyebrow>Asked why he preached without authority</div>'
-  '<div class=litany style="gap:1.2vmin">'
-  '<div class=no style="font-size:clamp(30px,6vmin,76px)">&ldquo;<b>Who has authority?</b></div>'
-  '<div class="no frag" style="font-size:clamp(26px,4.8vmin,60px)">Who gave the Presbytery authority to license men?</div>'
-  '<div class="no frag" style="font-size:clamp(26px,4.8vmin,60px)">Who gave the Presbytery authority to make laws for the Church?</div>'
-  '<div class="no frag" style="font-size:clamp(26px,4.8vmin,60px)">Who gave the Presbytery authority to decide religious matters by vote?</div>'
-  '<div class="no frag" style="font-size:clamp(26px,4.8vmin,60px)">Who gave the Presbytery authority to choose ministers?&rdquo;</div>'
-  '</div><div class=cite>' + AC + ' &middot; in Richardson, <i>Memoirs</i></div>'
-  '<aside class=notes>Four clicks; the question keeps extending. End of the side path. He turns the charge around: the presbytery is the one without authority.</aside></section>')
+for _x in R.succession(): A(_x)                  # side path: against succession (shared resource)
 A(BIGQ(Q('&ldquo;We do hereby certify that Alexander Campbell&hellip; was, <b>according to the principles of this Church</b> regularly chosen and ordained a minister thereof, upon the first day of January, one thousand eight hundred and twelve.&rdquo;', 'Certificate of ordination, recorded in the Brooke County court, December 1812 &middot; in Richardson, <i>Memoirs</i>')) +
   N('He needed it in court to be allowed to perform marriages. Signed at a church meeting at John Dawson&rsquo;s, September 1, 1812.',
     'The cut: &ldquo;after a due course of trials preparatory to the work of the holy ministry.&rdquo;'))

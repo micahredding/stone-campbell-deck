@@ -22,12 +22,22 @@ A slide is routed to its document by a `data-src=<key>` attribute on its `<secti
 | The whole church remembers (the priesthood of all; consent and the governance of all, with Luther 1523 as a witness; baptism that unites; Cyprian to the 2024 Synod) | `universals()` / `UNIVERSALS` | `church` → `sources/the-whole-church.html` | Ch. 5 |
 | Every Lord's day (weekly communion: Acts 20:7, the *Didache*, Justin, Abitina, Calvin, the Lutheran Apology, Wesley, Vatican II, the 2024 Synod, Lima and the churches' answers, the Disciples–Catholic dialogue, Brush Run) | `weekly()` (short, 9 slides) / `weekly(full=True)`; `WEEKLY` | `lord` → `sources/every-lords-day.html` | Ch. 5 (short). **Its own deck:** `decks/every-lords-day-map.html`, `python3 decks/src/weekly/build.py` |
 | The priesthood of all believers, in every tradition (1 Peter 2, Revelation 1 and 5, Tertullian, Luther 1520 and 1523, Vatican II, the 2024 Synod, Afanasiev, Schmemann, the Lima text, the Campbells) | `priesthood(table=...)` / `PRIESTHOOD` | `priest` → `sources/priesthood-of-all.html`, with `church`, `kjv`, `rich`, `acr` | **Its own deck:** `decks/priesthood-of-all-map.html`, `python3 decks/src/priesthood/build.py` (side path: Who keeps the table) |
+| The consent of all (Cyprian, Leo, Luther 1523, the 1848 Patriarchs, Francis, Afanasiev): part of *The whole church remembers*, reusable alone | `consent()` | `church` | Inside `universals()`; in *The Assembly Governs* |
+| Against succession ("not the persons called bishops… but the people"; "Who gave the Presbytery authority…?") | `succession()` / `SUCCESSION` | `rich` | Ch. 5; *The Assembly Governs* |
+| **The Assembly Governs** (deck): `ekklesia()` + `consent()` + `governance()`, side paths `constitution()` and `succession()` | `decks/src/governance/` | `ekk`, `church`, `kjv`, `wcf`, `dna`, `will`, `cb`, `rich` | **Its own deck:** `decks/the-assembly-governs-map.html`, `python3 decks/src/governance/build.py` |
 | Alexander Campbell, reread (the Ancient Order as liberation and foretaste; Lunenburg; the Address on War) | `campbell_reread()` / `CAMPBELL_REREAD` | `acr` → `sources/campbell-reread.html` | Side path in the "Union, All His Life" deck (off the Ancient Order section); no longer in Ch. 5 |
 | The assembly: the church as *ekklēsia* (the Greek citizens' assembly, 1 Cor 14, Tyndale, Campbell's "fountain of official power") | `ekklesia()` / `EKKLESIA` | `ekk` → `sources/ekklesia.html` | Ch. 5 |
 | Who keeps the table (who may serve and preside at the Lord's Supper, from the Scotch Baptists to today) | `table()` / `TABLE` | `tbl` → `sources/the-table.html` | Ch. 5 |
 | Union, all his life (Thomas Campbell's *Declaration and Address*, which Alexander endorsed; the 1810 "party man" address; the *Christian Baptist*; *The Christian System*; the Lunenburg letter; the open Campbell: free inquiry, schools, the Address on War) | `unity()` / `UNITY` | `uni` → `sources/campbell-unity.html` (D&A quotes check against `dna`) | Not in a chapter. **Its own deck:** `decks/union-all-his-life-map.html`, built by `python3 decks/src/unity/build.py` |
 
 Whole source documents available to any deck (`docs(between, clean, keys)`): `rich` Richardson's *Memoirs* (excerpts), `dna` the Declaration and Address, `will` the Last Will, `stone` Stone's *Biography* ch. VII, `apology` the Springfield Presbytery's *Apology*, `wcf` the Westminster Confession, `kjv` Scripture, `cb` the *Christian Baptist* (July 1824), plus the four excerpt documents above.
+
+## Planned resource decks (Micah, 2026-10-27)
+
+1. The priesthood of all believers, in every tradition: **built** (`decks/src/priesthood`).
+2. Church governance, *ekklēsia*, and the consent of all: **built** (`decks/src/governance`).
+3. Weekly communion: **built** (`decks/src/weekly`).
+4. Baptism. 5. Congregational singing as priesthood. 6. Access to Scripture as priesthood. 7. Freedom of conscience. Research for 4 to 7 goes into the research database (`10 Research Projects/`) first; then the decks are built the same way.
 
 ## Where the research behind them lives
 

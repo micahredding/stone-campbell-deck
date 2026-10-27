@@ -1,7 +1,7 @@
 import re, sys, base64, os
 # PART=2 builds Chapter 3, part two (decks/src/week3b/slides.py) with this same engine, styles and images.
 PART = os.environ.get('PART', '1')
-sys.path.insert(0, {'1': 'decks/src/week3', '2': 'decks/src/week3b', '4': 'decks/src/week4', '5': 'decks/src/week5', 'u': 'decks/src/unity', 'r5': 'decks/src/reserve5', 'wk': 'decks/src/weekly', 'pr': 'decks/src/priesthood'}[PART])
+sys.path.insert(0, {'1': 'decks/src/week3', '2': 'decks/src/week3b', '4': 'decks/src/week4', '5': 'decks/src/week5', 'u': 'decks/src/unity', 'r5': 'decks/src/reserve5', 'wk': 'decks/src/weekly', 'pr': 'decks/src/priesthood', 'gv': 'decks/src/governance'}[PART])
 from slides import S, PATDEFS, CHRISTENDOM_CSS
 
 body='\n\n'.join(S)
@@ -98,14 +98,14 @@ else:
     print('note: decks/src/week3/marburg.jpg missing; the Marburg slide builds without its painting')
 
 js=open('decks/src/week3/engine.js').read()
-K = {'1': 'w3', '2': 'w3b', '4': 'w4', '5': 'w5', 'u': 'wu', 'r5': 'wr5', 'wk': 'wwk', 'pr': 'wpr'}[PART]
+K = {'1': 'w3', '2': 'w3b', '4': 'w4', '5': 'w5', 'u': 'wu', 'r5': 'wr5', 'wk': 'wwk', 'pr': 'wpr', 'gv': 'wgv'}[PART]
 js=js.replace("'w1cur'","'%scur'" % K).replace("'w1mode'","'%smode'" % K).replace("'w1strip'","'%sstrip'" % K)
 js=js.replace("'w1presenter'","'%spresenter'" % K)
 js=js.replace("||'read')","||'present')")
 
 html=('<!doctype html><html><head><meta charset=utf8>'
  '<meta name=viewport content="width=device-width,initial-scale=1">'
- '<title>Our Wild Democracy &middot; ' + {'1': 'Chapter 3 &middot; The Declaration and Address', '2': 'Chapter 3 &middot; The Declaration and Address, part two', '4': 'Chapter 4 &middot; The Last Will and Testament', '5': 'Chapter 5 &middot; Wherever Two or Three Are Gathered', 'u': 'Union, All His Life', 'r5': 'The Synod and the Reply (Chapter 5 reserve)', 'wk': 'Every Lord&rsquo;s Day', 'pr': 'The Priesthood of All Believers'}[PART] + '</title>'
+ '<title>Our Wild Democracy &middot; ' + {'1': 'Chapter 3 &middot; The Declaration and Address', '2': 'Chapter 3 &middot; The Declaration and Address, part two', '4': 'Chapter 4 &middot; The Last Will and Testament', '5': 'Chapter 5 &middot; Wherever Two or Three Are Gathered', 'u': 'Union, All His Life', 'r5': 'The Synod and the Reply (Chapter 5 reserve)', 'wk': 'Every Lord&rsquo;s Day', 'pr': 'The Priesthood of All Believers', 'gv': 'The Assembly Governs'}[PART] + '</title>'
  '<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap">'
  '<style>\n/* ============================================================\n'
  '   THE DECLARATION AND ADDRESS — Week 3 deck\n'
@@ -117,7 +117,7 @@ html=('<!doctype html><html><head><meta charset=utf8>'
  '<div id=hint>&rarr; / space / click &middot; f fullscreen &middot; n read/present &middot; p presenter window &middot; s notes on THIS screen</div>'
  '<div id=mode></div><div id=strip></div><div id=pres></div>\n' + js + (EGG_ANIM_JS if EGG else '') + '</html>')
 
-out={'1': 'decks/week3-declaration-address.html', '2': 'decks/week3b-declaration-address-part-two.html', '4': 'decks/week4-last-will.html', '5': 'decks/week5-brush-run.html', 'u': 'decks/union-all-his-life.html', 'r5': 'decks/reserve-synod-and-reply.html', 'wk': 'decks/every-lords-day.html', 'pr': 'decks/priesthood-of-all.html'}[PART]
+out={'1': 'decks/week3-declaration-address.html', '2': 'decks/week3b-declaration-address-part-two.html', '4': 'decks/week4-last-will.html', '5': 'decks/week5-brush-run.html', 'u': 'decks/union-all-his-life.html', 'r5': 'decks/reserve-synod-and-reply.html', 'wk': 'decks/every-lords-day.html', 'pr': 'decks/priesthood-of-all.html', 'gv': 'decks/the-assembly-governs.html'}[PART]
 open(out,'w').write(html)
 print("wrote", out)
 print("bytes:", len(html), "=", round(len(html)/1048576,2), "MB")

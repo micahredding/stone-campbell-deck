@@ -236,30 +236,9 @@ def constitution(extra=()):
              'The end of the resource. &rarr; Back to the spine.'),
     ]
 
-# ---------- side path: the whole church remembers (the universals) ----------
-UNIVERSALS = ('The whole church remembers', '<div class=eyebrow>The whole church remembers', 'we try to practice every Lord')
-def _u(quote, cite, eyebrow='', note=''):
-    """a quote slide whose quotes are checked against the whole-church excerpts"""
-    return Q(quote, cite, eyebrow).replace('<section class="slide"', '<section data-src=church class="slide"', 1) + N(note)
-def universals(extra=()):
+# ---------- the consent of all (part of the whole church remembers; also in the governance deck) ----------
+def consent():
     return [
-        '<section class="slide breath"><div class=eyebrow>The whole church remembers &middot; a resource</div>'
-        '<h2 style="max-width:none">What the whole church knows</h2>'
-        '<div class=sub>The priesthood of all &middot; the consent of all<br>baptism that unites</div>'
-        '<aside class=notes>A resource. The claim: the Church of Christ stands for what is most universal in the church, and is distinctive only where others have let one of these slip. Catholic, Orthodox, Lutheran and ecumenical voices, in their own words. Every quote is in the document &ldquo;The whole church.&rdquo;</aside></section>',
-
-        # the priesthood of all
-        _u('&ldquo;The New Testament never uses the term &lsquo;priesthood&rsquo; or &lsquo;priest&rsquo; (<i>hiereus</i>) to designate the ordained ministry&hellip; the term is reserved&hellip; for the unique priesthood of Jesus Christ and&hellip; for <b>the royal and prophetic priesthood of all baptized</b>.&rdquo;',
-           'World Council of Churches, <i>Baptism, Eucharist and Ministry</i> (1982), Ministry 17', 'The priesthood of all',
-           'The Lima text: the most widely studied ecumenical document of the century, drafted by a commission that included Catholic and Orthodox theologians.'),
-        _u('&ldquo;The gift of the Spirit that every member of the faithful receives in the sacrament of initiation is <b>the charism of royal priesthood</b>.&rdquo;',
-           'Nicolas Afanasiev, <i>The Church of the Holy Spirit</i>, p. 3', 'Orthodox',
-           'A Russian Orthodox theologian in Paris (d. 1966). His second chapter is titled &ldquo;The Ordination of Laics&rdquo;: every baptized Christian is ordained.'),
-        _u('&ldquo;The first, the basic definition of man is that <b>he is the priest</b>.&rdquo;',
-           'Alexander Schmemann, <i>For the Life of the World</i> (1963)', 'Orthodox',
-           'Not of clergy: of every human being, who receives the world from God and offers it back. The same book: &ldquo;Religion is needed where there is a wall of separation between God and man. But Christ&hellip; has broken down the wall&hellip; He has inaugurated a new life, not a new religion.&rdquo; (Page to verify against the book.)'),
-
-        # the governance of all
         _u('&ldquo;&hellip;I made up my mind to do nothing on my own private opinion, without your advice and <b>without the consent of the people</b>.&rdquo;',
            'Cyprian, bishop of Carthage, c. 250', 'The governance of all',
            'A bishop of the third century, to his clergy, on how he had governed from the beginning.'),
@@ -288,6 +267,52 @@ def universals(extra=()):
            'Nicolas Afanasiev, <i>The Church of the Holy Spirit</i>, p. 274', 'Why it is beautiful',
            'The case for congregational governance is not a legal one. Where love governs, the apparatus of power is unnecessary.'),
 
+    ]
+
+# ---------- side path: against succession (the arguments with bishops and presbyteries; from Chapter 5) ----------
+SUCCESSION = ('Against succession', '<div class=eyebrow>Against succession', 'Asked why he preached without authority')
+def succession():
+    AC = 'Alexander Campbell'
+    return [
+        '<section class="slide breath"><div class=eyebrow>Against succession &middot; a side path</div><p class="bigquote" style="font-size:clamp(38px,8.4vmin,108px);max-width:26ch;line-height:1.16"><span class=q>&ldquo;Why do we contend for uninterrupted succession in ordination, seeing it is <b>not the persons called bishops who have the power, but the people?</b>&rdquo;</span></p>'
+        '<div class=cite>' + AC + ', sermon on Titus 1:5 &middot; in Richardson, <i>Memoirs</i></div>'
+        '<aside class=notes>Side path: the argument with the alternatives, for when the room asks. No apostolic succession, no line of hands from Peter to now that makes a minister. The power is in the people.<br>Richardson: he did not regard ordination &ldquo;as conferring any authority, but as a public testimony that the persons ordained possessed the necessary authority.&rdquo;</aside></section>',
+        '<section class="slide"><div class=eyebrow>Asked why he preached without authority</div>'
+        '<div class=litany style="gap:1.2vmin">'
+        '<div class=no style="font-size:clamp(30px,6vmin,76px)">&ldquo;<b>Who has authority?</b></div>'
+        '<div class="no frag" style="font-size:clamp(26px,4.8vmin,60px)">Who gave the Presbytery authority to license men?</div>'
+        '<div class="no frag" style="font-size:clamp(26px,4.8vmin,60px)">Who gave the Presbytery authority to make laws for the Church?</div>'
+        '<div class="no frag" style="font-size:clamp(26px,4.8vmin,60px)">Who gave the Presbytery authority to decide religious matters by vote?</div>'
+        '<div class="no frag" style="font-size:clamp(26px,4.8vmin,60px)">Who gave the Presbytery authority to choose ministers?&rdquo;</div>'
+        '</div><div class=cite>' + AC + ' &middot; in Richardson, <i>Memoirs</i></div>'
+        '<aside class=notes>Four clicks; the question keeps extending. End of the side path. He turns the charge around: the presbytery is the one without authority.</aside></section>',
+    ]
+
+# ---------- side path: the whole church remembers (the universals) ----------
+UNIVERSALS = ('The whole church remembers', '<div class=eyebrow>The whole church remembers', 'we try to practice every Lord')
+def _u(quote, cite, eyebrow='', note=''):
+    """a quote slide whose quotes are checked against the whole-church excerpts"""
+    return Q(quote, cite, eyebrow).replace('<section class="slide"', '<section data-src=church class="slide"', 1) + N(note)
+def universals(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>The whole church remembers &middot; a resource</div>'
+        '<h2 style="max-width:none">What the whole church knows</h2>'
+        '<div class=sub>The priesthood of all &middot; the consent of all<br>baptism that unites</div>'
+        '<aside class=notes>A resource. The claim: the Church of Christ stands for what is most universal in the church, and is distinctive only where others have let one of these slip. Catholic, Orthodox, Lutheran and ecumenical voices, in their own words. Every quote is in the document &ldquo;The whole church.&rdquo;</aside></section>',
+
+        # the priesthood of all
+        _u('&ldquo;The New Testament never uses the term &lsquo;priesthood&rsquo; or &lsquo;priest&rsquo; (<i>hiereus</i>) to designate the ordained ministry&hellip; the term is reserved&hellip; for the unique priesthood of Jesus Christ and&hellip; for <b>the royal and prophetic priesthood of all baptized</b>.&rdquo;',
+           'World Council of Churches, <i>Baptism, Eucharist and Ministry</i> (1982), Ministry 17', 'The priesthood of all',
+           'The Lima text: the most widely studied ecumenical document of the century, drafted by a commission that included Catholic and Orthodox theologians.'),
+        _u('&ldquo;The gift of the Spirit that every member of the faithful receives in the sacrament of initiation is <b>the charism of royal priesthood</b>.&rdquo;',
+           'Nicolas Afanasiev, <i>The Church of the Holy Spirit</i>, p. 3', 'Orthodox',
+           'A Russian Orthodox theologian in Paris (d. 1966). His second chapter is titled &ldquo;The Ordination of Laics&rdquo;: every baptized Christian is ordained.'),
+        _u('&ldquo;The first, the basic definition of man is that <b>he is the priest</b>.&rdquo;',
+           'Alexander Schmemann, <i>For the Life of the World</i> (1963)', 'Orthodox',
+           'Not of clergy: of every human being, who receives the world from God and offers it back. The same book: &ldquo;Religion is needed where there is a wall of separation between God and man. But Christ&hellip; has broken down the wall&hellip; He has inaugurated a new life, not a new religion.&rdquo; (Page to verify against the book.)'),
+
+        # the governance of all
+    ] + consent() + [
         # baptism
         '<section data-src=church class="slide"><div class=eyebrow>Baptism &middot; the Synod on Synodality, 2024</div>'
         '<div class=litany style="font-size:1.6em;max-width:86vw;gap:3.4vmin">'

@@ -1,0 +1,690 @@
+{
+ "deck": "decks/the-assembly-governs-map.html",
+ "source": "decks/src/resources.py (ekklesia, consent, governance)",
+ "built_by": "decks/src/governance/build.py",
+ "slides": [
+  {
+   "index": 0,
+   "n": 1,
+   "title": "Our Wild Democracy a resource The Assembly Governs Church government in every tradition",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 1,
+   "n": 2,
+   "title": "The church as ekklēsia a resource The word Paul chose was the name of the citizens' assemb",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 2,
+   "n": 3,
+   "title": "Athens: the open floor \"Freedom's mark is also seen in this: Who hath wholesome counsel to",
+   "path": "spine",
+   "doc": "ekk"
+  },
+  {
+   "index": 3,
+   "n": 4,
+   "title": "The same word, in the New Testament \"...it shall be determined in a legal congregation ...",
+   "path": "spine",
+   "doc": "ekk"
+  },
+  {
+   "index": 4,
+   "n": 5,
+   "title": "The scholars \"...Paul wished to portray his communities as alternative organizations exist",
+   "path": "spine",
+   "doc": "ekk"
+  },
+  {
+   "index": 5,
+   "n": 6,
+   "title": "The Christian assembly \"When you are come together, each of you has a psalm, has a discour",
+   "path": "spine",
+   "doc": "ekk"
+  },
+  {
+   "index": 6,
+   "n": 7,
+   "title": "The floor passes 1 Corinthians 14:29-31 \"... and let the others judge .\" \"...you can all p",
+   "path": "spine",
+   "doc": "ekk"
+  },
+  {
+   "index": 7,
+   "n": 8,
+   "title": "The assembly decides \"...this punishment, which was inflicted by the majority .\" 2 Corinth",
+   "path": "spine",
+   "doc": "ekk"
+  },
+  {
+   "index": 8,
+   "n": 9,
+   "title": "The translators' fight \"...where I found this word ecclesia , I interpreted it by this wor",
+   "path": "spine",
+   "doc": "ekk"
+  },
+  {
+   "index": 9,
+   "n": 10,
+   "title": "Campbell takes Tyndale's side \" Wherever the word church is found in the common version, c",
+   "path": "spine",
+   "doc": "ekk"
+  },
+  {
+   "index": 10,
+   "n": 11,
+   "title": "Where authority comes from \" The community, the church, the multitude of the faithful, are",
+   "path": "spine",
+   "doc": "ekk"
+  },
+  {
+   "index": 11,
+   "n": 12,
+   "title": "\" Servants made by servants are servants of servants. \" Alexander Campbell, The Christian ",
+   "path": "spine",
+   "doc": "ekk"
+  },
+  {
+   "index": 12,
+   "n": 13,
+   "title": "And back again \"... modern democracy began with the experience of the Puritan congregation",
+   "path": "spine",
+   "doc": "ekk"
+  },
+  {
+   "index": 13,
+   "n": 14,
+   "title": "Not a building. Not a clergy. The people, assembled.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 14,
+   "n": 15,
+   "title": "The Assembly Governs The consent of all Cyprian, Leo, Luther, the Orthodox, Rome",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 15,
+   "n": 16,
+   "title": "The governance of all \"...I made up my mind to do nothing on my own private opinion, witho",
+   "path": "spine",
+   "doc": "church"
+  },
+  {
+   "index": 16,
+   "n": 17,
+   "title": "\" He who is to govern all, should be chosen by all. \" Leo the Great, bishop of Rome, Lette",
+   "path": "spine",
+   "doc": "church"
+  },
+  {
+   "index": 17,
+   "n": 18,
+   "title": "Luther, 1523 for the congregation at Leisnig \"... the sheep are to judge whether what they",
+   "path": "spine",
+   "doc": "church"
+  },
+  {
+   "index": 18,
+   "n": 19,
+   "title": "Luther, 1523 a witness \"...no one can deny that every Christian has God's Word and is taug",
+   "path": "spine",
+   "doc": "church"
+  },
+  {
+   "index": 19,
+   "n": 20,
+   "title": "Luther, 1523 \"If the bishop does not confirm him, he is none the less confirmed by virtue ",
+   "path": "spine",
+   "doc": "church"
+  },
+  {
+   "index": 20,
+   "n": 21,
+   "title": "Orthodox \"... the protector of religion is the very body of the Church, even the people th",
+   "path": "spine",
+   "doc": "church"
+  },
+  {
+   "index": 21,
+   "n": 22,
+   "title": "Catholic \"...in this Church, as in an inverted pyramid, the top is located beneath the bas",
+   "path": "spine",
+   "doc": "church"
+  },
+  {
+   "index": 22,
+   "n": 23,
+   "title": "Why it is beautiful \" Juridical power is a substitute for love in actual social life... In",
+   "path": "spine",
+   "doc": "church"
+  },
+  {
+   "index": 23,
+   "n": 24,
+   "title": "Church government a resource Who governs the church? What Jesus said, what Cane Ridge will",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 24,
+   "n": 25,
+   "title": "To the gathered church \"... tell it unto the church : but if he neglect to hear the church",
+   "path": "spine",
+   "doc": "kjv"
+  },
+  {
+   "index": 25,
+   "n": 26,
+   "title": "\"For where two or three are gathered together in my name , there am I in the midst of them",
+   "path": "spine",
+   "doc": "kjv"
+  },
+  {
+   "index": 26,
+   "n": 27,
+   "title": "Thomas Campbell on Matthew 18 Appendix \"'What ye bind on earth shall be bound in heaven' i",
+   "path": "spine",
+   "doc": "dna"
+  },
+  {
+   "index": 27,
+   "n": 28,
+   "title": "\"An individual church or congregation of Christ's disciples is the only ecclesiastical bod",
+   "path": "spine",
+   "doc": "cb"
+  },
+  {
+   "index": 28,
+   "n": 29,
+   "title": "Every believer \"But ye are a chosen generation, a royal priesthood , an holy nation, a pec",
+   "path": "spine",
+   "doc": "kjv"
+  },
+  {
+   "index": 29,
+   "n": 30,
+   "title": "\"...they soon found that there was neither precept nor example in the New Testament for su",
+   "path": "spine",
+   "doc": "will"
+  },
+  {
+   "index": 30,
+   "n": 31,
+   "title": "The will's bequests on government To the church: \"assume her native right of internal gove",
+   "path": "spine",
+   "doc": "will"
+  },
+  {
+   "index": 31,
+   "n": 32,
+   "title": "\"Why do we contend for uninterrupted succession in ordination, seeing it is not the person",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 32,
+   "n": 33,
+   "title": "\"As to the form or ceremony of ordination, he did not regard it as conferring any authorit",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 33,
+   "n": 34,
+   "title": "Christ in the midst of two or three. Every other office answers to that.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 34,
+   "n": 35,
+   "title": "Confession or constitution a resource What governs the church? The Westminster Confession,",
+   "path": "Confession or constitution",
+   "doc": null
+  },
+  {
+   "index": 35,
+   "n": 36,
+   "title": "The other answer Westminster Confession, chapter 30 30.1 \"The Lord Jesus, as King and Head",
+   "path": "Confession or constitution",
+   "doc": "wcf"
+  },
+  {
+   "index": 36,
+   "n": 37,
+   "title": "Proposition 4 \"...the New Testament is as perfect a constitution for the worship, discipli",
+   "path": "Confession or constitution",
+   "doc": "dna"
+  },
+  {
+   "index": 37,
+   "n": 38,
+   "title": "Proposition 2 \"That although the Church of Christ upon earth must necessarily exist in par",
+   "path": "Confession or constitution",
+   "doc": "dna"
+  },
+  {
+   "index": 38,
+   "n": 39,
+   "title": "Not a confession over the church. The New Testament is its constitution.",
+   "path": "Confession or constitution",
+   "doc": null
+  },
+  {
+   "index": 39,
+   "n": 40,
+   "title": "Against succession a side path \"Why do we contend for uninterrupted succession in ordinati",
+   "path": "Against succession",
+   "doc": "rich"
+  },
+  {
+   "index": 40,
+   "n": 41,
+   "title": "Asked why he preached without authority \" Who has authority? Who gave the Presbytery autho",
+   "path": "Against succession",
+   "doc": "rich"
+  },
+  {
+   "index": 41,
+   "n": 42,
+   "title": "The assembly chooses. Christ governs.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 42,
+   "n": 43,
+   "title": "(black)",
+   "path": "spine",
+   "doc": null
+  }
+ ],
+ "spine": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  41,
+  42
+ ],
+ "branches": [
+  {
+   "label": "Confession or constitution",
+   "fork": 33,
+   "slides": [
+    34,
+    35,
+    36,
+    37,
+    38
+   ]
+  },
+  {
+   "label": "Against succession",
+   "fork": 33,
+   "slides": [
+    39,
+    40
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "label": "Opening",
+   "at": 0
+  },
+  {
+   "label": "The assembly",
+   "at": 1
+  },
+  {
+   "label": "The consent of all",
+   "at": 14
+  },
+  {
+   "label": "Church government",
+   "at": 23
+  }
+ ],
+ "docs": [
+  {
+   "index": 0,
+   "key": "ekk",
+   "title": "The church as ekklēsia: excerpts",
+   "short": "The assembly"
+  },
+  {
+   "index": 1,
+   "key": "church",
+   "title": "The whole church: excerpts on priesthood, governance, baptism, and the table",
+   "short": "The whole church"
+  },
+  {
+   "index": 2,
+   "key": "kjv",
+   "title": "Scripture, King James Version",
+   "short": "Scripture (KJV)"
+  },
+  {
+   "index": 3,
+   "key": "wcf",
+   "title": "The Westminster Confession of Faith",
+   "short": "The Westminster Confession"
+  },
+  {
+   "index": 4,
+   "key": "dna",
+   "title": "Thomas Campbell, Declaration and Address (1809)",
+   "short": "The Declaration and Address"
+  },
+  {
+   "index": 5,
+   "key": "will",
+   "title": "The Last Will and Testament of the Springfield Presbytery",
+   "short": "The whole will"
+  },
+  {
+   "index": 6,
+   "key": "cb",
+   "title": "Alexander Campbell, The Christian Baptist, July 5, 1824",
+   "short": "The <i>Christian Baptist</i>, 1824"
+  },
+  {
+   "index": 7,
+   "key": "rich",
+   "title": "Robert Richardson, Memoirs of Alexander Campbell, vol. 1 (1868)",
+   "short": "Richardson’s <i>Memoirs</i>"
+  }
+ ],
+ "doc_doors": [
+  {
+   "label": "The assembly: the sources",
+   "fork": 14,
+   "doc": 0
+  },
+  {
+   "label": "The whole church",
+   "fork": 14,
+   "doc": 1
+  }
+ ],
+ "quotes": [
+  {
+   "slide": 2,
+   "doc": "ekk",
+   "text": "Freedom’s mark is also seen in this: Who hath wholesome counsel to declare unto the state?"
+  },
+  {
+   "slide": 2,
+   "doc": "ekk",
+   "text": "What greater equality can there be in a city?"
+  },
+  {
+   "slide": 3,
+   "doc": "ekk",
+   "text": "it shall be determined in a legal congregation"
+  },
+  {
+   "slide": 3,
+   "doc": "ekk",
+   "text": "And when he had said these things, he dismissed the congregation."
+  },
+  {
+   "slide": 4,
+   "doc": "ekk",
+   "text": "Paul wished to portray his communities as alternative organizations existing alongside the civic assemblies"
+  },
+  {
+   "slide": 4,
+   "doc": "ekk",
+   "text": "in many respects, the functioning of the Christian ekklēsia mirrors the operations of the civic assemblies."
+  },
+  {
+   "slide": 5,
+   "doc": "ekk",
+   "text": "When you are come together, each of you has a psalm, has a discourse, has a foreign language, has a revelation, has an interpretation!"
+  },
+  {
+   "slide": 6,
+   "doc": "ekk",
+   "text": "and let the others judge."
+  },
+  {
+   "slide": 6,
+   "doc": "ekk",
+   "text": "you can all prophesy, one by one,"
+  },
+  {
+   "slide": 6,
+   "doc": "ekk",
+   "text": "that all may learn, and all may be comforted."
+  },
+  {
+   "slide": 7,
+   "doc": "ekk",
+   "text": "this punishment, which was inflicted by the majority."
+  },
+  {
+   "slide": 7,
+   "doc": "ekk",
+   "text": "who was also chosen by the congregations our fellow-traveller."
+  },
+  {
+   "slide": 8,
+   "doc": "ekk",
+   "text": "where I found this word ecclesia, I interpreted it by this word congregation."
+  },
+  {
+   "slide": 9,
+   "doc": "ekk",
+   "text": "Wherever the word church is found in the common version, congregation will be found in this."
+  },
+  {
+   "slide": 10,
+   "doc": "ekk",
+   "text": "The community, the church, the multitude of the faithful, are the fountain of official power. This power descends from the body itself — not from its servants."
+  },
+  {
+   "slide": 11,
+   "doc": "ekk",
+   "text": "Servants made by servants are servants of servants."
+  },
+  {
+   "slide": 12,
+   "doc": "ekk",
+   "text": "modern democracy began with the experience of the Puritan congregations."
+  },
+  {
+   "slide": 15,
+   "doc": "church",
+   "text": "I made up my mind to do nothing on my own private opinion, without your advice and without the consent of the people."
+  },
+  {
+   "slide": 16,
+   "doc": "church",
+   "text": "He who is to govern all, should be chosen by all."
+  },
+  {
+   "slide": 17,
+   "doc": "church",
+   "text": "the sheep are to judge whether what they teach is the voice of Christ or the voice of strangers."
+  },
+  {
+   "slide": 17,
+   "doc": "church",
+   "text": "All teachers should and must, therefore, be subject with their teaching to the judgment of the hearers."
+  },
+  {
+   "slide": 18,
+   "doc": "church",
+   "text": "no one can deny that every Christian has God’s Word and is taught of God and anointed by Him to the priesthood."
+  },
+  {
+   "slide": 19,
+   "doc": "church",
+   "text": "If the bishop does not confirm him, he is none the less confirmed by virtue of the call of the congregation."
+  },
+  {
+   "slide": 20,
+   "doc": "church",
+   "text": "the protector of religion is the very body of the Church, even the people themselves"
+  },
+  {
+   "slide": 21,
+   "doc": "church",
+   "text": "in this Church, as in an inverted pyramid, the top is located beneath the base. Consequently, those who exercise authority are called ‘ministers’, because, in the original meaning of the word, they are the least of all."
+  },
+  {
+   "slide": 22,
+   "doc": "church",
+   "text": "Juridical power is a substitute for love in actual social life"
+  },
+  {
+   "slide": 22,
+   "doc": "church",
+   "text": "In the Church, where perfect love dwells, there is no need for such a substitute."
+  },
+  {
+   "slide": 24,
+   "doc": "kjv",
+   "text": "tell it unto the church: but if he neglect to hear the church, let him be unto thee as an heathen man and a publican. Verily I say unto you, Whatsoever ye shall bind on earth shall be bound in heaven"
+  },
+  {
+   "slide": 25,
+   "doc": "kjv",
+   "text": "For where two or three are gathered together in my name, there am I in the midst of them."
+  },
+  {
+   "slide": 26,
+   "doc": "dna",
+   "text": "‘What ye bind on earth shall be bound in heaven’ is the awful sanction of the Church’s judgment, in justly rejecting any person. Take away this, and it has no sanction at all."
+  },
+  {
+   "slide": 27,
+   "doc": "cb",
+   "text": "An individual church or congregation of Christ’s disciples is the only ecclesiastical body recognized in the New Testament. Such a society is ‘the highest court of Christ’ on earth."
+  },
+  {
+   "slide": 28,
+   "doc": "kjv",
+   "text": "But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people"
+  },
+  {
+   "slide": 28,
+   "doc": "kjv",
+   "text": "And hath made us kings and priests unto God and his Father"
+  },
+  {
+   "slide": 29,
+   "doc": "will",
+   "text": "they soon found that there was neither precept nor example in the New Testament for such confederacies as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc."
+  },
+  {
+   "slide": 30,
+   "doc": "will",
+   "text": "assume her native right of internal government"
+  },
+  {
+   "slide": 30,
+   "doc": "will",
+   "text": "and admit no other proof of their authority, but Christ speaking in them."
+  },
+  {
+   "slide": 30,
+   "doc": "will",
+   "text": "choose her own preacher"
+  },
+  {
+   "slide": 30,
+   "doc": "will",
+   "text": "and never henceforth delegate her right of government to any man or set of men whatever."
+  },
+  {
+   "slide": 30,
+   "doc": "will",
+   "text": "obtain license from God to preach the simple Gospel"
+  },
+  {
+   "slide": 31,
+   "doc": "rich",
+   "text": "Why do we contend for uninterrupted succession in ordination, seeing it is not the persons called bishops who have the power, but the people?"
+  },
+  {
+   "slide": 32,
+   "doc": "rich",
+   "text": "As to the form or ceremony of ordination, he did not regard it as conferring any authority, but as a public testimony that the persons ordained possessed the necessary authority."
+  },
+  {
+   "slide": 35,
+   "doc": "wcf",
+   "text": "The Lord Jesus, as King and Head of his church, hath therein appointed a government, in the hand of church officers"
+  },
+  {
+   "slide": 35,
+   "doc": "wcf",
+   "text": "To these officers the keys of the kingdom of heaven are committed"
+  },
+  {
+   "slide": 36,
+   "doc": "dna",
+   "text": "the New Testament is as perfect a constitution for the worship, discipline, and government of the New Testament Church"
+  },
+  {
+   "slide": 36,
+   "doc": "dna",
+   "text": "as the Old Testament was for the worship, discipline, and government of the Old Testament Church"
+  },
+  {
+   "slide": 37,
+   "doc": "dna",
+   "text": "That although the Church of Christ upon earth must necessarily exist in particular and distinct societies, locally separate one from another, yet there ought to be no schisms, no uncharitable divisions among them."
+  },
+  {
+   "slide": 39,
+   "doc": "rich",
+   "text": "Why do we contend for uninterrupted succession in ordination, seeing it is not the persons called bishops who have the power, but the people?"
+  },
+  {
+   "slide": 40,
+   "doc": "rich",
+   "text": "Who has authority?Who gave the Presbytery authority to license men?Who gave the Presbytery authority to make laws for the Church?Who gave the Presbytery authority to decide religious matters by vote?Who gave the Presbytery authority to choose ministers?"
+  }
+ ],
+ "unmatched": []
+}
