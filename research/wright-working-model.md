@@ -13,10 +13,6 @@ details table { margin-top: .6em; }
 </style>
 <p><button onclick="var o=this.dataset.open!=='1';document.querySelectorAll('details').forEach(function(d){d.open=o});this.dataset.open=o?'1':'0';this.textContent=o?'Collapse all':'Expand all';">Expand all</button></p>
 
-**Citations.** GH = *God's Homecoming* (print pages). VE = *The Vision of Ephesians* (section and passage). SC = *Simply Christian* (print pages). D&A = Thomas Campbell, *Declaration and Address* (1809); the local full text has no page numbers. LWT = *Last Will and Testament of Springfield Presbytery* (1804). CS = A. Campbell, *The Christian System* (1871 printing). CB = *Christian Baptist* (Burnet ed., 1835). MH = *Millennial Harbinger*. *Stone, Bio.* = *The Biography of Eld. Barton Warren Stone* (1847).
-
-**Status.** Every Stone-Campbell line was read in the database's extracted text or in a dossier that marks it verified. Exceptions are flagged: **(secondary)** means reported by a later writer; **to verify** means the page is uncertain.
-
 
 <details class="sec" markdown="1">
 <summary>1. The church is the age to come in miniature</summary>
@@ -255,5 +251,14 @@ details table { margin-top: .6em; }
 - D&A quotes have no page numbers in the local text. Add them from a paginated edition if slides need them.
 - VE has no print pages (see the research database's Sources note).
 
+
+</details>
+
+<details class="sec" markdown="1">
+<summary>About the citations</summary>
+
+**Citations.** GH = *God's Homecoming* (print pages). VE = *The Vision of Ephesians* (section and passage). SC = *Simply Christian* (print pages). D&A = Thomas Campbell, *Declaration and Address* (1809); the local full text has no page numbers. LWT = *Last Will and Testament of Springfield Presbytery* (1804). CS = A. Campbell, *The Christian System* (1871 printing). CB = *Christian Baptist* (Burnet ed., 1835). MH = *Millennial Harbinger*. *Stone, Bio.* = *The Biography of Eld. Barton Warren Stone* (1847).
+
+**Status.** Every Stone-Campbell line was read in the database's extracted text or in a dossier that marks it verified. Exceptions are flagged: **(secondary)** means reported by a later writer; **to verify** means the page is uncertain.
 
 </details>

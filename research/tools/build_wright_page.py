@@ -29,6 +29,11 @@ details table { margin-top: .6em; }
 
 def build(src):
     body = src[src.index("**Citations.**"):].replace("Full Wright context is in [[Quotations]].", "")
+    # move the citations key and status note to a collapsed section at the end,
+    # so the page opens straight onto the outline of the argument
+    first = body.index("\n## ")
+    key, body = body[:first].strip(), body[first:]
+    key = re.sub(r'\n\s*---\s*$', '', key)
     body = re.sub(r'\[\[([^\]|]+)\|([^\]]+)\]\]', r'\2', body)
     body = re.sub(r'\[\[([^\]]+)\]\]', lambda m: m.group(1).split('/')[-1], body)
     body = body.replace("(see Sources)", "(see the research database's Sources note)")
@@ -51,6 +56,7 @@ def build(src):
             continue
         out.append(line)
     close(2)
+    out.append('<details class="sec" markdown="1">\n<summary>About the citations</summary>\n\n' + key + "\n\n</details>")
     return INTRO + "\n".join(out).rstrip() + "\n"
 
 if __name__ == "__main__":
