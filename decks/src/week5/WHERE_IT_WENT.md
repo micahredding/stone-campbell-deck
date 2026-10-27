@@ -41,6 +41,8 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
   - Job 8:7, "Though thy beginning was small."
   - "the Society must obtain admission into some regularly organized religious body…"
   The Synod's refusal now sits in the notes of the new "Why a church" slide.
+- **The opening question slide** ("Who has authority? / Who may serve the table?") is hidden (`HIDE`) while Micah works on a reframing (27 Oct 2026).
+- **The Last Will's ministry items** ("choose her own preacher", "obtain license from God") and the card "Brush Run chose." moved from the *Where two or three are gathered* side path into "Why the people?". They are now two highlighted Springfield slides, joined by "our power of making laws… forever cease" and "assume her native right of internal government". That side path now holds Matthew 18 and the *D&A* on Matthew 18:20.
 - **"I dare not be a party man…"** moved from point one to the new spine section on Alexander's own words about the table (1810).
 - **"The clergy are the opposite to the laity…"** is now on the spine, in "Why the people?". It is still in the reserve deck too.
 
