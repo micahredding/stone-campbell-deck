@@ -87,6 +87,9 @@ def docs(between, clean, keys):
         'ekk': lambda: {'title': 'The church as <i>ekklēsia</i>: excerpts',
             'sub': 'Euripides, Demosthenes, Hansen, the Living Oracles, van Kooten, Miller, Esler, Tyndale, Carson, Campbell, Lindsay',
             'html': clean(src('sources', 'ekklesia.html'))},
+        'lord': lambda: {'title': 'Every Lord&rsquo;s day: excerpts',
+            'sub': 'Acts, the <i>Didache</i>, Justin, Calvin, the Lutherans, Wesley, Vatican II, the 2024 Synod, Lima and the churches&rsquo; answers, the Disciples&ndash;Catholic dialogue, Brush Run',
+            'html': clean(src('sources', 'every-lords-day.html'))},
         'tbl': lambda: {'title': 'Who keeps the table: excerpts',
             'sub': 'Scotch Baptists, Campbell, Stone&rsquo;s <i>Christian Messenger</i>, Lipscomb, the ecumenical record, and today',
             'html': clean(src('sources', 'the-table.html'))},
@@ -102,7 +105,7 @@ def docs(between, clean, keys):
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
-         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union'}
+         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
@@ -643,39 +646,93 @@ def unity(extra=()):
              'The end. The Church of Christ upon earth is one. The Ancient Order was meant to serve that, never to replace it. &rarr; Back to the spine.'),
     ]
 
-# ---------- side path: the table every Lord's day (weekly communion; split from the whole church remembers) ----------
+# ---------- resource: the table every Lord's day (a side path, and in full its own deck: decks/src/weekly/build.py) ----------
 WEEKLY = ('Every Lord&rsquo;s day', '<div class=eyebrow>Every Lord&rsquo;s day &middot; a resource</div>', 'Brush Run kept it.')
-def weekly(extra=()):
+def _l(quote, cite, eyebrow='', note='', size=None, width=None, src='lord'):
+    """a quote slide checked against the every-Lord's-day excerpts"""
+    q = Q(quote, cite, eyebrow)
+    if size: q = BIG(q, size, width or '30ch')
+    return q.replace('<section class="slide"', '<section data-src="%s" class="slide"' % src, 1) + N(note)
+def _wsec(title, sub):
+    return ('<section class="slide breath"><div class=eyebrow>Every Lord&rsquo;s day</div><h2 style="max-width:none">%s</h2>'
+            '<div class=sub>%s</div></section>' % (title, sub))
+def weekly(extra=(), full=False):
+    F = lambda *xs: list(xs) if full else []
     return [
         '<section class="slide breath"><div class=eyebrow>Every Lord&rsquo;s day &middot; a resource</div>'
         '<h2 style="max-width:none">The table every Lord&rsquo;s day</h2>'
-        '<div class=sub>The early church, the Reformers, Wesley,<br>the ecumenical movement, and Brush Run</div>'
-        '<aside class=notes>A resource. Weekly communion is not a Church of Christ peculiarity: it is the oldest practice of the church, which almost everyone has said they want back. Every quote is in the document &ldquo;The whole church.&rdquo;</aside></section>',
-        _u('&ldquo;But <b>every Lord&rsquo;s day</b> gather yourselves together, and <b>break bread</b>, and give thanksgiving&hellip;&rdquo;',
+        '<div class=sub>The early church, the Reformers, Wesley, Rome,<br>the ecumenical movement, and Brush Run</div>'
+        '<aside class=notes>A resource. Weekly communion is not a Church of Christ peculiarity: it is the oldest practice of the church, which almost every tradition has said it wants back. Every quote is in the document &ldquo;Every Lord&rsquo;s day.&rdquo;</aside></section>',
+    ] + F(_wsec('The first day of the week', 'The early church')) + F(
+        _l('&ldquo;And <b>upon the first day of the week, when the disciples came together to break bread</b>, Paul preached unto them&hellip;&rdquo;', 'Acts 20:7 (KJV)', 'Troas',
+           'Why they came together: to break bread. Campbell&rsquo;s argument from this verse: &ldquo;If they met every first day, they broke the loaf every first day.&rdquo;', 'clamp(36px,8vmin,100px)', '28ch'),
+    ) + [
+        _l('&ldquo;But <b>every Lord&rsquo;s day</b> gather yourselves together, and <b>break bread</b>, and give thanksgiving&hellip;&rdquo;',
            'The <i>Didache</i> 14 (c. 100)', 'The early church',
            'A church manual from about the end of the first century. The sentence goes on: &ldquo;after having confessed your transgressions, that your sacrifice may be pure.&rdquo;'),
-        _u('&ldquo;And on the day called Sunday&hellip; bread and wine and water are brought, and the president in like manner offers prayers and thanksgivings, according to his ability, and <b>the people assent, saying Amen</b>&hellip;&rdquo;',
+        _l('&ldquo;And on the day called Sunday&hellip; bread and wine and water are brought, and the president in like manner offers prayers and thanksgivings, according to his ability, and <b>the people assent, saying Amen</b>&hellip;&rdquo;',
            'Justin Martyr, <i>First Apology</i> 67 (c. 155)', 'c. 155',
            'Every Sunday, in Rome. &ldquo;According to his ability&rdquo;: no fixed prayer. And the people&rsquo;s Amen is part of the act.'),
-        _u('&ldquo;<b>Each week, at least, the table of the Lord ought to have been spread</b> for the company of Christians&hellip;&rdquo;',
+    ] + F(
+        _l('&ldquo;<b>We cannot live without the Lord&rsquo;s Supper.</b>&rdquo;', 'The martyrs of Abitina (304) &middot; quoted by John Paul II, <i>Dies Domini</i>', 'North Africa, 304',
+           'Christians arrested for meeting on Sunday during Diocletian&rsquo;s persecution, asked why they broke the law. One answered: &ldquo;I went to the assembly and I celebrated the Lord&rsquo;s Supper with my brothers and sisters, because I am a Christian.&rdquo;', 'clamp(42px,9.6vmin,124px)', '20ch'),
+        _wsec('The Reformers wanted it back', 'Calvin, the Lutherans, Wesley'),
+    ) + [
+        _l('&ldquo;<b>Each week, at least, the table of the Lord ought to have been spread</b> for the company of Christians&hellip;&rdquo;',
            'John Calvin, <i>Institutes</i> 4.17.46', 'The Reformers',
-           'Calvin wanted it and never got it: Geneva&rsquo;s council held him to quarterly communion. Also 4.17.44: &ldquo;no meeting of the Church is held without the word, prayer, the dispensation of the Supper, and alms.&rdquo;'),
-        _u('&ldquo;I also advise the elders to administer the Supper of the Lord <b>on every Lord&rsquo;s Day</b>.&rdquo;',
+           'Calvin wanted it and never got it: Geneva&rsquo;s council held him to quarterly communion. The same section calls once-a-year communion &ldquo;an invention of the devil.&rdquo;'),
+    ] + F(
+        _l('&ldquo;Thus we ought always to provide that <b>no meeting of the Church is held without the word, prayer, the dispensation of the Supper, and alms</b>.&rdquo;',
+           'John Calvin, <i>Institutes</i> 4.17.44', '',
+           'His warrant is Acts 2:42, the same text the Stone-Campbell reformers used.'),
+        _l('&ldquo;For among us <b>masses are celebrated every Lord&rsquo;s Day</b> and on the other festivals&hellip;&rdquo;',
+           'Apology of the Augsburg Confession, Art. XXIV (1531)', 'The Lutherans',
+           'A Lutheran confession. In 1997 the Evangelical Lutheran Church in America: &ldquo;This confession remains the norm for our practice.&rdquo;'),
+        _l('&ldquo;&hellip;it is <b>the duty of every Christian to receive the Lord&rsquo;s Supper as often as he can</b>&hellip;&rdquo;',
+           'John Wesley, &ldquo;The Duty of Constant Communion&rdquo;', 'Wesley',
+           'Written for his Oxford pupils, published late in life. The first Christians, he says, made it &ldquo;a constant part of the Lord&rsquo;s day service.&rdquo;'),
+    ) + [
+        _l('&ldquo;I also advise the elders to administer the Supper of the Lord <b>on every Lord&rsquo;s Day</b>.&rdquo;',
            'John Wesley to the American Methodists, 1784', 'Wesley',
            'His letter sending the first Methodist elders to America. (The Wesley Corpus calls its transcription provisional.)'),
-        '<section data-src=church class="slide"><div class=eyebrow>The table every Lord&rsquo;s day</div>'
-        '<div class=litany style="font-size:1.6em;max-width:86vw;gap:3.4vmin">'
+    ] + F(
+        _wsec('Rome', 'Vatican II to the 2024 Synod'),
+        _l('&ldquo;By a tradition handed down from the apostles which took its origin from the very day of Christ&rsquo;s resurrection, <b>the Church celebrates the paschal mystery every eighth day</b>&hellip;&rdquo;',
+           'Second Vatican Council, <i>Sacrosanctum Concilium</i> &sect;106 (1963)', 'Vatican II',
+           'And: &ldquo;the Lord&rsquo;s day is the original feast day.&rdquo; Catholics celebrate daily; Sunday is the one the whole people keep.'),
+        _l('&ldquo;The celebration of the Eucharist, especially on Sundays, is <b>the first and fundamental way the holy People of God gather and meet</b>.&rdquo;',
+           'Synod on Synodality, Final Document, &sect;26 (2024)', '2024',
+           'John Paul II (1998): the Christian Sunday is &ldquo;an indispensable element of our Christian identity.&rdquo;'),
+        _wsec('The ecumenical movement', 'Lima, 1982, and the churches&rsquo; answers'),
+        _l('&ldquo;<b>The best way towards unity in eucharistic celebration and communion is the renewal of the eucharist itself</b>&hellip;&rdquo;',
+           'World Council of Churches, <i>Baptism, Eucharist and Ministry</i> (1982), Eucharist &sect;28', 'The Lima text',
+           'Renewing the table is the road to sharing it.'),
+    ) + [
+        '<section data-src="lord rich" class="slide"><div class=eyebrow>The table every Lord&rsquo;s day</div>'
+        '<div class=litany style="font-size:2.2em;max-width:88vw;gap:3.4vmin">'
         '<div class="no frag">&ldquo;&hellip;the Lord&rsquo;s Supper&hellip; <b>was now celebrated weekly</b>.&rdquo; <span class=lcite>Brush Run, 1811 &middot; Richardson, <i>Memoirs</i></span></div>'
         '<div class="no frag">&ldquo;As the eucharist celebrates the resurrection of Christ, it is appropriate that it should take place <b>at least every Sunday</b>.&rdquo; <span class=lcite><i>Baptism, Eucharist and Ministry</i> (1982), Eucharist 31</span></div>'
         '</div>'
         '<aside class=notes>Two clicks. A congregation by a creek in 1811, and the ecumenical movement in 1982, arriving at the same table.</aside></section>',
-        _u('&ldquo;It came from the desire to lead the Church towards <b>a unity rooted in the weekly celebration of the Lord&rsquo;s Supper</b>.&rdquo;',
+    ] + F(
+        _l('&ldquo;The eucharist is&hellip; the central act of the Church&rsquo;s worship and <b>ought therefore to be celebrated weekly on the Lord&rsquo;s Day</b>&hellip;&rdquo;',
+           'Church of England, response to the Lima text (1987)', 'The Anglicans answer',
+           'The Church of England, whose parishes had moved to a Sunday Eucharist through the Parish Communion movement.'),
+        _l('&ldquo;Churches of Christ celebrate the Lord&rsquo;s supper <b>at least each Sunday</b>&hellip;&rdquo;',
+           'Churches of Christ in Australia, response to the Lima text (1986)', 'And our cousins answer',
+           'Lima asked the churches to move toward what they already did.'),
+    ) + [
+        _l('&ldquo;It came from the desire to lead the Church towards <b>a unity rooted in the weekly celebration of the Lord&rsquo;s Supper</b>.&rdquo;',
            'Disciples of Christ&ndash;Roman Catholic dialogue, <i>The Church as Communion in Christ</i> (1992)', 'Rome, on us',
            'The Catholic Church&rsquo;s own dialogue with the Disciples, describing the Stone-Campbell movement. A study document, not official teaching on either side.'),
-        _u('&ldquo;This phase of the dialogue has achieved consensus that <b>the weekly celebration of the Eucharist is fundamental to an understanding of the Christian life</b>&hellip;&rdquo;',
+        _l('&ldquo;This phase of the dialogue has achieved consensus that <b>the weekly celebration of the Eucharist is fundamental to an understanding of the Christian life</b>&hellip;&rdquo;',
            'Disciples&ndash;Catholic dialogue, <i>Do This in Memory of Me</i> (2018)', '',
            'The same report: the Disciples&rsquo; weekly Supper, &ldquo;inclusive in practice,&rdquo; &ldquo;has had a significant influence on their determined effort to work for Christian unity.&rdquo; Honest limit: the Catholic table is still closed to Disciples.'),
-    ] + list(extra) + [
+    ] + F(
+        _l('&ldquo;&hellip;they furnished <b>an emblem of the millennial state of the Church</b>, nay, an emblem of the heavenly state, when men of different nations, and known by different names, should sit down together in the kingdom of God.&rdquo;',
+           'Alexander Campbell&rsquo;s first communion sermon at Brush Run, 1811 &middot; in Richardson, <i>Memoirs</i>', 'Why every week',
+           'Not only a memorial: a foretaste. The table is the future, arriving early, every Lord&rsquo;s day.', src='lord rich'),
+    ) + list(extra) + [
         CARD('The whole church has asked for it.<br>' + G('Brush Run kept it.'),
-             'The end of the resource. &rarr; Back to the spine.'),
+             'The end. &rarr; Back to the spine.'),
     ]

@@ -372,49 +372,49 @@
    "n": 53,
    "title": "The early church \"But every Lord's day gather yourselves together, and break bread , and g",
    "path": "Every Lord&rsquo;s day",
-   "doc": "church"
+   "doc": "lord"
   },
   {
    "index": 53,
    "n": 54,
    "title": "c. 155 \"And on the day called Sunday... bread and wine and water are brought, and the pres",
    "path": "Every Lord&rsquo;s day",
-   "doc": "church"
+   "doc": "lord"
   },
   {
    "index": 54,
    "n": 55,
    "title": "The Reformers \" Each week, at least, the table of the Lord ought to have been spread for t",
    "path": "Every Lord&rsquo;s day",
-   "doc": "church"
+   "doc": "lord"
   },
   {
    "index": 55,
    "n": 56,
    "title": "Wesley \"I also advise the elders to administer the Supper of the Lord on every Lord's Day ",
    "path": "Every Lord&rsquo;s day",
-   "doc": "church"
+   "doc": "lord"
   },
   {
    "index": 56,
    "n": 57,
    "title": "The table every Lord's day \"...the Lord's Supper... was now celebrated weekly .\" Brush Run",
    "path": "Every Lord&rsquo;s day",
-   "doc": "rich"
+   "doc": "lord"
   },
   {
    "index": 57,
    "n": 58,
    "title": "Rome, on us \"It came from the desire to lead the Church towards a unity rooted in the week",
    "path": "Every Lord&rsquo;s day",
-   "doc": "church"
+   "doc": "lord"
   },
   {
    "index": 58,
    "n": 59,
    "title": "\"This phase of the dialogue has achieved consensus that the weekly celebration of the Euch",
    "path": "Every Lord&rsquo;s day",
-   "doc": "church"
+   "doc": "lord"
   },
   {
    "index": 59,
@@ -1284,6 +1284,12 @@
    "key": "tbl",
    "title": "Who keeps the table: excerpts",
    "short": "Who keeps the table"
+  },
+  {
+   "index": 12,
+   "key": "lord",
+   "title": "Every Lord’s day: excerpts",
+   "short": "Every Lord’s day"
   }
  ],
  "doc_doors": [
@@ -1521,47 +1527,47 @@
   },
   {
    "slide": 52,
-   "doc": "church",
+   "doc": "lord",
    "text": "But every Lord’s day gather yourselves together, and break bread, and give thanksgiving"
   },
   {
    "slide": 53,
-   "doc": "church",
+   "doc": "lord",
    "text": "And on the day called Sunday"
   },
   {
    "slide": 53,
-   "doc": "church",
+   "doc": "lord",
    "text": "bread and wine and water are brought, and the president in like manner offers prayers and thanksgivings, according to his ability, and the people assent, saying Amen"
   },
   {
    "slide": 54,
-   "doc": "church",
+   "doc": "lord",
    "text": "Each week, at least, the table of the Lord ought to have been spread for the company of Christians"
   },
   {
    "slide": 55,
-   "doc": "church",
+   "doc": "lord",
    "text": "I also advise the elders to administer the Supper of the Lord on every Lord’s Day."
   },
   {
    "slide": 56,
-   "doc": "rich",
+   "doc": "lord",
    "text": "was now celebrated weekly."
   },
   {
    "slide": 56,
-   "doc": "church",
+   "doc": "lord",
    "text": "As the eucharist celebrates the resurrection of Christ, it is appropriate that it should take place at least every Sunday."
   },
   {
    "slide": 57,
-   "doc": "church",
+   "doc": "lord",
    "text": "It came from the desire to lead the Church towards a unity rooted in the weekly celebration of the Lord’s Supper."
   },
   {
    "slide": 58,
-   "doc": "church",
+   "doc": "lord",
    "text": "This phase of the dialogue has achieved consensus that the weekly celebration of the Eucharist is fundamental to an understanding of the Christian life"
   },
   {
