@@ -14,10 +14,10 @@ Wright's sources: *God's Homecoming* (HarperOne, 2025), especially ch. 13, "The 
 
 | Wright | Stone-Campbell |
 |---|---|
-| "…to think of the vocation of the church as the call to live as the small working model of new creation." (VE §1) | |
-| "We live in the present as the new creation in miniature, the advance working model of what God intends to do in the end." (VE §5) | "It will be by the correction of these errors that the millennial day will be ushered in." (A. Campbell, CB vol. III) |
-| "The church is to be the advance sign to the world of the new creation." (VE §2) | The *Millennial Harbinger* "shall have for its object the developement, and introduction of that political and religious order of society called THE MILLENNIUM." (A. Campbell, MH 1830, Prospectus, p. 1) |
-| "The life of the church is supposed to be a forward pointer to the long-promised cosmic reality." (GH p. 220) | "…while they behold the signs of the times, look up and confidently expect that redemption draweth nigh." (LWT, 1804) |
+| "…to think of the vocation of the church as the call to live as the small working model of new creation." (VE §1) | At Brush Run's first communion (5 May 1811), Campbell told the new congregation that "in assembling there on that occasion, they furnished an emblem of the millennial state of the Church, nay, an emblem of the heavenly state, when men of different nations, and known by different names, should sit down together in the kingdom of God." (Richardson, *Memoirs* I:369. This is Richardson's indirect report of Campbell's sermon, so on a slide attribute the words to Richardson, not to Campbell.) |
+| "We live in the present as the new creation in miniature, the advance working model of what God intends to do in the end." (VE §5) | "The kingdom of heaven is divided into small societies, called churches or congregations of the Lord." (CS p. 166) |
+| "The church already in the present time is to be the heaven-plus-earth community, the earthly community suffused with the reality of heaven." (VE §1) | "Are they priests? — Jesus is their High Priest; the church, their temple; the Saviour is their altar; their songs, their praises, are incense ascending to heaven… Are they called citizens? — the church is then the kingdom of heaven." (CS p. 277) |
+| "…because in the future life we will be sinless, and united across all ethnic and other differences, it is all the more important that we anticipate this as far as possible in the present." (GH p. 273) | "…to suppose that all christians will form one communion in that happy age of the world, and not before it, is to suppose a moral effect without a cause." (CS p. 113) Campbell is bolder than Wright: the church's unity *now* is the cause of the millennial age, not only its foretaste. |
 
 ---
 
@@ -128,7 +128,6 @@ Wright's sources: *God's Homecoming* (HarperOne, 2025), especially ch. 13, "The 
 | "The church, united and holy, is designed to demonstrate to the hostile watching world that the God revealed in Jesus is the true God." (VE §1) | "…convinced from the Holy Scriptures, from observation and experience, that the union of the disciples of Christ is essential to the conversion of the world." (CS, Preface) |
 | "The aim is to get people to scratch their heads and think, 'You mean people can actually live like that?' – and then to ask why, and to want to know how they can be part of this new way of life." (VE §7) | "…that they all may be one… **that the world may believe** that thou hast sent me." (D&A, Address, quoting John 17:21) |
 | "So the message comes loudest and clearest from a community that is embodying the same love." (GH p. 230) | "…to lay a foundation, an imperishable foundation, for the union of all christians, and for their co-operation in spreading the glorious gospel throughout the world." (A. Campbell, CB vol. VII, 1830, p. 664) |
-| "…because in the future life we will be sinless, and united across all ethnic and other differences, it is all the more important that we anticipate this as far as possible in the present." (GH p. 273) | "…to suppose that all christians will form one communion in that happy age of the world, and not before it, is to suppose a moral effect without a cause." (CS p. 113) Campbell is bolder: unity *now* is the cause of the millennial age, not only its foretaste. |
 
 ### 5a. Witness at the table and in song
 
@@ -146,8 +145,8 @@ Wright's sources: *God's Homecoming* (HarperOne, 2025), especially ch. 13, "The 
 
 | Wright | Stone-Campbell |
 |---|---|
-| "The bread and the wine can be seen as true gifts coming forward to us from God's future, like the grapes from the promised land… We are presented, close up and personally, with new creation that we can eat and drink." (GH p. 252) | At Brush Run's first communion (5 May 1811), the gathered disciples "furnished an emblem of the millennial state of the Church, nay, an emblem of the heavenly state, when men of different nations, and known by different names, should sit down together in the kingdom of God." (A. Campbell, as reported in Richardson, *Memoirs* I:369; **secondary**) |
-| "The Eucharist is to the material world what the Sabbath is to the prominent Judaean view of time: it is the advance reality of what we are promised in the end." (GH p. 253) | At Cane Ridge they "sat down at the one table of the one Lord… Such were the glories of the times that many good people thought assuredly, the millennium had begun to dawn upon the world." (William Rogers, c. 1846, in *Biography of Elder David Purviance*, 1848, p. 298) |
+| "The bread and the wine can be seen as true gifts coming forward to us from God's future, like the grapes from the promised land… We are presented, close up and personally, with new creation that we can eat and drink." (GH p. 252) | At Cane Ridge they "sat down at the one table of the one Lord… Such were the glories of the times that many good people thought assuredly, the millennium had begun to dawn upon the world." (William Rogers, c. 1846, in *Biography of Elder David Purviance*, 1848, p. 298) |
+| "The Eucharist is to the material world what the Sabbath is to the prominent Judaean view of time: it is the advance reality of what we are promised in the end." (GH p. 253) | Brush Run's first communion as "an emblem of the millennial state of the Church, nay, an emblem of the heavenly state" (Richardson, *Memoirs* I:369; see point 1). |
 | "In the bread-breaking we are tasting God's new creation—the new creation whose prototype and origin is Jesus himself." (SC p. 154) | |
 
 ### One loaf, one baptism
@@ -163,6 +162,6 @@ Wright's sources: *God's Homecoming* (HarperOne, 2025), especially ch. 13, "The 
 
 - CS "one loaf" (Prop. III): the running head is garbled in the OCR. Find the page in the scan.
 - CS Preface: roman-numeral page not captured.
-- Brush Run "emblem of the millennial state" and the Raccoon John Smith line are secondary (Richardson; Foster).
+- Brush Run "emblem of the millennial state" is Richardson's indirect report of the sermon (*Memoirs* I:369), so attribute it to Richardson; the Raccoon John Smith line is secondary (Foster).
 - D&A quotes have no page numbers in the local text. Add them from a paginated edition if slides need them.
 - VE has no print pages (see the research database's Sources note).
