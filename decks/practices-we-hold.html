@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Practices We Hold</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one reading column. Each practice lists quotations, every one led by a colored tradition label. */
+:root {
+  --bg: #f6f7f5; --surface: #ffffff; --fg: #1d2421; --muted: #5a6661; --rule: #d9dfdb;
+  --accent: #2f5d50; --accent-soft: #e4ece8; --warn: #8a5a12; --warn-soft: #f6eedd;
+  --early: #7a4f2a; --catholic: #9b2c2c; --orthodox: #2c4f8f; --protestant: #4d6b1f; --ecumenical: #6b3f8a;
+  --serif: "Spectral", Georgia, "Times New Roman", serif;
+  --sans: "Work Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141917; --surface: #1b211f; --fg: #e6ebe8; --muted: #9aa8a2; --rule: #2e3834;
+    --accent: #8cc4b2; --accent-soft: #22302b; --warn: #e2b467; --warn-soft: #2d2618;
+    --early: #d9a877; --catholic: #ec8e8e; --orthodox: #8fb0ee; --protestant: #a9cc74; --ecumenical: #c9a1e6; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141917; --surface: #1b211f; --fg: #e6ebe8; --muted: #9aa8a2; --rule: #2e3834;
+  --accent: #8cc4b2; --accent-soft: #22302b; --warn: #e2b467; --warn-soft: #2d2618;
+  --early: #d9a877; --catholic: #ec8e8e; --orthodox: #8fb0ee; --protestant: #a9cc74; --ecumenical: #c9a1e6; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--fg); font-family: var(--serif); font-size: 18px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 64px;
+}
+.wrap { max-width: 46rem; margin: 0 auto; display: grid; gap: 40px; }
+header { display: grid; gap: 14px; }
+.eyebrow { font-family: var(--sans); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+h1 { font-weight: 600; font-size: clamp(2rem, 6vw, 2.8rem); line-height: 1.1; margin: 0; text-wrap: balance; }
+.thesis { margin: 0; font-size: 1.35rem; line-height: 1.4; font-weight: 600; padding-left: 14px; border-left: 3px solid var(--accent); text-wrap: balance; }
+.lede { margin: 0; }
+.lede.sub { color: var(--muted); font-size: 1rem; }
+.legend { font-family: var(--sans); font-size: 0.85rem; display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.lg { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
+.lg.t-early { color: var(--early); } .lg.t-catholic { color: var(--catholic); } .lg.t-orthodox { color: var(--orthodox); } .lg.t-protestant { color: var(--protestant); } .lg.t-ecumenical { color: var(--ecumenical); }
+.dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; background: currentColor; }
+.dot.t-early { background: var(--early); } .dot.t-catholic { background: var(--catholic); } .dot.t-orthodox { background: var(--orthodox); } .dot.t-protestant { background: var(--protestant); } .dot.t-ecumenical { background: var(--ecumenical); }
+nav { font-family: var(--sans); font-size: 0.875rem; display: flex; flex-wrap: wrap; gap: 6px 8px; }
+nav a { color: var(--accent); text-decoration: none; padding: 4px 10px; border: 1px solid var(--rule); border-radius: 999px; }
+nav a:hover, nav a:focus-visible { background: var(--accent-soft); outline: none; }
+section { display: grid; gap: 14px; padding-top: 28px; border-top: 1px solid var(--rule); scroll-margin-top: 16px; }
+.sechead { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
+.sechead .dots { display: flex; gap: 5px; }
+h2 { margin: 0; font-size: 1.6rem; line-height: 1.2; font-weight: 600; text-wrap: balance; }
+.tags { font-family: var(--sans); font-size: 0.8rem; display: flex; flex-wrap: wrap; gap: 6px; }
+.tags span { background: var(--accent-soft); color: var(--accent); padding: 2px 9px; border-radius: 4px; font-weight: 500; }
+.claim { margin: 0; }
+.quotes { display: grid; gap: 14px; }
+.q { margin: 0; padding-left: 14px; border-left: 3px solid var(--rule); display: grid; gap: 2px; }
+.q.t-early { border-color: var(--early); } .q.t-catholic { border-color: var(--catholic); } .q.t-orthodox { border-color: var(--orthodox); } .q.t-protestant { border-color: var(--protestant); } .q.t-ecumenical { border-color: var(--ecumenical); }
+.trad { font-family: var(--sans); font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; }
+.t-early .trad { color: var(--early); } .t-catholic .trad { color: var(--catholic); } .t-orthodox .trad { color: var(--orthodox); } .t-protestant .trad { color: var(--protestant); } .t-ecumenical .trad { color: var(--ecumenical); }
+.q p { margin: 0; font-style: italic; }
+.q cite { font-style: normal; font-family: var(--sans); font-size: 0.8rem; color: var(--muted); }
+.care { font-family: var(--sans); font-size: 0.875rem; line-height: 1.5; background: var(--warn-soft); color: var(--fg); padding: 10px 14px; border-radius: 6px; margin: 0; }
+.care strong { color: var(--warn); }
+footer { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 20px; display: grid; gap: 8px; }
+footer p { margin: 0; }
+code { font-size: 0.85em; }
+@media (max-width: 480px) { body { font-size: 17px; padding-block: 24px 48px; } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Our Wild Democracy · notes for co-teachers</div>
+  <h1>The Practices We Hold</h1>
+  <p class="thesis">When modern Christians strive for visible unity, they converge on the same practices our predecessors reached for 200 years ago.</p>
+  <p class="lede">Stone and Campbell did not invent these practices. They held them, with unusual willingness, out of a tradition the whole church shares.</p>
+  <p class="lede sub">This page makes the ecumenical case. For each practice, the early church and Catholic, Orthodox, Protestant and ecumenical voices support it, fully or in part. Every quotation has been checked in its source, and each is labeled by the tradition it speaks for.</p>
+  <div class="legend"><span class="lg t-early"><span class="dot t-early"></span>Early Church</span><span class="lg t-catholic"><span class="dot t-catholic"></span>Catholic</span><span class="lg t-orthodox"><span class="dot t-orthodox"></span>Orthodox</span><span class="lg t-protestant"><span class="dot t-protestant"></span>Protestant</span><span class="lg t-ecumenical"><span class="dot t-ecumenical"></span>Ecumenical</span></div>
+  <nav aria-label="Practices"><a href="#communion">Communion</a><a href="#baptism">Baptism</a><a href="#singing">Singing</a><a href="#scripture">Scripture</a><a href="#unity">Unity of Body</a><a href="#conscience">Conscience</a><a href="#priesthood">Priesthood</a><a href="#governance">Communal Governance</a><a href="#local">Local Church</a></nav>
+</header>
+
+<section id="communion">
+  <div class="sechead"><h2>Communion</h2><div class="dots" aria-label="Traditions quoted"><span class="dot t-early" title="Early Church"></span> <span class="dot t-catholic" title="Catholic"></span> <span class="dot t-orthodox" title="Orthodox"></span> <span class="dot t-protestant" title="Protestant"></span> <span class="dot t-ecumenical" title="Ecumenical"></span></div></div>
+  <div class="tags"><span>as unity</span><span>weekly</span><span>aspirationally open</span></div>
+  <p class="claim">The whole church calls the table the sign of its unity, wants it every Lord’s day, and longs to share it across its divisions.</p>
+  <div class="quotes">
+    <blockquote class="q t-early"><span class="trad">Early Church</span><p>“O mystery of piety! O sign of unity! O bond of charity!”</p><cite>Augustine, Tractate 26 on John §13</cite></blockquote>
+<blockquote class="q t-early"><span class="trad">Early Church</span><p>“they communed together, and Anicetus conceded the administration of the eucharist in the church to Polycarp, manifestly as a mark of respect. And they parted from each other in peace”</p><cite>Irenaeus, in Eusebius, Church History 5.24 (2nd c.): two bishops who disagreed about Easter</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“If you are the body and members of Christ, then it is your sacrament that is placed on the table of the Lord; it is your sacrament that you receive.”</p><cite>Augustine, Sermon 272, in the Catechism of the Catholic Church §1396</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“You dishonor this table when you do not judge worthy of sharing your food someone judged worthy to take part in this meal”</p><cite>John Chrysostom, in the Catechism of the Catholic Church §1397</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“The celebration of the Eucharist, especially on Sundays, is the first and fundamental way the holy People of God gather and meet.”</p><cite>Synod on Synodality, Final Document §26 (2024)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“not a prize for the perfect but a powerful medicine and nourishment for the weak”</p><cite>Pope Francis, Evangelii Gaudium §47 (2013)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“I would never dare give permission to do this because I do not have the authority. One Baptism, one Lord, one faith. Speak with the Lord and go forward.”</p><cite>Pope Francis to a Lutheran wife of a Catholic husband, Lutheran church in Rome (2015)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“it is a source of joy to note that Catholic ministers are able, in certain particular cases, to administer the Sacraments of the Eucharist … to Christians who are not in full communion with the Catholic Church but who greatly desire to receive these sacraments”</p><cite>John Paul II, Ut Unum Sint §46 (1995)</cite></blockquote>
+<blockquote class="q t-orthodox"><span class="trad">Orthodox</span><p>“In localities where there is only one priest, from either Church, he will celebrate services for the faithful of both Churches, including the Divine Liturgy”</p><cite>Antiochian Orthodox and Syriac Orthodox Patriarchs, Synodal Letter, Damascus (1991)</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“Each week, at least, the table of the Lord ought to have been spread”</p><cite>John Calvin, Institutes 4.17.46</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“experience shows the gross falsehood of that assertion, that the Lord’s supper is not a converting ordinance.”</p><cite>John Wesley, Journal (1740)</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“ought therefore to be celebrated weekly on the Lord’s Day”</p><cite>Church of England, official response to the Lima text (1987)</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“As the eucharist celebrates the resurrection of Christ, it is appropriate that it should take place at least every Sunday.”</p><cite>WCC Faith and Order, Lima text, Eucharist §31 (1982)</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“Many members of our communities yearn to receive the Eucharist at one table, as the concrete expression of full unity.”</p><cite>Pope Francis and the Lutheran World Federation, Joint Statement, Lund (2016)</cite></blockquote>
+  </div>
+  <p class="care"><strong>Limits.</strong> Rome and the Orthodox still require full communion before sharing the table. These voices show a wish and some real exceptions, not a changed rule.</p>
+</section>
+<section id="baptism">
+  <div class="sechead"><h2>Baptism</h2><div class="dots" aria-label="Traditions quoted"><span class="dot t-early" title="Early Church"></span> <span class="dot t-catholic" title="Catholic"></span> <span class="dot t-ecumenical" title="Ecumenical"></span></div></div>
+  <div class="tags"><span>as unity</span><span>by immersion</span></div>
+  <p class="claim">One baptism is now the agreed foundation of Christian unity, and the churches increasingly commend immersion as its fullest sign.</p>
+  <div class="quotes">
+    <blockquote class="q t-early"><span class="trad">Early Church</span><p>“you made that saving confession, and descended three times into the water, and ascended again … and that Water of salvation was at once your grave and your mother.”</p><cite>Cyril of Jerusalem, Mystagogical Catecheses 2.4 (c. 350)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“Baptism therefore establishes a sacramental bond of unity which links all who have been reborn by it.”</p><cite>Vatican II, Unitatis Redintegratio §22 (1964)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“Baptism is performed in the most expressive way by triple immersion in the baptismal water.”</p><cite>Catechism of the Catholic Church §1239</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“Baptism is also the foundation of ecumenism.”</p><cite>Synod on Synodality, Final Document §23 (2024)</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“Our common baptism, which unites us to Christ in faith, is thus a basic bond of unity.”</p><cite>Lima text, Baptism §6 (1982)</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“The act of immersion can vividly express the reality that in baptism the Christian participates in the death, burial and resurrection of Christ.”</p><cite>Lima text, Baptism §18</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“the act of baptismal submersion or immersion is a vibrant sign of the Christian dying and rising to new life in Christ.”</p><cite>WCC Faith and Order, One Baptism §21 (2011)</cite></blockquote>
+  </div>
+  <p class="care"><strong>Limits.</strong> Most churches also baptize infants, and Lima §13 calls baptism “an unrepeatable act.” The Orthodox keep triple immersion as the norm.</p>
+</section>
+<section id="singing">
+  <div class="sechead"><h2>Congregational Singing</h2><div class="dots" aria-label="Traditions quoted"><span class="dot t-early" title="Early Church"></span> <span class="dot t-catholic" title="Catholic"></span> <span class="dot t-protestant" title="Protestant"></span></div></div>
+  <div class="tags"><span>as unity</span><span>as testimony</span></div>
+  <p class="claim">From the first century on, the church has wanted the whole people to sing with one voice.</p>
+  <div class="quotes">
+    <blockquote class="q t-early"><span class="trad">Early Church</span><p>“man by man, become a choir, that being harmonious in love, and taking up the song of God in unison, you may with one voice sing to the Father through Jesus Christ”</p><cite>Ignatius of Antioch, To the Ephesians 4 (c. 107)</cite></blockquote>
+<blockquote class="q t-early"><span class="trad">Early Church</span><p>“The offering of thanksgiving again is common: for neither does he give thanks alone, but also all the people.”</p><cite>John Chrysostom, Homily 18 on 2 Corinthians (c. 392)</cite></blockquote>
+<blockquote class="q t-early"><span class="trad">Early Church</span><p>“How greatly did I weep in Your hymns and canticles, deeply moved by the voices of Your sweet-speaking Church!”</p><cite>Augustine, Confessions 9.6.14</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“Who earnestly believes this cannot but sing and speak thereof with joy and delight, that others also may hear and come.”</p><cite>Martin Luther, preface to Bapst’s hymnal (1545)</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“we glorify together as it were with one voice and one mouth; and that openly, so that each may in turn receive the confession of his brother’s faith”</p><cite>John Calvin, Institutes 3.20.31</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“Sing All. See that you join with the Congregation as frequently as you can.”</p><cite>John Wesley, Directions for Singing (1761)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“One cannot find anything more religious and more joyful in sacred celebrations than a whole congregation expressing its faith and devotion in song.”</p><cite>Musicam Sacram §16 (1967)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“the voices of the faithful may ring out”</p><cite>Vatican II, Sacrosanctum Concilium §118 (1963)</cite></blockquote>
+  </div>
+  <p class="care"><strong>Limits.</strong> Every tradition here also kept choirs, and most kept instruments. In Orthodox parishes a choir usually sings the people’s parts. No WCC text on singing was found.</p>
+</section>
+<section id="scripture">
+  <div class="sechead"><h2>Scripture Reading &amp; Study</h2><div class="dots" aria-label="Traditions quoted"><span class="dot t-early" title="Early Church"></span> <span class="dot t-catholic" title="Catholic"></span> <span class="dot t-protestant" title="Protestant"></span></div></div>
+  <div class="tags"><span>as unity</span><span>as testimony</span><span>as individual empowerment</span></div>
+  <p class="claim">The wider church has come to say that the Bible belongs in every Christian’s hands.</p>
+  <div class="quotes">
+    <blockquote class="q t-early"><span class="trad">Early Church</span><p>“I am not, you will say, one of the monks, but I have both a wife and children, and the care of a household. Why, this is what has ruined all, your supposing that the reading of the divine Scriptures appertains to those only”</p><cite>John Chrysostom, Homily 2 on Matthew (Orthodox and Catholic saint)</cite></blockquote>
+<blockquote class="q t-early"><span class="trad">Early Church</span><p>“Tarry not, I entreat, for another to teach you; you have the oracles of God.”</p><cite>John Chrysostom, Homily 9 on Colossians</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“it was impossible to establish the lay-people in any truth, except the scripture were plainly laid before their eyes in their mother-tongue”</p><cite>William Tyndale, prologue to the Pentateuch (1530)</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“if we are all priests … why should we not also have the power to test and judge what is correct or incorrect in matters of faith?”</p><cite>Martin Luther, To the Christian Nobility (1520)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“Easy access to Sacred Scripture should be provided for all the Christian faithful.”</p><cite>Vatican II, Dei Verbum §22 (1965)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“The Bible cannot be just the heritage of some, much less a collection of books for the benefit of a privileged few.”</p><cite>Pope Francis, Aperuit Illis §4 (2019)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“A love and reverence of Sacred Scripture which might be described as devotion, leads our brethren to a constant meditative study of the sacred text.”</p><cite>Vatican II, Unitatis Redintegratio §21, on Protestants (1964)</cite></blockquote>
+  </div>
+  <p class="care"><strong>Limits.</strong> Rome restricted lay Bible reading for centuries (the Index, 1564), and the churches still differ on who interprets.</p>
+</section>
+<section id="unity">
+  <div class="sechead"><h2>Unity of Body</h2><div class="dots" aria-label="Traditions quoted"><span class="dot t-early" title="Early Church"></span> <span class="dot t-catholic" title="Catholic"></span> <span class="dot t-orthodox" title="Orthodox"></span> <span class="dot t-ecumenical" title="Ecumenical"></span></div></div>
+  
+  <p class="claim">There is one church. Every tradition now names the baptized in other churches as members of Christ’s body.</p>
+  <div class="quotes">
+    <blockquote class="q t-early"><span class="trad">Early Church</span><p>“One bread, says he, we being many are one body.”</p><cite>Augustine, Tractate 26 on John, on 1 Corinthians 10:17</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“all who have been justified by faith in Baptism are members of Christ’s body, and have a right to be called Christian”</p><cite>Vatican II, Unitatis Redintegratio §3 (1964)</cite></blockquote>
+<blockquote class="q t-orthodox"><span class="trad">Orthodox</span><p>“All the meetings, the fellowship, the oral and written declarations meant that we belong to One Faith even though history had manifested our division more than the aspects of our unity.”</p><cite>Antiochian Orthodox and Syriac Orthodox Patriarchs, Damascus (1991)</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“our one baptism into Christ constitutes a call to the churches to overcome their divisions and visibly manifest their fellowship.”</p><cite>Lima text, Baptism §6 (1982)</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“bring closer the day when Christ’s divided people will be visibly reunited around the Lord’s Table.”</p><cite>Lima text, Eucharist §33</cite></blockquote>
+  </div>
+  
+</section>
+<section id="conscience">
+  <div class="sechead"><h2>Diversity of Conscience</h2><div class="dots" aria-label="Traditions quoted"><span class="dot t-early" title="Early Church"></span> <span class="dot t-catholic" title="Catholic"></span> <span class="dot t-orthodox" title="Orthodox"></span> <span class="dot t-protestant" title="Protestant"></span></div></div>
+  
+  <p class="claim">Faith cannot be compelled, and within the church there is room for different views.</p>
+  <div class="quotes">
+    <blockquote class="q t-early"><span class="trad">Early Church</span><p>“It is assuredly no part of religion to compel religion.”</p><cite>Tertullian, To Scapula 2 (c. 212)</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“A Turk or a heretic is not convinced by our act, either with the sword or with fire, but only with patience and prayer.”</p><cite>Balthasar Hubmaier, Concerning Heretics (1524), Anabaptist</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“To kill a man is not to defend a doctrine; it is to kill a man.”</p><cite>Sebastian Castellio (1554), on the burning of Servetus</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“God alone is Lord of the conscience, and hath left it free from the doctrines and commandments of men”</p><cite>Westminster Confession 20.2 (1646)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“the human person has a right to religious freedom”</p><cite>Vatican II, Dignitatis Humanae §2 (1965)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“All in the Church must preserve unity in essentials. But let all, according to the gifts they have received enjoy a proper freedom … and even in their theological elaborations of revealed truth. In all things let charity prevail.”</p><cite>Vatican II, Unitatis Redintegratio §4 (1964)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“to impose no burden beyond what is essential”</p><cite>Vatican II, Unitatis Redintegratio §18</cite></blockquote>
+<blockquote class="q t-orthodox"><span class="trad">Orthodox</span><p>“the restriction of human rights in the field of freedom of conscience”</p><cite>Holy and Great Council of the Orthodox Church, Crete (2016), naming it among the evils of the age</cite></blockquote>
+  </div>
+  <p class="care"><strong>Limits.</strong> Many who claimed freedom of conscience did not extend it (Augustine later, Calvin with Servetus). Dignitatis Humanae is about freedom from civil coercion.</p>
+</section>
+<section id="priesthood">
+  <div class="sechead"><h2>Priesthood of Believers</h2><div class="dots" aria-label="Traditions quoted"><span class="dot t-early" title="Early Church"></span> <span class="dot t-catholic" title="Catholic"></span> <span class="dot t-orthodox" title="Orthodox"></span> <span class="dot t-protestant" title="Protestant"></span> <span class="dot t-ecumenical" title="Ecumenical"></span></div></div>
+  
+  <p class="claim">Every tradition confesses that all the baptized share in Christ’s priesthood.</p>
+  <div class="quotes">
+    <blockquote class="q t-early"><span class="trad">Early Church</span><p>“even laymen have the right; for what is equally received can be equally given”</p><cite>Tertullian, On Baptism 17 (c. 200), on who may baptize</cite></blockquote>
+<blockquote class="q t-early"><span class="trad">Early Church</span><p>“his lay-priesthood, that is, his baptism”</p><cite>Jerome, Against the Luciferians 4 (c. 379)</cite></blockquote>
+<blockquote class="q t-early"><span class="trad">Early Church</span><p>“we call all priests because they are members of the one Priest”</p><cite>Augustine, City of God 20.10</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“no difference at all but that of office… baptism, Gospel and faith alone make us ‘spiritual.’”</p><cite>Martin Luther, To the Christian Nobility (1520)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“The baptized, by regeneration and the anointing of the Holy Spirit, are consecrated as a spiritual house and a holy priesthood”</p><cite>Vatican II, Lumen Gentium §10 (1964)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“Baptism gives a share in the common priesthood of all believers.”</p><cite>Catechism of the Catholic Church §1268</cite></blockquote>
+<blockquote class="q t-orthodox"><span class="trad">Orthodox</span><p>“The gift of the Spirit that every member of the faithful receives in the sacrament of initiation is the charism of royal priesthood”</p><cite>Nicolas Afanasiev, The Church of the Holy Spirit, p. 3 (as quoted in a review)</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“The New Testament never uses the term ‘priesthood’ or ‘priest’ (hiereus) to designate the ordained ministry or the ordained minister.”</p><cite>Lima text, Ministry §17, commentary (1982)</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“Any member of the body may share in proclaiming and teaching the Word of God, may contribute to the sacramental life of that body.”</p><cite>Lima text, Ministry, commentary 13</cite></blockquote>
+  </div>
+  <p class="care"><strong>Limits.</strong> Rome holds that the ordained priesthood differs from the common priesthood “in essence” (Lumen Gentium §10), and most churches tie presiding at the table to ordination.</p>
+</section>
+<section id="governance">
+  <div class="sechead"><h2>Communal Governance</h2><div class="dots" aria-label="Traditions quoted"><span class="dot t-early" title="Early Church"></span> <span class="dot t-catholic" title="Catholic"></span> <span class="dot t-orthodox" title="Orthodox"></span> <span class="dot t-protestant" title="Protestant"></span> <span class="dot t-ecumenical" title="Ecumenical"></span></div></div>
+  
+  <p class="claim">The church’s oldest practice, and its newest teaching, involve the whole people in its decisions.</p>
+  <div class="quotes">
+    <blockquote class="q t-early"><span class="trad">Early Church</span><p>“I made up my mind to do nothing on my own private opinion, without your advice and without the consent of the people.”</p><cite>Cyprian of Carthage, Epistle 5 (c. 250)</cite></blockquote>
+<blockquote class="q t-early"><span class="trad">Early Church</span><p>“He who is to govern all, should be chosen by all.”</p><cite>Leo the Great, Letter 10 (444)</cite></blockquote>
+<blockquote class="q t-orthodox"><span class="trad">Orthodox</span><p>“the protector of religion is the very body of the Church, even the people themselves”</p><cite>Encyclical of the Eastern Patriarchs §17 (1848)</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“the sheep are to judge whether what they teach is the voice of Christ or the voice of strangers.”</p><cite>Martin Luther, That a Christian Assembly or Congregation Has the Right and Power to Judge All Teaching (1523)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“Those with pastoral authority are obliged to listen to those who participate in the consultation and may not act as if the consultation had not taken place.”</p><cite>Synod on Synodality, Final Document §91 (2024)</cite></blockquote>
+<blockquote class="q t-catholic"><span class="trad">Catholic</span><p>“a principle dear to the Church of the first millennium”</p><cite>Pope Francis (2015), on “what touches all should be discussed by all”</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“Decision-making in the Church seeks and elicits the consensus of all and depends upon the guidance of the Holy Spirit”</p><cite>WCC, The Church: Towards a Common Vision §51 (2013)</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“Strong emphasis should be placed on the active participation of all members in the life and the decision-making of the community.”</p><cite>Lima text, Ministry §27</cite></blockquote>
+  </div>
+  <p class="care"><strong>Limits.</strong> In Catholic and Orthodox churches, consultation does not transfer authority from the bishop. The 2024 Synod keeps the bishop’s authority “inviolable” (§92).</p>
+</section>
+<section id="local">
+  <div class="sechead"><h2>Sovereignty of the Local Church</h2><div class="dots" aria-label="Traditions quoted"><span class="dot t-orthodox" title="Orthodox"></span> <span class="dot t-protestant" title="Protestant"></span> <span class="dot t-ecumenical" title="Ecumenical"></span></div></div>
+  
+  <p class="claim">Each gathered congregation is fully the church.</p>
+  <div class="quotes">
+    <blockquote class="q t-orthodox"><span class="trad">Orthodox</span><p>“the Church resided, lived, and was revealed in all the fullness of its unity and in all the unity of its fullness in each local church”</p><cite>Nicolas Afanasiev, The Church of the Holy Spirit, p. 255 (as quoted in a review)</cite></blockquote>
+<blockquote class="q t-protestant"><span class="trad">Protestant</span><p>“Take this passage as a most sure basis, which gives more than sufficient authority to the Christian congregation to preach, to permit men to preach, and to call preachers.”</p><cite>Martin Luther, That a Christian Assembly or Congregation Has the Right… (1523), on 1 Corinthians 14</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“Each local church contains within it the fullness of what it is to be the Church. It is wholly Church, but not the whole Church.”</p><cite>WCC, The Church: Towards a Common Vision §31 (2013)</cite></blockquote>
+<blockquote class="q t-ecumenical"><span class="trad">Ecumenical</span><p>“episcopal, presbyteral and congregational systems of government are each today, and have been for centuries, accepted by great communions in Christendom”</p><cite>Lausanne Faith and Order Conference (1927), quoted in the Lima text, Ministry §26, commentary</cite></blockquote>
+  </div>
+  <p class="care"><strong>Limits.</strong> For Catholics and Orthodox, the “local church” means the diocese gathered around its bishop, not the single congregation.</p>
+</section>
+
+<footer>
+  <p>Sources, page references and anything still to verify are in the class research vault (stone-campbell-database), under <code>10 Research Projects/</code>: The Ecumenical Consensus, Open Communion, One Baptism, The Whole Church Sings, The Bible in Every Hand, Freedom of Conscience, and <code>Arguments/The Ecumenical Movement Recommends Our Practices</code>.</p>
+  <p>The early church is shared by Catholic, Orthodox and Protestant alike. Chrysostom and Cyril are saints of both East and West.</p>
+</footer>
+</div>
+</body>
+</html>

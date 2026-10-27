@@ -19,6 +19,10 @@ A movement drawn together from reformers, farmers, clergy, and laypeople of many
 - [Chapter 11 — The Story of Studying Scripture](week11)
 - [Chapter 12 — The Story of Governance](week12)
 
+## For co-teachers
+
+- [The Practices We Hold](decks/practices-we-hold.html): the ecumenical case for each practice, with early church, Catholic, Orthodox, Protestant and ecumenical voices labeled by tradition
+
 ## Visuals
 
 - [The Wild Democracy Timeline](decks/elements/timeline.html) — click an event; ← → walk the story in order
