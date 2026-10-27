@@ -15,15 +15,17 @@ SIDE = [
     R.UNIVERSALS,
     R.WEEKLY,
     R.EKKLESIA,
+    ('Who serves the table?',      '<h2>Who serves the table?</h2>',        'Hosted by any.'),
     R.TABLE,
+    ('Where two or three are gathered', '<h2>Where two or three are gathered</h2>', 'Brush Run chose.'),
     ('Who was not at the table',   'who was not at the table',              'who was not at the table'),
     ('Addendum',                   'Reference material; not part of the telling', 'What this week touched'),
 ]
 SECTIONS = [
     ('Opening', 'Otter Creek'), ('The sea', '<h2>Alexander and the Sea</h2>'),
     ('Glasgow', 'He went to hear other preachers.'), ('Reunion', '<h2>Family Reunion</h2>'),
-    ('Brush Run', '<h2>Brush Run</h2>'), ('The ordination', '<h2>The Ordination</h2>'),
-    ('Who serves the table?', '<h2>Who serves the table?</h2>'), ('Two or three gathered', '<h2>Where two or three are gathered</h2>'),
+    ('Brush Run', '<h2>Brush Run</h2>'), ('The first Supper', '<h2>The First Supper</h2>'),
+    ('The ordination', '<h2>The Ordination</h2>'), ('Why the people?', '<h2>Why the people?</h2>'),
     ('Close', 'for discussion'),
 ]
 
@@ -34,8 +36,8 @@ DOC_KEYS = ['rich', 'dna', 'will', 'wcf', 'kjv', 'stone', 'apology', 'cb', 'chur
 def docs(between, clean): return R.docs(between, clean, DOC_KEYS)
 SHORT = R.SHORT
 DOC_DOORS = [('Richardson&rsquo;s account, whole', '<h2>Brush Run</h2>', 0),
-             ('The whole Declaration and Address', '<h2>Where two or three are gathered</h2>', 1),
-             ('The whole will', '<h2>Where two or three are gathered</h2>', 2),
+             ('The whole Declaration and Address', '<h2>Why the people?</h2>', 1),
+             ('The whole will', '<h2>Why the people?</h2>', 2),
              ('Scripture on the church (KJV)', 'Wherever Two or Three<br>Are Gathered', 4)]
 doc_order = R.doc_order
 

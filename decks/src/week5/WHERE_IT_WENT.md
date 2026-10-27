@@ -32,6 +32,18 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **The two points became side paths (Micah's story outline, 27 Oct 2026).** Both now fork from the closing card, "A minister, made by the priesthood of all believers":
+  - "Who serves the table?" (Campbell's royal-priesthood passages, "a horrid evil," "Open to all. Hosted by any.") is the side path *Who serves the table?*, with *Who keeps the table* beside it.
+  - "Where two or three are gathered" (Matthew 18, the D&A on Matthew 18, the Last Will's "choose her own preacher," "Brush Run chose.") is the side path *Where two or three are gathered*.
+  - *The assembly* (`ekklesia()`) and *The whole church remembers* now fork from the "fountain of official power" slide in the new section "Why the people?".
+- **Brush Run, shortened.** Three slides are now `HIDE(...)` in `slides.py`: kept in the source, left out of the deck. Change `HIDE` back to `A` to show one again.
+  - The 1810 meeting house.
+  - Job 8:7, "Though thy beginning was small."
+  - "the Society must obtain admission into some regularly organized religious body…"
+  The Synod's refusal now sits in the notes of the new "Why a church" slide.
+- **"I dare not be a party man…"** moved from point one to the new spine section on Alexander's own words about the table (1810).
+- **"The clergy are the opposite to the laity…"** is now on the spine, in "Why the people?". It is still in the reserve deck too.
+
 - **Glasgow summary slides.** "He went to hear Greville Ewing" and the "from Chapter 2" Glasgow summary were replaced by the full Chapter 2 Glasgow sequence: hearing other preachers (Article 4), Ewing's house and the Haldanes, and the token.
 - **Foster material** moved out to the unity resource (above).
 
