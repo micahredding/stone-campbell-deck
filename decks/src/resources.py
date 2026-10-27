@@ -97,6 +97,9 @@ def docs(between, clean, keys):
         'sing': lambda: {'title': 'The whole church sings: excerpts',
             'sub': 'Scripture, Pliny, Ignatius, Tertullian, Chrysostom, Augustine, Luther, Calvin, Watts, Wesley, Vatican II, Stone, the Campbells, the 1906 census',
             'html': clean(src('sources', 'the-whole-church-sings.html'))},
+        'consc': lambda: {'title': 'Freedom of conscience: excerpts',
+            'sub': 'Romans 14, Tertullian, Augustine, Luther, Calvin, Hubmaier, Castellio, Westminster, Williams, Madison, Stone, the Campbells, Vatican II',
+            'html': clean(src('sources', 'freedom-of-conscience.html'))},
         'tbl': lambda: {'title': 'Who keeps the table: excerpts',
             'sub': 'Scotch Baptists, Campbell, Stone&rsquo;s <i>Christian Messenger</i>, Lipscomb, the ecumenical record, and today',
             'html': clean(src('sources', 'the-table.html'))},
@@ -112,7 +115,7 @@ def docs(between, clean, keys):
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
-         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings'}
+         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
@@ -919,4 +922,88 @@ def singing(extra=()):
     ] + list(extra) + [
         CARD('No one sings for you.<br>' + G('Every voice an offering.'),
              'The end. If no one can sing for you, what are you offering when you sing? To God, and to the person beside you. The same priesthood as the table: voice and hands.'),
+    ]
+
+
+# ---- Freedom of conscience, claimed and extended (research: 10 Research Projects/Freedom of Conscience) ----
+CONSCIENCE = ('Whose conscience?', '<div class=eyebrow>Freedom of conscience &middot; a resource</div>', 'Even inside the church.')
+CONSCIENCE_LIMITS = ('The honest limits', '<div class=eyebrow>The honest limits', 'radical principle of our political magna charta')
+def _c(quote, cite, eyebrow='', note='', size=None, width=None, src='consc'):
+    return _s(quote, cite, eyebrow, note, size, width, src)
+def _csec(title, sub):
+    return ('<section class="slide breath"><div class=eyebrow>Freedom of conscience</div><h2 style="max-width:none">%s</h2>'
+            '<div class=sub>%s</div></section>' % (title, sub))
+def conscience(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>Freedom of conscience &middot; a resource</div>'
+        '<h2 style="max-width:none">Whose conscience?</h2>'
+        '<div class=sub>Every reformer claimed it. Who extended it?</div>'
+        '<aside class=notes>A resource, and its own deck. Two chains run through church history: those who claimed freedom of conscience for themselves, and those who extended it to others. Thomas Campbell&rsquo;s contribution is to carry it inside the church: inferences may not bind conscience or become terms of communion. Every quote is in the document &ldquo;Freedom of conscience.&rdquo;</aside></section>',
+
+        _csec('To his own master', 'Scripture'),
+        '<section data-src=consc class="slide"><div class=eyebrow>Scripture</div>'
+        '<div class=litany style="gap:3vmin;font-size:2.9em;max-width:90vw">'
+        '<div class="no frag">&ldquo;<b>We ought to obey God rather than men.</b>&rdquo; <span class=lcite>Acts 5:29</span></div>'
+        '<div class="no frag">&ldquo;<b>Who art thou that judgest another man&rsquo;s servant?</b> to his own master he standeth or falleth.&rdquo; <span class=lcite>Romans 14:4</span></div>'
+        '<div class="no frag">&ldquo;<b>Let every man be fully persuaded in his own mind.</b>&rdquo; <span class=lcite>Romans 14:5</span></div>'
+        '</div><div class=cite>King James Version</div>'
+        '<aside class=notes>Three clicks. Romans 14 is about Christians who disagree inside one church: food and days. It is the text Thomas Campbell leans on.</aside></section>',
+
+        _csec('Claimed, and then refused', 'The early church to the Reformation'),
+        _c('&ldquo;It is assuredly <b>no part of religion to compel religion</b>&mdash;to which free-will and not force should lead us&hellip;&rdquo;', 'Tertullian, <i>To Scapula</i> 2 (c. 212)', 'The persecuted church',
+           'Written to a persecuting governor. Lactantius, a century later: &ldquo;religion is to be defended, not by putting to death, but by dying.&rdquo;', size='clamp(36px,8vmin,100px)', width='26ch'),
+        _c('&ldquo;For originally my opinion was, that <b>no one should be coerced into the unity of Christ</b>&hellip; <b>But this opinion of mine was overcome</b>&hellip;&rdquo;', 'Augustine, Letter 93, to Vincentius (408)', 'The turn',
+           'Once the church had the emperor, Augustine read Luke 14:23, &ldquo;compel them to come in,&rdquo; as warrant for coercing the Donatists. The medieval church followed him.'),
+        _c('&ldquo;&hellip;<b>my conscience is bound in the word of God</b>: I can not and will not recant any thing, since it is unsafe and dangerous to do any thing against the conscience.&rdquo;', 'Martin Luther at the Diet of Worms (1521) &middot; tr. Philip Schaff', 'Luther at Worms',
+           '&ldquo;Here I stand&rdquo; is probably a later addition. In 1523 Luther wrote that faith &ldquo;is a free act, to which no one can be forced&rdquo;; later memoranda approved punishing Anabaptists.'),
+        _c('&ldquo;&hellip;provided my authority counts for anything, <b>I will never let him leave alive</b>.&rdquo;', 'John Calvin to Guillaume Farel, on Servetus (1546) &middot; as quoted by Schaff', 'And not for others',
+           'Servetus came to Geneva and was burned on 27 October 1553. Melanchthon approved.', size='clamp(36px,8vmin,100px)', width='26ch'),
+        _c('&ldquo;It seems one of the strangest inconsistencies that <b>the very men who claimed and exercised the right of protest</b> in essentials, <b>should have denied the same right to others</b>&hellip;&rdquo;', 'Philip Schaff, <i>History of the Christian Church</i> VII (1888)', 'A historian&rsquo;s verdict',
+           'Schaff, himself a Reformed historian. Also: &ldquo;all persecuted religions&hellip; are advocates of toleration and freedom, at least for themselves.&rdquo;'),
+
+        _csec('The other chain', 'Those who extended it'),
+        '<section data-src=consc class="slide"><div class=eyebrow>The other chain</div>'
+        '<div class=litany style="gap:3vmin;font-size:2.7em;max-width:90vw">'
+        '<div class="no frag">&ldquo;&hellip;<b>a law to burn heretics is an invention of the devil</b>.&rdquo; <span class=lcite>Balthasar Hubmaier, 1524</span></div>'
+        '<div class="no frag">&ldquo;<b>To kill a man is not to defend a doctrine; it is to kill a man.</b>&rdquo; <span class=lcite>Sebastian Castellio, 1554</span></div>'
+        '</div>'
+        '<aside class=notes>Two clicks. Hubmaier, an Anabaptist, was himself burned in Vienna in 1528. Castellio answered Calvin after Servetus: &ldquo;Hominem occidere, non est doctrinam tueri, sed est hominem occidere.&rdquo;</aside></section>',
+        _c('&ldquo;<b>God alone is Lord of the conscience</b>, and hath left it free from the doctrines and commandments of men&hellip;&rdquo;', 'Westminster Confession 20.2 (1646)', 'The Confession against itself',
+           'The same Confession, as written in 1647 (23.3), had the magistrate see &ldquo;all blasphemies and heresies&rdquo; suppressed. The American revision of 1788 struck it. The Seceders who tried Thomas Campbell held this Confession.', size='clamp(36px,8vmin,100px)', width='26ch'),
+        _c('&ldquo;&hellip;a permission of the most Paganish, Jewish, Turkish, or anti-christian consciences and worships <b>be granted to all men in all nations</b>&hellip;&rdquo;', 'Roger Williams, <i>The Bloudy Tenent of Persecution</i> (1644)', 'Roger Williams',
+           'Fought only &ldquo;with that sword which is only, in soul matters, able to conquer: to wit, the sword of God&rsquo;s Spirit, the word of God.&rdquo;'),
+        _c('&ldquo;<b>The Religion then of every man must be left to the conviction and conscience of every man</b>&hellip;&rdquo;', 'James Madison, <i>Memorial and Remonstrance</i> (1785)', 'Into civil law',
+           'Virginia, 1786: &ldquo;Almighty God hath created the mind free.&rdquo; By 1809 freedom from the state was won in America. Freedom inside the church was not.', size='clamp(36px,8vmin,100px)', width='26ch'),
+
+        _csec('Inside the church', 'Thomas Campbell, 1808&ndash;1809'),
+        '<section data-src="dna consc" class="slide"><div class=eyebrow>Thomas Campbell, the Declaration</div>'
+        '<div class=litany style="gap:2.6vmin;font-size:3em;max-width:90vw">'
+        '<div class="no frag">&ldquo;&hellip;as no man can be judged for his brother,</div>'
+        '<div class="no frag">so no man can judge for his brother;</div>'
+        '<div class="no frag"><b>every man must be allowed to judge for himself</b>&hellip;&rdquo;</div>'
+        '</div><div class=cite>Declaration and Address (1809)</div>'
+        '<aside class=notes>Three clicks, one sentence. It goes on: &ldquo;as every man must bear his own judgment&mdash;must give account of himself to God.&rdquo; Romans 14.</aside></section>',
+        _c('&ldquo;&hellip;believing you to be <b>sincere and conscientious servants of the same great and gracious Master</b>&hellip; I am, therefore, through his grace, <b>ready to forbear with you</b>&hellip;&rdquo;', 'Thomas Campbell, Protest and Appeal to the Associate Synod (c. 1808)', 'Even to his judges',
+           'To the Synod trying him. Earlier in the same paper: &ldquo;I leave every man to his own judgment, while I claim the same privilege for myself.&rdquo; He claims it, and extends it to his accusers.'),
+        '<section data-src="dna consc" class="slide"><div class=eyebrow>Proposition 6</div>'
+        '<p class="bigquote" style="font-size:clamp(30px,6.2vmin,80px);max-width:34ch;line-height:1.22"><span class=q>&ldquo;&hellip;yet are they <b>not formally binding upon the consciences of Christians farther than they perceive the connection</b>&hellip; Therefore, <b>no such deductions can be made terms of communion</b>&hellip;&rdquo;</span></p>'
+        '<div class=cite>Thomas Campbell, Declaration and Address (1809)</div>'
+        '<aside class=notes>The new step. Others freed conscience from the magistrate; Campbell frees it from the church&rsquo;s own inferences. What you cannot see for yourself cannot keep you from the table.</aside></section>',
+        _c('&ldquo;&hellip;to <b>emancipate the conscience from the dominion of human authority</b> in matters of religion, and to lay a foundation&hellip; <b>for the union of all christians</b>&hellip;&rdquo;', 'Alexander Campbell, <i>The Christian Baptist</i> (1830), concluding remarks', 'Alexander, 1830',
+           'Closing the <i>Christian Baptist</i>, he names this as one of its purposes, beside the union of all Christians. Stone at his ordination, 1798: &ldquo;I do, as far as I see it consistent with the word of God.&rdquo;'),
+
+        _csec('The whole church now', 'Rome, the Lutherans'),
+        _c('&ldquo;&hellip;all men are to be <b>immune from coercion</b> on the part of individuals or of social groups and of any human power&hellip;&rdquo;', 'Second Vatican Council, <i>Dignitatis Humanae</i> &sect;2 (1965)', 'Rome',
+           'And &sect;12, a confession: &ldquo;there has at times appeared a way of acting that was hardly in accord with the spirit of the Gospel.&rdquo; Newman (1875): &ldquo;to Conscience first, and to the Pope afterwards.&rdquo;'),
+        _c('&ldquo;<b>We reject any arguments of Luther and Melanchthon</b> in which they hold that governmental authorities should punish Anabaptists&hellip;&rdquo;', 'Evangelical Lutheran Church in America (2010)', 'The Lutherans',
+           'The civil half is now common ground. The question left is Campbell&rsquo;s half: inside the church, at the table.'),
+    ] + list(extra) + [
+        '<section data-src=consc class="slide"><div class=eyebrow>The honest limits &middot; a side path</div>'
+        '<p class="bigquote" style="font-size:clamp(30px,6.2vmin,80px);max-width:32ch;line-height:1.22"><span class=q>&ldquo;In religion, in faith, in piety, <b>God alone is Lord of the conscience</b>&hellip; <b>But this is not the precise case before us.</b> The case before us is a law for the recovery of a runaway servant.&rdquo;</span></p>'
+        '<div class=cite>Alexander Campbell, &ldquo;The Fugitive Slave Law,&rdquo; <i>Millennial Harbinger</i> (1851)</div>'
+        '<aside class=notes>Side path. Campbell argued that Christians should obey the Fugitive Slave Law: conscience, for him, ruled faith and worship, not this.</aside></section>',
+        _c('&ldquo;&hellip;we will petition our National Legislature for the immediate and unconditional repeal of this oppressive law, so very repugnant to a radical principle of our political magna charta&mdash;<b>liberty of conscience</b>.&rdquo;', 'Disciples at Berrien, Michigan &middot; <i>Millennial Harbinger</i> (1851)', 'His own people answered',
+           'Campbell printed their resolutions in his own paper. The principle outran its author.'),
+        CARD('Not only for ourselves.<br>' + G('Even inside the church.'),
+             'The end. Discussion: name one inference our churches have made a test of fellowship. Would Proposition 6 allow it?'),
     ]
