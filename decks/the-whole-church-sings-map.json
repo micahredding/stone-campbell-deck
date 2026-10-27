@@ -1,0 +1,443 @@
+{
+ "deck": "decks/the-whole-church-sings-map.html",
+ "source": "decks/src/resources.py (singing)",
+ "built_by": "decks/src/singing/build.py",
+ "slides": [
+  {
+   "index": 0,
+   "n": 1,
+   "title": "Our Wild Democracy a resource The Whole Church Sings Congregational singing in every tradi",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 1,
+   "n": 2,
+   "title": "The whole church sings a resource No one sings for you Congregational singing as the pries",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 2,
+   "n": 3,
+   "title": "The whole church sings The fruit of our lips Scripture",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 3,
+   "n": 4,
+   "title": "Paul \"Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing o",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 4,
+   "n": 5,
+   "title": "The priest's offering \"...let us offer the sacrifice of praise to God continually, that is",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 5,
+   "n": 6,
+   "title": "The assembly \"How is it then, brethren? when ye come together, every one of you hath a psa",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 6,
+   "n": 7,
+   "title": "The whole church sings The early church sang c. 110 to c. 400",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 7,
+   "n": 8,
+   "title": "An outsider's report \"...they were accustomed to meet on a fixed day before dawn and sing ",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 8,
+   "n": 9,
+   "title": "Ignatius \"And man by man, become a choir, that being harmonious in love, and taking up the",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 9,
+   "n": 10,
+   "title": "Tertullian \"... each is asked to stand forth and sing, as he can, a hymn to God , either o",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 10,
+   "n": 11,
+   "title": "Chrysostom \" The offering of thanksgiving again is common : for neither does he give thank",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 11,
+   "n": 12,
+   "title": "Augustine at Milan \"How greatly did I weep in Your hymns and canticles, deeply moved by th",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 12,
+   "n": 13,
+   "title": "The whole church sings The Reformers gave the song back Luther, Calvin, Wesley",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 13,
+   "n": 14,
+   "title": "Luther \"...who doubts that originally all the people sang these which now only the choir s",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 14,
+   "n": 15,
+   "title": "\"Who earnestly believes this cannot but sing and speak thereof with joy and delight , that",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 15,
+   "n": 16,
+   "title": "Calvin \"...we glorify together as it were with one voice and one mouth ; and that openly, ",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 16,
+   "n": 17,
+   "title": "Wesley's directions for singing, 1761 \"III. Sing All. See that you join with the Congregat",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 17,
+   "n": 18,
+   "title": "The whole church sings Rome Vatican II",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 18,
+   "n": 19,
+   "title": "Vatican II \"...whenever the sacred action is to be celebrated with song, the whole body of",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 19,
+   "n": 20,
+   "title": "\"One cannot find anything more religious and more joyful in sacred celebrations than a who",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 20,
+   "n": 21,
+   "title": "The whole church sings Not by proxy Cane Ridge, Brush Run's cousins, and Alexander Campbel",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 21,
+   "n": 22,
+   "title": "Stone \" We all engaged in singing the same songs of praise -all united in prayer-all preac",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 22,
+   "n": 23,
+   "title": "A congregation's order \"One of the elders selects a suitable hymn or psalm, expressive of ",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 23,
+   "n": 24,
+   "title": "Campbell on what we sing \"Our hymns are, for the most part, our creed in metre , while it ",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 24,
+   "n": 25,
+   "title": "Campbell, 1849 \"...for worshipping assemblies, not by proxy, but in person , with their he",
+   "path": "spine",
+   "doc": "sing"
+  },
+  {
+   "index": 25,
+   "n": 26,
+   "title": "The instrument question a side path \"So to those who have no real devotion or spirituality",
+   "path": "The instrument question",
+   "doc": "sing"
+  },
+  {
+   "index": 26,
+   "n": 27,
+   "title": "The division, 1906 \"Chief among these 'inventions' were, a general organization of the chu",
+   "path": "The instrument question",
+   "doc": "sing"
+  },
+  {
+   "index": 27,
+   "n": 28,
+   "title": "No one sings for you. Every voice an offering.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 28,
+   "n": 29,
+   "title": "(black)",
+   "path": "spine",
+   "doc": null
+  }
+ ],
+ "spine": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  27,
+  28
+ ],
+ "branches": [
+  {
+   "label": "The instrument question",
+   "fork": 24,
+   "slides": [
+    25,
+    26
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "label": "Opening",
+   "at": 0
+  },
+  {
+   "label": "Scripture",
+   "at": 2
+  },
+  {
+   "label": "The early church",
+   "at": 6
+  },
+  {
+   "label": "The Reformers",
+   "at": 12
+  },
+  {
+   "label": "Rome",
+   "at": 17
+  },
+  {
+   "label": "Not by proxy",
+   "at": 20
+  }
+ ],
+ "docs": [
+  {
+   "index": 0,
+   "key": "sing",
+   "title": "The whole church sings: excerpts",
+   "short": "The whole church sings"
+  }
+ ],
+ "doc_doors": [
+  {
+   "label": "The whole church sings: the sources",
+   "fork": 2,
+   "doc": 0
+  }
+ ],
+ "quotes": [
+  {
+   "slide": 3,
+   "doc": "sing",
+   "text": "Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord."
+  },
+  {
+   "slide": 4,
+   "doc": "sing",
+   "text": "let us offer the sacrifice of praise to God continually, that is, the fruit of our lips"
+  },
+  {
+   "slide": 4,
+   "doc": "sing",
+   "text": "a royal priesthood"
+  },
+  {
+   "slide": 4,
+   "doc": "sing",
+   "text": "that ye should shew forth the praises of him who hath called you"
+  },
+  {
+   "slide": 5,
+   "doc": "sing",
+   "text": "How is it then, brethren? when ye come together, every one of you hath a psalm, hath a doctrine"
+  },
+  {
+   "slide": 5,
+   "doc": "sing",
+   "text": "Let all things be done unto edifying."
+  },
+  {
+   "slide": 7,
+   "doc": "sing",
+   "text": "they were accustomed to meet on a fixed day before dawn and sing responsively a hymn to Christ as to a god"
+  },
+  {
+   "slide": 8,
+   "doc": "sing",
+   "text": "And man by man, become a choir, that being harmonious in love, and taking up the song of God in unison, you may with one voice sing to the Father through Jesus Christ"
+  },
+  {
+   "slide": 9,
+   "doc": "sing",
+   "text": "each is asked to stand forth and sing, as he can, a hymn to God, either one from the holy Scriptures or one of his own composing"
+  },
+  {
+   "slide": 10,
+   "doc": "sing",
+   "text": "The offering of thanksgiving again is common: for neither does he give thanks alone, but also all the people."
+  },
+  {
+   "slide": 11,
+   "doc": "sing",
+   "text": "How greatly did I weep in Your hymns and canticles, deeply moved by the voices of Your sweet-speaking Church!"
+  },
+  {
+   "slide": 13,
+   "doc": "sing",
+   "text": "who doubts that originally all the people sang these which now only the choir sings or responds to while the bishop is consecrating?"
+  },
+  {
+   "slide": 14,
+   "doc": "sing",
+   "text": "Who earnestly believes this cannot but sing and speak thereof with joy and delight, that others also may hear and come."
+  },
+  {
+   "slide": 15,
+   "doc": "sing",
+   "text": "we glorify together as it were with one voice and one mouth; and that openly, so that each may in turn receive the confession of his brother’s faith"
+  },
+  {
+   "slide": 16,
+   "doc": "sing",
+   "text": "III. Sing All. See that you join with the Congregation as frequently as you can."
+  },
+  {
+   "slide": 16,
+   "doc": "sing",
+   "text": "strive to unite your Voices together, so as to make one clear melodious Sound."
+  },
+  {
+   "slide": 16,
+   "doc": "sing",
+   "text": "VII. Above all sing spiritually. Have an Eye to God in every Word you sing."
+  },
+  {
+   "slide": 18,
+   "doc": "sing",
+   "text": "whenever the sacred action is to be celebrated with song, the whole body of the faithful may be able to contribute that active participation which is rightly theirs"
+  },
+  {
+   "slide": 19,
+   "doc": "sing",
+   "text": "One cannot find anything more religious and more joyful in sacred celebrations than a whole congregation expressing its faith and devotion in song."
+  },
+  {
+   "slide": 21,
+   "doc": "sing",
+   "text": "We all engaged in singing the same songs of praise—all united in prayer—all preached the same things"
+  },
+  {
+   "slide": 22,
+   "doc": "sing",
+   "text": "One of the elders selects a suitable hymn or psalm, expressive of praise; in the singing of which all the members stand up and join."
+  },
+  {
+   "slide": 23,
+   "doc": "sing",
+   "text": "Our hymns are, for the most part, our creed in metre, while it appears in the prose form in our confessions."
+  },
+  {
+   "slide": 24,
+   "doc": "sing",
+   "text": "for worshipping assemblies, not by proxy, but in person, with their hearts and their voices, exalting together the praise of the Lord."
+  },
+  {
+   "slide": 24,
+   "doc": "sing",
+   "text": "The Christian Melodeon,"
+  },
+  {
+   "slide": 25,
+   "doc": "sing",
+   "text": "So to those who have no real devotion or spirituality in them"
+  },
+  {
+   "slide": 25,
+   "doc": "sing",
+   "text": "I think with Mr. G., that instrumental music would be not only a desideratum, but an essential prerequisite to fire up their souls to even animal devotion."
+  },
+  {
+   "slide": 25,
+   "doc": "sing",
+   "text": "Instrumental Music,"
+  },
+  {
+   "slide": 26,
+   "doc": "sing",
+   "text": "Chief among these ‘inventions’ were, a general organization of the churches into a missionary society"
+  },
+  {
+   "slide": 26,
+   "doc": "sing",
+   "text": "and the use of instrumental music in church worship."
+  },
+  {
+   "slide": 26,
+   "doc": "sing",
+   "text": "Churches of Christ"
+  }
+ ],
+ "unmatched": []
+}

@@ -94,6 +94,9 @@ def docs(between, clean, keys):
         'priest': lambda: {'title': 'The priesthood of all: excerpts',
             'sub': 'Tertullian, Luther (1520), <i>Lumen Gentium</i> 10, Alexander Campbell (1823)',
             'html': clean(src('sources', 'priesthood-of-all.html'))},
+        'sing': lambda: {'title': 'The whole church sings: excerpts',
+            'sub': 'Scripture, Pliny, Ignatius, Tertullian, Chrysostom, Augustine, Luther, Calvin, Watts, Wesley, Vatican II, Stone, the Campbells, the 1906 census',
+            'html': clean(src('sources', 'the-whole-church-sings.html'))},
         'tbl': lambda: {'title': 'Who keeps the table: excerpts',
             'sub': 'Scotch Baptists, Campbell, Stone&rsquo;s <i>Christian Messenger</i>, Lipscomb, the ecumenical record, and today',
             'html': clean(src('sources', 'the-table.html'))},
@@ -109,7 +112,7 @@ def docs(between, clean, keys):
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
-         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all'}
+         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
@@ -834,4 +837,86 @@ def priesthood(extra=(), table=()):
     ] + list(table) + list(extra) + [
         CARD('Every Christian a priest.<br>' + G('Every congregation a priesthood.'),
              'The end. What every tradition confesses, our churches tried to practice: no clergy class, the congregation choosing, any disciple at the table.'),
+    ]
+
+# ---------- resource deck: the whole church sings (congregational singing as priesthood; decks/src/singing/build.py) ----------
+SINGING = ('The whole church sings', '<div class=eyebrow>The whole church sings &middot; a resource</div>', 'Every voice an offering.')
+INSTRUMENT = ('The instrument question', '<div class=eyebrow>The instrument question', 'without the sanction of New Testament precept')
+def _s(quote, cite, eyebrow='', note='', size=None, width=None, src='sing'):
+    q = Q(quote, cite, eyebrow)
+    if size: q = BIG(q, size, width or '30ch')
+    return q.replace('<section class="slide"', '<section data-src="%s" class="slide"' % src, 1) + N(note)
+def _ssec(title, sub):
+    return ('<section class="slide breath"><div class=eyebrow>The whole church sings</div><h2 style="max-width:none">%s</h2>'
+            '<div class=sub>%s</div></section>' % (title, sub))
+def singing(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>The whole church sings &middot; a resource</div>'
+        '<h2 style="max-width:none">No one sings for you</h2>'
+        '<div class=sub>Congregational singing as the priesthood of all</div>'
+        '<aside class=notes>A resource, and its own deck. In our churches the whole congregation sings: no choir and no performer stands in for the people. The link to the priesthood of all is made explicitly by Chrysostom and Vatican II; Campbell&rsquo;s nearest line is &ldquo;not by proxy, but in person.&rdquo; Every quote is in the document &ldquo;The whole church sings.&rdquo;</aside></section>',
+
+        _ssec('The fruit of our lips', 'Scripture'),
+        _s('&ldquo;Let the word of Christ dwell in you richly in all wisdom; <b>teaching and admonishing one another</b> in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord.&rdquo;', 'Colossians 3:16 (KJV)', 'Paul',
+           'Singing goes two ways: to the Lord, and to one another. Every singer teaches.'),
+        '<section data-src=sing class="slide"><div class=eyebrow>The priest&rsquo;s offering</div>'
+        '<div class=litany style="gap:3vmin;font-size:2.9em;max-width:90vw">'
+        '<div class="no frag">&ldquo;&hellip;let us offer <b>the sacrifice of praise</b> to God continually, that is, <b>the fruit of our lips</b>&hellip;&rdquo; <span class=lcite>Hebrews 13:15</span></div>'
+        '<div class="no frag">&ldquo;&hellip;<b>a royal priesthood</b>&hellip; that ye should <b>shew forth the praises</b> of him who hath called you&hellip;&rdquo; <span class=lcite>1 Peter 2:9</span></div>'
+        '</div><div class=cite>King James Version</div>'
+        '<aside class=notes>Two clicks. The priests&rsquo; sacrifice is praise; the priests are all of us; the offering is our voices.</aside></section>',
+        _s('&ldquo;How is it then, brethren? when ye come together, <b>every one of you hath a psalm</b>, hath a doctrine&hellip; Let all things be done unto edifying.&rdquo;', '1 Corinthians 14:26 (KJV)', 'The assembly',
+           'And 14:15: &ldquo;I will sing with the spirit, and I will sing with the understanding also.&rdquo;'),
+
+        _ssec('The early church sang', 'c. 110 to c. 400'),
+        _s('&ldquo;&hellip;they were accustomed to meet on a fixed day before dawn and <b>sing responsively a hymn to Christ as to a god</b>&hellip;&rdquo;', 'Pliny the Younger to the emperor Trajan (c. 112)', 'An outsider&rsquo;s report',
+           'A Roman governor interrogating Christians in Bithynia. The first outside description of Christian worship is a description of singing.'),
+        _s('&ldquo;And man by man, become a choir, that being harmonious in love, and taking up the song of God in unison, <b>you may with one voice sing to the Father</b> through Jesus Christ&hellip;&rdquo;', 'Ignatius of Antioch, <i>To the Ephesians</i> 4 (c. 110)', 'Ignatius',
+           'His point is unity, including unity with the bishop; the image is the whole church as one choir.'),
+        _s('&ldquo;&hellip;<b>each is asked to stand forth and sing, as he can, a hymn to God</b>, either one from the holy Scriptures or one of his own composing&hellip;&rdquo;', 'Tertullian, <i>Apology</i> 39 (197)', 'Tertullian',
+           'At the love feast in Carthage: each one, as he can.'),
+        _s('&ldquo;<b>The offering of thanksgiving again is common</b>: for neither does he give thanks alone, but also all the people.&rdquo;', 'John Chrysostom, <i>Homilies on 2 Corinthians</i> 18 (c. 392)', 'Chrysostom',
+           'The clearest early statement that the people&rsquo;s voice is part of the offering. The same passage: in the mysteries &ldquo;there is no difference at all between the priest and those under him.&rdquo;', size='clamp(36px,8vmin,100px)', width='28ch'),
+        _s('&ldquo;How greatly did I weep in Your hymns and canticles, <b>deeply moved by the voices of Your sweet-speaking Church</b>!&rdquo;', 'Augustine, <i>Confessions</i> 9.6 (c. 397)', 'Augustine at Milan',
+           'Ambrose taught the people to sing hymns while they kept guard in the basilica, &ldquo;prepared to die with their bishop.&rdquo;'),
+
+        _ssec('The Reformers gave the song back', 'Luther, Calvin, Wesley'),
+        _s('&ldquo;&hellip;who doubts that <b>originally all the people sang these which now only the choir sings</b> or responds to while the bishop is consecrating?&rdquo;', 'Martin Luther, <i>Formula Missae</i> (1523) &middot; as quoted from <i>Luther&rsquo;s Works</i> 53', 'Luther',
+           'He set out to write German songs for the people; his 1524 hymnal was set in four parts for the young. (Quoted through a Lutheran publication citing <i>Luther&rsquo;s Works</i>.)'),
+        _s('&ldquo;Who earnestly believes this <b>cannot but sing and speak thereof with joy and delight</b>, that others also may hear and come.&rdquo;', 'Martin Luther, preface to Bapst&rsquo;s hymnal (1545)', '',
+           'Singing as testimony: the believer&rsquo;s song is for the neighbor too.'),
+        _s('&ldquo;&hellip;we glorify together as it were <b>with one voice and one mouth</b>; and that openly, so that each may in turn <b>receive the confession of his brother&rsquo;s faith</b>&hellip;&rdquo;', 'John Calvin, <i>Institutes</i> 3.20.31', 'Calvin',
+           'Geneva sang metrical psalms, the whole congregation together.'),
+        '<section data-src=sing class="slide"><div class=eyebrow>Wesley&rsquo;s directions for singing, 1761</div>'
+        '<div class=litany style="gap:2.6vmin;font-size:2.6em;max-width:90vw;text-align:left">'
+        '<div class="no frag">&ldquo;III. <b>Sing All.</b> See that you join with the Congregation as frequently as you can.&rdquo;</div>'
+        '<div class="no frag">&ldquo;V. <b>Sing modestly.</b>&hellip; strive to unite your Voices together, so as to make one clear melodious Sound.&rdquo;</div>'
+        '<div class="no frag">&ldquo;VII. Above all <b>sing spiritually</b>. Have an Eye to God in every Word you sing.&rdquo;</div>'
+        '</div><div class=cite>John Wesley, <i>Select Hymns</i> (1761)</div>'
+        '<aside class=notes>Three clicks. Printed in front of the Methodist hymnbook.</aside></section>',
+
+        _ssec('Rome', 'Vatican II'),
+        _s('&ldquo;&hellip;whenever the sacred action is to be celebrated with song, <b>the whole body of the faithful may be able to contribute that active participation which is rightly theirs</b>&hellip;&rdquo;', 'Second Vatican Council, <i>Sacrosanctum Concilium</i> &sect;114 (1963)', 'Vatican II',
+           'Rightly theirs because they are priests: &sect;14 grounds the people&rsquo;s participation in 1 Peter 2:9, &ldquo;their right and duty by reason of their baptism.&rdquo; Honest note: the same section says &ldquo;Choirs must be diligently promoted.&rdquo;'),
+        _s('&ldquo;One cannot find anything more religious and more joyful in sacred celebrations than <b>a whole congregation expressing its faith and devotion in song</b>.&rdquo;', '<i>Musicam Sacram</i> &sect;16 (1967)', '',
+           'And: giving the choir all the singing &ldquo;to the complete exclusion of the people&rsquo;s participation&hellip; is to be deprecated.&rdquo;'),
+
+        _ssec('Not by proxy', 'Cane Ridge, Brush Run&rsquo;s cousins, and Alexander Campbell'),
+        _s('&ldquo;<b>We all engaged in singing the same songs of praise</b>&mdash;all united in prayer&mdash;all preached the same things&hellip;&rdquo;', 'Barton W. Stone, <i>Biography</i> (1847), on Cane Ridge, 1801', 'Stone',
+           'Methodists, Baptists and Presbyterians at Cane Ridge: the shared song came before the shared church.'),
+        _s('&ldquo;One of the elders selects a suitable hymn or psalm, expressive of praise; in the singing of which <b>all the members stand up and join</b>.&rdquo;', 'Church of Christ in New York, circular letter (1818) &middot; printed in the <i>Christian Baptist</i>', 'A congregation&rsquo;s order',
+           'An independent church describing its Lord&rsquo;s day; Campbell printed it as a model of the ancient order.'),
+        _s('&ldquo;Our hymns are, for the most part, <b>our creed in metre</b>, while it appears in the prose form in our confessions.&rdquo;', 'Alexander Campbell, <i>The Christian Baptist</i> (1827&ndash;28)', 'Campbell on what we sing',
+           'His complaint was sectarian song: &ldquo;instead of praising God, we are often scolding men who differ from us.&rdquo; His hymnbook was meant for all Christians.'),
+        _s('&ldquo;&hellip;for worshipping assemblies, <b>not by proxy, but in person</b>, with their hearts and their voices, <b>exalting together the praise of the Lord</b>.&rdquo;', 'Alexander Campbell, &ldquo;The Christian Melodeon,&rdquo; <i>Millennial Harbinger</i> (1849)', 'Campbell, 1849',
+           'Against choirs singing for the congregation. The nearest Campbell comes to saying it: the people sing for themselves. Side path: the instrument question.', size='clamp(36px,8vmin,100px)', width='28ch'),
+        '<section data-src=sing class="slide"><div class=eyebrow>The instrument question &middot; a side path</div>'
+        '<p class="bigquote" style="font-size:clamp(28px,5.8vmin,72px);max-width:38ch;line-height:1.22"><span class=q>&ldquo;So to those who have no real devotion or spirituality in them&hellip; I think with Mr. G., that <b>instrumental music would be not only a desideratum, but an essential prerequisite</b> to fire up their souls to even animal devotion.&rdquo;</span></p>'
+        '<div class=cite>Alexander Campbell, &ldquo;Instrumental Music,&rdquo; <i>Millennial Harbinger</i> (1851)</div>'
+        '<aside class=notes>Side path. The source of the &ldquo;cow bell in a concert&rdquo; line, which follows: to the spiritually minded, an instrument would be as a cow bell in a concert. His argument is about spirituality, not about the people&rsquo;s voice; he says the Psalms argument suits churches with &ldquo;all the world in them.&rdquo;</aside></section>',
+        _s('&ldquo;Chief among these &lsquo;inventions&rsquo; were, a general organization of the churches into a missionary society&hellip; and <b>the use of instrumental music in church worship</b>.&rdquo;', 'U.S. Census Bureau, <i>Religious Bodies: 1906</i>, &ldquo;Churches of Christ&rdquo;', 'The division, 1906',
+           'The census first lists Churches of Christ separately in 1906. The reason given is New Testament authority (practices &ldquo;without the sanction of New Testament precept and example&rdquo;), not the priesthood of all. Honest note: John Mark Hicks, a Church of Christ scholar, reads Ephesians 5 as including instruments.'),
+    ] + list(extra) + [
+        CARD('No one sings for you.<br>' + G('Every voice an offering.'),
+             'The end. If no one can sing for you, what are you offering when you sing? To God, and to the person beside you. The same priesthood as the table: voice and hands.'),
     ]
