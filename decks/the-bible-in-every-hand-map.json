@@ -1,0 +1,448 @@
+{
+ "deck": "decks/the-bible-in-every-hand-map.html",
+ "source": "decks/src/resources.py (bible)",
+ "built_by": "decks/src/scripture/build.py",
+ "slides": [
+  {
+   "index": 0,
+   "n": 1,
+   "title": "Our Wild Democracy a resource The Bible in Every Hand Access to Scripture in every traditi",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 1,
+   "n": 2,
+   "title": "The Bible in every hand a resource Searched the Scriptures daily Access to Scripture as th",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 2,
+   "n": 3,
+   "title": "The Bible in every hand They shall all know me Scripture",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 3,
+   "n": 4,
+   "title": "The Bereans \"These were more noble than those in Thessalonica, in that they received the w",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 4,
+   "n": 5,
+   "title": "The new covenant \"... they shall all know me, from the least of them unto the greatest of ",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 5,
+   "n": 6,
+   "title": "The Bible in every hand Not only the monks The early church",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 6,
+   "n": 7,
+   "title": "Chrysostom at Antioch \"I am not, you will say, one of the monks, but I have both a wife an",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 7,
+   "n": 8,
+   "title": "Chrysostom at Constantinople \" Tarry not, I entreat, for another to teach you; you have th",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 8,
+   "n": 9,
+   "title": "The Bible in every hand In the mother tongue Erasmus, Tyndale, Luther",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 9,
+   "n": 10,
+   "title": "Erasmus, 1516 \"I long that the husbandman should sing portions of them to himself as he fo",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 10,
+   "n": 11,
+   "title": "Tyndale \"...it was impossible to establish the lay-people in any truth, except the scriptu",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 11,
+   "n": 12,
+   "title": "Luther: the priesthood reads \"Besides, if we are all priests ... why should we not also ha",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 12,
+   "n": 13,
+   "title": "The Bible in every hand Rome: from the Index to Dei Verbum 1564 and 1965",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 13,
+   "n": 14,
+   "title": "Rome, then and now 1564 \"...if the Holy Bible, translated into the vulgar tongue, be indis",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 14,
+   "n": 15,
+   "title": "Who interprets? a side path \"Furthermore, in order to restrain petulant spirits, It decree",
+   "path": "Who interprets?",
+   "doc": "bible"
+  },
+  {
+   "index": 15,
+   "n": 16,
+   "title": "The East, 1672 \"Should the Divine Scriptures be read in the vulgar tongue by all Christian",
+   "path": "Who interprets?",
+   "doc": "bible"
+  },
+  {
+   "index": 16,
+   "n": 17,
+   "title": "Purcell to Campbell \"The apostles... did not allow every man to assert the right of privat",
+   "path": "Who interprets?",
+   "doc": "bible"
+  },
+  {
+   "index": 17,
+   "n": 18,
+   "title": "The Bible in every hand Into the hands of the people Stone and the Campbells",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 18,
+   "n": 19,
+   "title": "The Last Will \"We will, that our power of making laws for the government of the church... ",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 19,
+   "n": 20,
+   "title": "Thomas Campbell, the Declaration \"...it is high time for us not only to think, but also to",
+   "path": "spine",
+   "doc": "dna"
+  },
+  {
+   "index": 20,
+   "n": 21,
+   "title": "Alexander, 1823 \"We wish to call christians to consider that Jesus Christ has made them ki",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 21,
+   "n": 22,
+   "title": "The same address \"We wish, cordially wish, to take the New Testament out of the abuses of ",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 22,
+   "n": 23,
+   "title": "His New Testament \"These books were designed to be read and understood by persons of the h",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 23,
+   "n": 24,
+   "title": "Campbell reading \"I have endeavored to read the scriptures as though no one had read them ",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 24,
+   "n": 25,
+   "title": "The Bible in every hand The honest limit Reading is not enough",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 25,
+   "n": 26,
+   "title": "The chief's question, printed by Thomas Campbell \"If there be but one religion, why do you",
+   "path": "spine",
+   "doc": "dna"
+  },
+  {
+   "index": 26,
+   "n": 27,
+   "title": "Campbell's own limit \" But the Bible will do no better if men approach it with a set of op",
+   "path": "spine",
+   "doc": "bible"
+  },
+  {
+   "index": 27,
+   "n": 28,
+   "title": "Searched the Scriptures daily. Every reader a priest.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 28,
+   "n": 29,
+   "title": "(black)",
+   "path": "spine",
+   "doc": null
+  }
+ ],
+ "spine": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28
+ ],
+ "branches": [
+  {
+   "label": "Who interprets?",
+   "fork": 13,
+   "slides": [
+    14,
+    15,
+    16
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "label": "Opening",
+   "at": 0
+  },
+  {
+   "label": "Scripture",
+   "at": 2
+  },
+  {
+   "label": "The early church",
+   "at": 5
+  },
+  {
+   "label": "The mother tongue",
+   "at": 8
+  },
+  {
+   "label": "Rome",
+   "at": 12
+  },
+  {
+   "label": "Stone and the Campbells",
+   "at": 14
+  },
+  {
+   "label": "The honest limit",
+   "at": 21
+  }
+ ],
+ "docs": [
+  {
+   "index": 0,
+   "key": "bible",
+   "title": "The Bible in every hand: excerpts",
+   "short": "The Bible in every hand"
+  },
+  {
+   "index": 1,
+   "key": "dna",
+   "title": "Thomas Campbell, Declaration and Address (1809)",
+   "short": "The Declaration and Address"
+  }
+ ],
+ "doc_doors": [
+  {
+   "label": "The Bible in every hand: the sources",
+   "fork": 2,
+   "doc": 0
+  }
+ ],
+ "quotes": [
+  {
+   "slide": 3,
+   "doc": "bible",
+   "text": "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so."
+  },
+  {
+   "slide": 4,
+   "doc": "bible",
+   "text": "they shall all know me, from the least of them unto the greatest of them"
+  },
+  {
+   "slide": 4,
+   "doc": "bible",
+   "text": "the same anointing teacheth you of all things"
+  },
+  {
+   "slide": 4,
+   "doc": "bible",
+   "text": "But ye are a chosen generation, a royal priesthood"
+  },
+  {
+   "slide": 6,
+   "doc": "bible",
+   "text": "I am not, you will say, one of the monks, but I have both a wife and children"
+  },
+  {
+   "slide": 6,
+   "doc": "bible",
+   "text": "Why, this is what has ruined all, your supposing that the reading of the divine Scriptures appertains to those only"
+  },
+  {
+   "slide": 7,
+   "doc": "bible",
+   "text": "Tarry not, I entreat, for another to teach you; you have the oracles of God."
+  },
+  {
+   "slide": 9,
+   "doc": "bible",
+   "text": "I long that the husbandman should sing portions of them to himself as he follows the plough"
+  },
+  {
+   "slide": 9,
+   "doc": "bible",
+   "text": "that the weaver should hum them to the tune of his shuttle"
+  },
+  {
+   "slide": 9,
+   "doc": "bible",
+   "text": "that the traveller should beguile with their stories the tedium of his journey."
+  },
+  {
+   "slide": 10,
+   "doc": "bible",
+   "text": "it was impossible to establish the lay-people in any truth, except the scripture were plainly laid before their eyes in their mother-tongue"
+  },
+  {
+   "slide": 11,
+   "doc": "bible",
+   "text": "Besides, if we are all priests"
+  },
+  {
+   "slide": 11,
+   "doc": "bible",
+   "text": "why should we not also have the power to test and judge what is correct or incorrect in matters of faith?"
+  },
+  {
+   "slide": 13,
+   "doc": "bible",
+   "text": "if the Holy Bible, translated into the vulgar tongue, be indiscriminately allowed to every one, the rashness of men will cause more evil than good to arise from it"
+  },
+  {
+   "slide": 13,
+   "doc": "bible",
+   "text": "Easy access to Sacred Scripture should be provided for all the Christian faithful."
+  },
+  {
+   "slide": 14,
+   "doc": "bible",
+   "text": "Furthermore, in order to restrain petulant spirits, It decrees, that no one, relying on his own skill"
+  },
+  {
+   "slide": 14,
+   "doc": "bible",
+   "text": "presume to interpret the said sacred Scripture contrary to that sense which holy mother Church"
+  },
+  {
+   "slide": 15,
+   "doc": "bible",
+   "text": "Should the Divine Scriptures be read in the vulgar tongue by all Christians? No."
+  },
+  {
+   "slide": 16,
+   "doc": "bible",
+   "text": "did not allow every man to assert the right of private judgment on scripture"
+  },
+  {
+   "slide": 18,
+   "doc": "bible",
+   "text": "We will, that our power of making laws for the government of the church"
+  },
+  {
+   "slide": 18,
+   "doc": "bible",
+   "text": "forever cease; that the people may have free course to the Bible"
+  },
+  {
+   "slide": 19,
+   "doc": "dna",
+   "text": "it is high time for us not only to think, but also to act, for ourselves; to see with our own eyes, and to take all our measures directly and immediately from the Divine standard"
+  },
+  {
+   "slide": 20,
+   "doc": "bible",
+   "text": "We wish to call christians to consider that Jesus Christ has made them kings and priests to God."
+  },
+  {
+   "slide": 21,
+   "doc": "bible",
+   "text": "We wish, cordially wish, to take the New Testament out of the abuses of the clergy, and put it into the hands of the people."
+  },
+  {
+   "slide": 22,
+   "doc": "bible",
+   "text": "These books were designed to be read and understood by persons of the humblest capacity"
+  },
+  {
+   "slide": 22,
+   "doc": "bible",
+   "text": "A revelation not adapted to them, forfeited all claims to a divine original."
+  },
+  {
+   "slide": 23,
+   "doc": "bible",
+   "text": "I have endeavored to read the scriptures as though no one had read them before me"
+  },
+  {
+   "slide": 25,
+   "doc": "dna",
+   "text": "If there be but one religion, why do you white people differ so much about it? Why not all agree as you can all read the book?"
+  },
+  {
+   "slide": 26,
+   "doc": "bible",
+   "text": "But the Bible will do no better if men approach it with a set of opinions or a human symbol in their minds. For then it is not the Bible, but the opinions in the mind, that form the bond of union."
+  }
+ ],
+ "unmatched": []
+}

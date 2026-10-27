@@ -27,6 +27,7 @@ A slide is routed to its document by a `data-src=<key>` attribute on its `<secti
 | **The Assembly Governs** (deck): `ekklesia()` + `consent()` + `governance()`, side paths `constitution()` and `succession()` | `decks/src/governance/` | `ekk`, `church`, `kjv`, `wcf`, `dna`, `will`, `cb`, `rich` | **Its own deck:** `decks/the-assembly-governs-map.html`, `python3 decks/src/governance/build.py` |
 | **The Whole Church Sings** (deck): congregational singing as the priesthood of all (Colossians 3:16, Hebrews 13:15, 1 Peter 2:9, Pliny, Ignatius, Tertullian, Chrysostom, Augustine, Luther, Calvin, Wesley, Vatican II, Stone, the 1818 New York church, Campbell 1849); side path *The instrument question* (Campbell 1851, the 1906 census) | `singing()` / `SINGING`, `INSTRUMENT` | `sing` → `sources/the-whole-church-sings.html` | **Its own deck:** `decks/the-whole-church-sings-map.html`, `python3 decks/src/singing/build.py` |
 | **Whose Conscience?** (deck): freedom of conscience claimed and extended (Romans 14, Tertullian, Augustine's turn, Luther at Worms, Calvin on Servetus, Schaff, Hubmaier, Castellio, Westminster 20.2, Williams, Madison, Thomas Campbell's Declaration, Protest to the Synod and Proposition 6, Alexander 1830, Vatican II, the ELCA); side path *The honest limits* (Campbell on the Fugitive Slave Law, 1851; the Berrien Disciples' reply) | `conscience()` / `CONSCIENCE`, `CONSCIENCE_LIMITS` | `consc` → `sources/freedom-of-conscience.html` (D&A quotes check against `dna`) | **Its own deck:** `decks/whose-conscience-map.html`, `python3 decks/src/conscience/build.py` |
+| **The Bible in Every Hand** (deck): access to Scripture as the priesthood of all (Acts 17:11, Jeremiah 31, 1 John 2, 1 Peter 2, Chrysostom, Erasmus, Tyndale, Luther 1520, the Index of 1564 against *Dei Verbum* 1965, the Last Will, the Declaration, Campbell 1823 and 1826, the Living Oracles, the Six Nations chief's question, Campbell's own limit); side path *Who interprets?* (Trent, Dositheus, Purcell 1837) | `bible()` / `BIBLE`, `WHO_INTERPRETS` | `bible` → `sources/bible-in-every-hand.html` (D&A quotes check against `dna`) | **Its own deck:** `decks/the-bible-in-every-hand-map.html`, `python3 decks/src/scripture/build.py` |
 | Alexander Campbell, reread (the Ancient Order as liberation and foretaste; Lunenburg; the Address on War) | `campbell_reread()` / `CAMPBELL_REREAD` | `acr` → `sources/campbell-reread.html` | Side path in the "Union, All His Life" deck (off the Ancient Order section); no longer in Ch. 5 |
 | The assembly: the church as *ekklēsia* (the Greek citizens' assembly, 1 Cor 14, Tyndale, Campbell's "fountain of official power") | `ekklesia()` / `EKKLESIA` | `ekk` → `sources/ekklesia.html` | Ch. 5 |
 | Who keeps the table (who may serve and preside at the Lord's Supper, from the Scotch Baptists to today) | `table()` / `TABLE` | `tbl` → `sources/the-table.html` | Ch. 5 |
@@ -40,8 +41,9 @@ Whole source documents available to any deck (`docs(between, clean, keys)`): `ri
 2. Church governance, *ekklēsia*, and the consent of all: **built** (`decks/src/governance`).
 3. Weekly communion: **built** (`decks/src/weekly`).
 5. Congregational singing as priesthood: **built** (`decks/src/singing`).
+6. Access to Scripture as priesthood: **built** (`decks/src/scripture`).
 7. Freedom of conscience: **built** (`decks/src/conscience`).
-4. Baptism. 6. Access to Scripture as priesthood. Research for these goes into the research database (`10 Research Projects/`) first; then the decks are built the same way.
+4. Baptism. Research for it goes into the research database (`10 Research Projects/`) first; then the decks are built the same way.
 
 ## Where the research behind them lives
 
@@ -52,6 +54,7 @@ Whole source documents available to any deck (`docs(between, clean, keys)`): `ri
   - `Who Keeps the Table/`
   - `The Whole Church Sings/`
   - `Freedom of Conscience/`
+  - `The Bible in Every Hand/`
   - `Arguments/`: arguments in progress ("The Ancient Order as the Great Stream"; "The Priesthood of All, Anticipated")
 - **In this repo:** `research/universals.md` (the "whole church" quotes with links).
 - **Verification rule:** every quotation in these dossiers was read in its source; anything seen only second-hand is marked **to verify** and must not go on a slide until checked.

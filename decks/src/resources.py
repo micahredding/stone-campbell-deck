@@ -100,6 +100,9 @@ def docs(between, clean, keys):
         'consc': lambda: {'title': 'Freedom of conscience: excerpts',
             'sub': 'Romans 14, Tertullian, Augustine, Luther, Calvin, Hubmaier, Castellio, Westminster, Williams, Madison, Stone, the Campbells, Vatican II',
             'html': clean(src('sources', 'freedom-of-conscience.html'))},
+        'bible': lambda: {'title': 'The Bible in every hand: excerpts',
+            'sub': 'Scripture, Chrysostom, Jerome, Erasmus, Tyndale, Luther, Westminster, Trent and the Index, Vatican II, Cyril, the Bible societies, Stone, the Campbells',
+            'html': clean(src('sources', 'bible-in-every-hand.html'))},
         'tbl': lambda: {'title': 'Who keeps the table: excerpts',
             'sub': 'Scotch Baptists, Campbell, Stone&rsquo;s <i>Christian Messenger</i>, Lipscomb, the ecumenical record, and today',
             'html': clean(src('sources', 'the-table.html'))},
@@ -115,7 +118,7 @@ def docs(between, clean, keys):
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
-         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience'}
+         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience', 'bible': 'The Bible in every hand'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
@@ -1006,4 +1009,92 @@ def conscience(extra=()):
            'Campbell printed their resolutions in his own paper. The principle outran its author.'),
         CARD('Not only for ourselves.<br>' + G('Even inside the church.'),
              'The end. Discussion: name one inference our churches have made a test of fellowship. Would Proposition 6 allow it?'),
+    ]
+
+
+# ---- The Bible in every hand: access to Scripture as the priesthood of all (research: 10 Research Projects/The Bible in Every Hand) ----
+BIBLE = ('The Bible in every hand', '<div class=eyebrow>The Bible in every hand &middot; a resource</div>', 'Every reader a priest.')
+WHO_INTERPRETS = ('Who interprets?', 'Who interprets? &middot; a side path', 'Purcell to Campbell')
+def _b(quote, cite, eyebrow='', note='', size=None, width=None, src='bible'):
+    return _s(quote, cite, eyebrow, note, size, width, src)
+def _bsec(title, sub):
+    return ('<section class="slide breath"><div class=eyebrow>The Bible in every hand</div><h2 style="max-width:none">%s</h2>'
+            '<div class=sub>%s</div></section>' % (title, sub))
+def bible(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>The Bible in every hand &middot; a resource</div>'
+        '<h2 style="max-width:none">Searched the Scriptures daily</h2>'
+        '<div class=sub>Access to Scripture as the priesthood of all</div>'
+        '<aside class=notes>A resource, and its own deck. If all are priests, all may read and judge. Alexander Campbell makes the link himself (1823); Luther made it in 1520; Chrysostom said the reading belongs to the household, not only the monks. The church at its best now agrees: the open question is who interprets with authority, not whether all should read. Every quote is in the document &ldquo;The Bible in every hand.&rdquo;</aside></section>',
+
+        _bsec('They shall all know me', 'Scripture'),
+        _b('&ldquo;These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and <b>searched the scriptures daily, whether those things were so</b>.&rdquo;', 'Acts 17:11 (KJV)', 'The Bereans',
+           'They tested an apostle against the text, and Luke calls it noble.'),
+        '<section data-src=bible class="slide"><div class=eyebrow>The new covenant</div>'
+        '<div class=litany style="gap:4vmin;font-size:3.6em;max-width:90vw">'
+        '<div class="no frag">&ldquo;&hellip;<b>they shall all know me, from the least of them unto the greatest of them</b>&hellip;&rdquo; <span class=lcite>Jeremiah 31:34</span></div>'
+        '<div class="no frag">&ldquo;&hellip;<b>the same anointing teacheth you of all things</b>&hellip;&rdquo; <span class=lcite>1 John 2:27</span></div>'
+        '<div class="no frag">&ldquo;But ye are a chosen generation, <b>a royal priesthood</b>&hellip;&rdquo; <span class=lcite>1 Peter 2:9</span></div>'
+        '</div><div class=cite>King James Version</div>'
+        '<aside class=notes>Three clicks. The new covenant does not ration the knowledge of God. Hebrews 8:11 repeats Jeremiah.</aside></section>',
+
+        _bsec('Not only the monks', 'The early church'),
+        _b('&ldquo;I am not, you will say, one of the monks, but I have both a wife and children&hellip; Why, <b>this is what has ruined all, your supposing that the reading of the divine Scriptures appertains to those only</b>&hellip;&rdquo;', 'John Chrysostom, Homily 2 on Matthew (c. 390)', 'Chrysostom at Antioch',
+           'Before this: &ldquo;who of you that stand here&hellip; could repeat one Psalm?&hellip; There is not one.&rdquo; Those in the world need the medicine most.'),
+        _b('&ldquo;<b>Tarry not, I entreat, for another to teach you; you have the oracles of God.</b>&rdquo;', 'John Chrysostom, Homily 9 on Colossians (c. 399)', 'Chrysostom at Constantinople',
+           'He goes on: get at least the New Testament &ldquo;for your constant teachers.&rdquo; And: &ldquo;Throw not the whole upon us!&rdquo; Jerome, the same decade: ignorance of the Scriptures is ignorance of Christ.', size='clamp(40px,9vmin,110px)', width='24ch'),
+
+        _bsec('In the mother tongue', 'Erasmus, Tyndale, Luther'),
+        '<section data-src=bible class="slide"><div class=eyebrow>Erasmus, 1516</div>'
+        '<div class=litany style="gap:3vmin;font-size:2.7em;max-width:90vw">'
+        '<div class="no frag">&ldquo;I long that <b>the husbandman</b> should sing portions of them to himself as he follows the plough&hellip;&rdquo;</div>'
+        '<div class="no frag">&ldquo;&hellip;that <b>the weaver</b> should hum them to the tune of his shuttle&hellip;&rdquo;</div>'
+        '<div class="no frag">&ldquo;&hellip;that <b>the traveller</b> should beguile with their stories the tedium of his journey.&rdquo;</div>'
+        '</div><div class=cite>Erasmus, <i>Paraclesis</i> (1516) &middot; in Seebohm&rsquo;s English</div>'
+        '<aside class=notes>Three clicks. Erasmus stayed Catholic. Earlier in the same passage: &ldquo;The sun itself is not more common and open to all than the teaching of Christ.&rdquo;</aside></section>',
+        _b('&ldquo;&hellip;it was <b>impossible to establish the lay-people in any truth, except the scripture were plainly laid before their eyes in their mother-tongue</b>&hellip;&rdquo;', 'William Tyndale, prologue to the Pentateuch (1530)', 'Tyndale',
+           'Foxe&rsquo;s story: Tyndale told a learned man he would &ldquo;cause a boy that driveth the plough to know more of the scripture than he did.&rdquo; He was strangled and burned in 1536.'),
+        _b('&ldquo;Besides, <b>if we are all priests</b>&hellip; <b>why should we not also have the power to test and judge</b> what is correct or incorrect in matters of faith?&rdquo;', 'Martin Luther, <i>To the Christian Nobility</i> (1520)', 'Luther: the priesthood reads',
+           'The second wall: Rome claims to be the only master of Scripture. Luther, same treatise: &ldquo;the keys were not given to Peter alone, but to the whole community.&rdquo;'),
+
+        _bsec('Rome: from the Index to <i>Dei Verbum</i>', '1564 and 1965'),
+        '<section data-src=bible class="slide"><div class=eyebrow>Rome, then and now</div>'
+        '<div style="display:grid;grid-template-columns:1fr 1fr;gap:5vw;max-width:92vw;align-items:start;text-align:left">'
+        '<div><div class=eyebrow>1564</div><p class=bigquote style="font-size:clamp(26px,5vmin,64px);line-height:1.22;text-align:left;max-width:none">&ldquo;&hellip;if the Holy Bible, translated into the vulgar tongue, be indiscriminately allowed to every one, <b>the rashness of men will cause more evil than good</b> to arise from it&hellip;&rdquo;</p><div class=cite>Index of Pius IV, Rule IV &middot; as quoted in Schaff-Herzog</div></div>'
+        '<div><div class=eyebrow>1965</div><p class=bigquote style="font-size:clamp(34px,7vmin,90px);line-height:1.18;text-align:left;max-width:none">&ldquo;<b>Easy access to Sacred Scripture should be provided for all the Christian faithful.</b>&rdquo;</p><div class=cite>Vatican II, <i>Dei Verbum</i> &sect;22</div></div>'
+        '</div>'
+        '<aside class=notes>Rule IV required written permission from a bishop or inquisitor. Francis, <i>Aperuit Illis</i> (2019): the Bible is not &ldquo;a collection of books for the benefit of a privileged few.&rdquo; What still divides is who interprets with authority (Dei Verbum &sect;10), not who may read. Side path: who interprets?</aside></section>',
+    ] + list(extra) + [
+        _b('&ldquo;Furthermore, in order to restrain petulant spirits, It decrees, that <b>no one, relying on his own skill</b>&hellip; shall&hellip; <b>presume to interpret the said sacred Scripture contrary to that sense which holy mother Church</b>&hellip; hath held&hellip;&rdquo;', 'Council of Trent, Session IV (1546)', 'Who interprets? &middot; a side path',
+           'Side path. Scripture&rsquo;s own caution: the eunuch, &ldquo;How can I, except some man should guide me?&rdquo; (Acts 8:31), and 2 Peter 3:16, things &ldquo;hard to be understood.&rdquo;'),
+        _b('&ldquo;Should the Divine Scriptures be read in the vulgar tongue by all Christians? <b>No.</b>&rdquo;', 'Confession of Dositheus, Synod of Jerusalem (1672), Question 1', 'The East, 1672',
+           'An adapted text of Robertson&rsquo;s translation. The other Eastern voice: Cyril at Venice, 867, against &ldquo;only three languages&rdquo;: is God &ldquo;so envious that he does not wish it?&rdquo;'),
+        _b('&ldquo;The apostles&hellip; <b>did not allow every man to assert the right of private judgment</b> on scripture&hellip;&rdquo;', 'Bishop John B. Purcell, debating Alexander Campbell (Cincinnati, 1837)', 'Purcell to Campbell',
+           'Campbell&rsquo;s seventh proposition charged Rome with &ldquo;opposing the general reading of the scriptures.&rdquo; Rome has since changed its answer to who reads; not to who judges.'),
+
+        _bsec('Into the hands of the people', 'Stone and the Campbells'),
+        _b('&ldquo;We will, that our power of making laws for the government of the church&hellip; forever cease; <b>that the people may have free course to the Bible</b>&hellip;&rdquo;', 'Last Will and Testament of the Springfield Presbytery (1804)', 'The Last Will',
+           'Throwback: in the same item, the presbytery dissolves its authority and gives the people the Bible. Stone, as a boy: &ldquo;I had never before read any books on theology but the Bible.&rdquo;'),
+        '<section data-src="dna bible" class="slide"><div class=eyebrow>Thomas Campbell, the Declaration</div>'
+        '<p class="bigquote" style="font-size:clamp(32px,6.6vmin,84px);max-width:30ch;line-height:1.22"><span class=q>&ldquo;&hellip;it is high time for us not only to think, but also to act, for ourselves; <b>to see with our own eyes</b>, and to take all our measures directly and immediately from the Divine standard&hellip;&rdquo;</span></p>'
+        '<div class=cite>Declaration and Address (1809)</div>'
+        '<aside class=notes>The same paragraph: &ldquo;every man must be allowed to judge for himself.&rdquo;</aside></section>',
+        _b('&ldquo;We wish to call christians to consider that <b>Jesus Christ has made them kings and priests to God</b>.&rdquo;', 'Alexander Campbell, <i>Christian Baptist</i> (1823)', 'Alexander, 1823',
+           'The priesthood of all, in Campbell&rsquo;s own words, as the reason for what follows.', size='clamp(40px,9vmin,110px)', width='24ch'),
+        _b('&ldquo;We wish, cordially wish, to <b>take the New Testament out of the abuses of the clergy, and put it into the hands of the people</b>.&rdquo;', 'Alexander Campbell, <i>Christian Baptist</i> (1823)', 'The same address',
+           'Then a plan: &ldquo;sit down with a pencil or pen in your hand. Begin with Matthew&rsquo;s gospel; read the whole of it at one reading.&rdquo;', size='clamp(40px,9vmin,110px)', width='24ch'),
+        _b('&ldquo;These books were designed to be <b>read and understood by persons of the humblest capacity</b>&hellip; <b>A revelation not adapted to them, forfeited all claims to a divine original.</b>&rdquo;', 'Alexander Campbell, the Living Oracles, preface to the Gospels (1828)', 'His New Testament',
+           'The Living Oracles was the translations of George Campbell, Macknight and Doddridge, edited and emended by Alexander. Its preface: &ldquo;we have not judged for him, but left him to judge for himself.&rdquo;'),
+        _b('&ldquo;I have endeavored to <b>read the scriptures as though no one had read them before me</b>&hellip;&rdquo;', 'Alexander Campbell, <i>Christian Baptist</i> (1826)', 'Campbell reading',
+           'He adds: &ldquo;as much on my guard against reading them to-day, through the medium of my own views yesterday.&rdquo; Later a life-director of both American Bible societies (Richardson).', size='clamp(40px,9vmin,110px)', width='24ch'),
+
+        _bsec('The honest limit', 'Reading is not enough'),
+        '<section data-src="dna bible" class="slide"><div class=eyebrow>The chief&rsquo;s question, printed by Thomas Campbell</div>'
+        '<p class="bigquote" style="font-size:clamp(36px,7.6vmin,96px);max-width:26ch;line-height:1.2"><span class=q>&ldquo;If there be but one religion, why do you white people differ so much about it? <b>Why not all agree as you can all read the book?</b>&rdquo;</span></p>'
+        '<div class=cite>A chief of the Six Nations, quoted in the Declaration and Address (1809)</div>'
+        '<aside class=notes>Thomas Campbell prints this against the sects. It cuts both ways: everyone can read, and readers still divide.</aside></section>',
+        _b('&ldquo;<b>But the Bible will do no better if men approach it with a set of opinions</b> or a human symbol in their minds. For then it is not the Bible, but the opinions in the mind, that form the bond of union.&rdquo;', 'Alexander Campbell, <i>The Christian System</i> (1839)', 'Campbell&rsquo;s own limit',
+           'His rule 7: &ldquo;God himself is the centre of that circle, and humility is its circumference.&rdquo;'),
+        CARD('Searched the Scriptures daily.<br>' + G('Every reader a priest.'),
+             'The end. Discussion: what stands between you and the text today: a pastor, a study Bible, a podcast, your own past readings?'),
     ]
