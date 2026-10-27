@@ -22,6 +22,7 @@ A movement drawn together from reformers, farmers, clergy, and laypeople of many
 ## For co-teachers
 
 - [The Practices We Hold](decks/practices-we-hold.html): the ecumenical case for each practice, with early church, Catholic, Orthodox, Protestant and ecumenical voices labeled by tradition
+- [The Church as Working Model of New Creation](research/wright-working-model): N. T. Wright's case (the church as "the small working model of new creation," its visible unity the sign to the powers) set side by side with Thomas and Alexander Campbell, Stone, the *Last Will* and Cane Ridge, including the table, singing and scripture
 
 ## Visuals
 
