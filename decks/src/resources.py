@@ -9,6 +9,7 @@
 #   governance(extra=[])        -> side path: who governs the church (Matthew 18, the priesthood texts, the
 #                                  Declaration and Address, the Last Will, Alexander Campbell)
 #   constitution(extra=[])      -> side path: confession or constitution (Westminster 30; D&A Propositions 4 and 2)
+#   priesthood(extra=[])        -> resource deck: the priesthood of all believers in every tradition (decks/src/priesthood)
 #   weekly(extra=[])            -> side path: the table every Lord's day (Didache, Justin, Calvin, Wesley, Lima, Brush Run,
 #                                  the Disciples-Catholic dialogue)
 #   universals(extra=[])        -> side path: the whole church remembers (priesthood, governance, baptism,
@@ -90,6 +91,9 @@ def docs(between, clean, keys):
         'lord': lambda: {'title': 'Every Lord&rsquo;s day: excerpts',
             'sub': 'Acts, the <i>Didache</i>, Justin, Calvin, the Lutherans, Wesley, Vatican II, the 2024 Synod, Lima and the churches&rsquo; answers, the Disciples&ndash;Catholic dialogue, Brush Run',
             'html': clean(src('sources', 'every-lords-day.html'))},
+        'priest': lambda: {'title': 'The priesthood of all: excerpts',
+            'sub': 'Tertullian, Luther (1520), <i>Lumen Gentium</i> 10, Alexander Campbell (1823)',
+            'html': clean(src('sources', 'priesthood-of-all.html'))},
         'tbl': lambda: {'title': 'Who keeps the table: excerpts',
             'sub': 'Scotch Baptists, Campbell, Stone&rsquo;s <i>Christian Messenger</i>, Lipscomb, the ecumenical record, and today',
             'html': clean(src('sources', 'the-table.html'))},
@@ -105,7 +109,7 @@ def docs(between, clean, keys):
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
-         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day'}
+         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
@@ -735,4 +739,74 @@ def weekly(extra=(), full=False):
     ) + list(extra) + [
         CARD('The whole church has asked for it.<br>' + G('Brush Run kept it.'),
              'The end. &rarr; Back to the spine.'),
+    ]
+
+# ---------- resource deck: the priesthood of all believers, in every tradition (decks/src/priesthood/build.py) ----------
+PRIESTHOOD = ('The priesthood of all', '<div class=eyebrow>The priesthood of all &middot; a resource</div>', 'Every congregation a priesthood.')
+def _p(quote, cite, eyebrow='', note='', src='priest', size=None, width=None):
+    q = Q(quote, cite, eyebrow)
+    if size: q = BIG(q, size, width or '30ch')
+    return q.replace('<section class="slide"', '<section data-src="%s" class="slide"' % src, 1) + N(note)
+def _psec(title, sub):
+    return ('<section class="slide breath"><div class=eyebrow>The priesthood of all</div><h2 style="max-width:none">%s</h2>'
+            '<div class=sub>%s</div></section>' % (title, sub))
+def priesthood(extra=(), table=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>The priesthood of all &middot; a resource</div>'
+        '<h2 style="max-width:none">Every Christian a priest</h2>'
+        '<div class=sub>Scripture, the early church, Luther, Rome, the Orthodox,<br>the ecumenical movement, and the Campbells</div>'
+        '<aside class=notes>A resource, and its own deck. The Church of Christ has no clergy class, lets the congregation choose and ordain, and lets any disciple give thanks at the table, because every baptized Christian is a priest. Every tradition confesses that; we tried to practice it.</aside></section>',
+
+        _psec('A royal priesthood', 'Scripture'),
+        _p('&ldquo;Ye also, as lively stones, are built up a spiritual house, <b>an holy priesthood</b>, to offer up spiritual sacrifices&hellip; But ye are a chosen generation, <b>a royal priesthood</b>&hellip;&rdquo;', '1 Peter 2:5, 9 (KJV)', 'Peter',
+           'Said to the whole church, scattered through Asia Minor, not to an order within it.', src='kjv'),
+        '<section data-src=kjv class="slide"><div class=eyebrow>John&rsquo;s Revelation</div>'
+        '<div class=litany style="gap:3vmin;font-size:2.5em;max-width:88vw">'
+        '<div class="no frag">&ldquo;&hellip;and hath made us <b>kings and priests unto God</b> and his Father&hellip;&rdquo; <span class=lcite>Revelation 1:6</span></div>'
+        '<div class="no frag">&ldquo;&hellip;out of every kindred, and tongue, and people, and nation; and hast made us unto our God <b>kings and priests</b>: and we shall reign on the earth.&rdquo; <span class=lcite>Revelation 5:9&ndash;10</span></div>'
+        '</div><div class=cite>King James Version</div>'
+        '<aside class=notes>Two clicks. The priesthood is the whole redeemed people, from every nation; and it is the shape of the age to come.</aside></section>',
+
+        _psec('The early church remembered', 'c. 200'),
+        _p('&ldquo;<b>Are not even we laics priests?</b> It is written: A kingdom also, and priests to His God and Father, has He made us.&rdquo;', 'Tertullian, <i>On Exhortation to Chastity</i> 7 (c. 210)', 'Tertullian, North Africa',
+           'He goes on: the difference between clergy and laity is set by &ldquo;the authority of the Church,&rdquo; not by nature; where there is no clergy, &ldquo;you offer, and baptize, and are priest, alone for yourself.&rdquo;', size='clamp(36px,8vmin,100px)', width='28ch'),
+        _p('&ldquo;&hellip;<b>where three are, a church is</b>, albeit they be laics.&rdquo;', 'Tertullian (c. 210)', '',
+           'Matthew 18:20, read as a statement about the church: two or three gathered are a church, clergy or none.', size='clamp(40px,9vmin,116px)', width='22ch'),
+
+        _psec('Luther, 1520', 'To the Christian Nobility; The Babylonian Captivity'),
+        _p('&ldquo;&hellip;all Christians are truly of the &lsquo;spiritual estate,&rsquo; and <b>there is among them no difference at all but that of office</b>&hellip;&rdquo;', 'Martin Luther, <i>To the Christian Nobility</i> (1520)', 'Luther',
+           'The sentence before: &ldquo;It is pure invention that pope, bishops, priests and monks are to be called the &lsquo;spiritual estate&rsquo;; princes, lords, artisans, and farmers the &lsquo;temporal estate.&rsquo;&rdquo;'),
+        _p('&ldquo;For whoever comes out the water of baptism can boast that he is <b>already consecrated priest, bishop and pope</b>&hellip;&rdquo;', 'Martin Luther, <i>To the Christian Nobility</i> (1520)', 'Ordained in baptism',
+           'And: &ldquo;Through baptism all of us are consecrated to the priesthood, as St. Peter says in I Peter 2:9.&rdquo; A minister is one of the priests, chosen by the rest: &ldquo;as though ten brothers, all king&rsquo;s sons and equal heirs, were to choose one of themselves to rule the inheritance for them all.&rdquo;', size='clamp(36px,8vmin,100px)', width='28ch'),
+        _p('&ldquo;&hellip;<b>we are all priests, and there is no difference between us</b>; that is to say, we have the same power in respect to the Word and all the sacraments. However, no one may make use of this power except by the consent of the community&hellip;&rdquo;', 'Martin Luther, <i>The Babylonian Captivity of the Church</i> (1520)', '',
+           'The whole sentence ends &ldquo;or by the call of a superior.&rdquo; Every Christian has the power; the community&rsquo;s call decides who uses it. Brush Run&rsquo;s logic, three centuries early.'),
+        _p('&ldquo;&hellip;no one can deny that every Christian has God&rsquo;s Word and is taught of God and <b>anointed by Him to the priesthood</b>.&rdquo;', 'Martin Luther (1523)', '1523',
+           'From the treatise for the congregation at Leisnig, defending its right to call its own pastor.', src='church'),
+
+        _psec('Rome', 'Vatican II to the 2024 Synod'),
+        _p('&ldquo;Such participation by the Christian people as &lsquo;a chosen race, <b>a royal priesthood</b>, a holy nation, a redeemed people&rsquo;&hellip; is <b>their right and duty by reason of their baptism</b>.&rdquo;', 'Second Vatican Council, <i>Sacrosanctum Concilium</i> &sect;14 (1963)', 'Vatican II',
+           'The council&rsquo;s first document, on worship: the people take part because they are priests.', src='church'),
+        _p('&ldquo;The baptized, by regeneration and the anointing of the Holy Spirit, are <b>consecrated as a spiritual house and a holy priesthood</b>&hellip;&rdquo;', 'Second Vatican Council, <i>Lumen Gentium</i> &sect;10 (1964)', '',
+           'Honest limit, the same paragraph: the common and the ordained priesthood &ldquo;differ from one another in essence and not only in degree.&rdquo; Rome confesses the priesthood of all and keeps a priesthood above it.'),
+        _p('&ldquo;There is <b>nothing higher than this baptismal dignity</b>, equally bestowed upon each person&hellip;&rdquo;', 'Synod on Synodality, Final Document, &sect;21 (2024)', '2024',
+           'Received by Pope Francis as part of his ordinary teaching.', src='church', size='clamp(36px,8vmin,100px)', width='28ch'),
+
+        _psec('The Orthodox, and the ecumenical movement', 'Afanasiev, Schmemann, the Lima text'),
+        _p('&ldquo;The gift of the Spirit that every member of the faithful receives in the sacrament of initiation is <b>the charism of royal priesthood</b>.&rdquo;', 'Nicolas Afanasiev, <i>The Church of the Holy Spirit</i>', 'Orthodox',
+           'A Russian Orthodox theologian in Paris (d. 1966); his second chapter is titled &ldquo;The Ordination of Laics.&rdquo; (Quoted from Peter Phan&rsquo;s review; page 3 to verify against the book.)', src='church'),
+        _p('&ldquo;The first, the basic definition of man is that <b>he is the priest</b>.&rdquo;', 'Alexander Schmemann, <i>For the Life of the World</i> (1963)', '',
+           'Of every human being: receiving the world from God and offering it back. (Page to verify against the book.)', src='church', size='clamp(40px,9vmin,116px)', width='22ch'),
+        _p('&ldquo;The New Testament never uses the term &lsquo;priesthood&rsquo; or &lsquo;priest&rsquo; (<i>hiereus</i>) to designate the ordained ministry&hellip; the term is reserved&hellip; for the unique priesthood of Jesus Christ and&hellip; for <b>the royal and prophetic priesthood of all baptized</b>.&rdquo;', 'World Council of Churches, <i>Baptism, Eucharist and Ministry</i> (1982), Ministry 17', 'The Lima text',
+           'Drafted by a commission that included Catholic and Orthodox theologians.', src='church'),
+
+        _psec('Kings and priests to God', 'The Campbells'),
+        _p('&ldquo;The clergy are the opposite to the laity. Both these terms are used in Scripture to denote <b>God&rsquo;s people</b>. Trace them to their origin and <b>we find no difference</b>.&rdquo;', 'Alexander Campbell, reply to the Synod, November 1810 &middot; in Richardson, <i>Memoirs</i>', 'Alexander, 1810',
+           '<i>Klēros</i>, the lot or inheritance, and <i>laos</i>, the people: both words name the whole people of God.', src='rich'),
+        _p('&ldquo;We wish to call christians to consider that <b>Jesus Christ has made them kings and priests to God</b>.&rdquo;', 'Alexander Campbell, <i>The Christian Baptist</i>, December 1823', 'The program',
+           'From his first address to his readers. The next sentence: &ldquo;We wish, cordially wish, to take the New Testament out of the abuses of the clergy, and put it into the hands of the people.&rdquo;', size='clamp(36px,8vmin,100px)', width='28ch'),
+        _p('&ldquo;May they not, <b>without a human priest to consecrate the way for them</b>, approach the Lord&rsquo;s table, and handle the loaf and cup?&rdquo;', 'Alexander Campbell, <i>The Christian System</i> (1839), &ldquo;Breaking the Loaf&rdquo;', 'At the table',
+           'The royal priesthood is &ldquo;consecrated to officiate&rdquo; at the table &ldquo;by a blood&rdquo; far greater than any ordination.', src='acr'),
+    ] + list(table) + list(extra) + [
+        CARD('Every Christian a priest.<br>' + G('Every congregation a priesthood.'),
+             'The end. What every tradition confesses, our churches tried to practice: no clergy class, the congregation choosing, any disciple at the table.'),
     ]
