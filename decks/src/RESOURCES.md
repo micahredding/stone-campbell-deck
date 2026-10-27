@@ -36,6 +36,8 @@ A slide is routed to its document by a `data-src=<key>` attribute on its `<secti
 
 Whole source documents available to any deck (`docs(between, clean, keys)`): `rich` Richardson's *Memoirs* (excerpts), `dna` the Declaration and Address, `will` the Last Will, `stone` Stone's *Biography* ch. VII, `apology` the Springfield Presbytery's *Apology*, `wcf` the Westminster Confession, `kjv` Scripture, `cb` the *Christian Baptist* (July 1824), plus the four excerpt documents above.
 
+Chapter 5's record of what left the deck and where each piece now lives: `decks/src/week5/WHERE_IT_WENT.md`.
+
 ## Planned resource decks (Micah, 2026-10-27)
 
 1. The priesthood of all believers, in every tradition: **built** (`decks/src/priesthood`).
