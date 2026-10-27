@@ -103,6 +103,9 @@ def docs(between, clean, keys):
         'bible': lambda: {'title': 'The Bible in every hand: excerpts',
             'sub': 'Scripture, Chrysostom, Jerome, Erasmus, Tyndale, Luther, Westminster, Trent and the Index, Vatican II, Cyril, the Bible societies, Stone, the Campbells',
             'html': clean(src('sources', 'bible-in-every-hand.html'))},
+        'bapt': lambda: {'title': 'One baptism: excerpts',
+            'sub': 'Scripture, the <i>Didache</i>, Justin, Hippolytus, Tertullian, Cyril, Jerome, Augustine, Luther, the Prayer Book, the Baptists, Rome, Lima, Magdeburg, Richardson, Stone, Campbell, Lipscomb',
+            'html': clean(src('sources', 'one-baptism.html'))},
         'tbl': lambda: {'title': 'Who keeps the table: excerpts',
             'sub': 'Scotch Baptists, Campbell, Stone&rsquo;s <i>Christian Messenger</i>, Lipscomb, the ecumenical record, and today',
             'html': clean(src('sources', 'the-table.html'))},
@@ -118,7 +121,7 @@ def docs(between, clean, keys):
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
-         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience', 'bible': 'The Bible in every hand'}
+         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience', 'bible': 'The Bible in every hand', 'bapt': 'One baptism'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
@@ -1097,4 +1100,95 @@ def bible(extra=()):
            'His rule 7: &ldquo;God himself is the centre of that circle, and humility is its circumference.&rdquo;'),
         CARD('Searched the Scriptures daily.<br>' + G('Every reader a priest.'),
              'The end. Discussion: what stands between you and the text today: a pastor, a study Bible, a podcast, your own past readings?'),
+    ]
+
+
+# ---- One baptism: baptism as union and as every Christian's ordination (research: 10 Research Projects/One Baptism) ----
+BAPTISM = ('One baptism', '<div class=eyebrow>One baptism &middot; a resource</div>', 'Every Christian ordained.')
+BAPTISM_LIMITS = ('The honest limits', '<div class=eyebrow>The honest limits &middot; a side path', 'Baptism as a fence')
+def _bp(quote, cite, eyebrow='', note='', size=None, width=None, src='bapt'):
+    return _s(quote, cite, eyebrow, note, size, width, src)
+def _bpsec(title, sub):
+    return ('<section class="slide breath"><div class=eyebrow>One baptism</div><h2 style="max-width:none">%s</h2>'
+            '<div class=sub>%s</div></section>' % (title, sub))
+def baptism(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>One baptism &middot; a resource</div>'
+        '<h2 style="max-width:none">A door or a fence?</h2>'
+        '<div class=sub>Baptism as union, and as every Christian&rsquo;s ordination</div>'
+        '<aside class=notes>A resource, and its own deck. Two claims: the immersion of believers stands in the great stream of the church; and baptism is every Christian&rsquo;s ordination to the priesthood, which is why the baptized may keep the table. The honest limits are a side path. Every quote is in the document &ldquo;One baptism.&rdquo; Note: the 1809 Declaration and Address never mentions baptism.</aside></section>',
+
+        '<section data-src=bapt class="slide"><div class=eyebrow>Ephesians 4:4&ndash;6</div>'
+        '<div class=litany style="gap:2.4vmin;font-size:3.4em;max-width:90vw">'
+        '<div class="no frag">&ldquo;There is one body, and one Spirit,</div>'
+        '<div class="no frag">even as ye are called in one hope of your calling;</div>'
+        '<div class="no frag">One Lord, one faith, <b>one baptism</b>,</div>'
+        '<div class="no frag">One God and Father of all&hellip;&rdquo;</div>'
+        '</div><div class=cite>King James Version</div>'
+        '<aside class=notes>Four clicks. Campbell, <i>Christian System</i>: &ldquo;one faith, one Lord, one baptism&hellip; must be made the reason of one, and only one table.&rdquo;</aside></section>',
+
+        _bpsec('Buried with him', 'The early church'),
+        '<section data-src=bapt class="slide"><div class=eyebrow>The oldest instructions</div>'
+        '<div class=litany style="gap:3vmin;font-size:3em;max-width:90vw">'
+        '<div class="no frag">&ldquo;&hellip;baptize into the name of the Father, and of the Son, and of the Holy Spirit, <b>in living water</b>.</div>'
+        '<div class="no frag">But if you have not living water, <b>baptize into other water</b>;</div>'
+        '<div class="no frag">and if you can not in cold, <b>in warm</b>.</div>'
+        '<div class="no frag">But if you have not either, <b>pour out water thrice upon the head</b>&hellip;&rdquo;</div>'
+        '</div><div class=cite><i>Didache</i> 7 (late first or early second century)</div>'
+        '<aside class=notes>Four clicks. Immersion first; pouring allowed, from the very beginning.</aside></section>',
+        _bp('&ldquo;&hellip;in order that we may not remain the children of necessity and of ignorance, but may become <b>the children of choice and knowledge</b>, and may obtain in the water the remission of sins formerly committed&hellip;&rdquo;', 'Justin Martyr, <i>First Apology</i> 61 (c. 155)', 'Children of choice',
+           'Those who &ldquo;are persuaded and believe&rdquo; are baptized; then (ch. 65) brought straight to where the brethren are assembled, and to the table.'),
+        _bp('&ldquo;And at the self-same moment you were both dying and being born; and <b>that Water of salvation was at once your grave and your mother</b>.&rdquo;', 'Cyril of Jerusalem, <i>Mystagogical Catecheses</i> 2.4 (c. 350)', 'Your grave and your mother',
+           'They &ldquo;descended three times into the water, and ascended again,&rdquo; a symbol of the three days&rsquo; burial. Romans 6:4, &ldquo;buried with him by baptism into death.&rdquo; Apostolic Canon 50 deposes a bishop who immerses only once.', size='clamp(38px,8.4vmin,104px)', width='26ch'),
+        _bp('&ldquo;Baptism is performed in <b>the most expressive way by triple immersion</b> in the baptismal water.&rdquo;', '<i>Catechism of the Catholic Church</i> &sect;1239', 'Rome today',
+           'It goes on: &ldquo;from ancient times it has also been able to be conferred by pouring.&rdquo; Luther (1520): &ldquo;I could wish that the baptized should be totally immersed.&rdquo; The 1662 Prayer Book: &ldquo;dip it in the Water discreetly and warily.&rdquo;', size='clamp(40px,9vmin,110px)', width='24ch'),
+
+        _bpsec('Every Christian&rsquo;s ordination', 'Baptism and the priesthood of all'),
+        '<section data-src=bapt class="slide"><div class=eyebrow>Ordained in the water</div>'
+        '<div class=litany style="gap:3.4vmin;font-size:3.2em;max-width:90vw">'
+        '<div class="no frag">&ldquo;&hellip;even laymen have the right; for <b>what is equally received can be equally given</b>.&rdquo; <span class=lcite>Tertullian, c. 200</span></div>'
+        '<div class="no frag">&ldquo;Let him lay aside <b>his lay-priesthood, that is, his baptism</b>&hellip;&rdquo; <span class=lcite>Jerome, c. 379</span></div>'
+        '<div class="no frag">&ldquo;Thus <b>we are all consecrated as priests by baptism</b>&hellip;&rdquo; <span class=lcite>Luther, 1520</span></div>'
+        '<div class="no frag">&ldquo;<b>Baptism gives a share in the common priesthood of all believers.</b>&rdquo; <span class=lcite><i>Catechism</i> &sect;1268</span></div>'
+        '</div>'
+        '<aside class=notes>Four clicks. Tertullian on who may baptize; Jerome on the baptized layman; Luther: &ldquo;whatever issues from baptism may boast that it has been consecrated priest, bishop, and pope.&rdquo; Rome today says the same, while holding that the two priesthoods differ in essence (side path).</aside></section>',
+        '<section data-src=bapt class="slide"><div class=eyebrow>Alexander Campbell, 1830</div>'
+        '<p class="bigquote" style="font-size:clamp(28px,5.6vmin,72px);max-width:38ch;line-height:1.22"><span class=q>&ldquo;&hellip;so soon as they have believingly been immersed into the name of the Lord Jesus&hellip; <b>they are all made sons and daughters, kings and priests to God</b>&hellip; Being a royal priesthood&hellip; they have a right to meet in his name to break the loaf of blessing&hellip; <b>without the intervention of a mediator, priest, or prophet, consecrated by human hands</b>.&rdquo;</span></p>'
+        '<div class=cite>&ldquo;Hints to the Advocates of a Restoration of the Ancient Order of Things,&rdquo; <i>Millennial Harbinger</i> (1830)</div>'
+        '<aside class=notes>Both of the course&rsquo;s themes in one sentence: the baptized are priests, and so the baptized keep the table. Next: &ldquo;Tell them bishops were never chosen to baptize, to break the loaf of blessing, nor to consecrate the cup of salvation.&rdquo;</aside></section>',
+        _bp('&ldquo;It was finally concluded among us, that <b>if we were authorized to preach, we were also authorized to baptize</b>.&rdquo;', 'Barton W. Stone, <i>Biography</i> (1847)', 'Stone, 1807',
+           'Then: &ldquo;the preachers baptized one another, and crowds came.&rdquo; No bishop; no ordaining body. The same meeting agreed to &ldquo;cultivate the long-neglected grace of forbearance.&rdquo;', size='clamp(40px,9vmin,110px)', width='24ch'),
+
+        _bpsec('Brush Run goes under the water', '1811&ndash;1812'),
+        _bp('&ldquo;The reason being asked, Joseph Bryant replied, that <b>he did not consider himself authorized to partake, as he had never been baptized</b>.&rdquo;', 'Richardson, <i>Memoirs</i> I (1868)', 'At the table, 1811',
+           'A member at Brush Run who would not take the Supper. The question of baptism came to the church through the table.'),
+        _bp('&ldquo;&hellip;is water; and earth is earth. <b>We certainly could not call a person buried in earth if only a little dust were sprinkled on him.</b>&rdquo;', 'Thomas Campbell, as reported in Richardson, <i>Memoirs</i> I (1868)', 'Thomas Campbell at Buffalo Creek',
+           'July 4, 1811, a deep pool of Buffalo Creek. Thomas stood on a root over the pool and bent their heads under, without going into the water himself.'),
+        _bp('&ldquo;&hellip;he was aware it would at once <b>erect an impassable barrier</b> between him and the paedobaptist community in which he had labored, and <b>frustrate all his hopes</b> of winning it over to his views of Christian union.&rdquo;', 'Richardson, <i>Memoirs</i> I (1868), on Thomas Campbell in 1812', 'The cost',
+           'Thomas had wanted baptism to be &ldquo;no hinderance&rdquo; to unity. In June 1812 he, Alexander and others were immersed by Matthias Luce on &ldquo;the simple confession&rdquo; that Jesus is the Son of God; the next Lord&rsquo;s day Thomas immersed thirteen more.'),
+
+        _bpsec('Not even immersion', 'Lunenburg, 1837'),
+        _bp('&ldquo;I cannot, therefore, make any one duty the standard of Christian state or character, <b>not even immersion</b>&hellip;&rdquo;', 'Alexander Campbell, &ldquo;Any Christians among Protestant Parties,&rdquo; <i>Millennial Harbinger</i> (1837)', 'The Lunenburg letter',
+           'He goes on: nor will he regard all sprinkled in infancy &ldquo;as aliens from Christ.&rdquo; &ldquo;It is the image of Christ the Christian looks for and loves.&rdquo;', size='clamp(40px,9vmin,110px)', width='24ch'),
+        _bp('&ldquo;There is no occasion, then, for making immersion&hellip; <b>absolutely essential to a Christian</b>&mdash;though it may be <b>greatly essential to his sanctification and comfort</b>.&rdquo;', 'Alexander Campbell, <i>Millennial Harbinger</i> (1837)', 'The same letter',
+           '&ldquo;But he that thence infers that none are Christians but the immersed, as greatly errs as he who affirms that none are alive but those of clear and full vision.&rdquo;'),
+        _bp('&ldquo;And can you think that&hellip; <b>your not having all the meaning of baptism before your mind, made your immersion unconstitutional</b>; and left you an alien from the kingdom of God&hellip;?&rdquo;', 'Alexander Campbell, &ldquo;Dialogue on Re-immersion,&rdquo; <i>Millennial Harbinger</i> (1832)', 'Against re-immersion',
+           'Campbell refused to re-immerse those baptized without understanding &ldquo;for remission.&rdquo; Lipscomb (1910) agreed: &ldquo;Such persons mistake.&rdquo; Austin McGary&rsquo;s <i>Firm Foundation</i> (1884) argued the opposite (secondary sources only).'),
+
+        _bpsec('The whole church now', 'Lima, the Disciples and Rome, Magdeburg'),
+        _bp('&ldquo;<b>Our common baptism, which unites us to Christ in faith, is thus a basic bond of unity.</b>&rdquo;', 'World Council of Churches, <i>Baptism, Eucharist and Ministry</i> (1982)', 'Lima',
+           'And &sect;18: &ldquo;The act of immersion can vividly express the reality that in baptism the Christian participates in the death, burial and resurrection of Christ.&rdquo; The Disciples&rsquo; answer: immersion is &ldquo;a witness to the full understanding of baptism and the catholicity of the church.&rdquo;', size='clamp(40px,9vmin,110px)', width='24ch'),
+        _bp('&ldquo;Since <b>believers&rsquo; baptism is the form of baptism explicitly attested in the New Testament</b>, the conviction of Disciples is that the rite of baptism should be preceded by a personal confession of faith and repentance.&rdquo;', 'Disciples of Christ&ndash;Roman Catholic International Commission (1981)', 'A joint report',
+           'Signed by both sides. The same report: &ldquo;Baptism is, paradoxically, a sign of unity and a reminder of disunity.&rdquo;'),
+        _bp('&ldquo;&hellip;we all recognize baptism administered with water, in the name of the Father, the Son and the Holy Spirit, in the symbolic act of <b>immersion or affusion</b>&hellip;&rdquo;', 'Magdeburg Declaration, churches in Germany (2007)', 'Mutual recognition',
+           '&ldquo;Baptism thus administered is once-for-all and unrepeatable.&rdquo; Eleven churches, Catholic, Lutheran, Orthodox and free churches.'),
+    ] + list(extra) + [
+        _bp('&ldquo;And <b>first baptize the little ones</b>; if they can speak for themselves, they shall do so; if not, their parents or other relatives shall speak for them.&rdquo;', 'The <i>Apostolic Tradition</i> 21.4 (c. 215)', 'The honest limits &middot; a side path',
+           'Side path. Infant baptism is early. Tertullian (c. 200) argues only for delay: &ldquo;let them become Christians when they have become able to know Christ.&rdquo;'),
+        _bp('&ldquo;Though they <b>differ from one another in essence and not only in degree</b>, the common priesthood of the faithful and the ministerial or hierarchical priesthood are nonetheless interrelated&hellip;&rdquo;', 'Second Vatican Council, <i>Lumen Gentium</i> &sect;10 (1964)', 'The priesthood, limited',
+           'Rome affirms the baptismal priesthood and fences it: the baptized do not preside at the table.'),
+        _bp('&ldquo;&hellip;they rejected from Christianity <b>all who were not baptized for the remission of sins</b>, and who did not observe the weekly communion&hellip;&rdquo;', 'Barton W. Stone, <i>Biography</i> (1847), on some of the Reformers', 'Baptism as a fence',
+           'Stone on the hardening among Campbell&rsquo;s followers. Baptism, meant as a door, became a fence; Lunenburg was Campbell&rsquo;s answer.'),
+        CARD('One baptism.<br>' + G('Every Christian ordained.'),
+             'The end. Discussion: if baptism makes us all priests, who may baptize? Who may host the table?'),
     ]

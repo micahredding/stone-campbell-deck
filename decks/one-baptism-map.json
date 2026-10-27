@@ -1,0 +1,453 @@
+{
+ "deck": "decks/one-baptism-map.html",
+ "source": "decks/src/resources.py (baptism)",
+ "built_by": "decks/src/baptism/build.py",
+ "slides": [
+  {
+   "index": 0,
+   "n": 1,
+   "title": "Our Wild Democracy a resource One Baptism Baptism in every tradition",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 1,
+   "n": 2,
+   "title": "One baptism a resource A door or a fence? Baptism as union, and as every Christian's ordin",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 2,
+   "n": 3,
+   "title": "Ephesians 4:4-6 \"There is one body, and one Spirit, even as ye are called in one hope of y",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 3,
+   "n": 4,
+   "title": "One baptism Buried with him The early church",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 4,
+   "n": 5,
+   "title": "The oldest instructions \"...baptize into the name of the Father, and of the Son, and of th",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 5,
+   "n": 6,
+   "title": "Children of choice \"...in order that we may not remain the children of necessity and of ig",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 6,
+   "n": 7,
+   "title": "Your grave and your mother \"And at the self-same moment you were both dying and being born",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 7,
+   "n": 8,
+   "title": "Rome today \"Baptism is performed in the most expressive way by triple immersion in the bap",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 8,
+   "n": 9,
+   "title": "One baptism Every Christian's ordination Baptism and the priesthood of all",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 9,
+   "n": 10,
+   "title": "Ordained in the water \"...even laymen have the right; for what is equally received can be ",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 10,
+   "n": 11,
+   "title": "Alexander Campbell, 1830 \"...so soon as they have believingly been immersed into the name ",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 11,
+   "n": 12,
+   "title": "Stone, 1807 \"It was finally concluded among us, that if we were authorized to preach, we w",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 12,
+   "n": 13,
+   "title": "One baptism Brush Run goes under the water 1811-1812",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 13,
+   "n": 14,
+   "title": "At the table, 1811 \"The reason being asked, Joseph Bryant replied, that he did not conside",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 14,
+   "n": 15,
+   "title": "Thomas Campbell at Buffalo Creek \"...is water; and earth is earth. We certainly could not ",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 15,
+   "n": 16,
+   "title": "The cost \"...he was aware it would at once erect an impassable barrier between him and the",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 16,
+   "n": 17,
+   "title": "One baptism Not even immersion Lunenburg, 1837",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 17,
+   "n": 18,
+   "title": "The Lunenburg letter \"I cannot, therefore, make any one duty the standard of Christian sta",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 18,
+   "n": 19,
+   "title": "The same letter \"There is no occasion, then, for making immersion... absolutely essential ",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 19,
+   "n": 20,
+   "title": "Against re-immersion \"And can you think that... your not having all the meaning of baptism",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 20,
+   "n": 21,
+   "title": "One baptism The whole church now Lima, the Disciples and Rome, Magdeburg",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 21,
+   "n": 22,
+   "title": "Lima \" Our common baptism, which unites us to Christ in faith, is thus a basic bond of uni",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 22,
+   "n": 23,
+   "title": "A joint report \"Since believers' baptism is the form of baptism explicitly attested in the",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 23,
+   "n": 24,
+   "title": "Mutual recognition \"...we all recognize baptism administered with water, in the name of th",
+   "path": "spine",
+   "doc": "bapt"
+  },
+  {
+   "index": 24,
+   "n": 25,
+   "title": "The honest limits a side path \"And first baptize the little ones ; if they can speak for t",
+   "path": "The honest limits",
+   "doc": "bapt"
+  },
+  {
+   "index": 25,
+   "n": 26,
+   "title": "The priesthood, limited \"Though they differ from one another in essence and not only in de",
+   "path": "The honest limits",
+   "doc": "bapt"
+  },
+  {
+   "index": 26,
+   "n": 27,
+   "title": "Baptism as a fence \"...they rejected from Christianity all who were not baptized for the r",
+   "path": "The honest limits",
+   "doc": "bapt"
+  },
+  {
+   "index": 27,
+   "n": 28,
+   "title": "One baptism. Every Christian ordained.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 28,
+   "n": 29,
+   "title": "(black)",
+   "path": "spine",
+   "doc": null
+  }
+ ],
+ "spine": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  27,
+  28
+ ],
+ "branches": [
+  {
+   "label": "The honest limits",
+   "fork": 23,
+   "slides": [
+    24,
+    25,
+    26
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "label": "Opening",
+   "at": 0
+  },
+  {
+   "label": "The early church",
+   "at": 3
+  },
+  {
+   "label": "Ordination",
+   "at": 8
+  },
+  {
+   "label": "Brush Run",
+   "at": 12
+  },
+  {
+   "label": "Lunenburg",
+   "at": 16
+  },
+  {
+   "label": "The whole church now",
+   "at": 20
+  }
+ ],
+ "docs": [
+  {
+   "index": 0,
+   "key": "bapt",
+   "title": "One baptism: excerpts",
+   "short": "One baptism"
+  }
+ ],
+ "doc_doors": [
+  {
+   "label": "One baptism: the sources",
+   "fork": 2,
+   "doc": 0
+  }
+ ],
+ "quotes": [
+  {
+   "slide": 2,
+   "doc": "bapt",
+   "text": "There is one body, and one Spirit,even as ye are called in one hope of your calling;One Lord, one faith, one baptism,One God and Father of all"
+  },
+  {
+   "slide": 4,
+   "doc": "bapt",
+   "text": "baptize into the name of the Father, and of the Son, and of the Holy Spirit, in living water.But if you have not living water, baptize into other water;and if you can not in cold, in warm.But if you have not either, pour out water thrice upon the head"
+  },
+  {
+   "slide": 5,
+   "doc": "bapt",
+   "text": "in order that we may not remain the children of necessity and of ignorance, but may become the children of choice and knowledge, and may obtain in the water the remission of sins formerly committed"
+  },
+  {
+   "slide": 6,
+   "doc": "bapt",
+   "text": "And at the self-same moment you were both dying and being born; and that Water of salvation was at once your grave and your mother."
+  },
+  {
+   "slide": 7,
+   "doc": "bapt",
+   "text": "Baptism is performed in the most expressive way by triple immersion in the baptismal water."
+  },
+  {
+   "slide": 9,
+   "doc": "bapt",
+   "text": "even laymen have the right; for what is equally received can be equally given."
+  },
+  {
+   "slide": 9,
+   "doc": "bapt",
+   "text": "Let him lay aside his lay-priesthood, that is, his baptism"
+  },
+  {
+   "slide": 9,
+   "doc": "bapt",
+   "text": "Thus we are all consecrated as priests by baptism"
+  },
+  {
+   "slide": 9,
+   "doc": "bapt",
+   "text": "Baptism gives a share in the common priesthood of all believers."
+  },
+  {
+   "slide": 10,
+   "doc": "bapt",
+   "text": "so soon as they have believingly been immersed into the name of the Lord Jesus"
+  },
+  {
+   "slide": 10,
+   "doc": "bapt",
+   "text": "they are all made sons and daughters, kings and priests to God"
+  },
+  {
+   "slide": 10,
+   "doc": "bapt",
+   "text": "Being a royal priesthood"
+  },
+  {
+   "slide": 10,
+   "doc": "bapt",
+   "text": "they have a right to meet in his name to break the loaf of blessing"
+  },
+  {
+   "slide": 10,
+   "doc": "bapt",
+   "text": "without the intervention of a mediator, priest, or prophet, consecrated by human hands."
+  },
+  {
+   "slide": 10,
+   "doc": "bapt",
+   "text": "Hints to the Advocates of a Restoration of the Ancient Order of Things,"
+  },
+  {
+   "slide": 11,
+   "doc": "bapt",
+   "text": "It was finally concluded among us, that if we were authorized to preach, we were also authorized to baptize."
+  },
+  {
+   "slide": 13,
+   "doc": "bapt",
+   "text": "The reason being asked, Joseph Bryant replied, that he did not consider himself authorized to partake, as he had never been baptized."
+  },
+  {
+   "slide": 14,
+   "doc": "bapt",
+   "text": "is water; and earth is earth. We certainly could not call a person buried in earth if only a little dust were sprinkled on him."
+  },
+  {
+   "slide": 15,
+   "doc": "bapt",
+   "text": "he was aware it would at once erect an impassable barrier between him and the paedobaptist community in which he had labored, and frustrate all his hopes of winning it over to his views of Christian union."
+  },
+  {
+   "slide": 17,
+   "doc": "bapt",
+   "text": "I cannot, therefore, make any one duty the standard of Christian state or character, not even immersion"
+  },
+  {
+   "slide": 17,
+   "doc": "bapt",
+   "text": "Any Christians among Protestant Parties,"
+  },
+  {
+   "slide": 18,
+   "doc": "bapt",
+   "text": "There is no occasion, then, for making immersion"
+  },
+  {
+   "slide": 18,
+   "doc": "bapt",
+   "text": "absolutely essential to a Christian—though it may be greatly essential to his sanctification and comfort."
+  },
+  {
+   "slide": 19,
+   "doc": "bapt",
+   "text": "And can you think that"
+  },
+  {
+   "slide": 19,
+   "doc": "bapt",
+   "text": "your not having all the meaning of baptism before your mind, made your immersion unconstitutional; and left you an alien from the kingdom of God"
+  },
+  {
+   "slide": 19,
+   "doc": "bapt",
+   "text": "Dialogue on Re-immersion,"
+  },
+  {
+   "slide": 21,
+   "doc": "bapt",
+   "text": "Our common baptism, which unites us to Christ in faith, is thus a basic bond of unity."
+  },
+  {
+   "slide": 22,
+   "doc": "bapt",
+   "text": "Since believers’ baptism is the form of baptism explicitly attested in the New Testament, the conviction of Disciples is that the rite of baptism should be preceded by a personal confession of faith and repentance."
+  },
+  {
+   "slide": 23,
+   "doc": "bapt",
+   "text": "we all recognize baptism administered with water, in the name of the Father, the Son and the Holy Spirit, in the symbolic act of immersion or affusion"
+  },
+  {
+   "slide": 24,
+   "doc": "bapt",
+   "text": "And first baptize the little ones; if they can speak for themselves, they shall do so; if not, their parents or other relatives shall speak for them."
+  },
+  {
+   "slide": 25,
+   "doc": "bapt",
+   "text": "Though they differ from one another in essence and not only in degree, the common priesthood of the faithful and the ministerial or hierarchical priesthood are nonetheless interrelated"
+  },
+  {
+   "slide": 26,
+   "doc": "bapt",
+   "text": "they rejected from Christianity all who were not baptized for the remission of sins, and who did not observe the weekly communion"
+  }
+ ],
+ "unmatched": []
+}
