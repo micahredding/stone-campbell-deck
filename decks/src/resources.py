@@ -106,6 +106,8 @@ SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration an
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
+    m = __import__('re').search(r'data-src="([^"]+)"', vis)   # data-src="dna will": several documents, in order
+    if m and has(*m.group(1).split()): return has(*m.group(1).split())
     if 'data-src=church' in vis: o = has('church') + [i for i in range(len(K)) if K[i] != 'church']
     elif 'data-src=acr' in vis: o = has('acr')
     elif 'data-src=ekk' in vis: o = has('ekk')
