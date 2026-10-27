@@ -20,9 +20,9 @@
   {
    "index": 2,
    "n": 3,
-   "title": "Unity movement Barton W. Stone Unity in Communion Thomas Campbell Unity in Communion",
+   "title": "\"For 32 years of my ministry I have kept in view the unity of Christians as my polar star ",
    "path": "spine",
-   "doc": null
+   "doc": "fnd"
   },
   {
    "index": 3,
@@ -1290,6 +1290,12 @@
    "key": "lord",
    "title": "Every Lord’s day: excerpts",
    "short": "Every Lord’s day"
+  },
+  {
+   "index": 13,
+   "key": "fnd",
+   "title": "The founders on unity",
+   "short": "The founders on unity"
   }
  ],
  "doc_doors": [
@@ -1315,6 +1321,16 @@
   }
  ],
  "quotes": [
+  {
+   "slide": 2,
+   "doc": "fnd",
+   "text": "For 32 years of my ministry I have kept in view the unity of Christians as my polar star."
+  },
+  {
+   "slide": 2,
+   "doc": "fnd",
+   "text": "With you all we desire to unite in the bonds of an entire Christian unity—Christ alone being the head, the center"
+  },
   {
    "slide": 3,
    "doc": "dna",

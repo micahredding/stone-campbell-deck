@@ -106,6 +106,9 @@ def docs(between, clean, keys):
         'bapt': lambda: {'title': 'One baptism: excerpts',
             'sub': 'Scripture, the <i>Didache</i>, Justin, Hippolytus, Tertullian, Cyril, Jerome, Augustine, Luther, the Prayer Book, the Baptists, Rome, Lima, Magdeburg, Richardson, Stone, Campbell, Lipscomb',
             'html': clean(src('sources', 'one-baptism.html'))},
+        'fnd': lambda: {'title': 'The founders on unity',
+            'sub': 'Barton W. Stone (1835) and Thomas Campbell (1809)',
+            'html': clean(src('sources', 'founders-on-unity.html'))},
         'tbl': lambda: {'title': 'Who keeps the table: excerpts',
             'sub': 'Scotch Baptists, Campbell, Stone&rsquo;s <i>Christian Messenger</i>, Lipscomb, the ecumenical record, and today',
             'html': clean(src('sources', 'the-table.html'))},
@@ -121,7 +124,7 @@ def docs(between, clean, keys):
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
-         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience', 'bible': 'The Bible in every hand', 'bapt': 'One baptism'}
+         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience', 'bible': 'The Bible in every hand', 'bapt': 'One baptism', 'fnd': 'The founders on unity'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
