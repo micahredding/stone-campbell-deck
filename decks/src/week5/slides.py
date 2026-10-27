@@ -102,7 +102,7 @@ A('<section data-src="dna will" class="slide" style="padding:0">'
   '<h2 style="position:absolute;top:4.5vh;left:0;right:0;margin:0 auto;max-width:none;text-align:center;font-size:clamp(34px,6.6vmin,84px);color:var(--gold);text-shadow:0 1px 10px #000">Unity movement</h2>'
   '<aside class=notes>Thomas Campbell claimed freedom of conscience and extended it to everyone; the Springfield Presbytery gave up its own authority so that every congregation could hold it.<br>&rarr; &ldquo;Stone&rsquo;s side willed it in 1804. Tonight, the Campbells&rsquo; side does it.&rdquo;</aside></section>')
 
-A('<section class="slide room"><div class="litany" style="gap:4vmin">'
+HIDE('<section class="slide room"><div class="litany" style="gap:4vmin">'
   '<h2 class=no style="max-width:18ch;font-size:clamp(44px,10vmin,124px);line-height:1.12">Who has authority?</h2>'
   '<h2 class="no frag" style="max-width:18ch;font-size:clamp(44px,10vmin,124px);line-height:1.12">Who may serve the table?</h2></div>'
   '<aside class=notes>One click for the second question. Tonight&rsquo;s two points. Who can make someone a minister: a bishop, a presbytery, the congregation? And who may give thanks at the Lord&rsquo;s table? &rarr; &ldquo;Hold both.&rdquo;</aside></section>')
@@ -156,13 +156,23 @@ A(Q('&ldquo;&hellip;an effect which was, doubtless, facilitated by the fact that
 
 A('<section class="slide"><div class=eyebrow><span style="color:var(--gold)">2 &middot; Articles 2 &amp; 3</span> &middot; at Ewing&rsquo;s house</div>'
   '<h2>Ewing told him the story of the Haldanes.</h2>'
-  '<div class="sub frag">Two Scottish <b>laymen</b> who began preaching the gospel without ordination.</div>'
-  '<div class="sub frag">James Haldane was <b>arrested at the instigation of the clergy</b>.</div>'
-  '<aside class=notes>Two clicks. Robert and James Haldane, wealthy ex-navy laymen; James preached for years before he was ordained. Ewing had left the Church of Scotland to join them, ran their Glasgow Tabernacle, and kept the Supper weekly. His father had also been condemned for letting elders, not ministers, pray and exhort. Richardson says this story, more than anything, changed Alexander&rsquo;s mind.</aside></section>')
+  '<div class="sub frag">Robert and James: two brothers, <b>sea captains turned laymen</b>, who gave their fortune and their lives to the gospel.</div>'
+  '<aside class=notes>One click. Robert Haldane served in the navy, James commanded an East India ship; both came home to Scotland, were converted in the 1790s, and turned everything over to preaching. James preached for years before he was ordained. Ewing had left the Church of Scotland to join them, ran their Glasgow Tabernacle, and kept the Supper weekly. His father had also been condemned for letting elders, not ministers, pray and exhort. Richardson says this story, more than anything, changed Alexander&rsquo;s mind.</aside></section>')
+A(BIGQ(Q('&ldquo;Christianity&hellip; <b>is everything or nothing</b>. If it be true, it warrants and commands every sacrifice to promote its influence. If it be not, then let us lay aside the hypocrisy of believing it.&rdquo;', 'Robert Haldane &middot; in Richardson, <i>Memoirs</i>', 'Robert Haldane, 1795')) +
+  N('After his conversion. He resolved to give his life and his property to the gospel; his wife agreed.'))
+A(BIGQ(Q('&ldquo;He accordingly determined to <b>sell his beautiful estate of Airthrey</b>&hellip; but, upon application to the East India Company for permission to establish the mission among the Hindoos, <b>this was positively and unexpectedly refused</b>.&rdquo;', RICH, 'A mission to India, 1797')) +
+  N('Inspired by William Carey in Bengal. Robert would fund the whole party, Ewing and Dr. Innes among them, with a printing press. The Company refused; appeals failed; he had already sold the estate.'))
+A(BIGQ(Q('&ldquo;&hellip;&lsquo;That it is the duty of Christians to send the gospel to the heathen world,&rsquo; this, after debate, <b>was voted down by a large majority</b> &mdash; a favorite argument of the opposing party being that <b>there was plenty of ignorance, unbelief and immorality at home</b>&hellip;&rdquo;', RICH, 'The Church of Scotland on missions, 1796')) +
+  N('James Haldane was in the gallery for the debate. He knew the church was doing nothing about the unbelief at home either.'))
+A(CARD('Plenty of heathen at home, the Assembly said.<br>' + G('So they preached at home.'),
+  'From 1797 James Haldane, with lay friends, toured Scotland and the Orkneys preaching in the open air, in streets, barns and fields. Robert paid.'))
 A(Q('&ldquo;Whether a man&hellip; declare those important truths <b>to two or two hundred</b>, he is, in our opinion <b>a preacher of the gospel</b>&hellip;&rdquo;', 'The Haldanes&rsquo; printed notice, 1797 &middot; in Richardson, <i>Memoirs</i>', 'Their right to preach') +
   N('They grounded it &ldquo;upon the indispensable duty of every Christian to warn sinners.&rdquo; Every Christian: the priesthood of all believers, in a Scottish handbill.'))
 A(Q('&ldquo;The clergy, however, soon began to manifest <b>their hostility to lay-preaching</b>; and the parish minister took means to <b>deprive them of the house</b> in which the meetings were held.&rdquo;', RICH, 'The church&rsquo;s answer') +
-  N('They moved to a loft, then a barn. In 1799 the General Assembly closed the Church of Scotland&rsquo;s pulpits to anyone not licensed by it; in the Highlands James Haldane was held under arrest at the instigation of the clergy.'))
+  N('They moved to a loft, then a barn. In 1799 the General Assembly closed the Church of Scotland&rsquo;s pulpits to anyone not licensed by it.'))
+A(BIGQ(Q('&ldquo;&hellip;preaching every day in the open air to large numbers. On this trip <b>they were held for some time under arrest by the Highland chiefs, at the instigation of the clergy</b>.&rdquo;', RICH, 'Kintyre, 1800')) +
+  N('James Haldane and John Campbell (no relation), touring Ayr, Arran and Kintyre. Richardson: &ldquo;notwithstanding the opposition, great good was effected.&rdquo;',
+    '&rarr; &ldquo;Refused India. Refused the pulpits. Arrested at home. For preaching.&rdquo;'))
 A(BIGQ(Q('&ldquo;The avowed object in forming this church was&hellip; to <b>avoid that contracted spirit which would exclude</b> from the pulpit, or from occasional communion, <b>any faithful preacher of the gospel or sincere lover of Christ</b>.&rdquo;', RICH, 'Their own church, Edinburgh, 1799')) +
   N('Pushed out, the Haldanes formed a church whose first rule was not to push anyone out. Three hundred and ten joined at once. Ewing drew up its plan of government.',
     '&rarr; &ldquo;A church built on refusing to exclude. Alexander is sitting at that man&rsquo;s table.&rdquo;'))
@@ -296,6 +306,20 @@ A(C('Why the people?', 'The theory behind the ordination: why Brush Run believed
 A(BIGQ(Q('&ldquo;You see that ordination is not a mere unmeaning thing, but <b>consists in the choice of the people</b>, which must be hearty&hellip;&rdquo;', AC + ', sermon on Titus 1:5 &middot; in Richardson, <i>Memoirs</i>'), 'clamp(32px,7.2vmin,90px)', '34ch') +
   N('His notes for a sermon that winter. The sentence goes on: &ldquo;and that it might be evidenced, the elders or rulers impose their hands.&rdquo; The laying on of hands shows the choice; it does not make it. Richardson: he regarded ordination not &ldquo;as conferring any authority, but as a public testimony that the persons ordained possessed the necessary authority.&rdquo; The authority is the congregation&rsquo;s.'))
 for _x in R.succession(): A(_x)                  # side path: against succession (shared resource)
+A('<section data-src=will class="slide"><div class=eyebrow>The Springfield Presbytery, 1804 &middot; the court gives up its power</div>'
+  '<div class=litany style="gap:4vmin;font-size:3.3em;max-width:90vw">'
+  '<div class=no>&ldquo;We will, that <b>our power of making laws for the government of the church</b>, and executing them by delegated authority, <b>forever cease</b>&hellip;&rdquo;</div>'
+  '<div class="no frag">&ldquo;We will, that candidates for the Gospel ministry&hellip; <b>obtain license from God</b> to preach the simple Gospel&hellip;&rdquo;</div>'
+  '</div><div class=cite>The Last Will and Testament of the Springfield Presbytery</div>'
+  '<aside class=notes>One click. Chapter 4, Cane Ridge: the presbytery dissolved itself. Two items about ministers: the presbytery will no longer license anyone; a minister&rsquo;s license comes from God.</aside></section>')
+A('<section data-src=will class="slide"><div class=eyebrow>The Springfield Presbytery, 1804 &middot; the congregation takes it up</div>'
+  '<div class=litany style="gap:4vmin;font-size:3em;max-width:92vw">'
+  '<div class=no>&ldquo;We will, that the church of Christ assume <b>her native right of internal government</b>&mdash;<b>try her candidates for the ministry</b>&hellip; and admit no other proof of their authority, but Christ speaking in them.&rdquo;</div>'
+  '<div class="no frag">&ldquo;We will, that each particular church, as a body&hellip; <b>choose her own preacher</b>&hellip; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;</div>'
+  '</div><div class=cite>The Last Will and Testament of the Springfield Presbytery</div>'
+  '<aside class=notes>One click. Where the authority goes: to each congregation. Seven years later and hundreds of miles away, a congregation that never heard of the will tried its own candidate, licensed him in May 1811 and ordained him in January 1812.</aside></section>')
+A(CARD('The Springfield Presbytery died<br>so that congregations could choose.<br>' + G('Brush Run chose.'),
+  'Neither side knew the other existed. The two streams meet in 1832; they already agreed.'))
 A(BIGQ(Q('&ldquo;Each church was independent, and had <b>the exclusive authority to select its own officials</b>, who were, when approved, to be set apart by a formal ordination.&rdquo;', RICH, 'His views, 1811')) +
   N('Richardson: &ldquo;These views he continued to maintain unchanged through life.&rdquo;'))
 A(BIGQ(Q('&ldquo;As to the form or ceremony of ordination, he did not regard it as <b>conferring any authority</b>, but as <b>a public testimony that the persons ordained possessed the necessary authority</b>.&rdquo;', RICH, 'What the hands do')) +
@@ -325,7 +349,7 @@ A(CARD('Open to all.<br>' + G('Hosted by any.'),
   'Brush Run&rsquo;s table was weekly and its fences were coming down. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers. Not only open; hosted by any.'))
 for _x in R.table(): A(_x)                       # side path: who keeps the table (shared resource)
 # ---------- POINT TWO: WHERE TWO OR THREE ARE GATHERED ----------
-A(C('Where two or three are gathered', 'The second point. The authority to ordain, and to govern, inheres in the gathered church. Matthew 18, the Declaration and Address, the Last Will, Brush Run.'))
+A(C('Where two or three are gathered', 'Side path. The authority to ordain, and to govern, inheres in the gathered church: Matthew 18 and the Declaration and Address.'))
 A(BIGQ(Q('&ldquo;&hellip;<b>tell it unto the church</b>&hellip; Verily I say unto you, <b>Whatsoever ye shall bind on earth shall be bound in heaven</b>&hellip;&rdquo;', 'Matthew 18:17&ndash;18 (KJV)', 'Where the keys are'), 'clamp(34px,7.6vmin,96px)', '30ch') +
   N('In Matthew 16 the keys go to Peter. In Matthew 18 the binding and loosing go to &ldquo;the church&rdquo;: the gathering that hears a brother&rsquo;s case. Two verses later, two or three gathered, and Christ in the midst.',
     'Thomas Campbell, in the <i>Declaration and Address</i>: this is &ldquo;the awful sanction of the Church&rsquo;s judgment.&rdquo;',
@@ -333,13 +357,6 @@ A(BIGQ(Q('&ldquo;&hellip;<b>tell it unto the church</b>&hellip; Verily I say unt
 A(BIGQ(Q('&ldquo;&hellip;for where <b>two or three are gathered together in my name</b>, there am I in the midst of them.&rdquo;', DA + ', quoting Matthew 18:20'), 'clamp(36px,8vmin,100px)', '28ch') +
   N('The <i>Address</i>, to the friends of reform: &ldquo;Let not the paucity of your number in any given district, prove an insuperable discouragement.&rdquo; Thirty people at a creek. Christ in the midst of them.',
     '&rarr; The title of the hour.'))
-A(BIGQ(Q('&ldquo;We will, that each particular church, as a body, actuated by the same spirit, <b>choose her own preacher</b>&hellip; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;', WILL, 'Cane Ridge, 1804')) +
-  N('Last week: the bequest to every congregation. Seven years later and hundreds of miles away, a congregation that never heard of the will does exactly this.',
-    'Brush Run chose its own preacher, licensed him, and ordained him.'))
-A(BIGQ(Q('&ldquo;We will, that candidates for the Gospel ministry henceforth study the holy scriptures with fervent prayer, and <b>obtain license from God</b> to preach the simple Gospel&hellip;&rdquo;', WILL, 'Cane Ridge, 1804')) +
-  N('No presbytery&rsquo;s license. In May 1811 Brush Run licensed Alexander; in January 1812 it ordained him. The license from God, recognized by the congregation.'))
-A(CARD('The Springfield Presbytery died<br>so that congregations could choose.<br>' + G('Brush Run chose.'),
-  'The two streams meet in 1832. They already agreed.'))
 A(BLACK)
 
 # ---------- CLOSE ----------
