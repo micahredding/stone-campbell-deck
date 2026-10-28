@@ -32,6 +32,14 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **Side paths reorganized around the four arguments (Micah, 28 Oct 2026).** Eleven became nine:
+  - *Where two or three are gathered* was dropped; its Matthew 18 and two-or-three slides duplicate *Church government*.
+  - *Church government* and *Against succession* merged into **Who may ordain?**, off "the choice of the people". Dropped from it as duplicates of spine slides: "As to the form or ceremony of ordination" and "The will's bequests on government". Dropped from *Against succession*: its "Why do we contend…" slide, which duplicates *Church government*.
+  - *Who serves the table?* and *Who keeps the table* merged into **Who may serve?**, off "Every Lord's day" (the table resource's own title and closing card are left out).
+  - *Who was not at the table* (Joseph Bryant) was removed at Micah's direction. The passage is still in Richardson's excerpts, and the baptism story is in *One Baptism*.
+  - *The assembly* lost its two "fountain of official power" slides, which duplicate the spine slide it forks from. *Confession or constitution* now forks beside it.
+  - New: **Creeds as tests** (D&A Propositions 7 and 6), off "the gates of admission".
+
 - **"Who may come?"** (Alexander's November 1810 address and the "party man" address) moved from after the first Supper to directly after the Synod of Pittsburg's refusal, as Alexander's answer to it, before Brush Run became a church (Micah, 28 Oct 2026).
 
 - **The two points became side paths (Micah's story outline, 27 Oct 2026).** Both now fork from the closing card, "A minister, made by the priesthood of all believers":

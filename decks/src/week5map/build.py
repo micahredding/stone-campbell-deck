@@ -8,18 +8,16 @@ sys.path.insert(0, os.path.join(_H, '..'))
 import mapdeck, resources as R
 
 SIDE = [
-    R.SUCCESSION,
     # (label,                      first-slide anchor,                      last-slide anchor)
-    R.GOVERNANCE,
-    R.CONSTITUTION,
-    R.UNIVERSALS,
-    R.WEEKLY,
-    R.EKKLESIA,
-    ('Who serves the table?',      '<h2>Who serves the table?</h2>',        'Hosted by any.'),
-    R.TABLE,
-    ('Where two or three are gathered', '<h2>Where two or three are gathered</h2>', 'The title of the hour.'),
+    # Arranged by the chapter's four arguments: creeds as tests; who may serve; who may ordain; the whole church on governance by the people.
+    ('Creeds as tests',            'Side path &middot; creeds as tests',    'They may not fence the table.'),
     ('Becoming Baptists',          'Brush Run&rsquo;s overture, fall 1813', 'they became Baptists.'),
-    ('Who was not at the table',   'who was not at the table',              'who was not at the table'),
+    R.WEEKLY,
+    ('Who may serve?',             '<h2>Who serves the table?</h2>',        'Hosted by any.'),
+    ('Who may ordain?',            R.GOVERNANCE[1],                         R.GOVERNANCE[2]),
+    R.UNIVERSALS,
+    R.EKKLESIA,
+    R.CONSTITUTION,
     ('Addendum',                   'Reference material; not part of the telling', 'What this week touched'),
 ]
 SECTIONS = [
