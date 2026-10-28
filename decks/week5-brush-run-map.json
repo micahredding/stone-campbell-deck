@@ -328,7 +328,7 @@
   {
    "index": 46,
    "n": 47,
-   "title": "The gates of admission \"We have decided, therefore, to open the gates of admission into th",
+   "title": "The gates of admission \"We have decided, therefore,... to open the gates of admission into",
    "path": "spine",
    "doc": "rich"
   },
@@ -1762,7 +1762,12 @@
   {
    "slide": 46,
    "doc": "rich",
-   "text": "We have decided, therefore, to open the gates of admission into the Church as wide as the gates of heaven."
+   "text": "We have decided, therefore,"
+  },
+  {
+   "slide": 46,
+   "doc": "rich",
+   "text": "to open the gates of admission into the Church as wide as the gates of heaven."
   },
   {
    "slide": 47,
