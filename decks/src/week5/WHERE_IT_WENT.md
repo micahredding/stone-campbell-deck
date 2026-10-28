@@ -43,7 +43,7 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
   - "the Society must obtain admission into some regularly organized religious body…" (shown again, no longer hidden);
   - the Synod of Pittsburg's "cannot be granted" (also in the reserve deck);
   - the two-column slide (the Last Will's "sink into union" beside "obtain admission");
-  - the Baptist flash-forward (Alexander, *Millennial Harbinger* 1848: "I had no idea of uniting with the Baptists…", and the 1813 overture "provided always…");
+  - the Baptist flash-forward: the 1813 overture "provided always…" and Richardson on the name *The Christian Baptist* (1823). Alexander's 1848 "I had no idea of uniting with the Baptists…" was on screen briefly and was dropped at Micah's direction (28 Oct 2026) as hindsight that isn't part of this story. The passage is still in `richardson-memoirs-v1-excerpts.html`.
   - the card "Refused by the Presbyterians, they became Baptists."
 - **The opening question slide** ("Who has authority? / Who may serve the table?") is hidden (`HIDE`) while Micah works on a reframing (27 Oct 2026).
 - **The Last Will's ministry items** ("choose her own preacher", "obtain license from God") and the card "Brush Run chose." moved from the *Where two or three are gathered* side path into "Why the people?". They are now two highlighted Springfield slides, joined by "our power of making laws… forever cease" and "assume her native right of internal government". That side path now holds Matthew 18 and the *D&A* on Matthew 18:20.
