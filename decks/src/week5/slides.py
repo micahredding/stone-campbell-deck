@@ -247,14 +247,15 @@ A(BIGQ(Q('&ldquo;&hellip;as the Society was not a Church&hellip; most of its mem
 
 A(BIGQ(Q('&ldquo;&hellip;the Society must obtain admission into some regularly organized religious body, or be itself compelled to change its attitude and <b>resolve itself into an independent Church</b> &mdash; an alternative which Thomas Campbell particularly desired to avoid.&rdquo;', RICH)) +
   N('The Society&rsquo;s first plan was not to become a church at all. In October 1810 Thomas asked the Presbyterian Synod of Pittsburg, a body other than the Seceders who had tried him, to receive him and the Association.'))
-A(BIGQ(Q('&ldquo;&hellip;Mr. Campbell&rsquo;s request to be received into ministerial and Christian communion <b>cannot be granted</b>.&rdquo;', MIN, 'The Synod of Pittsburg, October 1810'), 'clamp(40px,9vmin,110px)', '24ch') +
-  N('Unanimous. The Synod&rsquo;s reasons, and more of Alexander&rsquo;s reply, are in the reserve deck. Next: his answer.'))
-A('<section class="slide breath"><div class=eyebrow>Alexander&rsquo;s answer, November 1810</div><h2 style="max-width:none">Who may come?</h2>'
-  '<aside class=notes>Four weeks after the Synod&rsquo;s refusal, Alexander answered it in a public address defending the Christian Association. Among the Synod&rsquo;s reasons: Thomas&rsquo;s &ldquo;opposing creeds and confessions.&rdquo; Alexander answers with who may come to the table. Then the &ldquo;party man&rdquo; address from the same season.</aside></section>')
+A('<section class="slide breath"><div class=eyebrow>Alexander, 1810</div><h2 style="max-width:none">Who may come?</h2>'
+  '<aside class=notes>Alexander&rsquo;s case for an open table, from his addresses of 1810: the creeds as gates, Gabriel, the &ldquo;party man&rdquo; address, and the gates as wide as heaven. Then the Synod&rsquo;s answer to it all.</aside></section>')
 A(BIGQ(Q('&ldquo;That standards had been lifted up which <b>narrowed the gates of Zion</b>&hellip; and there were none of them but would <b>reject those whom God has not rejected</b>, and deny admission to those whom God had admitted.&rdquo;', AC + ', address to the Christian Association, November 1810 &middot; in Richardson, <i>Memoirs</i>', 'The creeds as gates')) +
   N('&ldquo;Standards&rdquo; are the confessions used as tests of admission. His text was Isaiah 62:10, &ldquo;go through the gates.&rdquo;'))
 A(BIGQ(Q('&ldquo;All are defective. <b>The apostle Paul, the angel Gabriel in human form, could not be admitted</b> on the principles of these standards.&rdquo;', AC + ', November 1810 &middot; in Richardson, <i>Memoirs</i>'), 'clamp(40px,9vmin,110px)', '26ch') +
-  N('Let the room laugh. Then: the Seceder table he walked away from in Glasgow would not have had the apostle, and neither would the Synod that just refused his father.'))
+  N('Let the room laugh. Then: the Seceder table he walked away from in Glasgow would not have had the apostle, and neither would the Synod of Pittsburg.'))
+A(BIGQ(Q('&ldquo;I dare not be a party man for these reasons&hellip; <b>Because no party will receive into communion all whom God would receive into heaven.</b>&rdquo;', AC + ', 1810 &middot; in Richardson, <i>Memoirs</i>', 'Why he would join no party'), 'clamp(32px,7.2vmin,90px)', '34ch') +
+  N('The same year: an address after a sermon at Mr. Buchanan&rsquo;s. The next line: &ldquo;God loves his children more than our creeds, and man was not made for the Bible, but the Bible for man.&rdquo;',
+    'Chapter 1&rsquo;s table and Chapter 2&rsquo;s trial, in one sentence.'))
 A(BIGQ(Q('&ldquo;We have decided, therefore,&hellip; <b>to open the gates of admission into the Church as wide as the gates of heaven</b>.&rdquo;', AC + ', November 1810 &middot; in Richardson, <i>Memoirs</i>', 'The gates of admission'), 'clamp(38px,8.4vmin,106px)', '26ch') +
   N('In full: &ldquo;to lift it up as a standard for the Church,&rdquo; the New Testament as the only test of admission. The same address: the Society&rsquo;s first work was &ldquo;to remove the stumbling-block of making the private opinions of men a term of communion.&rdquo;'))
 A('<section class="slide breath"><div class=eyebrow>Side path &middot; creeds as tests</div><h2 style="max-width:none">Creeds may teach. May they exclude?</h2>'
@@ -266,10 +267,9 @@ A(BIGQ(Q('&ldquo;&hellip;unless we suppose, what is contrary to fact, that none 
 A(BIGQ(Q('&ldquo;&hellip;yet are they not formally binding upon the consciences of Christians farther than they perceive the connection&hellip; Therefore, <b>no such deductions can be made terms of communion</b>, but do properly belong to the after and progressive edification of the Church.&rdquo;', DA, 'Proposition 6')) +
   N('Inferences belong to teaching, &ldquo;the after and progressive edification of the Church,&rdquo; not to admission.'))
 A(CARD('Creeds may teach.<br>' + G('They may not fence the table.'),
-  'Back to the spine: Alexander&rsquo;s &ldquo;party man&rdquo; address.'))
-A(BIGQ(Q('&ldquo;I dare not be a party man for these reasons&hellip; <b>Because no party will receive into communion all whom God would receive into heaven.</b>&rdquo;', AC + ', 1810 &middot; in Richardson, <i>Memoirs</i>', 'Why he would join no party'), 'clamp(32px,7.2vmin,90px)', '34ch') +
-  N('The same year: an address after a sermon at Mr. Buchanan&rsquo;s. The next line: &ldquo;God loves his children more than our creeds, and man was not made for the Bible, but the Bible for man.&rdquo;',
-    'Chapter 1&rsquo;s table and Chapter 2&rsquo;s trial, in one sentence.'))
+  'Back to the spine: the Synod of Pittsburg'Back to the spine: Alexander&rsquo;s &ldquo;party man&rdquo; address.'rsquo;s answer.'))
+A(BIGQ(Q('&ldquo;&hellip;Mr. Campbell&rsquo;s request to be received into ministerial and Christian communion <b>cannot be granted</b>.&rdquo;', MIN, 'The Synod of Pittsburg, October 1810'), 'clamp(40px,9vmin,110px)', '24ch') +
+  N('Unanimous. Among its reasons: Thomas&rsquo;s &ldquo;opposing creeds and confessions as injurious to the interests of religion.&rdquo; Alexander&rsquo;s November address was his public reply. The reasons, and more of the reply, are in the reserve deck.'))
 # ---------- BRUSH RUN BECOMES A CHURCH ----------
 A(BIGQ(Q('&ldquo;&hellip;on account of <b>the continued hostility of the different parties</b>, it was necessary that the Christian Association should assume the character of an independent Church, <b>in order to the enjoyment of those privileges and the performance of those duties which belong to the Church relation</b>.&rdquo;', RICH, 'Why a church')) +
   N('The pastoral need. Its members had been shut out or had drifted from their old congregations: no Supper, no baptism for their children, no one to marry or bury them. '))
