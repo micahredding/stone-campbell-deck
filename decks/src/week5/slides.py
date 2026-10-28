@@ -289,9 +289,6 @@ A(BIGQ(Q('&ldquo;&hellip;on account of <b>the continued hostility of the differe
 A(BIGQ(Q('&ldquo;It was with <b>great reluctance</b> that he finally concluded to take this step, and to separate himself from those whom he desired to recognize as brethren.&rdquo;', RICH, 'Thomas Campbell, spring 1811')) +
   N('Spring 1811. Every overture refused, Thomas concluded &ldquo;that the Christian Association should assume the character of an independent Church.&rdquo; The thing he had dreaded since 1809. &ldquo;At the next meeting of the Association, accordingly, the matter was duly considered and agreed to.&rdquo;'))
 A(C('Brush Run Church Formed', 'Saturday, May 4, 1811, at the Brush Run meeting house. About thirty members. They sang Psalm 118 in the old Scottish metrical version.', 'May 4, 1811'))
-A(BIGQ(Q('&ldquo;At this meeting, <b>Thomas Campbell was appointed elder</b>, and <b>Alexander was licensed to preach the gospel</b>. Four deacons were also chosen&hellip;&rdquo;', RICH, 'May 4, 1811')) +
-  N('The deacons: John Dawson, George Sharp, William Gilcrist, James Foster. About thirty members.',
-    'No presbytery licensed him. The church did.'))
 A(CARD('No bishop. No presbytery.<br>' + G('A congregation.'),
   'Let it sit. This is the thing no church court could imagine: a church that makes its own ministers.'))
 A(C('The First Supper', 'The next day, May 5, 1811, the new church kept the Lord&rsquo;s Supper for the first time. Alexander preached.', 'Brush Run &middot; May 5, 1811'))
@@ -322,6 +319,9 @@ A(CARD('Open to all.<br>' + G('Hosted by any.'),
   'Brush Run&rsquo;s table was weekly and its fences were coming down. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers. Not only open; hosted by any.'))
 # ---------- THE ORDINATION ----------
 A(C('The Ordination', 'Licensed in May 1811; ordained on January 1, 1812. He preached all over the region through 1811 and married Margaret Brown that March. At Christmas he sat down, as he did every year&rsquo;s end, to examine himself.', 'January 1, 1812'))
+A(BIGQ(Q('&ldquo;At this meeting, <b>Thomas Campbell was appointed elder</b>, and <b>Alexander was licensed to preach the gospel</b>. Four deacons were also chosen&hellip;&rdquo;', RICH, 'May 4, 1811')) +
+  N('The deacons: John Dawson, George Sharp, William Gilcrist, James Foster. About thirty members.',
+    'No presbytery licensed him. The church did.'))
 A('<section class="slide"><div class=eyebrow>December 25, 1811 &middot; his own list</div>'
   '<div class="litany" style="text-align:left;gap:1.4vmin">'
   '<div class=no style="font-size:clamp(24px,4.6vmin,58px)">&ldquo;Special instances of Divine power which I consider to bind me under obligations to be specially devoted to Him&hellip;</div>'
@@ -341,6 +341,15 @@ A('<section class="slide"><div class=eyebrow>Signed</div>'
   '<aside class=notes>One click. His father, and four farmers. One of them, James Foster, is the man nearly kept out by the test question. The man who would debate Robert Owen and the Catholic bishop of Cincinnati, and found a college, was ordained by a creekside congregation of about thirty.</aside></section>')
 # ---------- WHY THE PEOPLE? ----------
 A(C('Why the people?', 'The theory behind the ordination: why Brush Run believed the authority to make a minister was its own.', 'The meaning of January 1, 1812'))
+# Luther as the witness: baptismal succession (slides from the shared resources priesthood() and consent())
+_LUTHER = ('no difference at all but that of office', 'already consecrated priest, bishop and pope', 'we are all priests, and there is no difference between us',
+           'anointed by Him to the priesthood', 'none the less confirmed by virtue of the call', 'the sheep are to judge')
+_pool = R.priesthood() + R.consent()
+A('<section class="slide breath"><div class=eyebrow>A witness, 1520&ndash;1523</div><h2 style="max-width:none">Martin Luther: ordained in baptism</h2>'
+  '<aside class=notes>Three centuries before Brush Run. The ground of the whole argument: the authority is given in baptism, to every Christian; the congregation&rsquo;s call decides who uses it. Baptismal succession.</aside></section>')
+_vis = lambda x: re.sub(r'<aside class=notes>.*?</aside>', '', x, flags=re.S)
+for _k in _LUTHER:
+    A([x for x in _pool if _k in _vis(x)][0])
 A(BIGQ(Q('&ldquo;You see that ordination is not a mere unmeaning thing, but <b>consists in the choice of the people</b>, which must be hearty&hellip;&rdquo;', AC + ', sermon on Titus 1:5 &middot; in Richardson, <i>Memoirs</i>'), 'clamp(32px,7.2vmin,90px)', '34ch') +
   N('His notes for a sermon that winter. The sentence goes on: &ldquo;and that it might be evidenced, the elders or rulers impose their hands.&rdquo; The authority is the congregation&rsquo;s: two or three gathered, each a priest by baptism.'))
 # side path "Who may ordain?": church government (shared resource), less what the spine already shows, with "Who gave the Presbytery authority?"
@@ -370,12 +379,13 @@ A(BIGQ(Q('&ldquo;The clergy are the opposite to the laity. Both these terms are 
   N('Clergy from <i>kl&ecirc;ros</i>, the Lord&rsquo;s lot or inheritance; laity from <i>laos</i>, the people of God. Both words name the whole church.'))
 A(SRC(BIGQ(Q('&ldquo;<b>The community, the church, the multitude of the faithful, are the fountain of official power.</b> This power descends from the body itself &mdash; not from its servants. Servants made by servants are servants of servants&hellip;&rdquo;', 'Alexander Campbell, <i>The Christian System</i> (1839)', 'Alexander, later'), 'clamp(32px,6.8vmin,86px)', '32ch'), 'ekk') +
   N('The theory of Brush Run, written down twenty-seven years later. It goes on: authority &ldquo;thus derived from Christ the head, immediately through his body,&rdquo; is surer than one &ldquo;derived through a long, doubtful, corrupt dynasty of bishops or pontiffs.&rdquo;'))
-for _x in R.universals(): A(_x)                  # side path: the whole church remembers (shared resource)
+for _x in R.universals():                         # side path: the whole church remembers (shared resource), less Luther, who is on the spine
+    if not any(_k in _vis(_x) for _k in _LUTHER): A(_x)
 for _x in R.ekklesia():                           # side path: the church as ekklesia (shared resource), less the fountain already on the spine
     if 'fountain of official power' not in _x and 'Servants made by servants' not in _x: A(_x)
 for _x in R.constitution(): A(_x)                # side path: confession or constitution (shared resource)
 A(CARD('A minister, made by<br>' + G('the priesthood of all believers.'),
-  'The meaning Brush Run attached to it: the authority to make a minister is in the congregation, because every member is a priest. Luther is a witness in &ldquo;The whole church remembers.&rdquo;'))
+  'The meaning Brush Run attached to it: the authority to make a minister is in the congregation, because every member is a priest. Luther said it first: whoever comes out of the water of baptism is already priest, bishop and pope.'))
 A(BLACK)
 
 # ---------- CLOSE ----------

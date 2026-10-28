@@ -32,6 +32,9 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **The May 4, 1811 licensing slide** moved after "The Ordination" card, out of timeline order but next to the ordination it belongs with (Micah, 28 Oct 2026).
+- **Luther on the spine.** Six verified Luther slides now follow "Why the people?" as the witness for baptismal succession: three from 1520 (*To the Christian Nobility*, *Babylonian Captivity*, taken from `priesthood()`) and three from the 1523 Leisnig treatise (taken from `consent()`). Chapter 5's copy of *The whole church remembers* leaves its Luther slides out so they aren't shown twice. The resource itself is unchanged.
+
 - **"What the hands do"** (Richardson: ordination is not "conferring any authority, but… a public testimony") moved from the spine into the side path *Who may ordain?* (Micah, 28 Oct 2026). Micah's line: the tradition narrates its ordinations in two ways, (1) Christians and congregations have authority (Matthew 18), and (2) no authority is needed. The second resolves into the first, since the authority was already given in baptism ("baptismal succession", as in Luther's "whatever issues from baptism…"). The spine argues (1) only; arguments of form (2) go to side paths.
 
 - **Side paths reorganized around the four arguments (Micah, 28 Oct 2026).** Eleven became nine:
