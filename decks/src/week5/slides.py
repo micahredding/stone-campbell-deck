@@ -43,7 +43,7 @@ IDEAS = [
     ('The church can gather<br>' + G('for those who are shut out.'),
      'Brush Run became a church because its people were refused &ldquo;those privileges&hellip; which belong to the Church relation.&rdquo; No synod granted it; the people constituted it, with great reluctance, for each other&rsquo;s sake.'),
     ('The priesthood of all believers<br>' + G('makes its ministers.'),
-     'Ordination &ldquo;consists in the choice of the people&rdquo;; the hands testify to an authority the church has already given. &ldquo;The community, the church, the multitude of the faithful, are the fountain of official power.&rdquo; No clergy-laity line. Side paths: who serves the table; where two or three are gathered.'),
+     'Ordination &ldquo;consists in the choice of the people&rdquo;; the hands testify to an authority the church has already given. &ldquo;The community, the church, the multitude of the faithful, are the fountain of official power.&rdquo; No clergy-laity line. Side paths: who may ordain?; who may serve?; the whole church remembers.'),
 ]
 def IDEA(k):
     h, n = IDEAS[k - 1]
@@ -257,10 +257,20 @@ A(BIGQ(Q('&ldquo;All are defective. <b>The apostle Paul, the angel Gabriel in hu
   N('Let the room laugh. Then: the Seceder table he walked away from in Glasgow would not have had the apostle, and neither would the Synod that just refused his father.'))
 A(BIGQ(Q('&ldquo;We have decided, therefore,&hellip; <b>to open the gates of admission into the Church as wide as the gates of heaven</b>.&rdquo;', AC + ', November 1810 &middot; in Richardson, <i>Memoirs</i>', 'The gates of admission'), 'clamp(38px,8.4vmin,106px)', '26ch') +
   N('In full: &ldquo;to lift it up as a standard for the Church,&rdquo; the New Testament as the only test of admission. The same address: the Society&rsquo;s first work was &ldquo;to remove the stumbling-block of making the private opinions of men a term of communion.&rdquo;'))
+A('<section class="slide breath"><div class=eyebrow>Side path &middot; creeds as tests</div><h2 style="max-width:none">Creeds may teach. May they exclude?</h2>'
+  '<aside class=notes>Side path. The Campbells did not reject creeds as teaching; they rejected them as tests of fellowship, because a test shuts out people God has not shut out. Thomas Campbell, 1809.</aside></section>')
+A(BIGQ(Q('&ldquo;That although doctrinal exhibitions of the great system of Divine truths, and defensive testimonies in opposition to prevailing errors, <b>be highly expedient</b>, and the more full and explicit they be for those purposes, the better; yet&hellip; <b>they ought not to be made terms of Christian communion</b>&hellip;&rdquo;', DA, 'Proposition 7')) +
+  N('Confessions are good teaching. They are human reasoning, full of &ldquo;inferential truths,&rdquo; so they cannot be the door.'))
+A(BIGQ(Q('&ldquo;&hellip;unless we suppose, what is contrary to fact, that none have a right to the communion of the Church, but such as possess a very clear and decisive judgment&hellip; whereas <b>the Church from the beginning did, and ever will, consist of little children and young men, as well as fathers</b>.&rdquo;', DA, 'Proposition 7, continued')) +
+  N('The reason: a test of doctrine excludes the young in faith, whom God has not excluded. 1 John 2:12&ndash;14.'))
+A(BIGQ(Q('&ldquo;&hellip;yet are they not formally binding upon the consciences of Christians farther than they perceive the connection&hellip; Therefore, <b>no such deductions can be made terms of communion</b>, but do properly belong to the after and progressive edification of the Church.&rdquo;', DA, 'Proposition 6')) +
+  N('Inferences belong to teaching, &ldquo;the after and progressive edification of the Church,&rdquo; not to admission.'))
+A(CARD('Creeds may teach.<br>' + G('They may not fence the table.'),
+  'Back to the spine: Alexander&rsquo;s &ldquo;party man&rdquo; address.'))
 A(BIGQ(Q('&ldquo;I dare not be a party man for these reasons&hellip; <b>Because no party will receive into communion all whom God would receive into heaven.</b>&rdquo;', AC + ', 1810 &middot; in Richardson, <i>Memoirs</i>', 'Why he would join no party'), 'clamp(32px,7.2vmin,90px)', '34ch') +
   N('The same year: an address after a sermon at Mr. Buchanan&rsquo;s. The next line: &ldquo;God loves his children more than our creeds, and man was not made for the Bible, but the Bible for man.&rdquo;',
     'Chapter 1&rsquo;s table and Chapter 2&rsquo;s trial, in one sentence.'))
-# ---------- THE ORDINATION ----------
+# ---------- BRUSH RUN BECOMES A CHURCH ----------
 A(BIGQ(Q('&ldquo;&hellip;on account of <b>the continued hostility of the different parties</b>, it was necessary that the Christian Association should assume the character of an independent Church, <b>in order to the enjoyment of those privileges and the performance of those duties which belong to the Church relation</b>.&rdquo;', RICH, 'Why a church')) +
   N('The pastoral need. Its members had been shut out or had drifted from their old congregations: no Supper, no baptism for their children, no one to marry or bury them. '))
 A(BIGQ(Q('&ldquo;It was with <b>great reluctance</b> that he finally concluded to take this step, and to separate himself from those whom he desired to recognize as brethren.&rdquo;', RICH, 'Thomas Campbell, spring 1811')) +
@@ -284,8 +294,6 @@ A(BIGQ(Q('&ldquo;At this meeting, <b>Thomas Campbell was appointed elder</b>, an
     'No presbytery licensed him. The church did.'))
 A(CARD('No bishop. No presbytery.<br>' + G('A congregation.'),
   'Let it sit. This is the thing no church court could imagine: a church that makes its own ministers.'))
-for _x in R.governance(): A(_x)                   # side path: who governs the church (shared resource)
-for _x in R.constitution(): A(_x)                # side path: confession or constitution (shared resource)
 A(C('The First Supper', 'The next day, May 5, 1811, the new church kept the Lord&rsquo;s Supper for the first time. Alexander preached.', 'Brush Run &middot; May 5, 1811'))
 A(BIGQ(Q('&ldquo;<b>I am that bread of life.</b>&rdquo;', 'John 6:48 &middot; Alexander&rsquo;s text that morning &middot; in Richardson, <i>Memoirs</i>', 'His sermon'), 'clamp(48px,11vmin,140px)', '18ch') +
   N('And verse 58: &ldquo;He that eateth of this bread shall live for ever.&rdquo; Two years after he left a table with his token unused, he preaches at a table of his own.'))
@@ -296,8 +304,23 @@ A('<section class="slide"><div class=eyebrow>The sermon&rsquo;s close</div>'
 A(BIGQ(Q('&ldquo;&hellip;the Lord&rsquo;s Supper, which, according to the custom of the Independent churches in Scotland, <b>was now celebrated weekly</b>.&rdquo;', RICH, 'Every Lord&rsquo;s day')) +
   N('The Haldane churches again. At Cane Ridge the Supper came once or twice a year, after weeks of preparation and a token. At Brush Run, every Sunday, from the beginning. That is us.'))
 for _x in R.weekly(): A(_x)                      # side path: the table every Lord's day (shared resource)
-A(BIGQ(Q('&ldquo;The reason being asked, Joseph Bryant replied, that <b>he did not consider himself authorized to partake</b>, as he had never been baptized.&rdquo;', RICH, 'Side path &middot; who was not at the table')) +
-  N('Side path. Three members never baptized: Joseph Bryant, Margaret Fullerton, Abraham Altars. On July 4, 1811 Thomas Campbell immersed them in a deep pool of Buffalo Creek, standing on a root at the edge, unimmersed himself. The baptism question opens here; it gets its own chapter.'))
+# side path "Who may serve?": Campbell on the royal priesthood at the table, then the history (shared resource table())
+A(C('Who serves the table?', 'Side path: who may serve? Brush Run kept the Supper every Lord&rsquo;s day, open to every Christian. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers.'))
+A(SRC(BIGQ(Q('&ldquo;May they not, <b>without a human priest to consecrate the way for them</b>, approach the Lord&rsquo;s table, and <b>handle the loaf and cup</b>?&rdquo;', CS, 'The same priesthood keeps the table'), 'clamp(32px,7.2vmin,90px)', '34ch'), 'acr') +
+  N('Later, in <i>The Christian System</i>. The sentence before: &ldquo;May not, then, holy and royal priests thank God for the Lord&rsquo;s table, its loaf, and cup of wine?&rdquo;',
+    'He had already written, in the <i>Christian Baptist</i> (1827): &ldquo;&lsquo;The administration of ordinances&rsquo; is a popish phrase, and ought to be cashiered from the christian vocabulary.&rdquo;'))
+A(SRC(BIGQ(Q('&ldquo;&hellip;the royal priesthood may approach the Lord&rsquo;s table without fear, inasmuch as they are <b>consecrated to officiate</b> by a blood&hellip;&rdquo;', CS), 'clamp(34px,7.6vmin,96px)', '30ch'), 'acr') +
+  N('Consecrated to officiate: not by a bishop&rsquo;s hands, by Christ&rsquo;s blood. Every baptized member is ordained to the table.',
+    'Against the clergyman who says &ldquo;Stand by, I am holier than thou&rdquo;: he &ldquo;desecrates the royal priesthood of Jesus Christ.&rdquo;'))
+A(SRC(BIGQ(Q('&ldquo;&hellip;he that gives thanks for the loaf should break it <b>not as the representative of the Lord, but after his example</b>&hellip; And thus <b>they as priests feast upon his sacrifice</b>.&rdquo;', CS), 'clamp(32px,7.2vmin,90px)', '34ch'), 'acr') +
+  N('Between the two halves: the disciples hand the loaf &ldquo;to one another,&rdquo; and the one who broke it eats with them. No one stands in for Christ; everyone serves everyone.',
+    '&rarr; In our congregations the thanks at the table are given by members, not by the preacher. That is this, still.'))
+A(BIGQ(Q('&ldquo;That division among the Christians is <b>a horrid evil, fraught with many evils</b>. It is antichristian, as it <b>destroys the visible unity of the body of Christ</b>&hellip;&rdquo;', DA + ', Proposition 10', 'Throwback &middot; Thomas Campbell, 1809')) +
+  N('Chapter 3. The table is where that unity is shown, or denied: a fenced table divides the body at the very place it is meant to be one.'))
+for _x in R.table()[1:-1]: A(_x)                 # its history, without its own title and closing card
+A(CARD('Open to all.<br>' + G('Hosted by any.'),
+  'Brush Run&rsquo;s table was weekly and its fences were coming down. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers. Not only open; hosted by any.'))
+# ---------- THE ORDINATION ----------
 A(C('The Ordination', 'Licensed in May 1811; ordained on January 1, 1812. He preached all over the region through 1811 and married Margaret Brown that March. At Christmas he sat down, as he did every year&rsquo;s end, to examine himself.', 'January 1, 1812'))
 A('<section class="slide"><div class=eyebrow>December 25, 1811 &middot; his own list</div>'
   '<div class="litany" style="text-align:left;gap:1.4vmin">'
@@ -320,7 +343,11 @@ A('<section class="slide"><div class=eyebrow>Signed</div>'
 A(C('Why the people?', 'The theory behind the ordination: why Brush Run believed the authority to make a minister was its own.', 'The meaning of January 1, 1812'))
 A(BIGQ(Q('&ldquo;You see that ordination is not a mere unmeaning thing, but <b>consists in the choice of the people</b>, which must be hearty&hellip;&rdquo;', AC + ', sermon on Titus 1:5 &middot; in Richardson, <i>Memoirs</i>'), 'clamp(32px,7.2vmin,90px)', '34ch') +
   N('His notes for a sermon that winter. The sentence goes on: &ldquo;and that it might be evidenced, the elders or rulers impose their hands.&rdquo; The laying on of hands shows the choice; it does not make it. Richardson: he regarded ordination not &ldquo;as conferring any authority, but as a public testimony that the persons ordained possessed the necessary authority.&rdquo; The authority is the congregation&rsquo;s.'))
-for _x in R.succession(): A(_x)                  # side path: against succession (shared resource)
+# side path "Who may ordain?": church government (shared resource), less what the spine already shows, with "Who gave the Presbytery authority?"
+_gov = [x for x in R.governance() if 'As to the form or ceremony of ordination' not in x and 'The will&rsquo;s bequests on government' not in x]
+for _x in _gov[:-1]: A(_x)
+A(R.succession()[1])
+A(_gov[-1])
 A('<section data-src=will class="slide"><div class=eyebrow>The Springfield Presbytery, 1804 &middot; the court gives up its power</div>'
   '<div class=litany style="gap:4vmin;font-size:3.3em;max-width:90vw">'
   '<div class=no>&ldquo;We will, that <b>our power of making laws for the government of the church</b>, and executing them by delegated authority, <b>forever cease</b>&hellip;&rdquo;</div>'
@@ -344,34 +371,11 @@ A(BIGQ(Q('&ldquo;The clergy are the opposite to the laity. Both these terms are 
 A(SRC(BIGQ(Q('&ldquo;<b>The community, the church, the multitude of the faithful, are the fountain of official power.</b> This power descends from the body itself &mdash; not from its servants. Servants made by servants are servants of servants&hellip;&rdquo;', 'Alexander Campbell, <i>The Christian System</i> (1839)', 'Alexander, later'), 'clamp(32px,6.8vmin,86px)', '32ch'), 'ekk') +
   N('The theory of Brush Run, written down twenty-seven years later. It goes on: authority &ldquo;thus derived from Christ the head, immediately through his body,&rdquo; is surer than one &ldquo;derived through a long, doubtful, corrupt dynasty of bishops or pontiffs.&rdquo;'))
 for _x in R.universals(): A(_x)                  # side path: the whole church remembers (shared resource)
-for _x in R.ekklesia(): A(_x)                    # side path: the church as ekklesia, the assembly (shared resource)
+for _x in R.ekklesia():                           # side path: the church as ekklesia (shared resource), less the fountain already on the spine
+    if 'fountain of official power' not in _x and 'Servants made by servants' not in _x: A(_x)
+for _x in R.constitution(): A(_x)                # side path: confession or constitution (shared resource)
 A(CARD('A minister, made by<br>' + G('the priesthood of all believers.'),
   'The meaning Brush Run attached to it: the authority to make a minister is in the congregation, because every member is a priest. Luther is a witness in &ldquo;The whole church remembers.&rdquo;'))
-# ---------- POINT ONE: WHO SERVES THE TABLE? ----------
-A(C('Who serves the table?', 'The first point. Brush Run kept the Supper every Lord&rsquo;s day, open to every Christian. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers.'))
-A(SRC(BIGQ(Q('&ldquo;May they not, <b>without a human priest to consecrate the way for them</b>, approach the Lord&rsquo;s table, and <b>handle the loaf and cup</b>?&rdquo;', CS, 'The same priesthood keeps the table'), 'clamp(32px,7.2vmin,90px)', '34ch'), 'acr') +
-  N('Later, in <i>The Christian System</i>. The sentence before: &ldquo;May not, then, holy and royal priests thank God for the Lord&rsquo;s table, its loaf, and cup of wine?&rdquo;',
-    'He had already written, in the <i>Christian Baptist</i> (1827): &ldquo;&lsquo;The administration of ordinances&rsquo; is a popish phrase, and ought to be cashiered from the christian vocabulary.&rdquo;'))
-A(SRC(BIGQ(Q('&ldquo;&hellip;the royal priesthood may approach the Lord&rsquo;s table without fear, inasmuch as they are <b>consecrated to officiate</b> by a blood&hellip;&rdquo;', CS), 'clamp(34px,7.6vmin,96px)', '30ch'), 'acr') +
-  N('Consecrated to officiate: not by a bishop&rsquo;s hands, by Christ&rsquo;s blood. Every baptized member is ordained to the table.',
-    'Against the clergyman who says &ldquo;Stand by, I am holier than thou&rdquo;: he &ldquo;desecrates the royal priesthood of Jesus Christ.&rdquo;'))
-A(SRC(BIGQ(Q('&ldquo;&hellip;he that gives thanks for the loaf should break it <b>not as the representative of the Lord, but after his example</b>&hellip; And thus <b>they as priests feast upon his sacrifice</b>.&rdquo;', CS), 'clamp(32px,7.2vmin,90px)', '34ch'), 'acr') +
-  N('Between the two halves: the disciples hand the loaf &ldquo;to one another,&rdquo; and the one who broke it eats with them. No one stands in for Christ; everyone serves everyone.',
-    '&rarr; In our congregations the thanks at the table are given by members, not by the preacher. That is this, still.'))
-A(BIGQ(Q('&ldquo;That division among the Christians is <b>a horrid evil, fraught with many evils</b>. It is antichristian, as it <b>destroys the visible unity of the body of Christ</b>&hellip;&rdquo;', DA + ', Proposition 10', 'Throwback &middot; Thomas Campbell, 1809')) +
-  N('Chapter 3. The table is where that unity is shown, or denied: a fenced table divides the body at the very place it is meant to be one.'))
-A(CARD('Open to all.<br>' + G('Hosted by any.'),
-  'Brush Run&rsquo;s table was weekly and its fences were coming down. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers. Not only open; hosted by any.'))
-for _x in R.table(): A(_x)                       # side path: who keeps the table (shared resource)
-# ---------- POINT TWO: WHERE TWO OR THREE ARE GATHERED ----------
-A(C('Where two or three are gathered', 'Side path. The authority to ordain, and to govern, inheres in the gathered church: Matthew 18 and the Declaration and Address.'))
-A(BIGQ(Q('&ldquo;&hellip;<b>tell it unto the church</b>&hellip; Verily I say unto you, <b>Whatsoever ye shall bind on earth shall be bound in heaven</b>&hellip;&rdquo;', 'Matthew 18:17&ndash;18 (KJV)', 'Where the keys are'), 'clamp(34px,7.6vmin,96px)', '30ch') +
-  N('In Matthew 16 the keys go to Peter. In Matthew 18 the binding and loosing go to &ldquo;the church&rdquo;: the gathering that hears a brother&rsquo;s case. Two verses later, two or three gathered, and Christ in the midst.',
-    'Thomas Campbell, in the <i>Declaration and Address</i>: this is &ldquo;the awful sanction of the Church&rsquo;s judgment.&rdquo;',
-    '&rarr; A church that can bind and loose can surely choose its own minister.'))
-A(BIGQ(Q('&ldquo;&hellip;for where <b>two or three are gathered together in my name</b>, there am I in the midst of them.&rdquo;', DA + ', quoting Matthew 18:20'), 'clamp(36px,8vmin,100px)', '28ch') +
-  N('The <i>Address</i>, to the friends of reform: &ldquo;Let not the paucity of your number in any given district, prove an insuperable discouragement.&rdquo; Thirty people at a creek. Christ in the midst of them.',
-    '&rarr; The title of the hour.'))
 A(BLACK)
 
 # ---------- CLOSE ----------
