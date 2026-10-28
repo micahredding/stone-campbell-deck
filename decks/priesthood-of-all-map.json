@@ -230,69 +230,97 @@
   {
    "index": 32,
    "n": 33,
-   "title": "A church with no bishop from Campbell's memorandum book \"...they had appointed two senior ",
+   "title": "Campbell's model church From his memorandum book",
    "path": "Who keeps the table",
-   "doc": "tbl"
+   "doc": null
   },
   {
    "index": 33,
    "n": 34,
-   "title": "His qualifier \"He may of right preach, baptize, and dispense the supper , as well as pray ",
+   "title": "Who presided \"Not having any person whom they regarded as filling Paul's outlines of a bis",
    "path": "Who keeps the table",
    "doc": "tbl"
   },
   {
    "index": 34,
    "n": 35,
-   "title": "Stone's Christians \"For you cannot find in the New Testament one instance of the church ha",
+   "title": "Every member a part \"He then called upon a brother ... to read a section of the evangelica",
    "path": "Who keeps the table",
    "doc": "tbl"
   },
   {
    "index": 35,
    "n": 36,
-   "title": "The union, 1832 \"...they believe that no person but a preacher has a right to administer t",
+   "title": "At the table \"...he took a small loaf from the table, and in one or two periods gave thank",
    "path": "Who keeps the table",
    "doc": "tbl"
   },
   {
    "index": 36,
    "n": 37,
-   "title": "\"When he is absent the church can do nothing. Like a widow forlorn and desolate, she is so",
+   "title": "Campbell's verdict \"There was no stiffness, no formality, no pageantry ; all was easy, fam",
    "path": "Who keeps the table",
    "doc": "tbl"
   },
   {
    "index": 37,
    "n": 38,
-   "title": "The Churches of Christ settle it \"One, of course, leads in giving thanks. This is not offi",
+   "title": "His qualifier \"He may of right preach, baptize, and dispense the supper , as well as pray ",
    "path": "Who keeps the table",
    "doc": "tbl"
   },
   {
    "index": 38,
    "n": 39,
-   "title": "Three paths from one table \"An ordained minister, as representative of Christ presiding at",
+   "title": "Stone's Christians \"For you cannot find in the New Testament one instance of the church ha",
    "path": "Who keeps the table",
    "doc": "tbl"
   },
   {
    "index": 39,
    "n": 40,
+   "title": "The union, 1832 \"...they believe that no person but a preacher has a right to administer t",
+   "path": "Who keeps the table",
+   "doc": "tbl"
+  },
+  {
+   "index": 40,
+   "n": 41,
+   "title": "\"When he is absent the church can do nothing. Like a widow forlorn and desolate, she is so",
+   "path": "Who keeps the table",
+   "doc": "tbl"
+  },
+  {
+   "index": 41,
+   "n": 42,
+   "title": "The Churches of Christ settle it \"One, of course, leads in giving thanks. This is not offi",
+   "path": "Who keeps the table",
+   "doc": "tbl"
+  },
+  {
+   "index": 42,
+   "n": 43,
+   "title": "Three paths from one table \"An ordained minister, as representative of Christ presiding at",
+   "path": "Who keeps the table",
+   "doc": "tbl"
+  },
+  {
+   "index": 43,
+   "n": 44,
    "title": "No one stands in Christ's place. Everyone waits on everyone.",
    "path": "Who keeps the table",
    "doc": null
   },
   {
-   "index": 40,
-   "n": 41,
+   "index": 44,
+   "n": 45,
    "title": "Every Christian a priest. Every congregation a priesthood.",
    "path": "spine",
    "doc": null
   },
   {
-   "index": 41,
-   "n": 42,
+   "index": 45,
+   "n": 46,
    "title": "(black)",
    "path": "spine",
    "doc": null
@@ -324,8 +352,8 @@
   22,
   23,
   24,
-  40,
-  41
+  44,
+  45
  ],
  "branches": [
   {
@@ -346,7 +374,11 @@
     36,
     37,
     38,
-    39
+    39,
+    40,
+    41,
+    42,
+    43
    ]
   }
  ],
@@ -582,57 +614,82 @@
    "text": "He would not tolerate a disciple in his church to baptize a candidate, nor to ‘administer the Lord’s supper,’ nor to pray over the loaf or the cup."
   },
   {
-   "slide": 32,
-   "doc": "tbl",
-   "text": "they had appointed two senior members, of a very grave deportment, to preside in their meetings."
-  },
-  {
-   "slide": 32,
-   "doc": "tbl",
-   "text": "he took a small loaf from the table, and in one or two periods gave thanks for it."
-  },
-  {
-   "slide": 32,
-   "doc": "tbl",
-   "text": "each one waiting upon his brother, until all were served."
-  },
-  {
    "slide": 33,
    "doc": "tbl",
-   "text": "He may of right preach, baptize, and dispense the supper, as well as pray for all men, when circumstances demand it."
+   "text": "Not having any person whom they regarded as filling Paul’s outlines of a bishop, they had appointed two senior members, of a very grave deportment, to preside in their meetings. These persons were not competent to labor in the word and teaching; but they were qualified to rule well"
   },
   {
    "slide": 34,
    "doc": "tbl",
-   "text": "For you cannot find in the New Testament one instance of the church having authority to ordain elders or bishops or deacons, or to administer baptism or the supper. You will find that the ministry existed before the church"
+   "text": "He then called upon a brother"
+  },
+  {
+   "slide": 34,
+   "doc": "tbl",
+   "text": "to read a section of the evangelical history."
+  },
+  {
+   "slide": 34,
+   "doc": "tbl",
+   "text": "the president called upon a brother to pray in the name of the congregation."
+  },
+  {
+   "slide": 34,
+   "doc": "tbl",
+   "text": "the whole congregation, brethren and sisters, pronounced aloud the final Amen."
   },
   {
    "slide": 35,
    "doc": "tbl",
-   "text": "they believe that no person but a preacher has a right to administer the ordinances — such as the breaking of the loaf"
+   "text": "he took a small loaf from the table, and in one or two periods gave thanks for it."
+  },
+  {
+   "slide": 35,
+   "doc": "tbl",
+   "text": "each one waiting upon his brother, until all were served."
   },
   {
    "slide": 36,
    "doc": "tbl",
-   "text": "When he is absent the church can do nothing. Like a widow forlorn and desolate, she is solitary and silent."
+   "text": "There was no stiffness, no formality, no pageantry; all was easy, familiar, solemn, cheerful."
   },
   {
    "slide": 37,
    "doc": "tbl",
-   "text": "One, of course, leads in giving thanks. This is not officiating, for any disciple can do this. It does not pertain to any office."
+   "text": "He may of right preach, baptize, and dispense the supper, as well as pray for all men, when circumstances demand it."
   },
   {
    "slide": 38,
+   "doc": "tbl",
+   "text": "For you cannot find in the New Testament one instance of the church having authority to ordain elders or bishops or deacons, or to administer baptism or the supper. You will find that the ministry existed before the church"
+  },
+  {
+   "slide": 39,
+   "doc": "tbl",
+   "text": "they believe that no person but a preacher has a right to administer the ordinances — such as the breaking of the loaf"
+  },
+  {
+   "slide": 40,
+   "doc": "tbl",
+   "text": "When he is absent the church can do nothing. Like a widow forlorn and desolate, she is solitary and silent."
+  },
+  {
+   "slide": 41,
+   "doc": "tbl",
+   "text": "One, of course, leads in giving thanks. This is not officiating, for any disciple can do this. It does not pertain to any office."
+  },
+  {
+   "slide": 42,
    "doc": "tbl",
    "text": "An ordained minister, as representative of Christ presiding at the Lord’s Table, serves in Christ’s place as host at the Table."
   },
   {
-   "slide": 38,
+   "slide": 42,
    "doc": "tbl",
    "text": "within Australian Churches of Christ ‘lay presidency’ is almost the norm"
   },
   {
-   "slide": 38,
+   "slide": 42,
    "doc": "tbl",
    "text": "we have denied women the opportunity to pass Communion trays because we have described it as a ‘leadership role.’"
   }
