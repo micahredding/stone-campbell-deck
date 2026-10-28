@@ -32,6 +32,14 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **Act I ends on the open table (Micah, 28 Oct 2026).** The token now leads, through the reunion and the Society's need of a church, straight to the Synod's refusal and Alexander's November 1810 reply, so his refusal of the token connects to his words on openness, the position that kept his father out of the Synod. In order:
+  - "cannot be granted";
+  - the Synod's four "important reasons" (copied from the reserve deck, gold on "opposing creeds and confessions"; the reserve deck keeps its own copy);
+  - "Who may come?" (now "Alexander answers, November 1810") with *Creeds as tests*;
+  - new: "In Glasgow he gave back the token. / In Washington he said why.";
+  - new: "Three founders, one table" (Stone 1803 "not from their communion", Thomas 1807, Alexander 1809), and the card "Three founders. One open table." If the class ends at Act I, it ends here.
+  - "Two ways not to become a sect", the two-column slide and *Becoming Baptists* moved from before the Synod to after Act I, opening Brush Run's turn to becoming a church.
+
 - **The May 4, 1811 licensing slide** moved after "The Ordination" card, out of timeline order but next to the ordination it belongs with (Micah, 28 Oct 2026).
 - **Luther on the spine.** Six verified Luther slides now follow "Why the people?" as the witness for baptismal succession: three from 1520 (*To the Christian Nobility*, *Babylonian Captivity*, taken from `priesthood()`) and three from the 1523 Leisnig treatise (taken from `consent()`). Chapter 5's copy of *The whole church remembers* leaves its Luther slides out so they aren't shown twice. The resource itself is unchanged.
 
