@@ -267,7 +267,7 @@ A(BIGQ(Q('&ldquo;&hellip;unless we suppose, what is contrary to fact, that none 
 A(BIGQ(Q('&ldquo;&hellip;yet are they not formally binding upon the consciences of Christians farther than they perceive the connection&hellip; Therefore, <b>no such deductions can be made terms of communion</b>, but do properly belong to the after and progressive edification of the Church.&rdquo;', DA, 'Proposition 6')) +
   N('Inferences belong to teaching, &ldquo;the after and progressive edification of the Church,&rdquo; not to admission.'))
 A(CARD('Creeds may teach.<br>' + G('They may not fence the table.'),
-  'Back to the spine: the Synod of Pittsburg'Back to the spine: Alexander&rsquo;s &ldquo;party man&rdquo; address.'rsquo;s answer.'))
+  'Back to the spine: the Synod of Pittsburg&rsquo;s answer.'))
 A(BIGQ(Q('&ldquo;&hellip;Mr. Campbell&rsquo;s request to be received into ministerial and Christian communion <b>cannot be granted</b>.&rdquo;', MIN, 'The Synod of Pittsburg, October 1810'), 'clamp(40px,9vmin,110px)', '24ch') +
   N('Unanimous. Among its reasons: Thomas&rsquo;s &ldquo;opposing creeds and confessions as injurious to the interests of religion.&rdquo; Alexander&rsquo;s November address was his public reply. The reasons, and more of the reply, are in the reserve deck.'))
 # ---------- BRUSH RUN BECOMES A CHURCH ----------
