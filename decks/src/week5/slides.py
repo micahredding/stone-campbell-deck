@@ -278,6 +278,7 @@ A(BIGQ(Q('&ldquo;As the reformers were, however, <b>at this time identified with
     'In 1829 he dropped the name because &ldquo;he feared that the name Christian Baptists would be given to the advocates of the Reformation.&rdquo; The 1848 memory was written from the far side of that break.'))
 A(CARD('Refused by the Presbyterians,<br>' + G('they became Baptists.'),
   'For most of the next two decades the Campbells&rsquo; churches belonged to Baptist associations: Redstone from 1813, Alexander&rsquo;s Wellsburg church in the Mahoning Association from 1823. His paper (1823&ndash;1830) was called <i>The Christian Baptist</i>. The separation came around 1830.<br>&rarr; &ldquo;Stone gave up his institution. The Campbells kept looking for one to belong to.&rdquo;'))
+A(C('Brush Run Church Formed', 'Saturday, May 4, 1811, at the Brush Run meeting house. About thirty members. They sang Psalm 118 in the old Scottish metrical version.', 'May 4, 1811'))
 A(BIGQ(Q('&ldquo;At this meeting, <b>Thomas Campbell was appointed elder</b>, and <b>Alexander was licensed to preach the gospel</b>. Four deacons were also chosen&hellip;&rdquo;', RICH, 'May 4, 1811')) +
   N('The deacons: John Dawson, George Sharp, William Gilcrist, James Foster. About thirty members.',
     'No presbytery licensed him. The church did.'))
