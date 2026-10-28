@@ -32,6 +32,8 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **"Who may come?"** (Alexander's November 1810 address and the "party man" address) moved from after the first Supper to directly after the Synod of Pittsburg's refusal, as Alexander's answer to it, before Brush Run became a church (Micah, 28 Oct 2026).
+
 - **The two points became side paths (Micah's story outline, 27 Oct 2026).** Both now fork from the closing card, "A minister, made by the priesthood of all believers":
   - "Who serves the table?" (Campbell's royal-priesthood passages, "a horrid evil," "Open to all. Hosted by any.") is the side path *Who serves the table?*, with *Who keeps the table* beside it.
   - "Where two or three are gathered" (Matthew 18, the D&A on Matthew 18, the Last Will's "choose her own preacher," "Brush Run chose.") is the side path *Where two or three are gathered*.
