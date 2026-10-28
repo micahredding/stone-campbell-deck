@@ -300,28 +300,28 @@
   {
    "index": 42,
    "n": 43,
-   "title": "The Synod of Pittsburg, October 1810 \"...Mr. Campbell's request to be received into minist",
-   "path": "spine",
-   "doc": "rich"
-  },
-  {
-   "index": 43,
-   "n": 44,
-   "title": "Alexander's answer, November 1810 Who may come?",
+   "title": "Alexander, 1810 Who may come?",
    "path": "spine",
    "doc": null
   },
   {
+   "index": 43,
+   "n": 44,
+   "title": "The creeds as gates \"That standards had been lifted up which narrowed the gates of Zion ..",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
    "index": 44,
    "n": 45,
-   "title": "The creeds as gates \"That standards had been lifted up which narrowed the gates of Zion ..",
+   "title": "\"All are defective. The apostle Paul, the angel Gabriel in human form, could not be admitt",
    "path": "spine",
    "doc": "rich"
   },
   {
    "index": 45,
    "n": 46,
-   "title": "\"All are defective. The apostle Paul, the angel Gabriel in human form, could not be admitt",
+   "title": "Why he would join no party \"I dare not be a party man for these reasons... Because no part",
    "path": "spine",
    "doc": "rich"
   },
@@ -370,7 +370,7 @@
   {
    "index": 52,
    "n": 53,
-   "title": "Why he would join no party \"I dare not be a party man for these reasons... Because no part",
+   "title": "The Synod of Pittsburg, October 1810 \"...Mr. Campbell's request to be received into minist",
    "path": "spine",
    "doc": "rich"
   },
@@ -1686,24 +1686,29 @@
    "text": "the Society must obtain admission into some regularly organized religious body, or be itself compelled to change its attitude and resolve itself into an independent Church — an alternative which Thomas Campbell particularly desired to avoid."
   },
   {
-   "slide": 42,
-   "doc": "rich",
-   "text": "Mr. Campbell’s request to be received into ministerial and Christian communion cannot be granted."
-  },
-  {
-   "slide": 44,
+   "slide": 43,
    "doc": "rich",
    "text": "That standards had been lifted up which narrowed the gates of Zion"
   },
   {
-   "slide": 44,
+   "slide": 43,
    "doc": "rich",
    "text": "and there were none of them but would reject those whom God has not rejected, and deny admission to those whom God had admitted."
   },
   {
-   "slide": 45,
+   "slide": 44,
    "doc": "rich",
    "text": "All are defective. The apostle Paul, the angel Gabriel in human form, could not be admitted on the principles of these standards."
+  },
+  {
+   "slide": 45,
+   "doc": "rich",
+   "text": "I dare not be a party man for these reasons"
+  },
+  {
+   "slide": 45,
+   "doc": "rich",
+   "text": "Because no party will receive into communion all whom God would receive into heaven."
   },
   {
    "slide": 46,
@@ -1748,12 +1753,7 @@
   {
    "slide": 52,
    "doc": "rich",
-   "text": "I dare not be a party man for these reasons"
-  },
-  {
-   "slide": 52,
-   "doc": "rich",
-   "text": "Because no party will receive into communion all whom God would receive into heaven."
+   "text": "Mr. Campbell’s request to be received into ministerial and Christian communion cannot be granted."
   },
   {
    "slide": 53,
