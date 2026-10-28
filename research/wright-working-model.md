@@ -2,7 +2,7 @@
 
 Read with Stone-Campbell ears, N. T. Wright makes the founders' case from the New Testament itself. The church is a taste of new creation, and its substance is unity. That unity must be visible: against denominations, against division, against a drab uniformity, and for freedom of conscience. It is practiced at the table, in baptism, in singing and in scripture. It is the church's testimony to the powers, and it draws the world.
 
-Wright's language only. The sources are *God's Homecoming* (2025), *The Vision of Ephesians* (2025) and *Simply Christian* (2006); see "About the citations" at the end.
+Wright's language throughout, with Stone-Campbell parallels set beside him in three places: drab uniformity (3c), Communion as the future (4a), and reading scripture (4d). Wright's sources are *God's Homecoming* (2025), *The Vision of Ephesians* (2025) and *Simply Christian* (2006); see "About the citations" at the end.
 
 <style>
 details.sec { border-top: 1px solid #d0d7de; padding: .4em 0; }
@@ -160,6 +160,17 @@ details.sub > summary { cursor: pointer; font-size: 1.1em; font-weight: 600; }
 
 — SC p. 157
 
+**Side by side: the Stone-Campbell founders against uniformity of opinion**
+
+| Wright | Stone-Campbell |
+|---|---|
+| "The principalities and powers always tend toward a monochrome, drab uniformity, squashing everything into the same shape and dealing violently with the bits that refuse to conform." (GH p. 276) | "Unity of opinion, expressed in subscription to voluminous dogmas imported from Geneva, Westminster, Edinburgh, or Rome, is made the bond of union; and a difference in the tenth or ten-thousandth shade of opinion frequently becomes the actual cause of dismemberment or expulsion." (A. Campbell, *Christian System*, p. 123) |
+| "Here's the trick: unity doesn't mean uniformity, but pluriformity doesn't mean chaos." (VE §6) | "Let us hold fast their traditions; contend only for the faith; allow differences of opinion; suffer no dogmatists; countenance none of the disciples of Diotrephes; and walk in love." (A. Campbell, *Christian System*, p. 103) |
+| "…some of us like doing things this way, some prefer to do them that way, so don't judge one another—leave that to the Messiah!" (GH p. 270) | "…every man must be allowed to judge for himself, as every man must bear his own judgment… no man has a right to judge his brother, except in so far as he manifestly violates the express letter of the law. That every such judgment is an express violation of the law of Christ, a daring usurpation of his throne, and a gross intrusion upon the rights and liberties of his subjects." (T. Campbell, *Declaration and Address*, 1809) |
+| "Let's be clear: equality does not mean uniformity." (GH p. 277) | "…although inferences and deductions from Scripture premises, when fairly inferred, may be truly called the doctrine of God's holy word, yet are they not formally binding upon the consciences of Christians farther than they perceive the connection." (T. Campbell, *Declaration and Address*, Prop. 6) |
+| "…individual likes and dislikes (which is what I call them when they're mine) and irrational prejudices (which is what I call them when they're yours)… we should expect to have demands made on our charity and our patience." (SC p. 157) | "…a love regulated by similarity of opinion is only a love to one's own opinion." (A. Campbell, *Christian System*, p. 121) |
+| "Unity does not mean identity." (VE §8) | "It is the image of Christ the Christian looks for and loves; and this does not consist in being exact in a few items, but in general devotion to the whole truth as far as known." (A. Campbell, *Millennial Harbinger*, Sept. 1837, p. 412) |
+
 *Note: Wright's "polychrome" is mainly ethnic and cultural diversity. Applying it to freedom of conscience is our step; his own bridge is the Romans 14 welcome above.*
 
 
@@ -211,6 +222,15 @@ details.sub > summary { cursor: pointer; font-size: 1.1em; font-weight: 600; }
 > "Once we have tasted new creation, we are commissioned to be new-creation people."
 
 — GH p. 254
+
+**Side by side: Communion as the future arriving**
+
+| Wright | Stone-Campbell |
+|---|---|
+| "We are presented, close up and personally, with new creation that we can eat and drink." (GH p. 252) | At Brush Run's first communion (5 May 1811), Campbell told the new congregation that "in assembling there on that occasion, they furnished an emblem of the millennial state of the Church, nay, an emblem of the heavenly state, when men of different nations, and known by different names, should sit down together in the kingdom of God." (Richardson, *Memoirs of Alexander Campbell* I:369. Richardson's indirect report of the sermon, so attribute the wording to Richardson.) |
+| "The Eucharist… is the advance reality of what we are promised in the end." (GH p. 253) | At Cane Ridge, 1801: "Together, in sweetest, holiest, symbolic communion, they sat down at the one table of the one Lord… Such were the glories of the times that many good people thought assuredly, the millennium had begun to dawn upon the world." (William Rogers, in *The Biography of Elder David Purviance*, 1848, p. 298) |
+| "…in the bread-breaking we are tasting God's new creation." (SC p. 154) | "In receiving it, the disciple says, 'Lord, I believe it. My life sprung from thy suffering; my joys from thy sorrows; and my hope of glory everlasting from thy humiliation and abasement even to death.' Each disciple, in handing the symbols to his fellow-disciple, says in effect, 'You, my brother, once an alien, are now a citizen of heaven; once a stranger, are now brought home to the family of God… we shall jointly suffer with him, that we may jointly reign with him.'" (A. Campbell, *Christian System*, "Breaking the Loaf," pp. 329–330) |
+| "The Eucharist… defines the church: 'There is one loaf… we are one body, because we all share the one loaf.'" (GH p. 254) | "You have owned my Lord as your Lord, my people as your people. Under Jesus the Messiah we are one." Campbell then quotes the hymn: "Blest be the tie that binds / Our hearts in christian love; / The fellowship of kindred minds / Is like to that above." (*Christian System*, p. 330) |
 
 
 </details>
@@ -284,6 +304,16 @@ details.sub > summary { cursor: pointer; font-size: 1.1em; font-weight: 600; }
 > "The new converts would indeed have been powerfully aware of the presence of Jesus in word, in sacrament and in the koinonia of the church."
 
 — VE §3 (Eph 1:15–23)
+
+**Side by side: Campbell on reading scripture**
+
+| Wright | Stone-Campbell |
+|---|---|
+| "Hearing God's voice in scripture isn't simply a matter of precise, technical expertise. It's a matter of love." (SC p. 189) | "We must come within the understanding distance. There is a distance which is properly called the speaking distance, or the hearing distance; beyond which the voice reaches not, and the ear hears not… as it respects God, there is an understanding distance. All beyond that distance cannot understand God; all within it, can easily understand him in all matters of piety and morality. God himself is the centre of that circle, and humility is its circumference." And: "while the philological principles and rules of interpretation enable many men to be skilful in biblical criticism… who neither perceive nor admire the things represented by those words; the sound eye contemplates the things themselves, and is ravished with the moral scenes which the Bible unfolds." (A. Campbell, *Christian System*, "Rules of Interpretation," Rule 7, pp. 17–18) |
+| "Reading scripture, like praying and sharing in the sacraments, is one of the means by which the life of heaven and the life of earth interlock… places to go where God has promised to meet with his people." (SC p. 188) | "All the means of grace are, therefore, only the means of impressing this seal upon the heart… Testimony and faith are but the channel through which these facts, or the hand of God, draws the image on the heart and character of man." (A. Campbell, *Christian System*, pp. 116–117) |
+| "The Bible… is not simply an authoritative description of a saving plan, as though it were just an aerial photograph… It is part of the saving plan itself." (SC pp. 185–186) | "The New Testament was not designed to occupy the same place in theological seminaries that the carcasses of malefactors are condemned to occupy in medical halls — first doomed to the gibbet, and then to the dissecting-knife of the spiritual anatomist. Christianity consists infinitely more in good works than in sound opinions." (A. Campbell, *Christian System*, p. 123) |
+
+*Honest difference: Campbell's "means of grace" work by bringing moral facts before the mind (he is a Lockean), where Wright speaks of heaven and earth meeting. Both refuse the Bible as a specimen for dissection or a rulebook to be parsed.*
 
 
 </details>
@@ -381,6 +411,7 @@ details.sub > summary { cursor: pointer; font-size: 1.1em; font-weight: 600; }
 - **VE** = Tom Wright, *The Vision of Ephesians* (SPCK, 2025). The ebook has no page numbers, so it is cited by Wright's section and the Ephesians passage: §1 Introduction; §2 Eph 1:3–14; §3 Eph 1:15–23; §4 Eph 2; §5 Eph 3; §6 Eph 4:1–24; §7 Eph 4:25–5:20; §8 Eph 5:21–6:9; §9 Eph 6:10–20.
 - **SC** = N. T. Wright, *Simply Christian* (HarperOne, 2006), cited by print page.
 - Wright doesn't capitalize "spirit" in GH and VE; the quotations keep his usage. Bold is ours.
+- Stone-Campbell sources: A. Campbell, *The Christian System* (1871 printing; pages from the scan's running heads); T. Campbell, *Declaration and Address* (1809; checked against the class site's full text); *Millennial Harbinger* 1837; R. Richardson, *Memoirs of Alexander Campbell*, vol. 1 (1868); *The Biography of Elder David Purviance* (1848).
 - Every quotation was read in the ebook text on 2026-10-27. The Stone-Campbell parallels assembled earlier are kept in the research database ("Wright and Stone-Campbell Side by Side").
 
 
