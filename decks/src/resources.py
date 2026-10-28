@@ -511,13 +511,25 @@ def table(extra=()):
              'Alexander Campbell, <i>Millennial Harbinger</i> (1830)', 'The test of a clergy') +
            N('His proof that a preacher belongs to &ldquo;the aspiring priesthood&rdquo;: he will not let an ordinary disciple give thanks at the table. If he does permit it, Campbell says, &ldquo;I will except him from the priesthood.&rdquo;')),
 
-        '<section data-src=tbl class="slide"><div class=eyebrow>A church with no bishop &middot; from Campbell&rsquo;s memorandum book</div>'
-        '<div class=litany style="font-size:1.85em;max-width:88vw;gap:2.8vmin;text-align:left">'
-        '<div class="no frag">&ldquo;&hellip;they had appointed <b>two senior members</b>, of a very grave deportment, <b>to preside in their meetings</b>.&rdquo;</div>'
-        '<div class="no frag">&ldquo;&hellip;he took a small loaf from the table, and in one or two periods <b>gave thanks for it</b>.&rdquo;</div>'
+        '<section data-src=tbl class="slide breath"><div class=eyebrow>Campbell&rsquo;s model church</div><h2 style="max-width:none">From his memorandum book</h2>'
+        '<aside class=notes>In <i>The Christian System</i>, &ldquo;Breaking the Loaf,&rdquo; Campbell copies a Lord&rsquo;s day he saw in an unnamed congregation (&ldquo;The church in &mdash;&mdash;&rdquo;), as &ldquo;the highest approach to the model, which we have in our eye.&rdquo; Not Brush Run, so far as we know; written in the 1830s. Who presided at Brush Run in 1811 is not recorded.</aside></section>',
+        _t(BIG(Q('&ldquo;Not having any person whom they regarded as filling Paul&rsquo;s outlines of a bishop, they had appointed <b>two senior members</b>, of a very grave deportment, <b>to preside in their meetings</b>. These persons were not competent to labor in the word and teaching; but they were qualified to rule well&hellip;&rdquo;', CS_LOAF, 'Who presided'), 'clamp(30px,6.4vmin,80px)', '34ch') +
+           N('About fifty members. No ordained man, and none needed: the church appointed two of its own. &ldquo;One of them presided at each meeting.&rdquo;')),
+        '<section data-src=tbl class="slide"><div class=eyebrow>Every member a part</div>'
+        '<div class=litany style="font-size:2.4em;max-width:88vw;gap:2.8vmin;text-align:left">'
+        '<div class="no frag">&ldquo;He then called upon <b>a brother</b>&hellip; <b>to read</b> a section of the evangelical history.&rdquo;</div>'
+        '<div class="no frag">&ldquo;&hellip;the president called upon <b>a brother to pray in the name of the congregation</b>.&rdquo;</div>'
+        '<div class="no frag">&ldquo;&hellip;the whole congregation, <b>brethren and sisters</b>, pronounced aloud the final Amen.&rdquo;</div>'
+        '</div><div class=cite>' + CS_LOAF + '</div>'
+        '<aside class=notes>Three clicks. The president calls on members; the members read, pray and answer. A brother also names the hymn before the table.</aside></section>',
+        '<section data-src=tbl class="slide"><div class=eyebrow>At the table</div>'
+        '<div class=litany style="font-size:2.7em;max-width:88vw;gap:2.8vmin;text-align:left">'
+                '<div class="no frag">&ldquo;&hellip;he took a small loaf from the table, and in one or two periods <b>gave thanks for it</b>.&rdquo;</div>'
         '<div class="no frag">&ldquo;&hellip;<b>each one waiting upon his brother, until all were served</b>.&rdquo;</div>'
         '</div><div class=cite>' + CS_LOAF + '</div>'
-        '<aside class=notes>Three clicks. About fifty members, no one fit to be a bishop; the two presiders &ldquo;were not competent to labor in the word and teaching.&rdquo; The loaf passed &ldquo;from one to another&rdquo;: &ldquo;no stiffness, no formality, no pageantry; all was easy, familiar, solemn, cheerful.&rdquo; Campbell&rsquo;s picture of the ancient order at the table.</aside></section>',
+        '<aside class=notes>Two clicks. The loaf passed &ldquo;from one to another&rdquo;: &ldquo;no stiffness, no formality, no pageantry; all was easy, familiar, solemn, cheerful.&rdquo; Campbell&rsquo;s picture of the ancient order at the table.</aside></section>',
+        _t(BIG(Q('&ldquo;There was <b>no stiffness, no formality, no pageantry</b>; all was easy, familiar, solemn, cheerful.&rdquo;', CS_LOAF, 'Campbell&rsquo;s verdict'), 'clamp(40px,9vmin,110px)', '22ch') +
+           N('And: the thanksgivings were as brief &ldquo;as the thanks usually presented at a common table.&rdquo; Honest note: &ldquo;the strangers sat off on seats more remote&rdquo;; in this church the bread and cup went to the disciples.')),
 
         _t(Q('&ldquo;He may of right <b>preach, baptize, and dispense the supper</b>, as well as pray for all men, when circumstances demand it.&rdquo;',
              'Alexander Campbell, <i>The Christian System</i> (1839)', 'His qualifier') +
