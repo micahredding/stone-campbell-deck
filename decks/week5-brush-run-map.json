@@ -776,42 +776,42 @@
   {
    "index": 110,
    "n": 111,
+   "title": "What the hands do \"As to the form or ceremony of ordination, he did not regard it as confe",
+   "path": "Who may ordain?",
+   "doc": "rich"
+  },
+  {
+   "index": 111,
+   "n": 112,
    "title": "Christ in the midst of two or three. Every other office answers to that.",
    "path": "Who may ordain?",
    "doc": null
   },
   {
-   "index": 111,
-   "n": 112,
-   "title": "The Springfield Presbytery, 1804 the court gives up its power \"We will, that our power of ",
-   "path": "spine",
-   "doc": "will"
-  },
-  {
    "index": 112,
    "n": 113,
-   "title": "The Springfield Presbytery, 1804 the congregation takes it up \"We will, that the church of",
+   "title": "The Springfield Presbytery, 1804 the court gives up its power \"We will, that our power of ",
    "path": "spine",
    "doc": "will"
   },
   {
    "index": 113,
    "n": 114,
+   "title": "The Springfield Presbytery, 1804 the congregation takes it up \"We will, that the church of",
+   "path": "spine",
+   "doc": "will"
+  },
+  {
+   "index": 114,
+   "n": 115,
    "title": "The Springfield Presbytery died so that congregations could choose. Brush Run chose.",
    "path": "spine",
    "doc": null
   },
   {
-   "index": 114,
-   "n": 115,
-   "title": "His views, 1811 \"Each church was independent, and had the exclusive authority to select it",
-   "path": "spine",
-   "doc": "rich"
-  },
-  {
    "index": 115,
    "n": 116,
-   "title": "What the hands do \"As to the form or ceremony of ordination, he did not regard it as confe",
+   "title": "His views, 1811 \"Each church was independent, and had the exclusive authority to select it",
    "path": "spine",
    "doc": "rich"
   },
@@ -1218,7 +1218,6 @@
   98,
   99,
   100,
-  111,
   112,
   113,
   114,
@@ -1311,7 +1310,8 @@
     107,
     108,
     109,
-    110
+    110,
+    111
    ]
   },
   {
@@ -1413,7 +1413,7 @@
   },
   {
    "label": "Close",
-   "at": 74
+   "at": 73
   }
  ],
  "docs": [
@@ -2051,54 +2051,54 @@
    "text": "Who has authority?Who gave the Presbytery authority to license men?Who gave the Presbytery authority to make laws for the Church?Who gave the Presbytery authority to decide religious matters by vote?Who gave the Presbytery authority to choose ministers?"
   },
   {
-   "slide": 111,
+   "slide": 110,
+   "doc": "rich",
+   "text": "As to the form or ceremony of ordination, he did not regard it as conferring any authority, but as a public testimony that the persons ordained possessed the necessary authority."
+  },
+  {
+   "slide": 112,
    "doc": "will",
    "text": "We will, that our power of making laws for the government of the church, and executing them by delegated authority, forever cease"
   },
   {
-   "slide": 111,
+   "slide": 112,
    "doc": "will",
    "text": "We will, that candidates for the Gospel ministry"
   },
   {
-   "slide": 111,
+   "slide": 112,
    "doc": "will",
    "text": "obtain license from God to preach the simple Gospel"
   },
   {
-   "slide": 112,
+   "slide": 113,
    "doc": "will",
    "text": "We will, that the church of Christ assume her native right of internal government—try her candidates for the ministry"
   },
   {
-   "slide": 112,
+   "slide": 113,
    "doc": "will",
    "text": "and admit no other proof of their authority, but Christ speaking in them."
   },
   {
-   "slide": 112,
+   "slide": 113,
    "doc": "will",
    "text": "We will, that each particular church, as a body"
   },
   {
-   "slide": 112,
+   "slide": 113,
    "doc": "will",
    "text": "choose her own preacher"
   },
   {
-   "slide": 112,
+   "slide": 113,
    "doc": "will",
    "text": "and never henceforth delegate her right of government to any man or set of men whatever."
   },
   {
-   "slide": 114,
-   "doc": "rich",
-   "text": "Each church was independent, and had the exclusive authority to select its own officials, who were, when approved, to be set apart by a formal ordination."
-  },
-  {
    "slide": 115,
    "doc": "rich",
-   "text": "As to the form or ceremony of ordination, he did not regard it as conferring any authority, but as a public testimony that the persons ordained possessed the necessary authority."
+   "text": "Each church was independent, and had the exclusive authority to select its own officials, who were, when approved, to be set apart by a formal ordination."
   },
   {
    "slide": 116,
