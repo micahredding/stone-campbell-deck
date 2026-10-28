@@ -13,9 +13,9 @@
   {
    "index": 1,
    "n": 2,
-   "title": "Quiz Which is the preferred title for our preacher? A. Pastor B. Reverend C. Brother D. No",
+   "title": "Quiz What was carved on the front of the communion table in your church? \"...this do in re",
    "path": "spine",
-   "doc": null
+   "doc": "kjv"
   },
   {
    "index": 2,
@@ -34,7 +34,7 @@
   {
    "index": 4,
    "n": 5,
-   "title": "Our Wild Democracy Chapter 5 Wherever Two or Three Are Gathered Brush Run, Pennsylvania 18",
+   "title": "Our Wild Democracy Chapter 5 Session one Wherever Two or Three Are Gathered Glasgow to Was",
    "path": "spine",
    "doc": null
   },
@@ -405,832 +405,895 @@
   {
    "index": 57,
    "n": 58,
-   "title": "Two ways not to become a sect",
+   "title": "for discussion session one What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
   {
    "index": 58,
    "n": 59,
-   "title": "Stone's side, 1804 dissolve our own body \"We will, that this body die, be dissolved, and s",
+   "title": "Idea The Lord's table turns no Christian away.",
    "path": "spine",
-   "doc": "will"
+   "doc": null
   },
   {
    "index": 59,
    "n": 60,
-   "title": "Side path becoming Baptists Brush Run's overture, fall 1813 \"...expressing a willingness, ",
-   "path": "Becoming Baptists",
-   "doc": "rich"
+   "title": "for discussion session one What is beautiful here? What do we carry forward?",
+   "path": "spine",
+   "doc": null
   },
   {
    "index": 60,
    "n": 61,
-   "title": "The name of his paper, 1823 \"As the reformers were, however, at this time identified with ",
-   "path": "Becoming Baptists",
-   "doc": "rich"
+   "title": "Online stone-campbell.micahredding.com Home Timeline Exhibits People Exhibits Timeline Peo",
+   "path": "spine",
+   "doc": null
   },
   {
    "index": 61,
    "n": 62,
-   "title": "Refused by the Presbyterians, they became Baptists.",
-   "path": "Becoming Baptists",
+   "title": "Next time: shut out by every church they asked, they become one. And they make their own m",
+   "path": "spine",
    "doc": null
   },
   {
    "index": 62,
    "n": 63,
-   "title": "Why a church \"...on account of the continued hostility of the different parties , it was n",
+   "title": "(black)",
    "path": "spine",
-   "doc": "rich"
+   "doc": null
   },
   {
    "index": 63,
    "n": 64,
-   "title": "Thomas Campbell, spring 1811 \"It was with great reluctance that he finally concluded to ta",
+   "title": "Otter Creek Fall 2026 Our Wild Democracy The Story, Promise, and Future of the Churches of",
    "path": "spine",
-   "doc": "rich"
+   "doc": null
   },
   {
    "index": 64,
    "n": 65,
-   "title": "May 4, 1811 Brush Run Church Formed",
+   "title": "Quiz Which is the preferred title for our preacher? A. Pastor B. Reverend C. Brother D. No",
    "path": "spine",
    "doc": null
   },
   {
    "index": 65,
    "n": 66,
-   "title": "No bishop. No presbytery. A congregation.",
+   "title": "Our Wild Democracy Chapter 5 Session two Wherever Two or Three Are Gathered Brush Run, Pen",
    "path": "spine",
    "doc": null
   },
   {
    "index": 66,
    "n": 67,
-   "title": "Brush Run May 5, 1811 The First Supper",
+   "title": "Last session Three founders. One open table.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 67,
    "n": 68,
-   "title": "His sermon \" I am that bread of life. \" John 6:48 Alexander's text that morning in Richard",
+   "title": "Two ways not to become a sect",
    "path": "spine",
-   "doc": "rich"
+   "doc": null
   },
   {
    "index": 68,
    "n": 69,
-   "title": "The sermon's close \"...in assembling there on that occasion, they furnished an emblem of t",
+   "title": "Stone's side, 1804 dissolve our own body \"We will, that this body die, be dissolved, and s",
    "path": "spine",
-   "doc": "rich"
+   "doc": "will"
   },
   {
    "index": 69,
    "n": 70,
-   "title": "Every Lord's day \"...the Lord's Supper, which, according to the custom of the Independent ",
-   "path": "spine",
+   "title": "Side path becoming Baptists Brush Run's overture, fall 1813 \"...expressing a willingness, ",
+   "path": "Becoming Baptists",
    "doc": "rich"
   },
   {
    "index": 70,
    "n": 71,
+   "title": "The name of his paper, 1823 \"As the reformers were, however, at this time identified with ",
+   "path": "Becoming Baptists",
+   "doc": "rich"
+  },
+  {
+   "index": 71,
+   "n": 72,
+   "title": "Refused by the Presbyterians, they became Baptists.",
+   "path": "Becoming Baptists",
+   "doc": null
+  },
+  {
+   "index": 72,
+   "n": 73,
+   "title": "Why a church \"...on account of the continued hostility of the different parties , it was n",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 73,
+   "n": 74,
+   "title": "Thomas Campbell, spring 1811 \"It was with great reluctance that he finally concluded to ta",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 74,
+   "n": 75,
+   "title": "May 4, 1811 Brush Run Church Formed",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 75,
+   "n": 76,
+   "title": "No bishop. No presbytery. A congregation.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 76,
+   "n": 77,
+   "title": "Brush Run May 5, 1811 The First Supper",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 77,
+   "n": 78,
+   "title": "His sermon \" I am that bread of life. \" John 6:48 Alexander's text that morning in Richard",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 78,
+   "n": 79,
+   "title": "The sermon's close \"...in assembling there on that occasion, they furnished an emblem of t",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 79,
+   "n": 80,
+   "title": "Every Lord's day \"...the Lord's Supper, which, according to the custom of the Independent ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 80,
+   "n": 81,
    "title": "Every Lord's day a resource The table every Lord's day The early church, the Reformers, We",
    "path": "Every Lord&rsquo;s day",
    "doc": null
   },
   {
-   "index": 71,
-   "n": 72,
+   "index": 81,
+   "n": 82,
    "title": "The early church \"But every Lord's day gather yourselves together, and break bread , and g",
    "path": "Every Lord&rsquo;s day",
    "doc": "lord"
   },
   {
-   "index": 72,
-   "n": 73,
+   "index": 82,
+   "n": 83,
    "title": "c. 155 \"And on the day called Sunday... bread and wine and water are brought, and the pres",
    "path": "Every Lord&rsquo;s day",
    "doc": "lord"
   },
   {
-   "index": 73,
-   "n": 74,
+   "index": 83,
+   "n": 84,
    "title": "The Reformers \" Each week, at least, the table of the Lord ought to have been spread for t",
    "path": "Every Lord&rsquo;s day",
    "doc": "lord"
   },
   {
-   "index": 74,
-   "n": 75,
+   "index": 84,
+   "n": 85,
    "title": "Wesley \"I also advise the elders to administer the Supper of the Lord on every Lord's Day ",
    "path": "Every Lord&rsquo;s day",
    "doc": "lord"
   },
   {
-   "index": 75,
-   "n": 76,
+   "index": 85,
+   "n": 86,
    "title": "The table every Lord's day \"...the Lord's Supper... was now celebrated weekly .\" Brush Run",
    "path": "Every Lord&rsquo;s day",
    "doc": "lord"
   },
   {
-   "index": 76,
-   "n": 77,
+   "index": 86,
+   "n": 87,
    "title": "Rome, on us \"It came from the desire to lead the Church towards a unity rooted in the week",
    "path": "Every Lord&rsquo;s day",
    "doc": "lord"
   },
   {
-   "index": 77,
-   "n": 78,
+   "index": 87,
+   "n": 88,
    "title": "\"This phase of the dialogue has achieved consensus that the weekly celebration of the Euch",
    "path": "Every Lord&rsquo;s day",
    "doc": "lord"
   },
   {
-   "index": 78,
-   "n": 79,
+   "index": 88,
+   "n": 89,
    "title": "The whole church has asked for it. Brush Run kept it.",
    "path": "Every Lord&rsquo;s day",
    "doc": null
   },
   {
-   "index": 79,
-   "n": 80,
+   "index": 89,
+   "n": 90,
    "title": "Who serves the table?",
    "path": "Who may serve?",
    "doc": null
   },
   {
-   "index": 80,
-   "n": 81,
+   "index": 90,
+   "n": 91,
    "title": "The same priesthood keeps the table \"May they not, without a human priest to consecrate th",
    "path": "Who may serve?",
    "doc": "acr"
   },
   {
-   "index": 81,
-   "n": 82,
+   "index": 91,
+   "n": 92,
    "title": "\"...the royal priesthood may approach the Lord's table without fear, inasmuch as they are ",
    "path": "Who may serve?",
    "doc": "acr"
   },
   {
-   "index": 82,
-   "n": 83,
+   "index": 92,
+   "n": 93,
    "title": "\"...he that gives thanks for the loaf should break it not as the representative of the Lor",
    "path": "Who may serve?",
    "doc": "acr"
   },
   {
-   "index": 83,
-   "n": 84,
+   "index": 93,
+   "n": 94,
    "title": "Throwback Thomas Campbell, 1809 \"That division among the Christians is a horrid evil, frau",
    "path": "Who may serve?",
    "doc": "dna"
   },
   {
-   "index": 84,
-   "n": 85,
-   "title": "Before us \"... where three are, a church is , albeit they be laics.\" Tertullian, On Exhort",
-   "path": "Who may serve?",
-   "doc": "tbl"
-  },
-  {
-   "index": 85,
-   "n": 86,
-   "title": "Scotland \"The apparent question at issue was: may a group of believers not set in order wi",
-   "path": "Who may serve?",
-   "doc": "tbl"
-  },
-  {
-   "index": 86,
-   "n": 87,
-   "title": "Two or three \"...were only two christians in any place, such as on shipboard ... they ough",
-   "path": "Who may serve?",
-   "doc": "tbl"
-  },
-  {
-   "index": 87,
-   "n": 88,
-   "title": "\"Is there any thing to be done at the table of the Lord, which any brother, who can give t",
-   "path": "Who may serve?",
-   "doc": "tbl"
-  },
-  {
-   "index": 88,
-   "n": 89,
-   "title": "Campbell \"'The administration of ordinances' is a popish phrase , and ought to be cashiere",
-   "path": "Who may serve?",
-   "doc": "tbl"
-  },
-  {
-   "index": 89,
-   "n": 90,
-   "title": "The test of a clergy \"He would not tolerate a disciple in his church to baptize a candidat",
-   "path": "Who may serve?",
-   "doc": "tbl"
-  },
-  {
-   "index": 90,
-   "n": 91,
-   "title": "Campbell's model church From his memorandum book",
-   "path": "Who may serve?",
-   "doc": null
-  },
-  {
-   "index": 91,
-   "n": 92,
-   "title": "Who presided \"Not having any person whom they regarded as filling Paul's outlines of a bis",
-   "path": "Who may serve?",
-   "doc": "tbl"
-  },
-  {
-   "index": 92,
-   "n": 93,
-   "title": "Every member a part \"He then called upon a brother ... to read a section of the evangelica",
-   "path": "Who may serve?",
-   "doc": "tbl"
-  },
-  {
-   "index": 93,
-   "n": 94,
-   "title": "At the table \"...he took a small loaf from the table, and in one or two periods gave thank",
-   "path": "Who may serve?",
-   "doc": "tbl"
-  },
-  {
    "index": 94,
    "n": 95,
-   "title": "Campbell's verdict \"There was no stiffness, no formality, no pageantry ; all was easy, fam",
+   "title": "Before us \"... where three are, a church is , albeit they be laics.\" Tertullian, On Exhort",
    "path": "Who may serve?",
    "doc": "tbl"
   },
   {
    "index": 95,
    "n": 96,
-   "title": "His qualifier \"He may of right preach, baptize, and dispense the supper , as well as pray ",
+   "title": "Scotland \"The apparent question at issue was: may a group of believers not set in order wi",
    "path": "Who may serve?",
    "doc": "tbl"
   },
   {
    "index": 96,
    "n": 97,
-   "title": "Stone's Christians \"For you cannot find in the New Testament one instance of the church ha",
+   "title": "Two or three \"...were only two christians in any place, such as on shipboard ... they ough",
    "path": "Who may serve?",
    "doc": "tbl"
   },
   {
    "index": 97,
    "n": 98,
-   "title": "The union, 1832 \"...they believe that no person but a preacher has a right to administer t",
+   "title": "\"Is there any thing to be done at the table of the Lord, which any brother, who can give t",
    "path": "Who may serve?",
    "doc": "tbl"
   },
   {
    "index": 98,
    "n": 99,
-   "title": "\"When he is absent the church can do nothing. Like a widow forlorn and desolate, she is so",
+   "title": "Campbell \"'The administration of ordinances' is a popish phrase , and ought to be cashiere",
    "path": "Who may serve?",
    "doc": "tbl"
   },
   {
    "index": 99,
    "n": 100,
-   "title": "The Churches of Christ settle it \"One, of course, leads in giving thanks. This is not offi",
+   "title": "The test of a clergy \"He would not tolerate a disciple in his church to baptize a candidat",
    "path": "Who may serve?",
    "doc": "tbl"
   },
   {
    "index": 100,
    "n": 101,
+   "title": "Campbell's model church From his memorandum book",
+   "path": "Who may serve?",
+   "doc": null
+  },
+  {
+   "index": 101,
+   "n": 102,
+   "title": "Who presided \"Not having any person whom they regarded as filling Paul's outlines of a bis",
+   "path": "Who may serve?",
+   "doc": "tbl"
+  },
+  {
+   "index": 102,
+   "n": 103,
+   "title": "Every member a part \"He then called upon a brother ... to read a section of the evangelica",
+   "path": "Who may serve?",
+   "doc": "tbl"
+  },
+  {
+   "index": 103,
+   "n": 104,
+   "title": "At the table \"...he took a small loaf from the table, and in one or two periods gave thank",
+   "path": "Who may serve?",
+   "doc": "tbl"
+  },
+  {
+   "index": 104,
+   "n": 105,
+   "title": "Campbell's verdict \"There was no stiffness, no formality, no pageantry ; all was easy, fam",
+   "path": "Who may serve?",
+   "doc": "tbl"
+  },
+  {
+   "index": 105,
+   "n": 106,
+   "title": "His qualifier \"He may of right preach, baptize, and dispense the supper , as well as pray ",
+   "path": "Who may serve?",
+   "doc": "tbl"
+  },
+  {
+   "index": 106,
+   "n": 107,
+   "title": "Stone's Christians \"For you cannot find in the New Testament one instance of the church ha",
+   "path": "Who may serve?",
+   "doc": "tbl"
+  },
+  {
+   "index": 107,
+   "n": 108,
+   "title": "The union, 1832 \"...they believe that no person but a preacher has a right to administer t",
+   "path": "Who may serve?",
+   "doc": "tbl"
+  },
+  {
+   "index": 108,
+   "n": 109,
+   "title": "\"When he is absent the church can do nothing. Like a widow forlorn and desolate, she is so",
+   "path": "Who may serve?",
+   "doc": "tbl"
+  },
+  {
+   "index": 109,
+   "n": 110,
+   "title": "The Churches of Christ settle it \"One, of course, leads in giving thanks. This is not offi",
+   "path": "Who may serve?",
+   "doc": "tbl"
+  },
+  {
+   "index": 110,
+   "n": 111,
    "title": "Three paths from one table \"An ordained minister, as representative of Christ presiding at",
    "path": "Who may serve?",
    "doc": "tbl"
   },
   {
-   "index": 101,
-   "n": 102,
+   "index": 111,
+   "n": 112,
    "title": "Open to all. Hosted by any.",
    "path": "Who may serve?",
    "doc": null
   },
   {
-   "index": 102,
-   "n": 103,
+   "index": 112,
+   "n": 113,
    "title": "January 1, 1812 The Ordination",
    "path": "spine",
    "doc": null
   },
   {
-   "index": 103,
-   "n": 104,
+   "index": 113,
+   "n": 114,
    "title": "May 4, 1811 \"At this meeting, Thomas Campbell was appointed elder , and Alexander was lice",
    "path": "spine",
    "doc": "rich"
   },
   {
-   "index": 104,
-   "n": 105,
+   "index": 114,
+   "n": 115,
    "title": "December 25, 1811 his own list \"Special instances of Divine power which I consider to bind",
    "path": "spine",
    "doc": "rich"
   },
   {
-   "index": 105,
-   "n": 106,
-   "title": "\"We do hereby certify that Alexander Campbell... was, according to the principles of this ",
-   "path": "spine",
-   "doc": "rich"
-  },
-  {
-   "index": 106,
-   "n": 107,
-   "title": "Signed Thomas Campbell, senior minister George Sharp William Gilcrist James Foster John Da",
-   "path": "spine",
-   "doc": null
-  },
-  {
-   "index": 107,
-   "n": 108,
-   "title": "The meaning of January 1, 1812 Why the people?",
-   "path": "spine",
-   "doc": null
-  },
-  {
-   "index": 108,
-   "n": 109,
-   "title": "A witness, 1520-1523 Martin Luther: ordained in baptism",
-   "path": "spine",
-   "doc": null
-  },
-  {
-   "index": 109,
-   "n": 110,
-   "title": "Luther \"...all Christians are truly of the 'spiritual estate,' and there is among them no ",
-   "path": "spine",
-   "doc": "priest"
-  },
-  {
-   "index": 110,
-   "n": 111,
-   "title": "Ordained in baptism \"For whoever comes out the water of baptism can boast that he is alrea",
-   "path": "spine",
-   "doc": "priest"
-  },
-  {
-   "index": 111,
-   "n": 112,
-   "title": "\"... we are all priests, and there is no difference between us ; that is to say, we have t",
-   "path": "spine",
-   "doc": "priest"
-  },
-  {
-   "index": 112,
-   "n": 113,
-   "title": "1523 \"...no one can deny that every Christian has God's Word and is taught of God and anoi",
-   "path": "spine",
-   "doc": "church"
-  },
-  {
-   "index": 113,
-   "n": 114,
-   "title": "Luther, 1523 \"If the bishop does not confirm him, he is none the less confirmed by virtue ",
-   "path": "spine",
-   "doc": "church"
-  },
-  {
-   "index": 114,
-   "n": 115,
-   "title": "Luther, 1523 for the congregation at Leisnig \"... the sheep are to judge whether what they",
-   "path": "spine",
-   "doc": "church"
-  },
-  {
    "index": 115,
    "n": 116,
-   "title": "\"You see that ordination is not a mere unmeaning thing, but consists in the choice of the ",
+   "title": "\"We do hereby certify that Alexander Campbell... was, according to the principles of this ",
    "path": "spine",
    "doc": "rich"
   },
   {
    "index": 116,
    "n": 117,
-   "title": "Church government a resource Who governs the church? What Jesus said, what Cane Ridge will",
-   "path": "Who may ordain?",
+   "title": "Signed Thomas Campbell, senior minister George Sharp William Gilcrist James Foster John Da",
+   "path": "spine",
    "doc": null
   },
   {
    "index": 117,
    "n": 118,
-   "title": "To the gathered church \"... tell it unto the church : but if he neglect to hear the church",
-   "path": "Who may ordain?",
-   "doc": "kjv"
+   "title": "The meaning of January 1, 1812 Why the people?",
+   "path": "spine",
+   "doc": null
   },
   {
    "index": 118,
    "n": 119,
-   "title": "\"For where two or three are gathered together in my name , there am I in the midst of them",
-   "path": "Who may ordain?",
-   "doc": "kjv"
+   "title": "A witness, 1520-1523 Martin Luther: ordained in baptism",
+   "path": "spine",
+   "doc": null
   },
   {
    "index": 119,
    "n": 120,
-   "title": "Thomas Campbell on Matthew 18 Appendix \"'What ye bind on earth shall be bound in heaven' i",
-   "path": "Who may ordain?",
-   "doc": "dna"
+   "title": "Luther \"...all Christians are truly of the 'spiritual estate,' and there is among them no ",
+   "path": "spine",
+   "doc": "priest"
   },
   {
    "index": 120,
    "n": 121,
-   "title": "\"An individual church or congregation of Christ's disciples is the only ecclesiastical bod",
-   "path": "Who may ordain?",
-   "doc": "cb"
+   "title": "Ordained in baptism \"For whoever comes out the water of baptism can boast that he is alrea",
+   "path": "spine",
+   "doc": "priest"
   },
   {
    "index": 121,
    "n": 122,
-   "title": "Every believer \"But ye are a chosen generation, a royal priesthood , an holy nation, a pec",
-   "path": "Who may ordain?",
-   "doc": "kjv"
+   "title": "\"... we are all priests, and there is no difference between us ; that is to say, we have t",
+   "path": "spine",
+   "doc": "priest"
   },
   {
    "index": 122,
    "n": 123,
-   "title": "\"...they soon found that there was neither precept nor example in the New Testament for su",
-   "path": "Who may ordain?",
-   "doc": "will"
+   "title": "1523 \"...no one can deny that every Christian has God's Word and is taught of God and anoi",
+   "path": "spine",
+   "doc": "church"
   },
   {
    "index": 123,
    "n": 124,
-   "title": "\"Why do we contend for uninterrupted succession in ordination, seeing it is not the person",
-   "path": "Who may ordain?",
-   "doc": "rich"
+   "title": "Luther, 1523 \"If the bishop does not confirm him, he is none the less confirmed by virtue ",
+   "path": "spine",
+   "doc": "church"
   },
   {
    "index": 124,
    "n": 125,
-   "title": "Asked why he preached without authority \" Who has authority? Who gave the Presbytery autho",
-   "path": "Who may ordain?",
-   "doc": "rich"
+   "title": "Luther, 1523 for the congregation at Leisnig \"... the sheep are to judge whether what they",
+   "path": "spine",
+   "doc": "church"
   },
   {
    "index": 125,
    "n": 126,
-   "title": "What the hands do \"As to the form or ceremony of ordination, he did not regard it as confe",
-   "path": "Who may ordain?",
+   "title": "\"You see that ordination is not a mere unmeaning thing, but consists in the choice of the ",
+   "path": "spine",
    "doc": "rich"
   },
   {
    "index": 126,
    "n": 127,
-   "title": "Christ in the midst of two or three. Every other office answers to that.",
+   "title": "Church government a resource Who governs the church? What Jesus said, what Cane Ridge will",
    "path": "Who may ordain?",
    "doc": null
   },
   {
    "index": 127,
    "n": 128,
+   "title": "To the gathered church \"... tell it unto the church : but if he neglect to hear the church",
+   "path": "Who may ordain?",
+   "doc": "kjv"
+  },
+  {
+   "index": 128,
+   "n": 129,
+   "title": "\"For where two or three are gathered together in my name , there am I in the midst of them",
+   "path": "Who may ordain?",
+   "doc": "kjv"
+  },
+  {
+   "index": 129,
+   "n": 130,
+   "title": "Thomas Campbell on Matthew 18 Appendix \"'What ye bind on earth shall be bound in heaven' i",
+   "path": "Who may ordain?",
+   "doc": "dna"
+  },
+  {
+   "index": 130,
+   "n": 131,
+   "title": "\"An individual church or congregation of Christ's disciples is the only ecclesiastical bod",
+   "path": "Who may ordain?",
+   "doc": "cb"
+  },
+  {
+   "index": 131,
+   "n": 132,
+   "title": "Every believer \"But ye are a chosen generation, a royal priesthood , an holy nation, a pec",
+   "path": "Who may ordain?",
+   "doc": "kjv"
+  },
+  {
+   "index": 132,
+   "n": 133,
+   "title": "\"...they soon found that there was neither precept nor example in the New Testament for su",
+   "path": "Who may ordain?",
+   "doc": "will"
+  },
+  {
+   "index": 133,
+   "n": 134,
+   "title": "\"Why do we contend for uninterrupted succession in ordination, seeing it is not the person",
+   "path": "Who may ordain?",
+   "doc": "rich"
+  },
+  {
+   "index": 134,
+   "n": 135,
+   "title": "Asked why he preached without authority \" Who has authority? Who gave the Presbytery autho",
+   "path": "Who may ordain?",
+   "doc": "rich"
+  },
+  {
+   "index": 135,
+   "n": 136,
+   "title": "What the hands do \"As to the form or ceremony of ordination, he did not regard it as confe",
+   "path": "Who may ordain?",
+   "doc": "rich"
+  },
+  {
+   "index": 136,
+   "n": 137,
+   "title": "Christ in the midst of two or three. Every other office answers to that.",
+   "path": "Who may ordain?",
+   "doc": null
+  },
+  {
+   "index": 137,
+   "n": 138,
    "title": "The Springfield Presbytery, 1804 the court gives up its power \"We will, that our power of ",
    "path": "spine",
    "doc": "will"
   },
   {
-   "index": 128,
-   "n": 129,
+   "index": 138,
+   "n": 139,
    "title": "The Springfield Presbytery, 1804 the congregation takes it up \"We will, that the church of",
    "path": "spine",
    "doc": "will"
   },
   {
-   "index": 129,
-   "n": 130,
+   "index": 139,
+   "n": 140,
    "title": "The Springfield Presbytery died so that congregations could choose. Brush Run chose.",
    "path": "spine",
    "doc": null
   },
   {
-   "index": 130,
-   "n": 131,
+   "index": 140,
+   "n": 141,
    "title": "His views, 1811 \"Each church was independent, and had the exclusive authority to select it",
    "path": "spine",
    "doc": "rich"
   },
   {
-   "index": 131,
-   "n": 132,
+   "index": 141,
+   "n": 142,
    "title": "\"The clergy are the opposite to the laity. Both these terms are used in Scripture to denot",
    "path": "spine",
    "doc": "rich"
   },
   {
-   "index": 132,
-   "n": 133,
+   "index": 142,
+   "n": 143,
    "title": "Alexander, later \" The community, the church, the multitude of the faithful, are the fount",
    "path": "spine",
    "doc": "ekk"
   },
   {
-   "index": 133,
-   "n": 134,
+   "index": 143,
+   "n": 144,
    "title": "The whole church remembers a resource What the whole church knows The priesthood of all th",
    "path": "The whole church remembers",
    "doc": null
   },
   {
-   "index": 134,
-   "n": 135,
+   "index": 144,
+   "n": 145,
    "title": "The priesthood of all \"The New Testament never uses the term 'priesthood' or 'priest' ( hi",
    "path": "The whole church remembers",
    "doc": "church"
   },
   {
-   "index": 135,
-   "n": 136,
+   "index": 145,
+   "n": 146,
    "title": "Orthodox \"The gift of the Spirit that every member of the faithful receives in the sacrame",
    "path": "The whole church remembers",
    "doc": "church"
   },
   {
-   "index": 136,
-   "n": 137,
+   "index": 146,
+   "n": 147,
    "title": "Orthodox \"The first, the basic definition of man is that he is the priest .\" Alexander Sch",
    "path": "The whole church remembers",
    "doc": "church"
   },
   {
-   "index": 137,
-   "n": 138,
+   "index": 147,
+   "n": 148,
    "title": "The governance of all \"...I made up my mind to do nothing on my own private opinion, witho",
    "path": "The whole church remembers",
    "doc": "church"
   },
   {
-   "index": 138,
-   "n": 139,
+   "index": 148,
+   "n": 149,
    "title": "\" He who is to govern all, should be chosen by all. \" Leo the Great, bishop of Rome, Lette",
    "path": "The whole church remembers",
    "doc": "church"
   },
   {
-   "index": 139,
-   "n": 140,
+   "index": 149,
+   "n": 150,
    "title": "Orthodox \"... the protector of religion is the very body of the Church, even the people th",
    "path": "The whole church remembers",
    "doc": "church"
   },
   {
-   "index": 140,
-   "n": 141,
+   "index": 150,
+   "n": 151,
    "title": "Catholic \"...in this Church, as in an inverted pyramid, the top is located beneath the bas",
    "path": "The whole church remembers",
    "doc": "church"
   },
   {
-   "index": 141,
-   "n": 142,
+   "index": 151,
+   "n": 152,
    "title": "Why it is beautiful \" Juridical power is a substitute for love in actual social life... In",
    "path": "The whole church remembers",
    "doc": "church"
   },
   {
-   "index": 142,
-   "n": 143,
+   "index": 152,
+   "n": 153,
    "title": "Baptism the Synod on Synodality, 2024 \"There is nothing higher than this baptismal dignity",
    "path": "The whole church remembers",
    "doc": "church"
   },
   {
-   "index": 143,
-   "n": 144,
+   "index": 153,
+   "n": 154,
    "title": "Baptism \"Our common baptism, which unites us to Christ in faith, is thus a basic bond of u",
    "path": "The whole church remembers",
    "doc": "church"
   },
   {
-   "index": 144,
-   "n": 145,
+   "index": 154,
+   "n": 155,
    "title": "\"To the intent that now unto the principalities and powers in heavenly places might be kno",
    "path": "The whole church remembers",
    "doc": "kjv"
   },
   {
-   "index": 145,
-   "n": 146,
+   "index": 155,
+   "n": 156,
    "title": "What the whole church confesses, we try to practice every Lord's day.",
    "path": "The whole church remembers",
    "doc": null
   },
   {
-   "index": 146,
-   "n": 147,
-   "title": "The church as ekklēsia a resource The word Paul chose was the name of the citizens' assemb",
-   "path": "The assembly",
-   "doc": null
-  },
-  {
-   "index": 147,
-   "n": 148,
-   "title": "Athens: the open floor \"Freedom's mark is also seen in this: Who hath wholesome counsel to",
-   "path": "The assembly",
-   "doc": "ekk"
-  },
-  {
-   "index": 148,
-   "n": 149,
-   "title": "The same word, in the New Testament \"...it shall be determined in a legal congregation ...",
-   "path": "The assembly",
-   "doc": "ekk"
-  },
-  {
-   "index": 149,
-   "n": 150,
-   "title": "The scholars \"...Paul wished to portray his communities as alternative organizations exist",
-   "path": "The assembly",
-   "doc": "ekk"
-  },
-  {
-   "index": 150,
-   "n": 151,
-   "title": "The Christian assembly \"When you are come together, each of you has a psalm, has a discour",
-   "path": "The assembly",
-   "doc": "ekk"
-  },
-  {
-   "index": 151,
-   "n": 152,
-   "title": "The floor passes 1 Corinthians 14:29-31 \"... and let the others judge .\" \"...you can all p",
-   "path": "The assembly",
-   "doc": "ekk"
-  },
-  {
-   "index": 152,
-   "n": 153,
-   "title": "The assembly decides \"...this punishment, which was inflicted by the majority .\" 2 Corinth",
-   "path": "The assembly",
-   "doc": "ekk"
-  },
-  {
-   "index": 153,
-   "n": 154,
-   "title": "The translators' fight \"...where I found this word ecclesia , I interpreted it by this wor",
-   "path": "The assembly",
-   "doc": "ekk"
-  },
-  {
-   "index": 154,
-   "n": 155,
-   "title": "Campbell takes Tyndale's side \" Wherever the word church is found in the common version, c",
-   "path": "The assembly",
-   "doc": "ekk"
-  },
-  {
-   "index": 155,
-   "n": 156,
-   "title": "And back again \"... modern democracy began with the experience of the Puritan congregation",
-   "path": "The assembly",
-   "doc": "ekk"
-  },
-  {
    "index": 156,
    "n": 157,
-   "title": "Not a building. Not a clergy. The people, assembled.",
+   "title": "The church as ekklēsia a resource The word Paul chose was the name of the citizens' assemb",
    "path": "The assembly",
    "doc": null
   },
   {
    "index": 157,
    "n": 158,
-   "title": "Confession or constitution a resource What governs the church? The Westminster Confession,",
-   "path": "Confession or constitution",
-   "doc": null
+   "title": "Athens: the open floor \"Freedom's mark is also seen in this: Who hath wholesome counsel to",
+   "path": "The assembly",
+   "doc": "ekk"
   },
   {
    "index": 158,
    "n": 159,
-   "title": "The other answer Westminster Confession, chapter 30 30.1 \"The Lord Jesus, as King and Head",
-   "path": "Confession or constitution",
-   "doc": "wcf"
+   "title": "The same word, in the New Testament \"...it shall be determined in a legal congregation ...",
+   "path": "The assembly",
+   "doc": "ekk"
   },
   {
    "index": 159,
    "n": 160,
-   "title": "Proposition 4 \"...the New Testament is as perfect a constitution for the worship, discipli",
-   "path": "Confession or constitution",
-   "doc": "dna"
+   "title": "The scholars \"...Paul wished to portray his communities as alternative organizations exist",
+   "path": "The assembly",
+   "doc": "ekk"
   },
   {
    "index": 160,
    "n": 161,
-   "title": "Proposition 2 \"That although the Church of Christ upon earth must necessarily exist in par",
-   "path": "Confession or constitution",
-   "doc": "dna"
+   "title": "The Christian assembly \"When you are come together, each of you has a psalm, has a discour",
+   "path": "The assembly",
+   "doc": "ekk"
   },
   {
    "index": 161,
    "n": 162,
-   "title": "Not a confession over the church. The New Testament is its constitution.",
-   "path": "Confession or constitution",
-   "doc": null
+   "title": "The floor passes 1 Corinthians 14:29-31 \"... and let the others judge .\" \"...you can all p",
+   "path": "The assembly",
+   "doc": "ekk"
   },
   {
    "index": 162,
    "n": 163,
-   "title": "A minister, made by the priesthood of all believers.",
-   "path": "spine",
-   "doc": null
+   "title": "The assembly decides \"...this punishment, which was inflicted by the majority .\" 2 Corinth",
+   "path": "The assembly",
+   "doc": "ekk"
   },
   {
    "index": 163,
    "n": 164,
-   "title": "(black)",
-   "path": "spine",
-   "doc": null
+   "title": "The translators' fight \"...where I found this word ecclesia , I interpreted it by this wor",
+   "path": "The assembly",
+   "doc": "ekk"
   },
   {
    "index": 164,
    "n": 165,
-   "title": "for discussion What is beautiful here? What do we carry forward?",
-   "path": "spine",
-   "doc": null
+   "title": "Campbell takes Tyndale's side \" Wherever the word church is found in the common version, c",
+   "path": "The assembly",
+   "doc": "ekk"
   },
   {
    "index": 165,
    "n": 166,
-   "title": "Idea 1 of 3 The Lord's table turns no Christian away.",
-   "path": "spine",
-   "doc": null
+   "title": "And back again \"... modern democracy began with the experience of the Puritan congregation",
+   "path": "The assembly",
+   "doc": "ekk"
   },
   {
    "index": 166,
    "n": 167,
-   "title": "Idea 2 of 3 The church can gather for those who are shut out.",
-   "path": "spine",
+   "title": "Not a building. Not a clergy. The people, assembled.",
+   "path": "The assembly",
    "doc": null
   },
   {
    "index": 167,
    "n": 168,
-   "title": "Idea 3 of 3 The priesthood of all believers makes its ministers.",
-   "path": "spine",
+   "title": "Confession or constitution a resource What governs the church? The Westminster Confession,",
+   "path": "Confession or constitution",
    "doc": null
   },
   {
    "index": 168,
    "n": 169,
-   "title": "Ideas 1. The Lord's table turns no Christian away. 2. The church can gather for those who ",
-   "path": "spine",
-   "doc": null
+   "title": "The other answer Westminster Confession, chapter 30 30.1 \"The Lord Jesus, as King and Head",
+   "path": "Confession or constitution",
+   "doc": "wcf"
   },
   {
    "index": 169,
    "n": 170,
-   "title": "for discussion What is beautiful here? What do we carry forward?",
-   "path": "spine",
-   "doc": null
+   "title": "Proposition 4 \"...the New Testament is as perfect a constitution for the worship, discipli",
+   "path": "Confession or constitution",
+   "doc": "dna"
   },
   {
    "index": 170,
    "n": 171,
-   "title": "Online stone-campbell.micahredding.com Home Timeline Exhibits People Exhibits Timeline Peo",
-   "path": "spine",
-   "doc": null
+   "title": "Proposition 2 \"That although the Church of Christ upon earth must necessarily exist in par",
+   "path": "Confession or constitution",
+   "doc": "dna"
   },
   {
    "index": 171,
    "n": 172,
-   "title": "Next week: living into God's future. \"An emblem of the millennial state of the Church.\" In",
-   "path": "spine",
-   "doc": "rich"
+   "title": "Not a confession over the church. The New Testament is its constitution.",
+   "path": "Confession or constitution",
+   "doc": null
   },
   {
    "index": 172,
    "n": 173,
-   "title": "(black)",
+   "title": "A minister, made by the priesthood of all believers.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 173,
    "n": 174,
-   "title": "Addendum",
-   "path": "Addendum",
+   "title": "(black)",
+   "path": "spine",
    "doc": null
   },
   {
    "index": 174,
    "n": 175,
-   "title": "The year, in order Oct 1808 the Hibernia wrecked off Islay; Glasgow for the winter Sep 180",
-   "path": "Addendum",
+   "title": "for discussion session two What is beautiful here? What do we carry forward?",
+   "path": "spine",
    "doc": null
   },
   {
    "index": 175,
    "n": 176,
+   "title": "Idea 1 of 2 The church can gather for those who are shut out.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 176,
+   "n": 177,
+   "title": "Idea 2 of 2 The priesthood of all believers makes its ministers.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 177,
+   "n": 178,
+   "title": "Chapter 5's ideas 1. The Lord's table turns no Christian away. 2. The church can gather fo",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 178,
+   "n": 179,
+   "title": "for discussion session two What is beautiful here? What do we carry forward?",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 179,
+   "n": 180,
+   "title": "Online stone-campbell.micahredding.com Home Timeline Exhibits People Exhibits Timeline Peo",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 180,
+   "n": 181,
+   "title": "Next week: living into God's future. \"An emblem of the millennial state of the Church.\" In",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 181,
+   "n": 182,
+   "title": "(black)",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 182,
+   "n": 183,
+   "title": "Addendum",
+   "path": "Addendum",
+   "doc": null
+  },
+  {
+   "index": 183,
+   "n": 184,
+   "title": "The year, in order Oct 1808 the Hibernia wrecked off Islay; Glasgow for the winter Sep 180",
+   "path": "Addendum",
+   "doc": null
+  },
+  {
+   "index": 184,
+   "n": 185,
    "title": "What this week touched CHRIST ALONE UNITY PRIESTHOOD FUTURE HOMECOMING SELF-SACRIFICE FREE",
    "path": "Addendum",
    "doc": null
@@ -1291,6 +1354,9 @@
   56,
   57,
   58,
+  59,
+  60,
+  61,
   62,
   63,
   64,
@@ -1298,38 +1364,44 @@
   66,
   67,
   68,
-  69,
-  102,
-  103,
-  104,
-  105,
-  106,
-  107,
-  108,
-  109,
-  110,
-  111,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
   112,
   113,
   114,
   115,
-  127,
-  128,
-  129,
-  130,
-  131,
-  132,
-  162,
-  163,
-  164,
-  165,
-  166,
-  167,
-  168,
-  169,
-  170,
-  171,
-  172
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181
  ],
  "branches": [
   {
@@ -1345,33 +1417,17 @@
   },
   {
    "label": "Becoming Baptists",
-   "fork": 58,
+   "fork": 68,
    "slides": [
-    59,
-    60,
-    61
+    69,
+    70,
+    71
    ]
   },
   {
    "label": "Every Lord&rsquo;s day",
-   "fork": 69,
+   "fork": 79,
    "slides": [
-    70,
-    71,
-    72,
-    73,
-    74,
-    75,
-    76,
-    77,
-    78
-   ]
-  },
-  {
-   "label": "Who may serve?",
-   "fork": 69,
-   "slides": [
-    79,
     80,
     81,
     82,
@@ -1380,7 +1436,13 @@
     85,
     86,
     87,
-    88,
+    88
+   ]
+  },
+  {
+   "label": "Who may serve?",
+   "fork": 79,
+   "slides": [
     89,
     90,
     91,
@@ -1393,49 +1455,43 @@
     98,
     99,
     100,
-    101
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111
    ]
   },
   {
    "label": "Who may ordain?",
-   "fork": 115,
+   "fork": 125,
    "slides": [
-    116,
-    117,
-    118,
-    119,
-    120,
-    121,
-    122,
-    123,
-    124,
-    125,
-    126
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136
    ]
   },
   {
    "label": "The whole church remembers",
-   "fork": 132,
+   "fork": 142,
    "slides": [
-    133,
-    134,
-    135,
-    136,
-    137,
-    138,
-    139,
-    140,
-    141,
-    142,
     143,
     144,
-    145
-   ]
-  },
-  {
-   "label": "The assembly",
-   "fork": 132,
-   "slides": [
+    145,
     146,
     147,
     148,
@@ -1445,28 +1501,44 @@
     152,
     153,
     154,
-    155,
-    156
+    155
    ]
   },
   {
-   "label": "Confession or constitution",
-   "fork": 132,
+   "label": "The assembly",
+   "fork": 142,
    "slides": [
+    156,
     157,
     158,
     159,
     160,
-    161
+    161,
+    162,
+    163,
+    164,
+    165,
+    166
+   ]
+  },
+  {
+   "label": "Confession or constitution",
+   "fork": 142,
+   "slides": [
+    167,
+    168,
+    169,
+    170,
+    171
    ]
   },
   {
    "label": "Addendum",
-   "fork": 172,
+   "fork": 181,
    "slides": [
-    173,
-    174,
-    175
+    182,
+    183,
+    184
    ]
   }
  ],
@@ -1492,24 +1564,36 @@
    "at": 38
   },
   {
-   "label": "Church formed",
-   "at": 56
+   "label": "The Synod",
+   "at": 42
   },
   {
-   "label": "The first Supper",
+   "label": "Session one close",
+   "at": 52
+  },
+  {
+   "label": "Session two",
    "at": 58
   },
   {
+   "label": "Church formed",
+   "at": 66
+  },
+  {
+   "label": "The first Supper",
+   "at": 68
+  },
+  {
    "label": "The ordination",
-   "at": 62
+   "at": 72
   },
   {
    "label": "Why the people?",
-   "at": 67
+   "at": 77
   },
   {
    "label": "Close",
-   "at": 84
+   "at": 94
   }
  ],
  "docs": [
@@ -1612,12 +1696,12 @@
   },
   {
    "label": "The whole Declaration and Address",
-   "fork": 107,
+   "fork": 117,
    "doc": 1
   },
   {
    "label": "The whole will",
-   "fork": 107,
+   "fork": 117,
    "doc": 2
   },
   {
@@ -1627,6 +1711,11 @@
   }
  ],
  "quotes": [
+  {
+   "slide": 1,
+   "doc": "kjv",
+   "text": "this do in remembrance of me."
+  },
   {
    "slide": 2,
    "doc": "fnd",
@@ -1888,602 +1977,602 @@
    "text": "jurisdiction, but not from their communion"
   },
   {
-   "slide": 58,
+   "slide": 68,
    "doc": "will",
    "text": "We will, that this body die, be dissolved, and sink into union with the Body of Christ at large"
   },
   {
-   "slide": 58,
+   "slide": 68,
    "doc": "rich",
    "text": "the Society must obtain admission into some regularly organized religious body"
   },
   {
-   "slide": 59,
+   "slide": 69,
    "doc": "rich",
    "text": "expressing a willingness, upon certain conditions, to co-operate or to unite with that Association, provided always that we should be allowed to teach and preach whatever we learned from the Holy Scriptures, regardless of any creed or formula in Christendom."
   },
   {
-   "slide": 60,
+   "slide": 70,
    "doc": "rich",
    "text": "As the reformers were, however, at this time identified with the Baptists, it was thought expedient, in order to avoid offending religious prejudice"
   },
   {
-   "slide": 60,
+   "slide": 70,
    "doc": "rich",
    "text": "to make this concession so far as the name of the paper was concerned, qualifying “Baptist"
   },
   {
-   "slide": 62,
+   "slide": 72,
    "doc": "rich",
    "text": "on account of the continued hostility of the different parties, it was necessary that the Christian Association should assume the character of an independent Church, in order to the enjoyment of those privileges and the performance of those duties which belong to the Church relation."
   },
   {
-   "slide": 63,
+   "slide": 73,
    "doc": "rich",
    "text": "It was with great reluctance that he finally concluded to take this step, and to separate himself from those whom he desired to recognize as brethren."
   },
   {
-   "slide": 67,
+   "slide": 77,
    "doc": "rich",
    "text": "I am that bread of life."
   },
   {
-   "slide": 68,
+   "slide": 78,
    "doc": "rich",
    "text": "in assembling there on that occasion, they furnished an emblem of the millennial state of the Church, nay, an emblem of the heavenly state, when men of different nations, and known by different names, should sit down together in the kingdom of God."
   },
   {
-   "slide": 69,
+   "slide": 79,
    "doc": "rich",
    "text": "the Lord’s Supper, which, according to the custom of the Independent churches in Scotland, was now celebrated weekly."
   },
   {
-   "slide": 71,
+   "slide": 81,
    "doc": "lord",
    "text": "But every Lord’s day gather yourselves together, and break bread, and give thanksgiving"
   },
   {
-   "slide": 72,
+   "slide": 82,
    "doc": "lord",
    "text": "And on the day called Sunday"
   },
   {
-   "slide": 72,
+   "slide": 82,
    "doc": "lord",
    "text": "bread and wine and water are brought, and the president in like manner offers prayers and thanksgivings, according to his ability, and the people assent, saying Amen"
   },
   {
-   "slide": 73,
+   "slide": 83,
    "doc": "lord",
    "text": "Each week, at least, the table of the Lord ought to have been spread for the company of Christians"
   },
   {
-   "slide": 74,
+   "slide": 84,
    "doc": "lord",
    "text": "I also advise the elders to administer the Supper of the Lord on every Lord’s Day."
   },
   {
-   "slide": 75,
+   "slide": 85,
    "doc": "lord",
    "text": "was now celebrated weekly."
   },
   {
-   "slide": 75,
+   "slide": 85,
    "doc": "lord",
    "text": "As the eucharist celebrates the resurrection of Christ, it is appropriate that it should take place at least every Sunday."
   },
   {
-   "slide": 76,
+   "slide": 86,
    "doc": "lord",
    "text": "It came from the desire to lead the Church towards a unity rooted in the weekly celebration of the Lord’s Supper."
   },
   {
-   "slide": 77,
+   "slide": 87,
    "doc": "lord",
    "text": "This phase of the dialogue has achieved consensus that the weekly celebration of the Eucharist is fundamental to an understanding of the Christian life"
   },
   {
-   "slide": 80,
+   "slide": 90,
    "doc": "acr",
    "text": "May they not, without a human priest to consecrate the way for them, approach the Lord’s table, and handle the loaf and cup?"
   },
   {
-   "slide": 81,
+   "slide": 91,
    "doc": "acr",
    "text": "the royal priesthood may approach the Lord’s table without fear, inasmuch as they are consecrated to officiate by a blood"
   },
   {
-   "slide": 82,
+   "slide": 92,
    "doc": "acr",
    "text": "he that gives thanks for the loaf should break it not as the representative of the Lord, but after his example"
   },
   {
-   "slide": 82,
+   "slide": 92,
    "doc": "acr",
    "text": "And thus they as priests feast upon his sacrifice."
   },
   {
-   "slide": 83,
+   "slide": 93,
    "doc": "dna",
    "text": "That division among the Christians is a horrid evil, fraught with many evils. It is antichristian, as it destroys the visible unity of the body of Christ"
   },
   {
-   "slide": 84,
+   "slide": 94,
    "doc": "tbl",
    "text": "where three are, a church is, albeit they be laics."
   },
   {
-   "slide": 85,
+   "slide": 95,
    "doc": "tbl",
    "text": "The apparent question at issue was: may a group of believers not set in order with a presbytery eat the Lord’s Supper or not?"
   },
   {
-   "slide": 86,
+   "slide": 96,
    "doc": "tbl",
    "text": "were only two christians in any place, such as on shipboard"
   },
   {
-   "slide": 86,
+   "slide": 96,
    "doc": "tbl",
    "text": "they ought to commemorate the death of Christ on the first day of the week"
   },
   {
-   "slide": 87,
+   "slide": 97,
    "doc": "tbl",
    "text": "Is there any thing to be done at the table of the Lord, which any brother, who can give thanks for a crucified Savior, and repeat the words of the institution, cannot do?"
   },
   {
-   "slide": 88,
+   "slide": 98,
    "doc": "tbl",
    "text": "‘The administration of ordinances’ is a popish phrase, and ought to be cashiered from the christian vocabulary."
   },
   {
-   "slide": 89,
+   "slide": 99,
    "doc": "tbl",
    "text": "He would not tolerate a disciple in his church to baptize a candidate, nor to ‘administer the Lord’s supper,’ nor to pray over the loaf or the cup."
   },
   {
-   "slide": 91,
+   "slide": 101,
    "doc": "tbl",
    "text": "Not having any person whom they regarded as filling Paul’s outlines of a bishop, they had appointed two senior members, of a very grave deportment, to preside in their meetings. These persons were not competent to labor in the word and teaching; but they were qualified to rule well"
   },
   {
-   "slide": 92,
+   "slide": 102,
    "doc": "tbl",
    "text": "He then called upon a brother"
   },
   {
-   "slide": 92,
+   "slide": 102,
    "doc": "tbl",
    "text": "to read a section of the evangelical history."
   },
   {
-   "slide": 92,
+   "slide": 102,
    "doc": "tbl",
    "text": "the president called upon a brother to pray in the name of the congregation."
   },
   {
-   "slide": 92,
+   "slide": 102,
    "doc": "tbl",
    "text": "the whole congregation, brethren and sisters, pronounced aloud the final Amen."
   },
   {
-   "slide": 93,
+   "slide": 103,
    "doc": "tbl",
    "text": "he took a small loaf from the table, and in one or two periods gave thanks for it."
   },
   {
-   "slide": 93,
+   "slide": 103,
    "doc": "tbl",
    "text": "each one waiting upon his brother, until all were served."
   },
   {
-   "slide": 94,
+   "slide": 104,
    "doc": "tbl",
    "text": "There was no stiffness, no formality, no pageantry; all was easy, familiar, solemn, cheerful."
   },
   {
-   "slide": 95,
+   "slide": 105,
    "doc": "tbl",
    "text": "He may of right preach, baptize, and dispense the supper, as well as pray for all men, when circumstances demand it."
   },
   {
-   "slide": 96,
+   "slide": 106,
    "doc": "tbl",
    "text": "For you cannot find in the New Testament one instance of the church having authority to ordain elders or bishops or deacons, or to administer baptism or the supper. You will find that the ministry existed before the church"
   },
   {
-   "slide": 97,
+   "slide": 107,
    "doc": "tbl",
    "text": "they believe that no person but a preacher has a right to administer the ordinances — such as the breaking of the loaf"
   },
   {
-   "slide": 98,
+   "slide": 108,
    "doc": "tbl",
    "text": "When he is absent the church can do nothing. Like a widow forlorn and desolate, she is solitary and silent."
   },
   {
-   "slide": 99,
+   "slide": 109,
    "doc": "tbl",
    "text": "One, of course, leads in giving thanks. This is not officiating, for any disciple can do this. It does not pertain to any office."
   },
   {
-   "slide": 100,
+   "slide": 110,
    "doc": "tbl",
    "text": "An ordained minister, as representative of Christ presiding at the Lord’s Table, serves in Christ’s place as host at the Table."
   },
   {
-   "slide": 100,
+   "slide": 110,
    "doc": "tbl",
    "text": "within Australian Churches of Christ ‘lay presidency’ is almost the norm"
   },
   {
-   "slide": 100,
+   "slide": 110,
    "doc": "tbl",
    "text": "we have denied women the opportunity to pass Communion trays because we have described it as a ‘leadership role.’"
   },
   {
-   "slide": 103,
+   "slide": 113,
    "doc": "rich",
    "text": "At this meeting, Thomas Campbell was appointed elder, and Alexander was licensed to preach the gospel. Four deacons were also chosen"
   },
   {
-   "slide": 104,
+   "slide": 114,
    "doc": "rich",
    "text": "Special instances of Divine power which I consider to bind me under obligations to be specially devoted to Him"
   },
   {
-   "slide": 104,
+   "slide": 114,
    "doc": "rich",
    "text": "III. In resolving, when in imminent danger at sea, to serve God in this way, on two occasions of extraordinary deliverance"
   },
   {
-   "slide": 104,
+   "slide": 114,
    "doc": "rich",
    "text": "XI. In giving me a call from the Church to preach the Gospel"
   },
   {
-   "slide": 104,
+   "slide": 114,
    "doc": "rich",
    "text": "XII. In my desire to suffer hardships and reproach in that good work."
   },
   {
-   "slide": 105,
+   "slide": 115,
    "doc": "rich",
    "text": "We do hereby certify that Alexander Campbell"
   },
   {
-   "slide": 105,
+   "slide": 115,
    "doc": "rich",
    "text": "was, according to the principles of this Church regularly chosen and ordained a minister thereof, upon the first day of January, one thousand eight hundred and twelve."
   },
   {
-   "slide": 109,
+   "slide": 119,
    "doc": "priest",
    "text": "all Christians are truly of the ‘spiritual estate,’ and there is among them no difference at all but that of office"
   },
   {
-   "slide": 110,
+   "slide": 120,
    "doc": "priest",
    "text": "For whoever comes out the water of baptism can boast that he is already consecrated priest, bishop and pope"
   },
   {
-   "slide": 111,
+   "slide": 121,
    "doc": "priest",
    "text": "we are all priests, and there is no difference between us; that is to say, we have the same power in respect to the Word and all the sacraments. However, no one may make use of this power except by the consent of the community"
   },
   {
-   "slide": 112,
+   "slide": 122,
    "doc": "church",
    "text": "no one can deny that every Christian has God’s Word and is taught of God and anointed by Him to the priesthood."
   },
   {
-   "slide": 113,
+   "slide": 123,
    "doc": "church",
    "text": "If the bishop does not confirm him, he is none the less confirmed by virtue of the call of the congregation."
   },
   {
-   "slide": 114,
+   "slide": 124,
    "doc": "church",
    "text": "the sheep are to judge whether what they teach is the voice of Christ or the voice of strangers."
   },
   {
-   "slide": 114,
+   "slide": 124,
    "doc": "church",
    "text": "All teachers should and must, therefore, be subject with their teaching to the judgment of the hearers."
   },
   {
-   "slide": 115,
+   "slide": 125,
    "doc": "rich",
    "text": "You see that ordination is not a mere unmeaning thing, but consists in the choice of the people, which must be hearty"
   },
   {
-   "slide": 117,
+   "slide": 127,
    "doc": "kjv",
    "text": "tell it unto the church: but if he neglect to hear the church, let him be unto thee as an heathen man and a publican. Verily I say unto you, Whatsoever ye shall bind on earth shall be bound in heaven"
   },
   {
-   "slide": 118,
+   "slide": 128,
    "doc": "kjv",
    "text": "For where two or three are gathered together in my name, there am I in the midst of them."
   },
   {
-   "slide": 119,
+   "slide": 129,
    "doc": "dna",
    "text": "‘What ye bind on earth shall be bound in heaven’ is the awful sanction of the Church’s judgment, in justly rejecting any person. Take away this, and it has no sanction at all."
   },
   {
-   "slide": 120,
+   "slide": 130,
    "doc": "cb",
    "text": "An individual church or congregation of Christ’s disciples is the only ecclesiastical body recognized in the New Testament. Such a society is ‘the highest court of Christ’ on earth."
   },
   {
-   "slide": 121,
+   "slide": 131,
    "doc": "kjv",
    "text": "But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people"
   },
   {
-   "slide": 121,
+   "slide": 131,
    "doc": "kjv",
    "text": "And hath made us kings and priests unto God and his Father"
   },
   {
-   "slide": 122,
+   "slide": 132,
    "doc": "will",
    "text": "they soon found that there was neither precept nor example in the New Testament for such confederacies as modern Church Sessions, Presbyteries, Synods, General Assemblies, etc."
   },
   {
-   "slide": 123,
+   "slide": 133,
    "doc": "rich",
    "text": "Why do we contend for uninterrupted succession in ordination, seeing it is not the persons called bishops who have the power, but the people?"
   },
   {
-   "slide": 124,
+   "slide": 134,
    "doc": "rich",
    "text": "Who has authority?Who gave the Presbytery authority to license men?Who gave the Presbytery authority to make laws for the Church?Who gave the Presbytery authority to decide religious matters by vote?Who gave the Presbytery authority to choose ministers?"
   },
   {
-   "slide": 125,
+   "slide": 135,
    "doc": "rich",
    "text": "As to the form or ceremony of ordination, he did not regard it as conferring any authority, but as a public testimony that the persons ordained possessed the necessary authority."
   },
   {
-   "slide": 127,
+   "slide": 137,
    "doc": "will",
    "text": "We will, that our power of making laws for the government of the church, and executing them by delegated authority, forever cease"
   },
   {
-   "slide": 127,
+   "slide": 137,
    "doc": "will",
    "text": "We will, that candidates for the Gospel ministry"
   },
   {
-   "slide": 127,
+   "slide": 137,
    "doc": "will",
    "text": "obtain license from God to preach the simple Gospel"
   },
   {
-   "slide": 128,
+   "slide": 138,
    "doc": "will",
    "text": "We will, that the church of Christ assume her native right of internal government—try her candidates for the ministry"
   },
   {
-   "slide": 128,
+   "slide": 138,
    "doc": "will",
    "text": "and admit no other proof of their authority, but Christ speaking in them."
   },
   {
-   "slide": 128,
+   "slide": 138,
    "doc": "will",
    "text": "We will, that each particular church, as a body"
   },
   {
-   "slide": 128,
+   "slide": 138,
    "doc": "will",
    "text": "choose her own preacher"
   },
   {
-   "slide": 128,
+   "slide": 138,
    "doc": "will",
    "text": "and never henceforth delegate her right of government to any man or set of men whatever."
   },
   {
-   "slide": 130,
+   "slide": 140,
    "doc": "rich",
    "text": "Each church was independent, and had the exclusive authority to select its own officials, who were, when approved, to be set apart by a formal ordination."
   },
   {
-   "slide": 131,
+   "slide": 141,
    "doc": "rich",
    "text": "The clergy are the opposite to the laity. Both these terms are used in Scripture to denote God’s people. Trace them to their origin and we find no difference."
   },
   {
-   "slide": 132,
+   "slide": 142,
    "doc": "ekk",
    "text": "The community, the church, the multitude of the faithful, are the fountain of official power. This power descends from the body itself — not from its servants. Servants made by servants are servants of servants"
   },
   {
-   "slide": 134,
+   "slide": 144,
    "doc": "church",
    "text": "The New Testament never uses the term ‘priesthood’ or ‘priest’ (hiereus) to designate the ordained ministry"
   },
   {
-   "slide": 134,
+   "slide": 144,
    "doc": "church",
    "text": "the term is reserved"
   },
   {
-   "slide": 134,
+   "slide": 144,
    "doc": "church",
    "text": "for the unique priesthood of Jesus Christ and"
   },
   {
-   "slide": 134,
+   "slide": 144,
    "doc": "church",
    "text": "for the royal and prophetic priesthood of all baptized."
   },
   {
-   "slide": 135,
+   "slide": 145,
    "doc": "church",
    "text": "The gift of the Spirit that every member of the faithful receives in the sacrament of initiation is the charism of royal priesthood."
   },
   {
-   "slide": 136,
+   "slide": 146,
    "doc": "church",
    "text": "The first, the basic definition of man is that he is the priest."
   },
   {
-   "slide": 137,
+   "slide": 147,
    "doc": "church",
    "text": "I made up my mind to do nothing on my own private opinion, without your advice and without the consent of the people."
   },
   {
-   "slide": 138,
+   "slide": 148,
    "doc": "church",
    "text": "He who is to govern all, should be chosen by all."
   },
   {
-   "slide": 139,
+   "slide": 149,
    "doc": "church",
    "text": "the protector of religion is the very body of the Church, even the people themselves"
   },
   {
-   "slide": 140,
+   "slide": 150,
    "doc": "church",
    "text": "in this Church, as in an inverted pyramid, the top is located beneath the base. Consequently, those who exercise authority are called ‘ministers’, because, in the original meaning of the word, they are the least of all."
   },
   {
-   "slide": 141,
+   "slide": 151,
    "doc": "church",
    "text": "Juridical power is a substitute for love in actual social life"
   },
   {
-   "slide": 141,
+   "slide": 151,
    "doc": "church",
    "text": "In the Church, where perfect love dwells, there is no need for such a substitute."
   },
   {
-   "slide": 142,
+   "slide": 152,
    "doc": "church",
    "text": "There is nothing higher than this baptismal dignity, equally bestowed upon each person"
   },
   {
-   "slide": 142,
+   "slide": 152,
    "doc": "church",
    "text": "as well as constituting the basis of synodality, Baptism is also the foundation of ecumenism."
   },
   {
-   "slide": 143,
+   "slide": 153,
    "doc": "church",
    "text": "Our common baptism, which unites us to Christ in faith, is thus a basic bond of unity."
   },
   {
-   "slide": 144,
+   "slide": 154,
    "doc": "kjv",
    "text": "To the intent that now unto the principalities and powers in heavenly places might be known by the church the manifold wisdom of God"
   },
   {
-   "slide": 147,
+   "slide": 157,
    "doc": "ekk",
    "text": "Freedom’s mark is also seen in this: Who hath wholesome counsel to declare unto the state?"
   },
   {
-   "slide": 147,
+   "slide": 157,
    "doc": "ekk",
    "text": "What greater equality can there be in a city?"
   },
   {
-   "slide": 148,
+   "slide": 158,
    "doc": "ekk",
    "text": "it shall be determined in a legal congregation"
   },
   {
-   "slide": 148,
+   "slide": 158,
    "doc": "ekk",
    "text": "And when he had said these things, he dismissed the congregation."
   },
   {
-   "slide": 149,
+   "slide": 159,
    "doc": "ekk",
    "text": "Paul wished to portray his communities as alternative organizations existing alongside the civic assemblies"
   },
   {
-   "slide": 149,
+   "slide": 159,
    "doc": "ekk",
    "text": "in many respects, the functioning of the Christian ekklēsia mirrors the operations of the civic assemblies."
   },
   {
-   "slide": 150,
+   "slide": 160,
    "doc": "ekk",
    "text": "When you are come together, each of you has a psalm, has a discourse, has a foreign language, has a revelation, has an interpretation!"
   },
   {
-   "slide": 151,
+   "slide": 161,
    "doc": "ekk",
    "text": "and let the others judge."
   },
   {
-   "slide": 151,
+   "slide": 161,
    "doc": "ekk",
    "text": "you can all prophesy, one by one,"
   },
   {
-   "slide": 151,
+   "slide": 161,
    "doc": "ekk",
    "text": "that all may learn, and all may be comforted."
   },
   {
-   "slide": 152,
+   "slide": 162,
    "doc": "ekk",
    "text": "this punishment, which was inflicted by the majority."
   },
   {
-   "slide": 152,
+   "slide": 162,
    "doc": "ekk",
    "text": "who was also chosen by the congregations our fellow-traveller."
   },
   {
-   "slide": 153,
+   "slide": 163,
    "doc": "ekk",
    "text": "where I found this word ecclesia, I interpreted it by this word congregation."
   },
   {
-   "slide": 154,
+   "slide": 164,
    "doc": "ekk",
    "text": "Wherever the word church is found in the common version, congregation will be found in this."
   },
   {
-   "slide": 155,
+   "slide": 165,
    "doc": "ekk",
    "text": "modern democracy began with the experience of the Puritan congregations."
   },
   {
-   "slide": 158,
+   "slide": 168,
    "doc": "wcf",
    "text": "The Lord Jesus, as King and Head of his church, hath therein appointed a government, in the hand of church officers"
   },
   {
-   "slide": 158,
+   "slide": 168,
    "doc": "wcf",
    "text": "To these officers the keys of the kingdom of heaven are committed"
   },
   {
-   "slide": 159,
+   "slide": 169,
    "doc": "dna",
    "text": "the New Testament is as perfect a constitution for the worship, discipline, and government of the New Testament Church"
   },
   {
-   "slide": 159,
+   "slide": 169,
    "doc": "dna",
    "text": "as the Old Testament was for the worship, discipline, and government of the Old Testament Church"
   },
   {
-   "slide": 160,
+   "slide": 170,
    "doc": "dna",
    "text": "That although the Church of Christ upon earth must necessarily exist in particular and distinct societies, locally separate one from another, yet there ought to be no schisms, no uncharitable divisions among them."
   },
   {
-   "slide": 171,
+   "slide": 180,
    "doc": "rich",
    "text": "An emblem of the millennial state of the Church."
   }
