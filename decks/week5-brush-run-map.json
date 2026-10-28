@@ -335,22 +335,22 @@
   {
    "index": 47,
    "n": 48,
-   "title": "Two years later Brush Run's overture, fall 1813 \"...expressing a willingness, upon certain",
-   "path": "spine",
+   "title": "Side path becoming Baptists Brush Run's overture, fall 1813 \"...expressing a willingness, ",
+   "path": "Becoming Baptists",
    "doc": "rich"
   },
   {
    "index": 48,
    "n": 49,
    "title": "The name of his paper, 1823 \"As the reformers were, however, at this time identified with ",
-   "path": "spine",
+   "path": "Becoming Baptists",
    "doc": "rich"
   },
   {
    "index": 49,
    "n": 50,
    "title": "Refused by the Presbyterians, they became Baptists.",
-   "path": "spine",
+   "path": "Becoming Baptists",
    "doc": null
   },
   {
@@ -1235,9 +1235,6 @@
   44,
   45,
   46,
-  47,
-  48,
-  49,
   50,
   51,
   68,
@@ -1410,6 +1407,15 @@
    ]
   },
   {
+   "label": "Becoming Baptists",
+   "fork": 46,
+   "slides": [
+    47,
+    48,
+    49
+   ]
+  },
+  {
    "label": "Who was not at the table",
    "fork": 71,
    "slides": [
@@ -1449,19 +1455,19 @@
   },
   {
    "label": "The first Supper",
-   "at": 52
+   "at": 49
   },
   {
    "label": "The ordination",
-   "at": 61
+   "at": 58
   },
   {
    "label": "Why the people?",
-   "at": 65
+   "at": 62
   },
   {
    "label": "Close",
-   "at": 76
+   "at": 73
   }
  ],
  "docs": [

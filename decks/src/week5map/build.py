@@ -18,6 +18,7 @@ SIDE = [
     ('Who serves the table?',      '<h2>Who serves the table?</h2>',        'Hosted by any.'),
     R.TABLE,
     ('Where two or three are gathered', '<h2>Where two or three are gathered</h2>', 'The title of the hour.'),
+    ('Becoming Baptists',          'Brush Run&rsquo;s overture, fall 1813', 'they became Baptists.'),
     ('Who was not at the table',   'who was not at the table',              'who was not at the table'),
     ('Addendum',                   'Reference material; not part of the telling', 'What this week touched'),
 ]
