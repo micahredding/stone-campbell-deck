@@ -43,7 +43,7 @@ IDEAS = [
     ('The church can gather<br>' + G('for those who are shut out.'),
      'Brush Run became a church because its people were refused &ldquo;those privileges&hellip; which belong to the Church relation.&rdquo; No synod granted it; the people constituted it, with great reluctance, for each other&rsquo;s sake.'),
     ('The priesthood of all believers<br>' + G('makes its ministers.'),
-     'Ordination &ldquo;consists in the choice of the people&rdquo;; the hands testify to an authority the church has already given. &ldquo;The community, the church, the multitude of the faithful, are the fountain of official power.&rdquo; No clergy-laity line. Side paths: who may ordain?; who may serve?; the whole church remembers.'),
+     'Ordination &ldquo;consists in the choice of the people&rdquo;: the two or three gathered hold the priesthood&rsquo;s authority, given in baptism. Brush Run did what the Last Will bequeathed. &ldquo;The community, the church, the multitude of the faithful, are the fountain of official power.&rdquo; No clergy-laity line. Side paths: who may ordain?; who may serve?; the whole church remembers.'),
 ]
 def IDEA(k):
     h, n = IDEAS[k - 1]
@@ -342,11 +342,13 @@ A('<section class="slide"><div class=eyebrow>Signed</div>'
 # ---------- WHY THE PEOPLE? ----------
 A(C('Why the people?', 'The theory behind the ordination: why Brush Run believed the authority to make a minister was its own.', 'The meaning of January 1, 1812'))
 A(BIGQ(Q('&ldquo;You see that ordination is not a mere unmeaning thing, but <b>consists in the choice of the people</b>, which must be hearty&hellip;&rdquo;', AC + ', sermon on Titus 1:5 &middot; in Richardson, <i>Memoirs</i>'), 'clamp(32px,7.2vmin,90px)', '34ch') +
-  N('His notes for a sermon that winter. The sentence goes on: &ldquo;and that it might be evidenced, the elders or rulers impose their hands.&rdquo; The laying on of hands shows the choice; it does not make it. Richardson: he regarded ordination not &ldquo;as conferring any authority, but as a public testimony that the persons ordained possessed the necessary authority.&rdquo; The authority is the congregation&rsquo;s.'))
+  N('His notes for a sermon that winter. The sentence goes on: &ldquo;and that it might be evidenced, the elders or rulers impose their hands.&rdquo; The authority is the congregation&rsquo;s: two or three gathered, each a priest by baptism.'))
 # side path "Who may ordain?": church government (shared resource), less what the spine already shows, with "Who gave the Presbytery authority?"
 _gov = [x for x in R.governance() if 'As to the form or ceremony of ordination' not in x and 'The will&rsquo;s bequests on government' not in x]
 for _x in _gov[:-1]: A(_x)
 A(R.succession()[1])
+A(BIGQ(Q('&ldquo;As to the form or ceremony of ordination, he did not regard it as <b>conferring any authority</b>, but as <b>a public testimony that the persons ordained possessed the necessary authority</b>.&rdquo;', RICH, 'What the hands do')) +
+  N('Side path. The second way our tradition narrates its ordinations: no authority is conferred, because none is needed. It resolves into the first: none is needed only because the authority was already given, to every Christian, in baptism. Baptismal succession: Luther, &ldquo;whatever issues from baptism may boast that it has been consecrated priest, bishop, and pope.&rdquo; Richardson goes on: he &ldquo;utterly repudiated the claim of apostolic succession.&rdquo;'))
 A(_gov[-1])
 A('<section data-src=will class="slide"><div class=eyebrow>The Springfield Presbytery, 1804 &middot; the court gives up its power</div>'
   '<div class=litany style="gap:4vmin;font-size:3.3em;max-width:90vw">'
@@ -364,8 +366,6 @@ A(CARD('The Springfield Presbytery died<br>so that congregations could choose.<b
   'Neither side knew the other existed. The two streams meet in 1832; they already agreed.'))
 A(BIGQ(Q('&ldquo;Each church was independent, and had <b>the exclusive authority to select its own officials</b>, who were, when approved, to be set apart by a formal ordination.&rdquo;', RICH, 'His views, 1811')) +
   N('Richardson: &ldquo;These views he continued to maintain unchanged through life.&rdquo;'))
-A(BIGQ(Q('&ldquo;As to the form or ceremony of ordination, he did not regard it as <b>conferring any authority</b>, but as <b>a public testimony that the persons ordained possessed the necessary authority</b>.&rdquo;', RICH, 'What the hands do')) +
-  N('The hands do not give the authority; they testify to it. The church already gave it, by choosing. Hence, Richardson goes on, he &ldquo;utterly repudiated the claim of apostolic succession.&rdquo;'))
 A(BIGQ(Q('&ldquo;The clergy are the opposite to the laity. Both these terms are used in Scripture to denote <b>God&rsquo;s people</b>. Trace them to their origin and <b>we find no difference</b>.&rdquo;', AC + ', reply to the Synod, November 1810'), 'clamp(32px,7.2vmin,90px)', '34ch') +
   N('Clergy from <i>kl&ecirc;ros</i>, the Lord&rsquo;s lot or inheritance; laity from <i>laos</i>, the people of God. Both words name the whole church.'))
 A(SRC(BIGQ(Q('&ldquo;<b>The community, the church, the multitude of the faithful, are the fountain of official power.</b> This power descends from the body itself &mdash; not from its servants. Servants made by servants are servants of servants&hellip;&rdquo;', 'Alexander Campbell, <i>The Christian System</i> (1839)', 'Alexander, later'), 'clamp(32px,6.8vmin,86px)', '32ch'), 'ekk') +

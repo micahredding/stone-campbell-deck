@@ -32,6 +32,8 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **"What the hands do"** (Richardson: ordination is not "conferring any authority, but… a public testimony") moved from the spine into the side path *Who may ordain?* (Micah, 28 Oct 2026). Micah's line: the tradition narrates its ordinations in two ways, (1) Christians and congregations have authority (Matthew 18), and (2) no authority is needed. The second resolves into the first, since the authority was already given in baptism ("baptismal succession", as in Luther's "whatever issues from baptism…"). The spine argues (1) only; arguments of form (2) go to side paths.
+
 - **Side paths reorganized around the four arguments (Micah, 28 Oct 2026).** Eleven became nine:
   - *Where two or three are gathered* was dropped; its Matthew 18 and two-or-three slides duplicate *Church government*.
   - *Church government* and *Against succession* merged into **Who may ordain?**, off "the choice of the people". Dropped from it as duplicates of spine slides: "As to the form or ceremony of ordination" and "The will's bequests on government". Dropped from *Against succession*: its "Why do we contend…" slide, which duplicates *Church government*.
