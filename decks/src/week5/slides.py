@@ -45,25 +45,22 @@ IDEAS = [
     ('The priesthood of all believers<br>' + G('makes its ministers.'),
      'Ordination &ldquo;consists in the choice of the people&rdquo;: the two or three gathered hold the priesthood&rsquo;s authority, given in baptism. Brush Run did what the Last Will bequeathed. &ldquo;The community, the church, the multitude of the faithful, are the fountain of official power.&rdquo; No clergy-laity line. Side paths: who may ordain?; who may serve?; the whole church remembers.'),
 ]
-def IDEA(k):
+def IDEA(k, of):   # idea k (1-based in IDEAS), labelled by its place among this session's ideas `of`
     h, n = IDEAS[k - 1]
-    return ('<section class="slide idea room"><div class=eyebrow>Idea %d of %d</div><h2 style="max-width:none">%s</h2><aside class=notes>%s</aside></section>'
-            % (k, len(IDEAS), h, n))
+    lab = 'Idea' if len(of) == 1 else 'Idea %d of %d' % (of.index(k) + 1, len(of))
+    return ('<section class="slide idea room"><div class=eyebrow>%s</div><h2 style="max-width:none">%s</h2><aside class=notes>%s</aside></section>'
+            % (lab, h, n))
+SESSION1, SESSION2 = [1], [2, 3]   # the chapter runs as two class sessions in one deck
 
 S = []
 A = S.append
 def HIDE(slide): pass   # a hidden slide: kept here, left out of the deck (change HIDE back to A to show it)
 
-A(w3b.S[0])                                     # the class title
-A('<section class="slide"><div class=eyebrow>Quiz</div>'
-  '<h2 style="max-width:none">Which is the preferred title for our preacher?</h2>'
-  '<div class="litany" style="text-align:left;gap:1.6vmin;margin-top:4vmin">'
-  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">A.</span>Pastor</div>'
-  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">B.</span>Reverend</div>'
-  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">C.</span>Brother<span class=frag style="color:var(--gold);margin-left:.5em">&larr;</span></div>'
-  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">D.</span>None of the above</div>'
-  '</div>'
-  '<aside class=notes>One click points to C. Let the room argue first; &ldquo;none of the above&rdquo; (minister, evangelist, preacher) is a fair answer too.<br>&bull; Not &ldquo;Reverend&rdquo;: the Last Will willed that title &ldquo;be forgotten&rdquo; (last week). Not &ldquo;Pastor&rdquo;: in the New Testament the pastors are the elders.</aside></section>')
+A(w3b.S[0])                                     # the class title (session one)
+A('<section data-src="kjv" class="slide"><div class=eyebrow>Quiz</div>'
+  '<h2 style="max-width:22ch">What was carved on the front of the communion table in your church?</h2>'
+  '<div class="sub frag" style="font-size:clamp(30px,6vmin,76px);margin-top:4vmin">&ldquo;&hellip;this do in remembrance of me.&rdquo;</div>'
+  '<aside class=notes>One click for the answer (Luke 22:19; 1 Corinthians 11:24). Let the room remember their own tables first. An invitation carved where the Seceders kept a fence: tonight is about the fence.</aside></section>')
 A('<section data-src="fnd dna" class="slide" style="padding:0">'
   '<div style="position:absolute;inset:0;display:flex">'
 '<div style="flex:1;position:relative;overflow:hidden;border-right:1px solid rgba(201,162,74,.35)">'
@@ -106,11 +103,11 @@ HIDE('<section class="slide room"><div class="litany" style="gap:4vmin">'
   '<h2 class=no style="max-width:18ch;font-size:clamp(44px,10vmin,124px);line-height:1.12">Who has authority?</h2>'
   '<h2 class="no frag" style="max-width:18ch;font-size:clamp(44px,10vmin,124px);line-height:1.12">Who may serve the table?</h2></div>'
   '<aside class=notes>One click for the second question. Tonight&rsquo;s two points. Who can make someone a minister: a bishop, a presbytery, the congregation? And who may give thanks at the Lord&rsquo;s table? &rarr; &ldquo;Hold both.&rdquo;</aside></section>')
-A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 5</div>'
+A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 5 &middot; Session one</div>'
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
-  '<div class=sub>Brush Run, Pennsylvania &middot; 1811&ndash;1812</div>'
-  '<aside class=notes>Matthew 18:20, and the <i>Declaration and Address</i> quotes it (we will see where). The Campbells&rsquo; side of the story, picking up where Chapter 2 left Alexander: off the coast of Scotland. Two points tonight: who serves the table, and where authority lives.<br>'
-  'The hour: the sea 6 &middot; Glasgow 14 &middot; reunion 4 &middot; Brush Run 5 &middot; the first Supper 9 &middot; the ordination 4 &middot; why the people 7 &middot; close 10.</aside></section>')
+  '<div class=sub>Glasgow to Washington, Pennsylvania &middot; 1808&ndash;1810</div>'
+  '<aside class=notes>Matthew 18:20, and the <i>Declaration and Address</i> quotes it (we will see where). Chapter 5 runs two sessions. Session one: Alexander, from the shipwreck to the open table, ending beside Stone and his father. Session two: Brush Run, the ordination, and why the people.<br>'
+  'The hour: the sea 7 &middot; Glasgow 20 &middot; the token 6 &middot; reunion 5 &middot; the Synod and the reply 10 &middot; close 6.</aside></section>')
 # ---------- ALEXANDER AND THE SEA ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg wreckbg5"></div></div>'
   '<div class=credit>Philippe-Jacques de Loutherbourg, <i>A Shipwreck off a Rocky Coast</i> &middot; not the Hibernia</div>'
@@ -288,7 +285,39 @@ A('<section data-src="stone" class="slide room"><div class=eyebrow>Three founder
   '<div class="no frag" style="font-size:clamp(30px,5.6vmin,70px);line-height:1.2"><b>Alexander Campbell</b>, 1809: gave back the token</div>'
   '</div><aside class=notes>Three clicks, one founder each. Stone, Chapter 4: suspended from the Synod&rsquo;s jurisdiction, he would not break communion with it (Stone, <i>Biography</i>, ch. VII). Thomas, Chapter 2: the 1807 charge. Alexander, tonight. Three men, three countries of origin, none knowing the others&rsquo; story, each broken with his church over who may come to the table.</aside></section>')
 A(CARD('Three founders.<br>' + G('One open table.'),
-  'End of the first act. Alexander stands beside Stone and his father: an idealist who would not be included where others were shut out. If the class ends here, go to the ideas and discussion.<br>&rarr; Next: refused by every body they asked to join, they had to become a church.'))
+  'End of the first act. Alexander stands beside Stone and his father: an idealist who would not be included where others were shut out. End of session one: discussion and the idea follow.'))
+
+# ---------- SESSION ONE: CLOSE ----------
+DISCUSS1 = ('<section class="slide room"><div class=eyebrow>&#9670; for discussion &middot; session one</div><h2>What is beautiful here? What do we carry forward?</h2>'
+            '<aside class=notes>Backup prompts (off the slide): Have you been welcome somewhere a friend was not? Did you stay? Who does our table turn away, in word or in practice? Can you be included by a church that excludes?</aside></section>')
+A(DISCUSS1)
+for _k in SESSION1: A(IDEA(_k, SESSION1))
+A(DISCUSS1)
+A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> is there in full; tonight&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
+          w3b.pick('stone-campbell.micahredding.com'), flags=re.S))
+A('<section class="slide"><h2>Next time: shut out by every church they asked, they become one.</h2>'
+  '<div class="sub frag">And they make their own minister.</div>'
+  '<aside class=notes>One click. Session two: Brush Run becomes a church (May 1811), keeps the Supper every Lord&rsquo;s day, and ordains Alexander at the hands of the congregation (January 1812).</aside></section>')
+A(BLACK)
+
+# ---------- SESSION TWO: OPENING ----------
+A(w3b.S[0].replace('<section', '<section data-session=2', 1))   # the class title (session two)
+A('<section class="slide"><div class=eyebrow>Quiz</div>'
+  '<h2 style="max-width:none">Which is the preferred title for our preacher?</h2>'
+  '<div class="litany" style="text-align:left;gap:1.6vmin;margin-top:4vmin">'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">A.</span>Pastor</div>'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">B.</span>Reverend</div>'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">C.</span>Brother<span class=frag style="color:var(--gold);margin-left:.5em">&larr;</span></div>'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">D.</span>None of the above</div>'
+  '</div>'
+  '<aside class=notes>One click points to C. Let the room argue first; &ldquo;none of the above&rdquo; (minister, evangelist, preacher) is a fair answer too.<br>&bull; Not &ldquo;Reverend&rdquo;: the Last Will willed that title &ldquo;be forgotten&rdquo; (last week). Not &ldquo;Pastor&rdquo;: in the New Testament the pastors are the elders.</aside></section>')
+A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 5 &middot; Session two</div>'
+  '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
+  '<div class=sub>Brush Run, Pennsylvania &middot; 1811&ndash;1812</div>'
+  '<aside class=notes>Session two. Recap in one breath: the shipwreck, the Haldanes, the token given back, father and son meeting on the road, the Synod&rsquo;s refusal, the gates as wide as heaven. Three founders, one open table. Tonight: what the Campbells did once every body they asked had refused them, and who made their minister.<br>'
+  'The hour: Brush Run 8 &middot; the first Supper 5 &middot; the ordination 6 &middot; why the people 17 &middot; close 8.</aside></section>')
+A(CARD('Three founders.<br>' + G('One open table.'),
+  'Last session&rsquo;s last card. Stone in 1803, Thomas in 1807, Alexander in 1809: each broke with his church over who may come to the table.<br>&rarr; &ldquo;Refused by the Synod, the Campbells still had no church. Two ways not to become a sect.&rdquo;', 'Last session'))
 
 # ---------- BRUSH RUN BECOMES A CHURCH ----------
 A('<section class="slide breath"><h2 style="max-width:none">Two ways not to become a sect</h2>'
@@ -410,13 +439,13 @@ A(BLACK)
 
 # ---------- CLOSE ----------
 DISCUSS = re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>Backup prompts (off the slide): Who gives thanks at our table, and why that person? Who has authority in our congregation, and where did it come from? What would it mean to believe every member could be called?</aside>',
-                 w3b.pick('&#9670; for discussion', 0), flags=re.S)
+                 w3b.pick('&#9670; for discussion', 0), flags=re.S).replace('&#9670; for discussion', '&#9670; for discussion &middot; session two', 1)
 A(DISCUSS)
-for _k in range(1, len(IDEAS) + 1): A(IDEA(_k))
-A('<section class="slide room"><div class=eyebrow>Ideas</div>'
+for _k in SESSION2: A(IDEA(_k, SESSION2))
+A('<section class="slide room"><div class=eyebrow>Chapter 5&rsquo;s ideas</div>'
   '<div class="litany ideasum" style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">'
   + ''.join('<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (k, plain(h)) for k, (h, _) in enumerate(IDEAS, 1)) +
-  '</div><aside class=notes>All three at once, before the discussion.</aside></section>')
+  '</div><aside class=notes>The chapter&rsquo;s three ideas at once, both sessions, before the discussion.</aside></section>')
 A(DISCUSS)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> and the <i>Last Will</i> are there in full; tonight&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))

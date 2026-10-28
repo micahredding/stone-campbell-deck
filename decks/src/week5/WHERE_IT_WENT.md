@@ -32,6 +32,11 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **Two sessions, one deck (Micah, 28 Oct 2026).** Chapter 5 now runs as two class sessions in the same deck:
+  - Session one: the class title, a new quiz ("What was carved on the front of the communion table?"), the recap, Act I, and its own close (discussion, Idea 1, the site, "Next time: shut out by every church they asked, they become one.").
+  - Session two: the class title again, the preacher-title quiz (moved here from session one), a session-two title slide, the "Three founders. One open table." card as recap, then Brush Run through "Why the people?" and the close (Ideas 2 and 3, the chapter's three ideas together, the site, next week).
+  - Luke 22:19 was added to the shared Scripture source (`decks/src/sources/scripture-kjv.html`) so the quiz answer is checked.
+
 - **Act I ends on the open table (Micah, 28 Oct 2026).** The token now leads, through the reunion and the Society's need of a church, straight to the Synod's refusal and Alexander's November 1810 reply, so his refusal of the token connects to his words on openness, the position that kept his father out of the Synod. In order:
   - "cannot be granted";
   - the Synod's four "important reasons" (copied from the reserve deck, gold on "opposing creeds and confessions"; the reserve deck keeps its own copy);
