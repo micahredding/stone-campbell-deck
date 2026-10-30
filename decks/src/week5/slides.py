@@ -103,11 +103,41 @@ HIDE('<section class="slide room"><div class="litany" style="gap:4vmin">'
   '<h2 class=no style="max-width:18ch;font-size:clamp(44px,10vmin,124px);line-height:1.12">Who has authority?</h2>'
   '<h2 class="no frag" style="max-width:18ch;font-size:clamp(44px,10vmin,124px);line-height:1.12">Who may serve the table?</h2></div>'
   '<aside class=notes>One click for the second question. Tonight&rsquo;s two points. Who can make someone a minister: a bishop, a presbytery, the congregation? And who may give thanks at the Lord&rsquo;s table? &rarr; &ldquo;Hold both.&rdquo;</aside></section>')
+# ---------- YOUR QUESTIONS (from last week) ----------
+def FND(slide): return slide.replace('<section class="slide', '<section data-src="fnd" class="slide', 1)   # check against founders-on-unity.html
+A('<section class="slide breath"><div class=eyebrow>From last week</div><h2 style="max-width:none">Your questions</h2>'
+  '<aside class=notes>Two questions from the room, answered in their own words. Five minutes, then into the chapter.</aside></section>')
+A('<section class="slide room"><div class=eyebrow>Question one</div><h2 style="max-width:20ch;font-size:clamp(44px,9.4vmin,118px);line-height:1.12">Did they want to include Catholics?</h2>'
+  '<aside class=notes>Short answer: yes, as Christians, though not Rome as a church. Two passages from Alexander.</aside></section>')
+A(FND(BIGQ(Q('&ldquo;&hellip;if there be no Christians in the Protestant sects, there are certainly none among the Romanists&hellip; This cannot be; and therefore <b>there are Christians among the sects</b>.&rdquo;', AC + ', reply to a sister in Lunenburg, Virginia &middot; <i>Millennial Harbinger</i>, 1837', 'If there are none among us, there are none in Rome'), 'clamp(34px,7.4vmin,92px)', '30ch')) +
+  N('September 1837. A woman in Lunenburg asked how he could call unimmersed Protestants Christians. His answer runs the other way: if none of them are Christians, none of the Romanists are either, and then for many centuries &ldquo;there has been no church of Christ&hellip; and the gates of hell have prevailed against his church!&rdquo; The centuries he means are Catholic centuries.',
+    'Same year he spent a week in Cincinnati debating Bishop Purcell against Rome as a system.'))
+A(FND(BIGQ(Q('&ldquo;I circumscribe not the Divine philanthropy&mdash;the Divine grace. <b>I dare not say that there is no salvation in the church of Rome</b>, or in that of Constantinople&hellip;&rdquo;', AC + ', debate with N. L. Rice, Lexington, 1843', 'Rome, and Constantinople'), 'clamp(34px,7.4vmin,92px)', '30ch')) +
+  N('Printed 1844, p. 559. The sentence goes on: &ldquo;though, certainly, Protestants do not regard them as churches builded upon the foundation of apostles and prophets.&rdquo; So, honestly: Christians in Rome and in the Orthodox churches, yes; Rome as a church, no.',
+    'Just before it: honest mistakes &ldquo;will not&hellip; preclude any Pedo-baptist from heaven.&rdquo; &ldquo;The Judge of all the earth will do right.&rdquo;'))
+A(CARD('Christians among all the churches.<br>' + G('Even Rome.'),
+  'Not a recognition of the Roman church as a church; a refusal to fence God&rsquo;s grace. The same instinct as the token: he would not shut out those whom God had not shut out.'))
+A('<section class="slide room"><div class=eyebrow>Question two</div><h2 style="max-width:none;font-size:clamp(48px,11vmin,136px)">Unity, or uniformity?</h2>'
+  '<aside class=notes>Their answer: unity now, uniformity in God&rsquo;s time, and by steps. Thomas in 1809, Alexander in 1839.</aside></section>')
+A(BIGQ(Q('&ldquo;&hellip;nor, indeed, is there anything either in Scripture or the nature of things that should induce us to expect <b>an entire unity of sentiment in the present imperfect state</b>.&rdquo;', DA, 'Not yet'), 'clamp(34px,7.4vmin,92px)', '30ch') +
+  N('From the Address. Unity of sentiment: everyone thinking alike. Thomas does not expect it this side of the kingdom.'))
+A(BIGQ(Q('&ldquo;The Church may, and we believe will, come to such a Scriptural unity of faith and practice, that there will be <b>no schism in the body</b>&hellip;&rdquo;', DA, 'But it will come'), 'clamp(34px,7.4vmin,92px)', '30ch') +
+  N('It goes on: &ldquo;no self-preferring sect of professed and acknowledged Christians rejecting and excluding their brethren. This can not be, however, till the offensive and excluding causes be removed.&rdquo; And: that all should have &ldquo;the same identical views of all Divinely revealed truths&hellip; appears to us morally impossible.&rdquo;'))
+A(BIGQ(Q('&ldquo;&hellip;a still higher and more perfect degree of uniformity is intended, though neither in the first nor second instance, <b>which are but so many steps toward it</b>&hellip;&rdquo;', DA + ', the Appendix', 'Step by step'), 'clamp(34px,7.4vmin,92px)', '30ch') +
+  N('The steps: first, forbear with one another in love; second, stop pressing private opinions where Scripture is silent. Then, in time, &ldquo;the utter abolition of those minor differences,&rdquo; most of which, &ldquo;had they been let alone, would have been long since dead and gone.&rdquo;',
+    'Proposition 6 says the same of inferences: they belong to &ldquo;the after and progressive edification of the Church.&rdquo;'))
+A(FND(BIGQ(Q('&ldquo;Let the Bible be substituted for all human creeds; facts, for definitions; things, for words; faith, for speculation; <b>unity of faith, for unity of opinion</b>&hellip; and the work is done.&rdquo;', CS.split(',')[0] + ', <i>The Christian System</i> (1839)', 'Alexander, thirty years on'), 'clamp(30px,6.4vmin,80px)', '34ch')) +
+  N('&ldquo;Foundation of Christian Union,&rdquo; p. 115: &ldquo;the whole scheme of union&hellip; in one period.&rdquo; Unity of faith is the one Lord and the one confession, now. Unity of opinion is not required.'))
+A(BIGQ(Q('&ldquo;Duty then is ours; but <b>events belong to God</b>.&rdquo;', DA), 'clamp(44px,10vmin,124px)', '18ch') +
+  N('From the Address, on whether the time is right for the attempt: &ldquo;whatever is to be done, must begin, some time, somewhere&hellip; if the Lord puts his hand to the work, it must surely prosper.&rdquo;'))
+A(CARD('Unity now.<br>' + G('Uniformity in God&rsquo;s time.'),
+  'Unity is commanded and possible today: receive one another. Agreement on everything comes, if at all, by steps and in God&rsquo;s time, and is never a condition of fellowship.<br>&rarr; Into tonight&rsquo;s story: a young man who would not be included where others were shut out.'))
+
 A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 5 &middot; Session one</div>'
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
   '<div class=sub>Glasgow to Washington, Pennsylvania &middot; 1808&ndash;1810</div>'
   '<aside class=notes>Matthew 18:20, and the <i>Declaration and Address</i> quotes it (we will see where). Chapter 5 runs two sessions. Session one: Alexander, from the shipwreck to the open table, ending beside Stone and his father. Session two: Brush Run, the ordination, and why the people.<br>'
-  'The hour: the sea 7 &middot; Glasgow 20 &middot; the token 6 &middot; reunion 5 &middot; the Synod and the reply 10 &middot; close 6.</aside></section>')
+  'The hour: your questions 12 &middot; the sea 7 &middot; Glasgow 20 &middot; the token 6 &middot; reunion 5 &middot; the Synod and the reply 10 &middot; close 6.</aside></section>')
 # ---------- ALEXANDER AND THE SEA ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg wreckbg5"></div></div>'
   '<div class=credit>Philippe-Jacques de Loutherbourg, <i>A Shipwreck off a Rocky Coast</i> &middot; not the Hibernia</div>'

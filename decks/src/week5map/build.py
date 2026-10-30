@@ -21,7 +21,7 @@ SIDE = [
     ('Addendum',                   'Reference material; not part of the telling', 'What this week touched'),
 ]
 SECTIONS = [
-    ('Opening', 'Otter Creek'), ('The sea', '<h2>Alexander and the Sea</h2>'),
+    ('Opening', 'Otter Creek'), ('Your questions', '<h2 style="max-width:none">Your questions</h2>'), ('The sea', '<h2>Alexander and the Sea</h2>'),
     ('Glasgow', 'He went to hear other preachers.'), ('Reunion', '<h2>Family Reunion</h2>'),
     ('Brush Run', '<h2>Brush Run</h2>'), ('The Synod', 'request to be received into ministerial'),
     ('Session one close', 'for discussion &middot; session one'), ('Session two', 'data-session=2'),
