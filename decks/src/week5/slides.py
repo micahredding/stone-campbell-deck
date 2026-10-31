@@ -109,7 +109,7 @@ HIDE('<section class="slide room"><div class="litany" style="gap:4vmin">'
 # ---------- YOUR QUESTIONS (from last week) ----------
 def FND(slide): return slide.replace('<section class="slide', '<section data-src="fnd" class="slide', 1)   # check against founders-on-unity.html
 A('<section class="slide breath"><div class=eyebrow>From last week</div><h2 style="max-width:none">Your questions</h2>'
-  '<aside class=notes>Two questions from the room, answered in their own words. Five minutes, then into the chapter.</aside></section>')
+  '<aside class=notes>Side path off the recap: two questions from the room, answered in their own words. Take it if there is time; the last card returns to the spine.</aside></section>')
 A('<section class="slide room"><div class=eyebrow>Question one</div><h2 style="max-width:20ch;font-size:clamp(44px,9.4vmin,118px);line-height:1.12">Did they want to include Catholics?</h2>'
   '<aside class=notes>Short answer: yes, as Christians, though not Rome as a church. Two passages from Alexander.</aside></section>')
 A(FND(BIGQ(Q('&ldquo;Should any one think it lawful to <b>paganize both the Greek and Latin churches</b>&mdash;to eject one hundred millions of members of the Greek and Roman communions from the visible and invisible precincts of the Christian family&hellip;&rdquo;', AC + ', <i>The Christian System</i> (1839)', 'One hundred millions of members'), 'clamp(32px,6.8vmin,86px)', '34ch')) +
@@ -163,7 +163,7 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
   '<div class=sub>Glasgow to Washington, Pennsylvania &middot; 1808&ndash;1810</div>'
   '<aside class=notes>Matthew 18:20, and the <i>Declaration and Address</i> quotes it (we will see where). Chapter 5 runs two sessions. Session one: Alexander, from the shipwreck to the open table, ending beside Stone and his father. Session two: Brush Run, the ordination, and why the people.<br>'
-  'The hour: your questions 20 &middot; the sea 7 &middot; Glasgow 20 &middot; the token 6 &middot; reunion 5 &middot; the Synod and the reply 10 &middot; close 6.</aside></section>')
+  'The hour: (side path off the recap: your questions, about 20) &middot; the sea 7 &middot; Glasgow 20 &middot; the token 6 &middot; reunion 5 &middot; the Synod and the reply 10 &middot; close 6.</aside></section>')
 # ---------- ALEXANDER AND THE SEA ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg wreckbg5"></div></div>'
   '<div class=credit>Philippe-Jacques de Loutherbourg, <i>A Shipwreck off a Rocky Coast</i> &middot; not the Hibernia</div>'

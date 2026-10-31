@@ -32,6 +32,8 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **"Your questions" is a side path** off the recap documents slide (Micah, 31 Oct 2026): Catholics, and unity or uniformity, 23 slides. It was on the spine for a day.
+
 - **Two sessions, one deck (Micah, 28 Oct 2026).** Chapter 5 now runs as two class sessions in the same deck:
   - Session one: the class title, the preacher-title quiz (swapped back here 31 Oct 2026), the recap, Act I, and its own close (discussion, Idea 1, the site, "Next time: shut out by every church they asked, they become one.").
   - Session two: the class title again, the communion-table quiz ("What was carved on the front of the communion table?"), a session-two title slide, the "Three founders. One open table." card as recap, then Brush Run through "Why the people?" and the close (Ideas 2 and 3, the chapter's three ideas together, the site, next week).
