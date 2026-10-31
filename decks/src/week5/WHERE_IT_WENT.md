@@ -32,6 +32,8 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **1 Nov 2026, Micah's edits.** Dropped from the reunion: the *Declaration and Address* "essentially, intentionally, and constitutionally one" slide (it is in the recap). "Three founders" became "Three instigators", now after the Synod's refusal. Brush Run Church Formed through "Every Lord's day" (six slides) are copied into session one after "great reluctance"; session two keeps its own copies (its side paths fork from those).
+
 - **End of session one trimmed (Micah, 1 Nov 2026).** Dropped from the spine: "In Glasgow he gave back the token. / In Washington he said why."; the card "Three founders. One open table."; and the Synod's "important reasons" slide (still in the reserve deck; two of its reasons are now in the notes of "cannot be granted"). The three founders are now three portraits side by side. The card "Still seeking a larger union, they became a church." now comes right after the Synod, before "Why a church" and "great reluctance".
 
 - **McGill condensed (Micah, 1 Nov 2026).** The two McGill quotation slides became one statement, "Meanwhile, a prominent minister of the church published a book denying the divinity and the atonement of Christ…"; the quotations (Richardson 1:153, note) are in its presenter notes and in the Richardson excerpts. New after the vow: a map, Londonderry to the wreck at Loch Indaal to Glasgow ("about 80 miles"). The Synod's "cannot be granted" now elides "ministerial and".
