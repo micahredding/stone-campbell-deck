@@ -372,8 +372,6 @@ A(BIGQ(Q('&ldquo;It was with <b>great reluctance</b> that he finally concluded t
   N('Spring 1811. Every overture refused, Thomas concluded &ldquo;that the Christian Association should assume the character of an independent Church.&rdquo; The thing he had dreaded since 1809, accepted to meet the spiritual needs of the people in his care. &ldquo;At the next meeting of the Association, accordingly, the matter was duly considered and agreed to.&rdquo;'))
 # ---------- SESSION ONE: Brush Run formed and the first Supper (copied from session two) ----------
 A(C('Brush Run Church Formed', 'Saturday, May 4, 1811, at the Brush Run meeting house. About thirty members. They sang Psalm 118 in the old Scottish metrical version.', 'May 4, 1811'))
-A(CARD('No bishop. No presbytery.<br>' + G('A congregation.'),
-  'Let it sit. This is the thing no church court could imagine: a church that makes its own ministers.'))
 A(C('The First Supper', 'The next day, May 5, 1811, the new church kept the Lord&rsquo;s Supper for the first time. Alexander preached.', 'Brush Run &middot; May 5, 1811'))
 A(BIGQ(Q('&ldquo;<b>I am that bread of life.</b>&rdquo;', 'John 6:48 &middot; Alexander&rsquo;s text that morning &middot; in Richardson, <i>Memoirs</i>', 'His sermon'), 'clamp(48px,11vmin,140px)', '18ch') +
   N('And verse 58: &ldquo;He that eateth of this bread shall live for ever.&rdquo; Two years after he left a table with his token unused, he preaches at a table of his own.'))
