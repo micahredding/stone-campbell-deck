@@ -157,7 +157,7 @@ A(BIGQ(Q('&ldquo;Duty then is ours; but <b>events belong to God</b>.&rdquo;', DA
 A(CARD('Unity now.<br>' + G('Uniformity in God&rsquo;s time.'),
   'Unity is commanded and possible today: receive one another. Agreement on everything comes, if at all, by steps and in God&rsquo;s time, and is never a condition of fellowship.<br>&rarr; Into tonight&rsquo;s story: a young man who would not be included where others were shut out.'))
 
-A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 5 &middot; Session one</div>'
+HIDE('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 5 &middot; Session one</div>'
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
   '<div class=sub>Glasgow to Washington, Pennsylvania &middot; 1808&ndash;1810</div>'
   '<aside class=notes>Matthew 18:20, and the <i>Declaration and Address</i> quotes it (we will see where). Chapter 5 runs two sessions. Session one: Alexander, from the shipwreck to the open table, ending beside Stone and his father. Session two: Brush Run, the ordination, and why the people.<br>'
