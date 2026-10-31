@@ -10,6 +10,7 @@ import mapdeck, resources as R
 SIDE = [
     # (label,                      first-slide anchor,                      last-slide anchor)
     # Arranged by the chapter's four arguments: creeds as tests; who may serve; who may ordain; the whole church on governance by the people.
+    ('Your questions',             '<h2 style="max-width:none">Your questions</h2>', 'Uniformity in God&rsquo;s time.'),
     ('Creeds as tests',            'Side path &middot; creeds as tests',    'They may not fence the table.'),
     ('Becoming Baptists',          'Brush Run&rsquo;s overture, fall 1813', 'they became Baptists.'),
     R.WEEKLY,
@@ -21,7 +22,7 @@ SIDE = [
     ('Addendum',                   'Reference material; not part of the telling', 'What this week touched'),
 ]
 SECTIONS = [
-    ('Opening', 'Otter Creek'), ('Your questions', '<h2 style="max-width:none">Your questions</h2>'), ('The sea', '<h2>Alexander and the Sea</h2>'),
+    ('Opening', 'Otter Creek'), ('The sea', '<h2>Alexander and the Sea</h2>'),
     ('Glasgow', 'He went to hear other preachers.'), ('Reunion', '<h2>Family Reunion</h2>'),
     ('Brush Run', '<h2>Brush Run</h2>'), ('The Synod', 'request to be received into ministerial'),
     ('Session one close', 'for discussion &middot; session one'), ('Session two', 'data-session=2'),
