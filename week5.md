@@ -6,6 +6,7 @@
 
 **The Idea**: The Priesthood of All Believers points to real authority, inhering in every Christian, and conferred in baptism. Our movement embraces this deeply.
 
+**Slides:** [Chapter 5 deck](decks/week5-brush-run-map.html), two sessions in one deck: session one ends on "Three founders. One open table."; session two opens with its own quiz. Reserve: [The Synod and the Reply](decks/reserve-synod-and-reply-map.html)
 **Connections:** 
 - The Springfield Presbytery recognized the authority of the congregation to ordain its own ministers, as recognition of the work of the Spirit. Brush Run recognizes the same authority inhering in the congregation. 
 - Alexander Campbell says in his first sermon that Communion is a taste of the Millennial Church. This connects with the Communion theme throughout, and the Millennial Harbinger.
