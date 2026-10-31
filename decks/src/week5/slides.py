@@ -280,7 +280,7 @@ A('<section class="slide"><div class=eyebrow>October 1809 &middot; the road into
   '<aside class=notes>One click. Apart two and a half years. Alexander had carried his decision alone for six months, and expected his father to oppose him.</aside></section>')
 A(Q('&ldquo;The Church of Christ upon earth is <b>essentially, intentionally, and constitutionally one</b>; consisting of all those in every place that profess their faith in Christ&hellip;&rdquo;', DA, 'What his father showed him: the <i>Declaration and Address</i>, fresh from the printer') +
   N('Chapter 3: written that summer and dated September 7, 1809; Alexander read it in proof that autumn. Optional sting: the presbytery formally deposed Thomas on April 18, 1810, seven months after it was published.'))
-A(Q('&ldquo;&hellip;instead of fearing opposition from him to the views to which he had himself been definitely brought while in Glasgow, he found him already, though by a somewhat different method, <b>led practically to the very same conclusions</b>.&rdquo;', 'Richardson, <i>Memoirs</i> 1:220', 'On the road, 1809') +
+A(Q('&ldquo;&hellip;instead of&hellip; opposition&hellip; he found him already, though by a somewhat different method, <b>led practically to the very same conclusions</b>.&rdquo;', 'Richardson, <i>Memoirs</i> 1:220', 'On the road, 1809') +
   N('He lands in the autumn of 1809, crosses the mountains, and meets his father on the road. Thomas has just written the <i>Declaration and Address</i>, and Alexander reads it in proof.',
     '&rarr; &ldquo;Father and son, an ocean apart, arrive at the same place.&rdquo;'))
 A('<section class="slide hard"><h2>The father opened the table to people who had no token.</h2>'
