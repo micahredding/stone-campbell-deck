@@ -32,6 +32,8 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **Session one lands on the decision to become a church (Micah, 1 Nov 2026).** "In Glasgow he gave back the token", the three founders and their card now come before the Synod; after the Synod's reasons come "Why a church" and "great reluctance" (moved from session two) and a new card, "Still seeking a larger union, they became a church.", which is also session two's recap. Session two opens on "Brush Run Church Formed".
+
 - **Act I reordered to Micah's spoken run-through (1 Nov 2026).**
   - Haldane's "everything or nothing" now follows the General Assembly's vote: the conviction that sold his estate, turned on Scotland.
   - New after the Kintyre arrest: Dr. McGill of Ayr (Richardson 1:153, note, quoting McKerrow): "he was not God, equal with the Father"; the complaint "hushed up"; the card "Laymen preaching Christ: arrested. / A minister denying him: kept his pulpit."
