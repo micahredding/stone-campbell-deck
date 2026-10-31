@@ -26,7 +26,7 @@ SECTIONS = [
     ('Glasgow', 'He went to hear other preachers.'), ('Reunion', '<h2>Family Reunion</h2>'),
     ('Brush Run', '<h2>Brush Run</h2>'), ('The Synod', 'Christian communion <b>cannot be granted</b>'),
     ('Session one close', 'for discussion &middot; session one'), ('Session two', 'data-session=2'),
-    ('Church formed', '<h2>Brush Run Church Formed</h2>'), ('The first Supper', '<h2>The First Supper</h2>'),
+    ('Church formed', 'data-mark=formed'), ('The first Supper', 'data-mark=supper'),
     ('The ordination', '<h2>The Ordination</h2>'), ('Why the people?', '<h2>Why the people?</h2>'),
     ('Close', 'for discussion &middot; session two'),
 ]
