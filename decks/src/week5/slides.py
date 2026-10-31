@@ -209,12 +209,12 @@ A('<section class="slide"><div class=eyebrow><span style="color:var(--gold)">2 &
   '<h2>Ewing told him the story of the Haldanes.</h2>'
   '<div class="sub frag">Robert and James: two brothers, <b>sea captains turned laymen</b>, who gave their fortune and their lives to the gospel.</div>'
   '<aside class=notes>One click. Robert Haldane served in the navy, James commanded an East India ship; both came home to Scotland, were converted in the 1790s, and turned everything over to preaching. James preached for years before he was ordained. Ewing had left the Church of Scotland to join them, ran their Glasgow Tabernacle, and kept the Supper weekly. His father had also been condemned for letting elders, not ministers, pray and exhort. Richardson says this story, more than anything, changed Alexander&rsquo;s mind.</aside></section>')
-A(BIGQ(Q('&ldquo;Christianity&hellip; <b>is everything or nothing</b>. If it be true, it warrants and commands every sacrifice to promote its influence. If it be not, then let us lay aside the hypocrisy of believing it.&rdquo;', 'Robert Haldane &middot; in Richardson, <i>Memoirs</i>', 'Robert Haldane, 1795')) +
-  N('After his conversion. He resolved to give his life and his property to the gospel; his wife agreed.'))
 A(BIGQ(Q('&ldquo;He accordingly determined to <b>sell his beautiful estate of Airthrey</b>&hellip; but, upon application to the East India Company for permission to establish the mission among the Hindoos, <b>this was positively and unexpectedly refused</b>.&rdquo;', RICH, 'A mission to India, 1797')) +
   N('Inspired by William Carey in Bengal. Robert would fund the whole party, Ewing and Dr. Innes among them, with a printing press. The Company refused; appeals failed; he had already sold the estate.'))
 A(BIGQ(Q('&ldquo;&hellip;&lsquo;That it is the duty of Christians to send the gospel to the heathen world,&rsquo; this, after debate, <b>was voted down by a large majority</b> &mdash; a favorite argument of the opposing party being that <b>there was plenty of ignorance, unbelief and immorality at home</b>&hellip;&rdquo;', RICH, 'The Church of Scotland on missions, 1796')) +
   N('James Haldane was in the gallery for the debate. He knew the church was doing nothing about the unbelief at home either.'))
+A(BIGQ(Q('&ldquo;Christianity&hellip; <b>is everything or nothing</b>. If it be true, it warrants and commands every sacrifice to promote its influence. If it be not, then let us lay aside the hypocrisy of believing it.&rdquo;', 'Robert Haldane &middot; in Richardson, <i>Memoirs</i>', 'Everything or nothing')) +
+  N('He said it of the India mission: the conviction that sold his estate. Refused abroad and told there was work enough at home, he took the Church at its word and turned the same conviction on Scotland.'))
 A(CARD('Plenty of heathen at home, the Assembly said.<br>' + G('So they preached at home.'),
   'From 1797 James Haldane, with lay friends, toured Scotland and the Orkneys preaching in the open air, in streets, barns and fields. Robert paid.'))
 A(Q('&ldquo;Whether a man&hellip; declare those important truths <b>to two or two hundred</b>, he is, in our opinion <b>a preacher of the gospel</b>&hellip;&rdquo;', 'The Haldanes&rsquo; printed notice, 1797 &middot; in Richardson, <i>Memoirs</i>', 'Their right to preach') +
@@ -224,6 +224,12 @@ A(Q('&ldquo;The clergy, however, soon began to manifest <b>their hostility to la
 A(BIGQ(Q('&ldquo;&hellip;preaching every day in the open air to large numbers. On this trip <b>they were held for some time under arrest by the Highland chiefs, at the instigation of the clergy</b>.&rdquo;', RICH, 'Kintyre, 1800')) +
   N('James Haldane and John Campbell (no relation), touring Ayr, Arran and Kintyre. Richardson: &ldquo;notwithstanding the opposition, great good was effected.&rdquo;',
     '&rarr; &ldquo;Refused India. Refused the pulpits. Arrested at home. For preaching.&rdquo;'))
+A(BIGQ(Q('&ldquo;&hellip;that Christ was a person of our own order, and that, although he was invested with a very extraordinary office, and endued with extraordinary powers, yet <b>he was not God, equal with the Father</b>.&rdquo;', RICH + ', vol. 1, p. 153, note', 'Meanwhile, a minister of the Kirk taught, 1786')) +
+  N('William McGill, a minister of the Established Church, in <i>A Practical Essay on the Death of Jesus Christ</i> (1786). Richardson, quoting McKerrow&rsquo;s <i>History of the Secession Church</i>: he also explained away the atonement. The same Kirk that voted down missions and had the Haldanes arrested.'))
+A(BIGQ(Q('&ldquo;&hellip;the whole affair was finally <b>hushed up</b> upon certain vague explanations and apologies made by Doctor McGill, <b>who continued to officiate in the National Church as before</b>.&rdquo;', RICH + ', vol. 1, p. 153, note', 'What the Kirk did about it')) +
+  N('The book &ldquo;was permitted to circulate extensively, for at least two or three years, without any judicial cognizance being taken of its author, either by the Presbytery or Synod to which he belonged, or by the General Assembly.&rdquo; A complaint in 1789, &ldquo;after various postponements and appeals,&rdquo; came to nothing.'))
+A(CARD('Laymen preaching Christ: arrested.<br>' + G('A minister denying him: kept his pulpit.'),
+  'The point Alexander saw: the church&rsquo;s power was spent on who was inside and outside its structure, not on the gospel it existed to keep.'))
 A(BIGQ(Q('&ldquo;The avowed object in forming this church was&hellip; to <b>avoid that contracted spirit which would exclude</b> from the pulpit, or from occasional communion, <b>any faithful preacher of the gospel or sincere lover of Christ</b>.&rdquo;', RICH, 'Their own church, Edinburgh, 1799')) +
   N('Pushed out, the Haldanes formed a church whose first rule was not to push anyone out. Three hundred and ten joined at once. Ewing drew up its plan of government.',
     '&rarr; &ldquo;A church built on refusing to exclude. Alexander is sitting at that man&rsquo;s table.&rdquo;'))
@@ -231,14 +237,6 @@ A(Q('&ldquo;He was particularly impressed with <b>the persistent opposition of t
   N('The same sentence: &ldquo;the unscrupulous methods they often resorted to to hinder the progress of the truths they refused to admit.&rdquo; The corruption he saw was the use of power to shut people out.'))
 A(BIGQ(Q('&ldquo;<b>imbibed disgust at the popular schemes</b>, chiefly while a student at Glasgow.&rdquo;', AC + ', in after years &middot; in Richardson, <i>Memoirs</i>', 'Alexander, looking back'), 'clamp(40px,9vmin,110px)', '24ch') +
   N('Richardson sets it against &ldquo;the course which the clergy pursued under the influence of their narrow policies and bigoted sectarianism.&rdquo;'))
-A('<section class="slide room"><div class="litany" style="gap:3vmin">'
-  '<h2 class=no style="max-width:none;font-size:clamp(40px,8.6vmin,108px)">He was welcome at his church&rsquo;s table.</h2>'
-  '<h2 class="no frag" style="max-width:none;font-size:clamp(40px,8.6vmin,108px)">Ewing was not.</h2>'
-  '<h2 class="no frag" style="max-width:none;font-size:clamp(40px,8.6vmin,108px)">The Haldanes were not.</h2>'
-  '</div><aside class=notes>Two clicks. The Seceder table was for Seceders in good standing, with a token. The men whose preaching and piety he most admired could not have sat at it.</aside></section>')
-A('<section class="slide room"><h2 style="max-width:20ch;font-size:clamp(44px,10vmin,124px);line-height:1.12">Can you be included by a church that excludes?</h2>'
-  '<aside class=notes>Ask the room, and wait. Then carry it into his struggle: what he came to want, and what held him.</aside></section>')
-
 A(Q('&ldquo;&hellip;the principles of Congregationalism entertained by Mr. Ewing, which secured <b>an entire emancipation from the control of domineering Synods and General Assemblies</b>&hellip;&rdquo;', RICH, 'What he came to want') +
   N('&ldquo;&hellip;and which seemed to him much more accordant with primitive usage.&rdquo; The congregation free of the church courts: the seed of tonight.'))
 
@@ -248,9 +246,19 @@ A(Q('&ldquo;&hellip;he did not feel himself at liberty to abandon rashly the che
 
 A('<section class="slide"><div class=eyebrow><span style="color:var(--gold)">3 &middot; The table</span> &middot; Glasgow, spring 1809</div>'
   '<h2>The communion season came. He was examined, and given the token.</h2>'
-  '<div class="sub frag">Eight hundred communicants, eight or nine tables. <b>He waited for the last one.</b></div>'
-  '<aside class=notes>One click. The Seceder church&rsquo;s spring communion. No letter from Ireland, so the elders examined him and gave him the lead token, his ticket to the table.</aside></section>')
+  '<aside class=notes>The Seceder church&rsquo;s spring communion. No letter from Ireland, so the elders examined him and gave him the lead token, his ticket to the table.</aside></section>')
 
+A('<section class="slide room"><div class="litany" style="gap:3vmin">'
+  '<h2 class=no style="max-width:none;font-size:clamp(40px,8.6vmin,108px)">He was welcome at his church&rsquo;s table.</h2>'
+  '<h2 class="no frag" style="max-width:none;font-size:clamp(40px,8.6vmin,108px)">Ewing was not.</h2>'
+  '<h2 class="no frag" style="max-width:none;font-size:clamp(40px,8.6vmin,108px)">The Haldanes were not.</h2>'
+  '</div><aside class=notes>Two clicks. The Seceder table was for Seceders in good standing, with a token. The men whose preaching and piety he most admired could not have sat at it.</aside></section>')
+A('<section class="slide room"><h2 style="max-width:20ch;font-size:clamp(44px,10vmin,124px);line-height:1.12">Can you be included by a church that excludes?</h2>'
+  '<aside class=notes>Ask the room, and wait. Then the Sunday: he went anyway, and waited.</aside></section>')
+
+A('<section class="slide hard"><h2>Eight hundred communicants, eight or nine tables.</h2>'
+  '<div class="sub frag">He waited for the last one.</div>'
+  '<aside class=notes>One click. The Seceder spring communion took the whole day, one table after another. He still hoped, Richardson says, &ldquo;of being able to overcome his scruples.&rdquo;</aside></section>')
 A(Q('&ldquo;His conscientious misgivings as to the propriety of <b>sanctioning any longer, by participation</b>, a religious system which he disapproved, and, on the other hand, his sincere desire to comply with all his religious obligations, <b>created a serious conflict in his mind, from which he found it impossible to escape</b>.&rdquo;', RICH, 'Why he waited') +
   N('Taking part would put his stamp on the system; leaving would break with his father&rsquo;s church. He waited for the last table &ldquo;in hopes of being able to overcome his scruples.&rdquo; He wanted to stay.',
     'Hit the word <b>sanctioning</b>. His father, leaving the Seceders in America, would use the same word.'))
@@ -268,6 +276,8 @@ A('<section class="slide"><div class=eyebrow>October 1809 &middot; the road into
   '<h2>Thomas rode out to meet them.</h2>'
   '<div class="sub frag">On the ride back he told his son everything: the trial, the rebuke, and that <b>he had left the Seceders</b>.</div>'
   '<aside class=notes>One click. Apart two and a half years. Alexander had carried his decision alone for six months, and expected his father to oppose him.</aside></section>')
+A(Q('&ldquo;The Church of Christ upon earth is <b>essentially, intentionally, and constitutionally one</b>; consisting of all those in every place that profess their faith in Christ&hellip;&rdquo;', DA, 'What his father showed him: the <i>Declaration and Address</i>, fresh from the printer') +
+  N('Chapter 3: written that summer and dated September 7, 1809; Alexander read it in proof that autumn. Optional sting: the presbytery formally deposed Thomas on April 18, 1810, seven months after it was published.'))
 A(Q('&ldquo;&hellip;instead of fearing opposition from him to the views to which he had himself been definitely brought while in Glasgow, he found him already, though by a somewhat different method, <b>led practically to the very same conclusions</b>.&rdquo;', 'Richardson, <i>Memoirs</i> 1:220', 'On the road, 1809') +
   N('He lands in the autumn of 1809, crosses the mountains, and meets his father on the road. Thomas has just written the <i>Declaration and Address</i>, and Alexander reads it in proof.',
     '&rarr; &ldquo;Father and son, an ocean apart, arrive at the same place.&rdquo;'))
@@ -276,8 +286,6 @@ A('<section class="slide hard"><h2>The father opened the table to people who had
   '<div class="sub frag"><b>Neither knew.</b></div>'
   '<aside class=notes>Two clicks. Say it plain and stop.<br>The father had been tried for serving the Supper to Presbyterians of other kinds in 1807; the son had walked away from a fenced table in 1809.</aside></section>')
 
-A(Q('&ldquo;The Church of Christ upon earth is <b>essentially, intentionally, and constitutionally one</b>; consisting of all those in every place that profess their faith in Christ&hellip;&rdquo;', DA, 'That fall they asked him to write down what they stood for') +
-  N('Chapter 3: the <i>Declaration and Address</i>, which Alexander read in proof that autumn. Optional sting: the presbytery formally deposed Thomas on April 18, 1810, seven months after it was published.'))
 # ---------- BRUSH RUN ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg brushbg"></div></div>'
   '<div class=credit>The Brush Run meeting house, reconstructed at Bethany &middot; courtesy of Bethany College</div>'
@@ -298,18 +306,21 @@ A(BIGQ(Q('&ldquo;&hellip;as the Society was not a Church&hellip; most of its mem
 
 A(BIGQ(Q('&ldquo;&hellip;the Society must obtain admission into some regularly organized religious body, or be itself compelled to change its attitude and <b>resolve itself into an independent Church</b> &mdash; an alternative which Thomas Campbell particularly desired to avoid.&rdquo;', RICH)) +
   N('The Society&rsquo;s first plan was not to become a church at all. In October 1810 Thomas asked the Presbyterian Synod of Pittsburg, a body other than the Seceders who had tried him, to receive him and the Association.'))
-A(BIGQ(Q('&ldquo;&hellip;Mr. Campbell&rsquo;s request to be received into ministerial and Christian communion <b>cannot be granted</b>.&rdquo;', MIN, 'The Synod of Pittsburg, October 1810'), 'clamp(40px,9vmin,110px)', '24ch') +
-  N('Unanimous. Among its reasons: Thomas&rsquo;s &ldquo;opposing creeds and confessions as injurious to the interests of religion.&rdquo; Then the reasons, and Alexander&rsquo;s November reply.'))
-A(DIM('<section class="slide"><div class=eyebrow>The &ldquo;important reasons,&rdquo; October 5</div>'
-  '<div class=litany style="font-size:1.3em;max-width:88vw">'
-  '<div class="no frag">&ldquo;for expressing his belief that there are some opinions taught in our Confession of Faith which are not founded in the Bible&rdquo;</div>'
-  '<div class="no frag">&ldquo;for declaring that the administration of baptism to infants is not authorized by scriptural precept or example&rdquo;</div>'
-  '<div class="no frag">&ldquo;for encouraging or countenancing his son to preach the gospel without any regular authority&rdquo;</div>'
-  '<div class="no frag" style="color:var(--gold)">&ldquo;for opposing creeds and confessions as injurious to the interests of religion&rdquo;</div>'
-  '</div><div class=cite>' + MIN + '</div>'
-  '<aside class=notes>Four clicks. Thomas came back the next day and asked what the &ldquo;important reasons&rdquo; were. The fourth is tonight&rsquo;s: a creed used as a test of communion is a fence at the table, and he would not keep one. He said he felt &ldquo;quite relieved&rdquo;: none of it was for immorality.<br>&rarr; &ldquo;The Synod would not have him because he would not shut anyone out. Alexander answered three weeks later.&rdquo;</aside></section>', 'synodbg5'))
-A('<section class="slide breath"><div class=eyebrow>Alexander answers, November 1810</div><h2 style="max-width:none">Who may come?</h2>'
-  '<aside class=notes>Alexander&rsquo;s reply to the Synod, an address to the Christian Association on November 1, 1810: the creeds as gates, Gabriel, the &ldquo;party man&rdquo; address, and the gates as wide as heaven. This is the token, put into words: the position the Synod had just refused.</aside></section>')
+A('<section class="slide breath"><h2 style="max-width:none">Two ways not to become a sect</h2>'
+  '<aside class=notes>The pattern to highlight. Both sides feared becoming one more party. Stone&rsquo;s presbytery solved it by dissolving itself. The Campbells tried to solve it by joining a body that already existed, and kept trying.</aside></section>')
+A('<section data-src="will rich" class="slide"><div style="display:grid;grid-template-columns:1fr 1fr;gap:5vw;max-width:92vw;align-items:start">'
+  '<div><div class=eyebrow>Stone&rsquo;s side, 1804 &middot; dissolve our own body</div><p class=bigquote style="font-size:clamp(30px,6vmin,76px);line-height:1.2;max-width:none">&ldquo;We will, that this body <b>die, be dissolved, and sink into union with the Body of Christ at large</b>&hellip;&rdquo;</p><div class=cite>The Last Will and Testament</div></div>'
+  '<div class=frag><div class=eyebrow>The Campbells&rsquo; side, 1810 &middot; join an existing one</div><p class=bigquote style="font-size:clamp(30px,6vmin,76px);line-height:1.2;max-width:none">&ldquo;&hellip;the Society must <b>obtain admission into some regularly organized religious body</b>&hellip;&rdquo;</p><div class=cite>Richardson, <i>Memoirs</i></div></div>'
+  '</div><aside class=notes>One click. The same fear, opposite remedies. Thomas left the Seceders and set out to join another body; what follows is that attempt, and its refusal. Even after Brush Run became a church, they kept looking for a body to join (side path: Becoming Baptists).</aside></section>')
+A(BIGQ(Q('&ldquo;&hellip;expressing a willingness, upon certain conditions, to co-operate or to unite with that Association, <b>provided always that we should be allowed to teach and preach whatever we learned from the Holy Scriptures, regardless of any creed or formula in Christendom</b>.&rdquo;', AC + ', <i>Millennial Harbinger</i> 1848 &middot; in Richardson, <i>Memoirs</i>', 'Side path &middot; becoming Baptists &middot; Brush Run&rsquo;s overture, fall 1813')) +
+  N('Side path, two years ahead. After the Campbells were immersed in 1812, Baptist congregations for sixty miles around asked Alexander to preach and &ldquo;all pressed us to join their Redstone Association.&rdquo; Brush Run&rsquo;s answer: eight or ten pages, &ldquo;exhibiting our remonstrance against all human creeds as bonds of communion.&rdquo; The Association voted, &ldquo;by a considerable majority,&rdquo; to receive them: &ldquo;Thus a union was formed.&rdquo;'))
+A(BIGQ(Q('&ldquo;As the reformers were, however, <b>at this time identified with the Baptists</b>, it was thought expedient, in order to avoid offending religious prejudice&hellip; to make this concession so far as the name of the paper was concerned, qualifying &ldquo;Baptist&rdquo; by the word &ldquo;Christian.&rdquo;&rdquo;', 'Richardson, <i>Memoirs</i>, vol. 2', 'The name of his paper, 1823')) +
+  N('<i>The Christian Baptist</i>, 1823&ndash;1830. Richardson calls it a concession; it was also simply true: the reformers were Baptists. He had debated as the Baptist champion against John Walker (1820) and W. L. Maccalla (1823).',
+    'In 1829 he dropped the name because &ldquo;he feared that the name Christian Baptists would be given to the advocates of the Reformation.&rdquo; The 1848 memory was written from the far side of that break.'))
+A(CARD('Refused by the Presbyterians,<br>' + G('they became Baptists.'),
+  'For most of the next two decades the Campbells&rsquo; churches belonged to Baptist associations: Redstone from 1813, Alexander&rsquo;s Wellsburg church in the Mahoning Association from 1823. His paper (1823&ndash;1830) was called <i>The Christian Baptist</i>. The separation came around 1830.<br>&rarr; &ldquo;Stone gave up his institution. The Campbells kept looking for one to belong to.&rdquo;'))
+A('<section class="slide breath"><div class=eyebrow>Alexander, 1810</div><h2 style="max-width:none">Who may come?</h2>'
+  '<aside class=notes>The ground they stood on, already implicit in the <i>Declaration and Address</i>: the creeds as gates, Gabriel, the &ldquo;party man&rdquo; address, and the gates as wide as heaven. Alexander put it into words on November 1, 1810, answering the Synod three weeks after its refusal; the position was there before the refusal. This is the token, put into words.</aside></section>')
 A(BIGQ(Q('&ldquo;That standards had been lifted up which <b>narrowed the gates of Zion</b>&hellip; and there were none of them but would <b>reject those whom God has not rejected</b>, and deny admission to those whom God had admitted.&rdquo;', AC + ', address to the Christian Association, November 1810 &middot; in Richardson, <i>Memoirs</i>', 'The creeds as gates')) +
   N('&ldquo;Standards&rdquo; are the confessions used as tests of admission. His text was Isaiah 62:10, &ldquo;go through the gates.&rdquo;'))
 A(BIGQ(Q('&ldquo;All are defective. <b>The apostle Paul, the angel Gabriel in human form, could not be admitted</b> on the principles of these standards.&rdquo;', AC + ', November 1810 &middot; in Richardson, <i>Memoirs</i>'), 'clamp(40px,9vmin,110px)', '26ch') +
@@ -328,7 +339,17 @@ A(BIGQ(Q('&ldquo;&hellip;unless we suppose, what is contrary to fact, that none 
 A(BIGQ(Q('&ldquo;&hellip;yet are they not formally binding upon the consciences of Christians farther than they perceive the connection&hellip; Therefore, <b>no such deductions can be made terms of communion</b>, but do properly belong to the after and progressive edification of the Church.&rdquo;', DA, 'Proposition 6')) +
   N('Inferences belong to teaching, &ldquo;the after and progressive edification of the Church,&rdquo; not to admission.'))
 A(CARD('Creeds may teach.<br>' + G('They may not fence the table.'),
-  'Back to the spine: the token, in words.'))
+  'Back to the spine: what the Synod made of it.'))
+A(BIGQ(Q('&ldquo;&hellip;Mr. Campbell&rsquo;s request to be received into ministerial and Christian communion <b>cannot be granted</b>.&rdquo;', MIN, 'The Synod of Pittsburg, October 1810'), 'clamp(40px,9vmin,110px)', '24ch') +
+  N('Unanimous. Among its reasons: Thomas&rsquo;s &ldquo;opposing creeds and confessions as injurious to the interests of religion.&rdquo; Then the reasons: the very ground just stated.'))
+A(DIM('<section class="slide"><div class=eyebrow>The &ldquo;important reasons,&rdquo; October 5</div>'
+  '<div class=litany style="font-size:1.3em;max-width:88vw">'
+  '<div class="no frag">&ldquo;for expressing his belief that there are some opinions taught in our Confession of Faith which are not founded in the Bible&rdquo;</div>'
+  '<div class="no frag">&ldquo;for declaring that the administration of baptism to infants is not authorized by scriptural precept or example&rdquo;</div>'
+  '<div class="no frag">&ldquo;for encouraging or countenancing his son to preach the gospel without any regular authority&rdquo;</div>'
+  '<div class="no frag" style="color:var(--gold)">&ldquo;for opposing creeds and confessions as injurious to the interests of religion&rdquo;</div>'
+  '</div><div class=cite>' + MIN + '</div>'
+  '<aside class=notes>Four clicks. Thomas came back the next day and asked what the &ldquo;important reasons&rdquo; were. The fourth is tonight&rsquo;s: a creed used as a test of communion is a fence at the table, and he would not keep one. He said he felt &ldquo;quite relieved&rdquo;: none of it was for immorality.<br>&rarr; &ldquo;The Synod would not have him because he would not shut anyone out. Alexander had answered it before they asked; he said it aloud three weeks later.&rdquo;</aside></section>', 'synodbg5'))
 A('<section class="slide hard"><h2>In Glasgow he gave back the token.</h2>'
   '<div class="sub frag">In Washington he said why.</div>'
   '<aside class=notes>One click. Spring 1809, a lead token on a plate; November 1810, &ldquo;as wide as the gates of heaven.&rdquo; The same refusal, eighteen months apart: he would not be included by a table that excluded. And it is the position that kept his father out of the Synod.</aside></section>')
@@ -366,22 +387,9 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
   '<aside class=notes>Session two. Recap in one breath: the shipwreck, the Haldanes, the token given back, father and son meeting on the road, the Synod&rsquo;s refusal, the gates as wide as heaven. Three founders, one open table. Tonight: what the Campbells did once every body they asked had refused them, and who made their minister.<br>'
   'The hour: Brush Run 8 &middot; the first Supper 5 &middot; the ordination 6 &middot; why the people 17 &middot; close 8.</aside></section>')
 A(CARD('Three founders.<br>' + G('One open table.'),
-  'Last session&rsquo;s last card. Stone in 1803, Thomas in 1807, Alexander in 1809: each broke with his church over who may come to the table.<br>&rarr; &ldquo;Refused by the Synod, the Campbells still had no church. Two ways not to become a sect.&rdquo;', 'Last session'))
+  'Last session&rsquo;s last card. Stone in 1803, Thomas in 1807, Alexander in 1809: each broke with his church over who may come to the table.<br>&rarr; &ldquo;Refused by the Synod, the Campbells still had no church. Every body they asked had refused them.&rdquo;', 'Last session'))
 
 # ---------- BRUSH RUN BECOMES A CHURCH ----------
-A('<section class="slide breath"><h2 style="max-width:none">Two ways not to become a sect</h2>'
-  '<aside class=notes>The pattern to highlight. Both sides feared becoming one more party. Stone&rsquo;s presbytery solved it by dissolving itself. The Campbells tried to solve it by joining a body that already existed, and kept trying.</aside></section>')
-A('<section data-src="will rich" class="slide"><div style="display:grid;grid-template-columns:1fr 1fr;gap:5vw;max-width:92vw;align-items:start">'
-  '<div><div class=eyebrow>Stone&rsquo;s side, 1804 &middot; dissolve our own body</div><p class=bigquote style="font-size:clamp(30px,6vmin,76px);line-height:1.2;max-width:none">&ldquo;We will, that this body <b>die, be dissolved, and sink into union with the Body of Christ at large</b>&hellip;&rdquo;</p><div class=cite>The Last Will and Testament</div></div>'
-  '<div class=frag><div class=eyebrow>The Campbells&rsquo; side, 1810 &middot; join an existing one</div><p class=bigquote style="font-size:clamp(30px,6vmin,76px);line-height:1.2;max-width:none">&ldquo;&hellip;the Society must <b>obtain admission into some regularly organized religious body</b>&hellip;&rdquo;</p><div class=cite>Richardson, <i>Memoirs</i></div></div>'
-  '</div><aside class=notes>One click. The same fear, opposite remedies. Thomas left the Seceders and set out to join another body; what follows is that attempt, and its refusal. Even after Brush Run became a church, they kept looking for a body to join (side path: Becoming Baptists).</aside></section>')
-A(BIGQ(Q('&ldquo;&hellip;expressing a willingness, upon certain conditions, to co-operate or to unite with that Association, <b>provided always that we should be allowed to teach and preach whatever we learned from the Holy Scriptures, regardless of any creed or formula in Christendom</b>.&rdquo;', AC + ', <i>Millennial Harbinger</i> 1848 &middot; in Richardson, <i>Memoirs</i>', 'Side path &middot; becoming Baptists &middot; Brush Run&rsquo;s overture, fall 1813')) +
-  N('Side path, two years ahead. After the Campbells were immersed in 1812, Baptist congregations for sixty miles around asked Alexander to preach and &ldquo;all pressed us to join their Redstone Association.&rdquo; Brush Run&rsquo;s answer: eight or ten pages, &ldquo;exhibiting our remonstrance against all human creeds as bonds of communion.&rdquo; The Association voted, &ldquo;by a considerable majority,&rdquo; to receive them: &ldquo;Thus a union was formed.&rdquo;'))
-A(BIGQ(Q('&ldquo;As the reformers were, however, <b>at this time identified with the Baptists</b>, it was thought expedient, in order to avoid offending religious prejudice&hellip; to make this concession so far as the name of the paper was concerned, qualifying &ldquo;Baptist&rdquo; by the word &ldquo;Christian.&rdquo;&rdquo;', 'Richardson, <i>Memoirs</i>, vol. 2', 'The name of his paper, 1823')) +
-  N('<i>The Christian Baptist</i>, 1823&ndash;1830. Richardson calls it a concession; it was also simply true: the reformers were Baptists. He had debated as the Baptist champion against John Walker (1820) and W. L. Maccalla (1823).',
-    'In 1829 he dropped the name because &ldquo;he feared that the name Christian Baptists would be given to the advocates of the Reformation.&rdquo; The 1848 memory was written from the far side of that break.'))
-A(CARD('Refused by the Presbyterians,<br>' + G('they became Baptists.'),
-  'For most of the next two decades the Campbells&rsquo; churches belonged to Baptist associations: Redstone from 1813, Alexander&rsquo;s Wellsburg church in the Mahoning Association from 1823. His paper (1823&ndash;1830) was called <i>The Christian Baptist</i>. The separation came around 1830.<br>&rarr; &ldquo;Stone gave up his institution. The Campbells kept looking for one to belong to.&rdquo;'))
 A(BIGQ(Q('&ldquo;&hellip;on account of <b>the continued hostility of the different parties</b>, it was necessary that the Christian Association should assume the character of an independent Church, <b>in order to the enjoyment of those privileges and the performance of those duties which belong to the Church relation</b>.&rdquo;', RICH, 'Why a church')) +
   N('The pastoral need. Its members had been shut out or had drifted from their old congregations: no Supper, no baptism for their children, no one to marry or bury them. '))
 A(BIGQ(Q('&ldquo;It was with <b>great reluctance</b> that he finally concluded to take this step, and to separate himself from those whom he desired to recognize as brethren.&rdquo;', RICH, 'Thomas Campbell, spring 1811')) +

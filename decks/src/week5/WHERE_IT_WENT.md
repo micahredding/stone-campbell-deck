@@ -32,6 +32,13 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **Act I reordered to Micah's spoken run-through (1 Nov 2026).**
+  - Haldane's "everything or nothing" now follows the General Assembly's vote: the conviction that sold his estate, turned on Scotland.
+  - New after the Kintyre arrest: Dr. McGill of Ayr (Richardson 1:153, note, quoting McKerrow): "he was not God, equal with the Father"; the complaint "hushed up"; the card "Laymen preaching Christ: arrested. / A minister denying him: kept his pulpit."
+  - The token: what he came to want and his father's church come first, then the examination and token, then "He was welcome… Ewing was not… The Haldanes were not.", "Can you be included…?", and a new slide "Eight hundred communicants… He waited for the last one." (split from the token slide).
+  - The reunion: the *Declaration and Address* slide now follows the road ("what his father showed him"), before "the very same conclusions".
+  - "Two ways not to become a sect", the two-column slide and *Becoming Baptists* moved back from session two into Act I, after "must obtain admission"; then "Who may come?" (now headed "Alexander, 1810": the ground already implicit in the D&A), and only then the Synod's refusal and its reasons. Session two now opens on "Why a church".
+
 - **"Your questions" is a side path** off the recap documents slide (Micah, 31 Oct 2026): Catholics, and unity or uniformity, 23 slides. It was on the spine for a day.
 
 - **Two sessions, one deck (Micah, 28 Oct 2026).** Chapter 5 now runs as two class sessions in the same deck:
