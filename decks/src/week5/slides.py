@@ -340,16 +340,6 @@ A(BIGQ(Q('&ldquo;&hellip;yet are they not formally binding upon the consciences 
   N('Inferences belong to teaching, &ldquo;the after and progressive edification of the Church,&rdquo; not to admission.'))
 A(CARD('Creeds may teach.<br>' + G('They may not fence the table.'),
   'Back to the spine: what the Synod made of it.'))
-A(BIGQ(Q('&ldquo;&hellip;Mr. Campbell&rsquo;s request to be received into ministerial and Christian communion <b>cannot be granted</b>.&rdquo;', MIN, 'The Synod of Pittsburg, October 1810'), 'clamp(40px,9vmin,110px)', '24ch') +
-  N('Unanimous. Among its reasons: Thomas&rsquo;s &ldquo;opposing creeds and confessions as injurious to the interests of religion.&rdquo; Then the reasons: the very ground just stated.'))
-A(DIM('<section class="slide"><div class=eyebrow>The &ldquo;important reasons,&rdquo; October 5</div>'
-  '<div class=litany style="font-size:1.3em;max-width:88vw">'
-  '<div class="no frag">&ldquo;for expressing his belief that there are some opinions taught in our Confession of Faith which are not founded in the Bible&rdquo;</div>'
-  '<div class="no frag">&ldquo;for declaring that the administration of baptism to infants is not authorized by scriptural precept or example&rdquo;</div>'
-  '<div class="no frag">&ldquo;for encouraging or countenancing his son to preach the gospel without any regular authority&rdquo;</div>'
-  '<div class="no frag" style="color:var(--gold)">&ldquo;for opposing creeds and confessions as injurious to the interests of religion&rdquo;</div>'
-  '</div><div class=cite>' + MIN + '</div>'
-  '<aside class=notes>Four clicks. Thomas came back the next day and asked what the &ldquo;important reasons&rdquo; were. The fourth is tonight&rsquo;s: a creed used as a test of communion is a fence at the table, and he would not keep one. He said he felt &ldquo;quite relieved&rdquo;: none of it was for immorality.<br>&rarr; &ldquo;The Synod would not have him because he would not shut anyone out. Alexander had answered it before they asked; he said it aloud three weeks later.&rdquo;</aside></section>', 'synodbg5'))
 A('<section class="slide hard"><h2>In Glasgow he gave back the token.</h2>'
   '<div class="sub frag">In Washington he said why.</div>'
   '<aside class=notes>One click. Spring 1809, a lead token on a plate; November 1810, &ldquo;as wide as the gates of heaven.&rdquo; The same refusal, eighteen months apart: he would not be included by a table that excluded. And it is the position that kept his father out of the Synod.</aside></section>')
@@ -360,8 +350,24 @@ A('<section data-src="stone" class="slide room"><div class=eyebrow>Three founder
   '<div class="no frag" style="font-size:clamp(30px,5.6vmin,70px);line-height:1.2"><b>Alexander Campbell</b>, 1809: gave back the token</div>'
   '</div><aside class=notes>Three clicks, one founder each. Stone, Chapter 4: suspended from the Synod&rsquo;s jurisdiction, he would not break communion with it (Stone, <i>Biography</i>, ch. VII). Thomas, Chapter 2: the 1807 charge. Alexander, tonight. Three men, three countries of origin, none knowing the others&rsquo; story, each broken with his church over who may come to the table.</aside></section>')
 A(CARD('Three founders.<br>' + G('One open table.'),
-  'End of the first act. Alexander stands beside Stone and his father: an idealist who would not be included where others were shut out. End of session one: discussion and the idea follow.'))
+  'Alexander stands beside Stone and his father: an idealist who would not be included where others were shut out.<br>&rarr; &ldquo;And that is the ground the Synod of Pittsburg would not stand on.&rdquo;'))
 
+A(BIGQ(Q('&ldquo;&hellip;Mr. Campbell&rsquo;s request to be received into ministerial and Christian communion <b>cannot be granted</b>.&rdquo;', MIN, 'The Synod of Pittsburg, October 1810'), 'clamp(40px,9vmin,110px)', '24ch') +
+  N('Unanimous. Among its reasons: Thomas&rsquo;s &ldquo;opposing creeds and confessions as injurious to the interests of religion.&rdquo; Then the reasons: the very ground just stated.'))
+A(DIM('<section class="slide"><div class=eyebrow>The &ldquo;important reasons,&rdquo; October 5</div>'
+  '<div class=litany style="font-size:1.3em;max-width:88vw">'
+  '<div class="no frag">&ldquo;for expressing his belief that there are some opinions taught in our Confession of Faith which are not founded in the Bible&rdquo;</div>'
+  '<div class="no frag">&ldquo;for declaring that the administration of baptism to infants is not authorized by scriptural precept or example&rdquo;</div>'
+  '<div class="no frag">&ldquo;for encouraging or countenancing his son to preach the gospel without any regular authority&rdquo;</div>'
+  '<div class="no frag" style="color:var(--gold)">&ldquo;for opposing creeds and confessions as injurious to the interests of religion&rdquo;</div>'
+  '</div><div class=cite>' + MIN + '</div>'
+  '<aside class=notes>Four clicks. Thomas came back the next day and asked what the &ldquo;important reasons&rdquo; were. The fourth is tonight&rsquo;s: a creed used as a test of communion is a fence at the table, and he would not keep one. He said he felt &ldquo;quite relieved&rdquo;: none of it was for immorality.<br>&rarr; &ldquo;The Synod would not have him because he would not shut anyone out. Alexander had answered it before they asked; he said it aloud three weeks later.&rdquo;</aside></section>', 'synodbg5'))
+A(BIGQ(Q('&ldquo;&hellip;on account of <b>the continued hostility of the different parties</b>, it was necessary that the Christian Association should assume the character of an independent Church, <b>in order to the enjoyment of those privileges and the performance of those duties which belong to the Church relation</b>.&rdquo;', RICH, 'Why a church')) +
+  N('The refusal did not end their search for a larger union; they would keep seeking one (the Baptists from 1813). But it forced the question at home. The pastoral need: members shut out or drifted from their old congregations, with no Supper, no baptism for their children, no one to marry or bury them.'))
+A(BIGQ(Q('&ldquo;It was with <b>great reluctance</b> that he finally concluded to take this step, and to separate himself from those whom he desired to recognize as brethren.&rdquo;', RICH, 'Thomas Campbell, spring 1811')) +
+  N('Spring 1811. Every overture refused, Thomas concluded &ldquo;that the Christian Association should assume the character of an independent Church.&rdquo; The thing he had dreaded since 1809, accepted to meet the spiritual needs of the people in his care. &ldquo;At the next meeting of the Association, accordingly, the matter was duly considered and agreed to.&rdquo;'))
+A(CARD('Still seeking a larger union,<br>' + G('they became a church.'),
+  'Where session one lands. The Synod&rsquo;s refusal did not stop the Campbells from seeking alliances with larger bodies. But to meet the spiritual needs of their people, Thomas, very reluctantly, agreed they must constitute a church. Brush Run, May 4, 1811: next time.'))
 # ---------- SESSION ONE: CLOSE ----------
 DISCUSS1 = ('<section class="slide room"><div class=eyebrow>&#9670; for discussion &middot; session one</div><h2>What is beautiful here? What do we carry forward?</h2>'
             '<aside class=notes>Backup prompts (off the slide): Have you been welcome somewhere a friend was not? Did you stay? Who does our table turn away, in word or in practice? Can you be included by a church that excludes?</aside></section>')
@@ -370,8 +376,8 @@ for _k in SESSION1: A(IDEA(_k, SESSION1))
 A(DISCUSS1)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> is there in full; tonight&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))
-A('<section class="slide"><h2>Next time: shut out by every church they asked, they become one.</h2>'
-  '<div class="sub frag">And they make their own minister.</div>'
+A('<section class="slide"><h2>Next time: Brush Run becomes a church.</h2>'
+  '<div class="sub frag">And makes its own minister.</div>'
   '<aside class=notes>One click. Session two: Brush Run becomes a church (May 1811), keeps the Supper every Lord&rsquo;s day, and ordains Alexander at the hands of the congregation (January 1812).</aside></section>')
 A(BLACK)
 
@@ -384,16 +390,11 @@ A('<section data-src="kjv" class="slide"><div class=eyebrow>Quiz</div>'
 A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 5 &middot; Session two</div>'
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
   '<div class=sub>Brush Run, Pennsylvania &middot; 1811&ndash;1812</div>'
-  '<aside class=notes>Session two. Recap in one breath: the shipwreck, the Haldanes, the token given back, father and son meeting on the road, the Synod&rsquo;s refusal, the gates as wide as heaven. Three founders, one open table. Tonight: what the Campbells did once every body they asked had refused them, and who made their minister.<br>'
+  '<aside class=notes>Session two. Recap in one breath: the shipwreck, the Haldanes, the token given back, father and son meeting on the road, the Synod&rsquo;s refusal, the gates as wide as heaven. Three founders, one open table. Last time ended on the decision to become a church. Tonight: the church they formed, its first Supper, and who made their minister.<br>'
   'The hour: Brush Run 8 &middot; the first Supper 5 &middot; the ordination 6 &middot; why the people 17 &middot; close 8.</aside></section>')
-A(CARD('Three founders.<br>' + G('One open table.'),
-  'Last session&rsquo;s last card. Stone in 1803, Thomas in 1807, Alexander in 1809: each broke with his church over who may come to the table.<br>&rarr; &ldquo;Refused by the Synod, the Campbells still had no church. Every body they asked had refused them.&rdquo;', 'Last session'))
-
+A(CARD('Still seeking a larger union,<br>' + G('they became a church.'),
+  'Last session&rsquo;s last card. Refused by the Synod of Pittsburg in October 1810, they kept looking for a larger body to belong to; but in the spring of 1811 Thomas, &ldquo;with great reluctance,&rdquo; agreed the Association must become a church.<br>&rarr; &ldquo;May 4, 1811.&rdquo;', 'Last session'))
 # ---------- BRUSH RUN BECOMES A CHURCH ----------
-A(BIGQ(Q('&ldquo;&hellip;on account of <b>the continued hostility of the different parties</b>, it was necessary that the Christian Association should assume the character of an independent Church, <b>in order to the enjoyment of those privileges and the performance of those duties which belong to the Church relation</b>.&rdquo;', RICH, 'Why a church')) +
-  N('The pastoral need. Its members had been shut out or had drifted from their old congregations: no Supper, no baptism for their children, no one to marry or bury them. '))
-A(BIGQ(Q('&ldquo;It was with <b>great reluctance</b> that he finally concluded to take this step, and to separate himself from those whom he desired to recognize as brethren.&rdquo;', RICH, 'Thomas Campbell, spring 1811')) +
-  N('Spring 1811. Every overture refused, Thomas concluded &ldquo;that the Christian Association should assume the character of an independent Church.&rdquo; The thing he had dreaded since 1809. &ldquo;At the next meeting of the Association, accordingly, the matter was duly considered and agreed to.&rdquo;'))
 A(C('Brush Run Church Formed', 'Saturday, May 4, 1811, at the Brush Run meeting house. About thirty members. They sang Psalm 118 in the old Scottish metrical version.', 'May 4, 1811'))
 A(CARD('No bishop. No presbytery.<br>' + G('A congregation.'),
   'Let it sit. This is the thing no church court could imagine: a church that makes its own ministers.'))
