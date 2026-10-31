@@ -342,34 +342,34 @@ A(BIGQ(Q('&ldquo;&hellip;yet are they not formally binding upon the consciences 
   N('Inferences belong to teaching, &ldquo;the after and progressive edification of the Church,&rdquo; not to admission.'))
 A(CARD('Creeds may teach.<br>' + G('They may not fence the table.'),
   'Back to the spine: what the Synod made of it.'))
-A('<section class="slide hard"><h2>In Glasgow he gave back the token.</h2>'
-  '<div class="sub frag">In Washington he said why.</div>'
-  '<aside class=notes>One click. Spring 1809, a lead token on a plate; November 1810, &ldquo;as wide as the gates of heaven.&rdquo; The same refusal, eighteen months apart: he would not be included by a table that excluded. And it is the position that kept his father out of the Synod.</aside></section>')
-A('<section data-src="stone" class="slide room"><div class=eyebrow>Three founders, one table</div>'
-  '<div class=litany style="text-align:left;gap:4.4vmin;max-width:88vw">'
-  '<div class="no frag" style="font-size:clamp(30px,5.6vmin,70px);line-height:1.2"><b>Barton Stone</b>, 1803: withdrew from the Synod&rsquo;s &ldquo;jurisdiction, <b>but not from their communion</b>&rdquo;</div>'
-  '<div class="no frag" style="font-size:clamp(30px,5.6vmin,70px);line-height:1.2"><b>Thomas Campbell</b>, 1807: tried for serving the Supper to Presbyterians outside the Seceders</div>'
-  '<div class="no frag" style="font-size:clamp(30px,5.6vmin,70px);line-height:1.2"><b>Alexander Campbell</b>, 1809: gave back the token</div>'
-  '</div><aside class=notes>Three clicks, one founder each. Stone, Chapter 4: suspended from the Synod&rsquo;s jurisdiction, he would not break communion with it (Stone, <i>Biography</i>, ch. VII). Thomas, Chapter 2: the 1807 charge. Alexander, tonight. Three men, three countries of origin, none knowing the others&rsquo; story, each broken with his church over who may come to the table.</aside></section>')
-A(CARD('Three founders.<br>' + G('One open table.'),
-  'Alexander stands beside Stone and his father: an idealist who would not be included where others were shut out.<br>&rarr; &ldquo;And that is the ground the Synod of Pittsburg would not stand on.&rdquo;'))
-
+A('<section data-src="stone" class="slide" style="padding:0">'
+  '<div class=eyebrow style="position:absolute;top:5vh;left:0;right:0;width:100%;max-width:none;margin:0;text-align:center">Three founders, one table</div>'
+  '<div style="position:absolute;top:13vh;bottom:6vh;left:2vw;right:2vw;display:flex;align-items:flex-start">'
+  '<div class="frag" style="flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 1.6vw">'
+  '<img src="IMG_STONE" alt="" style="height:48vh;width:100%;max-width:29vw;object-fit:cover;object-position:center 30%;border:1px solid rgba(201,162,74,.55);box-shadow:0 6px 24px rgba(0,0,0,.6)">'
+  '<div style="font-family:\'IM Fell English\',Georgia,serif;color:var(--gold);font-size:clamp(26px,4.6vmin,58px);margin-top:2.4vmin;line-height:1.1">Barton Stone, 1803</div>'
+  '<div style="font-family:Spectral,Georgia,serif;color:var(--bone);font-size:clamp(20px,3.5vmin,44px);line-height:1.25;margin-top:1.2vmin">withdrew from the Synod&rsquo;s &ldquo;jurisdiction, <b>but not from their communion</b>&rdquo;</div>'
+  '</div>'
+  '<div class="frag" style="flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 1.6vw">'
+  '<img src="IMG_TCAMPBELL" alt="" style="height:48vh;width:100%;max-width:29vw;object-fit:cover;object-position:center 25%;border:1px solid rgba(201,162,74,.55);box-shadow:0 6px 24px rgba(0,0,0,.6)">'
+  '<div style="font-family:\'IM Fell English\',Georgia,serif;color:var(--gold);font-size:clamp(26px,4.6vmin,58px);margin-top:2.4vmin;line-height:1.1">Thomas Campbell, 1807</div>'
+  '<div style="font-family:Spectral,Georgia,serif;color:var(--bone);font-size:clamp(20px,3.5vmin,44px);line-height:1.25;margin-top:1.2vmin">tried for serving the Supper to Presbyterians outside the Seceders</div>'
+  '</div>'
+  '<div class="frag" style="flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 1.6vw">'
+  '<img src="IMG_ACAMPBELL" alt="" style="height:48vh;width:100%;max-width:29vw;object-fit:cover;object-position:center 25%;border:1px solid rgba(201,162,74,.55);box-shadow:0 6px 24px rgba(0,0,0,.6)">'
+  '<div style="font-family:\'IM Fell English\',Georgia,serif;color:var(--gold);font-size:clamp(26px,4.6vmin,58px);margin-top:2.4vmin;line-height:1.1">Alexander Campbell, 1809</div>'
+  '<div style="font-family:Spectral,Georgia,serif;color:var(--bone);font-size:clamp(20px,3.5vmin,44px);line-height:1.25;margin-top:1.2vmin">gave back the token</div>'
+  '</div>'
+  '</div>'
+  '<aside class=notes>Three clicks, one founder each. Stone, Chapter 4: suspended from the Synod&rsquo;s jurisdiction, he would not break communion with it (Stone, <i>Biography</i>, ch. VII). Thomas, Chapter 2: the 1807 charge. Alexander, tonight. Three men, three countries of origin, none knowing the others&rsquo; story, each broken with his church over who may come to the table.<br>&rarr; &ldquo;And that is the ground the Synod of Pittsburg would not stand on.&rdquo;</aside></section>')
 A(BIGQ(Q('&ldquo;&hellip;Mr. Campbell&rsquo;s request to be received into&hellip; Christian communion <b>cannot be granted</b>.&rdquo;', MIN, 'The Synod of Pittsburg, October 1810'), 'clamp(40px,9vmin,110px)', '24ch') +
-  N('Unanimous. Among its reasons: Thomas&rsquo;s &ldquo;opposing creeds and confessions as injurious to the interests of religion.&rdquo; Then the reasons: the very ground just stated.'))
-A(DIM('<section class="slide"><div class=eyebrow>The &ldquo;important reasons,&rdquo; October 5</div>'
-  '<div class=litany style="font-size:1.3em;max-width:88vw">'
-  '<div class="no frag">&ldquo;for expressing his belief that there are some opinions taught in our Confession of Faith which are not founded in the Bible&rdquo;</div>'
-  '<div class="no frag">&ldquo;for declaring that the administration of baptism to infants is not authorized by scriptural precept or example&rdquo;</div>'
-  '<div class="no frag">&ldquo;for encouraging or countenancing his son to preach the gospel without any regular authority&rdquo;</div>'
-  '<div class="no frag" style="color:var(--gold)">&ldquo;for opposing creeds and confessions as injurious to the interests of religion&rdquo;</div>'
-  '</div><div class=cite>' + MIN + '</div>'
-  '<aside class=notes>Four clicks. Thomas came back the next day and asked what the &ldquo;important reasons&rdquo; were. The fourth is tonight&rsquo;s: a creed used as a test of communion is a fence at the table, and he would not keep one. He said he felt &ldquo;quite relieved&rdquo;: none of it was for immorality.<br>&rarr; &ldquo;The Synod would not have him because he would not shut anyone out. Alexander had answered it before they asked; he said it aloud three weeks later.&rdquo;</aside></section>', 'synodbg5'))
+  N('Unanimous. Among its reasons: Thomas&rsquo;s &ldquo;opposing creeds and confessions as injurious to the interests of religion.&rdquo; The next day, asked for the &ldquo;important reasons,&rdquo; the Synod listed four, among them &ldquo;for opposing creeds and confessions as injurious to the interests of religion&rdquo; and &ldquo;for encouraging or countenancing his son to preach the gospel without any regular authority.&rdquo; The very ground just stated. (The full list is in the reserve deck.)'))
+A(CARD('Still seeking a larger union,<br>' + G('they became a church.'),
+  'The Synod&rsquo;s refusal did not stop the Campbells from seeking alliances with larger bodies. But to meet the spiritual needs of their people, Thomas, very reluctantly, agreed they must constitute a church. Then why, and how reluctantly.'))
 A(BIGQ(Q('&ldquo;&hellip;on account of <b>the continued hostility of the different parties</b>, it was necessary that the Christian Association should assume the character of an independent Church, <b>in order to the enjoyment of those privileges and the performance of those duties which belong to the Church relation</b>.&rdquo;', RICH, 'Why a church')) +
   N('The refusal did not end their search for a larger union; they would keep seeking one (the Baptists from 1813). But it forced the question at home. The pastoral need: members shut out or drifted from their old congregations, with no Supper, no baptism for their children, no one to marry or bury them.'))
 A(BIGQ(Q('&ldquo;It was with <b>great reluctance</b> that he finally concluded to take this step, and to separate himself from those whom he desired to recognize as brethren.&rdquo;', RICH, 'Thomas Campbell, spring 1811')) +
-  N('Spring 1811. Every overture refused, Thomas concluded &ldquo;that the Christian Association should assume the character of an independent Church.&rdquo; The thing he had dreaded since 1809, accepted to meet the spiritual needs of the people in his care. &ldquo;At the next meeting of the Association, accordingly, the matter was duly considered and agreed to.&rdquo;'))
-A(CARD('Still seeking a larger union,<br>' + G('they became a church.'),
-  'Where session one lands. The Synod&rsquo;s refusal did not stop the Campbells from seeking alliances with larger bodies. But to meet the spiritual needs of their people, Thomas, very reluctantly, agreed they must constitute a church. Brush Run, May 4, 1811: next time.'))
+  N('Spring 1811. Every overture refused, Thomas concluded &ldquo;that the Christian Association should assume the character of an independent Church.&rdquo; The thing he had dreaded since 1809, accepted to meet the spiritual needs of the people in his care. Where session one lands: Brush Run, May 4, 1811, is next time. &ldquo;At the next meeting of the Association, accordingly, the matter was duly considered and agreed to.&rdquo;'))
 # ---------- SESSION ONE: CLOSE ----------
 DISCUSS1 = ('<section class="slide room"><div class=eyebrow>&#9670; for discussion &middot; session one</div><h2>What is beautiful here? What do we carry forward?</h2>'
             '<aside class=notes>Backup prompts (off the slide): Have you been welcome somewhere a friend was not? Did you stay? Who does our table turn away, in word or in practice? Can you be included by a church that excludes?</aside></section>')
