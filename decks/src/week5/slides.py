@@ -57,10 +57,15 @@ A = S.append
 def HIDE(slide): pass   # a hidden slide: kept here, left out of the deck (change HIDE back to A to show it)
 
 A(w3b.S[0])                                     # the class title (session one)
-A('<section data-src="kjv" class="slide"><div class=eyebrow>Quiz</div>'
-  '<h2 style="max-width:22ch">What was carved on the front of the communion table in your church?</h2>'
-  '<div class="sub frag" style="font-size:clamp(30px,6vmin,76px);margin-top:4vmin">&ldquo;&hellip;this do in remembrance of me.&rdquo;</div>'
-  '<aside class=notes>One click for the answer (Luke 22:19; 1 Corinthians 11:24). Let the room remember their own tables first. An invitation carved where the Seceders kept a fence: tonight is about the fence.</aside></section>')
+A('<section class="slide"><div class=eyebrow>Quiz</div>'
+  '<h2 style="max-width:none">Which is the preferred title for our preacher?</h2>'
+  '<div class="litany" style="text-align:left;gap:1.6vmin;margin-top:4vmin">'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">A.</span>Pastor</div>'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">B.</span>Reverend</div>'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">C.</span>Brother<span class=frag style="color:var(--gold);margin-left:.5em">&larr;</span></div>'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">D.</span>None of the above</div>'
+  '</div>'
+  '<aside class=notes>One click points to C. Let the room argue first; &ldquo;none of the above&rdquo; (minister, evangelist, preacher) is a fair answer too.<br>&bull; Not &ldquo;Reverend&rdquo;: the Last Will willed that title &ldquo;be forgotten&rdquo; (last week). Not &ldquo;Pastor&rdquo;: in the New Testament the pastors are the elders.</aside></section>')
 A('<section data-src="fnd dna" class="slide" style="padding:0">'
   '<div style="position:absolute;inset:0;display:flex">'
 '<div style="flex:1;position:relative;overflow:hidden;border-right:1px solid rgba(201,162,74,.35)">'
@@ -355,15 +360,10 @@ A(BLACK)
 
 # ---------- SESSION TWO: OPENING ----------
 A(w3b.S[0].replace('<section', '<section data-session=2', 1))   # the class title (session two)
-A('<section class="slide"><div class=eyebrow>Quiz</div>'
-  '<h2 style="max-width:none">Which is the preferred title for our preacher?</h2>'
-  '<div class="litany" style="text-align:left;gap:1.6vmin;margin-top:4vmin">'
-  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">A.</span>Pastor</div>'
-  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">B.</span>Reverend</div>'
-  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">C.</span>Brother<span class=frag style="color:var(--gold);margin-left:.5em">&larr;</span></div>'
-  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">D.</span>None of the above</div>'
-  '</div>'
-  '<aside class=notes>One click points to C. Let the room argue first; &ldquo;none of the above&rdquo; (minister, evangelist, preacher) is a fair answer too.<br>&bull; Not &ldquo;Reverend&rdquo;: the Last Will willed that title &ldquo;be forgotten&rdquo; (last week). Not &ldquo;Pastor&rdquo;: in the New Testament the pastors are the elders.</aside></section>')
+A('<section data-src="kjv" class="slide"><div class=eyebrow>Quiz</div>'
+  '<h2 style="max-width:22ch">What was carved on the front of the communion table in your church?</h2>'
+  '<div class="sub frag" style="font-size:clamp(30px,6vmin,76px);margin-top:4vmin">&ldquo;&hellip;this do in remembrance of me.&rdquo;</div>'
+  '<aside class=notes>One click for the answer (Luke 22:19; 1 Corinthians 11:24). Let the room remember their own tables first. An invitation carved where the Seceders kept a fence: tonight is about the fence.</aside></section>')
 A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 5 &middot; Session two</div>'
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
   '<div class=sub>Brush Run, Pennsylvania &middot; 1811&ndash;1812</div>'

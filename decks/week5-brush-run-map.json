@@ -13,9 +13,9 @@
   {
    "index": 1,
    "n": 2,
-   "title": "Quiz What was carved on the front of the communion table in your church? \"...this do in re",
+   "title": "Quiz Which is the preferred title for our preacher? A. Pastor B. Reverend C. Brother D. No",
    "path": "spine",
-   "doc": "kjv"
+   "doc": null
   },
   {
    "index": 2,
@@ -615,9 +615,9 @@
   {
    "index": 87,
    "n": 88,
-   "title": "Quiz Which is the preferred title for our preacher? A. Pastor B. Reverend C. Brother D. No",
+   "title": "Quiz What was carved on the front of the communion table in your church? \"...this do in re",
    "path": "spine",
-   "doc": null
+   "doc": "kjv"
   },
   {
    "index": 88,
@@ -1900,11 +1900,6 @@
  ],
  "quotes": [
   {
-   "slide": 1,
-   "doc": "kjv",
-   "text": "this do in remembrance of me."
-  },
-  {
    "slide": 2,
    "doc": "fnd",
    "text": "Let the unity of Christians be our polar star."
@@ -2298,6 +2293,11 @@
    "slide": 78,
    "doc": "stone",
    "text": "jurisdiction, but not from their communion"
+  },
+  {
+   "slide": 87,
+   "doc": "kjv",
+   "text": "this do in remembrance of me."
   },
   {
    "slide": 91,
