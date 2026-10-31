@@ -258,13 +258,13 @@ A('<section class="slide room"><div class="litany" style="gap:3vmin">'
 A('<section class="slide room"><h2 style="max-width:20ch;font-size:clamp(44px,10vmin,124px);line-height:1.12">Can you be included by a church that excludes?</h2>'
   '<aside class=notes>Ask the room, and wait. Then the Sunday: he went anyway, and waited.</aside></section>')
 
-A('<section class="slide hard"><h2>Eight hundred communicants, eight or nine tables.</h2>'
-  '<div class="sub frag">He waited for the last one.</div>'
-  '<aside class=notes>One click. The Seceder spring communion took the whole day, one table after another. He still hoped, Richardson says, &ldquo;of being able to overcome his scruples.&rdquo;</aside></section>')
 A(Q('&ldquo;His conscientious misgivings as to the propriety of <b>sanctioning any longer, by participation</b>, a religious system which he disapproved, and, on the other hand, his sincere desire to comply with all his religious obligations, <b>created a serious conflict in his mind, from which he found it impossible to escape</b>.&rdquo;', RICH, 'Why he waited') +
   N('Taking part would put his stamp on the system; leaving would break with his father&rsquo;s church. He waited for the last table &ldquo;in hopes of being able to overcome his scruples.&rdquo; He wanted to stay.',
     'Hit the word <b>sanctioning</b>. His father, leaving the Seceders in America, would use the same word.'))
 
+A('<section class="slide hard"><h2>Eight hundred communicants, eight or nine tables.</h2>'
+  '<div class="sub frag">He waited for the last one.</div>'
+  '<aside class=notes>One click. The Seceder spring communion took the whole day, one table after another. He still hoped, Richardson says, &ldquo;of being able to overcome his scruples.&rdquo;</aside></section>')
 A(Q('&ldquo;&hellip;the ring of the token, falling upon the plate, announced the instant at which he renounced Presbyterianism for ever &mdash; <b>the leaden voucher becoming thus a token not of communion but of separation</b>.&rdquo;', RICH, '', 'slide hard') +
   N('When the plate came round he dropped the token on it, and when the bread and wine came down the table he &ldquo;declined to partake.&rdquo; He told no one.',
     '&rarr; Silence. Do not explain it.'))
