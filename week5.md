@@ -1,23 +1,23 @@
-# Chapter 5 — Brush Run Ordination
+# Chapter 5 — The Third Instigator
 
 [← All chapters](.)
 
-**Slides:** [Session one](decks/chapter5a.html) · [as taught 2026-11-01](decks/chapter5a-as-taught-2026-11-01.html) · [Session two](decks/chapter5b.html) (opens with its own quiz; the ordination and "Why the people?"). Reserve: [The Synod and the Reply](decks/reserve-synod-and-reply-map.html)
+**Slides:** [Chapter 5 deck](decks/chapter5.html) · [as taught 2026-11-01](decks/chapter5-as-taught-2026-11-01.html) · Reserve: [The Synod and the Reply](decks/reserve-synod-and-reply-map.html)
 
-**The Story:** The third instigator. Alexander Campbell, twenty years old, survives a shipwreck and vows his life to his father's ministry; in Glasgow he meets Greville Ewing and the Haldanes, lay preachers his church shut out, and gives back his communion token rather than be welcomed at a table that excluded them. In America he finds his father has reached the same place. The fledgling unity movement seeks to join the local Presbyterians and is rebuffed. Alexander answers: no human standard may close the gates of the church. The Society becomes a church, reluctantly, at Brush Run, and its first Supper is "an emblem of the millennial state of the Church." (Session two: they must now ordain their own ministers, prompting a recognition that in the New Testament, authority inheres in congregations and in every believer.)
+**The Story:** The third instigator. Alexander Campbell, twenty years old, survives a shipwreck and vows his life to his father's ministry; in Glasgow he meets Greville Ewing and the Haldanes, lay preachers his church shut out, and gives back his communion token rather than be welcomed at a table that excluded them. In America he finds his father has reached the same place. The fledgling unity movement seeks to join the local Presbyterians and is rebuffed. Alexander answers: no human standard may close the gates of the church. The Society becomes a church, reluctantly, at Brush Run, and its first Supper is "an emblem of the millennial state of the Church." (Chapter 6: they must now ordain their own ministers.)
 
-**The Idea**: You cannot be included by a table that excludes. The gates of the church are as wide as the gates of heaven. (Session two: the Priesthood of All Believers points to real authority, inhering in every Christian, and conferred in baptism. Our movement embraces this deeply.)
+**The Idea**: You cannot be included by a table that excludes. The gates of the church are as wide as the gates of heaven.
 
 **Connections:**
 - Chapter 2, from the other side of the ocean: while Thomas was tried in Pennsylvania for hearing other preachers, letting laymen exhort, and opening the table, his son in Glasgow did all three, without knowing it. The father opened the table to people who had no token; the son held a valid token and would not use it.
 - Chapter 4: Stone withdrew from the Synod's "jurisdiction, but not from their communion." Three instigators, three countries of origin, each broken with his church over who may come to the table.
 - Chapter 3: Alexander's November 1810 answer to the Synod is the *Declaration and Address* put into his own words: nothing a term of communion that God has not required.
-- Chapter 1 and Chapter 6: the first Supper at Brush Run is "an emblem of the millennial state of the Church." The table is a foretaste, and he will name a journal for it: the *Millennial Harbinger*.
-- Session two: the Springfield Presbytery recognized the authority of the congregation to ordain its own ministers, as recognition of the work of the Spirit. Brush Run recognizes the same authority inhering in the congregation.
+- Chapter 1 and Chapter 7: the first Supper at Brush Run is "an emblem of the millennial state of the Church." The table is a foretaste, and he will name a journal for it: the *Millennial Harbinger*.
+- Chapter 6: the church formed at Brush Run makes its own minister.
 
 ---
 
-## Session one: the third instigator (taught 2026-11-01)
+## Narrative (taught 2026-11-01)
 
 We have met two of the three instigators of our movement. Barton Stone: "Let the unity of Christians be our polar star." Thomas Campbell: "With you all we desire to unite in the bonds of an entire Christian unity." Tonight we meet the third, and he begins at sea.
 
@@ -57,7 +57,7 @@ The next day, May 5, the new church kept the Lord's Supper for the first time. A
 
 Three instigators, one table. Barton Stone in 1803 withdrew from the Synod's "jurisdiction, but not from their communion." Thomas Campbell in 1807 was tried for serving the Supper to Presbyterians outside the Seceders. Alexander Campbell in 1809 gave back the token. Three men from three countries, none knowing the others' story, each broken with his church over who may come to the table.
 
-Next time: Brush Run, and *where two or three are gathered*: the church that had no bishop and no presbytery makes its own minister.
+Next time, Chapter 6: Brush Run, and *where two or three are gathered*: the church that had no bishop and no presbytery makes its own minister.
 
 **Notes for co-teachers:**
 - The "Your questions" side path (off slide 4, and again from the discussion slide) answers two questions from the class: did they want to include Catholics, and unity or uniformity? Sources: `decks/src/sources/founders-on-unity.html`.
@@ -68,25 +68,11 @@ Next time: Brush Run, and *where two or three are gathered*: the church that had
 
 ## Ideas
 
-### Session one (taught)
-
 1. **You cannot be included by a table that excludes.** The token. He was welcome at his church's table; Ewing and the Haldanes were not. To take the bread would have been "sanctioning… by participation" a system that shut them out, so he gave the token back.
 2. **No one may be required to do what God has not required.** Infant baptism: "the Lord has nowhere expressly enjoined it"; to make it a term of communion "is to make it a term of salvation." Creeds: standards that "reject those whom God has not rejected." The *Declaration and Address*, in Alexander's own words.
 3. **Neither side of a disputed question is the gospel.** "Neither paedobaptism nor antipaedobaptism availeth anything." He cared about baptism ("by no means… a matter of indifference") and still would not make either side a fence. Forbearance, not indifference.
 4. **The gates of the church as wide as the gates of heaven.** "To open the gates of admission into the Church as wide as the gates of heaven." The Synod would not stand on that ground; Stone, Thomas and Alexander each did.
 5. **The table is a foretaste of the church to come.** The first Supper at Brush Run: "an emblem of the millennial state of the Church." Not only a memory of the cross; a taste of the future.
-
-### Session two
-
-6. **The church can gather for those who are shut out.** Brush Run became a church because its people were refused "those privileges… which belong to the Church relation." No synod granted it; the people constituted it, with great reluctance, for each other's sake.
-7. **The priesthood of all believers makes its ministers.** Ordination "consists in the choice of the people": the two or three gathered hold the priesthood's authority, given in baptism.
-
-*Earlier notes for session two:*
-
-1. The priesthood of all believers points to real authority, inhering in every Christian, and conferred in baptism
-2. The New Testament describes various forms of ordination. The power to ordain inheres in every ordained minister, in congregations of disciples, even in every believer called by the Spirit.
-3. **"A taste of the Millennial Church."** Alexander Campbell says it of communion in his *first sermon* — the very sermon this ordination made possible. Do not let it pass as a pretty phrase; it is the engine of the entire movement, stated at the outset by the man who would spend fifty years working out its consequences. The table is not a memorial but a foretaste: God's future, arriving early. That is why the fences around it had to come down, why his father stood trial for opening it, and why a church would eventually hand the Supper to a farmer rather than reserve it to a priest. Everything radical in this tradition is downstream of what Campbell thought was happening at that table.
-4. **The two conferrals are the same conferral.** Note what has just happened at Brush Run: a congregation with no external authorization ordains its own. And note where authority is said to come from — conferred in baptism, at the water, in front of everyone. The authority to ordain and the authority to preside at the table are not two powers; they are the one priesthood, handed to ordinary people. This is the hinge between the first half of the class and the second.
 
 ---
 

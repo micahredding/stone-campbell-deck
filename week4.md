@@ -11,7 +11,7 @@
 - Chapter 3's thesis, lived five years earlier: anything asked to do a job only Christ can do will fail. These men caught their own presbytery being handed that job — "wishing to make the Presbytery of Springfield their king" — and ended it before it could take it.
 - Chapter 2's echo in the other founding stream: the same heresy machinery, five years earlier, with a different ending — the five walked together, built something, and then laid it down.
 - Returns the class to the very room of Chapter 1: the Last Will was signed in the Cane Ridge meetinghouse, where the communion tables stood three years before.
-- The bequests hand every congregation the right to choose its own preacher and "never henceforth delegate her right of government to any man or set of men whatever" — the authority Brush Run will act on (Chapter 5).
+- The bequests hand every congregation the right to choose its own preacher and "never henceforth delegate her right of government to any man or set of men whatever" — the authority Brush Run will act on (Chapter 6).
 
 ---
 

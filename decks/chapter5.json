@@ -1,5 +1,5 @@
 {
- "deck": "decks/chapter5a.html",
+ "deck": "decks/chapter5.html",
  "source": "decks/src/week5/slides.py",
  "built_by": "decks/src/week5map/build.py",
  "slides": [
@@ -692,7 +692,7 @@
   {
    "index": 98,
    "n": 99,
-   "title": "for discussion session one What is beautiful here? What do we carry forward?",
+   "title": "for discussion Chapter 5 What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
@@ -741,7 +741,7 @@
   {
    "index": 105,
    "n": 106,
-   "title": "for discussion session one What is beautiful here? What do we carry forward?",
+   "title": "for discussion Chapter 5 What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
@@ -930,7 +930,7 @@
    "at": 55
   },
   {
-   "label": "Session one close",
+   "label": "Close",
    "at": 62
   }
  ],

@@ -10,7 +10,7 @@
 
 **Connections:**
 - Chapter 2's closing line leads into the document's first sentence.
-- Alexander Campbell enters the story here, reading the proof-sheets in wet ink — the handoff to Brush Run (Chapter 5).
+- Alexander Campbell enters the story here, reading the proof-sheets in wet ink — the handoff to Alexander and Brush Run (Chapters 5–6).
 
 ---
 

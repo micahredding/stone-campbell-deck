@@ -1,10 +1,10 @@
-# Chapter 8 — Eschatology and Non-Conformity: Lipscomb & the Civil War
+# Chapter 8 — The Stone-Campbell Merger (1832)
 
 [← All chapters](.)
 
-**The Story:** Our movement's eschatology and non-institutional impulses led to bold non-conformity. That could look very different in different contexts.
+**The Story:** In Lexington, two unity and reform movements, represented by Barton W Stone and Raccoon John Smith, come together to work out unity with each other. Yet after days of wrestling, they disagree on many foundational issues. The only basis for unity they can come up with is the Bible. And that's what they shake on.
 
-**The Idea**: Our movement has the DNA to resist the tide.
+**The Idea**: Our movement is united around a commitment to the Bible—NOT agreement on _interpretations_ of the Bible! While uniting on interpretations is impossible, uniting on commitment to wrestle with Scripture actually worked at least once.
 
 ---
 

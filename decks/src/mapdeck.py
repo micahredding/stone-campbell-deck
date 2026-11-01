@@ -173,7 +173,7 @@ def build(cfg):
     mjs = mjs.replace("'w4m", "'%sm" % cfg['key']).replace('Chapter 4 &middot; the map', cfg['chapter'] + ' &middot; the map')
     assert js in html
     html = html.replace(js, mjs)
-    html = html.replace(cfg['title'] + '</title>', cfg['title'] + cfg.get('title_extra', '') + ' &middot; map</title>')
+    html = html.replace(cfg['title'] + '</title>', cfg.get('page_title', cfg['title'] + cfg.get('title_extra', '')) + ' &middot; map</title>')
     html = html.replace('</style>', open('decks/src/week4map/map.css').read() + '</style>')
     html = re.sub(r'<div id=hint>.*?</div>',
                   '<div id=hint>&rarr; / space next &middot; &darr; or 1&ndash;3 take a side path &middot; &uarr; back to the spine &middot; z the quote in its document &middot; m map &middot; f fullscreen &middot; p presenter</div>'
