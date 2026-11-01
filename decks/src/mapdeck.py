@@ -22,6 +22,14 @@ def build(cfg):
         for t in ('section', 'aside'):
             assert s.count('<' + t) == s.count('</' + t + '>'), 'slide %d: unclosed <%s>: %s' % (i + 1, t, re.sub(r'<[^>]+>', ' ', s)[:80])
     assert html.count('<section') == len(S)
+    if cfg.get('keep'):   # one deck from a slice of the chapter's slides (e.g. one class session): cfg['keep'](S) -> (first, last), inclusive
+        i0, i1 = cfg['keep'](S)
+        spans = [m.span() for m in re.finditer(r'<section\b.*?</section>', html, flags=re.S)]   # the slides in page order
+        assert len(spans) == len(S)
+        for p, q in reversed(spans[:i0] + spans[i1 + 1:]):
+            html = html[:p] + html[q:]
+        S = S[i0:i1 + 1]
+        assert html.count('<section') == len(S)
 
     def find(anchor, after=-1):
         hits = [i for i, s in enumerate(S) if anchor in s and i > after]
@@ -161,7 +169,7 @@ def build(cfg):
     mjs = mjs.replace("'w4m", "'%sm" % cfg['key']).replace('Chapter 4 &middot; the map', cfg['chapter'] + ' &middot; the map')
     assert js in html
     html = html.replace(js, mjs)
-    html = html.replace(cfg['title'] + '</title>', cfg['title'] + ' &middot; map</title>')
+    html = html.replace(cfg['title'] + '</title>', cfg['title'] + cfg.get('title_extra', '') + ' &middot; map</title>')
     html = html.replace('</style>', open('decks/src/week4map/map.css').read() + '</style>')
     html = re.sub(r'<div id=hint>.*?</div>',
                   '<div id=hint>&rarr; / space next &middot; &darr; or 1&ndash;3 take a side path &middot; &uarr; back to the spine &middot; z the quote in its document &middot; m map &middot; f fullscreen &middot; p presenter</div>'
