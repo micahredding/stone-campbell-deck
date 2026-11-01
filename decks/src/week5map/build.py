@@ -34,10 +34,11 @@ SECTIONS = [
 # The sources whole, from the shared library (decks/src/resources.py): Richardson's Memoirs (excerpts),
 # the Declaration and Address, the Last Will, the Westminster Confession, Scripture (KJV), and Stone's
 # own account. Set SITE to the class site checkout if it is not ~/projects/stone-campbell-site.
-DOC_KEYS = ['rich', 'dna', 'will', 'wcf', 'kjv', 'stone', 'apology', 'cb', 'church', 'acr', 'ekk', 'tbl', 'lord', 'fnd', 'priest']
+DOC_KEYS = ['rich', 'dna', 'will', 'wcf', 'kjv', 'stone', 'apology', 'cb', 'church', 'acr', 'ekk', 'tbl', 'lord', 'fnd', 'priest', 'tcl']
 def docs(between, clean): return R.docs(between, clean, DOC_KEYS)
 SHORT = R.SHORT
-DOC_DOORS = [('Richardson&rsquo;s account, whole', 'The Campbells seek out Presbyterian Communion', 0),
+DOC_DOORS = [('Thomas&rsquo;s letters home', 'October 1808: the family sails', 15),
+             ('Richardson&rsquo;s account, whole', 'The Campbells seek out Presbyterian Communion', 0),
              ('The whole Declaration and Address', '<h2>Why the people?</h2>', 1),
              ('The whole will', '<h2>Why the people?</h2>', 2),
              ('Scripture on the church (KJV)', 'Wherever Two or Three<br>Are Gathered', 4)]

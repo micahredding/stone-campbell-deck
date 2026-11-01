@@ -60,6 +60,9 @@ def docs(between, clean, keys):
         'rich': lambda: {'title': 'Robert Richardson, <i>Memoirs of Alexander Campbell</i>, vol. 1 (1868)',
             'sub': 'The wreck, the first sermon, the Synod&rsquo;s minutes, Alexander&rsquo;s reply, Brush Run, the ordination &middot; excerpts, machine-read from the Internet Archive scan',
             'html': clean(src('week5map', 'sources', 'richardson-memoirs-v1-excerpts.html'))},
+        'tcl': lambda: {'title': 'Thomas Campbell&rsquo;s letters home, 1807&ndash;1808',
+            'sub': 'From Philadelphia (May 27, 1807) and the summons from Washington, Pennsylvania (January 1, 1808) &middot; with Richardson&rsquo;s framing, <i>Memoirs</i>, vol. 1, pp. 85&ndash;90, machine-read from the Internet Archive scan',
+            'html': clean(src('week5map', 'sources', 'tc-letters-home-1807-08.html'))},
         'dna': lambda: {'title': 'Thomas Campbell, <i>Declaration and Address</i> (1809)',
             'sub': 'The whole of it: Declaration, Address, Propositions, Appendix',
             'html': clean(between('declaration-and-address-fulltext.njk', '<h2 id="declaration">', '<!-- SOURCE CITATION -->'))},
@@ -124,7 +127,7 @@ def docs(between, clean, keys):
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
-         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience', 'bible': 'The Bible in every hand', 'bapt': 'One baptism', 'fnd': 'The founders on unity'}
+         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience', 'bible': 'The Bible in every hand', 'bapt': 'One baptism', 'fnd': 'The founders on unity', 'tcl': 'Thomas&rsquo;s letters home'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]

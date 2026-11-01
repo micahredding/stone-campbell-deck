@@ -419,7 +419,7 @@
   {
    "index": 59,
    "n": 60,
-   "title": "October 1809 the road into Washington, Pennsylvania Thomas rode out to meet them. On the r",
+   "title": "New York landed Sept 29 Philadelphia by wagon from Oct 9 Washington they meet on the road ",
    "path": "spine",
    "doc": null
   },
@@ -2020,9 +2020,20 @@
    "key": "priest",
    "title": "The priesthood of all: excerpts",
    "short": "The priesthood of all"
+  },
+  {
+   "index": 15,
+   "key": "tcl",
+   "title": "Thomas Campbell’s letters home, 1807–1808",
+   "short": "Thomas’s letters home"
   }
  ],
  "doc_doors": [
+  {
+   "label": "Thomas&rsquo;s letters home",
+   "fork": 28,
+   "doc": 15
+  },
   {
    "label": "Richardson&rsquo;s account, whole",
    "fork": 63,
