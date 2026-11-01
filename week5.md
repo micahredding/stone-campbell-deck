@@ -1,4 +1,4 @@
-# Chapter 5 — The Third Instigator
+# Chapter 5 — Alexander Campbell and the Sea
 
 [← All chapters](.)
 

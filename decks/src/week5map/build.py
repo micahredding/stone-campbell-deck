@@ -59,7 +59,7 @@ ONE_SIDE = ('The Haldanes&rsquo; mission', 'Your questions', 'Creeds as tests', 
 ONE_DOORS = ('Thomas&rsquo;s letters home', 'Richardson&rsquo;s account, whole')
 base = {'part': '5', 'title': 'Chapter 5 &middot; Wherever Two or Three Are Gathered', 'source': 'decks/src/week5/slides.py',
         'built_by': 'decks/src/week5map/build.py', 'docs': docs, 'short': SHORT, 'doc_order': doc_order}
-mapdeck.build(dict(base, key='w5', chapter='Chapter 5', page_title='Chapter 5 &middot; The Third Instigator',
+mapdeck.build(dict(base, key='w5', chapter='Chapter 5', page_title='Chapter 5 &middot; Alexander Campbell and the Sea',
     out='decks/chapter5.html', keep=lambda S: (0, _split(S)),
     side=[x for x in SIDE if x[0] in ONE_SIDE], sections=SECTIONS,
     doc_doors=[x for x in DOC_DOORS if x[0] in ONE_DOORS],
