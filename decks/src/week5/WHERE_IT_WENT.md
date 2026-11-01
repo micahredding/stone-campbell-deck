@@ -32,6 +32,8 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **"Brush Run 1810–1811" (the meeting-house picture slide) became a title slide, "The Campbells seek out Presbyterian Communion"** (Micah, 1 Nov 2026). The meeting-house photograph (Bethany College) is no longer shown in Chapter 5; the image file is still in `decks/src/week5/`.
+
 - **The session-one chapter title is hidden** (`HIDE`, Micah, 1 Nov 2026): the deck goes from the recap documents straight to the shipwreck. Session two keeps its title slide.
 
 - **1 Nov 2026, Micah's edits.** Dropped from the reunion: the *Declaration and Address* "essentially, intentionally, and constitutionally one" slide (it is in the recap). "Three founders" became "Three instigators", now after the Synod's refusal. Brush Run Church Formed through "Every Lord's day" (six slides) are copied into session one after "great reluctance"; session two keeps its own copies (its side paths fork from those).
