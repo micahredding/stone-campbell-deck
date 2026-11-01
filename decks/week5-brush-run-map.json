@@ -273,21 +273,21 @@
    "index": 38,
    "n": 39,
    "title": "Everything or nothing \"Christianity... is everything or nothing . If it be true, it warran",
-   "path": "spine",
+   "path": "The Haldanes&rsquo; mission",
    "doc": "rich"
   },
   {
    "index": 39,
    "n": 40,
    "title": "A mission to India, 1797 \"He accordingly determined to sell his beautiful estate of Airthr",
-   "path": "spine",
+   "path": "The Haldanes&rsquo; mission",
    "doc": "rich"
   },
   {
    "index": 40,
    "n": 41,
    "title": "The Church of Scotland on missions, 1796 \"...'That it is the duty of Christians to send th",
-   "path": "spine",
+   "path": "The Haldanes&rsquo; mission",
    "doc": "rich"
   },
   {
@@ -783,9 +783,6 @@
   35,
   36,
   37,
-  38,
-  39,
-  40,
   41,
   42,
   43,
@@ -876,6 +873,15 @@
    ]
   },
   {
+   "label": "The Haldanes&rsquo; mission",
+   "fork": 37,
+   "slides": [
+    38,
+    39,
+    40
+   ]
+  },
+  {
    "label": "Creeds as tests",
    "fork": 84,
    "slides": [
@@ -913,19 +919,19 @@
   },
   {
    "label": "Reunion",
-   "at": 35
+   "at": 32
   },
   {
    "label": "Seeking communion",
-   "at": 40
+   "at": 37
   },
   {
    "label": "The Synod",
-   "at": 58
+   "at": 55
   },
   {
    "label": "Session one close",
-   "at": 65
+   "at": 62
   }
  ],
  "docs": [
