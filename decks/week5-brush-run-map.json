@@ -650,9 +650,9 @@
   {
    "index": 92,
    "n": 93,
-   "title": "Three instigators, one table Barton Stone, 1803 withdrew from the Synod's \"jurisdiction, b",
+   "title": "The Brush Run meeting house, reconstructed at Bethany courtesy of Bethany College May 4, 1",
    "path": "spine",
-   "doc": "stone"
+   "doc": null
   },
   {
    "index": 93,
@@ -664,30 +664,30 @@
   {
    "index": 94,
    "n": 95,
-   "title": "The Brush Run meeting house, reconstructed at Bethany courtesy of Bethany College May 4, 1",
+   "title": "Brush Run May 5, 1811 The First Supper",
    "path": "spine",
    "doc": null
   },
   {
    "index": 95,
    "n": 96,
-   "title": "Brush Run May 5, 1811 The First Supper",
+   "title": "His sermon \" I am that bread of life. \" John 6:48 Alexander's text that morning in Richard",
    "path": "spine",
-   "doc": null
+   "doc": "rich"
   },
   {
    "index": 96,
    "n": 97,
-   "title": "His sermon \" I am that bread of life. \" John 6:48 Alexander's text that morning in Richard",
+   "title": "The sermon's close \"...in assembling there on that occasion, they furnished an emblem of t",
    "path": "spine",
    "doc": "rich"
   },
   {
    "index": 97,
    "n": 98,
-   "title": "The sermon's close \"...in assembling there on that occasion, they furnished an emblem of t",
+   "title": "Three instigators, one table Barton Stone, 1803 withdrew from the Synod's \"jurisdiction, b",
    "path": "spine",
-   "doc": "rich"
+   "doc": "stone"
   },
   {
    "index": 98,
@@ -1455,24 +1455,24 @@
    "text": "Christian communion cannot be granted."
   },
   {
-   "slide": 92,
-   "doc": "stone",
-   "text": "jurisdiction, but not from their communion"
-  },
-  {
    "slide": 93,
    "doc": "rich",
    "text": "It was with great reluctance that he finally concluded to take this step, and to separate himself from those whom he desired to recognize as brethren."
   },
   {
-   "slide": 96,
+   "slide": 95,
    "doc": "rich",
    "text": "I am that bread of life."
   },
   {
-   "slide": 97,
+   "slide": 96,
    "doc": "rich",
    "text": "in assembling there on that occasion, they furnished an emblem of the millennial state of the Church, nay, an emblem of the heavenly state, when men of different nations, and known by different names, should sit down together in the kingdom of God."
+  },
+  {
+   "slide": 97,
+   "doc": "stone",
+   "text": "jurisdiction, but not from their communion"
   }
  ],
  "unmatched": []
