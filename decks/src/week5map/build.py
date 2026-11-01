@@ -12,7 +12,7 @@ SIDE = [
     # Arranged by the chapter's four arguments: creeds as tests; who may serve; who may ordain; the whole church on governance by the people.
     ('Your questions',             '<h2 style="max-width:none">Your questions</h2>', 'Uniformity in God&rsquo;s time.'),
     ('Creeds as tests',            'Side path &middot; creeds as tests',    'They may not fence the table.'),
-    ('Becoming Baptists',          'Brush Run&rsquo;s overture, fall 1813', 'they became Baptists.'),
+    ('Two ways not to become a sect', '<h2 style="max-width:none">Two ways not to become a sect</h2>', 'they became Baptists.'),
     R.WEEKLY,
     ('Who may serve?',             '<h2>Who serves the table?</h2>',        'Hosted by any.'),
     ('Who may ordain?',            R.GOVERNANCE[1],                         R.GOVERNANCE[2]),
