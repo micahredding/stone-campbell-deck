@@ -90,8 +90,6 @@ Next time: Brush Run, and *where two or three are gathered*: the church that had
 
 ---
 
----
-
 ## Future
 
 *What is beautiful here? What do we carry forward?*
