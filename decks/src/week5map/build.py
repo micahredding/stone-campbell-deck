@@ -24,7 +24,7 @@ SIDE = [
 SECTIONS = [
     ('Opening', 'Otter Creek'), ('The sea', '<h2>Alexander and the Sea</h2>'),
     ('Glasgow', 'He went to hear other preachers.'), ('Reunion', '<h2>Family Reunion</h2>'),
-    ('Brush Run', '<h2>Brush Run</h2>'), ('The Synod', 'Christian communion <b>cannot be granted</b>'),
+    ('Seeking communion', 'The Campbells seek out Presbyterian Communion'), ('The Synod', 'Christian communion <b>cannot be granted</b>'),
     ('Session one close', 'for discussion &middot; session one'), ('Session two', 'data-session=2'),
     ('Church formed', 'data-mark=formed'), ('The first Supper', 'data-mark=supper'),
     ('The ordination', '<h2>The Ordination</h2>'), ('Why the people?', '<h2>Why the people?</h2>'),
@@ -37,7 +37,7 @@ SECTIONS = [
 DOC_KEYS = ['rich', 'dna', 'will', 'wcf', 'kjv', 'stone', 'apology', 'cb', 'church', 'acr', 'ekk', 'tbl', 'lord', 'fnd', 'priest']
 def docs(between, clean): return R.docs(between, clean, DOC_KEYS)
 SHORT = R.SHORT
-DOC_DOORS = [('Richardson&rsquo;s account, whole', '<h2>Brush Run</h2>', 0),
+DOC_DOORS = [('Richardson&rsquo;s account, whole', 'The Campbells seek out Presbyterian Communion', 0),
              ('The whole Declaration and Address', '<h2>Why the people?</h2>', 1),
              ('The whole will', '<h2>Why the people?</h2>', 2),
              ('Scripture on the church (KJV)', 'Wherever Two or Three<br>Are Gathered', 4)]

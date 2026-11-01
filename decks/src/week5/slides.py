@@ -297,11 +297,7 @@ A('<section class="slide hard"><div class="litany" style="gap:3.4vmin">'
   '<h2 class="no frag" style="max-width:none;font-size:clamp(36px,7.4vmin,92px);line-height:1.15;color:var(--gold)">Neither knew.</h2>'
   '</div><aside class=notes>Two clicks. Say it plain and stop.<br>The father had been tried for serving the Supper to Presbyterians of other kinds in 1807; the son had walked away from a fenced table in 1809.</aside></section>')
 # ---------- BRUSH RUN ----------
-A('<section class="slide bleed"><div class=bg><div class="bgimg brushbg"></div></div>'
-  '<div class=credit>The Brush Run meeting house, reconstructed at Bethany &middot; courtesy of Bethany College</div>'
-  '<div class=eyebrow>1810&ndash;1811</div>'
-  '<h2>Brush Run</h2>'
-  '<aside class=notes>A creek and a few farms, about eight miles from Washington. The meeting house was a plain frame building, never finished; it was later sold, moved, used as a blacksmith shop, a post office and a barn, and rebuilt at Bethany in 1909.</aside></section>')
+A(C('The Campbells seek out Presbyterian Communion', 'The Society was not a church, and its people had nowhere to take communion. Rather than become one more sect, Thomas set out to join an existing body: in October 1810 he asked the Presbyterian Synod of Pittsburg to receive him, Association and all. (The Brush Run meeting house, begun in 1810, was the Association&rsquo;s meeting place, not yet a church.)', '1809&ndash;1810'))
 A(BIGQ(Q('&ldquo;This Society <b>by no means considers itself a Church</b>, nor does at all assume to itself the powers peculiar to such a society&hellip;&rdquo;', DA + ', Resolution IV')) +
   N('What they promised in 1809: &ldquo;merely as voluntary advocates for Church reformation.&rdquo; A society can preach; it cannot keep the Supper or ordain.',
     '&rarr; &ldquo;Now they would have to be one.&rdquo;'))
