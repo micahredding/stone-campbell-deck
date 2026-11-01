@@ -87,6 +87,7 @@ if PART in ('5', 'r5'):
     css += '  .bgimg.grovebg5{background-image:url("%s");background-position:center 35%%}\n' % b64('decks/src/week3/grove.jpg')
     css += '  .bgimg.synodbg5{background-image:url("%s");background-position:center 40%%}\n' % b64('decks/src/week4/synod.jpg')
     css += '  .bgimg.brushbg{background-image:url("%s");background-position:center 45%%}\n' % b64('decks/src/week5/brushrun.jpg')
+    css += '  .slide.bleed .bg .bgimg.tokenbg5{background-image:url("%s");background-position:right center;background-size:contain;background-color:#14110d;filter:brightness(1.05) contrast(1.05)}\n' % b64('decks/src/week2/token.jpg')
     css += '  .bgimg.islaybg{background-image:url("%s");background-position:center 60%%}\n' % b64('decks/src/week2/indaal.jpg')
 css += '  #deck .litany .lcite{display:block;font-family:"IM Fell English SC",Georgia,serif;font-style:normal;font-size:.55em;letter-spacing:.1em;color:var(--smoke);margin-top:.3vmin}\n'
 import os

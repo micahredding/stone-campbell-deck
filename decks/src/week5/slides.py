@@ -252,9 +252,11 @@ A(Q('&ldquo;&hellip;he did not feel himself at liberty to abandon rashly the che
   N('The same page as &ldquo;domineering Synods.&rdquo; Everything pulled him toward Ewing&rsquo;s freedom; everything he loved held him to his father&rsquo;s church, where &ldquo;he had thought it his duty to be a regular communicant.&rdquo;',
     'Call back the mast: the boy who vowed his life to his father&rsquo;s ministry.'))
 
-A('<section class="slide"><div class=eyebrow><span style="color:var(--gold)">3 &middot; The table</span> &middot; Glasgow, spring 1809</div>'
-  '<h2>The communion season came. He was examined, and given the token.</h2>'
-  '<aside class=notes>The Seceder church&rsquo;s spring communion. No letter from Ireland, so the elders examined him and gave him the lead token, his ticket to the table.</aside></section>')
+A(('<section class="slide bleed" style="justify-content:center;align-items:flex-start;text-align:left;padding:8vmin 8vmin 8vmin 7vw"><div class=bg><div class="bgimg tokenbg5"></div><div style="position:absolute;inset:0;background:linear-gradient(90deg,#14110d 0,#14110d 36%,rgba(20,17,13,.35) 54%,rgba(20,17,13,0) 70%)"></div></div>'
+  '<div class=credit style="left:auto;right:2vmin;text-align:right">A Scottish communion token, 1750</div>'
+  '<div class=eyebrow style="position:relative;z-index:1;text-align:left;margin-left:0"><span style="color:var(--gold)">3 &middot; The table</span> &middot; Glasgow, spring 1809</div>'
+  '<h2 style="position:relative;z-index:1;text-align:left;max-width:15ch;margin-left:0;font-size:clamp(44px,9vmin,116px);line-height:1.08">The communion season came. He was examined, and given the token.</h2>'
+  '<aside class=notes>The Seceder church&rsquo;s spring communion. No letter from Ireland, so the elders examined him and gave him the lead token, his ticket to the table.<br>The picture: a Scottish communion token of 1750 (as in Chapter 2), not his own.</aside></section>'))
 
 A('<section class="slide room"><div class="litany" style="gap:3vmin">'
   '<h2 class=no style="max-width:none;font-size:clamp(40px,8.6vmin,108px)">He was welcome at his church&rsquo;s table.</h2>'
