@@ -421,7 +421,7 @@ A(IDEASUM(SESSION1, 'Tonight&rsquo;s ideas', 'All five at once, before the discu
 A(DISCUSS1)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> is there in full; tonight&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))
-A('<section class="slide"><h2>Next time: Brush Run makes its own minister.</h2>'
+A('<section class="slide"><h2>Next time: Brush Run and <i>Where two or three are gathered&hellip;</i></h2>'
     '<aside class=notes>Session two: Brush Run ordains Alexander at the hands of the congregation (January 1812), and why the people.</aside></section>')
 A(BLACK)
 
