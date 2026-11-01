@@ -1,5 +1,5 @@
 {
- "deck": "decks/week5-brush-run-map.html",
+ "deck": "decks/chapter5a.html",
  "source": "decks/src/week5/slides.py",
  "built_by": "decks/src/week5map/build.py",
  "slides": [
@@ -573,7 +573,7 @@
   {
    "index": 81,
    "n": 82,
-   "title": "\"All are defective. The apostle Paul, the angel Gabriel in human form, could not be admitt",
+   "title": "\" The apostle Paul, the angel Gabriel in human form, could not be admitted on the principl",
    "path": "spine",
    "doc": "rich"
   },
@@ -1385,7 +1385,7 @@
   {
    "slide": 81,
    "doc": "rich",
-   "text": "All are defective. The apostle Paul, the angel Gabriel in human form, could not be admitted on the principles of these standards."
+   "text": "The apostle Paul, the angel Gabriel in human form, could not be admitted on the principles of these standards."
   },
   {
    "slide": 82,
