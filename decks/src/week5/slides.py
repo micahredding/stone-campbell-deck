@@ -175,6 +175,12 @@ HIDE('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chap
   '<div class=sub>Glasgow to Washington, Pennsylvania &middot; 1808&ndash;1810</div>'
   '<aside class=notes>Matthew 18:20, and the <i>Declaration and Address</i> quotes it (we will see where). Chapter 5 runs two sessions. Session one: Alexander, from the shipwreck to the open table, ending beside Stone and his father. Session two: Brush Run, the ordination, and why the people.<br>'
   'The hour: (side path off the recap: your questions, about 20) &middot; the sea 7 &middot; Glasgow 20 &middot; the token 6 &middot; reunion 5 &middot; the Synod and the reply 10 &middot; close 6.</aside></section>')
+A('<section class="slide" style="flex-direction:row;align-items:center;justify-content:center;gap:6vw;padding:6vmin 8vmin">'
+  '<img src="IMG_ACOLD" alt="Alexander Campbell" style="height:78vh;width:auto;border-radius:.6vmin;box-shadow:0 1.4vmin 4vmin rgba(0,0,0,.6)">'
+  '<div style="text-align:left"><div class=eyebrow style="text-align:left;margin-left:0">The third instigator</div>'
+  '<h2 style="text-align:left;margin-left:0;font-size:clamp(52px,10vmin,128px);line-height:1.05">Alexander<br>Campbell</h2>'
+  '<div class=sub style="text-align:left;margin-left:0">1788&ndash;1866</div></div>'
+  '<aside class=notes>Alexander Campbell late in life (photograph from the class site, stone-campbell.micahredding.com). Tonight we meet him at twenty, before any of this.</aside></section>')
 # ---------- ALEXANDER AND THE SEA ----------
 A('<section class="slide bleed" style="justify-content:center;padding:8vmin"><div class=bg><div class="bgimg wreckbg5"></div></div>'
   '<div class=credit>Philippe-Jacques de Loutherbourg, <i>A Shipwreck off a Rocky Coast</i> &middot; not the Hibernia</div>'
