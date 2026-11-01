@@ -440,57 +440,57 @@
   {
    "index": 62,
    "n": 63,
-   "title": "1809-1810 The Campbells seek out Presbyterian Communion",
+   "title": "But a society is not a church \"...as the Society was not a Church... most of its members..",
    "path": "spine",
-   "doc": null
+   "doc": "rich"
   },
   {
    "index": 63,
    "n": 64,
-   "title": "But a society is not a church \"...as the Society was not a Church... most of its members..",
+   "title": "\"...the Society must obtain admission into some regularly organized religious body, or be ",
    "path": "spine",
    "doc": "rich"
   },
   {
    "index": 64,
    "n": 65,
-   "title": "\"...the Society must obtain admission into some regularly organized religious body, or be ",
-   "path": "spine",
-   "doc": "rich"
-  },
-  {
-   "index": 65,
-   "n": 66,
    "title": "Two ways not to become a sect",
    "path": "Two ways not to become a sect",
    "doc": null
   },
   {
-   "index": 66,
-   "n": 67,
+   "index": 65,
+   "n": 66,
    "title": "Stone's side, 1804 dissolve our own body \"We will, that this body die, be dissolved, and s",
    "path": "Two ways not to become a sect",
    "doc": "will"
   },
   {
+   "index": 66,
+   "n": 67,
+   "title": "Side path becoming Baptists Brush Run's overture, fall 1813 \"...expressing a willingness, ",
+   "path": "Two ways not to become a sect",
+   "doc": "rich"
+  },
+  {
    "index": 67,
    "n": 68,
-   "title": "Side path becoming Baptists Brush Run's overture, fall 1813 \"...expressing a willingness, ",
+   "title": "The name of his paper, 1823 \"As the reformers were, however, at this time identified with ",
    "path": "Two ways not to become a sect",
    "doc": "rich"
   },
   {
    "index": 68,
    "n": 69,
-   "title": "The name of his paper, 1823 \"As the reformers were, however, at this time identified with ",
+   "title": "Refused by the Presbyterians, they became Baptists.",
    "path": "Two ways not to become a sect",
-   "doc": "rich"
+   "doc": null
   },
   {
    "index": 69,
    "n": 70,
-   "title": "Refused by the Presbyterians, they became Baptists.",
-   "path": "Two ways not to become a sect",
+   "title": "1809-1810 The Campbells seek out Presbyterian Communion",
+   "path": "spine",
    "doc": null
   },
   {
@@ -799,7 +799,7 @@
   61,
   62,
   63,
-  64,
+  69,
   70,
   71,
   72,
@@ -886,13 +886,13 @@
   },
   {
    "label": "Two ways not to become a sect",
-   "fork": 64,
+   "fork": 63,
    "slides": [
+    64,
     65,
     66,
     67,
-    68,
-    69
+    68
    ]
   }
  ],
@@ -1032,7 +1032,7 @@
   },
   {
    "label": "Richardson&rsquo;s account, whole",
-   "fork": 62,
+   "fork": 69,
    "doc": 0
   }
  ],
@@ -1283,47 +1283,47 @@
    "text": "he found him already, though by a somewhat different method, led practically to the very same conclusions."
   },
   {
-   "slide": 63,
+   "slide": 62,
    "doc": "rich",
    "text": "as the Society was not a Church"
   },
   {
-   "slide": 63,
+   "slide": 62,
    "doc": "rich",
    "text": "most of its members"
   },
   {
-   "slide": 63,
+   "slide": 62,
    "doc": "rich",
    "text": "were deprived of various privileges which belonged to the church relation."
   },
   {
-   "slide": 64,
+   "slide": 63,
    "doc": "rich",
    "text": "the Society must obtain admission into some regularly organized religious body, or be itself compelled to change its attitude and resolve itself into an independent Church — an alternative which Thomas Campbell particularly desired to avoid."
   },
   {
-   "slide": 66,
+   "slide": 65,
    "doc": "will",
    "text": "We will, that this body die, be dissolved, and sink into union with the Body of Christ at large"
   },
   {
-   "slide": 66,
+   "slide": 65,
    "doc": "rich",
    "text": "the Society must obtain admission into some regularly organized religious body"
   },
   {
-   "slide": 67,
+   "slide": 66,
    "doc": "rich",
    "text": "expressing a willingness, upon certain conditions, to co-operate or to unite with that Association, provided always that we should be allowed to teach and preach whatever we learned from the Holy Scriptures, regardless of any creed or formula in Christendom."
   },
   {
-   "slide": 68,
+   "slide": 67,
    "doc": "rich",
    "text": "As the reformers were, however, at this time identified with the Baptists, it was thought expedient, in order to avoid offending religious prejudice"
   },
   {
-   "slide": 68,
+   "slide": 67,
    "doc": "rich",
    "text": "to make this concession so far as the name of the paper was concerned, qualifying “Baptist"
   },

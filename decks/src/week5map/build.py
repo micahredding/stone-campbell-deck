@@ -26,7 +26,7 @@ SIDE = [
 SECTIONS = [
     ('Opening', 'Otter Creek'), ('The sea', 'Alexander and the Sea</h2>'),
     ('Glasgow', 'He went to hear other preachers.'), ('Reunion', '<h2>Family Reunion</h2>'),
-    ('Seeking communion', 'The Campbells seek out Presbyterian Communion'), ('The Synod', 'Christian communion <b>cannot be granted</b>'),
+    ('Seeking communion', 'as the Society was not a Church'), ('The Synod', 'Christian communion <b>cannot be granted</b>'),
     ('Session one close', 'for discussion &middot; session one'), ('Session two', 'data-session=2'),
     ('Church formed', 'data-mark=formed'), ('The first Supper', 'data-mark=supper'),
     ('The ordination', '<h2>The Ordination</h2>'), ('Why the people?', '<h2>Why the people?</h2>'),
