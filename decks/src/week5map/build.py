@@ -12,6 +12,7 @@ SIDE = [
     # (label,                      first-slide anchor,                      last-slide anchor)
     # Arranged by the chapter's four arguments: creeds as tests; who may serve; who may ordain; the whole church on governance by the people.
     ('Your questions',             '<h2 style="max-width:none">Your questions</h2>', 'Uniformity in God&rsquo;s time.'),
+    ('The Haldanes&rsquo; mission', 'Everything or nothing', 'The Church of Scotland on missions, 1796'),
     ('Creeds as tests',            'Side path &middot; creeds as tests',    'They may not fence the table.'),
     ('Two ways not to become a sect', '<h2 style="max-width:none">Two ways not to become a sect</h2>', 'they became Baptists.'),
     R.WEEKLY,
@@ -23,7 +24,7 @@ SIDE = [
     ('Addendum',                   'Reference material; not part of the telling', 'What this week touched'),
 ]
 SECTIONS = [
-    ('Opening', 'Otter Creek'), ('The sea', '<h2>Alexander and the Sea</h2>'),
+    ('Opening', 'Otter Creek'), ('The sea', 'Alexander and the Sea</h2>'),
     ('Glasgow', 'He went to hear other preachers.'), ('Reunion', '<h2>Family Reunion</h2>'),
     ('Seeking communion', 'The Campbells seek out Presbyterian Communion'), ('The Synod', 'Christian communion <b>cannot be granted</b>'),
     ('Session one close', 'for discussion &middot; session one'), ('Session two', 'data-session=2'),
@@ -51,7 +52,7 @@ def _split(S):
     n = [i for i, x in enumerate(S) if 'Next time: Brush Run' in x]
     assert len(n) == 1 and 'notes>Black.' in S[n[0] + 1], 'expected a black slide after Next time'
     return n[0] + 1
-ONE_SIDE = ('Your questions', 'Creeds as tests', 'Two ways not to become a sect')
+ONE_SIDE = ('The Haldanes&rsquo; mission', 'Your questions', 'Creeds as tests', 'Two ways not to become a sect')
 ONE_SECT = ('Opening', 'The sea', 'Glasgow', 'Reunion', 'Seeking communion', 'The Synod', 'Session one close')
 ONE_DOORS = ('Thomas&rsquo;s letters home', 'Richardson&rsquo;s account, whole')
 base = {'part': '5', 'title': 'Chapter 5 &middot; Wherever Two or Three Are Gathered', 'source': 'decks/src/week5/slides.py',
