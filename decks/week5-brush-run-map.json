@@ -490,35 +490,35 @@
    "index": 69,
    "n": 70,
    "title": "Two ways not to become a sect",
-   "path": "spine",
+   "path": "Two ways not to become a sect",
    "doc": null
   },
   {
    "index": 70,
    "n": 71,
    "title": "Stone's side, 1804 dissolve our own body \"We will, that this body die, be dissolved, and s",
-   "path": "spine",
+   "path": "Two ways not to become a sect",
    "doc": "will"
   },
   {
    "index": 71,
    "n": 72,
    "title": "Side path becoming Baptists Brush Run's overture, fall 1813 \"...expressing a willingness, ",
-   "path": "Becoming Baptists",
+   "path": "Two ways not to become a sect",
    "doc": "rich"
   },
   {
    "index": 72,
    "n": 73,
    "title": "The name of his paper, 1823 \"As the reformers were, however, at this time identified with ",
-   "path": "Becoming Baptists",
+   "path": "Two ways not to become a sect",
    "doc": "rich"
   },
   {
    "index": 73,
    "n": 74,
    "title": "Refused by the Presbyterians, they became Baptists.",
-   "path": "Becoming Baptists",
+   "path": "Two ways not to become a sect",
    "doc": null
   },
   {
@@ -1598,8 +1598,6 @@
   66,
   67,
   68,
-  69,
-  70,
   74,
   75,
   76,
@@ -1710,9 +1708,11 @@
    ]
   },
   {
-   "label": "Becoming Baptists",
-   "fork": 70,
+   "label": "Two ways not to become a sect",
+   "fork": 68,
    "slides": [
+    69,
+    70,
     71,
     72,
     73
@@ -1859,35 +1859,35 @@
   },
   {
    "label": "The Synod",
-   "at": 59
+   "at": 57
   },
   {
    "label": "Session one close",
-   "at": 69
+   "at": 67
   },
   {
    "label": "Session two",
-   "at": 75
+   "at": 73
   },
   {
    "label": "Church formed",
-   "at": 79
+   "at": 77
   },
   {
    "label": "The first Supper",
-   "at": 81
+   "at": 79
   },
   {
    "label": "The ordination",
-   "at": 85
+   "at": 83
   },
   {
    "label": "Why the people?",
-   "at": 90
+   "at": 88
   },
   {
    "label": "Close",
-   "at": 107
+   "at": 105
   }
  ],
  "docs": [

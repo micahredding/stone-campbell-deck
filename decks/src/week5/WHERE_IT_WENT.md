@@ -32,6 +32,8 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **"Two ways not to become a sect" is a side path** (Micah, 1 Nov 2026), off "the Society must obtain admission…": the title, the two-column slide (the Last Will beside "obtain admission") and what was *Becoming Baptists* (the 1813 overture, *The Christian Baptist*, "Refused by the Presbyterians, they became Baptists."), five slides in one path.
+
 - **"Brush Run 1810–1811" (the meeting-house picture slide) became a title slide, "The Campbells seek out Presbyterian Communion"** (Micah, 1 Nov 2026). The meeting-house photograph (Bethany College) is no longer shown in Chapter 5; the image file is still in `decks/src/week5/`.
 
 - **The session-one chapter title is hidden** (`HIDE`, Micah, 1 Nov 2026): the deck goes from the recap documents straight to the shipwreck. Session two keeps its title slide.
