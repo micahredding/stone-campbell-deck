@@ -1,7 +1,7 @@
 # Chapter 5's deck, as a map: the slides in decks/src/week5/slides.py, arranged as a spine with side
 # paths, and the sources whole, every quoted passage marked. Same builder as Chapter 4 (decks/src/mapdeck.py).
-#   python3 decks/src/week5map/build.py   ->  decks/week5-brush-run-map.html (session one)
-#                                         and decks/week5b-brush-run-map.html (session two)
+#   python3 decks/src/week5map/build.py   ->  decks/chapter5a.html (session one)
+#                                         and decks/chapter5b.html (session two)
 # How the map works: decks/src/week4map/README.md. Anchors are phrases on a side path's first and last slide.
 import os, sys
 _H = os.path.dirname(os.path.abspath(__file__))
@@ -58,10 +58,10 @@ ONE_DOORS = ('Thomas&rsquo;s letters home', 'Richardson&rsquo;s account, whole')
 base = {'part': '5', 'title': 'Chapter 5 &middot; Wherever Two or Three Are Gathered', 'source': 'decks/src/week5/slides.py',
         'built_by': 'decks/src/week5map/build.py', 'docs': docs, 'short': SHORT, 'doc_order': doc_order}
 mapdeck.build(dict(base, key='w5', chapter='Chapter 5 &middot; session one', title_extra=' &middot; session one',
-    out='decks/week5-brush-run-map.html', keep=lambda S: (0, _split(S)),
+    out='decks/chapter5a.html', keep=lambda S: (0, _split(S)),
     side=[x for x in SIDE if x[0] in ONE_SIDE], sections=[x for x in SECTIONS if x[0] in ONE_SECT],
     doc_doors=[x for x in DOC_DOORS if x[0] in ONE_DOORS]))
 mapdeck.build(dict(base, key='w5b', chapter='Chapter 5 &middot; session two', title_extra=' &middot; session two',
-    out='decks/week5b-brush-run-map.html', keep=lambda S: (_split(S) + 1, len(S) - 1),
+    out='decks/chapter5b.html', keep=lambda S: (_split(S) + 1, len(S) - 1),
     side=[x for x in SIDE if x[0] not in ONE_SIDE], sections=[x for x in SECTIONS if x[0] not in ONE_SECT],
     doc_doors=[x for x in DOC_DOORS if x[0] not in ONE_DOORS]))
