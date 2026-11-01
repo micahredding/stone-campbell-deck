@@ -161,9 +161,13 @@ def build(cfg):
         f = find(a); assert side_of[f] is None, label
         doc_doors.append({'label': label, 'fork': f, 'doc': di})
 
+    link_doors = []   # cfg['link_doors']: (fork anchor, side-path label): open that side path from another spine slide too
+    for a, lab in cfg.get('link_doors', []):
+        f = find(a); assert side_of[f] is None, lab
+        link_doors.append({'fork': f, 'b': [x['label'] for x in branches].index(lab)})
     MAP = {'spine': spine, 'branches': branches, 'sections': sections,
            'titles': [title(i) for i in range(len(S))],
-           'docs': docs_out, 'slideDoc': slide_doc, 'docDoors': doc_doors}
+           'docs': docs_out, 'slideDoc': slide_doc, 'docDoors': doc_doors, 'linkDoors': link_doors}
 
     mjs = open('decks/src/week4map/engine-map.js').read().replace('/*MAP*/null', json.dumps(MAP))
     mjs = mjs.replace("'w4m", "'%sm" % cfg['key']).replace('Chapter 4 &middot; the map', cfg['chapter'] + ' &middot; the map')
