@@ -243,7 +243,7 @@ HIDE(BIGQ(Q('&ldquo;The avowed object in forming this church was&hellip; to <b>a
     '&rarr; &ldquo;A church built on refusing to exclude. Alexander is sitting at that man&rsquo;s table.&rdquo;'))
 A(Q('&ldquo;He was particularly impressed with <b>the persistent opposition of the clergy</b>&hellip; and <b>the disposition they constantly manifested to exercise the power which they possessed in an arbitrary manner</b>.&rdquo;', RICH, 'What he saw in the churches') +
   N('The same sentence: &ldquo;the unscrupulous methods they often resorted to to hinder the progress of the truths they refused to admit.&rdquo; The corruption he saw was the use of power to shut people out.'))
-A(BIGQ(Q('&ldquo;<b>imbibed disgust at the popular schemes</b>, chiefly while a student at Glasgow.&rdquo;', AC + ', in after years &middot; in Richardson, <i>Memoirs</i>', 'Alexander, looking back'), 'clamp(40px,9vmin,110px)', '24ch') +
+HIDE(BIGQ(Q('&ldquo;<b>imbibed disgust at the popular schemes</b>, chiefly while a student at Glasgow.&rdquo;', AC + ', in after years &middot; in Richardson, <i>Memoirs</i>', 'Alexander, looking back'), 'clamp(40px,9vmin,110px)', '24ch') +
   N('Richardson sets it against &ldquo;the course which the clergy pursued under the influence of their narrow policies and bigoted sectarianism.&rdquo;'))
 HIDE(Q('&ldquo;&hellip;the principles of Congregationalism entertained by Mr. Ewing, which secured <b>an entire emancipation from the control of domineering Synods and General Assemblies</b>&hellip;&rdquo;', RICH, 'What he came to want') +
   N('&ldquo;&hellip;and which seemed to him much more accordant with primitive usage.&rdquo; The congregation free of the church courts: the seed of tonight.'))
