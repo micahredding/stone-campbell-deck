@@ -294,7 +294,7 @@ A(Q('&ldquo;&hellip;instead of&hellip; opposition&hellip; he found him already, 
 A('<section class="slide hard"><div class="litany" style="gap:3.4vmin">'
   '<h2 class=no style="max-width:none;font-size:clamp(36px,7.4vmin,92px);line-height:1.15">The father opened the table to people who had no token.</h2>'
   '<h2 class="no frag" style="max-width:none;font-size:clamp(36px,7.4vmin,92px);line-height:1.15">The son held a valid token, and would not use it.</h2>'
-  '<h2 class="no frag" style="max-width:none;font-size:clamp(36px,7.4vmin,92px);line-height:1.15">Neither knew.</h2>'
+  '<h2 class="no frag" style="max-width:none;font-size:clamp(36px,7.4vmin,92px);line-height:1.15;color:var(--gold)">Neither knew.</h2>'
   '</div><aside class=notes>Two clicks. Say it plain and stop.<br>The father had been tried for serving the Supper to Presbyterians of other kinds in 1807; the son had walked away from a fenced table in 1809.</aside></section>')
 # ---------- BRUSH RUN ----------
 A('<section class="slide bleed"><div class=bg><div class="bgimg brushbg"></div></div>'
