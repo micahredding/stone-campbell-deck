@@ -363,6 +363,7 @@ A(BIGQ(Q('&ldquo;&hellip;yet are they not formally binding upon the consciences 
   N('Inferences belong to teaching, &ldquo;the after and progressive edification of the Church,&rdquo; not to admission.'))
 A(CARD('Creeds may teach.<br>' + G('They may not fence the table.'),
   'Back to the spine: what the Synod made of it.'))
+A(BLACK)                                        # a pause before the Synod
 A(BIGQ(Q('&ldquo;&hellip;Mr. Campbell&rsquo;s request to be received into&hellip; Christian communion <b>cannot be granted</b>.&rdquo;', MIN, 'The Synod of Pittsburg, October 1810'), 'clamp(40px,9vmin,110px)', '24ch') +
   N('Unanimous. Among its reasons: Thomas&rsquo;s &ldquo;opposing creeds and confessions as injurious to the interests of religion.&rdquo; The next day, asked for the &ldquo;important reasons,&rdquo; the Synod listed four, among them &ldquo;for opposing creeds and confessions as injurious to the interests of religion&rdquo; and &ldquo;for encouraging or countenancing his son to preach the gospel without any regular authority.&rdquo; The very ground just stated. (The full list is in the reserve deck.)'))
 A('<section data-src="stone" class="slide" style="padding:0">'
