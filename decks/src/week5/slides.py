@@ -262,8 +262,10 @@ A(Q('&ldquo;His conscientious misgivings as to the propriety of <b>sanctioning a
   N('Taking part would put his stamp on the system; leaving would break with his father&rsquo;s church. He waited for the last table &ldquo;in hopes of being able to overcome his scruples.&rdquo; He wanted to stay.',
     'Hit the word <b>sanctioning</b>. His father, leaving the Seceders in America, would use the same word.'))
 
-A('<section class="slide hard"><h2>Eight hundred communicants, eight or nine tables.</h2>'
-  '<div class="sub frag">He waited for the last one.</div>'
+A('<section class="slide hard"><div class="litany" style="gap:3.4vmin">'
+  '<h2 class=no style="max-width:none;font-size:clamp(36px,7.4vmin,92px);line-height:1.15">Eight hundred communicants, eight or nine tables.</h2>'
+  '<h2 class="no frag" style="max-width:none;font-size:clamp(36px,7.4vmin,92px);line-height:1.15;color:var(--gold)">He waited for the last one.</h2>'
+  '</div>'
   '<aside class=notes>One click. The Seceder spring communion took the whole day, one table after another. He still hoped, Richardson says, &ldquo;of being able to overcome his scruples.&rdquo;</aside></section>')
 A(Q('&ldquo;&hellip;the ring of the token, falling upon the plate, announced the instant at which he renounced Presbyterianism for ever &mdash; <b>the leaden voucher becoming thus a token not of communion but of separation</b>.&rdquo;', RICH, '', 'slide hard') +
   N('When the plate came round he dropped the token on it, and when the bread and wine came down the table he &ldquo;declined to partake.&rdquo; He told no one.',
