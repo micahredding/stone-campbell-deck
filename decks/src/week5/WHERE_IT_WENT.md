@@ -114,7 +114,7 @@ Recover any of these with `git show <commit>:decks/src/week5/slides.py`.
 
 - `a818a3a`, `a21b441`: the recap as portraits with the captions "So far" / "Unity in Communion." Replaced at Micah's direction by the current recap:
   - Stone, "Let the unity of Christians be our polar star" (*Christian Messenger* 6, 1832).
-  - Thomas Campbell, "Resume that precious, that dear-bought liberty…" (*D&A*).
+  - Thomas Campbell, "With you all we desire to unite in the bonds of an entire Christian unity…" (*D&A*); "Resume that precious, that dear-bought liberty…" was on the slide until 1 Nov 2026.
   - "Unused alternatives" below has the other quotes considered.
 - `1d03049`: the short Glasgow slides described above.
 - `95f1d1f`: an earlier wording of idea three ("Stone's side willed it in 1804. Tonight, the Campbells' side does it."). The line is still in the presenter notes of the recap documents slide.
