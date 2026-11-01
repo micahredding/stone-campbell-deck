@@ -60,7 +60,8 @@ base = {'part': '5', 'title': 'Chapter 5 &middot; Wherever Two or Three Are Gath
 mapdeck.build(dict(base, key='w5', chapter='Chapter 5 &middot; session one', title_extra=' &middot; session one',
     out='decks/chapter5a.html', keep=lambda S: (0, _split(S)),
     side=[x for x in SIDE if x[0] in ONE_SIDE], sections=[x for x in SECTIONS if x[0] in ONE_SECT],
-    doc_doors=[x for x in DOC_DOORS if x[0] in ONE_DOORS]))
+    doc_doors=[x for x in DOC_DOORS if x[0] in ONE_DOORS],
+    link_doors=[('for discussion &middot; session one', 'Your questions')]))
 mapdeck.build(dict(base, key='w5b', chapter='Chapter 5 &middot; session two', title_extra=' &middot; session two',
     out='decks/chapter5b.html', keep=lambda S: (_split(S) + 1, len(S) - 1),
     side=[x for x in SIDE if x[0] not in ONE_SIDE], sections=[x for x in SECTIONS if x[0] not in ONE_SECT],

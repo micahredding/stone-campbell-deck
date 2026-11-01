@@ -27,23 +27,27 @@
   var where=slides.map(function(){return null});           /* slide -> {b:-1|branch, k:position} */
   spine.forEach(function(s,k){where[s]={b:-1,k:k}});
   branches.forEach(function(br,b){br.slides.forEach(function(s,k){where[s]={b:b,k:k}})});
-  var docs=MAP.docs||[],docDoors=MAP.docDoors||[],slideDoc=MAP.slideDoc||{};
+  var docs=MAP.docs||[],docDoors=MAP.docDoors||[],slideDoc=MAP.slideDoc||{},linkDoors=MAP.linkDoors||[];
+  /* a link door opens a side path from somewhere other than its fork; its end returns there */
+  var retB=-1,retTo=-1;
+  function forkOf(b){return b===retB&&retTo>=0?retTo:branches[b].fork}
   var docvEl=document.getElementById('docv'),ctxEl=document.getElementById('ctx');
   /* exits from a spine slide: side paths ({b}) and whole documents ({d}) */
   function exitsAt(i){var a=[];
     branches.forEach(function(br,b){if(br.fork===i)a.push({b:b})});
+    linkDoors.forEach(function(ld){if(ld.fork===i)a.push({b:ld.b,link:1})});
     docDoors.forEach(function(dd){if(dd.fork===i)a.push({d:dd.doc,label:dd.label})});return a}
   function exitLabel(x){return x.b!=null?branches[x.b].label:x.label}
   function exitSeen(x){return x.b!=null?branchSeen(x.b):!!seen['d'+x.d]}
-  function takeExit(x){if(x.b!=null)goto(branches[x.b].slides[0],false);else openDoc(x.d,cur)}
+  function takeExit(x){if(x.b!=null){retB=x.link?x.b:-1;retTo=x.link?cur:-1;goto(branches[x.b].slides[0],false)}else openDoc(x.d,cur)}
   function pathOf(i){var w=where[i];return w.b<0?spine:branches[w.b].slides}
   /* where → goes from slide i: along the path; off the end of a side path, back to its fork */
   function nextOf(i){var w=where[i],p=pathOf(i);
     if(w.k<p.length-1)return p[w.k+1];
-    return w.b<0?-1:branches[w.b].fork}
+    return w.b<0?-1:forkOf(w.b)}
   function prevOf(i){var w=where[i],p=pathOf(i);
     if(w.k>0)return p[w.k-1];
-    return w.b<0?-1:branches[w.b].fork}
+    return w.b<0?-1:forkOf(w.b)}
   var seen={};try{seen=JSON.parse(LS.get('w4mseen')||'{}')||{}}catch(e){seen={}}
   function branchSeen(b){return branches[b].slides.some(function(s){return seen[s]})}
 
@@ -87,13 +91,14 @@
   function setStrip(on){document.body.classList.toggle('strip',!!on);LS.set('w4mstrip',on?'1':'0')}
   function goto(i,built){
     if(i<0||i>=slides.length)return;
+    if(retB>=0&&where[i].b!==retB){retB=-1;retTo=-1}
     cur=i;fragsOf(cur).forEach(function(f){f.classList.toggle('on',!!built)});render();
   }
   function next(){
     interacted||fadeHint();
     var fr=fragsOf(cur);
     for(var i=0;i<fr.length;i++){if(!fr[i].classList.contains('on')){fr[i].classList.add('on');render();return}}
-    var n=nextOf(cur);if(n>=0)goto(n,where[cur].b>=0&&n===branches[where[cur].b].fork);
+    var n=nextOf(cur);if(n>=0)goto(n,where[cur].b>=0&&n===forkOf(where[cur].b));
   }
   function prev(){
     interacted||fadeHint();
@@ -107,7 +112,7 @@
     if(n>=d.length)return;
     takeExit(d[n]);
   }
-  function up(){var w=where[cur];if(w.b>=0)goto(branches[w.b].fork,true)}
+  function up(){var w=where[cur];if(w.b>=0)goto(forkOf(w.b),true)}
   function fadeHint(){interacted=true;hint.classList.add('gone')}
   function openPresenter(){window.open(location.href.split(/[?#]/)[0]+'?presenter=1','w4mpresenter','width=960,height=640')}
   function sharedCur(){var c=parseInt(LS.get('w4mcur')||'0',10);if(isNaN(c))c=0;return Math.max(0,Math.min(slides.length-1,c))}

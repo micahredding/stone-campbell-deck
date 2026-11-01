@@ -56,7 +56,7 @@ IDEAS = [
 def IDEASUM(ks, eyebrow, note):   # all of a session's ideas on one slide
     return ('<section class="slide room"><div class=eyebrow>%s</div>'
             '<div class="litany ideasum" style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">' % eyebrow
-            + ''.join('<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (n, plain(IDEAS[k - 1][0])) for n, k in enumerate(ks, 1))
+            + ''.join('<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (n, IDEAS[k - 1][0].replace('<br>', ' ')) for n, k in enumerate(ks, 1))   # keeps each idea's gold half
             + '</div><aside class=notes>%s</aside></section>' % note)
 def IDEA(k, of):   # idea k (1-based in IDEAS), labelled by its place among this session's ideas `of`
     h, n = IDEAS[k - 1]
