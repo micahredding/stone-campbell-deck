@@ -11,7 +11,7 @@
 **Connections:**
 - Picks up exactly where [Chapter 3](week3) stopped: "How do Christians achieve unity?"
 - Proposition 1 is the sentence Chapter 2 ended on: the church of Christ upon earth is "essentially, intentionally, and constitutionally one."
-- Alexander Campbell reading the proof-sheets in wet ink (in the addendum) is the handoff to Brush Run (Chapter 5).
+- Alexander Campbell reading the proof-sheets in wet ink (in the addendum) is the handoff to Alexander and Brush Run (Chapters 5–6).
 
 ---
 

@@ -1,7 +1,7 @@
-# Chapter 5's deck, as a map: the slides in decks/src/week5/slides.py, arranged as a spine with side
+# Chapters 5 and 6, as map decks: the slides in decks/src/week5/slides.py, arranged as a spine with side
 # paths, and the sources whole, every quoted passage marked. Same builder as Chapter 4 (decks/src/mapdeck.py).
-#   python3 decks/src/week5map/build.py   ->  decks/chapter5a.html (session one)
-#                                         and decks/chapter5b.html (session two)
+#   python3 decks/src/week5map/build.py   ->  decks/chapter5.html (Chapter 5)
+#                                         and decks/chapter6.html (Chapter 6)
 # How the map works: decks/src/week4map/README.md. Anchors are phrases on a side path's first and last slide.
 import os, sys
 _H = os.path.dirname(os.path.abspath(__file__))
@@ -23,14 +23,17 @@ SIDE = [
     R.CONSTITUTION,
     ('Addendum',                   'Reference material; not part of the telling', 'What this week touched'),
 ]
-SECTIONS = [
+SECTIONS = [   # Chapter 5's deck (to the black slide after "Next time"), then Chapter 6's
     ('Opening', 'Otter Creek'), ('The sea', 'Alexander and the Sea</h2>'),
     ('Glasgow', 'He went to hear other preachers.'), ('Reunion', '<h2>Family Reunion</h2>'),
     ('Seeking communion', 'as the Society was not a Church'), ('The Synod', 'Christian communion <b>cannot be granted</b>'),
-    ('Session one close', 'for discussion &middot; session one'), ('Session two', 'data-session=2'),
+    ('Close', 'for discussion &middot; Chapter 5'),
+]
+SECTIONS6 = [
+    ('Opening', 'data-session=2'),
     ('Church formed', 'data-mark=formed'), ('The first Supper', 'data-mark=supper'),
     ('The ordination', '<h2>The Ordination</h2>'), ('Why the people?', '<h2>Why the people?</h2>'),
-    ('Close', 'for discussion &middot; session two'),
+    ('Close', 'for discussion &middot; Chapter 6'),
 ]
 
 # The sources whole, from the shared library (decks/src/resources.py): Richardson's Memoirs (excerpts),
@@ -46,23 +49,22 @@ DOC_DOORS = [('Thomas&rsquo;s letters home', 'October 1808: the family sails', 1
              ('Scripture on the church (KJV)', 'Wherever Two or Three<br>Are Gathered', 4)]
 doc_order = R.doc_order
 
-# Two decks, one per class session (Micah, 2026-11-01): session one runs to the black slide after
-# "Next time"; session two starts at its own Otter Creek opening. Same slides.py, sliced.
+# Two decks, two chapters (Micah, 2026-11-01): Chapter 5 runs to the black slide after "Next time";
+# Chapter 6 starts at its own Otter Creek opening. Same slides.py, sliced.
 def _split(S):
     n = [i for i, x in enumerate(S) if 'Next time: Brush Run' in x]
     assert len(n) == 1 and 'notes>Black.' in S[n[0] + 1], 'expected a black slide after Next time'
     return n[0] + 1
 ONE_SIDE = ('The Haldanes&rsquo; mission', 'Your questions', 'Creeds as tests', 'Two ways not to become a sect')
-ONE_SECT = ('Opening', 'The sea', 'Glasgow', 'Reunion', 'Seeking communion', 'The Synod', 'Session one close')
 ONE_DOORS = ('Thomas&rsquo;s letters home', 'Richardson&rsquo;s account, whole')
 base = {'part': '5', 'title': 'Chapter 5 &middot; Wherever Two or Three Are Gathered', 'source': 'decks/src/week5/slides.py',
         'built_by': 'decks/src/week5map/build.py', 'docs': docs, 'short': SHORT, 'doc_order': doc_order}
-mapdeck.build(dict(base, key='w5', chapter='Chapter 5 &middot; session one', title_extra=' &middot; session one',
-    out='decks/chapter5a.html', keep=lambda S: (0, _split(S)),
-    side=[x for x in SIDE if x[0] in ONE_SIDE], sections=[x for x in SECTIONS if x[0] in ONE_SECT],
+mapdeck.build(dict(base, key='w5', chapter='Chapter 5', page_title='Chapter 5 &middot; The Third Instigator',
+    out='decks/chapter5.html', keep=lambda S: (0, _split(S)),
+    side=[x for x in SIDE if x[0] in ONE_SIDE], sections=SECTIONS,
     doc_doors=[x for x in DOC_DOORS if x[0] in ONE_DOORS],
-    link_doors=[('for discussion &middot; session one', 'Your questions')]))
-mapdeck.build(dict(base, key='w5b', chapter='Chapter 5 &middot; session two', title_extra=' &middot; session two',
-    out='decks/chapter5b.html', keep=lambda S: (_split(S) + 1, len(S) - 1),
-    side=[x for x in SIDE if x[0] not in ONE_SIDE], sections=[x for x in SECTIONS if x[0] not in ONE_SECT],
+    link_doors=[('for discussion &middot; Chapter 5', 'Your questions')]))
+mapdeck.build(dict(base, key='w6', chapter='Chapter 6', page_title='Chapter 6 &middot; Wherever Two or Three Are Gathered',
+    out='decks/chapter6.html', keep=lambda S: (_split(S) + 1, len(S) - 1),
+    side=[x for x in SIDE if x[0] not in ONE_SIDE], sections=SECTIONS6,
     doc_doors=[x for x in DOC_DOORS if x[0] not in ONE_DOORS]))

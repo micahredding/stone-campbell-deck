@@ -1,5 +1,5 @@
 {
- "deck": "decks/chapter5b.html",
+ "deck": "decks/chapter6.html",
  "source": "decks/src/week5/slides.py",
  "built_by": "decks/src/week5map/build.py",
  "slides": [
@@ -20,14 +20,14 @@
   {
    "index": 2,
    "n": 3,
-   "title": "Our Wild Democracy Chapter 5 Session two Wherever Two or Three Are Gathered Brush Run, Pen",
+   "title": "Our Wild Democracy Chapter 6 Wherever Two or Three Are Gathered Brush Run, Pennsylvania 18",
    "path": "spine",
    "doc": null
   },
   {
    "index": 3,
    "n": 4,
-   "title": "Last session Still seeking a larger union, they became a church.",
+   "title": "Last week Still seeking a larger union, they became a church.",
    "path": "spine",
    "doc": null
   },
@@ -734,7 +734,7 @@
   {
    "index": 104,
    "n": 105,
-   "title": "for discussion session two What is beautiful here? What do we carry forward?",
+   "title": "for discussion Chapter 6 What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
@@ -762,7 +762,7 @@
   {
    "index": 108,
    "n": 109,
-   "title": "for discussion session two What is beautiful here? What do we carry forward?",
+   "title": "for discussion Chapter 6 What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
@@ -972,7 +972,7 @@
  ],
  "sections": [
   {
-   "label": "Session two",
+   "label": "Opening",
    "at": 0
   },
   {

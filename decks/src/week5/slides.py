@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# Chapter 5 — Wherever Two or Three Are Gathered: the Brush Run ordination (1810–1812), with Alexander
-# Campbell's shipwreck leading up to it, tied back to the Declaration and Address and the Last Will.
+# Chapters 5 and 6 (one source, two decks): Chapter 5, the third instigator (Alexander Campbell, from the
+# shipwreck to the first Supper); Chapter 6, Wherever Two or Three Are Gathered (the Brush Run ordination), tied back to the Declaration and Address and the Last Will.
 # Built as a map deck:  python3 decks/src/week5map/build.py   (runs the Chapter 3 engine with PART=5)
 # Sources: Robert Richardson, Memoirs of Alexander Campbell, vol. 1 (1868), which quotes the Synod of
 # Pittsburg's minutes, Alexander's reply, his sermon notes and his ordination certificate; excerpts in
@@ -47,7 +47,7 @@ IDEAS = [
     ('The gates of the church<br>' + G('as wide as the gates of heaven.'),
      'His own line, November 1810: &ldquo;to open the gates of admission into the Church as wide as the gates of heaven.&rdquo; The Synod would not stand on that ground; Stone, Thomas and Alexander each did.'),
     ('The table is a foretaste<br>' + G('of the church to come.'),
-     'The first Supper at Brush Run, May 5, 1811: &ldquo;an emblem of the millennial state of the Church.&rdquo; Not only a memory of the cross; a taste of the future. Next week he names a journal for it: the <i>Millennial Harbinger</i>.'),
+     'The first Supper at Brush Run, May 5, 1811: &ldquo;an emblem of the millennial state of the Church.&rdquo; Not only a memory of the cross; a taste of the future. In 1830 he names a journal for it: the <i>Millennial Harbinger</i>.'),
     ('The church can gather<br>' + G('for those who are shut out.'),
      'Brush Run became a church because its people were refused &ldquo;those privileges&hellip; which belong to the Church relation.&rdquo; No synod granted it; the people constituted it, with great reluctance, for each other&rsquo;s sake.'),
     ('The priesthood of all believers<br>' + G('makes its ministers.'),
@@ -63,7 +63,7 @@ def IDEA(k, of):   # idea k (1-based in IDEAS), labelled by its place among this
     lab = 'Idea' if len(of) == 1 else 'Idea %d of %d' % (of.index(k) + 1, len(of))
     return ('<section class="slide idea room"><div class=eyebrow>%s</div><h2 style="max-width:none">%s</h2><aside class=notes>%s</aside></section>'
             % (lab, h, n))
-SESSION1, SESSION2 = [1, 2, 3, 4, 5], [6, 7]   # the chapter runs as two class sessions in one deck
+SESSION1, SESSION2 = [1, 2, 3, 4, 5], [6, 7]   # Chapter 5's ideas, Chapter 6's ideas (one slides.py, two decks)
 
 S = []
 A = S.append
@@ -170,7 +170,7 @@ A(BIGQ(Q('&ldquo;Duty then is ours; but <b>events belong to God</b>.&rdquo;', DA
 A(CARD('Unity now.<br>' + G('Uniformity in God&rsquo;s time.'),
   'Unity is commanded and possible today: receive one another. Agreement on everything comes, if at all, by steps and in God&rsquo;s time, and is never a condition of fellowship.<br>&rarr; Into tonight&rsquo;s story: a young man who would not be included where others were shut out.'))
 
-HIDE('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 5 &middot; Session one</div>'
+HIDE('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 5</div>'
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
   '<div class=sub>Glasgow to Washington, Pennsylvania &middot; 1808&ndash;1810</div>'
   '<aside class=notes>Matthew 18:20, and the <i>Declaration and Address</i> quotes it (we will see where). Chapter 5 runs two sessions. Session one: Alexander, from the shipwreck to the open table, ending beside Stone and his father. Session two: Brush Run, the ordination, and why the people.<br>'
@@ -294,7 +294,7 @@ A('<section class="slide" style="padding:0">'
   '<aside class=notes>The <i>Latonia</i>, Captain McCray, cleared Greenock August 4, 1809. Fifty-one days before they saw land (September 26); on the way a squall did &ldquo;serious damage&rdquo; and put them in &ldquo;imminent danger,&rdquo; and Alexander renewed his ministerial vows (Richardson&rsquo;s chapter heads). Quarantine, then New York harbor September 29; Philadelphia October 7; then west over the Alleghenies toward Washington, Pennsylvania, where Thomas rode out to meet them (Richardson 1:195&ndash;222). Coastlines: Natural Earth.</aside></section>')
 A(BIGQ(Q('&ldquo;&hellip;thanks be to that God who raises the winds and quells the tumults of the seas, that it did not prove fatal to us all; and may He out of His great mercy, <b>bless it as a fatherly reproof to us all</b>, and instruct us by it to be in a habitual preparation for death when He calls for us.&rdquo;', AC + ', his journal at sea &middot; in Richardson, <i>Memoirs</i>', 'The second storm, August 27, 1809'), 'clamp(28px,5.8vmin,72px)', '40ch') +
   N('How he nearly died: the whole ship nearly went down. After two nights of lightning, &ldquo;the most terrific squall ever seen by any individual on board&rdquo;; spray so thick &ldquo;one could not discern another at half the ship&rsquo;s length.&rdquo; They could not cut away the mizzenmast; the sails &ldquo;were all torn to pieces&rdquo;; the foretopmast went (the second time this voyage); a heavy sea broke off the quarter-railing; &ldquo;the tiller-rope having given way, the ship became unmanageable for a time.&rdquo; &ldquo;Every one on board apprehended certain destruction, and the most experienced seamen said they thought every moment would be their last.&rdquo; And she had been leaking since the first week. The storm eased after nine; the bowsprit was &ldquo;cracked half way through,&rdquo; and next morning the <i>Francis</i>, seeing &ldquo;the wrecked appearance of the Latonia,&rdquo; gave her a spare foresail.<br>Richardson: &ldquo;In view of his deliverance on this occasion, he renewed his vows of fealty to His service, and again solemnly consecrated his life to the ministry of the gospel&rdquo; (1:197&ndash;198).',
-    'Second time at sea he nearly died; second time he gave his life to the ministry. Session two pays it off: his own 1811 list, &ldquo;two occasions of extraordinary deliverance.&rdquo;',
+    'Second time at sea he nearly died; second time he gave his life to the ministry. Chapter 6 pays it off: his own 1811 list, &ldquo;two occasions of extraordinary deliverance.&rdquo;',
     'To tell, if there is time: three days out the ship sprang a leak; the captain, sick, refused to turn back, and the men pumped four hours in every twenty-four &ldquo;to keep the water from gaining.&rdquo; A passenger&rsquo;s child died and was buried at sea in a coffin that would not sink, and &ldquo;floated off astern.&rdquo; In quarantine at New York he met &ldquo;several of those who had been shipwrecked with him in the Hibernia the year before.&rdquo;'))
 A(C('Family Reunion', 'October 1809. The family finally lands in Philadelphia and crosses the mountains.'))
 
@@ -421,7 +421,7 @@ A('<section data-src="stone" class="slide" style="padding:0">'
 HIDE(BIGQ(Q('&ldquo;&hellip;the Lord&rsquo;s Supper, which, according to the custom of the Independent churches in Scotland, <b>was now celebrated weekly</b>.&rdquo;', RICH, 'Every Lord&rsquo;s day')) +
   N('The Haldane churches again. At Cane Ridge the Supper came once or twice a year, after weeks of preparation and a token. At Brush Run, every Sunday, from the beginning. That is us.'))
 # ---------- SESSION ONE: CLOSE ----------
-DISCUSS1 = ('<section class="slide room"><div class=eyebrow>&#9670; for discussion &middot; session one</div><h2>What is beautiful here? What do we carry forward?</h2>'
+DISCUSS1 = ('<section class="slide room"><div class=eyebrow>&#9670; for discussion &middot; Chapter 5</div><h2>What is beautiful here? What do we carry forward?</h2>'
             '<aside class=notes>Backup prompts (off the slide): Have you been welcome somewhere a friend was not? Did you stay? Who does our table turn away, in word or in practice? Can you be included by a church that excludes?</aside></section>')
 A(DISCUSS1)
 for _k in SESSION1: A(IDEA(_k, SESSION1))
@@ -430,7 +430,7 @@ A(DISCUSS1)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> is there in full; tonight&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))
 A('<section class="slide"><h2>Next time: Brush Run and <i>Where two or three are gathered&hellip;</i></h2>'
-    '<aside class=notes>Session two: Brush Run ordains Alexander at the hands of the congregation (January 1812), and why the people.</aside></section>')
+    '<aside class=notes>Chapter 6: Brush Run ordains Alexander at the hands of the congregation (January 1812), and why the people.</aside></section>')
 A(BLACK)
 
 # ---------- SESSION TWO: OPENING ----------
@@ -439,13 +439,13 @@ A('<section data-src="kjv" class="slide"><div class=eyebrow>Quiz</div>'
   '<h2 style="max-width:22ch">What was carved on the front of the communion table in your church?</h2>'
   '<div class="sub frag" style="font-size:clamp(30px,6vmin,76px);margin-top:4vmin">&ldquo;&hellip;this do in remembrance of me.&rdquo;</div>'
   '<aside class=notes>One click for the answer (Luke 22:19; 1 Corinthians 11:24). Let the room remember their own tables first. An invitation carved where the Seceders kept a fence: tonight is about the fence.</aside></section>')
-A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 5 &middot; Session two</div>'
+A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 6</div>'
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
   '<div class=sub>Brush Run, Pennsylvania &middot; 1811&ndash;1812</div>'
-  '<aside class=notes>Session two. Recap in one breath: the shipwreck, the Haldanes, the token given back, father and son meeting on the road, the Synod&rsquo;s refusal, the gates as wide as heaven. Three founders, one open table. Last time ended on the decision to become a church. Tonight: the church they formed, its first Supper, and who made their minister.<br>'
+  '<aside class=notes>Chapter 6. Recap in one breath: the shipwreck, the Haldanes, the token given back, father and son meeting on the road, the Synod&rsquo;s refusal, the gates as wide as heaven. Three founders, one open table. Last time ended on the decision to become a church. Tonight: the church they formed, its first Supper, and who made their minister.<br>'
   'The hour: Brush Run 8 &middot; the first Supper 5 &middot; the ordination 6 &middot; why the people 17 &middot; close 8.</aside></section>')
 A(CARD('Still seeking a larger union,<br>' + G('they became a church.'),
-  'Last session&rsquo;s last card. Refused by the Synod of Pittsburg in October 1810, they kept looking for a larger body to belong to; but in the spring of 1811 Thomas, &ldquo;with great reluctance,&rdquo; agreed the Association must become a church.<br>&rarr; &ldquo;May 4, 1811.&rdquo;', 'Last session'))
+  'Last week&rsquo;s last card. Refused by the Synod of Pittsburg in October 1810, they kept looking for a larger body to belong to; but in the spring of 1811 Thomas, &ldquo;with great reluctance,&rdquo; agreed the Association must become a church.<br>&rarr; &ldquo;May 4, 1811.&rdquo;', 'Last week'))
 # ---------- BRUSH RUN BECOMES A CHURCH ----------
 A(DIM('<section class="slide"><div class=eyebrow>May 4, 1811</div><h2 style="font-size:clamp(48px,10vmin,128px);line-height:1.08">Brush Run<br>Church Formed</h2>''<aside class=notes>Saturday, May 4, 1811, at the Brush Run meeting house. About thirty members. They sang Psalm 118 in the old Scottish metrical version.<br>The photo: the meeting house as rebuilt at Bethany in 1909; the original, a plain frame building never finished, was later sold and used as a blacksmith shop, a post office and a barn.</aside></section>', 'brushbg', 'The Brush Run meeting house, reconstructed at Bethany &middot; courtesy of Bethany College').replace('<section', '<section data-mark=formed', 1))
 A(CARD('No bishop. No presbytery.<br>' + G('A congregation.'),
@@ -549,7 +549,7 @@ A(BLACK)
 
 # ---------- CLOSE ----------
 DISCUSS = re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>Backup prompts (off the slide): Who gives thanks at our table, and why that person? Who has authority in our congregation, and where did it come from? What would it mean to believe every member could be called?</aside>',
-                 w3b.pick('&#9670; for discussion', 0), flags=re.S).replace('&#9670; for discussion', '&#9670; for discussion &middot; session two', 1)
+                 w3b.pick('&#9670; for discussion', 0), flags=re.S).replace('&#9670; for discussion', '&#9670; for discussion &middot; Chapter 6', 1)
 A(DISCUSS)
 for _k in SESSION2: A(IDEA(_k, SESSION2))
 A(IDEASUM(SESSION2, 'Tonight&rsquo;s ideas', 'Both at once, before the discussion. Last time&rsquo;s five: the table that excludes; nothing required that God has not required; neither side is the gospel; the gates as wide as heaven; the table a foretaste.'))
@@ -558,7 +558,7 @@ A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))
 A('<section class="slide"><h2>Next week: living into God&rsquo;s future.</h2>'
   '<div class="sub frag">&ldquo;An emblem of the millennial state of the Church.&rdquo; In 1830 he names a journal for it: the <i>Millennial Harbinger</i>.</div>'
-  '<aside class=notes>Chapter 6. Alexander pivots from attack journalism to building for the age to come; eschatology as the movement&rsquo;s north star.</aside></section>')
+  '<aside class=notes>Chapter 7. Alexander pivots from attack journalism to building for the age to come; eschatology as the movement&rsquo;s north star.</aside></section>')
 A(BLACK)
 
 # ---------- ADDENDUM ----------

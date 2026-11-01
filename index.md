@@ -10,14 +10,15 @@ A movement drawn together from reformers, farmers, clergy, and laypeople of many
 - [Chapter 3 — Declaration & Address](week3) · [slides](decks/week3-declaration-address.html)
 - [Chapter 3b — Declaration & Address, part two: The Answer](week3b) · [slides](decks/week3b-declaration-address-part-two.html)
 - [Chapter 4 — Rise and Fall of the Springfield Presbytery](week4) · [slides](decks/week4-last-will-map.html)
-- [Chapter 5 — Where two or three gather: Brush Run Ordination](week5) · slides: [session one](decks/chapter5a.html) · [session two](decks/chapter5b.html)
-- [Chapter 6 — Living into God's Future: Millennial Harbinger](week6)
-- [Chapter 7 — The Stone-Campbell Merger](week7)
-- [Chapter 8 — Eschatology & Non-Conformity: Lipscomb & Civil War](week8)
-- [Chapter 9 — The Story of Believer's Baptism](week9)
-- [Chapter 10 — The Story of Congregational Singing](week10)
-- [Chapter 11 — The Story of Studying Scripture](week11)
-- [Chapter 12 — The Story of Governance](week12)
+- [Chapter 5 — The Third Instigator](week5) · [slides](decks/chapter5.html)
+- [Chapter 6 — Where two or three gather: Brush Run Ordination](week6) · [slides](decks/chapter6.html)
+- [Chapter 7 — Living into God's Future: Millennial Harbinger](week7)
+- [Chapter 8 — The Stone-Campbell Merger](week8)
+- [Chapter 9 — Eschatology & Non-Conformity: Lipscomb & Civil War](week9)
+- [Chapter 10 — The Story of Believer's Baptism](week10)
+- [Chapter 11 — The Story of Congregational Singing](week11)
+- [Chapter 12 — The Story of Studying Scripture](week12)
+- [Chapter 13 — The Story of Governance](week13)
 
 ## For co-teachers
 

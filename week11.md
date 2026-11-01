@@ -1,16 +1,20 @@
-# Chapter 11 — The Story of Studying Scripture
+# Chapter 11 — The Story of Congregational Singing
 
 [← All chapters](.)
 
-**The Story:** At the 1829 Virginia Constitutional Convention a fellow delegate sneered about Alexander Campbell: _"even_ _the_ _God_ _of_ _heaven_ _cannot_ _please_ _this_ _man,_ _for_ _he_ _has_ _a_ _Bible_ _all_ _his_ _own."_ Campbell had compiled arguably the first modern-language New Testament in real congregational use, using the best Greek text 50 years ahead of standard translations, 120 years before the RSV. The spread of this translation expressed the belief that all believers must be empowered to study for themselves. That deep conviction continues today.
+**The Story:** Before a cappella was ever a rule, it was a literacy movement — the church taught every farmer to sight-read four-part harmony the same way it taught every member to read Scripture. 
 
-**The Idea**: Our movement embraces the ethos of "study for yourself"—which express a deep concern for freedom of conscience, and the priesthood of all believers.
+**The Idea**: Congregrational singing is an embodied expression of the priesthood of all believers. All members have a voice.
 
-**The Thread — the practice that *equips*:** Study is where the mutual witness becomes checkable. No one can understand a text on your behalf. Put the same book in every hand, in a language every person can actually read, and the preacher is now speaking to a room that can verify him — not as an act of suspicion, but as the condition of trusting him freely. A church that permits no mediating authority needs every member holding the source.
+**The Thread — the practice that *voices*:** Singing is where the mutual witness becomes audible. A choir or an organ can carry the worship on your behalf; congregational singing structurally cannot. And the binding is in your ears: you cannot sing without hearing that every person in the room has a voice, and without knowing they are hearing yours. This is common knowledge in the strictest sense — not merely that each of us has standing, but that all of us know it about each other, out loud, every week.
 
 ---
 
 Narrative…
+
+One thing historians talk about, that we may not often be aware of, is how religions shape society, and economics, and culture. Protestantism directly led to an increase in literacy: if there was a religious need to study Scripture, there was a religious duty to teach people how — and in Protestant countries, literacy began climbing quickly. We are heirs of a religious culture that made reading into something sacred, and in the process empowered every individual in hundreds of other ways. This is the origin of Sunday Schools — empowering poor, uneducated children to read and study for themselves. And being trained to read doesn't just have pragmatic benefits — it bestows a kind of **enacted significance**: when the minister or elder quotes something, you have the exact same access to the text as they do. That enacted significance — every believer can read, every believer has a voice — is what the priesthood of all believers looks like in practice, and it is the origin of our movement's emphasis on congregational singing.
+
+… Narrative continues
 
 ---
 
