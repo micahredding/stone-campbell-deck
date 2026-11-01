@@ -38,19 +38,32 @@ def SRC(slide, key):   # check this slide's quotes against one shared document (
     return slide.replace('<section class="slide', '<section data-src=%s class="slide' % key, 1)
 
 IDEAS = [
-    ('The Lord&rsquo;s table<br>' + G('turns no Christian away.'),
-     'Glasgow: the Haldanes&rsquo; church was formed to &ldquo;avoid that contracted spirit which would exclude&rdquo;; the Seceder table would not have had them. Alexander gave back the token. In 1810: no standard should &ldquo;reject those whom God has not rejected.&rdquo; Brush Run kept the table open to every Christian.'),
+    ('You cannot be included<br>' + G('by a table that excludes.'),
+     'The token. He was welcome at his church&rsquo;s table; Ewing and the Haldanes were not. To take the bread would have been &ldquo;sanctioning&hellip; by participation&rdquo; a system that shut them out, so he gave the token back. The question the session asked out loud, answered.'),
+    ('No one may be required<br>' + G('to do what God has not required.'),
+     'Alexander&rsquo;s response, November 1810. Infant baptism: &ldquo;the Lord has nowhere expressly enjoined it&rdquo;; to make it a term of communion &ldquo;is to make it a term of salvation.&rdquo; Creeds: standards that &ldquo;reject those whom God has not rejected.&rdquo; The same principle as the <i>Declaration and Address</i>: nothing a term of communion that is not expressly commanded.'),
+    ('Neither side of a disputed question<br>' + G('is the gospel.'),
+     '&ldquo;Neither paedobaptism nor antipaedobaptism availeth anything&rdquo; (Galatians 5:6). He cared about baptism (&ldquo;by no means&hellip; a matter of indifference&rdquo;) and still would not make either side a fence. Forbearance, not indifference.'),
+    ('The gates of the church<br>' + G('as wide as the gates of heaven.'),
+     'His own line, November 1810: &ldquo;to open the gates of admission into the Church as wide as the gates of heaven.&rdquo; The Synod would not stand on that ground; Stone, Thomas and Alexander each did.'),
+    ('The table is a foretaste<br>' + G('of the church to come.'),
+     'The first Supper at Brush Run, May 5, 1811: &ldquo;an emblem of the millennial state of the Church.&rdquo; Not only a memory of the cross; a taste of the future. Next week he names a journal for it: the <i>Millennial Harbinger</i>.'),
     ('The church can gather<br>' + G('for those who are shut out.'),
      'Brush Run became a church because its people were refused &ldquo;those privileges&hellip; which belong to the Church relation.&rdquo; No synod granted it; the people constituted it, with great reluctance, for each other&rsquo;s sake.'),
     ('The priesthood of all believers<br>' + G('makes its ministers.'),
      'Ordination &ldquo;consists in the choice of the people&rdquo;: the two or three gathered hold the priesthood&rsquo;s authority, given in baptism. Brush Run did what the Last Will bequeathed. &ldquo;The community, the church, the multitude of the faithful, are the fountain of official power.&rdquo; No clergy-laity line. Side paths: who may ordain?; who may serve?; the whole church remembers.'),
 ]
+def IDEASUM(ks, eyebrow, note):   # all of a session's ideas on one slide
+    return ('<section class="slide room"><div class=eyebrow>%s</div>'
+            '<div class="litany ideasum" style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">' % eyebrow
+            + ''.join('<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (n, plain(IDEAS[k - 1][0])) for n, k in enumerate(ks, 1))
+            + '</div><aside class=notes>%s</aside></section>' % note)
 def IDEA(k, of):   # idea k (1-based in IDEAS), labelled by its place among this session's ideas `of`
     h, n = IDEAS[k - 1]
     lab = 'Idea' if len(of) == 1 else 'Idea %d of %d' % (of.index(k) + 1, len(of))
     return ('<section class="slide idea room"><div class=eyebrow>%s</div><h2 style="max-width:none">%s</h2><aside class=notes>%s</aside></section>'
             % (lab, h, n))
-SESSION1, SESSION2 = [1], [2, 3]   # the chapter runs as two class sessions in one deck
+SESSION1, SESSION2 = [1, 2, 3, 4, 5], [6, 7]   # the chapter runs as two class sessions in one deck
 
 S = []
 A = S.append
@@ -298,7 +311,7 @@ A('<section class="slide hard"><div class="litany" style="gap:3.4vmin">'
   '</div><aside class=notes>Two clicks. Say it plain and stop.<br>The father had been tried for serving the Supper to Presbyterians of other kinds in 1807; the son had walked away from a fenced table in 1809.</aside></section>')
 # ---------- BRUSH RUN ----------
 A(C('The Campbells seek out Presbyterian Communion', 'The Society was not a church, and its people had nowhere to take communion. Rather than become one more sect, Thomas set out to join an existing body: in October 1810 he asked the Presbyterian Synod of Pittsburg to receive him, Association and all. (The Brush Run meeting house, begun in 1810, was the Association&rsquo;s meeting place, not yet a church.)', '1809&ndash;1810'))
-A(BIGQ(Q('&ldquo;This Society <b>by no means considers itself a Church</b>, nor does at all assume to itself the powers peculiar to such a society&hellip;&rdquo;', DA + ', Resolution IV')) +
+HIDE(BIGQ(Q('&ldquo;This Society <b>by no means considers itself a Church</b>, nor does at all assume to itself the powers peculiar to such a society&hellip;&rdquo;', DA + ', Resolution IV')) +
   N('What they promised in 1809: &ldquo;merely as voluntary advocates for Church reformation.&rdquo; A society can preach; it cannot keep the Supper or ordain.',
     '&rarr; &ldquo;Now they would have to be one.&rdquo;'))
 HIDE(BIGQ(Q('&ldquo;As many members of the Christian Association lived near Buffalo Creek, it was, about this time, <b>resolved to erect a house of worship there</b>.&rdquo;', RICH, '1810 &middot; a meeting house')) +
@@ -408,6 +421,7 @@ DISCUSS1 = ('<section class="slide room"><div class=eyebrow>&#9670; for discussi
             '<aside class=notes>Backup prompts (off the slide): Have you been welcome somewhere a friend was not? Did you stay? Who does our table turn away, in word or in practice? Can you be included by a church that excludes?</aside></section>')
 A(DISCUSS1)
 for _k in SESSION1: A(IDEA(_k, SESSION1))
+A(IDEASUM(SESSION1, 'Tonight&rsquo;s ideas', 'All five at once, before the discussion.'))
 A(DISCUSS1)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> is there in full; tonight&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))
@@ -534,10 +548,7 @@ DISCUSS = re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>Backup p
                  w3b.pick('&#9670; for discussion', 0), flags=re.S).replace('&#9670; for discussion', '&#9670; for discussion &middot; session two', 1)
 A(DISCUSS)
 for _k in SESSION2: A(IDEA(_k, SESSION2))
-A('<section class="slide room"><div class=eyebrow>Chapter 5&rsquo;s ideas</div>'
-  '<div class="litany ideasum" style="text-align:left;gap:1.2vmin;margin-top:2.6vmin">'
-  + ''.join('<div class=no><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (k, plain(h)) for k, (h, _) in enumerate(IDEAS, 1)) +
-  '</div><aside class=notes>The chapter&rsquo;s three ideas at once, both sessions, before the discussion.</aside></section>')
+A(IDEASUM(SESSION2, 'Tonight&rsquo;s ideas', 'Both at once, before the discussion. Last time&rsquo;s five: the table that excludes; nothing required that God has not required; neither side is the gospel; the gates as wide as heaven; the table a foretaste.'))
 A(DISCUSS)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> and the <i>Last Will</i> are there in full; tonight&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))

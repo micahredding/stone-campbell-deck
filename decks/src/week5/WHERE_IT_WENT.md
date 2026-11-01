@@ -32,6 +32,8 @@ Chapter 5 (`decks/week5-brush-run-map.html`) was reshaped several times between 
 
 ## Moved within Chapter 5
 
+- **Session one's ideas rewritten (Micah, 1 Nov 2026):** five ideas (the table that excludes; nothing required that God has not required; neither side is the gospel; the gates as wide as heaven; the table a foretaste), with a summary slide. Session two keeps two (the church gathers for the shut out; the priesthood makes its ministers). "The Lord's table turns no Christian away" was retired. Hidden: session one's "Every Lord's day" copy, and the D&A "This Society by no means considers itself a Church" slide.
+
 - **"Who may come?" became title slides** (Micah, 1 Nov 2026): "They were rebuffed" and "Alexander's response" (November 1, 1810), with section slides "On baptism…" and "On creeds…" before each run.
 
 - **"Two ways not to become a sect" is a side path** (Micah, 1 Nov 2026), off "the Society must obtain admission…": the title, the two-column slide (the Last Will beside "obtain admission") and what was *Becoming Baptists* (the 1813 overture, *The Christian Baptist*, "Refused by the Presbyterians, they became Baptists."), five slides in one path.
