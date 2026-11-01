@@ -1007,7 +1007,7 @@ def conscience(extra=()):
         '<div class="no frag"><b>every man must be allowed to judge for himself</b>&hellip;&rdquo;</div>'
         '</div><div class=cite>Declaration and Address (1809)</div>'
         '<aside class=notes>Three clicks, one sentence. It goes on: &ldquo;as every man must bear his own judgment&mdash;must give account of himself to God.&rdquo; Romans 14.</aside></section>',
-        _c('&ldquo;&hellip;believing you to be <b>sincere and conscientious servants of the same great and gracious Master</b>&hellip; I am, therefore, through his grace, <b>ready to forbear with you</b>&hellip;&rdquo;', 'Thomas Campbell, Protest and Appeal to the Associate Synod (c. 1808)', 'Even to his judges',
+        _c('&ldquo;&hellip;believing you to be <b>sincere and conscientious servants of the same great and gracious Master</b>&hellip; I am, therefore, through his grace, <b>ready to forbear with you</b>&hellip;&rdquo;', 'Thomas Campbell, Protest and Appeal to the Associate Synod (1808 or 1809)', 'Even to his judges',
            'To the Synod trying him. Earlier in the same paper: &ldquo;I leave every man to his own judgment, while I claim the same privilege for myself.&rdquo; He claims it, and extends it to his accusers.'),
         '<section data-src="dna consc" class="slide"><div class=eyebrow>Proposition 6</div>'
         '<p class="bigquote" style="font-size:clamp(30px,6.2vmin,80px);max-width:34ch;line-height:1.22"><span class=q>&ldquo;&hellip;yet are they <b>not formally binding upon the consciences of Christians farther than they perceive the connection</b>&hellip; Therefore, <b>no such deductions can be made terms of communion</b>&hellip;&rdquo;</span></p>'
