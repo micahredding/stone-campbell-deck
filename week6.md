@@ -1,4 +1,4 @@
-# Chapter 6 — Where Two or Three Gather: Brush Run Ordination
+# Chapter 6 — Wherever Two or Three Are Gathered: Brush Run Ordination
 
 [← All chapters](.)
 
