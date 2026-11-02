@@ -15,6 +15,7 @@ SIDE = [
     ('The Haldanes&rsquo; mission', 'Everything or nothing', 'The Church of Scotland on missions, 1796'),
     ('Creeds as tests',            'Side path &middot; creeds as tests',    'They may not fence the table.'),
     ('Two ways not to become a sect', '<h2 style="max-width:none">Two ways not to become a sect</h2>', 'they became Baptists.'),
+    ('Unity, or uniformity?',      'Unity, or uniformity?</h2>',            'Uniformity in God&rsquo;s time.'),   # Chapter 6 only: off the recap card
     R.WEEKLY,
     ('Who may serve?',             '<h2>Who serves the table?</h2>',        'Hosted by any.'),
     ('Who may ordain?',            R.GOVERNANCE[1],                         R.GOVERNANCE[2]),

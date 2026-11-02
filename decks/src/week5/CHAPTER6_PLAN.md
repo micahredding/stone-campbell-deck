@@ -32,6 +32,9 @@ Deck: `decks/chapter6.html` (sliced from `decks/src/week5/slides.py`; build `pyt
 - Write `week6.md` narrative on this arc.
 - Optional wording fix: "In 1830 he names a journal for it" → "for that hope" (Ch. 6 teaser slide, Ch. 5 idea-5 note, `week5.md`) — Micah has not answered.
 
+## Side path: Unity, or uniformity? (Micah, 2026-11-02)
+Chapter 5's incrementalism slides (its "Your questions" side path, not reached in class) now also hang in Chapter 6 as their own side path, "Unity, or uniformity?", off the recap card "Still seeking a larger union, they became a church." One source for both: `UNIFORMITY(eyebrow, back)` in `decks/src/week5/slides.py`. New in both decks, after Stone's "till we all come into the unity of the faith": three slides from Campbell, "An Appeal to the Uncharitable," *Christian Baptist* 6 (Sept. 1, 1828), pp. 46–47 ("because you cannot walk as fast as we"; "'let us walk by the same rule'… We will commune with you"; "we shall come to be one in all the items of christian worship, as we are now in the one body…"). Phil. 3:16 and Eph. 4:4–6 in Campbell's own words. Excerpt in `decks/src/sources/founders-on-unity.html`; research: stone-campbell-database, `10 Research Projects/Alexander Campbell Reread/Too Far in Advance of Our Attainments.md`.
+
 ## Research (stone-campbell-database, `10 Research Projects/`)
 `Who May Ordain/README.md` (2026-11-01; Calvin, Knox, Cambridge, Baptists, Catholic, lay presidency, Milligan, Brownlow), `Who Keeps the Table/`, `One Baptism/03 Baptism as Ordination to the Priesthood.md`, `Arguments/The Priesthood of All, Anticipated.md`, `Thomas Campbell and the Seceders/`. Not verified: Walter Scott on ordination; Lipscomb on appointing elders (secondhand); Zwingli/Bucer/Congar; Sydney Anglican wording; Anglican Art. 23 wording.
 
