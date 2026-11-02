@@ -513,6 +513,9 @@ A('<section class="slide"><div class=eyebrow>Signed</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);color:var(--gold)">George Sharp &middot; William Gilcrist &middot; James Foster &middot; John Dawson, deacons</div>'
   '</div><div class=cite>The ordination certificate &middot; in Richardson, <i>Memoirs</i></div>'
   '<aside class=notes>One click. His father, and four farmers. One of them, James Foster, is the man nearly kept out by the test question. The man who would debate Robert Owen and the Catholic bishop of Cincinnati, and found a college, was ordained by a creekside congregation of about thirty.</aside></section>')
+A(CARD('Who gave them<br>' + G('that authority?'),
+  'Let the room answer. No bishop, no presbytery, no synod: the Synod of Pittsburg had refused them in 1810. Their doubt is the tradition&rsquo;s doubt; the rest of the hour answers it.',
+  style=';font-size:clamp(52px,12vmin,150px);line-height:1.05'))
 # ---------- WHY THE PEOPLE? ----------
 A(C('Why the people?', 'The theory behind the ordination: why Brush Run believed the authority to make a minister was its own.', 'The meaning of January 1, 1812'))
 # Luther as the witness: baptismal succession (slides from the shared resources priesthood() and consent())
