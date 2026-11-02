@@ -2,7 +2,7 @@
 
 Read with Stone-Campbell ears, N. T. Wright makes the founders' case from the New Testament itself. The church is a taste of new creation, and its substance is unity. That unity must be visible: against denominations, against division, against a drab uniformity, and for freedom of conscience. It is practiced at the table, in baptism, in singing and in scripture. It is the church's testimony to the powers, and it draws the world.
 
-Wright's language throughout, with Stone-Campbell parallels set beside him in three places: drab uniformity (3c), Communion as the future (4a), and reading scripture (4d). Wright's sources are *God's Homecoming* (2025), *The Vision of Ephesians* (2025) and *Simply Christian* (2006); see "About the citations" at the end.
+Wright's language throughout, with Stone-Campbell parallels set beside him in short tables at points 2, 3a, 3c, 4a, 4d, 5 and 6. Wright's sources are *God's Homecoming* (2025), *The Vision of Ephesians* (2025) and *Simply Christian* (2006); see "About the citations" at the end.
 
 <style>
 details.sec { border-top: 1px solid #d0d7de; padding: .4em 0; }
@@ -75,6 +75,12 @@ details.sub > summary { cursor: pointer; font-size: 1.1em; font-weight: 600; }
 
 — GH p. 272
 
+**Side by side**
+
+| Wright | Stone-Campbell |
+|---|---|
+| Eph 4:4–6 reads like "a kind of 'seven spiritual laws': one body, one spirit, one hope; one lord, one faith, one baptism; and, above all, one God." (VE §6) | "We will, that this body die, be dissolved, and sink into union with the Body of Christ at large; for there is but one body, and one Spirit, even as we are called in one hope of our calling." (*Last Will and Testament of Springfield Presbytery*, 1804, first item, quoting Eph 4:4) |
+
 
 </details>
 
@@ -97,6 +103,14 @@ details.sub > summary { cursor: pointer; font-size: 1.1em; font-weight: 600; }
 > "Some might think: As long as folk are being trained in heavenly-mindedness, why should it matter if people who look and sound different from ourselves (and who perhaps 'do things a bit differently') are worshipping in a different building, half a mile down the road, rather than 'with one heart and voice' together with ourselves? But if we hold to the biblical hope… then it matters enormously."
 
 — GH p. 273
+
+**Side by side**
+
+| Wright | Stone-Campbell |
+|---|---|
+| "Paul would be shocked by the very idea of 'denominations', sitting close to one another on the same street but not even trying to join up to share in mission and resources." (VE §6) | "This union is pourtrayed by the pen of an inspired Apostle, in Eph. iv. 5, 6. 1st. He says there is one body—under the direction of one head, one law-giver… The present state of the church shews many bodies, many heads and many law-givers. Can they all be the church of Christ? Impossible, if judged according to the Scriptures." (Stone, "Unity," *Christian Messenger* 13, 1843, p. 3) |
+| "…why should it matter if people who look and sound different from ourselves… are worshipping in a different building, half a mile down the road?… it matters enormously." (GH p. 273) | "I challenge all the believers in these revivals on this continent to present one good reason why all sects should not break down the middle walls of partition and unite in one holy communion, perfect and complete." (A. Campbell, *Christian Baptist* 5, 1827, p. 134; Eph 2:14) |
+| "We must constantly be looking for ways to make our God-given unity a reality in visible practice and mutual love." (VE §6) | The early church was "yet but one visible community, having one Lord, one faith, one baptism, one table, one ostensible supreme and all-controlling interest." (A. Campbell, *Christian System*, pp. 99–100; Eph 4:5) |
 
 
 </details>
@@ -170,6 +184,10 @@ details.sub > summary { cursor: pointer; font-size: 1.1em; font-weight: 600; }
 | "Let's be clear: equality does not mean uniformity." (GH p. 277) | "…although inferences and deductions from Scripture premises, when fairly inferred, may be truly called the doctrine of God's holy word, yet are they not formally binding upon the consciences of Christians farther than they perceive the connection." (T. Campbell, *Declaration and Address*, Prop. 6) |
 | "…individual likes and dislikes (which is what I call them when they're mine) and irrational prejudices (which is what I call them when they're yours)… we should expect to have demands made on our charity and our patience." (SC p. 157) | "…a love regulated by similarity of opinion is only a love to one's own opinion." (A. Campbell, *Christian System*, p. 121) |
 | "Unity does not mean identity." (VE §8) | "It is the image of Christ the Christian looks for and loves; and this does not consist in being exact in a few items, but in general devotion to the whole truth as far as known." (A. Campbell, *Millennial Harbinger*, Sept. 1837, p. 412) |
+| "Welcome someone who is weak in faith, but not in order to have disputes on difficult points." (GH p. 270, on Rom 14:1) | "…the Lord will bear with the weaknesses, the involuntary ignorances, and mistakes of his people, though not with their presumption. Ought they not, therefore, to bear with each other—'to preserve the unity of the Spirit in the bond of peace; forbearing one with another in love?'" And: "the thing to be forborne being a matter of private opinion… whereas we are expressly commanded to endeavor to maintain the unity of the Spirit in the bond of peace." (T. Campbell, *Declaration and Address*, Appendix; Eph 4:2–3) |
+| "The western Enlightenment has tried to achieve by tolerance what in scripture is God's gift of love." (GH p. 270) | "During the days of the Apostles the Christians lived in union and harmony among themselves; not altogether in a union of opinion; for this is unattainable, if desirable in the present imperfect state of man: but they lived in a union of spirit. They were of one heart and of one soul." (Stone, "Unity," *Christian Messenger* 13, 1843, p. 3) |
+| "Generous grace was how you began; generous grace in your common life is how you are to continue." (VE §6) | "Some believed in and practised immersion, others believed and acted differently, yet forbearing one another in love, we endeavored to keep the unity of the Spirit in the bond of peace." (Stone, *Christian Messenger* 12, 1841) |
+| "…some of us like doing things this way, some prefer to do them that way." (GH p. 270) | "…we are taught to bear with one another, and while differences of opinion may exist, to maintain the unity of the Spirit by the bonds of peace." (A. Campbell, *Millennial Harbinger* 1831, p. 417) |
 
 *Note: Wright's "polychrome" is mainly ethnic and cultural diversity. Applying it to freedom of conscience is our step; his own bridge is the Romans 14 welcome above.*
 
@@ -361,6 +379,15 @@ details.sub > summary { cursor: pointer; font-size: 1.1em; font-weight: 600; }
 
 — GH p. 244
 
+**Side by side**
+
+| Wright | Stone-Campbell |
+|---|---|
+| "…the church is designed, intended—and equipped by the spirit!—to display the multicolored reality of God's original creation, as the signpost to the principalities and powers that think they run the world." (GH p. 265, Eph 3:10) | "An organized society of this kind, modelled after the plan taught in the New Testament, is the consummation of the manifold wisdom of God to exhibit to the world the civilizing, the moralizing, the saving light, which renovates the human heart." (A. Campbell, *Christian Baptist* 1, 1823, p. 43; Eph 3:10) |
+| "Ephesians is all about the church, and especially about its unity… the coming together of Judaean and Gentile in the Messiah's family is the remarkable and powerful sign." (GH p. 260) | Gentile inclusion "lay at the very basis of making of twain one new man, i.e. of uniting Jews and Gentiles in one associated body—the church… It was the last evolution and development of the manifold wisdom and goodness of God." (A. Campbell, *Christian Baptist* 1, p. 74; Eph 2:15, 3:10) |
+
+*Note: Campbell reads "manifold wisdom" as displayed to the world; Wright, with the text, to "the rulers and authorities in the heavenly places." The founders' "principalities and powers" are usually Eph 6:12, the church's spiritual warfare.*
+
 
 </details>
 
@@ -400,6 +427,15 @@ details.sub > summary { cursor: pointer; font-size: 1.1em; font-weight: 600; }
 
 — GH p. 274
 
+**Side by side**
+
+| Wright | Stone-Campbell |
+|---|---|
+| "That community life has always startled outsiders, provoking some to fierce opposition but convincing many (including former persecutors) of the truth of the gospel." (GH p. 220) | "…holding fast the unity of the spirit in the bond of peace. This gracious unity and unanimity in Jesus would afford the best external evidence of their union with him, and of their conjoint interest in the Father's love. 'By this shall all men know that you are my disciples,' says he, 'if you have love one to another.'" (T. Campbell, *Declaration and Address*, Address) |
+| "…'you must shine your light in front of people', so that 'they will see what wonderful things you do, and they'll give glory to your father in heaven'." (VE §4) | After quoting Eph 4:4–6: "Where, O Where is this church or kingdom, in which these things are, and which is thus shining! We long to see it—We long to see the world, attracted by her light, flowing to her." (Stone, *Christian Messenger* 11, 1840, p. 28) And: "Thus the Church, and each individual Christian is the light of the world… So Christians are to be like an eminent city, that the world may see and flow to it." (Stone, "On Matt. V.," *Christian Messenger* 12, 1841) |
+| "The church, united and holy, is designed to demonstrate to the hostile watching world that the God revealed in Jesus is the true God." (VE §1) | The apostles made "of twain one new man… the church; and having placed this in all nations… they were taken to heaven, and left the church, by its doctrine and example, to christianize the world." (A. Campbell, *Christian Baptist* 1, 1823, p. 43) |
+| "So the message comes loudest and clearest from a community that is embodying the same love." (GH p. 230) | "…they who pray for, and labor to promote the union of Christians in the Lord, are praying and laboring for the answer of our Lord's prayer, 'that they all may be one'—but that they who oppose this union, oppose the answer of his prayer, and the salvation of the world. Let us endeavor to keep the unity of the Spirit." (Stone and J. T. Johnson, editors, *Christian Messenger* 6, 1832) |
+
 
 </details>
 
@@ -411,7 +447,7 @@ details.sub > summary { cursor: pointer; font-size: 1.1em; font-weight: 600; }
 - **VE** = Tom Wright, *The Vision of Ephesians* (SPCK, 2025). The ebook has no page numbers, so it is cited by Wright's section and the Ephesians passage: §1 Introduction; §2 Eph 1:3–14; §3 Eph 1:15–23; §4 Eph 2; §5 Eph 3; §6 Eph 4:1–24; §7 Eph 4:25–5:20; §8 Eph 5:21–6:9; §9 Eph 6:10–20.
 - **SC** = N. T. Wright, *Simply Christian* (HarperOne, 2006), cited by print page.
 - Wright doesn't capitalize "spirit" in GH and VE; the quotations keep his usage. Bold is ours.
-- Stone-Campbell sources: A. Campbell, *The Christian System* (1871 printing; pages from the scan's running heads); T. Campbell, *Declaration and Address* (1809; checked against the class site's full text); *Millennial Harbinger* 1837; R. Richardson, *Memoirs of Alexander Campbell*, vol. 1 (1868); *The Biography of Elder David Purviance* (1848).
+- Stone-Campbell sources: the *Last Will and Testament of Springfield Presbytery* (1804); B. W. Stone, *Christian Messenger* (1832 co-edited with J. T. Johnson; 1840, 1841, 1843 signed by Stone); A. Campbell, *Christian Baptist* vols. 1 and 5, *Millennial Harbinger* 1831 and 1837; A. Campbell, *The Christian System* (1871 printing; pages from the scan's running heads); T. Campbell, *Declaration and Address* (1809; checked against the class site's full text); *Millennial Harbinger* 1837; R. Richardson, *Memoirs of Alexander Campbell*, vol. 1 (1868); *The Biography of Elder David Purviance* (1848).
 - Every quotation was read in the ebook text on 2026-10-27. The Stone-Campbell parallels assembled earlier are kept in the research database ("Wright and Stone-Campbell Side by Side").
 
 
