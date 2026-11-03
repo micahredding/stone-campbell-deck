@@ -16,7 +16,7 @@ SIDE = [
     ('Creeds as tests',            'Side path &middot; creeds as tests',    'They may not fence the table.'),
     ('Two ways not to become a sect', '<h2 style="max-width:none">Two ways not to become a sect</h2>', 'they became Baptists.'),
     ('Unity, or uniformity?',      'Unity, or uniformity?</h2>',            'Uniformity in God&rsquo;s time.'),   # Chapter 6 only: off the recap card
-    R.WEEKLY,
+    # R.WEEKLY: moved out of Chapter 6 (Micah, 2026-11-03); see decks/every-lords-day-map.html
     ('Images for Whose orders?',   'Side path &middot; images for Whose orders?', 'Luther burns the papal bull'),   # Chapter 6: off "Whose orders?", for Micah to inspect
     ('A testimony to the people&rsquo;s authority', 'Side path &middot; it shall not be so among you', 'among you.</span>'),   # Chapter 6: off "Who gave them that authority?"
     ('What they read',             'Side path &middot; the people&rsquo;s authority in Scripture', 'I would advise to take the brethren'),
