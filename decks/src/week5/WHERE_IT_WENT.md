@@ -159,3 +159,8 @@ Everything is in `micahredding/stone-campbell-database`, folder `10 Research Pro
 - Freedom of Conscience
 - The Bible in Every Hand
 - One Baptism
+
+## Chapter 6, 2026-11-03 (Micah)
+- **"No bishop. No presbytery. A congregation."** (card after Brush Run formed): hidden (`HIDE`) in `slides.py`.
+- **"Signed"** (Thomas Campbell, senior minister, and the four deacons): hidden; its content is now in the certificate slide's notes. The "Not Reverend" side path now branches off the certificate.
+- **"The brethren"** (Campbell, *Christian Baptist* 1826, "vested in the minds of the brethren"): moved from after "Who gave them that authority?" to the "other chain" of "Whose orders?", after Alexander 1811 and before the payoff card.
