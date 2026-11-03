@@ -1421,7 +1421,7 @@
     docOpen=d;seen['d'+d]=1;LS.set('w5mseen',JSON.stringify(seen));LS.set('w5mdoc',String(d));
     var D=docs[d];
     docvEl.innerHTML='<div class=dhead><div class=eyebrow>The whole document</div><h3>'+D.title+'</h3><div class=dsub>'+D.sub+'</div>'+
-      '<div class=dkey>Gold: quoted in tonight&rsquo;s slides &middot; filled = already shown &middot; click a passage to zoom in &middot; z or Esc: back to the slide</div></div>'+
+      '<div class=dkey>Gold: quoted in today&rsquo;s slides &middot; filled = already shown &middot; click a passage to zoom in &middot; z or Esc: back to the slide</div></div>'+
       '<div class=dbody>'+D.html+'</div>';
     var here=null;
     [].slice.call(docvEl.querySelectorAll('mark')).forEach(function(m){
