@@ -659,6 +659,19 @@ A(BIGQ(Q('&ldquo;Believing their preachers unbaptized, <b>we cannot with the sha
   N('Landmark Baptists. Just before: &ldquo;If Pedobaptists are unwilling to recognize as ministers of the gospel men who, in their judgment, have never been baptized, why should Baptists be expected to do so?&rdquo; He states the whole sequence: each church applies its own rule, and the rules cancel one another. Even a congregational ground can be used to refuse.'))
 A(CARD('Each can claim it.<br>' + G('None can extend it.'),
   'The conscience chain again: claimed, and then refused. Each foundation recognizes only itself.'))
+A('<section class="slide"><div class=litany style="gap:1.4vmin;width:78vw;max-width:78vw">'
+  '<div class=no style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">What position can we take that doesn&rsquo;t force us to say that large segments of Christianity have</div>'
+  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid orders,</div>'
+  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid ministers,</div>'
+  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid sacraments,</div>'
+  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15;color:var(--gold)">and are thus <i>not churches</i>?</div>'
+  '</div><aside class=notes>Four clicks. Let the question extend. Every position we have just seen forces that answer about someone.</aside></section>')
+A(CARD('There is only one<br>possible answer.',
+  'Pause before the next slide.',
+  style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
+A(CARD('The authority flows<br>' + G('from the people.'),
+  'If the authority is the people&rsquo;s, the people may constitute themselves under bishops, presbyters or elders, and every one of those orders can stand. Now the other chain: those who said so.',
+  style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
 A('<section class="slide breath"><div class=eyebrow>Valid orders</div><h2 style="max-width:none">The other chain</h2><div class=sub>Those who put the authority beneath them all</div><aside class=notes>If the authority is the people&rsquo;s, the people may constitute themselves under bishops, or presbyters, or elders, and every one of those orders can be recognized.</aside></section>')
 A(BIGQ(Q('&ldquo;&hellip;<b>appoint for yourselves bishops and deacons</b> worthy of the Lord, men meek, and not lovers of money, and truthful and proven&hellip;&rdquo;', '<i>Didache</i> 15.1 (c. 100) &middot; tr. Roberts&ndash;Donaldson', 'The first church order'), 'clamp(36px,7.8vmin,98px)', '28ch') +
   N('The oldest church order outside the New Testament, addressed to the congregation: no bishop or apostle is named as the one who appoints. The verb, <i>cheirotonēsate</i>, is the show-of-hands word, as in Acts 14:23. <i>1 Clement</i> 44 (c. 96): presbyters appointed &ldquo;with the consent of the whole church.&rdquo; Every succession begins with a choosing.'))
