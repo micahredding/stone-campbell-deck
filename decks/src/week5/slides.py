@@ -628,6 +628,8 @@ A(CARD('Anglicans reject<br>' + G('the Presbyterians.'),
   style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
 A(BIGQ(Q('&ldquo;&hellip;no man shall be accounted or taken to be a lawful Bishop, Priest, or Deacon, in the Church of England, or suffered to execute any of the said Functions, except he be called, tried, examined, and admitted thereunto, according to the Form hereafter following, <b>or hath had Episcopal Consecration, or Ordination</b>.&rdquo;', 'The Ordinal, Preface, <i>Book of Common Prayer</i> (1662)', 'Canterbury, on the Presbyterians'), 'clamp(28px,5.8vmin,72px)', '40ch') +
   N('1662: ministers without a bishop&rsquo;s ordination had to be reordained or leave their parishes. About two thousand left (the Great Ejection).'))
+A(BIGQ(Q('&ldquo;&hellip;shall be utterly disabled and (ipso facto) deprived of the same And <b>all his Ecclesiastical Promotions shall be void as if he was naturally dead</b>.&rdquo;', 'Act of Uniformity (1662), &sect;IX', 'Canterbury, on a minister without a bishop&rsquo;s hands'), 'clamp(36px,7.8vmin,98px)', '28ch') +
+  N('Of any incumbent &ldquo;who is not already in Holy Orders by Episcopall Ordination&rdquo; by St Bartholomew&rsquo;s Day, August 24, 1662 (text as enacted, legislation.gov.uk). The Great Ejection. &sect;XI exempts &ldquo;the Forrein Reformed Churches&rdquo;: their Presbyterian ministers could stay in their own churches; England&rsquo;s could not.'))
 A(CARD('Anglicans reject<br>' + G('the Methodists.'),
   '1785. Charles Wesley on his brother&rsquo;s ordinations.',
   style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
@@ -660,7 +662,7 @@ A(BIGQ(Q('&ldquo;&hellip;you boast that you are the sent teachers, and your chur
 A(CARD('Baptists reject<br>' + G('everyone.'),
   '1854. Landmark Baptists on all pedobaptist ministers.',
   style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
-A(BIGQ(Q('&ldquo;Believing their preachers unbaptized, <b>we cannot with the shadow of propriety recognize them as gospel ministers</b>.&rdquo;', 'J. M. Pendleton, <i>An Old Landmark Re-set</i> (1854)', 'And the Baptists, on everyone else'), 'clamp(40px,8.6vmin,108px)', '24ch') +
+A(BIGQ(Q('&ldquo;Believing their preachers unbaptized, <b>we cannot with the shadow of propriety recognize them as gospel ministers</b>&hellip; <b>The official acts of Pedobaptist preachers have no validity in them.</b> Their falsely so-called baptisms are a nullity&hellip;&rdquo;', 'J. M. Pendleton, <i>An Old Landmark Re-set</i> (1854)', 'And the Baptists, on everyone else'), 'clamp(40px,8.6vmin,108px)', '24ch') +
   N('Landmark Baptists. Just before: &ldquo;If Pedobaptists are unwilling to recognize as ministers of the gospel men who, in their judgment, have never been baptized, why should Baptists be expected to do so?&rdquo; He states the whole sequence: each church applies its own rule, and the rules cancel one another. Even a congregational ground can be used to refuse.'))
 A(CARD('Each can claim it.<br>' + G('None can extend it.'),
   'The conscience chain again: claimed, and then refused. Each foundation recognizes only itself.'))
