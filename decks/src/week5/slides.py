@@ -444,7 +444,7 @@ A(DISCUSS1)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> is there in full; tonight&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))
 A('<section class="slide"><h2>Next time: Brush Run and <i>Where two or three are gathered&hellip;</i></h2>'
-    '<aside class=notes>Chapter 6: Brush Run ordains Alexander at the hands of the congregation (January 1812), and why the people.</aside></section>')
+    '<aside class=notes>Chapter 6: Brush Run ordains Alexander by the choice of the congregation (January 1812), and why the people.</aside></section>')
 A(BLACK)
 
 # ---------- SESSION TWO: OPENING ----------
@@ -516,6 +516,8 @@ A('<section class="slide"><div class=eyebrow>Signed</div>'
 A(CARD('Who gave them<br>' + G('that authority?'),
   'Let the room answer. No bishop, no presbytery, no synod: the Synod of Pittsburg had refused them in 1810. Their doubt is the tradition&rsquo;s doubt; the rest of the hour answers it.',
   style=';font-size:clamp(52px,12vmin,150px);line-height:1.05'))
+A(BIGQ(Q('&ldquo;<b>Every thing essential to appointment, call, or ordination was vested in the minds of the brethren.</b> Their desires, however expressed, gave the office to the candidate&hellip;&rdquo;', AC + ', <i>Christian Baptist</i>, 1826', 'The brethren'), 'clamp(36px,7.8vmin,98px)', '28ch') +
+  N('&ldquo;A Restoration of the Ancient Order of Things, No. XIV,&rdquo; <i>Christian Baptist</i> 4 (August 1826), p. 6 (Burnet ed. p. 260). The answer to the last slide: the brethren. Everyone who acted on January 1, 1812 had been chosen by this congregation on May 4, 1811 (Thomas &ldquo;appointed elder&rdquo;, four deacons &ldquo;chosen&rdquo;, Richardson 1:367). No source says whose hands; Campbell says the elders&rsquo; hands only &ldquo;express their concurrence with the brethren&rsquo;s call.&rdquo;'))
 # ---------- WHY THE PEOPLE? ----------
 A(C('Why the people?', 'The theory behind the ordination: why Brush Run believed the authority to make a minister was its own.', 'The meaning of January 1, 1812'))
 # Luther as the witness: baptismal succession (slides from the shared resources priesthood() and consent())
