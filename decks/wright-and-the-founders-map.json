@@ -1,0 +1,584 @@
+{
+ "deck": "decks/wright-and-the-founders-map.html",
+ "source": "decks/src/resources.py (wright)",
+ "built_by": "decks/src/wright/build.py",
+ "slides": [
+  {
+   "index": 0,
+   "n": 1,
+   "title": "Our Wild Democracy a resource Wright and the Founders N. T. Wright and the Stone-Campbell ",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 1,
+   "n": 2,
+   "title": "Wright and the founders a resource The small working model of new creation N. T. Wright an",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 2,
+   "n": 3,
+   "title": "Wright and the founders A taste of new creation The church as the age to come, early",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 3,
+   "n": 4,
+   "title": "Wright \"...to think of the vocation of the church as the call to live as the small working",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 4,
+   "n": 5,
+   "title": "Wright \"We live in the present as the new creation in miniature , the advance working mode",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 5,
+   "n": 6,
+   "title": "Brush Run, 1811 \"...in assembling there on that occasion, they furnished an emblem of the ",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 6,
+   "n": 7,
+   "title": "Campbell \" The kingdom of heaven is divided into small societies , called churches or cong",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 7,
+   "n": 8,
+   "title": "Campbell \"...the church, their temple; the Saviour is their altar; their songs, their prai",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 8,
+   "n": 9,
+   "title": "Wright and the founders Its substance is unity Ephesians 4:4-6",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 9,
+   "n": 10,
+   "title": "Wright \"Ephesians is all about the church, and especially about its unity... the coming to",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 10,
+   "n": 11,
+   "title": "Wright on Ephesians 4 \"...a kind of 'seven spiritual laws' : one body, one spirit, one hop",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 11,
+   "n": 12,
+   "title": "The first item of the Last Will \"We will, that this body die, be dissolved, and sink into ",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 12,
+   "n": 13,
+   "title": "Wright and the founders Visible, not only spiritual Against denominations, division and dr",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 13,
+   "n": 14,
+   "title": "Wright \"...this term cannot serve as an excuse for disunity on the ground. Paul would be s",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 14,
+   "n": 15,
+   "title": "Stone on Ephesians 4 \"The present state of the church shews many bodies, many heads and ma",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 15,
+   "n": 16,
+   "title": "Wright \"...we must constantly be looking for ways to make our God-given unity a reality in",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 16,
+   "n": 17,
+   "title": "Campbell \"...yet but one visible community, having one Lord, one faith, one baptism, one t",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 17,
+   "n": 18,
+   "title": "Wright \"The principalities and powers always tend toward a monochrome, drab uniformity , s",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 18,
+   "n": 19,
+   "title": "Campbell on uniformity \"Unity of opinion... is made the bond of union; and a difference in",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 19,
+   "n": 20,
+   "title": "Thomas Campbell on Ephesians 4:3 \"...the thing to be forborne being a matter of private op",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 20,
+   "n": 21,
+   "title": "Stone \"... not altogether in a union of opinion ; for this is unattainable, if desirable i",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 21,
+   "n": 22,
+   "title": "Wright and the founders Practiced The table, the song, the Scriptures",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 22,
+   "n": 23,
+   "title": "The table \"The Eucharist, as many theologians have seen, defines the church: ' There is on",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 23,
+   "n": 24,
+   "title": "The table as the future \"We are presented, close up and personally, with new creation that",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 24,
+   "n": 25,
+   "title": "Campbell at the table \"You, my brother, once an alien, are now a citizen of heaven; once a",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 25,
+   "n": 26,
+   "title": "The song \"...what 'being filled with the spirit' looks like ( anticipating, we recall, God",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 26,
+   "n": 27,
+   "title": "Stone \" We all engaged in singing the same songs of praise -all united in prayer-all preac",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 27,
+   "n": 28,
+   "title": "Wright \"The ground is even at the foot of the cross. But those who stand on that even grou",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 28,
+   "n": 29,
+   "title": "The Scriptures \"Reading scripture, like praying and sharing in the sacraments, is one of t",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 29,
+   "n": 30,
+   "title": "Wright \"...hearing God's voice in scripture isn't simply a matter of precise, technical ex",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 30,
+   "n": 31,
+   "title": "Campbell on reading \"...as it respects God, there is an understanding distance . All beyon",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 31,
+   "n": 32,
+   "title": "Wright and the founders A sign to the powers Ephesians 3:10",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 32,
+   "n": 33,
+   "title": "Paul \"To the intent that now unto the principalities and powers in heavenly places might b",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 33,
+   "n": 34,
+   "title": "Wright \"...the church is designed, intended-and equipped by the spirit!-to display the mul",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 34,
+   "n": 35,
+   "title": "Campbell on Ephesians 3:10 \"An organized society of this kind, modelled after the plan tau",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 35,
+   "n": 36,
+   "title": "Wright and the founders It draws the world John 17:21",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 36,
+   "n": 37,
+   "title": "Wright \"That community life has always startled outsiders, provoking some to fierce opposi",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 37,
+   "n": 38,
+   "title": "Thomas Campbell \"This gracious unity and unanimity in Jesus would afford the best external",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 38,
+   "n": 39,
+   "title": "Stone, after quoting Ephesians 4:4-6 \"Where, O Where is this church or kingdom, in which t",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 39,
+   "n": 40,
+   "title": "Campbell \"...to suppose that all christians will form one communion in that happy age of t",
+   "path": "spine",
+   "doc": "wrt"
+  },
+  {
+   "index": 40,
+   "n": 41,
+   "title": "A small working model. Unity the world can see.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 41,
+   "n": 42,
+   "title": "(black)",
+   "path": "spine",
+   "doc": null
+  }
+ ],
+ "spine": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41
+ ],
+ "branches": [],
+ "sections": [
+  {
+   "label": "Opening",
+   "at": 1
+  },
+  {
+   "label": "A taste of new creation",
+   "at": 2
+  },
+  {
+   "label": "Its substance is unity",
+   "at": 8
+  },
+  {
+   "label": "Visible",
+   "at": 12
+  },
+  {
+   "label": "Practiced",
+   "at": 21
+  },
+  {
+   "label": "A sign to the powers",
+   "at": 31
+  },
+  {
+   "label": "It draws the world",
+   "at": 35
+  }
+ ],
+ "docs": [
+  {
+   "index": 0,
+   "key": "wrt",
+   "title": "Wright and the founders: excerpts",
+   "short": "Wright and the founders"
+  }
+ ],
+ "doc_doors": [
+  {
+   "label": "Wright and the founders: the sources",
+   "fork": 2,
+   "doc": 0
+  }
+ ],
+ "quotes": [
+  {
+   "slide": 3,
+   "doc": "wrt",
+   "text": "to think of the vocation of the church as the call to live as the small working model of new creation."
+  },
+  {
+   "slide": 4,
+   "doc": "wrt",
+   "text": "We live in the present as the new creation in miniature, the advance working model of what God intends to do in the end."
+  },
+  {
+   "slide": 5,
+   "doc": "wrt",
+   "text": "in assembling there on that occasion, they furnished an emblem of the millennial state of the Church, nay, an emblem of the heavenly state, when men of different nations, and known by different names, should sit down together in the kingdom of God."
+  },
+  {
+   "slide": 6,
+   "doc": "wrt",
+   "text": "The kingdom of heaven is divided into small societies, called churches or congregations of the Lord."
+  },
+  {
+   "slide": 7,
+   "doc": "wrt",
+   "text": "the church, their temple; the Saviour is their altar; their songs, their praises, are incense ascending to heaven"
+  },
+  {
+   "slide": 7,
+   "doc": "wrt",
+   "text": "Are they called citizens? — the church is then the kingdom of heaven."
+  },
+  {
+   "slide": 9,
+   "doc": "wrt",
+   "text": "Ephesians is all about the church, and especially about its unity"
+  },
+  {
+   "slide": 9,
+   "doc": "wrt",
+   "text": "the coming together of Judaean and Gentile in the Messiah’s family is the remarkable and powerful sign of that in the present."
+  },
+  {
+   "slide": 10,
+   "doc": "wrt",
+   "text": "a kind of ‘seven spiritual laws’: one body, one spirit, one hope; one lord, one faith, one baptism; and, above all, one God."
+  },
+  {
+   "slide": 11,
+   "doc": "wrt",
+   "text": "We will, that this body die, be dissolved, and sink into union with the Body of Christ at large; for there is but one body, and one Spirit, even as we are called in one hope of our calling."
+  },
+  {
+   "slide": 13,
+   "doc": "wrt",
+   "text": "this term cannot serve as an excuse for disunity on the ground. Paul would be shocked by the very idea of ‘denominations’, sitting close to one another on the same street"
+  },
+  {
+   "slide": 14,
+   "doc": "wrt",
+   "text": "The present state of the church shews many bodies, many heads and many law-givers. Can they all be the church of Christ? Impossible, if judged according to the Scriptures."
+  },
+  {
+   "slide": 15,
+   "doc": "wrt",
+   "text": "we must constantly be looking for ways to make our God-given unity a reality in visible practice and mutual love."
+  },
+  {
+   "slide": 16,
+   "doc": "wrt",
+   "text": "yet but one visible community, having one Lord, one faith, one baptism, one table, one ostensible supreme and all-controlling interest"
+  },
+  {
+   "slide": 17,
+   "doc": "wrt",
+   "text": "The principalities and powers always tend toward a monochrome, drab uniformity, squashing everything into the same shape and dealing violently with the bits that refuse to conform."
+  },
+  {
+   "slide": 18,
+   "doc": "wrt",
+   "text": "is made the bond of union; and a difference in the tenth or ten-thousandth shade of opinion frequently becomes the actual cause of dismemberment or expulsion."
+  },
+  {
+   "slide": 19,
+   "doc": "wrt",
+   "text": "the thing to be forborne being a matter of private opinion"
+  },
+  {
+   "slide": 19,
+   "doc": "wrt",
+   "text": "whereas we are expressly commanded to endeavor to maintain the unity of the Spirit in the bond of peace."
+  },
+  {
+   "slide": 20,
+   "doc": "wrt",
+   "text": "not altogether in a union of opinion; for this is unattainable, if desirable in the present imperfect state of man: but they lived in a union of spirit."
+  },
+  {
+   "slide": 22,
+   "doc": "wrt",
+   "text": "The Eucharist, as many theologians have seen, defines the church: ‘There is one loaf; well, then, there may be several of us, but we are one body, because we all share the one loaf.’"
+  },
+  {
+   "slide": 23,
+   "doc": "wrt",
+   "text": "We are presented, close up and personally, with new creation that we can eat and drink."
+  },
+  {
+   "slide": 24,
+   "doc": "wrt",
+   "text": "You, my brother, once an alien, are now a citizen of heaven; once a stranger, are now brought home to the family of God"
+  },
+  {
+   "slide": 24,
+   "doc": "wrt",
+   "text": "Under Jesus the Messiah we are one"
+  },
+  {
+   "slide": 24,
+   "doc": "wrt",
+   "text": "we shall jointly suffer with him, that we may jointly reign with him."
+  },
+  {
+   "slide": 25,
+   "doc": "wrt",
+   "text": "what ‘being filled with the spirit’ looks like (anticipating, we recall, God’s filling of all creation) is a life of music and thanksgiving, of delight that turns into song"
+  },
+  {
+   "slide": 26,
+   "doc": "wrt",
+   "text": "We all engaged in singing the same songs of praise—all united in prayer—all preached the same things"
+  },
+  {
+   "slide": 27,
+   "doc": "wrt",
+   "text": "The ground is even at the foot of the cross. But those who stand on that even ground—and together sing their hearts out in joy and gratitude—are, and remain, a community drawn from every nation, people, tribe, and tongue."
+  },
+  {
+   "slide": 28,
+   "doc": "wrt",
+   "text": "Reading scripture, like praying and sharing in the sacraments, is one of the means by which the life of heaven and the life of earth interlock."
+  },
+  {
+   "slide": 29,
+   "doc": "wrt",
+   "text": "hearing God’s voice in scripture isn’t simply a matter of precise, technical expertise. It’s a matter of love"
+  },
+  {
+   "slide": 30,
+   "doc": "wrt",
+   "text": "as it respects God, there is an understanding distance. All beyond that distance cannot understand God"
+  },
+  {
+   "slide": 30,
+   "doc": "wrt",
+   "text": "God himself is the centre of that circle, and humility is its circumference."
+  },
+  {
+   "slide": 32,
+   "doc": "wrt",
+   "text": "To the intent that now unto the principalities and powers in heavenly places might be known by the church the manifold wisdom of God."
+  },
+  {
+   "slide": 33,
+   "doc": "wrt",
+   "text": "the church is designed, intended—and equipped by the spirit!—to display the multicolored reality of God’s original creation, as the signpost to the principalities and powers that think they run the world."
+  },
+  {
+   "slide": 34,
+   "doc": "wrt",
+   "text": "An organized society of this kind, modelled after the plan taught in the New Testament, is the consummation of the manifold wisdom of God to exhibit to the world the civilizing, the moralizing, the saving light"
+  },
+  {
+   "slide": 36,
+   "doc": "wrt",
+   "text": "That community life has always startled outsiders, provoking some to fierce opposition but convincing many (including former persecutors) of the truth of the gospel."
+  },
+  {
+   "slide": 37,
+   "doc": "wrt",
+   "text": "This gracious unity and unanimity in Jesus would afford the best external evidence of their union with him, and of their conjoint interest in the Father’s love."
+  },
+  {
+   "slide": 38,
+   "doc": "wrt",
+   "text": "Where, O Where is this church or kingdom, in which these things are, and which is thus shining! We long to see it—We long to see the world, attracted by her light, flowing to her"
+  },
+  {
+   "slide": 39,
+   "doc": "wrt",
+   "text": "to suppose that all christians will form one communion in that happy age of the world, and not before it, is to suppose a moral effect without a cause."
+  }
+ ],
+ "unmatched": []
+}

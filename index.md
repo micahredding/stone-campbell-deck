@@ -23,7 +23,7 @@ A movement drawn together from reformers, farmers, clergy, and laypeople of many
 ## For co-teachers
 
 - [The Practices We Hold](decks/practices-we-hold.html): the ecumenical case for each practice, with early church, Catholic, Orthodox, Protestant and ecumenical voices labeled by tradition
-- [N. T. Wright as Restorationist](research/wright-working-model): Wright's own words on the church as a taste of new creation; its unity, made visible (against denominations, division and drab uniformity; for freedom of conscience); practiced at the table, in baptism, singing and scripture; the testimony to the powers that draws the world
+- [N. T. Wright as Restorationist](research/wright-working-model): Wright's own words on the church as a taste of new creation; its unity, made visible (against denominations, division and drab uniformity; for freedom of conscience); practiced at the table, in baptism, singing and scripture; the testimony to the powers that draws the world · [slides](decks/wright-and-the-founders-map.html)
 
 ## Visuals
 

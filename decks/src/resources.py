@@ -21,6 +21,8 @@
 #                                  "fountain of official power")
 #   table(extra=[])             -> side path: who keeps the table (who may give thanks and serve at the Supper,
 #                                  from the Scotch Baptists and Campbell to Stone, Lipscomb and today)
+#   wright(extra=[])            -> resource: Wright and the founders (N. T. Wright's 'small working model of new creation' beside
+#                                  Thomas and Alexander Campbell and Stone). Also its own deck: decks/src/wright/build.py
 #   unity(extra=[])             -> resource: union, all his life (Thomas Campbell's Declaration and Address, which
 #                                  Alexander endorsed; the 1810 party-man address; the Christian Baptist; The Christian
 #                                  System; Lunenburg; the open Campbell). Also its own deck: decks/src/unity/build.py
@@ -112,6 +114,9 @@ def docs(between, clean, keys):
         'fnd': lambda: {'title': 'The founders on unity',
             'sub': 'Barton W. Stone (1835) and Thomas Campbell (1809)',
             'html': clean(src('sources', 'founders-on-unity.html'))},
+        'wrt': lambda: {'title': 'Wright and the founders: excerpts',
+            'sub': 'N. T. Wright (<i>God&rsquo;s Homecoming</i>, <i>The Vision of Ephesians</i>, <i>Simply Christian</i>), Ephesians, the <i>Declaration and Address</i>, the <i>Last Will</i>, Stone, Richardson, Alexander Campbell',
+            'html': clean(src('sources', 'wright-and-the-founders.html'))},
         'tbl': lambda: {'title': 'Who keeps the table: excerpts',
             'sub': 'Scotch Baptists, Campbell, Stone&rsquo;s <i>Christian Messenger</i>, Lipscomb, the ecumenical record, and today',
             'html': clean(src('sources', 'the-table.html'))},
@@ -127,7 +132,7 @@ def docs(between, clean, keys):
 SHORT = {'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
-         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience', 'bible': 'The Bible in every hand', 'bapt': 'One baptism', 'fnd': 'The founders on unity', 'tcl': 'Thomas&rsquo;s letters home'}
+         'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience', 'bible': 'The Bible in every hand', 'bapt': 'One baptism', 'fnd': 'The founders on unity', 'tcl': 'Thomas&rsquo;s letters home', 'wrt': 'Wright and the founders'}
 
 def doc_order(vis, K):
     has = lambda *k: [K.index(x) for x in k if x in K]
@@ -1210,3 +1215,100 @@ def baptism(extra=()):
         CARD('One baptism.<br>' + G('Every Christian ordained.'),
              'The end. Discussion: if baptism makes us all priests, who may baptize? Who may host the table?'),
     ]
+
+# ---------- resource deck: Wright and the founders (decks/src/wright/build.py) ----------
+# N. T. Wright on the church as "the small working model of new creation" set beside the founders, in Micah's six points
+# (2026-10-27): a taste of new creation; its substance is unity; visible unity; practiced (table, song, Scripture);
+# a sign to the powers; it draws the world. Research: 10 Research Projects/The Church as Working Model (Wright)/.
+WRIGHT = ('Wright and the founders', '<div class=eyebrow>Wright and the founders &middot; a resource</div>', 'Unity the world can see.')
+WR = 'N. T. Wright'
+def _w(quote, cite, eyebrow='', note='', size=None, width=None, src='wrt'):
+    q = Q(quote, cite, eyebrow)
+    if size: q = BIG(q, size, width or '30ch')
+    return q.replace('<section class="slide"', '<section data-src="%s" class="slide"' % src, 1) + N(note)
+def _wsec(title, sub):
+    return ('<section class="slide breath"><div class=eyebrow>Wright and the founders</div><h2 style="max-width:none">%s</h2>'
+            '<div class=sub>%s</div></section>' % (title, sub))
+def wright(extra=()):
+    GH, VE, SC = WR + ', <i>God&rsquo;s Homecoming</i> (2025)', WR + ', <i>The Vision of Ephesians</i> (2025)', WR + ', <i>Simply Christian</i> (2006)'
+    CS = 'Alexander Campbell, <i>The Christian System</i> (1839)'
+    return [
+        '<section class="slide breath"><div class=eyebrow>Wright and the founders &middot; a resource</div>'
+        '<h2 style="max-width:none">The small working model of new creation</h2>'
+        '<div class=sub>N. T. Wright and the Stone-Campbell founders on the church</div>'
+        '<aside class=notes>A resource, and its own deck. Wright, a living Anglican scholar reading Ephesians, makes the founders&rsquo; case from the New Testament: the church is a taste of new creation; its substance is unity; unity must be visible; it is practiced at the table, in song and in Scripture; it testifies to the powers and draws the world. Each Wright line is paired with a founder&rsquo;s. Honest note: Wright is not of our tradition, and his hope is more modest than Campbell&rsquo;s millennial chain. Every quote is in the document &ldquo;Wright and the founders.&rdquo;</aside></section>',
+
+        _wsec('A taste of new creation', 'The church as the age to come, early'),
+        _w('&ldquo;&hellip;to think of the vocation of the church as the call to live as <b>the small working model of new creation</b>.&rdquo;', VE + ', &sect;1', 'Wright',
+           'His recurring phrase; he says he will use it &ldquo;again and again.&rdquo; Not a metaphor for heaven later: the future, built small, now.', size='clamp(36px,8vmin,100px)', width='26ch'),
+        _w('&ldquo;We live in the present as <b>the new creation in miniature</b>, the advance working model of what God intends to do in the end.&rdquo;', VE + ', &sect;5 (Eph 3:20&ndash;21)', 'Wright'),
+        _w('&ldquo;&hellip;in assembling there on that occasion, they furnished <b>an emblem of the millennial state of the Church, nay, an emblem of the heavenly state</b>, when men of different nations, and known by different names, should sit down together in the kingdom of God.&rdquo;', 'Robert Richardson, <i>Memoirs of Alexander Campbell</i> (1868), I:369 &middot; on Brush Run&rsquo;s first communion, 5 May 1811', 'Brush Run, 1811',
+           'Richardson&rsquo;s indirect report of Alexander&rsquo;s sermon, so the words are Richardson&rsquo;s. Note the escalation: millennial state, then &ldquo;nay&rdquo; heavenly state. &ldquo;Known by different names&rdquo; strikes at denominations.'),
+        _w('&ldquo;<b>The kingdom of heaven is divided into small societies</b>, called churches or congregations of the Lord.&rdquo;', CS + ', p. 166', 'Campbell',
+           'Wright&rsquo;s &ldquo;small working model,&rdquo; in Campbell&rsquo;s words: each congregation is the kingdom of heaven in small.', size='clamp(36px,8vmin,100px)', width='26ch'),
+        _w('&ldquo;&hellip;the church, their temple; the Saviour is their altar; <b>their songs, their praises, are incense ascending to heaven</b>&hellip; Are they called citizens? &mdash; <b>the church is then the kingdom of heaven</b>.&rdquo;', CS + ', p. 277', 'Campbell',
+           'Wright&rsquo;s &ldquo;heaven-plus-earth community&rdquo;: the church as the temple where heaven and earth meet.'),
+
+        _wsec('Its substance is unity', 'Ephesians 4:4&ndash;6'),
+        _w('&ldquo;Ephesians is all about the church, and especially about its unity&hellip; the coming together of Judaean and Gentile in the Messiah&rsquo;s family is <b>the remarkable and powerful sign</b> of that in the present.&rdquo;', GH + ', p. 260', 'Wright',
+           'The sign of Ephesians 1:10, God summing up all things in the Messiah.'),
+        _w('&ldquo;&hellip;a kind of <b>&lsquo;seven spiritual laws&rsquo;</b>: one body, one spirit, one hope; one lord, one faith, one baptism; and, above all, one God.&rdquo;', VE + ', &sect;6 (Eph 4:4&ndash;6)', 'Wright on Ephesians 4',
+           'If there is a New Testament pattern, this is it: a constitution of oneness.'),
+        _w('&ldquo;We will, that this body die, be dissolved, and sink into union with the Body of Christ at large; <b>for there is but one body, and one Spirit, even as we are called in one hope of our calling</b>.&rdquo;', '<i>Last Will and Testament of Springfield Presbytery</i> (1804)', 'The first item of the Last Will',
+           'The founders&rsquo; first act quotes Ephesians 4:4. Thomas Campbell, five years later: the church &ldquo;is essentially, intentionally, and constitutionally one.&rdquo;'),
+
+        _wsec('Visible, not only spiritual', 'Against denominations, division and drab uniformity'),
+        _w('&ldquo;&hellip;this term cannot serve as an excuse for disunity on the ground. <b>Paul would be shocked by the very idea of &lsquo;denominations&rsquo;</b>, sitting close to one another on the same street&hellip;&rdquo;', VE + ', &sect;6 (Eph 4:3)', 'Wright',
+           'The &ldquo;unity of the spirit&rdquo; is not an invisible unity that excuses visible division.'),
+        _w('&ldquo;The present state of the church shews <b>many bodies, many heads and many law-givers</b>. Can they all be the church of Christ? Impossible, if judged according to the Scriptures.&rdquo;', 'Barton W. Stone, &ldquo;Unity,&rdquo; <i>Christian Messenger</i> (1843)', 'Stone on Ephesians 4',
+           'Right after quoting Eph 4:5&ndash;6: &ldquo;there is one body&mdash;under the direction of one head, one law-giver.&rdquo;'),
+        _w('&ldquo;&hellip;we must constantly be looking for ways to make our God-given unity <b>a reality in visible practice and mutual love</b>.&rdquo;', VE + ', &sect;6', 'Wright'),
+        _w('&ldquo;&hellip;yet but <b>one visible community, having one Lord, one faith, one baptism, one table</b>, one ostensible supreme and all-controlling interest&hellip;&rdquo;', CS + ', pp. 99&ndash;100', 'Campbell',
+           'Campbell adds &ldquo;one table&rdquo; to Paul&rsquo;s list: unity you can see is unity at the Supper.'),
+        _w('&ldquo;The principalities and powers always tend toward <b>a monochrome, drab uniformity</b>, squashing everything into the same shape and dealing violently with the bits that refuse to conform.&rdquo;', GH + ', p. 276', 'Wright',
+           'Wright means mainly ethnic and cultural sameness. Applying it to uniformity of opinion is our step; his own bridge is Romans 14 (&ldquo;some of us like doing things this way&hellip; don&rsquo;t judge one another&rdquo;, p. 270).'),
+        _w('&ldquo;Unity of opinion&hellip; is made the bond of union; and <b>a difference in the tenth or ten-thousandth shade of opinion</b> frequently becomes the actual cause of dismemberment or expulsion.&rdquo;', CS + ', p. 123', 'Campbell on uniformity',
+           'The fuller sentence names the dogmas &ldquo;imported from Geneva, Westminster, Edinburgh, or Rome.&rdquo;'),
+        _w('&ldquo;&hellip;the thing to be forborne being <b>a matter of private opinion</b>&hellip; whereas we are expressly commanded to endeavor to maintain <b>the unity of the Spirit in the bond of peace</b>.&rdquo;', 'Thomas Campbell, <i>Declaration and Address</i> (1809), Appendix', 'Thomas Campbell on Ephesians 4:3',
+           'Opinion is to be forborne; unity is commanded.'),
+        _w('&ldquo;&hellip;<b>not altogether in a union of opinion</b>; for this is unattainable, if desirable in the present imperfect state of man: <b>but they lived in a union of spirit</b>.&rdquo;', 'Barton W. Stone, &ldquo;Unity,&rdquo; <i>Christian Messenger</i> (1843)', 'Stone',
+           'Wright: &ldquo;unity doesn&rsquo;t mean uniformity, but pluriformity doesn&rsquo;t mean chaos.&rdquo;'),
+
+        _wsec('Practiced', 'The table, the song, the Scriptures'),
+        _w('&ldquo;The Eucharist, as many theologians have seen, defines the church: &lsquo;<b>There is one loaf</b>; well, then, there may be several of us, but we are one body, because we all share the one loaf.&rsquo;&rdquo;', GH + ', p. 254', 'The table',
+           '1 Corinthians 10:17.'),
+        _w('&ldquo;We are presented, close up and personally, with <b>new creation that we can eat and drink</b>.&rdquo;', GH + ', p. 252', 'The table as the future',
+           'Wright compares the bread and wine to the grapes the spies brought back from the promised land.', size='clamp(36px,8vmin,100px)', width='26ch'),
+        _w('&ldquo;You, my brother, once an alien, are now a citizen of heaven; once a stranger, <b>are now brought home to the family of God</b>&hellip; Under Jesus the Messiah we are one&hellip; we shall jointly suffer with him, <b>that we may jointly reign with him</b>.&rdquo;', CS + ', &ldquo;Breaking the Loaf,&rdquo; pp. 329&ndash;330', 'Campbell at the table',
+           'What each disciple says &ldquo;in effect,&rdquo; handing the bread to the next. Just before: &ldquo;my hope of glory everlasting.&rdquo; Home, unity and the coming reign, passed hand to hand.'),
+        _w('&ldquo;&hellip;what &lsquo;being filled with the spirit&rsquo; looks like (<b>anticipating, we recall, God&rsquo;s filling of all creation</b>) is a life of music and thanksgiving, of delight that turns into song&hellip;&rdquo;', VE + ', &sect;7 (Eph 5:18&ndash;20)', 'The song',
+           'Our singing verse, read as new creation. He adds: that praise is &ldquo;cementing our unity.&rdquo;'),
+        _w('&ldquo;<b>We all engaged in singing the same songs of praise</b>&mdash;all united in prayer&mdash;all preached the same things&hellip;&rdquo;', 'Barton W. Stone, <i>Biography</i> (1847), on Cane Ridge, 1801', 'Stone',
+           'Methodists, Baptists and Presbyterians, &ldquo;of one mind and one soul.&rdquo;'),
+        _w('&ldquo;The ground is even at the foot of the cross. But those who stand on that even ground&mdash;and <b>together sing their hearts out</b> in joy and gratitude&mdash;are, and remain, a community drawn from every nation, people, tribe, and tongue.&rdquo;', GH + ', p. 277', 'Wright'),
+        _w('&ldquo;Reading scripture, like praying and sharing in the sacraments, is one of the means by which <b>the life of heaven and the life of earth interlock</b>.&rdquo;', SC + ', p. 188', 'The Scriptures',
+           'Scripture as a kind of sacrament: older writers called it a &ldquo;means of grace,&rdquo; places God has promised to meet his people.'),
+        _w('&ldquo;&hellip;hearing God&rsquo;s voice in scripture isn&rsquo;t simply a matter of precise, technical expertise. <b>It&rsquo;s a matter of love</b>&hellip;&rdquo;', SC + ', p. 189', 'Wright'),
+        _w('&ldquo;&hellip;as it respects God, there is <b>an understanding distance</b>. All beyond that distance cannot understand God&hellip; <b>God himself is the centre of that circle, and humility is its circumference</b>.&rdquo;', CS + ', Rule 7, pp. 17&ndash;18', 'Campbell on reading',
+           'Campbell&rsquo;s seventh rule of interpretation. He goes on: rules make men &ldquo;skilful in biblical criticism&rdquo; who never &ldquo;perceive nor admire&rdquo; what the words represent.'),
+
+        _wsec('A sign to the powers', 'Ephesians 3:10'),
+        _w('&ldquo;To the intent that now <b>unto the principalities and powers in heavenly places might be known by the church the manifold wisdom of God</b>.&rdquo;', 'Ephesians 3:10 (KJV)', 'Paul'),
+        _w('&ldquo;&hellip;the church is designed, intended&mdash;and equipped by the spirit!&mdash;to display the multicolored reality of God&rsquo;s original creation, as <b>the signpost to the principalities and powers that think they run the world</b>.&rdquo;', GH + ', p. 265', 'Wright',
+           '&ldquo;Manifold&rdquo; is <i>polypoikilos</i>, many-coloured. The powers&rsquo; answer is drab uniformity.'),
+        _w('&ldquo;An organized society of this kind, modelled after the plan taught in the New Testament, is <b>the consummation of the manifold wisdom of God to exhibit to the world</b> the civilizing, the moralizing, the saving light&hellip;&rdquo;', 'Alexander Campbell, <i>The Christian Baptist</i> (1823), p. 43', 'Campbell on Ephesians 3:10',
+           'Honest difference: Campbell aims the display at the world; Wright, with the text, at the powers. On the same page: the apostles made &ldquo;of twain one new man&rdquo; and left the church &ldquo;to christianize the world.&rdquo;'),
+
+        _wsec('It draws the world', 'John 17:21'),
+        _w('&ldquo;That community life has always startled outsiders, provoking some to fierce opposition but <b>convincing many (including former persecutors) of the truth of the gospel</b>.&rdquo;', GH + ', p. 220', 'Wright'),
+        _w('&ldquo;This gracious unity and unanimity in Jesus would afford <b>the best external evidence of their union with him</b>, and of their conjoint interest in the Father&rsquo;s love.&rdquo;', 'Thomas Campbell, <i>Declaration and Address</i> (1809)', 'Thomas Campbell',
+           'The sentence before: &ldquo;holding fast the unity of the spirit in the bond of peace.&rdquo; The one after quotes John 13:35.'),
+        _w('&ldquo;Where, O Where is this church or kingdom, in which these things are, and which is thus shining! We long to see it&mdash;<b>We long to see the world, attracted by her light, flowing to her</b>&hellip;&rdquo;', 'Barton W. Stone, <i>Christian Messenger</i> (1840)', 'Stone, after quoting Ephesians 4:4&ndash;6',
+           'Signed B. W. Stone. The scan is garbled after &ldquo;glorify,&rdquo; so the quote stops there.'),
+        _w('&ldquo;&hellip;to suppose that all christians will form one communion in that happy age of the world, and not before it, is <b>to suppose a moral effect without a cause</b>.&rdquo;', CS + ', p. 113', 'Campbell',
+           'Just before: &ldquo;the union of christians is essential to the conversion of the world.&rdquo; Campbell is bolder than Wright: unity now is the cause of the coming age, not only its sign.'),
+    ] + list(extra) + [
+        CARD('A small working model.<br>' + G('Unity the world can see.'),
+             'The end. Discussion: if the church is the future in miniature, what does our division show the world? What practice of ours shows it best?'),
+    ]
+
