@@ -157,12 +157,12 @@ A('<section data-src="dna will" class="slide" style="padding:0">'
   '</div></div>'
   '</div>'
   '<h2 style="position:absolute;top:0;left:0;right:0;height:13vh;margin:0;max-width:none;display:flex;align-items:center;justify-content:center;font-size:clamp(34px,6.6vmin,84px);color:var(--gold);background:#0e0b09;border-bottom:1px solid rgba(201,162,74,.35)">The story of a movement for unity</h2>'
-  '<aside class=notes>Thomas Campbell claimed freedom of conscience and extended it to everyone; the Springfield Presbytery gave up its own authority so that every congregation could hold it.<br>&rarr; &ldquo;Stone&rsquo;s side willed it in 1804. Tonight, the Campbells&rsquo; side does it.&rdquo;</aside></section>')
+  '<aside class=notes>Thomas Campbell claimed freedom of conscience and extended it to everyone; the Springfield Presbytery gave up its own authority so that every congregation could hold it.<br>&rarr; &ldquo;Stone&rsquo;s side willed it in 1804. This morning, the Campbells&rsquo; side does it.&rdquo;</aside></section>')
 
 HIDE('<section class="slide room"><div class="litany" style="gap:4vmin">'
   '<h2 class=no style="max-width:18ch;font-size:clamp(44px,10vmin,124px);line-height:1.12">Who has authority?</h2>'
   '<h2 class="no frag" style="max-width:18ch;font-size:clamp(44px,10vmin,124px);line-height:1.12">Who may serve the table?</h2></div>'
-  '<aside class=notes>One click for the second question. Tonight&rsquo;s two points. Who can make someone a minister: a bishop, a presbytery, the congregation? And who may give thanks at the Lord&rsquo;s table? &rarr; &ldquo;Hold both.&rdquo;</aside></section>')
+  '<aside class=notes>One click for the second question. Today&rsquo;s two points. Who can make someone a minister: a bishop, a presbytery, the congregation? And who may give thanks at the Lord&rsquo;s table? &rarr; &ldquo;Hold both.&rdquo;</aside></section>')
 # ---------- YOUR QUESTIONS (from last week) ----------
 def FND(slide): return slide.replace('<section class="slide', '<section data-src="fnd" class="slide', 1)   # check against founders-on-unity.html
 A('<section class="slide breath"><div class=eyebrow>From last week</div><h2 style="max-width:none">Your questions</h2>'
@@ -182,7 +182,7 @@ A(FND(BIGQ(Q('&ldquo;I circumscribe not the Divine philanthropy&mdash;the Divine
     'Just before it: honest mistakes &ldquo;will not&hellip; preclude any Pedo-baptist from heaven.&rdquo; &ldquo;The Judge of all the earth will do right.&rdquo;'))
 A(CARD('Christians among all the churches.<br>' + G('Even Rome.'),
   'Not a recognition of the Roman church as a church; a refusal to fence God&rsquo;s grace. The same instinct as the token: he would not shut out those whom God had not shut out.'))
-for _x in UNIFORMITY('Question two', '&rarr; Into tonight&rsquo;s story: a young man who would not be included where others were shut out.'): A(_x)
+for _x in UNIFORMITY('Question two', '&rarr; Into today&rsquo;s story: a young man who would not be included where others were shut out.'): A(_x)
 
 HIDE('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 5</div>'
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
@@ -194,7 +194,7 @@ A('<section class="slide" style="flex-direction:row;align-items:center;justify-c
   '<div style="text-align:left"><div class=eyebrow style="text-align:left;margin-left:0">The third instigator</div>'
   '<h2 style="text-align:left;margin-left:0;font-size:clamp(52px,10vmin,128px);line-height:1.05">Alexander<br>Campbell</h2>'
   '<div class=sub style="text-align:left;margin-left:0">1788&ndash;1866</div></div>'
-  '<aside class=notes>Alexander Campbell late in life (photograph from the class site, stone-campbell.micahredding.com). Tonight we meet him at twenty, before any of this.</aside></section>')
+  '<aside class=notes>Alexander Campbell late in life (photograph from the class site, stone-campbell.micahredding.com). This morning we meet him at twenty, before any of this.</aside></section>')
 # ---------- ALEXANDER AND THE SEA ----------
 A('<section class="slide bleed" style="justify-content:center;padding:8vmin"><div class=bg><div class="bgimg wreckbg5"></div></div>'
   '<div class=credit>Philippe-Jacques de Loutherbourg, <i>A Shipwreck off a Rocky Coast</i> &middot; not the Hibernia</div>'
@@ -266,7 +266,7 @@ A(Q('&ldquo;He was particularly impressed with <b>the persistent opposition of t
 HIDE(BIGQ(Q('&ldquo;<b>imbibed disgust at the popular schemes</b>, chiefly while a student at Glasgow.&rdquo;', AC + ', in after years &middot; in Richardson, <i>Memoirs</i>', 'Alexander, looking back'), 'clamp(40px,9vmin,110px)', '24ch') +
   N('Richardson sets it against &ldquo;the course which the clergy pursued under the influence of their narrow policies and bigoted sectarianism.&rdquo;'))
 HIDE(Q('&ldquo;&hellip;the principles of Congregationalism entertained by Mr. Ewing, which secured <b>an entire emancipation from the control of domineering Synods and General Assemblies</b>&hellip;&rdquo;', RICH, 'What he came to want') +
-  N('&ldquo;&hellip;and which seemed to him much more accordant with primitive usage.&rdquo; The congregation free of the church courts: the seed of tonight.'))
+  N('&ldquo;&hellip;and which seemed to him much more accordant with primitive usage.&rdquo; The congregation free of the church courts: the seed of this morning.'))
 
 A(Q('&ldquo;&hellip;he did not feel himself at liberty to abandon rashly the cherished religious sentiments of his youth, and <b>the Seceder Church to which his father and the family belonged</b>&hellip;&rdquo;', RICH, 'But it was his father&rsquo;s church') +
   N('The same page as &ldquo;domineering Synods.&rdquo; Everything pulled him toward Ewing&rsquo;s freedom; everything he loved held him to his father&rsquo;s church, where &ldquo;he had thought it his duty to be a regular communicant.&rdquo;',
@@ -431,7 +431,7 @@ A('<section data-src="stone" class="slide" style="padding:0">'
   '<div style="font-family:Spectral,Georgia,serif;color:var(--bone);font-size:clamp(20px,3.5vmin,44px);line-height:1.25;margin-top:1.2vmin">gave back the token</div>'
   '</div>'
   '</div>'
-  '<aside class=notes>Three clicks, one founder each. Stone, Chapter 4: suspended from the Synod&rsquo;s jurisdiction, he would not break communion with it (Stone, <i>Biography</i>, ch. VII). Thomas, Chapter 2: the 1807 charge. Alexander, tonight. (Portrait: Washington Bogart Cooper, late 1820s or mid-1830s, from an 1889 photograph by Ira F. Collins; ACU Stone-Campbell Teaching Images, CC BY-NC-ND 4.0.) Three men, three countries of origin, none knowing the others&rsquo; story, each broken with his church over who may come to the table.<br>&rarr; &ldquo;Three instigators of our movement, each refused for the same table.&rdquo;</aside></section>')
+  '<aside class=notes>Three clicks, one founder each. Stone, Chapter 4: suspended from the Synod&rsquo;s jurisdiction, he would not break communion with it (Stone, <i>Biography</i>, ch. VII). Thomas, Chapter 2: the 1807 charge. Alexander, this morning. (Portrait: Washington Bogart Cooper, late 1820s or mid-1830s, from an 1889 photograph by Ira F. Collins; ACU Stone-Campbell Teaching Images, CC BY-NC-ND 4.0.) Three men, three countries of origin, none knowing the others&rsquo; story, each broken with his church over who may come to the table.<br>&rarr; &ldquo;Three instigators of our movement, each refused for the same table.&rdquo;</aside></section>')
 HIDE(BIGQ(Q('&ldquo;&hellip;the Lord&rsquo;s Supper, which, according to the custom of the Independent churches in Scotland, <b>was now celebrated weekly</b>.&rdquo;', RICH, 'Every Lord&rsquo;s day')) +
   N('The Haldane churches again. At Cane Ridge the Supper came once or twice a year, after weeks of preparation and a token. At Brush Run, every Sunday, from the beginning. That is us.'))
 # ---------- SESSION ONE: CLOSE ----------
@@ -439,9 +439,9 @@ DISCUSS1 = ('<section class="slide room"><div class=eyebrow>&#9670; for discussi
             '<aside class=notes>Backup prompts (off the slide): Have you been welcome somewhere a friend was not? Did you stay? Who does our table turn away, in word or in practice? Can you be included by a church that excludes?</aside></section>')
 A(DISCUSS1)
 for _k in SESSION1: A(IDEA(_k, SESSION1))
-A(IDEASUM(SESSION1, 'Tonight&rsquo;s ideas', 'All five at once, before the discussion.'))
+A(IDEASUM(SESSION1, 'Today&rsquo;s ideas', 'All five at once, before the discussion.'))
 A(DISCUSS1)
-A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> is there in full; tonight&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
+A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> is there in full; today&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))
 A('<section class="slide"><h2>Next time: Brush Run and <i>Where two or three are gathered&hellip;</i></h2>'
     '<aside class=notes>Chapter 6: Brush Run ordains Alexander by the choice of the congregation (January 1812), and why the people.</aside></section>')
@@ -452,11 +452,11 @@ A(w3b.S[0].replace('<section', '<section data-session=2', 1))   # the class titl
 A('<section data-src="kjv" class="slide"><div class=eyebrow>Quiz</div>'
   '<h2 style="max-width:22ch">What was carved on the front of the communion table in your church?</h2>'
   '<div class="sub frag" style="font-size:clamp(30px,6vmin,76px);margin-top:4vmin">&ldquo;&hellip;this do in remembrance of me.&rdquo;</div>'
-  '<aside class=notes>One click for the answer (Luke 22:19; 1 Corinthians 11:24). Let the room remember their own tables first. An invitation carved where the Seceders kept a fence: tonight is about the fence.</aside></section>')
+  '<aside class=notes>One click for the answer (Luke 22:19; 1 Corinthians 11:24). Let the room remember their own tables first. An invitation carved where the Seceders kept a fence: this morning is about the fence.</aside></section>')
 A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 6</div>'
   '<h1>Wherever Two or Three<br>Are Gathered</h1><div class=table-line></div>'
   '<div class=sub>Brush Run, Pennsylvania &middot; 1811&ndash;1812</div>'
-  '<aside class=notes>Chapter 6. Recap in one breath: the shipwreck, the Haldanes, the token given back, father and son meeting on the road, the Synod&rsquo;s refusal, the gates as wide as heaven. Three founders, one open table. Last time ended on the decision to become a church. Tonight: the church they formed, its first Supper, and who made their minister.<br>'
+  '<aside class=notes>Chapter 6. Recap in one breath: the shipwreck, the Haldanes, the token given back, father and son meeting on the road, the Synod&rsquo;s refusal, the gates as wide as heaven. Three founders, one open table. Last time ended on the decision to become a church. This morning: the church they formed, its first Supper, and who made their minister.<br>'
   'The hour: Brush Run 8 &middot; the first Supper 5 &middot; the ordination 6 &middot; why the people 17 &middot; close 8.</aside></section>')
 A(CARD('Still seeking a larger union,<br>' + G('they became a church.'),
   'Last week&rsquo;s last card. Refused by the Synod of Pittsburg in October 1810, they kept looking for a larger body to belong to; but in the spring of 1811 Thomas, &ldquo;with great reluctance,&rdquo; agreed the Association must become a church.<br>&rarr; &ldquo;May 4, 1811.&rdquo;', 'Last week'))
@@ -665,9 +665,9 @@ DISCUSS = re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>Backup p
                  w3b.pick('&#9670; for discussion', 0), flags=re.S).replace('&#9670; for discussion', '&#9670; for discussion &middot; Chapter 6', 1)
 A(DISCUSS)
 for _k in SESSION2: A(IDEA(_k, SESSION2))
-A(IDEASUM(SESSION2, 'Tonight&rsquo;s ideas', 'Both at once, before the discussion. Last time&rsquo;s five: the table that excludes; nothing required that God has not required; neither side is the gospel; the gates as wide as heaven; the table a foretaste.'))
+A(IDEASUM(SESSION2, 'Today&rsquo;s ideas', 'Both at once, before the discussion. Last time&rsquo;s five: the table that excludes; nothing required that God has not required; neither side is the gospel; the gates as wide as heaven; the table a foretaste.'))
 A(DISCUSS)
-A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> and the <i>Last Will</i> are there in full; tonight&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
+A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> and the <i>Last Will</i> are there in full; today&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S))
 A('<section class="slide"><h2>Next week: living into God&rsquo;s future.</h2>'
   '<div class="sub frag">&ldquo;An emblem of the millennial state of the Church.&rdquo; In 1830 he names a journal for it: the <i>Millennial Harbinger</i>.</div>'

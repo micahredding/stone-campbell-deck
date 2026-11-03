@@ -19,7 +19,7 @@
 
 ## Narrative (taught 2026-11-01)
 
-We have met two of the three instigators of our movement. Barton Stone: "Let the unity of Christians be our polar star." Thomas Campbell: "With you all we desire to unite in the bonds of an entire Christian unity." Tonight we meet the third, and he begins at sea.
+We have met two of the three instigators of our movement. Barton Stone: "Let the unity of Christians be our polar star." Thomas Campbell: "With you all we desire to unite in the bonds of an entire Christian unity." This morning we meet the third, and he begins at sea.
 
 On September 20, 1808, the Campbell family set out from Rich Hill, County Armagh, for Londonderry: Jane Campbell, her children, and the eldest son, Alexander, twenty years old. Thomas had sailed for America the year before and had sent for them. They waited eight days for their ship, the *Hibernia*, sailed on October 1 with her ten cannon firing in farewell, met contrary winds off Malin Head, ran before a gale all night, and anchored in Loch Indaal, on the island of Islay, to wait for wind.
 
