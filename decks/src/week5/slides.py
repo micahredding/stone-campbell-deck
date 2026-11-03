@@ -513,6 +513,25 @@ A('<section class="slide"><div class=eyebrow>Signed</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);color:var(--gold)">George Sharp &middot; William Gilcrist &middot; James Foster &middot; John Dawson, deacons</div>'
   '</div><div class=cite>The ordination certificate &middot; in Richardson, <i>Memoirs</i></div>'
   '<aside class=notes>One click. His father, and four farmers. One of them, James Foster, is the man nearly kept out by the test question. The man who would debate Robert Owen and the Catholic bishop of Cincinnati, and found a college, was ordained by a creekside congregation of about thirty.</aside></section>')
+# ---------- SIDE PATH: NOT REVEREND (off "Signed") ----------
+A(C('Not Reverend', 'The man presiding, &ldquo;Thomas Campbell, senior minister,&rdquo; had already given up the title that set clergy above the people.', 'Side path &middot; it shall not be so among you'))
+A(BIGQ(Q('&ldquo;In renouncing the title &lsquo;Reverend&rsquo; as an improper designation for a preacher, it being applied in Scripture to the name of the Divine Being, Thomas Campbell continued for some time to annex occasionally to his name the initials V. D. M., representing the words <b>Verbi Divini Minister</b>, or &lsquo;Minister of the Word of God&rsquo;&hellip;&rdquo;', RICH, 'Not Reverend'), 'clamp(28px,5.6vmin,70px)', '40ch') +
+  N('Richardson 1:337, footnote. Alexander, for his part, signed V. D. S., &ldquo;Servant of the Word of God,&rdquo; &ldquo;as an offset to the D.D.&rsquo;s of the reverend Synod.&rdquo; Stone&rsquo;s side did the same in 1804: &ldquo;our name of distinction, with its Reverend title, be forgotten.&rdquo;'))
+A(BIGQ(Q('&ldquo;&hellip;those plain, honest, unassuming men&hellip; were never distinguished by the venerable titles of Rabbi or Reverend, but <b>just simple Paul, John, Thomas</b>, etc. <b>These were but servants.</b> They did not assume to legislate&hellip;&rdquo;', DA + ', the Appendix', 'The apostles'), 'clamp(32px,6.6vmin,84px)', '34ch') +
+  N('Just before this he writes: &ldquo;they that exercise authority upon them and tell them what they are to believe and what they are to do, are called benefactors. These are the reverend and right reverend authors&hellip;&rdquo; That is Luke 22:25, two slides on. Note &ldquo;Thomas&rdquo; among the apostles&rsquo; plain names.'))
+A(BIGQ(Q('&ldquo;&hellip;a liberty from subjection to any authority but his own, in matters of religion. <b>Call no man father, no man master on earth; for one is your master, even Christ, and all ye are brethren.</b>&rdquo;', DA, 'All ye are brethren'), 'clamp(32px,6.6vmin,84px)', '34ch') +
+  N('From the Address. Matthew 23:8&ndash;10. He calls it &ldquo;that precious, that dear-bought liberty, wherewith Christ has made his people free.&rdquo;'))
+A(BIGQ(Q('&ldquo;Style no man on earth your Father; for he alone is your Father who is in Heaven; and <b>all ye are brethren</b>. Assume not the title of Rabbi; for ye have only one Teacher;&mdash;Neither assume the title of Leader; for ye have only one Leader&mdash;the MESSIAH.&rdquo;', 'Alexander Campbell, <i>Christian Baptist</i>, the motto on every volume (1823&ndash;1830)', 'Alexander&rsquo;s masthead'), 'clamp(30px,6.2vmin,78px)', '36ch') +
+  N('His own paraphrase of Matthew 23:8&ndash;10, printed under the title of every volume. The son put on his masthead what the father had put in the Declaration and Address.'))
+A('<section class="slide"><div class=eyebrow>Luke 22:25&ndash;26</div>'
+  '<div class=litany style="gap:1.4vmin">'
+  '<div class=no style="font-size:clamp(30px,6vmin,76px)">&ldquo;The kings of the Gentiles exercise lordship over them; and they that exercise authority upon them are called benefactors.</div>'
+  '<div class="no frag" style="font-size:clamp(30px,6vmin,76px);color:var(--gold)">But ye shall not be so&hellip;&rdquo;</div>'
+  '</div><div class=cite>Luke 22:25&ndash;26, King James Version</div>'
+  '<aside class=notes>One click. Thomas quoted the first half in the Appendix (&ldquo;they that exercise authority upon them&hellip; are called benefactors&rdquo;) and left his readers to supply the second. The verse goes on: &ldquo;he that is chief, as he that doth serve.&rdquo;</aside></section>')
+A(CARD('It shall not be so<br>' + G('among you.'),
+  'Matthew 20:26, which goes on: &ldquo;but whosoever will be great among you, let him be your minister.&rdquo; The positive side of the priesthood of all is authority given to every believer; this is its negative side: the refusal of domination. Back to the spine: who gave them that authority?',
+  'Matthew 20:26'))
 A(CARD('Who gave them<br>' + G('that authority?'),
   'Let the room answer. No bishop, no presbytery, no synod: the Synod of Pittsburg had refused them in 1810. Their doubt is the tradition&rsquo;s doubt; the rest of the hour answers it.',
   style=';font-size:clamp(52px,12vmin,150px);line-height:1.05'))
