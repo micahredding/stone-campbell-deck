@@ -17,7 +17,7 @@ SIDE = [
     ('Two ways not to become a sect', '<h2 style="max-width:none">Two ways not to become a sect</h2>', 'they became Baptists.'),
     ('Unity, or uniformity?',      'Unity, or uniformity?</h2>',            'Uniformity in God&rsquo;s time.'),   # Chapter 6 only: off the recap card
     R.WEEKLY,
-    ('Images for Whose orders?',   'Side path &middot; images for Whose orders?', 'Didache</i> note on slide 26'),   # Chapter 6: off "Whose orders?", for Micah to inspect
+    ('Images for Whose orders?',   'Side path &middot; images for Whose orders?', 'Luther burns the papal bull'),   # Chapter 6: off "Whose orders?", for Micah to inspect
     ('A testimony to the people&rsquo;s authority', 'Side path &middot; it shall not be so among you', 'among you.</span>'),   # Chapter 6: off "Who gave them that authority?"
     ('What they read',             'Side path &middot; the people&rsquo;s authority in Scripture', 'I would advise to take the brethren'),
     ('Who may serve?',             '<h2>Who serves the table?</h2>',        'Hosted by any.'),
