@@ -36,7 +36,7 @@ SECTIONS = [   # Chapter 5's deck (to the black slide after "Next time"), then C
 SECTIONS6 = [
     ('Opening', 'data-session=2'),
     ('Church formed', 'data-mark=formed'), ('The first Supper', 'data-mark=supper'),
-    ('The ordination', '<h2>The Ordination</h2>'), ('Why the people?', '<h2>Why the people?</h2>'),
+    ('The ordination', '<h2>The Ordination</h2>'), ('Why the people?', '<h2 style="max-width:none">The other chain</h2>'),
     ('Close', 'for discussion &middot; Chapter 6'),
 ]
 
@@ -48,8 +48,8 @@ def docs(between, clean): return R.docs(between, clean, DOC_KEYS)
 SHORT = R.SHORT
 DOC_DOORS = [('Thomas&rsquo;s letters home', 'October 1808: the family sails', 15),
              ('Richardson&rsquo;s account, whole', 'The Campbells seek out Presbyterian Communion', 0),
-             ('The whole Declaration and Address', '<h2>Why the people?</h2>', 1),
-             ('The whole will', '<h2>Why the people?</h2>', 2),
+             ('The whole Declaration and Address', 'Stone and the Campbells</h2>', 1),
+             ('The whole will', 'Stone and the Campbells</h2>', 2),
              ('Scripture on the church (KJV)', 'Wherever Two or Three<br>Are Gathered', 4)]
 doc_order = R.doc_order
 
