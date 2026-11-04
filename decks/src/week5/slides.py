@@ -682,7 +682,7 @@ A('<section class="slide"><div class=eyebrow>Every church has its line</div>'
 A(CARD('Each can claim it.<br>' + G('None can extend it.'),
   'The conscience chain again: claimed, and then refused. Each foundation recognizes only itself.'))
 A('<section class="slide"><div class=litany style="gap:1.4vmin;width:78vw;max-width:78vw">'
-  '<div class=no style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">What position can we take that doesn&rsquo;t force us to say that large segments of Christianity have</div>'
+  '<div class=no style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">Can we avoid saying that large segments of Christianity have</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid orders,</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid ministers,</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid sacraments,</div>'
