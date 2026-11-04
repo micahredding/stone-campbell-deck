@@ -15,7 +15,23 @@
 
 ---
 
-Narrative…
+## The argument, as taught
+
+**The ordination.** On January 1, 1812, the Brush Run church ordained Alexander Campbell "according to the principles of this Church." Thomas Campbell, whom the congregation had appointed elder the year before, signed the certificate as senior minister, with the four deacons the congregation had chosen. No bishop, no presbytery, no synod.
+
+**Who gave them that authority?** Ask the room, and listen. It may not strike us as a big deal. In their world it was a very big deal, because whose ordinations are valid is finally a question of where rightful authority in the church comes from.
+
+**Every church answered, and refused the next.** Rome rejects the Anglicans' orders ("absolutely null and utterly void") and the Protestants' (Trent: ministers "called and instituted by the people" are "thieves and robbers"; 2007: not "Churches in the proper sense"). The Orthodox receive Latins "as unordained and unbaptized," and hold that without a bishop "neither Church nor Christian" can be. Protestants reject each other: the Lutherans will not take the Zwinglians' Supper; the Anglicans reject the Presbyterians' orders, and the Methodists'; the Presbyterians call ordination by the people "null and void"; the Reformed drown an Anabaptist for gathering a church that is only the "cloak" of one; the Anabaptists answer that the Reformed are not sent; Massachusetts declares a Baptist church "no orderly church assembly"; and the Baptists reject everyone. Every church has its line: bishops back to Peter, elders back to the apostles, Baptists back to John the Baptist (a joke, nearly true). Or something else?
+
+**The question.** Is there any position that does not force us to say of large parts of Christianity that they have no valid orders, no valid ministers, no valid sacraments, and so are not churches at all? There is one: **the authority flows from the people.** If the people constitute themselves with elders, presbyters, bishops, independent congregations, or even a pope, we can debate the wisdom of the choice, but we need not call it illegitimate: not a false church, a false ministry, or false sacraments. All can be legitimate.
+
+**The witnesses, and then our own.** The *Didache* tells the congregation to "appoint for yourselves bishops and deacons." Luther holds that every Christian is ordained a priest in baptism and that a congregation may call its own minister. The Cambridge Platform lets the brethren lay on hands. Then Stone's presbytery gives its power back to the congregations (1804), and Alexander, weeks before his ordination, asks: "Why do we contend for uninterrupted succession in ordination, seeing it is not the persons called bishops who have the power, but the people?" (1826: "Every thing essential to appointment, call, or ordination was vested in the minds of the brethren.")
+
+**Don't get me wrong.** This is not the argument Campbell makes most of the time. He had seen Scotland, the independents (the Haldanes, Greville Ewing) against the established churches, and he usually argues that the clergy are corrupt and have monopolized power that belongs to the people. But there is an asymmetry. The established church is duty-bound to reject the independent's ministry: its doctrine and its institution require it. The independent is not bound to reject the established church's ministry; he can affirm his own and theirs. It is a one-way door. If established clergy want to recognize the independents' ministry as true (and in Campbell's view they ought), they can do it only by coming to the same conclusion: the authority inheres in the people, not in the episcopacy or the presbytery as such.
+
+**The landing.** So there is one logical position that lets us affirm the orders, ministries and sacraments of all Christendom without being bound by any of them, and it is the one our movement lands on through Campbell: the power to ordain and to minister begins with the people and flows from the people. "The community, the church, the multitude of the faithful, are the fountain of official power." It is an extraordinarily strong reading of the priesthood of all believers, and Campbell spent decades fighting for it: the church is constituted not by anyone else's authority but by Christ working through his people, gathered.
+
+*Slides: Chapter 6 deck, 13–14 (the question), 15–48 (the chain), 49–52 (the answer), 53–75 (the witnesses, Stone and the Campbells, the one-way door, the fountain).*
 
 ---
 
