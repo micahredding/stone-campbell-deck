@@ -795,9 +795,9 @@ A(BIGQ(Q('&ldquo;As to the form or ceremony of ordination, he did not regard it 
 A(_gov[-1])
 A(BIGQ(Q('&ldquo;Why do we contend for uninterrupted succession in ordination, seeing it is <b>not the persons called bishops who have the power, but the people?</b>&rdquo;', AC + ', 1811 &middot; in Richardson, <i>Memoirs</i>', 'Alexander, weeks before his ordination'), 'clamp(36px,8vmin,100px)', '26ch') +
   N('His notes for a sermon on Titus 1:5, winter 1811&ndash;12 (Richardson 1:383). The same notes: ordination &ldquo;consists in the choice of the people, which must be hearty.&rdquo;'))
-A(CARD('Not his usual argument.',
+A(CARD('Don&rsquo;t get me wrong.',
   'Don&rsquo;t get me wrong: this is not the argument Campbell makes most of the time. He had seen Scotland: the independents, the Haldanes and Greville Ewing, against the established churches. He believed the clergy of those churches deeply corrupt, monopolizing authority and power that belong to the people, and that is what he usually says. But there is an asymmetry worth keeping in mind.',
-  eyebrow='Don&rsquo;t get me wrong', style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
+  eyebrow='Not his usual argument', style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
 A(CARD('The established church <i>must</i> reject the independent.<br>' + G('The independent need not reject the established church.'),
   'A one-way door. The Church of Scotland was duty-bound to reject the ministry of Ewing and the Haldanes: its doctrine, its official teaching, what it stands for as an institution, require it. The independents were not bound to reject the established clergy: they could affirm their own ministry and the ministry of the established churches too. And if established clergy wished to recognize Ewing&rsquo;s or the Haldanes&rsquo; ministry as a true ministry (as, in Campbell&rsquo;s view, they ought), they could do it only by coming to the same conclusion: the authority inheres in the people, not in the episcopacy or the presbytery as such.',
   eyebrow='A one-way door', style=';font-size:clamp(40px,8vmin,104px);line-height:1.1'))
