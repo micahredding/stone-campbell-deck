@@ -672,7 +672,7 @@ A(CARD('Baptists reject<br>' + G('everyone.'),
   style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
 A(BIGQ(Q('&ldquo;Believing their preachers unbaptized, <b>we cannot with the shadow of propriety recognize them as gospel ministers</b>&hellip; <b>The official acts of Pedobaptist preachers have no validity in them.</b> Their falsely so-called baptisms are a nullity&hellip;&rdquo;', 'J. M. Pendleton, <i>An Old Landmark Re-set</i> (1854)', 'And the Baptists, on everyone else (1854)'), 'clamp(40px,8.6vmin,108px)', '24ch') +
   N('Landmark Baptists. Just before: &ldquo;If Pedobaptists are unwilling to recognize as ministers of the gospel men who, in their judgment, have never been baptized, why should Baptists be expected to do so?&rdquo; He states the whole sequence: each church applies its own rule, and the rules cancel one another. Even a congregational ground can be used to refuse.'))
-A('<section class="slide"><div class=eyebrow>Every church has its line</div>'
+A('<section class="slide"><div class=eyebrow>Who possesses the authority?</div>'
   '<div class=litany style="gap:3vmin;width:80vw;max-width:80vw">'
   '<div class=no style="font-size:clamp(30px,5.8vmin,74px)">Catholics hold an unbroken line of <b>bishops</b>, back to Peter.</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px)">Presbyterians hold an unbroken body of <b>elders</b>, back to the apostles.</div>'
@@ -683,19 +683,19 @@ A('<section class="slide"><div class=eyebrow>Every church has its line</div>'
 A(CARD('Each can claim it.<br>' + G('None can extend it.'),
   'The conscience chain again: claimed, and then refused. Each foundation recognizes only itself.'))
 A('<section class="slide"><div class=litany style="gap:1.4vmin;width:78vw;max-width:78vw">'
-  '<div class=no style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">Can we avoid saying that large segments of Christianity have</div>'
+  '<div class=no style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">Do large segments of Christianity have</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid orders,</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid ministers,</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid sacraments,</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15;color:var(--gold)">and are thus <i>not churches</i>?</div>'
   '</div><aside class=notes>Four clicks. Let the question extend. Every position we have just seen forces that answer about someone.</aside></section>')
-A(CARD('There is only one<br>possible answer.',
+A(CARD('There is only one way<br>to avoid that conclusion.',
   'Pause before the next slide.',
   style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
 A(CARD('The authority flows<br>' + G('from the people.'),
-  'If the authority is the people&rsquo;s, the people may constitute themselves under bishops, presbyters or elders, and every one of those orders can stand. Now the other chain: those who said so.',
+  'If the authority is the people&rsquo;s, the people may constitute themselves under bishops, presbyters or elders, and every one of those orders can stand. We can debate the wisdom of each choice; we need not call any of them false: not a false church, a false ministry, or false sacraments. Then: this is Campbell&rsquo;s position, and it is old.',
   style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
-A(CARD('We can debate the wisdom of each.<br>' + G('We need not call any of them false.'),
+HIDE(CARD('We can debate the wisdom of each.<br>' + G('We need not call any of them false.'),
   'If the people constitute themselves with elders, or presbyters, or bishops, or as independent congregations, or even with a pope, we can argue about the wisdom of the choice. We do not have to say it is illegitimate: not a false church, not a false ministry, not false sacraments. All of them can be legitimate. That follows from Campbell&rsquo;s principle; he states the middle step himself (Rice debate, 1843). He never drew the conclusion in so many words, and he called Rome&rsquo;s system an apostasy; but on his own principle that judges the institution, not whether its ministers&rsquo; acts count. The movement&rsquo;s heirs drew it: the Disciples and the United Church of Christ (1989) declared each other&rsquo;s ordained ministers &ldquo;truly ministers of word and sacrament.&rdquo;',
   style=';font-size:clamp(46px,9.6vmin,124px);line-height:1.08'))
 # ---------- WHY THE PEOPLE? (Micah, 2026-11-04: the other chain and Why the people combined; historic testimony first, then Stone and the Campbells) ----------
@@ -704,7 +704,7 @@ _LUTHER = ('no difference at all but that of office', 'already consecrated pries
            'anointed by Him to the priesthood', 'none the less confirmed by virtue of the call', 'the sheep are to judge')
 _pool = R.priesthood() + R.consent()
 _vis = lambda x: re.sub(r'<aside class=notes>.*?</aside>', '', x, flags=re.S)
-A('<section class="slide breath"><div class=eyebrow>Valid orders</div><h2 style="max-width:none">The other chain</h2><div class=sub>Campbell, and before him, back to Jesus</div><aside class=notes>If the authority is the people&rsquo;s, the people may constitute themselves under bishops, or presbyters, or elders, and every one of those orders can be recognized.</aside></section>')
+HIDE('<section class="slide breath"><div class=eyebrow>Valid orders</div><h2 style="max-width:none">The other chain</h2><div class=sub>Campbell, and before him, back to Jesus</div><aside class=notes>If the authority is the people&rsquo;s, the people may constitute themselves under bishops, or presbyters, or elders, and every one of those orders can be recognized.</aside></section>')
 A(CARD('This is<br>' + G('Alexander Campbell&rsquo;s position.'),
   'Then we walk it back, each witness older than the last.',
   style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
