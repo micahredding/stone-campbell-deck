@@ -493,11 +493,12 @@ A(BIGQ(Q('&ldquo;&hellip;whether or not it was his duty to be ordained to the mi
 A('<section class="slide"><div class=eyebrow>December 25, 1811 &middot; his own list</div>'
   '<div class="litany" style="text-align:left;gap:1.4vmin">'
   '<div class=no style="font-size:clamp(24px,4.6vmin,58px)">&ldquo;Special instances of Divine power which I consider to bind me under obligations to be specially devoted to Him&hellip;</div>'
-  '<div class="no frag" style="font-size:clamp(24px,4.6vmin,58px)">III. In resolving, when in imminent danger at sea, <b>to serve God in this way</b>, on two occasions of extraordinary deliverance&hellip;</div>'
-  '<div class="no frag" style="font-size:clamp(24px,4.6vmin,58px)">XI. In giving me <b>a call from the Church</b> to preach the Gospel&hellip;</div>'
-  '<div class="no frag" style="font-size:clamp(24px,4.6vmin,58px)">XII. In my desire to suffer hardships and reproach in that good work.&rdquo;</div>'
+  '<div class="no frag" style="font-size:clamp(24px,4.6vmin,58px)">In resolving, when in imminent danger at sea, <b>to serve God in this way</b>, on two occasions of extraordinary deliverance&hellip;</div>'
+  '<div class="no frag" style="font-size:clamp(24px,4.6vmin,58px)">In giving me <b>a choice companion</b>, congenial to my inclination of serving Him.</div>'
+  '<div class="no frag" style="font-size:clamp(24px,4.6vmin,58px)">In giving me <b>a call from the Church</b> to preach the Gospel&hellip;</div>'
+  '<div class="no frag" style="font-size:clamp(24px,4.6vmin,58px)">In my desire to suffer hardships and reproach in that good work.&rdquo;</div>'
   '</div><div class=cite>' + AC + ' &middot; in Richardson, <i>Memoirs</i></div>'
-  '<aside class=notes>Three clicks. Twelve reasons; three shown. The mast comes back: &ldquo;two occasions&rdquo; are the Hibernia off Islay in 1808, and the 1809 crossing on the Latonia, which sprang a leak and nearly went down in a squall.<br>Number XI: the call came from the church, not from a court.</aside></section>')
+  '<aside class=notes>Four clicks. Twelve reasons; four shown (his numbers III, VII, XI, XII). The mast comes back: &ldquo;two occasions&rdquo; are the Hibernia off Islay in 1808, and the 1809 crossing on the Latonia, which sprang a leak and nearly went down in a squall.<br>VII: Margaret Brown, married March 1811. XI: the call came from the church, not from a court.</aside></section>')
 A(BIGQ(Q('&ldquo;We do hereby certify that Alexander Campbell&hellip; was, <b>according to the principles of this Church</b> regularly chosen and ordained a minister thereof, upon the first day of January, one thousand eight hundred and twelve.&rdquo;', 'Certificate of ordination, recorded in the Brooke County court, December 1812 &middot; in Richardson, <i>Memoirs</i>')) +
   N('He needed it in court to be allowed to perform marriages. Signed at a church meeting at John Dawson&rsquo;s, September 1, 1812.',
     'The cut: &ldquo;after a due course of trials preparatory to the work of the holy ministry.&rdquo;',
