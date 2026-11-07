@@ -487,7 +487,6 @@ HIDE(BIGQ(Q('&ldquo;&hellip;the Lord&rsquo;s Supper, which, according to the cus
 A(BIGQ(Q('&ldquo;At this meeting, <b>Thomas Campbell was appointed elder</b>, and <b>Alexander was licensed to preach the gospel</b>. Four deacons were also chosen&hellip;&rdquo;', RICH, 'May 4, 1811')) +
   N('The deacons: John Dawson, George Sharp, William Gilcrist, James Foster. About thirty members.',
     'No presbytery licensed him. The church did.'))
-A(C('The Ordination', 'Licensed in May 1811; ordained on January 1, 1812. He preached all over the region through 1811 and married Margaret Brown that March. At Christmas he sat down, as he did every year&rsquo;s end, to examine himself.', 'January 1, 1812'))
 A(BIGQ(Q('&ldquo;&hellip;whether or not it was his duty to be ordained to the ministry of the Word. With him, <b>ordination implied a formal, public and irrevocable consecration of life to the preaching of the gospel</b>&hellip;&rdquo;', RICH, 'Christmas, 1811'), 'clamp(34px,7.4vmin,92px)', '30ch') +
   N('Richardson 1:379. The sentence goes on: the question, &ldquo;already several times decided in his own heart, amidst hours of peril and adversity, should be again debated before the bar of conscience, against the seductive but silent pleadings of a comfortable home, and the quieter and more profitable pursuits of agriculture.&rdquo; Newly married, on his father-in-law&rsquo;s farm. Then the list.'))
 A('<section class="slide"><div class=eyebrow>December 25, 1811 &middot; his own list</div>'
@@ -499,6 +498,7 @@ A('<section class="slide"><div class=eyebrow>December 25, 1811 &middot; his own 
   '<div class="no frag" style="font-size:clamp(24px,4.6vmin,58px)">In my desire to suffer hardships and reproach in that good work.&rdquo;</div>'
   '</div><div class=cite>' + AC + ' &middot; in Richardson, <i>Memoirs</i></div>'
   '<aside class=notes>Four clicks. Twelve reasons; four shown (his numbers III, VII, XI, XII). The mast comes back: &ldquo;two occasions&rdquo; are the Hibernia off Islay in 1808, and the 1809 crossing on the Latonia, which sprang a leak and nearly went down in a squall.<br>VII: Margaret Brown, married March 1811. XI: the call came from the church, not from a court.</aside></section>')
+A(C('The Ordination', 'Licensed in May 1811; ordained on January 1, 1812. He preached all over the region through 1811 and married Margaret Brown that March. At Christmas he sat down, as he did every year&rsquo;s end, to examine himself.', 'January 1, 1812'))
 A(BIGQ(Q('&ldquo;We do hereby certify that Alexander Campbell&hellip; was, <b>according to the principles of this Church</b> regularly chosen and ordained a minister thereof, upon the first day of January, one thousand eight hundred and twelve.&rdquo;', 'Certificate of ordination, recorded in the Brooke County court, December 1812 &middot; in Richardson, <i>Memoirs</i>', 'January 1, 1812')) +
   N('He needed it in court to be allowed to perform marriages. Signed at a church meeting at John Dawson&rsquo;s, September 1, 1812.',
     'The cut: &ldquo;after a due course of trials preparatory to the work of the holy ministry.&rdquo;',
