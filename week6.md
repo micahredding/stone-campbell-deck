@@ -37,7 +37,7 @@
 
 **The landing.** So there is one logical position that lets us affirm the orders, ministries and sacraments of all Christendom without being bound by any of them, and it is the one our movement lands on through Campbell: the power to ordain and to minister begins with the people and flows from the people. "The community, the church, the multitude of the faithful, are the fountain of official power." It is an extraordinarily strong reading of the priesthood of all believers, and Campbell spent decades fighting for it: the church is constituted not by anyone else's authority but by Christ working through his people, gathered.
 
-*Slides: Chapter 6 deck, 10–11 (the question), 12 (three answers), 13–42 (the rejections), 43–48 (the answer; every church's ministers can be recognized), 49–56 (Campbell's position, latest first), 57–58 (not his usual argument; the one-way door), 59 (ordinations have consequences), 60–77 (Stone, Luther, the early church, Matthew 16 and 18), 78–79 (a minister made by the priesthood of all believers; still with us).*
+*Slides: Chapter 6 deck, 10–11 (the question), 12 (three answers), 13–42 (the rejections), 43–48 (the answer; every church's ministers can be recognized), 49–56 (Campbell's position, latest first), 57–58 (not his usual argument; the one-way door), 59 (ordinations have consequences), 60–85 (Stone, Luther, the early church with Cyprian and Leo, the whole church remembers, Matthew 16 and 18), 86–87 (a minister made by the priesthood of all believers; still with us).*
 
 ---
 

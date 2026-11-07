@@ -768,8 +768,13 @@ A(CARD('This is<br>' + G('Alexander Campbell&rsquo;s position.'),
   style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
 A(SRC(BIGQ(Q('&ldquo;<b>The community, the church, the multitude of the faithful, are the fountain of official power.</b> This power descends from the body itself &mdash; not from its servants. Servants made by servants are servants of servants&hellip;&rdquo;', 'Alexander Campbell, <i>The Christian System</i> (1839)', 'Alexander, later'), 'clamp(32px,6.8vmin,86px)', '32ch'), 'ekk') +
   N('The theory of Brush Run, written down twenty-seven years later. It goes on: authority &ldquo;thus derived from Christ the head, immediately through his body,&rdquo; is surer than one &ldquo;derived through a long, doubtful, corrupt dynasty of bishops or pontiffs.&rdquo;'))
-for _x in R.universals():                         # side path: the whole church remembers (shared resource), less Luther, who is on the spine
-    if not any(_k in _vis(_x) for _k in _LUTHER): A(_x)
+# Moved to the spine (Micah, 2026-11-07): Cyprian and Leo into the early church; the rest into "The whole church remembers."
+_EARLY = ('do nothing on my own private opinion', 'should be chosen by all')
+_WHOLE = ('protector of religion', 'charism of royal priesthood', 'he is the priest</b>', 'inverted pyramid', 'nothing higher than this baptismal dignity')
+_univ = R.universals()
+_pick = lambda k: [x for x in _univ if k in x][0]
+for _x in _univ:                                  # side path: the whole church remembers (shared resource), less Luther, who is on the spine, and less what moved to the spine
+    if not any(_k in _vis(_x) for _k in _LUTHER) and not any(_k in _x for _k in _EARLY + _WHOLE): A(_x)
 for _x in R.ekklesia():                           # side path: the church as ekklesia (shared resource), less the fountain already on the spine
     if 'fountain of official power' not in _x and 'Servants made by servants' not in _x: A(_x)
 for _x in R.constitution(): A(_x)                # side path: confession or constitution (shared resource)
@@ -837,12 +842,17 @@ for _k in _LUTHER:
 HIDE(BIGQ(Q('&ldquo;They themselves do the same thing, and have no other way. <b>Among them no one is ever appointed pope or bishop by the authority of one man, but he is elected and called by the chapter</b>&hellip;&rdquo;', 'Martin Luther, 1523 &middot; for the congregation at Leisnig', 'Even the bishops'), 'clamp(32px,6.8vmin,86px)', '32ch') +
   N('<i>That a Christian Assembly or Congregation Has the Right and Power&hellip; to Call&hellip; Teachers</i>, tr. Steinhaeuser, <i>Works of Martin Luther</i> 4. Said of the bishops who condemned congregations for electing ministers: every hierarchy rests on someone&rsquo;s election. The <i>Didache</i>: &ldquo;appoint for yourselves bishops and deacons&rdquo;; <i>1 Clement</i>: &ldquo;with the consent of the whole church.&rdquo;'))
 A(CARD('Before Luther,<br>' + G('the early church.'),
-  'c. 100&ndash;210. The congregation appoints; where three are, a church is.',
+  'c. 100&ndash;450. The congregation appoints; where three are, a church is; who governs all is chosen by all.',
   style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
 A(BIGQ(Q('&ldquo;&hellip;<b>appoint for yourselves bishops and deacons</b> worthy of the Lord, men meek, and not lovers of money, and truthful and proven&hellip;&rdquo;', '<i>Didache</i> 15.1 (c. 100) &middot; tr. Roberts&ndash;Donaldson', 'The first church order'), 'clamp(36px,7.8vmin,98px)', '28ch') +
   N('The oldest church order outside the New Testament, addressed to the congregation: no bishop or apostle is named as the one who appoints. The verb, <i>cheirotonēsate</i>, is the show-of-hands word, as in Acts 14:23. <i>1 Clement</i> 44 (c. 96): presbyters appointed &ldquo;with the consent of the whole church.&rdquo; Every succession begins with a choosing.'))
 A(BIGQ(Q('&ldquo;Are not even we laics priests?&hellip; where there is no joint session of the ecclesiastical Order, you offer, and baptize, and are priest, alone for yourself. But <b>where three are, a church is, albeit they be laics</b>.&rdquo;', 'Tertullian, <i>On Exhortation to Chastity</i> 7 (c. 210) &middot; tr. Thelwall', 'Carthage, c. 210'), 'clamp(32px,6.8vmin,86px)', '32ch') +
   N('Written in his Montanist period, in an argument about remarriage, not as a church order. But the reasoning is plain: the priesthood is the whole church&rsquo;s, and where the clergy are absent, the laity are priests.'))
+for _k in _EARLY: A(_pick(_k))                  # Cyprian (c. 250), Leo the Great (c. 450)
+A(CARD('The whole church<br>' + G('remembers.'),
+  'Not only the early church. East and West, Orthodox and Catholic, the whole church still says it: the priesthood is every Christian&rsquo;s, and those who govern are chosen by, and serve, the whole body.',
+  style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
+for _k in _WHOLE: A(_pick(_k))                  # the Eastern Patriarchs (1848), Afanasiev, Schmemann, Pope Francis (2015), the Synod (2024)
 A(CARD('And before all of them,<br>' + G('Jesus.'),
   'Matthew 16, then Matthew 18. The chapter&rsquo;s title.',
   style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
