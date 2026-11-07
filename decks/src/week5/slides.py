@@ -698,37 +698,15 @@ A(CARD('We can debate the wisdom of each.<br>' + G('We need not call any of them
   'If the people constitute themselves with elders, or presbyters, or bishops, or as independent congregations, or even with a pope, we can argue about the wisdom of the choice. We do not have to say it is illegitimate: not a false church, not a false ministry, not false sacraments. All of them can be legitimate. That is the position Alexander Campbell takes.',
   style=';font-size:clamp(46px,9.6vmin,124px);line-height:1.08'))
 # ---------- WHY THE PEOPLE? (Micah, 2026-11-04: the other chain and Why the people combined; historic testimony first, then Stone and the Campbells) ----------
-A('<section class="slide breath"><div class=eyebrow>Valid orders</div><h2 style="max-width:none">The other chain</h2><div class=sub>Those who put the authority beneath them all</div><aside class=notes>If the authority is the people&rsquo;s, the people may constitute themselves under bishops, or presbyters, or elders, and every one of those orders can be recognized.</aside></section>')
-A(BIGQ(Q('&ldquo;&hellip;<b>appoint for yourselves bishops and deacons</b> worthy of the Lord, men meek, and not lovers of money, and truthful and proven&hellip;&rdquo;', '<i>Didache</i> 15.1 (c. 100) &middot; tr. Roberts&ndash;Donaldson', 'The first church order'), 'clamp(36px,7.8vmin,98px)', '28ch') +
-  N('The oldest church order outside the New Testament, addressed to the congregation: no bishop or apostle is named as the one who appoints. The verb, <i>cheirotonēsate</i>, is the show-of-hands word, as in Acts 14:23. <i>1 Clement</i> 44 (c. 96): presbyters appointed &ldquo;with the consent of the whole church.&rdquo; Every succession begins with a choosing.'))
 # Luther as the witness: baptismal succession (slides from the shared resources priesthood() and consent())
 _LUTHER = ('no difference at all but that of office', 'already consecrated priest, bishop and pope', 'we are all priests, and there is no difference between us',
            'anointed by Him to the priesthood', 'none the less confirmed by virtue of the call', 'the sheep are to judge')
 _pool = R.priesthood() + R.consent()
-A('<section class="slide breath"><div class=eyebrow>A witness, 1520&ndash;1523</div><h2 style="max-width:none">Martin Luther: ordained in baptism</h2>'
-  '<aside class=notes>Three centuries before Brush Run. The ground of the whole argument: the authority is given in baptism, to every Christian; the congregation&rsquo;s call decides who uses it. Baptismal succession.</aside></section>')
 _vis = lambda x: re.sub(r'<aside class=notes>.*?</aside>', '', x, flags=re.S)
-for _k in _LUTHER:
-    A([x for x in _pool if _k in _vis(x)][0])
-A(BIGQ(Q('&ldquo;They themselves do the same thing, and have no other way. <b>Among them no one is ever appointed pope or bishop by the authority of one man, but he is elected and called by the chapter</b>&hellip;&rdquo;', 'Martin Luther, 1523 &middot; for the congregation at Leisnig', 'Even the bishops'), 'clamp(32px,6.8vmin,86px)', '32ch') +
-  N('<i>That a Christian Assembly or Congregation Has the Right and Power&hellip; to Call&hellip; Teachers</i>, tr. Steinhaeuser, <i>Works of Martin Luther</i> 4. Said of the bishops who condemned congregations for electing ministers: every hierarchy rests on someone&rsquo;s election. The <i>Didache</i>: &ldquo;appoint for yourselves bishops and deacons&rdquo;; <i>1 Clement</i>: &ldquo;with the consent of the whole church.&rdquo;'))
-A(BIGQ(Q('&ldquo;In such Churches where there are no Elders, <b>Imposition of hands may be performed by some of the Brethren</b> orderly chosen by the church therunto. For if the people may elect officers which is the greater&hellip; they may much more&hellip; impose hands in ordination, which is the less&hellip;&rdquo;', '<i>The Cambridge Platform</i>, ch. IX (1648) &middot; New England Congregationalists', 'Across the ocean'), 'clamp(30px,6.2vmin,78px)', '36ch') +
-  N('Walker, <i>Creeds and Platforms of Congregationalism</i>, pp. 215&ndash;216. The closest precedent to Brush Run: a church with no elders sets apart its own. And the argument: the people&rsquo;s election is &ldquo;the greater,&rdquo; the hands &ldquo;the less.&rdquo;'))
-A(C('Stone and the Campbells', 'Our own side said it too, and then did it: Stone&rsquo;s presbytery gave the power back in 1804; the Campbells used it in 1811.', 'And then, on the frontier'))
-A('<section data-src=will class="slide"><div class=eyebrow>The Springfield Presbytery, 1804 &middot; the court gives up its power</div>'
-  '<div class=litany style="gap:4vmin;font-size:3.3em;max-width:90vw">'
-  '<div class=no>&ldquo;We will, that <b>our power of making laws for the government of the church</b>, and executing them by delegated authority, <b>forever cease</b>&hellip;&rdquo;</div>'
-  '<div class="no frag">&ldquo;We will, that candidates for the Gospel ministry&hellip; <b>obtain license from God</b> to preach the simple Gospel&hellip;&rdquo;</div>'
-  '</div><div class=cite>The Last Will and Testament of the Springfield Presbytery</div>'
-  '<aside class=notes>One click. Chapter 4, Cane Ridge: the presbytery dissolved itself. Two items about ministers: the presbytery will no longer license anyone; a minister&rsquo;s license comes from God.</aside></section>')
-A('<section data-src=will class="slide"><div class=eyebrow>The Springfield Presbytery, 1804 &middot; the congregation takes it up</div>'
-  '<div class=litany style="gap:4vmin;font-size:3em;max-width:92vw">'
-  '<div class=no>&ldquo;We will, that the church of Christ assume <b>her native right of internal government</b>&mdash;<b>try her candidates for the ministry</b>&hellip; and admit no other proof of their authority, but Christ speaking in them.&rdquo;</div>'
-  '<div class="no frag">&ldquo;We will, that each particular church, as a body&hellip; <b>choose her own preacher</b>&hellip; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;</div>'
-  '</div><div class=cite>The Last Will and Testament of the Springfield Presbytery</div>'
-  '<aside class=notes>One click. Where the authority goes: to each congregation. Seven years later and hundreds of miles away, a congregation that never heard of the will tried its own candidate, licensed him in May 1811 and ordained him in January 1812.</aside></section>')
-A(CARD('The Springfield Presbytery died<br>so that congregations could choose.<br>' + G('Brush Run chose.'),
-  'Neither side knew the other existed. The two streams meet in 1832; they already agreed.'))
+A('<section class="slide breath"><div class=eyebrow>Valid orders</div><h2 style="max-width:none">The other chain</h2><div class=sub>Campbell, and before him, back to Jesus</div><aside class=notes>If the authority is the people&rsquo;s, the people may constitute themselves under bishops, or presbyters, or elders, and every one of those orders can be recognized.</aside></section>')
+A(CARD('This is<br>' + G('Alexander Campbell&rsquo;s position.'),
+  'Then we walk it back, each witness older than the last.',
+  style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
 A(BIGQ(Q('&ldquo;Why do we contend for uninterrupted succession in ordination, seeing it is <b>not the persons called bishops who have the power, but the people?</b>&rdquo;', AC + ', 1811 &middot; in Richardson, <i>Memoirs</i>', 'Alexander, weeks before his ordination'), 'clamp(36px,8vmin,100px)', '26ch') +
   N('His notes for a sermon on Titus 1:5, winter 1811&ndash;12 (Richardson 1:383). The same notes: ordination &ldquo;consists in the choice of the people, which must be hearty.&rdquo;'))
 A(BIGQ(Q('&ldquo;You see that ordination is not a mere unmeaning thing, but <b>consists in the choice of the people</b>, which must be hearty&hellip;&rdquo;', AC + ', sermon on Titus 1:5 &middot; in Richardson, <i>Memoirs</i>'), 'clamp(32px,7.2vmin,90px)', '34ch') +
@@ -746,12 +724,6 @@ A(BIGQ(Q('&ldquo;The clergy are the opposite to the laity. Both these terms are 
   N('Clergy from <i>kl&ecirc;ros</i>, the Lord&rsquo;s lot or inheritance; laity from <i>laos</i>, the people of God. Both words name the whole church.'))
 A(BIGQ(Q('&ldquo;<b>Every thing essential to appointment, call, or ordination was vested in the minds of the brethren.</b> Their desires, however expressed, gave the office to the candidate&hellip;&rdquo;', AC + ', <i>Christian Baptist</i>, 1826', 'The brethren'), 'clamp(36px,7.8vmin,98px)', '28ch') +
   N('&ldquo;A Restoration of the Ancient Order of Things, No. XIV,&rdquo; <i>Christian Baptist</i> 4 (August 1826), p. 6 (Burnet ed. p. 260). Alexander&rsquo;s own answer, fifteen years on: the brethren. Everyone who acted on January 1, 1812 had been chosen by this congregation on May 4, 1811 (Thomas &ldquo;appointed elder&rdquo;, four deacons &ldquo;chosen&rdquo;, Richardson 1:367). No source says whose hands; Campbell says the elders&rsquo; hands only &ldquo;express their concurrence with the brethren&rsquo;s call.&rdquo;'))
-A(CARD('Not his usual argument.',
-  'Don&rsquo;t get me wrong: this is not the argument Campbell makes most of the time. He had seen Scotland: the independents, the Haldanes and Greville Ewing, against the established churches. He believed the clergy of those churches deeply corrupt, monopolizing authority and power that belong to the people, and that is what he usually says. But there is an asymmetry worth keeping in mind.',
-  eyebrow='Don&rsquo;t get me wrong', style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
-A(CARD('The established church <i>must</i> reject the independent.<br>' + G('The independent need not reject the established church.'),
-  'A one-way door. The Church of Scotland was duty-bound to reject the ministry of Ewing and the Haldanes: its doctrine, its official teaching, what it stands for as an institution, require it. The independents were not bound to reject the established clergy: they could affirm their own ministry and the ministry of the established churches too. And if established clergy wished to recognize Ewing&rsquo;s or the Haldanes&rsquo; ministry as a true ministry (as, in Campbell&rsquo;s view, they ought), they could do it only by coming to the same conclusion: the authority inheres in the people, not in the episcopacy or the presbytery as such.',
-  eyebrow='A one-way door', style=';font-size:clamp(40px,8vmin,104px);line-height:1.1'))
 A(SRC(BIGQ(Q('&ldquo;<b>The community, the church, the multitude of the faithful, are the fountain of official power.</b> This power descends from the body itself &mdash; not from its servants. Servants made by servants are servants of servants&hellip;&rdquo;', 'Alexander Campbell, <i>The Christian System</i> (1839)', 'Alexander, later'), 'clamp(32px,6.8vmin,86px)', '32ch'), 'ekk') +
   N('The theory of Brush Run, written down twenty-seven years later. It goes on: authority &ldquo;thus derived from Christ the head, immediately through his body,&rdquo; is surer than one &ldquo;derived through a long, doubtful, corrupt dynasty of bishops or pontiffs.&rdquo;'))
 for _x in R.universals():                         # side path: the whole church remembers (shared resource), less Luther, who is on the spine
@@ -759,6 +731,60 @@ for _x in R.universals():                         # side path: the whole church 
 for _x in R.ekklesia():                           # side path: the church as ekklesia (shared resource), less the fountain already on the spine
     if 'fountain of official power' not in _x and 'Servants made by servants' not in _x: A(_x)
 for _x in R.constitution(): A(_x)                # side path: confession or constitution (shared resource)
+A(CARD('Not his usual argument.',
+  'Don&rsquo;t get me wrong: this is not the argument Campbell makes most of the time. He had seen Scotland: the independents, the Haldanes and Greville Ewing, against the established churches. He believed the clergy of those churches deeply corrupt, monopolizing authority and power that belong to the people, and that is what he usually says. But there is an asymmetry worth keeping in mind.',
+  eyebrow='Don&rsquo;t get me wrong', style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
+A(CARD('The established church <i>must</i> reject the independent.<br>' + G('The independent need not reject the established church.'),
+  'A one-way door. The Church of Scotland was duty-bound to reject the ministry of Ewing and the Haldanes: its doctrine, its official teaching, what it stands for as an institution, require it. The independents were not bound to reject the established clergy: they could affirm their own ministry and the ministry of the established churches too. And if established clergy wished to recognize Ewing&rsquo;s or the Haldanes&rsquo; ministry as a true ministry (as, in Campbell&rsquo;s view, they ought), they could do it only by coming to the same conclusion: the authority inheres in the people, not in the episcopacy or the presbytery as such.',
+  eyebrow='A one-way door', style=';font-size:clamp(40px,8vmin,104px);line-height:1.1'))
+A(CARD('Before him,<br>' + G('Barton Stone&rsquo;s presbytery.'),
+  '1804, seven years before Brush Run. Neither side knew the other.',
+  style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
+A('<section data-src=will class="slide"><div class=eyebrow>The Springfield Presbytery, 1804 &middot; the court gives up its power</div>'
+  '<div class=litany style="gap:4vmin;font-size:3.3em;max-width:90vw">'
+  '<div class=no>&ldquo;We will, that <b>our power of making laws for the government of the church</b>, and executing them by delegated authority, <b>forever cease</b>&hellip;&rdquo;</div>'
+  '<div class="no frag">&ldquo;We will, that candidates for the Gospel ministry&hellip; <b>obtain license from God</b> to preach the simple Gospel&hellip;&rdquo;</div>'
+  '</div><div class=cite>The Last Will and Testament of the Springfield Presbytery</div>'
+  '<aside class=notes>One click. Chapter 4, Cane Ridge: the presbytery dissolved itself. Two items about ministers: the presbytery will no longer license anyone; a minister&rsquo;s license comes from God.</aside></section>')
+A('<section data-src=will class="slide"><div class=eyebrow>The Springfield Presbytery, 1804 &middot; the congregation takes it up</div>'
+  '<div class=litany style="gap:4vmin;font-size:3em;max-width:92vw">'
+  '<div class=no>&ldquo;We will, that the church of Christ assume <b>her native right of internal government</b>&mdash;<b>try her candidates for the ministry</b>&hellip; and admit no other proof of their authority, but Christ speaking in them.&rdquo;</div>'
+  '<div class="no frag">&ldquo;We will, that each particular church, as a body&hellip; <b>choose her own preacher</b>&hellip; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;</div>'
+  '</div><div class=cite>The Last Will and Testament of the Springfield Presbytery</div>'
+  '<aside class=notes>One click. Where the authority goes: to each congregation. Seven years later and hundreds of miles away, a congregation that never heard of the will tried its own candidate, licensed him in May 1811 and ordained him in January 1812.</aside></section>')
+A(CARD('The Springfield Presbytery died<br>so that congregations could choose.<br>' + G('Brush Run chose.'),
+  'Neither side knew the other existed. The two streams meet in 1832; they already agreed.'))
+A(CARD('Before them,<br>' + G('the Puritans of New England.'),
+  '1648. Where there are no elders, the brethren lay on hands.',
+  style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
+A(BIGQ(Q('&ldquo;In such Churches where there are no Elders, <b>Imposition of hands may be performed by some of the Brethren</b> orderly chosen by the church therunto. For if the people may elect officers which is the greater&hellip; they may much more&hellip; impose hands in ordination, which is the less&hellip;&rdquo;', '<i>The Cambridge Platform</i>, ch. IX (1648) &middot; New England Congregationalists', 'Across the ocean'), 'clamp(30px,6.2vmin,78px)', '36ch') +
+  N('Walker, <i>Creeds and Platforms of Congregationalism</i>, pp. 215&ndash;216. The closest precedent to Brush Run: a church with no elders sets apart its own. And the argument: the people&rsquo;s election is &ldquo;the greater,&rdquo; the hands &ldquo;the less.&rdquo;'))
+A(CARD('Before them,<br>' + G('Martin Luther.'),
+  '1520&ndash;1523. Ordained in baptism; the congregation calls.',
+  style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
+A('<section class="slide breath"><div class=eyebrow>A witness, 1520&ndash;1523</div><h2 style="max-width:none">Martin Luther: ordained in baptism</h2>'
+  '<aside class=notes>Three centuries before Brush Run. The ground of the whole argument: the authority is given in baptism, to every Christian; the congregation&rsquo;s call decides who uses it. Baptismal succession.</aside></section>')
+for _k in _LUTHER:
+    A([x for x in _pool if _k in _vis(x)][0])
+A(BIGQ(Q('&ldquo;They themselves do the same thing, and have no other way. <b>Among them no one is ever appointed pope or bishop by the authority of one man, but he is elected and called by the chapter</b>&hellip;&rdquo;', 'Martin Luther, 1523 &middot; for the congregation at Leisnig', 'Even the bishops'), 'clamp(32px,6.8vmin,86px)', '32ch') +
+  N('<i>That a Christian Assembly or Congregation Has the Right and Power&hellip; to Call&hellip; Teachers</i>, tr. Steinhaeuser, <i>Works of Martin Luther</i> 4. Said of the bishops who condemned congregations for electing ministers: every hierarchy rests on someone&rsquo;s election. The <i>Didache</i>: &ldquo;appoint for yourselves bishops and deacons&rdquo;; <i>1 Clement</i>: &ldquo;with the consent of the whole church.&rdquo;'))
+A(CARD('Before Luther,<br>' + G('the early church.'),
+  'c. 100&ndash;210. The congregation appoints; where three are, a church is.',
+  style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
+A(BIGQ(Q('&ldquo;&hellip;<b>appoint for yourselves bishops and deacons</b> worthy of the Lord, men meek, and not lovers of money, and truthful and proven&hellip;&rdquo;', '<i>Didache</i> 15.1 (c. 100) &middot; tr. Roberts&ndash;Donaldson', 'The first church order'), 'clamp(36px,7.8vmin,98px)', '28ch') +
+  N('The oldest church order outside the New Testament, addressed to the congregation: no bishop or apostle is named as the one who appoints. The verb, <i>cheirotonēsate</i>, is the show-of-hands word, as in Acts 14:23. <i>1 Clement</i> 44 (c. 96): presbyters appointed &ldquo;with the consent of the whole church.&rdquo; Every succession begins with a choosing.'))
+A(BIGQ(Q('&ldquo;Are not even we laics priests?&hellip; where there is no joint session of the ecclesiastical Order, you offer, and baptize, and are priest, alone for yourself. But <b>where three are, a church is, albeit they be laics</b>.&rdquo;', 'Tertullian, <i>On Exhortation to Chastity</i> 7 (c. 210) &middot; tr. Thelwall', 'Carthage, c. 210'), 'clamp(32px,6.8vmin,86px)', '32ch') +
+  N('Written in his Montanist period, in an argument about remarriage, not as a church order. But the reasoning is plain: the priesthood is the whole church&rsquo;s, and where the clergy are absent, the laity are priests.'))
+A(CARD('And before all of them,<br>' + G('Jesus.'),
+  'Matthew 18. The chapter&rsquo;s title.',
+  style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
+A('<section class="slide"><div class=eyebrow>Matthew 18:18&ndash;20</div>'
+  '<div class=litany style="gap:2.2vmin;width:80vw;max-width:80vw">'
+  '<div class=no style="font-size:clamp(30px,5.8vmin,74px)">&ldquo;Verily I say unto you, <b>Whatsoever ye shall bind on earth shall be bound in heaven</b>: and whatsoever ye shall loose on earth shall be loosed in heaven.</div>'
+  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px)">Again I say unto you, That <b>if two of you shall agree on earth</b> as touching any thing that they shall ask, it shall be done for them of my Father which is in heaven.</div>'
+  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);color:var(--gold)">For where two or three are gathered together in my name, there am I in the midst of them.&rdquo;</div>'
+  '</div><div class=cite>Matthew 18:18&ndash;20, King James Version</div>'
+  '<aside class=notes>Two clicks. Said to the disciples gathered, not to an office: the power to bind and loose, heaven&rsquo;s agreement with two who agree, and Christ himself in the midst of two or three. The priesthood of all believers in Jesus&rsquo; own words, and the authority the whole chain has been pointing to. Thomas Campbell, in the Appendix: &ldquo;What ye bind on earth shall be bound in heaven&rdquo; is &ldquo;the awful sanction of the Church&rsquo;s judgment.&rdquo;</aside></section>')
 A(CARD('If the authority is the people&rsquo;s,<br>' + G('every church&rsquo;s ministers can be recognized.'),
   'The payoff. Thomas extended conscience to all; Brush Run&rsquo;s ground extends validity to all. The people may choose bishops, presbyters or elders, so every order can stand. Only this ground can say yes to all of them. Not ours alone: Luther in 1523, Congregationalists, Baptists. And it recognizes others on terms they would not choose: a generosity offered, not an agreement reached.'))
 HIDE(C('Why the people?', 'The theory behind the ordination: why Brush Run believed the authority to make a minister was its own.', 'The meaning of January 1, 1812'))
