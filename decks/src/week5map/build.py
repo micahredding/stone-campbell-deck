@@ -37,7 +37,7 @@ SECTIONS = [   # Chapter 5's deck (to the black slide after "Next time"), then C
 ]
 SECTIONS6 = [
     ('Opening', 'data-session=2'),
-    ('Church formed', 'data-mark=formed'), ('The first Supper', 'data-mark=supper'),
+    ('Church formed', 'data-mark=formed'),
     ('The ordination', '<h2>The Ordination</h2>'), ('Why the people?', 'Alexander Campbell&rsquo;s position.</span>'),
     ('Close', 'for discussion &middot; Chapter 6'),
 ]
