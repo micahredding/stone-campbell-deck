@@ -1644,9 +1644,14 @@
       case 'n':case 'N':setMode(isPresent()?'read':'present');break;
       case 's':case 'S':setStrip(!document.body.classList.contains('strip'));break;
       case 'p':case 'P':openPresenter();break;
-      case 'f':case 'F':
+      case 'f':case 'F':case 'F5':   // F5: a presentation remote's play button (Micah, 2026-11-07); fullscreen instead of reloading
+        e.preventDefault();
         if(document.fullscreenElement)document.exitFullscreen&&document.exitFullscreen();
         else document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();
+        break;
+      case 'b':case 'B':case '.':   // black screen, as in PowerPoint and Keynote (a remote's blank-screen button)
+        if(!document.getElementById('blackout')){var bo=document.createElement('div');bo.id='blackout';bo.style.cssText='position:fixed;inset:0;background:#000;z-index:2147483647;display:none';document.body.appendChild(bo)}
+        var bs=document.getElementById('blackout').style;bs.display=bs.display==='none'?'block':'none';
         break;
     }
   });
