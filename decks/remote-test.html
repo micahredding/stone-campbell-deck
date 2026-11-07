@@ -3,23 +3,34 @@
 <title>Remote test</title>
 <style>
 :root{--bg:#14110d;--fg:#ede4d3;--gold:#d4a74a;--dim:#8a8072}
-body{margin:0;background:var(--bg);color:var(--fg);font:20px/1.4 Georgia,serif;padding:5vmin}
+body{margin:0;background:var(--bg);color:var(--fg);font:22px/1.4 Georgia,serif;padding:5vmin}
 h1{font-weight:normal;color:var(--gold);margin:0 0 .4em}
 p{color:var(--dim);max-width:46em}
-table{border-collapse:collapse;margin-top:1.4em;width:100%;max-width:56em}
+table{border-collapse:collapse;margin-top:1.2em;width:100%;max-width:60em}
 td,th{text-align:left;padding:.35em .8em;border-bottom:1px solid #2c261e}
-th{color:var(--dim);font-weight:normal}
-tr:first-child td{color:var(--gold)}
+th{color:var(--dim);font-weight:normal;font-size:.8em}
+tr.hot td{color:var(--gold)}
 code{font-size:1.05em}
+button{font:inherit;font-size:.8em;background:#2c261e;color:var(--fg);border:1px solid #4a4134;border-radius:.3em;padding:.3em .9em;margin-top:1em}
 </style></head><body>
 <h1>Remote test</h1>
-<p>Press each button on the remote once. Then hold each one down for two seconds. Each press shows up below: the key it sends, and whether holding it repeats. Then send a screenshot of the list back in the chat, and the deck can be set to use them.</p>
-<table><thead><tr><th>#</th><th>key</th><th>code</th><th>event</th><th>held (repeat)</th><th>ms since last</th></tr></thead><tbody id=log></tbody></table>
+<p>Press each button on the remote once, then hold each one for two seconds. One line per key, however many signals it sends. Screenshot the table and send it back in the chat.</p>
+<table><thead><tr><th>key</th><th>code</th><th>with</th><th>presses</th><th>repeats while held</th><th>releases</th><th>also sent at the same moment</th></tr></thead><tbody id=rows></tbody></table>
+<button id=clear>Clear</button>
 <script>
-var n=0,last=0,log=document.getElementById('log');
-function add(e){var t=performance.now(),tr=document.createElement('tr');
-  tr.innerHTML='<td>'+(++n)+'</td><td><code>'+(e.key===' '?'Space':e.key)+'</code></td><td><code>'+e.code+'</code></td><td>'+e.type+'</td><td>'+(e.repeat?'yes':'')+'</td><td>'+(last?Math.round(t-last):'')+'</td>';
-  last=t;log.insertBefore(tr,log.firstChild);while(log.children.length>60)log.removeChild(log.lastChild)}
-document.addEventListener('keydown',function(e){e.preventDefault();add(e)});
-document.addEventListener('keyup',function(e){e.preventDefault();add(e)});
+var keys={},order=[],lastT=0,lastK='',rows=document.getElementById('rows');
+function mods(e){return [e.ctrlKey&&'Ctrl',e.altKey&&'Alt',e.shiftKey&&'Shift',e.metaKey&&'Cmd'].filter(Boolean).join('+')}
+function id(e){return (e.key===' '?'Space':e.key)+'|'+e.code+'|'+mods(e)}
+function rec(e){var k=id(e),t=performance.now();
+  if(!keys[k]){keys[k]={down:0,rep:0,up:0,with:{}};order.push(k)}
+  var r=keys[k];
+  if(e.type==='keyup')r.up++;else if(e.repeat)r.rep++;else{r.down++;
+    if(lastK&&lastK!==k&&t-lastT<60){r.with[lastK.split('|')[0]]=1;keys[lastK].with[k.split('|')[0]]=1}
+    lastT=t;lastK=k}
+  draw(k)}
+function draw(hot){rows.innerHTML=order.map(function(k){var r=keys[k],p=k.split('|');
+  return '<tr'+(k===hot?' class=hot':'')+'><td><code>'+p[0]+'</code></td><td><code>'+p[1]+'</code></td><td>'+(p[2]||'')+'</td><td>'+r.down+'</td><td>'+(r.rep||'')+'</td><td>'+r.up+'</td><td>'+Object.keys(r.with).join(', ')+'</td></tr>'}).join('')}
+document.addEventListener('keydown',function(e){e.preventDefault();rec(e)});
+document.addEventListener('keyup',function(e){e.preventDefault();rec(e)});
+document.getElementById('clear').onclick=function(){keys={};order=[];lastK='';draw()};
 </script></body></html>
