@@ -295,10 +295,11 @@
     else if(c==='zoom')zoomOut();
     else if(c.slice(0,4)==='door')door(+c.slice(4)-1);
   }
+  var enterT=0;
   document.addEventListener('keydown',function(e){
     if(e.metaKey||e.ctrlKey||e.altKey)return;
     var mapOn=document.body.classList.contains('mapon');
-    if(docOn()){if(e.key==='z'||e.key==='Z'||e.key==='Escape'){e.preventDefault();closeDoc()}
+    if(docOn()){if(e.key==='z'||e.key==='Z'||e.key==='Escape'||e.key==='ArrowUp'||e.key==='Enter'){e.preventDefault();closeDoc()}
       else if(e.key==='m'||e.key==='M')toggleMap(true);
       else if(e.key==='f'||e.key==='F'){if(document.fullscreenElement)document.exitFullscreen&&document.exitFullscreen();else document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen()}
       return}
@@ -307,7 +308,13 @@
       case 'ArrowRight':case ' ':case 'PageDown':e.preventDefault();if(!mapOn)next();break;
       case 'ArrowLeft':case 'Backspace':case 'PageUp':e.preventDefault();if(!mapOn)prev();break;
       case 'ArrowDown':e.preventDefault();if(!mapOn)door(-1);break;
-      case 'ArrowUp':e.preventDefault();if(!mapOn)up();break;
+      case 'ArrowUp':e.preventDefault();if(mapOn)toggleMap(false);else up();break;   // the remote's up: back out of the map, or back to the spine
+      case 'Enter':   // the remote's OK button (Micah, 2026-11-07): once = the document (or the map, where there is none), twice quickly = the map; in the map, closes it
+        e.preventDefault();if(e.repeat)break;
+        if(mapOn){toggleMap(false);break}
+        if(enterT){clearTimeout(enterT);enterT=0;toggleMap(true);break}
+        enterT=setTimeout(function(){enterT=0;if(slideDoc[cur]!=null)zoomOut();else toggleMap(true)},350);
+        break;
       case '1':case '2':case '3':case '4':if(!mapOn)door(+e.key-1);break;
       case 'm':case 'M':toggleMap();break;
       case 'Escape':toggleMap(false);break;
