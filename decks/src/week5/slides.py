@@ -633,10 +633,10 @@ HIDE(BIGQ(Q('&ldquo;Are not even we laics priests?&hellip; But <b>where three ar
 HIDE('<section class="slide breath"><div class=eyebrow>Valid orders</div><h2 style="max-width:none">Whose orders?</h2><div class=sub>Every church claims them, valid and only its own.<br>Who can extend them?</div><aside class=notes>The same shape as &ldquo;Whose conscience?&rdquo; Aquinas, Luther, Zwingli, the Anabaptists: each claimed conscience for himself and could not extend it to others. Each church claims valid orders for itself and cannot extend them to others.</aside></section>')
 HIDE('<section class="slide breath"><div class=eyebrow>Valid orders</div><h2 style="max-width:none">Valid, and only ours</h2><div class=sub>Rome, Jerusalem, Wittenberg, Canterbury, Westminster, Zurich, Boston, the Anabaptists, the Baptists</div><aside class=notes>Every tradition, each in its own words: the bishops&rsquo; succession, the bishops&rsquo; ordinal, the presbytery, the lawful call, the parish, the gathered church, the true baptism. Each refuses the next.</aside></section>')
 def BGC(card, img, pos, credit):   # a title card over a darkened photograph (Chapter 6, Micah 2026-11-07)
-    return (card.replace('<section class="slide breath">', '<section class="slide breath bleed" style="justify-content:center;padding:8vmin">'
+    return (card.replace('<section class="slide breath">', '<section class="slide breath bleed" style="justify-content:flex-end;padding:8vmin 8vmin 11vmin">'
         '<div class=bg><div class=bgimg style="background-image:url(%s);background-position:%s"></div>'
-        '<div style="position:absolute;inset:0;background:rgba(20,17,13,.6)"></div></div>'
-        '<div class=credit style="left:auto;right:2vmin;text-align:right">%s</div>' % (img, pos, credit), 1)
+        '<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,17,13,.12) 0,rgba(20,17,13,.2) 45%%,rgba(20,17,13,.88) 100%%)"></div></div>'
+        '<div class=credit style="left:auto;right:2vmin;text-align:right;text-shadow:0 0 1vmin #000,0 0 .4vmin #000">%s</div>' % (img, pos, credit), 1)
         .replace('<h2 style="max-width:none', '<h2 style="position:relative;z-index:1;text-shadow:0 .3vmin 2vmin rgba(0,0,0,.8);max-width:none', 1))
 A(CARD('Constantinople rejects<br>' + G('Rome.'),
   '1054, and still in 1755. The oldest division, and about whose sacraments count: the Greek patriarchs ruled that Latins coming over be received &ldquo;as unordained and unbaptized.&rdquo;',
