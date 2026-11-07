@@ -498,7 +498,7 @@ A('<section class="slide"><div class=eyebrow>December 25, 1811 &middot; his own 
   '<div class="no frag" style="font-size:clamp(24px,4.6vmin,58px)">In my desire to suffer hardships and reproach in that good work.&rdquo;</div>'
   '</div><div class=cite>' + AC + ' &middot; in Richardson, <i>Memoirs</i></div>'
   '<aside class=notes>Four clicks. Twelve reasons; four shown (his numbers III, VII, XI, XII). The mast comes back: &ldquo;two occasions&rdquo; are the Hibernia off Islay in 1808, and the 1809 crossing on the Latonia, which sprang a leak and nearly went down in a squall.<br>VII: Margaret Brown, married March 1811. XI: the call came from the church, not from a court.</aside></section>')
-A(C('The Ordination', 'Licensed in May 1811; ordained on January 1, 1812. He preached all over the region through 1811 and married Margaret Brown that March. At Christmas he sat down, as he did every year&rsquo;s end, to examine himself.', 'January 1, 1812'))
+A(C('The Ordination', 'Licensed in May 1811; ordained on January 1, 1812. He preached all over the region through 1811 and married Margaret Brown that March. Christmas settled it; a week later, the church ordained him.', 'January 1, 1812'))
 A(BIGQ(Q('&ldquo;We do hereby certify that Alexander Campbell&hellip; was, <b>according to the principles of this Church</b> regularly chosen and ordained a minister thereof, upon the first day of January, one thousand eight hundred and twelve.&rdquo;', 'Certificate of ordination, recorded in the Brooke County court, December 1812 &middot; in Richardson, <i>Memoirs</i>', 'January 1, 1812')) +
   N('He needed it in court to be allowed to perform marriages. Signed at a church meeting at John Dawson&rsquo;s, September 1, 1812.',
     'The cut: &ldquo;after a due course of trials preparatory to the work of the holy ministry.&rdquo;',
@@ -834,7 +834,7 @@ A('<section class="slide breath"><div class=eyebrow>A witness, 1520&ndash;1523</
   '<aside class=notes>Three centuries before Brush Run. The ground of the whole argument: the authority is given in baptism, to every Christian; the congregation&rsquo;s call decides who uses it. Baptismal succession.</aside></section>')
 for _k in _LUTHER:
     A([x for x in _pool if _k in _vis(x)][0])
-A(BIGQ(Q('&ldquo;They themselves do the same thing, and have no other way. <b>Among them no one is ever appointed pope or bishop by the authority of one man, but he is elected and called by the chapter</b>&hellip;&rdquo;', 'Martin Luther, 1523 &middot; for the congregation at Leisnig', 'Even the bishops'), 'clamp(32px,6.8vmin,86px)', '32ch') +
+HIDE(BIGQ(Q('&ldquo;They themselves do the same thing, and have no other way. <b>Among them no one is ever appointed pope or bishop by the authority of one man, but he is elected and called by the chapter</b>&hellip;&rdquo;', 'Martin Luther, 1523 &middot; for the congregation at Leisnig', 'Even the bishops'), 'clamp(32px,6.8vmin,86px)', '32ch') +
   N('<i>That a Christian Assembly or Congregation Has the Right and Power&hellip; to Call&hellip; Teachers</i>, tr. Steinhaeuser, <i>Works of Martin Luther</i> 4. Said of the bishops who condemned congregations for electing ministers: every hierarchy rests on someone&rsquo;s election. The <i>Didache</i>: &ldquo;appoint for yourselves bishops and deacons&rdquo;; <i>1 Clement</i>: &ldquo;with the consent of the whole church.&rdquo;'))
 A(CARD('Before Luther,<br>' + G('the early church.'),
   'c. 100&ndash;210. The congregation appoints; where three are, a church is.',
@@ -893,7 +893,8 @@ for _k in SESSION2: A(IDEA(_k, SESSION2))
 A(IDEASUM(SESSION2, 'Today&rsquo;s ideas', 'Both at once, before the discussion. Last time&rsquo;s five: the table that excludes; nothing required that God has not required; neither side is the gospel; the gates as wide as heaven; the table a foretaste.'))
 A(DISCUSS)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> and the <i>Last Will</i> are there in full; today&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
-          w3b.pick('stone-campbell.micahredding.com'), flags=re.S))
+          w3b.pick('stone-campbell.micahredding.com'), flags=re.S).replace('<h2 class=url>stone-campbell.micahredding.com</h2>',
+          '<h2 class=url style="letter-spacing:.02em"><span style="color:var(--gold)">stone-campbell</span><span style="color:#ede4d3;opacity:.75">.micahredding.com</span></h2>', 1))   # easier to read at a glance (Micah, 2026-11-07)
 A('<section class="slide"><h2>Next week: living into God&rsquo;s future.</h2>'
   '<div class="sub frag">&ldquo;An emblem of the millennial state of the Church.&rdquo; In 1830 he names a journal for it: the <i>Millennial Harbinger</i>.</div>'
   '<aside class=notes>Chapter 7. Alexander pivots from attack journalism to building for the age to come; eschatology as the movement&rsquo;s north star.</aside></section>')
