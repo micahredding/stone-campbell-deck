@@ -736,7 +736,7 @@ A('<section class="slide"><div class=litany style="gap:1.4vmin;width:78vw;max-wi
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid sacraments,</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15;color:var(--gold)">and are thus <i>not churches</i>?</div>'
   '</div><aside class=notes>Four clicks. Let the question extend. Every position we have just seen forces that answer about someone.</aside></section>')
-A(CARD('There is only one way<br>to avoid that conclusion.',
+A(CARD('There is one way<br>to avoid that conclusion.',
   'Pause before the next slide.',
   style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
 A(CARD('The authority flows<br>' + G('from the people.'),
