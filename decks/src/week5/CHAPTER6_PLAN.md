@@ -95,3 +95,5 @@ Payoff: as Thomas extended conscience to all, Brush Run's ground extends validit
 **Deploy note (2026-11-04):** with the inspection images embedded, `decks/chapter6.html` is ~45 MB and a GitHub Pages deploy timed out once (run 508). Removing the unused candidates once Micah chooses will shrink it.
 
 **Deploy fix (2026-11-07):** the inspection images are now linked (`decks/src/chapter6/images/…`, served by Pages) instead of embedded, so `chapter6.html` is ~3.5 MB, not ~45 MB; two Pages deploys had timed out. When publishing Chapter 6 to the public site, copy any images that end up on the spine or embed them.
+
+**Pages deploy note (2026-11-07):** when a Pages deploy times out at "updating pages", re-running it leaves it stuck in the queue; a fresh commit to `main` deploys normally.
