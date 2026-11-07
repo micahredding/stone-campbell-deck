@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Remote test</title>
+<style>
+:root{--bg:#14110d;--fg:#ede4d3;--gold:#d4a74a;--dim:#8a8072}
+body{margin:0;background:var(--bg);color:var(--fg);font:20px/1.4 Georgia,serif;padding:5vmin}
+h1{font-weight:normal;color:var(--gold);margin:0 0 .4em}
+p{color:var(--dim);max-width:46em}
+table{border-collapse:collapse;margin-top:1.4em;width:100%;max-width:56em}
+td,th{text-align:left;padding:.35em .8em;border-bottom:1px solid #2c261e}
+th{color:var(--dim);font-weight:normal}
+tr:first-child td{color:var(--gold)}
+code{font-size:1.05em}
+</style></head><body>
+<h1>Remote test</h1>
+<p>Press each button on the remote once. Then hold each one down for two seconds. Each press shows up below: the key it sends, and whether holding it repeats. Then send a screenshot of the list back in the chat, and the deck can be set to use them.</p>
+<table><thead><tr><th>#</th><th>key</th><th>code</th><th>event</th><th>held (repeat)</th><th>ms since last</th></tr></thead><tbody id=log></tbody></table>
+<script>
+var n=0,last=0,log=document.getElementById('log');
+function add(e){var t=performance.now(),tr=document.createElement('tr');
+  tr.innerHTML='<td>'+(++n)+'</td><td><code>'+(e.key===' '?'Space':e.key)+'</code></td><td><code>'+e.code+'</code></td><td>'+e.type+'</td><td>'+(e.repeat?'yes':'')+'</td><td>'+(last?Math.round(t-last):'')+'</td>';
+  last=t;log.insertBefore(tr,log.firstChild);while(log.children.length>60)log.removeChild(log.lastChild)}
+document.addEventListener('keydown',function(e){e.preventDefault();add(e)});
+document.addEventListener('keyup',function(e){e.preventDefault();add(e)});
+</script></body></html>
