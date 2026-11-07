@@ -48,8 +48,8 @@ def docs(between, clean): return R.docs(between, clean, DOC_KEYS)
 SHORT = R.SHORT
 DOC_DOORS = [('Thomas&rsquo;s letters home', 'October 1808: the family sails', 15),
              ('Richardson&rsquo;s account, whole', 'The Campbells seek out Presbyterian Communion', 0),
-             ('The whole Declaration and Address', 'Stone and the Campbells</h2>', 1),
-             ('The whole will', 'Stone and the Campbells</h2>', 2),
+             ('The whole Declaration and Address', 'Alexander Campbell&rsquo;s position.</span>', 1),
+             ('The whole will', 'Alexander Campbell&rsquo;s position.</span>', 2),
              ('Scripture on the church (KJV)', 'Wherever Two or Three<br>Are Gathered', 4)]
 doc_order = R.doc_order
 
