@@ -672,15 +672,18 @@ A(CARD('Baptists reject<br>' + G('everyone.'),
   style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
 A(BIGQ(Q('&ldquo;Believing their preachers unbaptized, <b>we cannot with the shadow of propriety recognize them as gospel ministers</b>&hellip; <b>The official acts of Pedobaptist preachers have no validity in them.</b> Their falsely so-called baptisms are a nullity&hellip;&rdquo;', 'J. M. Pendleton, <i>An Old Landmark Re-set</i> (1854)', 'And the Baptists, on everyone else (1854)'), 'clamp(40px,8.6vmin,108px)', '24ch') +
   N('Landmark Baptists. Just before: &ldquo;If Pedobaptists are unwilling to recognize as ministers of the gospel men who, in their judgment, have never been baptized, why should Baptists be expected to do so?&rdquo; He states the whole sequence: each church applies its own rule, and the rules cancel one another. Even a congregational ground can be used to refuse.'))
-A('<section class="slide"><div class=eyebrow>Who possesses the authority?</div>'
+A(CARD('Who possesses<br>' + G('the authority?'),
+  'Every church has had to answer. Here are three answers, each a line back to the beginning.',
+  style=';font-size:clamp(52px,12vmin,150px);line-height:1.05'))
+A('<section class="slide"><div class=eyebrow>Every church has its line</div>'
   '<div class=litany style="gap:3vmin;width:80vw;max-width:80vw">'
-  '<div class=no style="font-size:clamp(30px,5.8vmin,74px)">Catholics hold an unbroken line of <b>bishops</b>, back to Peter.</div>'
-  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px)">Presbyterians hold an unbroken body of <b>elders</b>, back to the apostles.</div>'
-  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);color:var(--gold)">Baptists hold an unbroken line of Baptists, back to John the Baptist.</div>'
+  '<div class=no style="font-size:clamp(30px,5.8vmin,74px)">Catholics: an unbroken line of <b>bishops</b>, back to Peter.</div>'
+  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px)">Presbyterians: an unbroken body of <b>elders</b>, back to the apostles.</div>'
+  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);color:var(--gold)">Baptists: an unbroken line of Baptists, back to John the Baptist.</div>'
   '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px)"><i>Or something else?</i></div>'
   '</div>'
   '<aside class=notes>Three clicks; the third is a joke, and gets a laugh; then the real question: does authority belong to a line at all, or to something else? The Presbyterian claim is real: Samuel Miller (1807) argued a succession of presbyters as unbroken as any bishop&rsquo;s. So, nearly, is the joke: Landmark Baptists claimed an unbroken succession of Baptist churches back to the New Testament (G. H. Orchard, 1838; J. M. Carroll, <i>The Trail of Blood</i>, 1931). Each line validates its own ministers, and only its own: which is what we have just watched, church after church.</aside></section>')
-A(CARD('Each can claim it.<br>' + G('None can extend it.'),
+HIDE(CARD('Each can claim it.<br>' + G('None can extend it.'),
   'The conscience chain again: claimed, and then refused. Each foundation recognizes only itself.'))
 A('<section class="slide"><div class=litany style="gap:1.4vmin;width:78vw;max-width:78vw">'
   '<div class=no style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">Do large segments of Christianity have</div>'
