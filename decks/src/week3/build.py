@@ -13,6 +13,7 @@ for _k,_f in (('IMG_STONE','stone.jpg'),('IMG_SIGNING','signing.jpg'),('IMG_STUM
     _dirs = {'4': ['decks/src/week4/'], '5': ['decks/src/week5/', 'decks/src/week2/'], 'r5': ['decks/src/week5/', 'decks/src/week2/']}.get(PART, []) + ['decks/src/week3/']   # a chapter's own images first
     _p = next((d+_f for d in _dirs if os.path.exists(d+_f)), 'decks/src/week3/'+_f)
     if _k in body and not os.path.exists(_p): continue   # an image not yet downloaded: leave the placeholder
+    if _k.startswith('IMG_O_') and _k in body: body=body.replace(_k, 'src/chapter6/images/'+os.path.basename(_f)); continue   # Chapter 6 candidate images: linked, not embedded (keeps the deck small enough for GitHub Pages)
     if _k in body: body=body.replace(_k, 'data:image/jpeg;base64,'+__import__('base64').b64encode(open(_p,'rb').read()).decode())
 css=open('decks/src/week3/engine.css').read()
 css+= ('\n  /* ---- Week 3 type scale (inherited from Week 2) ---- */\n'

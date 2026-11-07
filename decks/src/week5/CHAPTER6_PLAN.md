@@ -93,3 +93,5 @@ Payoff: as Thomas extended conscience to all, Brush Run's ground extends validit
 **Kept on purpose (Micah, 2026-11-03):** in "Who may serve?", side 4 (Campbell, "not as the representative of the Lord, but after his example… And thus they as priests feast upon his sacrifice") stays for the "feast upon his sacrifice" line, and Lipscomb's "This is not officiating" stays for now.
 
 **Deploy note (2026-11-04):** with the inspection images embedded, `decks/chapter6.html` is ~45 MB and a GitHub Pages deploy timed out once (run 508). Removing the unused candidates once Micah chooses will shrink it.
+
+**Deploy fix (2026-11-07):** the inspection images are now linked (`decks/src/chapter6/images/…`, served by Pages) instead of embedded, so `chapter6.html` is ~3.5 MB, not ~45 MB; two Pages deploys had timed out. When publishing Chapter 6 to the public site, copy any images that end up on the spine or embed them.
