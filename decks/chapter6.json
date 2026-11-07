@@ -13,9 +13,9 @@
   {
    "index": 1,
    "n": 2,
-   "title": "Quiz What was carved on the front of the communion table in your church? \"...this do in re",
+   "title": "Quiz Instead of seminaries, we have... A. Sunday schools B. Singing schools C. Preaching s",
    "path": "spine",
-   "doc": "kjv"
+   "doc": null
   },
   {
    "index": 2,
@@ -2038,11 +2038,6 @@
   }
  ],
  "quotes": [
-  {
-   "slide": 1,
-   "doc": "kjv",
-   "text": "this do in remembrance of me."
-  },
   {
    "slide": 5,
    "doc": "dna",

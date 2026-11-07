@@ -449,7 +449,15 @@ A(BLACK)
 
 # ---------- SESSION TWO: OPENING ----------
 A(w3b.S[0].replace('<section', '<section data-session=2', 1))   # the class title (session two)
-A('<section data-src="kjv" class="slide"><div class=eyebrow>Quiz</div>'
+A('<section class="slide"><div class=eyebrow>Quiz</div>'
+  '<h2 style="max-width:none">Instead of seminaries, we have&hellip;</h2>'
+  '<div class="litany" style="text-align:left;gap:1.6vmin;margin-top:4vmin">'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">A.</span>Sunday schools</div>'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">B.</span>Singing schools</div>'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">C.</span>Preaching schools</div>'
+  '</div>'
+  '<aside class=notes>Answer: C (say it; no click). Let the room argue first; all three are ours. The question under it is today&rsquo;s: if not a seminary, a bishop or a presbytery, who makes a minister?</aside></section>')
+HIDE('<section data-src="kjv" class="slide"><div class=eyebrow>Quiz</div>'
   '<h2 style="max-width:22ch">What was carved on the front of the communion table in your church?</h2>'
   '<div class="sub frag" style="font-size:clamp(30px,6vmin,76px);margin-top:4vmin">&ldquo;&hellip;this do in remembrance of me.&rdquo;</div>'
   '<aside class=notes>One click for the answer (Luke 22:19; 1 Corinthians 11:24). Let the room remember their own tables first. An invitation carved where the Seceders kept a fence: this morning is about the fence.</aside></section>')
