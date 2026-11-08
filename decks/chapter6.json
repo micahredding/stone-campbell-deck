@@ -902,65 +902,65 @@
   {
    "index": 128,
    "n": 129,
+   "title": "Alexander, 1824 \"An individual church or congregation of Christ's disciples is the only ec",
+   "path": "spine",
+   "doc": "cb"
+  },
+  {
+   "index": 129,
+   "n": 130,
    "title": "\"The clergy are the opposite to the laity. Both these terms are used in Scripture to denot",
    "path": "spine",
    "doc": "rich"
   },
   {
-   "index": 129,
-   "n": 130,
+   "index": 130,
+   "n": 131,
    "title": "The brethren \" Every thing essential to appointment, call, or ordination was vested in the",
    "path": "spine",
    "doc": null
   },
   {
-   "index": 130,
-   "n": 131,
-   "title": "His views, 1811 \"Each church was independent, and had the exclusive authority to select it",
-   "path": "spine",
-   "doc": "rich"
-  },
-  {
    "index": 131,
    "n": 132,
-   "title": "\"You see that ordination is not a mere unmeaning thing, but consists in the choice of the ",
+   "title": "His views, 1811 \"Each church was independent, and had the exclusive authority to select it",
    "path": "spine",
    "doc": "rich"
   },
   {
    "index": 132,
    "n": 133,
+   "title": "\"You see that ordination is not a mere unmeaning thing, but consists in the choice of the ",
+   "path": "spine",
+   "doc": "rich"
+  },
+  {
+   "index": 133,
+   "n": 134,
    "title": "Church government a resource Who governs the church? What Jesus said, what Cane Ridge will",
    "path": "Who may ordain?",
    "doc": null
   },
   {
-   "index": 133,
-   "n": 134,
-   "title": "To the gathered church \"... tell it unto the church : but if he neglect to hear the church",
-   "path": "Who may ordain?",
-   "doc": "kjv"
-  },
-  {
    "index": 134,
    "n": 135,
-   "title": "\"For where two or three are gathered together in my name , there am I in the midst of them",
+   "title": "To the gathered church \"... tell it unto the church : but if he neglect to hear the church",
    "path": "Who may ordain?",
    "doc": "kjv"
   },
   {
    "index": 135,
    "n": 136,
-   "title": "Thomas Campbell on Matthew 18 Appendix \"'What ye bind on earth shall be bound in heaven' i",
+   "title": "\"For where two or three are gathered together in my name , there am I in the midst of them",
    "path": "Who may ordain?",
-   "doc": "dna"
+   "doc": "kjv"
   },
   {
    "index": 136,
    "n": 137,
-   "title": "\"An individual church or congregation of Christ's disciples is the only ecclesiastical bod",
+   "title": "Thomas Campbell on Matthew 18 Appendix \"'What ye bind on earth shall be bound in heaven' i",
    "path": "Who may ordain?",
-   "doc": "cb"
+   "doc": "dna"
   },
   {
    "index": 137,
@@ -1648,6 +1648,7 @@
   129,
   130,
   131,
+  132,
   143,
   144,
   145,
@@ -1831,9 +1832,8 @@
   },
   {
    "label": "Who may ordain?",
-   "fork": 131,
+   "fork": 132,
    "slides": [
-    132,
     133,
     134,
     135,
@@ -1915,7 +1915,7 @@
   },
   {
    "label": "Close",
-   "at": 92
+   "at": 93
   }
  ],
  "docs": [
@@ -2296,38 +2296,38 @@
   },
   {
    "slide": 128,
+   "doc": "cb",
+   "text": "An individual church or congregation of Christ’s disciples is the only ecclesiastical body recognized in the New Testament. Such a society is ‘the highest court of Christ’ on earth."
+  },
+  {
+   "slide": 129,
    "doc": "rich",
    "text": "The clergy are the opposite to the laity. Both these terms are used in Scripture to denote God’s people. Trace them to their origin and we find no difference."
   },
   {
-   "slide": 130,
+   "slide": 131,
    "doc": "rich",
    "text": "Each church was independent, and had the exclusive authority to select its own officials, who were, when approved, to be set apart by a formal ordination."
   },
   {
-   "slide": 131,
+   "slide": 132,
    "doc": "rich",
    "text": "You see that ordination is not a mere unmeaning thing, but consists in the choice of the people, which must be hearty"
   },
   {
-   "slide": 133,
+   "slide": 134,
    "doc": "kjv",
    "text": "tell it unto the church: but if he neglect to hear the church, let him be unto thee as an heathen man and a publican. Verily I say unto you, Whatsoever ye shall bind on earth shall be bound in heaven"
   },
   {
-   "slide": 134,
+   "slide": 135,
    "doc": "kjv",
    "text": "For where two or three are gathered together in my name, there am I in the midst of them."
   },
   {
-   "slide": 135,
+   "slide": 136,
    "doc": "dna",
    "text": "‘What ye bind on earth shall be bound in heaven’ is the awful sanction of the Church’s judgment, in justly rejecting any person. Take away this, and it has no sanction at all."
-  },
-  {
-   "slide": 136,
-   "doc": "cb",
-   "text": "An individual church or congregation of Christ’s disciples is the only ecclesiastical body recognized in the New Testament. Such a society is ‘the highest court of Christ’ on earth."
   },
   {
    "slide": 137,
@@ -2988,7 +2988,7 @@
    "text": "and there is not between us any serious difficulty about the ordination of these officers, by prayer, fasting, and the imposition of hands."
   },
   {
-   "slide": 129,
+   "slide": 130,
    "text": "Every thing essential to appointment, call, or ordination was vested in the minds of the brethren. Their desires, however expressed, gave the office to the candidate"
   },
   {
