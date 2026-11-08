@@ -902,7 +902,7 @@
   {
    "index": 128,
    "n": 129,
-   "title": "Alexander, 1824 \"An individual church or congregation of Christ's disciples is the only ec",
+   "title": "Alexander, 1824 \"An individual church or congregation of Christ's disciples... is 'the hig",
    "path": "spine",
    "doc": "cb"
   },
@@ -2297,7 +2297,12 @@
   {
    "slide": 128,
    "doc": "cb",
-   "text": "An individual church or congregation of Christ’s disciples is the only ecclesiastical body recognized in the New Testament. Such a society is ‘the highest court of Christ’ on earth."
+   "text": "An individual church or congregation of Christ’s disciples"
+  },
+  {
+   "slide": 128,
+   "doc": "cb",
+   "text": "is ‘the highest court of Christ’ on earth."
   },
   {
    "slide": 129,
