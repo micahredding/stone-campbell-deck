@@ -9,7 +9,7 @@ Written 2026-11-08, after Chapter 6 was taught and published. Read this before s
 - Primary theme: **the future (eschatology)** (CLAUDE.md, theme 4), with the priesthood of all believers and unity as its fruit.
 - The class email (sent text, 2026-11-08) teased it: in 1830 Campbell starts the *Millennial Harbinger*; "what did he think was coming, and what did it mean to live as if it had already begun?"
 - Threads already planted in Chapters 5–6 to pick up:
-  - Brush Run's first Supper (May 5, 1811): "an emblem of the millennial state of the Church". These are **Richardson's** words summarizing the sermon (*Memoirs* 1:366–367), not Campbell's verbatim. Credit them that way.
+  - Brush Run's first Supper (May 5, 1811): "an emblem of the millennial state of the Church". These are **Richardson's** words summarizing the sermon (*Memoirs* 1:369), not Campbell's verbatim. Credit them that way.
   - The *Millennial Harbinger* began in January 1830. Its title refers to the millennium in general; don't claim it was named for the Brush Run sermon.
   - Chapter 6's notes: Campbell's "highest court of Christ on earth" (*Christian Baptist*, July 5, 1824) and the *Christian System* "fountain of official power". Source links for every Chapter 6 quotation are in `week6.md` under "Sources for the quotations".
 - Make a new quiz from `quizzes.md`. Don't build it from the slide material.
