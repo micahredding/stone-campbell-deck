@@ -37,7 +37,10 @@ The freedom of the early chapters was *for* something. The Millennium is "a poli
 Reading Campbell is conflicted for us. The tradition built on him a "pattern theology": the New Testament as a blueprint, read by command, example and necessary inference, with every practice a test of faithfulness. We have rejected that hermeneutic. So what, if anything, can we keep from his outlook?
 
 Two facts help:
-- The pattern was narrower at the start. Thomas Campbell's test was "Thus saith the Lord, either in express terms, or by approved precedent" (D&A), and he made inferences "not formally binding upon the consciences of Christians" (Prop. 6). Binding "necessary inference" became standard a generation later, with Lard and McGarvey (Jorgenson, p. 325 n. 2).
+- "Thus saith the Lord" began as a shield against legalism, not a blueprint. Thomas Campbell used it to limit what anyone could *impose*: no one may "inculcate anything of human authority, of private opinion, or inventions of men… or anything as matter of Christian faith or duty, for which there can not be expressly produced a 'Thus saith the Lord, either in express terms, or by approved precedent'" (D&A, Article V). It is a test that strikes requirements out, not one that builds a positive pattern to be matched.
+  - Where Scripture is silent, "no human authority has power to interfere, in order to supply the supposed deficiency by making laws for the Church; nor can anything more be required of Christians in such cases, but only that they observe these commands and ordinances as will evidently answer the declared and obvious end of their institution." (Prop. 5) Note the measure: the *purpose* of a practice, not its exact form.
+  - Inferences "are… not formally binding upon the consciences of Christians farther than they perceive the connection… Therefore, no such deductions can be made terms of communion." (Prop. 6)
+  - The later hermeneutic turned this around: command, example *and* necessary inference became a positive pattern to be reproduced, and binding inference (the very thing Prop. 6 made non-binding) became standard a generation later, with Lard and McGarvey (Jorgenson, p. 325 n. 2).
 - Campbell himself didn't treat restoration as an end in itself. It pointed somewhere (section 4).
 
 ### 3. An observation: we are Wright-pilled
@@ -69,6 +72,8 @@ Have you noticed? Otter Creek, and increasingly Churches of Christ generally, re
 ### 5. The surprise: a context in which "pattern" makes sense
 
 Campbell, 1825: "Just in so far as the ancient order of things, or the religion of the New Testament, is restored, just so far has the Millennium commenced, and so far has its blessings been enjoyed." (*Christian Baptist* 2, Feb. 7, 1825, p. 136)
+
+And in the *Harbinger*'s first issue he makes the future the test of doctrine: "In detecting the false gospels, nothing will aid us so much as an examination of their tendencies, and a comparison of their effects with what the Millennium proposes. The gospel of no sect can convert the world." (Prefatory Remarks, *Millennial Harbinger* 1, no. 1, 1830) A doctrine is judged by where it leads: does it produce the united, converted world the Millennium promises?
 
 For Campbell, restoring the ancient order was not legalism. It was the way the future begins. Read that way, the question behind our practices is not "what are we permitted?" but "how do we best testify to the future that is coming?"
 - How do we best visibly embody the unity of the church? (One loaf, an open table, "unity of faith, for unity of opinion.")
