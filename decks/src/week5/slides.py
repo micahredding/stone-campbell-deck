@@ -894,11 +894,11 @@ A(CARD('Open to all.<br>' + G('Hosted by any.'),
 A('<section class="slide"><div class=eyebrow>In the Church of Christ</div>'
   '<div class=litany style="gap:1.6vmin;width:80vw;max-width:80vw">'
   '<div class=no style="font-size:clamp(26px,4.9vmin,62px)">No titles: no &ldquo;Reverend.&rdquo;</div>'
+  '<div class="no frag" style="font-size:clamp(26px,4.9vmin,62px)">The preacher is &ldquo;Brother.&rdquo;</div>'
   '<div class="no frag" style="font-size:clamp(26px,4.9vmin,62px)">Members serve at the table.</div>'
   '<div class="no frag" style="font-size:clamp(26px,4.9vmin,62px)">Any Christian may baptize.</div>'
   '<div class="no frag" style="font-size:clamp(26px,4.9vmin,62px)">The congregation picks its elders.</div>'
   '<div class="no frag" style="font-size:clamp(26px,4.9vmin,62px)">Each congregation governs itself.</div>'
-  '<div class="no frag" style="font-size:clamp(26px,4.9vmin,62px)">The preacher is &ldquo;Brother.&rdquo;</div>'
   '<div class="no frag" style="font-size:clamp(26px,4.9vmin,62px)">Preaching schools, not seminaries.</div>'
   '<div class="no frag" style="font-size:clamp(26px,4.9vmin,62px)">Everyone sings.</div>'
   '</div><aside class=notes>Seven clicks. Titles: the Last Will (1804), &ldquo;our name of distinction, with its reverend title, be forgotten&rdquo;; Thomas Campbell had renounced &ldquo;Reverend&rdquo; before the ordination (Richardson 1:337n); Brownlow (1945): &ldquo;There is no mention in the Scriptures of &lsquo;Reverend Paul,&rsquo; &lsquo;Right Reverend James&rsquo; and &lsquo;The Right Reverend Peter&rsquo;&rdquo; (p. 35), and &ldquo;pastor&rdquo; belongs to the elders, not the preacher. The table: by long and mostly unspoken custom, members preside and serve, not the preacher. Baptism: often whoever taught you baptizes you; no ordained hands needed. Elders: the congregation nominates and affirms (Acts 6:3, &ldquo;look ye out among you&rdquo;): Brush Run&rsquo;s &ldquo;choice of the people.&rdquo; Autonomy: Brownlow, &ldquo;Men outside the congregation had no right to exercise authority and power within the congregation&rdquo; (p. 42). The preacher: called and supported by the congregation, as at Leisnig. Preaching schools: this morning&rsquo;s quiz. Singing: no choir; the whole church sings (the singing chapter). Honestly: much of this was men only. The ideal voiced, not yet extended.</aside></section>')
