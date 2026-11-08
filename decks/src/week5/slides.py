@@ -823,11 +823,10 @@ A(CARD('Before him,<br>' + G('Barton Stone&rsquo;s presbytery.'),
   '1804, seven years before Brush Run. Neither side knew the other.',
   style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
 A('<section data-src=will class="slide"><div class=eyebrow>The Springfield Presbytery, 1804 &middot; the court gives up its power</div>'
-  '<div class=litany style="gap:4vmin;font-size:3.3em;max-width:90vw">'
-  '<div class=no>&ldquo;We will, that <b>our power of making laws for the government of the church</b>, and executing them by delegated authority, <b>forever cease</b>&hellip;&rdquo;</div>'
-  '<div class="no frag">&ldquo;We will, that candidates for the Gospel ministry&hellip; <b>obtain license from God</b> to preach the simple Gospel&hellip;&rdquo;</div>'
+  '<div class=litany style="gap:4vmin;max-width:80vw">'
+  '<div class=no style="font-size:clamp(34px,7.2vmin,92px);line-height:1.2">&ldquo;We will, that <b>our power of making laws for the government of the church</b>, and executing them by delegated authority, <b>forever cease</b>&hellip;&rdquo;</div>'
   '</div><div class=cite>The Last Will and Testament of the Springfield Presbytery</div>'
-  '<aside class=notes>One click. Chapter 4, Cane Ridge: the presbytery dissolved itself. Two items about ministers: the presbytery will no longer license anyone; a minister&rsquo;s license comes from God.</aside></section>')
+  '<aside class=notes>Chapter 4, Cane Ridge: the presbytery dissolved itself, and its power to govern the church with it. (The will goes on: candidates for the ministry are to &ldquo;obtain license from God.&rdquo;)</aside></section>')
 A('<section data-src=will class="slide"><div class=eyebrow>The Springfield Presbytery, 1804 &middot; the congregation takes it up</div>'
   '<div class=litany style="gap:4vmin;font-size:3em;max-width:92vw">'
   '<div class=no>&ldquo;We will, that the church of Christ assume <b>her native right of internal government</b>&mdash;<b>try her candidates for the ministry</b>&hellip; and admit no other proof of their authority, but Christ speaking in them.&rdquo;</div>'
