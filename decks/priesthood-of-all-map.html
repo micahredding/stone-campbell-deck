@@ -659,11 +659,11 @@
 
 <section data-src="priest" class="slide"><div class=eyebrow>Luther</div><p class="bigquote"><span class=q>&ldquo;&hellip;all Christians are truly of the &lsquo;spiritual estate,&rsquo; and <b>there is among them no difference at all but that of office</b>&hellip;&rdquo;</span></p><div class=cite>Martin Luther, <i>To the Christian Nobility</i> (1520)</div><aside class=notes>&bull; The sentence before: &ldquo;It is pure invention that pope, bishops, priests and monks are to be called the &lsquo;spiritual estate&rsquo;; princes, lords, artisans, and farmers the &lsquo;temporal estate.&rsquo;&rdquo;</aside></section>
 
-<section data-src="priest" class="slide"><div class=eyebrow>Ordained in baptism</div><p class="bigquote" style="font-size:clamp(36px,8vmin,100px);max-width:28ch;line-height:1.2"><span class=q>&ldquo;For whoever comes out the water of baptism can boast that he is <b>already consecrated priest, bishop and pope</b>&hellip;&rdquo;</span></p><div class=cite>Martin Luther, <i>To the Christian Nobility</i> (1520)</div><aside class=notes>&bull; And: &ldquo;Through baptism all of us are consecrated to the priesthood, as St. Peter says in I Peter 2:9.&rdquo; A minister is one of the priests, chosen by the rest: &ldquo;as though ten brothers, all king&rsquo;s sons and equal heirs, were to choose one of themselves to rule the inheritance for them all.&rdquo;</aside></section>
+<section data-src="priest" class="slide"><div class=eyebrow>Ordained in baptism</div><p class="bigquote" style="font-size:clamp(36px,8vmin,100px);max-width:28ch;line-height:1.2"><span class=q>&ldquo;For whoever comes out the water of baptism can boast that he is <b>already consecrated priest, bishop and pope</b>&hellip;&rdquo;</span></p><div class=cite>Martin Luther, <i>To the Christian Nobility</i> (1520)</div><aside class=notes>&bull; The sentence goes on: &ldquo;though it is not seemly that every one should exercise the office.&rdquo; And: &ldquo;Through baptism all of us are consecrated to the priesthood, as St. Peter says in I Peter 2:9.&rdquo; A minister is one of the priests, chosen by the rest: &ldquo;as though ten brothers, all king&rsquo;s sons and equal heirs, were to choose one of themselves to rule the inheritance for them all.&rdquo;</aside></section>
 
 <section data-src="priest" class="slide"><p class="bigquote long"><span class=q>&ldquo;&hellip;<b>we are all priests, and there is no difference between us</b>; that is to say, we have the same power in respect to the Word and all the sacraments. However, no one may make use of this power except by the consent of the community&hellip;&rdquo;</span></p><div class=cite>Martin Luther, <i>The Babylonian Captivity of the Church</i> (1520)</div><aside class=notes>&bull; The whole sentence ends &ldquo;or by the call of a superior.&rdquo; Every Christian has the power; the community&rsquo;s call decides who uses it. Brush Run&rsquo;s logic, three centuries early.</aside></section>
 
-<section data-src="church" class="slide"><div class=eyebrow>1523</div><p class="bigquote"><span class=q>&ldquo;&hellip;no one can deny that every Christian has God&rsquo;s Word and is taught of God and <b>anointed by Him to the priesthood</b>.&rdquo;</span></p><div class=cite>Martin Luther (1523)</div><aside class=notes>&bull; From the treatise for the congregation at Leisnig, defending its right to call its own pastor.</aside></section>
+<section data-src="church" class="slide"><div class=eyebrow>1523</div><p class="bigquote"><span class=q>&ldquo;&hellip;no one can deny that every Christian has God&rsquo;s Word and is taught of God and <b>anointed by Him to the priesthood</b>.&rdquo;</span></p><div class=cite>Martin Luther, Leisnig treatise (1523) &middot; tr. Steinhaeuser</div><aside class=notes>&bull; From the treatise for the congregation at Leisnig, defending its right to call its own pastor.</aside></section>
 
 <section class="slide breath"><div class=eyebrow>The priesthood of all</div><h2 style="max-width:none">Rome</h2><div class=sub>Vatican II to the 2024 Synod</div></section>
 
@@ -929,7 +929,7 @@
     docOpen=d;seen['d'+d]=1;LS.set('wprmseen',JSON.stringify(seen));LS.set('wprmdoc',String(d));
     var D=docs[d];
     docvEl.innerHTML='<div class=dhead><div class=eyebrow>The whole document</div><h3>'+D.title+'</h3><div class=dsub>'+D.sub+'</div>'+
-      '<div class=dkey>Gold: quoted in tonight&rsquo;s slides &middot; filled = already shown &middot; click a passage to zoom in &middot; z or Esc: back to the slide</div></div>'+
+      '<div class=dkey>Gold: quoted in today&rsquo;s slides &middot; filled = already shown &middot; click a passage to zoom in &middot; z or Esc: back to the slide</div></div>'+
       '<div class=dbody>'+D.html+'</div>';
     var here=null;
     [].slice.call(docvEl.querySelectorAll('mark')).forEach(function(m){
@@ -1030,10 +1030,11 @@
     else if(c==='zoom')zoomOut();
     else if(c.slice(0,4)==='door')door(+c.slice(4)-1);
   }
+  var enterT=0;
   document.addEventListener('keydown',function(e){
     if(e.metaKey||e.ctrlKey||e.altKey)return;
     var mapOn=document.body.classList.contains('mapon');
-    if(docOn()){if(e.key==='z'||e.key==='Z'||e.key==='Escape'){e.preventDefault();closeDoc()}
+    if(docOn()){if(e.key==='z'||e.key==='Z'||e.key==='Escape'||e.key==='ArrowUp'||e.key==='Enter'){e.preventDefault();closeDoc()}
       else if(e.key==='m'||e.key==='M')toggleMap(true);
       else if(e.key==='f'||e.key==='F'){if(document.fullscreenElement)document.exitFullscreen&&document.exitFullscreen();else document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen()}
       return}
@@ -1042,7 +1043,13 @@
       case 'ArrowRight':case ' ':case 'PageDown':e.preventDefault();if(!mapOn)next();break;
       case 'ArrowLeft':case 'Backspace':case 'PageUp':e.preventDefault();if(!mapOn)prev();break;
       case 'ArrowDown':e.preventDefault();if(!mapOn)door(-1);break;
-      case 'ArrowUp':e.preventDefault();if(!mapOn)up();break;
+      case 'ArrowUp':e.preventDefault();if(mapOn)toggleMap(false);else up();break;   // the remote's up: back out of the map, or back to the spine
+      case 'Enter':   // the remote's OK button (Micah, 2026-11-07): once = the document (or the map, where there is none), twice quickly = the map; in the map, closes it
+        e.preventDefault();if(e.repeat)break;
+        if(mapOn){toggleMap(false);break}
+        if(enterT){clearTimeout(enterT);enterT=0;toggleMap(true);break}
+        enterT=setTimeout(function(){enterT=0;if(slideDoc[cur]!=null)zoomOut();else toggleMap(true)},350);
+        break;
       case '1':case '2':case '3':case '4':if(!mapOn)door(+e.key-1);break;
       case 'm':case 'M':toggleMap();break;
       case 'Escape':toggleMap(false);break;
@@ -1052,9 +1059,14 @@
       case 'n':case 'N':setMode(isPresent()?'read':'present');break;
       case 's':case 'S':setStrip(!document.body.classList.contains('strip'));break;
       case 'p':case 'P':openPresenter();break;
-      case 'f':case 'F':
+      case 'f':case 'F':case 'F5':   // F5: a presentation remote's play button (Micah, 2026-11-07); fullscreen instead of reloading
+        e.preventDefault();
         if(document.fullscreenElement)document.exitFullscreen&&document.exitFullscreen();
         else document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();
+        break;
+      case 'b':case 'B':case '.':   // black screen, as in PowerPoint and Keynote (a remote's blank-screen button)
+        if(!document.getElementById('blackout')){var bo=document.createElement('div');bo.id='blackout';bo.style.cssText='position:fixed;inset:0;background:#000;z-index:2147483647;display:none';document.body.appendChild(bo)}
+        var bs=document.getElementById('blackout').style;bs.display=bs.display==='none'?'block':'none';
         break;
     }
   });
