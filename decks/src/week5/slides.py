@@ -603,7 +603,7 @@ A('<section class="slide" style="padding:3vmin 4vmin"><img src="IMG_O_DORT_SYNOD
 A('<section class="slide" style="padding:3vmin 4vmin"><img src="IMG_O_TRENT_SESSION" alt="" style="max-height:76vh;max-width:92vw;width:auto;border-radius:.4vmin;box-shadow:0 1.4vmin 4vmin rgba(0,0,0,.6)"><div class=cite style="margin-top:1.6vmin;font-size:clamp(11px,1.7vmin,20px);max-width:80vw">A general session of the Council of Trent &middot; Claudio Duchetti, Venice (1565) &middot; Rijksmuseum</div><div class=sub style="margin-top:1.2vmin;font-size:clamp(13px,2vmin,24px);max-width:72vw;line-height:1.35">The Council of Trent (1545–63) was Rome&rsquo;s answer to the Reformation. It defined the sacrament of orders and condemned anyone who held that ministers called only by the people or the civil power are true ministers.</div><aside class=notes>For the Trent slide: the council that called ministers made by the people &ldquo;thieves and robbers.&rdquo;</aside></section>')
 A('<section class="slide" style="padding:3vmin 4vmin"><img src="IMG_O_LUTHER_BULL" alt="" style="max-height:76vh;max-width:92vw;width:auto;border-radius:.4vmin;box-shadow:0 1.4vmin 4vmin rgba(0,0,0,.6)"><div class=cite style="margin-top:1.6vmin;font-size:clamp(11px,1.7vmin,20px);max-width:80vw">Luther burns the papal bull, 1520 &middot; Reinier Vinkeles (1783) &middot; Rijksmuseum</div><div class=sub style="margin-top:1.2vmin;font-size:clamp(13px,2vmin,24px);max-width:72vw;line-height:1.35">On December 10, 1520, outside Wittenberg&rsquo;s Elster Gate, Luther burned the papal bull that threatened him with excommunication, together with books of canon law. Rome excommunicated him the next month.</div><aside class=notes>For the Wittenberg slide, or Luther, 1523. End of the image side path.</aside></section>')
 # The positions, before the conflict (Micah, 2026-11-07)
-A('<section class="slide"><div class=eyebrow>Three answers</div>'
+HIDE('<section class="slide"><div class=eyebrow>Three answers</div>'
   '<div class=litany style="gap:3.4vmin;width:80vw;max-width:80vw">'
   '<div class=no style="font-size:clamp(36px,7.4vmin,96px)">Descent from a <b>bishop</b>.</div>'
   '<div class="no frag" style="font-size:clamp(36px,7.4vmin,96px)">Descent from a <b>presbytery</b>.</div>'
@@ -858,7 +858,7 @@ HIDE(BIGQ(Q('&ldquo;In such Churches where there are no Elders, <b>Imposition of
 A(CARD('Before them,<br>' + G('Martin Luther.'),
   '1520&ndash;1523. Ordained in baptism; the congregation calls.',
   style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
-A('<section class="slide breath"><div class=eyebrow>A witness, 1520&ndash;1523</div><h2 style="max-width:none">Martin Luther: ordained in baptism</h2>'
+HIDE('<section class="slide breath"><div class=eyebrow>A witness, 1520&ndash;1523</div><h2 style="max-width:none">Martin Luther: ordained in baptism</h2>'
   '<aside class=notes>Three centuries before Brush Run. The ground of the whole argument: the authority is given in baptism, to every Christian; the congregation&rsquo;s call decides who uses it. Baptismal succession.</aside></section>')
 for _k in _LUTHER:
     if _k == 'the sheep are to judge': continue   # Leisnig, 1523: dropped from the spine (Micah, 2026-11-08)
