@@ -53,6 +53,8 @@ IDEAS = [
      'Not a metaphor and not a slogan: the two or three gathered can make a minister. Brush Run ordained Alexander Campbell &ldquo;according to the principles of this Church.&rdquo; Ordination &ldquo;consists in the choice of the people&rdquo;; &ldquo;the multitude of the faithful, are the fountain of official power.&rdquo; Matthew 18: whatever you bind on earth.'),
     ('The priesthood of all believers<br>' + G('lets us affirm the ministry of the whole church.'),
      'Every line of succession has to reject someone: Constantinople, Rome, Canterbury, Westminster, Zurich, Boston, the Baptists. If the authority is the people&rsquo;s, they may constitute themselves under bishops, presbyters or elders, and every one of those ministries can stand. We can debate the wisdom of each; we need not call any of them false.'),
+    ('Ordinations<br>' + G('have consequences.'),
+     'Elections have consequences; so do ordinations. How a church ordains says where it believes the authority lives: in a line of bishops, in a presbytery, or in the people. Make it a line, and you must reject whoever is outside it. Brush Run put it in the people, and the consequence is the generous one: every church&rsquo;s ministry can stand.')
 ]
 def IDEASUM(ks, eyebrow, note):   # all of a session's ideas on one slide
     return ('<section class="slide room"><div class=eyebrow>%s</div>'
@@ -64,7 +66,7 @@ def IDEA(k, of):   # idea k (1-based in IDEAS), labelled by its place among this
     lab = 'Idea' if len(of) == 1 else 'Idea %d of %d' % (of.index(k) + 1, len(of))
     return ('<section class="slide idea room"><div class=eyebrow>%s</div><h2 style="max-width:none">%s</h2><aside class=notes>%s</aside></section>'
             % (lab, h, n))
-SESSION1, SESSION2 = [1, 2, 3, 4, 5], [6, 7]   # Chapter 5's ideas, Chapter 6's ideas (one slides.py, two decks)
+SESSION1, SESSION2 = [1, 2, 3, 4, 5], [6, 7, 8]   # Chapter 5's ideas, Chapter 6's ideas (one slides.py, two decks)
 
 def UNIFORMITY(eyebrow, back):   # "Unity, or uniformity?": Chapter 5's second question; Chapter 6's side path off the recap
     out = []; U = out.append
@@ -915,7 +917,7 @@ DISCUSS = re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>Backup p
 A(DISCUSS)
 for _x in UNIFORMITY('A question from Chapter 5', '&rarr; Back to Brush Run, a church formed to receive people others shut out.'): A(_x)   # side path: unity, or uniformity? (Chapter 5's side path, not reached there)   # (Micah, 2026-11-07: now off the discussion slide, with any extra questions)
 for _k in SESSION2: A(IDEA(_k, SESSION2))
-A(IDEASUM(SESSION2, 'Today&rsquo;s ideas', 'Both at once, before the discussion. Last time&rsquo;s five: the table that excludes; nothing required that God has not required; neither side is the gospel; the gates as wide as heaven; the table a foretaste.'))
+A(IDEASUM(SESSION2, 'Today&rsquo;s ideas', 'All three at once, before the discussion. Last time&rsquo;s five: the table that excludes; nothing required that God has not required; neither side is the gospel; the gates as wide as heaven; the table a foretaste.'))
 A(DISCUSS)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> and the <i>Last Will</i> are there in full; today&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S).replace('<h2 class=url>stone-campbell.micahredding.com</h2>',
