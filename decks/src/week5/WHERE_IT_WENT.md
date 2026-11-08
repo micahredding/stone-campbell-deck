@@ -180,3 +180,4 @@ Everything is in `micahredding/stone-campbell-database`, folder `10 Research Pro
 - 2026-11-08 (Micah): "Still with us" (three lines) hidden; replaced by the list "In the Church of Christ" (eight items) and Brownlow's "Each Christian is a priest" (1945), placed after "The whole church remembers" and before "And before all of them, Jesus."
 - 2026-11-08 (Micah): hidden from Chapter 6's spine: Luther for the congregation at Leisnig (1523), "the sheep are to judge".
 - 2026-11-08 (Micah): hidden from Chapter 6: Matthew 16:18–19 ("To Peter"); Matthew 18 now shows verses 18 and 20 (19 cut).
+- 2026-11-08 (Micah): Chapter 6's first discussion slide (before the ideas) removed; the side path "Unity, or uniformity?" now hangs off the discussion slide after the ideas.

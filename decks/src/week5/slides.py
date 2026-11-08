@@ -918,11 +918,10 @@ A(BLACK)
 # ---------- CLOSE ----------
 DISCUSS = re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>Backup prompts (off the slide): Who gives thanks at our table, and why that person? Who has authority in our congregation, and where did it come from? What would it mean to believe every member could be called?</aside>',
                  w3b.pick('&#9670; for discussion', 0), flags=re.S).replace('&#9670; for discussion', '&#9670; for discussion &middot; Chapter 6', 1)
-A(DISCUSS)
-for _x in UNIFORMITY('A question from Chapter 5', '&rarr; Back to Brush Run, a church formed to receive people others shut out.'): A(_x)   # side path: unity, or uniformity? (Chapter 5's side path, not reached there)   # (Micah, 2026-11-07: now off the discussion slide, with any extra questions)
 for _k in SESSION2: A(IDEA(_k, SESSION2))
 A(IDEASUM(SESSION2, 'Today&rsquo;s ideas', 'All three at once, before the discussion. Last time&rsquo;s five: the table that excludes; nothing required that God has not required; neither side is the gospel; the gates as wide as heaven; the table a foretaste.'))
 A(DISCUSS)
+for _x in UNIFORMITY('A question from Chapter 5', '&rarr; Back to Brush Run, a church formed to receive people others shut out.'): A(_x)   # side path: unity, or uniformity? (Chapter 5's side path, not reached there)   # (Micah, 2026-11-07: now off the discussion slide, with any extra questions)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. The <i>Declaration and Address</i> and the <i>Last Will</i> are there in full; today&rsquo;s other source is Richardson&rsquo;s <i>Memoirs of Alexander Campbell</i> (1868).</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S).replace('<h2 class=url>stone-campbell.micahredding.com</h2>',
           '<h2 class=url style="letter-spacing:.02em"><span style="color:var(--gold)">stone-campbell</span><span style="color:#ede4d3;opacity:.75">.micahredding.com</span></h2>', 1))   # easier to read at a glance (Micah, 2026-11-07)
