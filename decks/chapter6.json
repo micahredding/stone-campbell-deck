@@ -1532,69 +1532,76 @@
   {
    "index": 218,
    "n": 219,
-   "title": "Idea 1 of 2 The priesthood of all believers holds real authority.",
+   "title": "Idea 1 of 3 The priesthood of all believers holds real authority.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 219,
    "n": 220,
-   "title": "Idea 2 of 2 The priesthood of all believers lets us affirm the ministry of the whole churc",
+   "title": "Idea 2 of 3 The priesthood of all believers lets us affirm the ministry of the whole churc",
    "path": "spine",
    "doc": null
   },
   {
    "index": 220,
    "n": 221,
-   "title": "Today's ideas 1. The priesthood of all believers holds real authority. 2. The priesthood o",
+   "title": "Idea 3 of 3 Ordinations have consequences.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 221,
    "n": 222,
-   "title": "for discussion Chapter 6 What is beautiful here? What do we carry forward?",
+   "title": "Today's ideas 1. The priesthood of all believers holds real authority. 2. The priesthood o",
    "path": "spine",
    "doc": null
   },
   {
    "index": 222,
    "n": 223,
-   "title": "Online stone-campbell .micahredding.com Home Timeline Exhibits People Exhibits Timeline Pe",
+   "title": "for discussion Chapter 6 What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
   {
    "index": 223,
    "n": 224,
+   "title": "Online stone-campbell .micahredding.com Home Timeline Exhibits People Exhibits Timeline Pe",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 224,
+   "n": 225,
    "title": "Next week: living into God's future. \"An emblem of the millennial state of the Church.\" In",
    "path": "spine",
    "doc": "rich"
   },
   {
-   "index": 224,
-   "n": 225,
+   "index": 225,
+   "n": 226,
    "title": "(black)",
    "path": "spine",
    "doc": null
   },
   {
-   "index": 225,
-   "n": 226,
-   "title": "Addendum",
-   "path": "Addendum",
-   "doc": null
-  },
-  {
    "index": 226,
    "n": 227,
-   "title": "The year, in order Oct 1808 the Hibernia wrecked off Islay; Glasgow for the winter Sep 180",
+   "title": "Addendum",
    "path": "Addendum",
    "doc": null
   },
   {
    "index": 227,
    "n": 228,
+   "title": "The year, in order Oct 1808 the Hibernia wrecked off Islay; Glasgow for the winter Sep 180",
+   "path": "Addendum",
+   "doc": null
+  },
+  {
+   "index": 228,
+   "n": 229,
    "title": "What this week touched CHRIST ALONE UNITY PRIESTHOOD FUTURE HOMECOMING SELF-SACRIFICE FREE",
    "path": "Addendum",
    "doc": null
@@ -1697,7 +1704,8 @@
   221,
   222,
   223,
-  224
+  224,
+  225
  ],
  "branches": [
   {
@@ -1896,11 +1904,11 @@
   },
   {
    "label": "Addendum",
-   "fork": 224,
+   "fork": 225,
    "slides": [
-    225,
     226,
-    227
+    227,
+    228
    ]
   }
  ],
@@ -2758,7 +2766,7 @@
    "text": "Duty then is ours; but events belong to God."
   },
   {
-   "slide": 223,
+   "slide": 224,
    "doc": "rich",
    "text": "An emblem of the millennial state of the Church."
   }

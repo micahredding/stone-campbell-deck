@@ -45,6 +45,7 @@
 
 1. **The priesthood of all believers holds real authority.** Not a metaphor: the two or three gathered can make a minister. Brush Run ordained Alexander Campbell "according to the principles of this Church"; ordination "consists in the choice of the people"; "the multitude of the faithful, are the fountain of official power." Matthew 18: whatever you bind on earth.
 2. **The priesthood of all believers lets us affirm the ministry of the whole church.** Every line of succession has to reject someone. If the authority is the people's, they may constitute themselves under bishops, presbyters or elders, and every one of those ministries can stand: we can debate the wisdom of each, and need not call any of them false.
+3. **Ordinations have consequences.** How a church ordains says where it believes the authority lives: in a line of bishops, in a presbytery, or in the people. Make it a line, and you must reject whoever is outside it. Put it in the people, and every church's ministry can stand.
 
 *Earlier notes:*
 
