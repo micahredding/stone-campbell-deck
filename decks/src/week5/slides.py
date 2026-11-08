@@ -841,6 +841,7 @@ A(CARD('Before them,<br>' + G('Martin Luther.'),
 A('<section class="slide breath"><div class=eyebrow>A witness, 1520&ndash;1523</div><h2 style="max-width:none">Martin Luther: ordained in baptism</h2>'
   '<aside class=notes>Three centuries before Brush Run. The ground of the whole argument: the authority is given in baptism, to every Christian; the congregation&rsquo;s call decides who uses it. Baptismal succession.</aside></section>')
 for _k in _LUTHER:
+    if _k == 'the sheep are to judge': continue   # Leisnig, 1523: dropped from the spine (Micah, 2026-11-08)
     A([x for x in _pool if _k in _vis(x)][0])
 HIDE(BIGQ(Q('&ldquo;They themselves do the same thing, and have no other way. <b>Among them no one is ever appointed pope or bishop by the authority of one man, but he is elected and called by the chapter</b>&hellip;&rdquo;', 'Martin Luther, 1523 &middot; for the congregation at Leisnig', 'Even the bishops'), 'clamp(32px,6.8vmin,86px)', '32ch') +
   N('<i>That a Christian Assembly or Congregation Has the Right and Power&hellip; to Call&hellip; Teachers</i>, tr. Steinhaeuser, <i>Works of Martin Luther</i> 4. Said of the bishops who condemned congregations for electing ministers: every hierarchy rests on someone&rsquo;s election. The <i>Didache</i>: &ldquo;appoint for yourselves bishops and deacons&rdquo;; <i>1 Clement</i>: &ldquo;with the consent of the whole church.&rdquo;'))
