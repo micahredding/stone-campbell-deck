@@ -873,8 +873,9 @@ HIDE(C('Why the people?', 'The theory behind the ordination: why Brush Run belie
 A(CARD('Who gave them<br>' + G('that authority?'),
   'The opening question again (Micah, 2026-11-08). Then the answer.',
   eyebrow='The question, again', style=';font-size:clamp(52px,12vmin,150px);line-height:1.05'))
-A(CARD(G('The priesthood of all believers.'),
-  'The meaning Brush Run attached to it: the authority to make a minister is in the congregation, because every member is a priest. Luther said it first: whoever comes out of the water of baptism is already priest, bishop and pope.', eyebrow='The answer'))
+A(CARD(G('Christ.'),
+  'Who gave them that authority? Christ: &ldquo;where two or three gather in my name, there am I with them.&rdquo; He gives it to his people gathered, every member a priest, so the congregation could make a minister. The priesthood of all believers is how it reaches them; Christ is where it comes from.',
+  eyebrow='The answer', style=';font-size:clamp(72px,18vmin,230px);line-height:1'))
 # side path "Who may serve?": Campbell on the royal priesthood at the table, then the history (shared resource table())
 A(C('Who serves the table?', 'Side path: who may serve? Brush Run kept the Supper every Lord&rsquo;s day, open to every Christian. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers.'))
 A(SRC(BIGQ(Q('&ldquo;May they not, <b>without a human priest to consecrate the way for them</b>, approach the Lord&rsquo;s table, and <b>handle the loaf and cup</b>?&rdquo;', CS, 'The same priesthood keeps the table'), 'clamp(32px,7.2vmin,90px)', '34ch'), 'acr') +
