@@ -48,10 +48,11 @@ IDEAS = [
      'His own line, November 1810: &ldquo;to open the gates of admission into the Church as wide as the gates of heaven.&rdquo; The Synod would not stand on that ground; Stone, Thomas and Alexander each did.'),
     ('The table is a foretaste<br>' + G('of the church to come.'),
      'The first Supper at Brush Run, May 5, 1811: &ldquo;an emblem of the millennial state of the Church.&rdquo; Not only a memory of the cross; a taste of the future. In 1830 he names a journal for it: the <i>Millennial Harbinger</i>.'),
-    ('The church can gather<br>' + G('for those who are shut out.'),
-     'Brush Run became a church because its people were refused &ldquo;those privileges&hellip; which belong to the Church relation.&rdquo; No synod granted it; the people constituted it, with great reluctance, for each other&rsquo;s sake.'),
-    ('The priesthood of all believers<br>' + G('makes its ministers.'),
-     'Ordination &ldquo;consists in the choice of the people&rdquo;: the two or three gathered hold the priesthood&rsquo;s authority, given in baptism. Brush Run did what the Last Will bequeathed. &ldquo;The community, the church, the multitude of the faithful, are the fountain of official power.&rdquo; No clergy-laity line. Side paths: who may ordain?; who may serve?; the whole church remembers.'),
+    # Chapter 6's ideas (Micah, 2026-11-08). Retired: 'The church can gather for those who are shut out'; 'The priesthood of all believers makes its ministers'.
+    ('The priesthood of all believers<br>' + G('holds real authority.'),
+     'Not a metaphor and not a slogan: the two or three gathered can make a minister. Brush Run ordained Alexander Campbell &ldquo;according to the principles of this Church.&rdquo; Ordination &ldquo;consists in the choice of the people&rdquo;; &ldquo;the multitude of the faithful, are the fountain of official power.&rdquo; Matthew 18: whatever you bind on earth.'),
+    ('The priesthood of all believers<br>' + G('lets us affirm the ministry of the whole church.'),
+     'Every line of succession has to reject someone: Constantinople, Rome, Canterbury, Westminster, Zurich, Boston, the Baptists. If the authority is the people&rsquo;s, they may constitute themselves under bishops, presbyters or elders, and every one of those ministries can stand. We can debate the wisdom of each; we need not call any of them false.'),
 ]
 def IDEASUM(ks, eyebrow, note):   # all of a session's ideas on one slide
     return ('<section class="slide room"><div class=eyebrow>%s</div>'
