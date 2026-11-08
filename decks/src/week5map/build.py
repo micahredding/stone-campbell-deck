@@ -75,3 +75,21 @@ mapdeck.build(dict(base, key='w6', chapter='Chapter 6', page_title='Chapter 6 &m
     out='decks/chapter6.html', keep=lambda S: (_split(S) + 1, len(S) - 1),
     side=[x for x in SIDE if x[0] not in ONE_SIDE], sections=SECTIONS6,
     doc_doors=[x for x in DOC_DOORS if x[0] not in ONE_DOORS]))
+
+# The taught Chapter 6 for the public site (Micah, 2026-11-08: "as taught… without the side paths"): the spine only,
+# its linked images embedded so the file stands alone. Publish with stone-campbell's scripts/strip-deck-notes.mjs.
+mapdeck.build(dict(base, key='w6t', chapter='Chapter 6', page_title='Chapter 6 &middot; Wherever Two or Three Are Gathered',
+    out='decks/chapter6-taught.html', keep=lambda S: (_split(S) + 1, len(S) - 1), drop_side=True,
+    side=[x for x in SIDE if x[0] not in ONE_SIDE], sections=SECTIONS6, doc_doors=[]))
+import base64 as _b64, re as _re
+_t = open('decks/chapter6-taught.html').read()
+_cache = {}
+def _small(name):   # each picture at most 960px on its long side, so the published file stays a reasonable size
+    if name not in _cache:
+        from PIL import Image; import io
+        im = Image.open('decks/src/chapter6/images/' + name).convert('RGB'); im.thumbnail((960, 960))
+        b = io.BytesIO(); im.save(b, 'JPEG', quality=68); _cache[name] = _b64.b64encode(b.getvalue()).decode()
+    return _cache[name]
+_t = _re.sub(r'src/chapter6/images/([\w.-]+\.jpg)', lambda m: 'data:image/jpeg;base64,' + _small(m.group(1)), _t)
+open('decks/chapter6-taught.html', 'w').write(_t)
+print('embedded images in decks/chapter6-taught.html:', round(len(_t) / 1e6, 1), 'MB')

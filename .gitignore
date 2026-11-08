@@ -1,3 +1,7 @@
 .obsidian/
 ..md
 __pycache__/
+
+# the public copy of Chapter 6 (images embedded; published to micahredding/stone-campbell as site/decks/week-6.html)
+decks/chapter6-taught.html
+decks/chapter6-taught.json
