@@ -266,8 +266,8 @@ def consent():
            'Cyprian, bishop of Carthage, c. 250', 'The governance of all',
            'A bishop of the third century, to his clergy, on how he had governed from the beginning.'),
         _u('&ldquo;<b>He who is to govern all, should be chosen by all.</b>&rdquo;',
-           'Leo the Great, bishop of Rome, Letter 10 (444)', '',
-           'The next sentence: &ldquo;The consent of the clergy, the testimony of those held in honour, the approval of the orders and the laity should be required.&rdquo; A pope.'),
+           'Leo the Great, bishop of Rome, Letter 10 (c. 445)', '',
+           'The next sentence: &ldquo;The consent of the clergy, the testimony of those held in honour, the approval of the orders and the laity should be required.&rdquo; A pope; the same letter strips Hilary of Arles of his rights and asserts Rome&rsquo;s primacy. The election rule is the old canon all the same.'),
         '<section data-src=church class="slide"><div class=eyebrow>Luther, 1523 &middot; for the congregation at Leisnig</div>'
         '<div class=litany style="font-size:1.6em;max-width:86vw;gap:3.4vmin">'
         '<div class="no frag">&ldquo;&hellip;<b>the sheep are to judge</b> whether what they teach is the voice of Christ or the voice of strangers.&rdquo;</div>'
@@ -278,11 +278,11 @@ def consent():
            'Martin Luther, <i>That a Christian Assembly or Congregation Has the Right and Power to Judge All Teaching and to Call, Appoint, and Dismiss Teachers</i> (1523)', 'Luther, 1523 &middot; a witness',
            'The ground of the congregation&rsquo;s right: every baptized Christian is a priest.'),
         _u('&ldquo;If the bishop does not confirm him, <b>he is none the less confirmed by virtue of the call of the congregation</b>.&rdquo;',
-           'Martin Luther (1523)', 'Luther, 1523',
+           'Martin Luther, Leisnig treatise (1523) &middot; tr. Steinhaeuser', 'Luther, 1523 &middot; on a preacher the congregation has called',
            'Luther wrote it and later settled for princes running the church. Brush Run, three centuries on, did it.'),
         _u('&ldquo;&hellip;<b>the protector of religion is the very body of the Church, even the people themselves</b>&hellip;&rdquo;',
-           'Encyclical of the Eastern Patriarchs (1848)', 'Orthodox',
-           'The four Orthodox patriarchs, answering Pius IX: neither patriarchs nor councils could introduce novelties, because the people guard the faith. And at every Orthodox ordination the people still shout <i>Axios!</i>, &ldquo;He is worthy!&rdquo;, the trace of the time when the whole church chose.'),
+           'Encyclical of the Eastern Patriarchs (1848), &sect;17', 'Orthodox',
+           'The four Orthodox patriarchs, answering Pius IX: neither patriarchs nor councils could introduce novelties, because the people guard the faith. (The people as guardians of the faith, not as its governors; the sentence ends &ldquo;who desire their religious worship to be ever unchanged.&rdquo;) And at every Orthodox ordination the people still shout <i>Axios!</i>, &ldquo;He is worthy!&rdquo;, the trace of the time when the whole church chose.'),
         _u('&ldquo;&hellip;in this Church, as in an inverted pyramid, <b>the top is located beneath the base</b>. Consequently, those who exercise authority are called &lsquo;ministers&rsquo;, because, in the original meaning of the word, <b>they are the least of all</b>.&rdquo;',
            'Pope Francis, October 17, 2015', 'Catholic',
            'The same address quotes &ldquo;a principle dear to the Church of the first millennium&rdquo;: <i>quod omnes tangit ab omnibus tractari debet</i>, what touches all should be discussed by all.'),
@@ -837,10 +837,10 @@ def priesthood(extra=(), table=()):
         _p('&ldquo;&hellip;all Christians are truly of the &lsquo;spiritual estate,&rsquo; and <b>there is among them no difference at all but that of office</b>&hellip;&rdquo;', 'Martin Luther, <i>To the Christian Nobility</i> (1520)', 'Luther',
            'The sentence before: &ldquo;It is pure invention that pope, bishops, priests and monks are to be called the &lsquo;spiritual estate&rsquo;; princes, lords, artisans, and farmers the &lsquo;temporal estate.&rsquo;&rdquo;'),
         _p('&ldquo;For whoever comes out the water of baptism can boast that he is <b>already consecrated priest, bishop and pope</b>&hellip;&rdquo;', 'Martin Luther, <i>To the Christian Nobility</i> (1520)', 'Ordained in baptism',
-           'And: &ldquo;Through baptism all of us are consecrated to the priesthood, as St. Peter says in I Peter 2:9.&rdquo; A minister is one of the priests, chosen by the rest: &ldquo;as though ten brothers, all king&rsquo;s sons and equal heirs, were to choose one of themselves to rule the inheritance for them all.&rdquo;', size='clamp(36px,8vmin,100px)', width='28ch'),
+           'The sentence goes on: &ldquo;though it is not seemly that every one should exercise the office.&rdquo; And: &ldquo;Through baptism all of us are consecrated to the priesthood, as St. Peter says in I Peter 2:9.&rdquo; A minister is one of the priests, chosen by the rest: &ldquo;as though ten brothers, all king&rsquo;s sons and equal heirs, were to choose one of themselves to rule the inheritance for them all.&rdquo;', size='clamp(36px,8vmin,100px)', width='28ch'),
         _p('&ldquo;&hellip;<b>we are all priests, and there is no difference between us</b>; that is to say, we have the same power in respect to the Word and all the sacraments. However, no one may make use of this power except by the consent of the community&hellip;&rdquo;', 'Martin Luther, <i>The Babylonian Captivity of the Church</i> (1520)', '',
            'The whole sentence ends &ldquo;or by the call of a superior.&rdquo; Every Christian has the power; the community&rsquo;s call decides who uses it. Brush Run&rsquo;s logic, three centuries early.'),
-        _p('&ldquo;&hellip;no one can deny that every Christian has God&rsquo;s Word and is taught of God and <b>anointed by Him to the priesthood</b>.&rdquo;', 'Martin Luther (1523)', '1523',
+        _p('&ldquo;&hellip;no one can deny that every Christian has God&rsquo;s Word and is taught of God and <b>anointed by Him to the priesthood</b>.&rdquo;', 'Martin Luther, Leisnig treatise (1523) &middot; tr. Steinhaeuser', '1523',
            'From the treatise for the congregation at Leisnig, defending its right to call its own pastor.', src='church'),
 
         _psec('Rome', 'Vatican II to the 2024 Synod'),
