@@ -894,6 +894,8 @@ for _x in R.table()[1:-1]:                       # its history, without its own 
 A(CARD('Open to all.<br>' + G('Hosted by any.'),
   'Brush Run&rsquo;s table was weekly and its fences were coming down. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers. Not only open; hosted by any.'))
 # In the Church of Christ (Micah, 2026-11-08): how we have practiced it, as a list; Brownlow to show it is still with us
+A(BIGQ(Q('&ldquo;<b>Each Christian is a priest</b> in that he can &lsquo;offer up spiritual sacrifices, acceptable to God through Jesus Christ,&rsquo; the High Priest.&rdquo;', 'Leroy Brownlow, <i>Why I Am a Member of the Church of Christ</i> (1945), p. 31', 'Still with us &middot; 1945'), 'clamp(34px,7.4vmin,92px)', '30ch') +
+  N('From his list of what the New Testament calls every member: &ldquo;royal priesthood&rdquo; (1 Peter 2:9). The book many here grew up with. Still with us.'))
 A('<section class="slide"><div class=eyebrow>In the Church of Christ</div>'
   '<div class=litany style="gap:1.6vmin;width:80vw;max-width:80vw">'
   '<div class=no style="font-size:clamp(26px,4.9vmin,62px)">No titles: no &ldquo;Reverend.&rdquo;</div>'
@@ -905,8 +907,6 @@ A('<section class="slide"><div class=eyebrow>In the Church of Christ</div>'
   '<div class="no frag" style="font-size:clamp(26px,4.9vmin,62px)">Preaching schools, not seminaries.</div>'
   '<div class="no frag" style="font-size:clamp(26px,4.9vmin,62px)">Everyone sings.</div>'
   '</div><aside class=notes>Seven clicks. Titles: the Last Will (1804), &ldquo;our name of distinction, with its reverend title, be forgotten&rdquo;; Thomas Campbell had renounced &ldquo;Reverend&rdquo; before the ordination (Richardson 1:337n); Brownlow (1945): &ldquo;There is no mention in the Scriptures of &lsquo;Reverend Paul,&rsquo; &lsquo;Right Reverend James&rsquo; and &lsquo;The Right Reverend Peter&rsquo;&rdquo; (p. 35), and &ldquo;pastor&rdquo; belongs to the elders, not the preacher. The table: by long and mostly unspoken custom, members preside and serve, not the preacher. Baptism: often whoever taught you baptizes you; no ordained hands needed. Elders: the congregation nominates and affirms (Acts 6:3, &ldquo;look ye out among you&rdquo;): Brush Run&rsquo;s &ldquo;choice of the people.&rdquo; Autonomy: Brownlow, &ldquo;Men outside the congregation had no right to exercise authority and power within the congregation&rdquo; (p. 42). The preacher: called and supported by the congregation, as at Leisnig. Preaching schools: this morning&rsquo;s quiz. Singing: no choir; the whole church sings (the singing chapter). Honestly: much of this was men only. The ideal voiced, not yet extended.</aside></section>')
-A(BIGQ(Q('&ldquo;<b>Each Christian is a priest</b> in that he can &lsquo;offer up spiritual sacrifices, acceptable to God through Jesus Christ,&rsquo; the High Priest.&rdquo;', 'Leroy Brownlow, <i>Why I Am a Member of the Church of Christ</i> (1945), p. 31', 'Still with us &middot; 1945'), 'clamp(34px,7.4vmin,92px)', '30ch') +
-  N('From his list of what the New Testament calls every member: &ldquo;royal priesthood&rdquo; (1 Peter 2:9). The book many here grew up with. Still with us.'))
 HIDE('<section class="slide"><div class=eyebrow>Still with us</div>'
   '<div class=litany style="gap:3.4vmin;width:80vw;max-width:80vw">'
   '<div class=no style="font-size:clamp(36px,7.4vmin,96px)">No &ldquo;Reverend.&rdquo;</div>'
