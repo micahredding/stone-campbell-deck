@@ -11,7 +11,7 @@
 3. Eschatology drives us in various ways, which may look very different
 
 **Connections:** 
-- Stone saw Cane Ridge as the Spirit moving towards something
+- Stone saw Cane Ridge as the Spirit moving towards God's future
 - Stone saw the Springfield Presbytery in light of the age to come
 - Alexander Campbell says in his first sermon that Communion is a taste of the Millennial Church. This connects with the Communion theme throughout.
 - David Lipscomb takes eschatology as reason for radical non-conformity
