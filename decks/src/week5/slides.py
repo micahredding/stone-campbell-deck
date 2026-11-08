@@ -870,8 +870,11 @@ A('<section class="slide"><div class=eyebrow>Matthew 18:18&ndash;20</div>'
   '</div><div class=cite>Matthew 18:18&ndash;20, New International Version</div>'
   '<aside class=notes>Two clicks. Said to the disciples gathered, not to an office: the power to bind and loose, heaven&rsquo;s agreement with two who agree, and Christ himself in the midst of two or three. The priesthood of all believers in Jesus&rsquo; own words, and the authority the whole chain has been pointing to. Thomas Campbell, in the Appendix: &ldquo;What ye bind on earth shall be bound in heaven&rdquo; is &ldquo;the awful sanction of the Church&rsquo;s judgment.&rdquo;</aside></section>')
 HIDE(C('Why the people?', 'The theory behind the ordination: why Brush Run believed the authority to make a minister was its own.', 'The meaning of January 1, 1812'))
+A(CARD('Who gave them<br>' + G('that authority?'),
+  'The opening question again (Micah, 2026-11-08). Then the answer.',
+  eyebrow='The question, again', style=';font-size:clamp(52px,12vmin,150px);line-height:1.05'))
 A(CARD('A minister, made by<br>' + G('the priesthood of all believers.'),
-  'The meaning Brush Run attached to it: the authority to make a minister is in the congregation, because every member is a priest. Luther said it first: whoever comes out of the water of baptism is already priest, bishop and pope.'))
+  'The meaning Brush Run attached to it: the authority to make a minister is in the congregation, because every member is a priest. Luther said it first: whoever comes out of the water of baptism is already priest, bishop and pope.', eyebrow='The answer'))
 # side path "Who may serve?": Campbell on the royal priesthood at the table, then the history (shared resource table())
 A(C('Who serves the table?', 'Side path: who may serve? Brush Run kept the Supper every Lord&rsquo;s day, open to every Christian. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers.'))
 A(SRC(BIGQ(Q('&ldquo;May they not, <b>without a human priest to consecrate the way for them</b>, approach the Lord&rsquo;s table, and <b>handle the loaf and cup</b>?&rdquo;', CS, 'The same priesthood keeps the table'), 'clamp(32px,7.2vmin,90px)', '34ch'), 'acr') +
