@@ -747,12 +747,12 @@ A('<section class="slide"><div class=eyebrow>Every church has its line</div>'
   '<aside class=notes>Three clicks; the third is a joke, and gets a laugh; then the real question: does authority belong to a line at all, or to something else? The Presbyterian claim is real: Samuel Miller (1807) argued a succession of presbyters as unbroken as any bishop&rsquo;s. So, nearly, is the joke: Landmark Baptists claimed an unbroken succession of Baptist churches back to the New Testament (G. H. Orchard, 1838; J. M. Carroll, <i>The Trail of Blood</i>, 1931). Each line validates its own ministers, and only its own: which is what we have just watched, church after church.</aside></section>')
 HIDE(CARD('Each can claim it.<br>' + G('None can extend it.'),
   'The conscience chain again: claimed, and then refused. Each foundation recognizes only itself.'))
-A('<section class="slide"><div class=litany style="gap:1.4vmin;width:78vw;max-width:78vw">'
-  '<div class=no style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">Do large segments of Christianity have</div>'
-  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid orders,</div>'
-  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid ministers,</div>'
-  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15">no valid sacraments,</div>'
-  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);line-height:1.15;color:var(--gold)">and are thus <i>not churches</i>?</div>'
+A('<section class="slide"><div class=litany style="gap:1vmin;width:94vw;max-width:94vw">'
+  '<div class=no style="font-size:clamp(46px,9.6vmin,124px);line-height:1.1">Do large segments of Christianity have</div>'
+  '<div class="no frag" style="font-size:clamp(46px,9.6vmin,124px);line-height:1.1">no valid orders,</div>'
+  '<div class="no frag" style="font-size:clamp(46px,9.6vmin,124px);line-height:1.1">no valid ministers,</div>'
+  '<div class="no frag" style="font-size:clamp(46px,9.6vmin,124px);line-height:1.1">no valid sacraments,</div>'
+  '<div class="no frag" style="font-size:clamp(46px,9.6vmin,124px);line-height:1.1;color:var(--gold)">and are thus <i>not churches</i>?</div>'
   '</div><aside class=notes>Four clicks. Let the question extend. Every position we have just seen forces that answer about someone.</aside></section>')
 A(CARD('There is one way<br>to avoid that conclusion.',
   'Pause before the next slide.',
