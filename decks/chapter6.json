@@ -1203,16 +1203,16 @@
   {
    "index": 171,
    "n": 172,
-   "title": "To Peter \"Thou art Peter, and upon this rock I will build my church... And I will give unt",
+   "title": "To Peter \"...you are Peter, and on this rock I will build my church... I will give you the",
    "path": "spine",
    "doc": "kjv"
   },
   {
    "index": 172,
    "n": 173,
-   "title": "Matthew 18:18-20 \"Verily I say unto you, Whatsoever ye shall bind on earth shall be bound ",
+   "title": "Matthew 18:18-20 \"Truly I tell you, whatever you bind on earth will be bound in heaven , a",
    "path": "spine",
-   "doc": "kjv"
+   "doc": null
   },
   {
    "index": 173,
@@ -2490,17 +2490,7 @@
   {
    "slide": 171,
    "doc": "kjv",
-   "text": "Thou art Peter, and upon this rock I will build my church"
-  },
-  {
-   "slide": 171,
-   "doc": "kjv",
-   "text": "And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven"
-  },
-  {
-   "slide": 172,
-   "doc": "kjv",
-   "text": "Verily I say unto you, Whatsoever ye shall bind on earth shall be bound in heaven: and whatsoever ye shall loose on earth shall be loosed in heaven.Again I say unto you, That if two of you shall agree on earth as touching any thing that they shall ask, it shall be done for them of my Father which is in heaven.For where two or three are gathered together in my name, there am I in the midst of them."
+   "text": "you are Peter, and on this rock I will build my church"
   },
   {
    "slide": 175,
@@ -3013,6 +3003,14 @@
   {
    "slide": 163,
    "text": "appoint for yourselves bishops and deacons worthy of the Lord, men meek, and not lovers of money, and truthful and proven"
+  },
+  {
+   "slide": 171,
+   "text": "I will give you the keys of the kingdom of heaven; whatever you bind on earth will be bound in heaven"
+  },
+  {
+   "slide": 172,
+   "text": "Truly I tell you, whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven.Again, truly I tell you that if two of you on earth agree about anything they ask for, it will be done for them by my Father in heaven.For where two or three gather in my name, there am I with them."
   },
   {
    "slide": 195,

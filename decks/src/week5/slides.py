@@ -860,14 +860,14 @@ for _k in _WHOLE: A(_pick(_k))                  # the Eastern Patriarchs (1848),
 A(CARD('And before all of them,<br>' + G('Jesus.'),
   'Matthew 16, then Matthew 18. The chapter&rsquo;s title.',
   style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
-A(BIGQ(Q('&ldquo;Thou art Peter, and upon this rock I will build my church&hellip; And I will give unto thee the keys of the kingdom of heaven: and <b>whatsoever thou shalt bind on earth shall be bound in heaven</b>&hellip;&rdquo;', 'Matthew 16:18&ndash;19, King James Version', 'To Peter'), 'clamp(32px,6.8vmin,86px)', '32ch') +
+A(BIGQ(Q('&ldquo;&hellip;you are Peter, and on this rock I will build my church&hellip; I will give you the keys of the kingdom of heaven; <b>whatever you bind on earth will be bound in heaven</b>&hellip;&rdquo;', 'Matthew 16:18&ndash;19, New International Version', 'To Peter'), 'clamp(32px,6.8vmin,86px)', '32ch') +
   N('The keys, to Peter: Rome reads it as the founding of Peter&rsquo;s line, and Catholics, Orthodox and Protestants argue over what was given to him. Two chapters later the same words are said to all the disciples gathered.'))
 A('<section class="slide"><div class=eyebrow>Matthew 18:18&ndash;20</div>'
   '<div class=litany style="gap:2.2vmin;width:80vw;max-width:80vw">'
-  '<div class=no style="font-size:clamp(30px,5.8vmin,74px)">&ldquo;Verily I say unto you, <b>Whatsoever ye shall bind on earth shall be bound in heaven</b>: and whatsoever ye shall loose on earth shall be loosed in heaven.</div>'
-  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px)">Again I say unto you, That <b>if two of you shall agree on earth</b> as touching any thing that they shall ask, it shall be done for them of my Father which is in heaven.</div>'
-  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);color:var(--gold)">For where two or three are gathered together in my name, there am I in the midst of them.&rdquo;</div>'
-  '</div><div class=cite>Matthew 18:18&ndash;20, King James Version</div>'
+  '<div class=no style="font-size:clamp(30px,5.8vmin,74px)">&ldquo;Truly I tell you, <b>whatever you bind on earth will be bound in heaven</b>, and whatever you loose on earth will be loosed in heaven.</div>'
+  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px)">Again, truly I tell you that <b>if two of you on earth agree</b> about anything they ask for, it will be done for them by my Father in heaven.</div>'
+  '<div class="no frag" style="font-size:clamp(30px,5.8vmin,74px);color:var(--gold)">For where two or three gather in my name, there am I with them.&rdquo;</div>'
+  '</div><div class=cite>Matthew 18:18&ndash;20, New International Version</div>'
   '<aside class=notes>Two clicks. Said to the disciples gathered, not to an office: the power to bind and loose, heaven&rsquo;s agreement with two who agree, and Christ himself in the midst of two or three. The priesthood of all believers in Jesus&rsquo; own words, and the authority the whole chain has been pointing to. Thomas Campbell, in the Appendix: &ldquo;What ye bind on earth shall be bound in heaven&rdquo; is &ldquo;the awful sanction of the Church&rsquo;s judgment.&rdquo;</aside></section>')
 HIDE(C('Why the people?', 'The theory behind the ordination: why Brush Run believed the authority to make a minister was its own.', 'The meaning of January 1, 1812'))
 A(CARD('A minister, made by<br>' + G('the priesthood of all believers.'),
