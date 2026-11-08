@@ -1126,30 +1126,30 @@
   {
    "index": 160,
    "n": 161,
-   "title": "The first church order \"... appoint for yourselves bishops and deacons worthy of the Lord,",
+   "title": "\" He who is to govern all, should be chosen by all. \" Leo the Great, bishop of Rome, Lette",
    "path": "spine",
-   "doc": null
+   "doc": "church"
   },
   {
    "index": 161,
    "n": 162,
-   "title": "Carthage, c. 210 \"Are not even we laics priests?... where there is no joint session of the",
-   "path": "spine",
-   "doc": "priest"
-  },
-  {
-   "index": 162,
-   "n": 163,
    "title": "The governance of all \"...I made up my mind to do nothing on my own private opinion, witho",
    "path": "spine",
    "doc": "church"
   },
   {
+   "index": 162,
+   "n": 163,
+   "title": "Carthage, c. 210 \"Are not even we laics priests?... where there is no joint session of the",
+   "path": "spine",
+   "doc": "priest"
+  },
+  {
    "index": 163,
    "n": 164,
-   "title": "\" He who is to govern all, should be chosen by all. \" Leo the Great, bishop of Rome, Lette",
+   "title": "The first church order \"... appoint for yourselves bishops and deacons worthy of the Lord,",
    "path": "spine",
-   "doc": "church"
+   "doc": null
   },
   {
    "index": 164,
@@ -2438,24 +2438,24 @@
    "text": "If the bishop does not confirm him, he is none the less confirmed by virtue of the call of the congregation."
   },
   {
-   "slide": 161,
-   "doc": "priest",
-   "text": "Are not even we laics priests?"
+   "slide": 160,
+   "doc": "church",
+   "text": "He who is to govern all, should be chosen by all."
   },
   {
    "slide": 161,
-   "doc": "tbl",
-   "text": "where there is no joint session of the ecclesiastical Order, you offer, and baptize, and are priest, alone for yourself. But where three are, a church is, albeit they be laics."
-  },
-  {
-   "slide": 162,
    "doc": "church",
    "text": "I made up my mind to do nothing on my own private opinion, without your advice and without the consent of the people."
   },
   {
-   "slide": 163,
-   "doc": "church",
-   "text": "He who is to govern all, should be chosen by all."
+   "slide": 162,
+   "doc": "priest",
+   "text": "Are not even we laics priests?"
+  },
+  {
+   "slide": 162,
+   "doc": "tbl",
+   "text": "where there is no joint session of the ecclesiastical Order, you offer, and baptize, and are priest, alone for yourself. But where three are, a church is, albeit they be laics."
   },
   {
    "slide": 165,
@@ -3011,7 +3011,7 @@
    "text": "Every thing essential to appointment, call, or ordination was vested in the minds of the brethren. Their desires, however expressed, gave the office to the candidate"
   },
   {
-   "slide": 160,
+   "slide": 163,
    "text": "appoint for yourselves bishops and deacons worthy of the Lord, men meek, and not lovers of money, and truthful and proven"
   },
   {
