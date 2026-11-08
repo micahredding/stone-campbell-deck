@@ -842,7 +842,7 @@ A('<section data-src=will class="slide"><div class=eyebrow>The Springfield Presb
   '<div class="no frag">&ldquo;We will, that each particular church, as a body&hellip; <b>choose her own preacher</b>&hellip; and <b>never henceforth delegate her right of government to any man or set of men whatever</b>.&rdquo;</div>'
   '</div><div class=cite>The Last Will and Testament of the Springfield Presbytery</div>'
   '<aside class=notes>One click. Where the authority goes: to each congregation. Seven years later and hundreds of miles away, a congregation that never heard of the will tried its own candidate, licensed him in May 1811 and ordained him in January 1812.</aside></section>')
-A(CARD('The Springfield Presbytery died<br>so that congregations could choose.<br>' + G('Brush Run chose.'),
+HIDE(CARD('The Springfield Presbytery died<br>so that congregations could choose.<br>' + G('Brush Run chose.'),
   'Neither side knew the other existed. The two streams meet in 1832; they already agreed.'))
 HIDE(C('The other chain, in full', 'Back from Brush Run: the Puritans, Luther, the early church. The same witnesses as the contrast, at length.', 'Side path &middot; the other chain'))
 HIDE(CARD('Before them,<br>' + G('the Puritans of New England.'),
