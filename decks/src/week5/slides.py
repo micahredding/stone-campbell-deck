@@ -641,20 +641,23 @@ def BGQS(slide, img, pos, credit):   # a quotation over the same darkened photog
         '<div class=bg><div class=bgimg style="background-image:url(%s);background-position:%s"></div>'
         '<div style="position:absolute;inset:0;background:rgba(20,17,13,.78)"></div></div>'
         '<div class=credit style="left:auto;right:2vmin;text-align:right;text-shadow:0 0 1vmin #000,0 0 .4vmin #000">%s</div>' % (img, pos, credit), 1)
+LIGHT = lambda x: x.replace('rgba(20,17,13,.12) 0,rgba(20,17,13,.2) 45%,rgba(20,17,13,.88) 100%', 'rgba(20,17,13,0) 0,rgba(20,17,13,.04) 50%,rgba(20,17,13,.74) 100%', 1)   # a brighter overlay for a title card (Micah, 2026-11-08)
 def BGC(card, img, pos, credit):   # a title card over a darkened photograph (Chapter 6, Micah 2026-11-07)
     return (card.replace('<section class="slide breath">', '<section class="slide breath bleed" style="justify-content:flex-end;padding:8vmin 8vmin 11vmin">'
         '<div class=bg><div class=bgimg style="background-image:url(%s);background-position:%s"></div>'
         '<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,17,13,.12) 0,rgba(20,17,13,.2) 45%%,rgba(20,17,13,.88) 100%%)"></div></div>'
         '<div class=credit style="left:auto;right:2vmin;text-align:right;text-shadow:0 0 1vmin #000,0 0 .4vmin #000">%s</div>' % (img, pos, credit), 1)
         .replace('<h2 style="max-width:none', '<h2 style="position:relative;z-index:1;text-shadow:0 .3vmin 2vmin rgba(0,0,0,.8);max-width:none', 1))
-A(BGC(CARD('Constantinople rejects<br>' + G('Rome.'),
+A(LIGHT(BGC(CARD('Constantinople rejects<br>' + G('Rome.'),
   '1054, and still in 1755. The oldest division, and about whose sacraments count: the Greek patriarchs ruled that Latins coming over be received &ldquo;as unordained and unbaptized.&rdquo;',
-  style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'), 'IMG_O_HAGIASOPHIA', 'center 45%', 'Eduard Hildebrandt, <i>View of the Hagia Sophia in Constantinople</i>, c. 1852'))
+  style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'), 'IMG_O_HAGIASOPHIA', 'center 75%', 'Eduard Hildebrandt, <i>View of the Hagia Sophia in Constantinople</i>, c. 1852')))
+
 A(BGQS(BIGQ(Q('&ldquo;&hellip;knowing only one, our own, Holy Catholic and Apostolic Church, acknowledge only her Sacraments&hellip; and <b>such as come over to us from them [the Latins] we receive as unordained and unbaptized</b>.&rdquo;', 'Patriarchs of Constantinople, Alexandria and Jerusalem, the <i>Oros</i> of 1755 &middot; tr. William Palmer (1853)', 'Constantinople, on the Latins (1755)'), 'clamp(32px,6.8vmin,86px)', '32ch') +
   N('Greek <i>hōs anierous kai abaptistous dechometha</i>: &ldquo;as without priesthood and unbaptized.&rdquo; The same decree: those &ldquo;baptized by them with a baptism which is no Baptism we receive as unbaptized.&rdquo; No Latin rite counted, ordination included. The break goes back to 1054, when Rome&rsquo;s legate already charged the Greeks with rebaptizing Latins and holding that outside their church &ldquo;the true sacrifice and baptism have perished from the whole world.&rdquo; The 1848 Encyclical of the Eastern Patriarchs: &ldquo;the congregations of such are also heretical.&rdquo;'), 'IMG_O_HAGIASOPHIA', 'center 45%', 'Eduard Hildebrandt, <i>View of the Hagia Sophia in Constantinople</i>, c. 1852'))
-A(BGC(CARD('The Orthodox reject<br>' + G('the Protestants.'),
+A(LIGHT(BGC(CARD('The Orthodox reject<br>' + G('the Protestants.'),
   '1672, and still the rule: the same ground as Rome, the bishops&rsquo; succession.',
-  style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'), 'IMG_O_LUCARIS', 'center 22%', 'Cyril Lucaris, Patriarch of Constantinople, whose Calvinist confession the Synod of Jerusalem condemned &middot; portrait, Geneva, 1632'))
+  style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'), 'IMG_O_LUCARIS', 'center 36%', 'Cyril Lucaris, Patriarch of Constantinople, whose Calvinist confession the Synod of Jerusalem condemned &middot; portrait, Geneva, 1632')))
+
 A(BGQS(BIGQ(Q('&ldquo;&hellip;the dignity of the Bishop is so necessary in the Church, that <b>without him, neither Church nor Christian could either be or be spoken of</b>. For he, as a successor of the Apostles, having received in continued succession by the imposition of hands&hellip; is <b>a fountain of all the Mysteries</b>&hellip;&rdquo;', 'Synod of Jerusalem, Confession of Dositheus, Decree X (1672) &middot; tr. Robertson', 'Jerusalem, on the Calvinists (1672)'), 'clamp(30px,6.4vmin,80px)', '34ch') +
   N('Called to answer a Calvinist confession published under the name of Cyril Lucaris; the Synod calls the Calvinists &ldquo;manifestly heretics, and the chiefest of heretics.&rdquo; (Robertson, <i>The Acts and Decrees of the Synod of Jerusalem</i>, 1899, p. 124.) Still the practice: Orthodox churches do not recognize Protestant ordinations; a Protestant minister who becomes Orthodox is received as a layman and, to serve, is ordained. A statement of the Russian Orthodox Church Outside of Russia, on its official website: &ldquo;The Orthodox Church excludes any possibility of liturgical communion with the non-Orthodox.&rdquo;'), 'IMG_O_LUCARIS', 'center 22%', 'Cyril Lucaris, Patriarch of Constantinople, whose Calvinist confession the Synod of Jerusalem condemned &middot; portrait, Geneva, 1632'))
 A(BGC(CARD('Rome rejects<br>' + G('the Reformers.'),
