@@ -830,9 +830,19 @@ A(CARD('If the authority is the people&rsquo;s,<br>' + G('every church&rsquo;s m
 A(CARD('Don&rsquo;t get me wrong.',
   'Don&rsquo;t get me wrong: this is not the argument Campbell makes most of the time. He had seen Scotland: the independents, the Haldanes and Greville Ewing, against the established churches. He believed the clergy of those churches deeply corrupt, monopolizing authority and power that belong to the people, and that is what he usually says. But there is an asymmetry worth keeping in mind.',
   eyebrow='Not his usual argument', style=';font-size:clamp(52px,11vmin,140px);line-height:1.05'))
-A(CARD('The established church <i>must</i> reject the independent.<br>' + G('The independent need not reject the established church.'),
-  'A one-way door. The Church of Scotland was duty-bound to reject the ministry of Ewing and the Haldanes: its doctrine, its official teaching, what it stands for as an institution, require it. The independents were not bound to reject the established clergy: they could affirm their own ministry and the ministry of the established churches too. And if established clergy wished to recognize Ewing&rsquo;s or the Haldanes&rsquo; ministry as a true ministry (as, in Campbell&rsquo;s view, they ought), they could do it only by coming to the same conclusion: the authority inheres in the people, not in the episcopacy or the presbytery as such.',
-  eyebrow='A one-way door', style=';font-size:clamp(40px,8vmin,104px);line-height:1.1'))
+A('<section class="slide" style="padding:4vmin 4vw"><div class=eyebrow>A one-way door</div>'
+  '<div style="display:flex;gap:5vw;align-items:flex-start;justify-content:center;width:92vw">'
+  '<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:1.6vmin">'
+  '<img src="IMG_O_EWING" alt="" style="height:44vh;width:auto;border-radius:.4vmin;box-shadow:0 1.4vmin 4vmin rgba(0,0,0,.6);filter:sepia(.15)">'
+  '<div class=cite style="font-size:clamp(11px,1.8vmin,22px);margin:0">Greville Ewing, 1797 &middot; then a Church of Scotland minister</div>'
+  '<div style="font-size:clamp(28px,5.2vmin,66px);line-height:1.12;text-align:center;max-width:40vw">The established church <i>must</i> reject the independent.</div>'
+  '</div>'
+  '<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:1.6vmin">'
+  '<img src="IMG_O_JHALDANE" alt="" style="height:44vh;width:auto;border-radius:.4vmin;box-shadow:0 1.4vmin 4vmin rgba(0,0,0,.6);filter:sepia(.15)">'
+  '<div class=cite style="font-size:clamp(11px,1.8vmin,22px);margin:0">James Haldane, 1801 &middot; lay preacher, Leith Walk Tabernacle</div>'
+  '<div style="font-size:clamp(28px,5.2vmin,66px);line-height:1.12;text-align:center;max-width:40vw;color:var(--gold)">The independent need not reject the established church.</div>'
+  '</div>'
+  '</div><aside class=notes>' + 'A one-way door. The Church of Scotland was duty-bound to reject the ministry of Ewing and the Haldanes: its doctrine, its official teaching, what it stands for as an institution, require it. The independents were not bound to reject the established clergy: they could affirm their own ministry and the ministry of the established churches too. And if established clergy wished to recognize Ewing&rsquo;s or the Haldanes&rsquo; ministry as a true ministry (as, in Campbell&rsquo;s view, they ought), they could do it only by coming to the same conclusion: the authority inheres in the people, not in the episcopacy or the presbytery as such.' + ' Images: John Kay, <i>Original Portraits</i> (1838): Ewing in gown and bands in 1797, still in the Church of Scotland (he left it in 1799 to join the Haldanes); James Haldane in plain lay dress at his own pulpit, 1801.</aside></section>')   # (Micah, 2026-11-08)
 A(CARD('Before him,<br>' + G('Barton Stone&rsquo;s presbytery.'),
   '1804, seven years before Brush Run. Neither side knew the other.',
   style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
