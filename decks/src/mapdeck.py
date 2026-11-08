@@ -55,6 +55,14 @@ def build(cfg):
         while side_of[fork] is not None: fork -= 1     # the spine slide this hangs from
         branches.append({'label': label, 'fork': fork, 'slides': list(range(i, j + 1))})
     spine = [i for i in range(len(S)) if side_of[i] is None]
+    if cfg.get('drop_side'):   # a deck without its side paths (the public copy of a taught chapter): drop them, keep the spine
+        drop = {i for i in range(len(S)) if side_of[i] is not None}
+        spans = [m.span() for m in re.finditer(r'<section\b.*?</section>', html, flags=re.S)]
+        assert len(spans) == len(S)
+        for k in sorted(drop, reverse=True):
+            p, q = spans[k]; html = html[:p] + html[q:]
+        S = [x for i, x in enumerate(S) if i not in drop]
+        side_of, branches, spine = [None] * len(S), [], list(range(len(S)))
     sections = []
     for label, a in SECTIONS:
         i = find(a)
