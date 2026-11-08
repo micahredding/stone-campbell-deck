@@ -545,14 +545,14 @@
   {
    "index": 77,
    "n": 78,
-   "title": "Protestants reject each other.",
+   "title": "August Noack, Religionsgespr ch zu Marburg 1529 (detail), 1867-69 Protestants reject each ",
    "path": "spine",
    "doc": null
   },
   {
    "index": 78,
    "n": 79,
-   "title": "Wittenberg, at Marburg (1529) \"...we decreed by unanimous consent that they are strangers ",
+   "title": ".bgq>*:not(.bg){position:relative;z-index:1}.bgq .bigquote{text-shadow:0 .3vmin 2vmin rgba",
    "path": "spine",
    "doc": null
   },
@@ -566,21 +566,21 @@
   {
    "index": 80,
    "n": 81,
-   "title": "Anglicans reject the Presbyterians.",
+   "title": "The Book of Common Prayer (1662), title page Anglicans reject the Presbyterians.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 81,
    "n": 82,
-   "title": "Canterbury, on the Presbyterians (1662) \"...no man shall be accounted or taken to be a law",
+   "title": ".bgq>*:not(.bg){position:relative;z-index:1}.bgq .bigquote{text-shadow:0 .3vmin 2vmin rgba",
    "path": "spine",
    "doc": null
   },
   {
    "index": 82,
    "n": 83,
-   "title": "Canterbury, on a minister without a bishop's hands (1662) \"...shall be utterly disabled an",
+   "title": ".bgq>*:not(.bg){position:relative;z-index:1}.bgq .bigquote{text-shadow:0 .3vmin 2vmin rgba",
    "path": "spine",
    "doc": null
   },
@@ -601,14 +601,14 @@
   {
    "index": 85,
    "n": 86,
-   "title": "Presbyterians reject the Independents.",
+   "title": "John Rogers Herbert, Assertion of Liberty of Conscience by the Independents of the Westmin",
    "path": "spine",
    "doc": null
   },
   {
    "index": 86,
    "n": 87,
-   "title": "The London Presbyterians, on ordination by the people (1654) \"For all Ordination by the pe",
+   "title": ".bgq>*:not(.bg){position:relative;z-index:1}.bgq .bigquote{text-shadow:0 .3vmin 2vmin rgba",
    "path": "spine",
    "doc": null
   },
@@ -622,14 +622,14 @@
   {
    "index": 88,
    "n": 89,
-   "title": "The Reformed reject the Anabaptists.",
+   "title": "The drowning of Felix Manz, Zurich, 1527 Jan Luyken, Martyrs Mirror (1685), hand-colored T",
    "path": "spine",
    "doc": null
   },
   {
    "index": 89,
    "n": 90,
-   "title": "Zurich, on the Anabaptists (1527) \"...their own self-grown sect, factions and gatherings, ",
+   "title": ".bgq>*:not(.bg){position:relative;z-index:1}.bgq .bigquote{text-shadow:0 .3vmin 2vmin rgba",
    "path": "spine",
    "doc": null
   },
@@ -650,14 +650,14 @@
   {
    "index": 92,
    "n": 93,
-   "title": "Congregationalists reject the Baptists.",
+   "title": "Whipping of Obadiah Holmes, Boston, 1651 Bryant Gay (1878) Congregationalists reject the B",
    "path": "spine",
    "doc": null
   },
   {
    "index": 93,
    "n": 94,
-   "title": "Boston, on the Baptists (1665) \"This Court... doe judge meete to declare, that the sajd Go",
+   "title": ".bgq>*:not(.bg){position:relative;z-index:1}.bgq .bigquote{text-shadow:0 .3vmin 2vmin rgba",
    "path": "spine",
    "doc": null
   },
@@ -2914,6 +2914,10 @@
   {
    "slide": 81,
    "text": "hath had Episcopal Consecration, or Ordination."
+  },
+  {
+   "slide": 82,
+   "text": "Ejection of Nonconformists on St. Bartholomew’s Day"
   },
   {
    "slide": 82,
