@@ -188,3 +188,4 @@ Everything is in `micahredding/stone-campbell-database`, folder `10 Research Pro
 - 2026-11-08 (Micah): hidden from Chapter 6: "Three answers" (duplicated "Every church has its line") and the Luther title slide "A witness, 1520–1523: Martin Luther, ordained in baptism" (duplicated the card "Before them, Martin Luther").
 - 2026-11-08 (Micah): hidden from Chapter 6: the 1645 ordinance ("no person be permitted to preach who is not Ordained"); "null and void" (1654) carries Presbyterians reject the Independents.
 - 2026-11-08 (Micah): hidden from Chapter 6: the Act of Uniformity slide ("as if he was naturally dead"); the line and the Great Ejection are now in the notes of the 1662 Ordinal slide.
+- 2026-11-08 (Micah): Schmemann ("he is the priest") moved off Chapter 6's spine, back into the side path "The whole church remembers".
