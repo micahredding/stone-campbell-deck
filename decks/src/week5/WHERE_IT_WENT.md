@@ -184,3 +184,4 @@ Everything is in `micahredding/stone-campbell-database`, folder `10 Research Pro
 - 2026-11-08 (Micah): hidden from Chapter 6: "His views, 1811" (Richardson: "Each church was independent, and had the exclusive authority to select its own officials").
 - 2026-11-08 (Micah): cut from Chapter 6 slide 60 (the court gives up its power): the will's second item, "candidates for the Gospel ministry… obtain license from God" (now in the notes).
 - 2026-11-08 (Micah): Tertullian (Montanist period) hidden from Chapter 6's early church; Cyprian's Epistle 5 ("without the consent of the people") replaced by Epistle 67 ("the power either of choosing worthy priests, or of rejecting unworthy ones"); added Irenaeus, Against Heresies 4.8.3, and 1 Clement 44.3. Texts checked against the ANF on newadvent.org.
+- 2026-11-08 (Micah): hidden from Chapter 6: the card "The Springfield Presbytery died so that congregations could choose. Brush Run chose."
