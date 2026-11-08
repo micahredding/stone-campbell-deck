@@ -59,3 +59,50 @@
 ## Future
 
 *What is beautiful here? What do we carry forward?*
+
+## Sources for the quotations (online texts)
+
+Slide numbers are the Chapter 6 deck's counter (2026-11-08).
+
+**Brush Run and Campbell**
+- 5–7, 9, 54–55, 52: Richardson, *Memoirs of Alexander Campbell*, vol. 1 (1868), pp. 342, 367, 379, 381–383, 390 — https://archive.org/details/memoirsalexande00unkngoog
+- 49: Campbell, *The Christian System*, "Order" §XIX — https://archive.org/details/christiansystem00camp
+- 50: Campbell–Rice debate (1843), p. 583 — https://archive.org/details/debatebetweenrev00camp
+- 51, 53: *The Christian Baptist* (July 5, 1824; Aug. 7, 1826) — https://archive.org/details/christianbaptis00burngoog
+- 60: Last Will and Testament of the Springfield Presbytery — on the class site, Documents
+
+**The rejections**
+- 14: the *Oros* of 1755, in Palmer, *Dissertations on the Orthodox Communion* (1853), pp. 200–201 — https://archive.org/details/dissertationsons00palmuoft
+- 16: Council of Trent, Session XXIII, ch. 4 (Waterworth) — https://history.hanover.edu/texts/trent/ct23.html
+- 18: Leo XIII, *Apostolicae Curae* §36 — https://www.papalencyclicals.net/leo13/l13curae.htm
+- 20: Vatican II, *Unitatis Redintegratio* 22 — https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19641121_unitatis-redintegratio_en.html
+- 21: CDF, Responses (2007), fifth question — https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20070629_responsa-quaestiones_en.html
+- 23: Synod of Jerusalem, Decree X (Robertson, 1899) — https://archive.org/details/actsdecreesofsyn00orth
+- 25–26: Brenz (1529) and Luther to Frankfurt (1533), Weimar Ausgabe 30/III — https://archive.org/details/dmartinlutherswe1303luth
+- 28: 1662 Ordinal, Preface — any 1662 *Book of Common Prayer*
+- 29: Act of Uniformity 1662, §IX — https://www.legislation.gov.uk/aep/Cha2/14/4/section/IX/enacted
+- 31: Charles Wesley to Chandler, 1785, in Jackson, *Life of Charles Wesley* 2:391–392 — https://archive.org/details/lifeofrevcharles02jack
+- 33: *Jus Divinum Ministerii Evangelici* (1654), EEBO-TCP A46373 — https://distantreader.org/stacks/earlyprint/txt/A46373.txt
+- 34: Ordinance of April 26, 1645, EEBO-TCP A82846 — https://distantreader.org/stacks/earlyprint/txt/A82846.txt
+- 36: Zurich sentence on Felix Manz (1527), Egli, *Actensammlung* no. 1109 — https://archive.org/details/bub_gb_CGRKAAAAYAAJ
+- 38: Menno Simons, *Complete Works* (1871) 1:88 — https://archive.org/details/completeworksofm00menn
+- 40: Massachusetts General Court, Oct. 1665, Shurtleff, *Records* 4:2, pp. 290–291 — https://archive.org/details/recordsofgoverno42mass
+- 42: J. M. Pendleton, *An Old Landmark Re-set* (1854) — https://www.oocities.org/baptist_documents/pendleton.landmark.reset.html
+
+**Luther and the early church**
+- 65–67: Luther, *To the Christian Nobility* and *The Babylonian Captivity* (1520), *Works of Martin Luther* vol. 2 — https://archive.org/details/worksofmartinlut02luth
+- 68–69: Luther, Leisnig treatise (1523), *Works of Martin Luther* vol. 4 — https://archive.org/details/in.ernet.dli.2015.75685
+- 71: Leo the Great, Letter 10 — https://www.newadvent.org/fathers/3604010.htm
+- 72: Cyprian, Epistle 67 — https://www.newadvent.org/fathers/050667.htm
+- 73: Irenaeus, *Against Heresies* 4.8.3 — https://www.newadvent.org/fathers/0103408.htm
+- 74: *Didache* 15.1 (Roberts–Donaldson) — https://www.earlychristianwritings.com/text/didache-roberts.html
+- 75: *1 Clement* 44.3 — https://www.newadvent.org/fathers/1010.htm
+
+**The whole church, and after**
+- 77: Encyclical of the Eastern Patriarchs (1848) §17 — https://sourcebooks.web.fordham.edu/mod/1848orthodoxencyclical.asp
+- 78: Afanasiev, *The Church of the Holy Spirit* (Notre Dame, 2007), p. 3 — in print; not online
+- 79: Schmemann, *For the Life of the World* (1963), ch. 1 — in print; not online
+- 80: Pope Francis, October 17, 2015 — https://www.vatican.va/content/francesco/en/speeches/2015/october/documents/papa-francesco_20151017_50-anniversario-sinodo.html
+- 81: Synod on Synodality, Final Document (2024) §21, §23 — https://www.synod.va/content/dam/synod/news/2024-10-26_final-document/ENG---Documento-finale.pdf
+- 83: Matthew 18:18, 20 (NIV) — https://www.biblegateway.com/passage/?search=Matthew+18%3A18-20&version=NIV
+- 87: Brownlow, *Why I Am a Member of the Church of Christ* (1945), p. 31 — in print; not online
