@@ -18,7 +18,6 @@ Written 2026-11-08, after Chapter 6 was taught and published. Read this before s
 
 - The class audio link for 2026-11-08, once Otter Creek posts it. Add it to `classWeeks.json` week 6 (`audio`) on the class site.
 - Charles Wesley irony (slide "Anglicans reject the Methodists"). Either retitle the card "Even a Wesley rejects the Methodists" or relabel the quotation "Charles Wesley, on his brother's ordinations".
-- An Augustine / Pope Leo XIV slide for "The whole church remembers". The line is "For you I am a bishop; with you I am a Christian" (Sermon 340). It is quoted by *Lumen Gentium* 32 and by Leo XIV's first address (May 8, 2025). Could also serve Chapter 7 or a resource deck.
 - Cuts suggested and not taken:
   - Vatican II 1964 (keep 2007).
   - Luther 1520–23 (keep "priest, bishop and pope" and the congregation's call).
