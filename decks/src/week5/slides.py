@@ -809,9 +809,6 @@ A(CARD('Don&rsquo;t get me wrong.',
 A(CARD('The established church <i>must</i> reject the independent.<br>' + G('The independent need not reject the established church.'),
   'A one-way door. The Church of Scotland was duty-bound to reject the ministry of Ewing and the Haldanes: its doctrine, its official teaching, what it stands for as an institution, require it. The independents were not bound to reject the established clergy: they could affirm their own ministry and the ministry of the established churches too. And if established clergy wished to recognize Ewing&rsquo;s or the Haldanes&rsquo; ministry as a true ministry (as, in Campbell&rsquo;s view, they ought), they could do it only by coming to the same conclusion: the authority inheres in the people, not in the episcopacy or the presbytery as such.',
   eyebrow='A one-way door', style=';font-size:clamp(40px,8vmin,104px);line-height:1.1'))
-A(CARD('Ordinations have<br>' + G('consequences.'),
-  'Elections have consequences; so do ordinations. How you ordain says who you think has the authority, and where it belongs. Brush Run&rsquo;s says: with the people. Then: not new, and not ours alone. Stone&rsquo;s will, Luther, the early church, Jesus.',
-  style=';font-size:clamp(56px,12vmin,156px);line-height:1.05'))
 A(CARD('Before him,<br>' + G('Barton Stone&rsquo;s presbytery.'),
   '1804, seven years before Brush Run. Neither side knew the other.',
   style=';font-size:clamp(48px,10vmin,128px);line-height:1.06'))
@@ -894,6 +891,9 @@ for _x in R.table()[1:-1]:                       # its history, without its own 
 A(CARD('Open to all.<br>' + G('Hosted by any.'),
   'Brush Run&rsquo;s table was weekly and its fences were coming down. Campbell&rsquo;s argument goes further: the table is kept by the priesthood of all believers. Not only open; hosted by any.'))
 # In the Church of Christ (Micah, 2026-11-08): how we have practiced it, as a list; Brownlow to show it is still with us
+A(CARD('Ordinations have<br>' + G('consequences.'),
+  'Elections have consequences; so do ordinations. How you ordain says who you think has the authority, and where it belongs. Brush Run&rsquo;s says: with Christ&rsquo;s people, gathered. And the consequences are still with us.',
+  style=';font-size:clamp(56px,12vmin,156px);line-height:1.05'))
 A(BIGQ(Q('&ldquo;<b>Each Christian is a priest</b> in that he can &lsquo;offer up spiritual sacrifices, acceptable to God through Jesus Christ,&rsquo; the High Priest.&rdquo;', 'Leroy Brownlow, <i>Why I Am a Member of the Church of Christ</i> (1945), p. 31', 'Still with us &middot; 1945'), 'clamp(34px,7.4vmin,92px)', '30ch') +
   N('From his list of what the New Testament calls every member: &ldquo;royal priesthood&rdquo; (1 Peter 2:9). The book many here grew up with. Still with us.'))
 A('<section class="slide"><div class=eyebrow>In the Church of Christ</div>'
