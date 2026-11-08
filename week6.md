@@ -43,8 +43,8 @@
 
 ## Ideas
 
-1. **The church can gather for those who are shut out.** Brush Run became a church because its people were refused "those privileges… which belong to the Church relation." No synod granted it; the people constituted it, with great reluctance, for each other's sake.
-2. **The priesthood of all believers makes its ministers.** Ordination "consists in the choice of the people": the two or three gathered hold the priesthood's authority, given in baptism.
+1. **The priesthood of all believers holds real authority.** Not a metaphor: the two or three gathered can make a minister. Brush Run ordained Alexander Campbell "according to the principles of this Church"; ordination "consists in the choice of the people"; "the multitude of the faithful, are the fountain of official power." Matthew 18: whatever you bind on earth.
+2. **The priesthood of all believers lets us affirm the ministry of the whole church.** Every line of succession has to reject someone. If the authority is the people's, they may constitute themselves under bishops, presbyters or elders, and every one of those ministries can stand: we can debate the wisdom of each, and need not call any of them false.
 
 *Earlier notes:*
 
