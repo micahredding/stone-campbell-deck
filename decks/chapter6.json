@@ -594,7 +594,7 @@
   {
    "index": 84,
    "n": 85,
-   "title": "Canterbury, on the Methodists (1785) \"Had they had patience a little longer, they would ha",
+   "title": "An Anglican priest, on the Methodists (1785) \"Had they had patience a little longer, they ",
    "path": "spine",
    "doc": null
   },
@@ -671,7 +671,7 @@
   {
    "index": 95,
    "n": 96,
-   "title": "And the Baptists, on everyone else (1854) \"Believing their preachers unbaptized, we cannot",
+   "title": "A Landmark Baptist, on the Pedobaptists (1854) \"Believing their preachers unbaptized, we c",
    "path": "spine",
    "doc": null
   },
@@ -1000,7 +1000,7 @@
   {
    "index": 142,
    "n": 143,
-   "title": "Alexander, weeks before his ordination \"Why do we contend for uninterrupted succession in ",
+   "title": "Alexander, late 1811 \"Why do we contend for uninterrupted succession in ordination, seeing",
    "path": "spine",
    "doc": "rich"
   },
@@ -1098,7 +1098,7 @@
   {
    "index": 156,
    "n": 157,
-   "title": "Luther, 1523 \"If the bishop does not confirm him, he is none the less confirmed by virtue ",
+   "title": "Luther, 1523 on a preacher the congregation has called \"If the bishop does not confirm him",
    "path": "spine",
    "doc": "church"
   },
@@ -1133,7 +1133,7 @@
   {
    "index": 161,
    "n": 162,
-   "title": "The first church order \"... appoint for yourselves bishops and deacons worthy of the Lord,",
+   "title": "The first church order \" Appoint, therefore, for yourselves bishops and deacons worthy of ",
    "path": "spine",
    "doc": null
   },
@@ -1553,7 +1553,7 @@
   {
    "index": 221,
    "n": 222,
-   "title": "Next week: living into God's future. \"An emblem of the millennial state of the Church.\" In",
+   "title": "Next week: living into God's future. At Brush Run's first Supper, Alexander called it \"an ",
    "path": "spine",
    "doc": "rich"
   },
@@ -2709,7 +2709,7 @@
   {
    "slide": 221,
    "doc": "rich",
-   "text": "An emblem of the millennial state of the Church."
+   "text": "an emblem of the millennial state of the Church"
   }
  ],
  "unmatched": [
@@ -2843,7 +2843,11 @@
   },
   {
    "slide": 67,
-   "text": "and such as come over to us from them we receive as unordained and unbaptized."
+   "text": "and such as come over to us from them"
+  },
+  {
+   "slide": 67,
+   "text": "we receive as unordained and unbaptized."
   },
   {
    "slide": 69,
@@ -2975,7 +2979,7 @@
   },
   {
    "slide": 161,
-   "text": "appoint for yourselves bishops and deacons worthy of the Lord, men meek, and not lovers of money, and truthful and proven"
+   "text": "Appoint, therefore, for yourselves bishops and deacons worthy of the Lord, men meek, and not lovers of money, and truthful and proved"
   },
   {
    "slide": 169,
