@@ -138,7 +138,7 @@ Draft spine (to confirm before building):
 9. Pattern as testimony: "just so far has the Millennium commenced"; test doctrine by the Millennium; the three questions.
 10. Ideas, discussion, next week (the 1832 merger: unity in practice).
 Side paths to consider: the range of eschatologies (Campbell, Stone, Scott, Lipscomb); gradualism and freedom of opinion (database `10 Research Projects/Unity and Time/`); authority by consent; the Cherokees and the social program.
-Research: database `10 Research Projects/Eschatology and the Present/README.md`. Its section "Round 2: slide candidates by Micah's framings" lists the new quotations for each framing (the future itself; unity on Christ alone; Sunday as foretaste; the working model).
+Research: database `10 Research Projects/Eschatology and the Present/README.md`. Its section "Round 2: slide candidates by Micah's framings" lists the new quotations for each framing (the future itself; unity on Christ alone; Sunday as foretaste; the working model). "Round 3: other voices in the movement" adds Stone's and Purviance's circle, Marshall and Thompson, Milligan, Lard, Richardson, Errett, Raccoon John Smith, women (Selina Campbell, the CWBM, Ida Harrison), S. R. Cassius, Ainslie, Garrison and the 1909 Centennial.
 
 ### Optional: authority by consent (documented 2026-11-09)
 
