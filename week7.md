@@ -91,6 +91,10 @@ Campbell's own summary of the program, 1835: "Let the bible be substituted for a
 
 This sets up Chapters 10–13: baptism, singing, Scripture and governance as ways of embodying the coming future, not as tests.
 
+### Optional: authority by consent (documented 2026-11-09)
+
+If time allows after section 5: Campbell's Guernsey "Project" (1843), Proposition 8, makes every arrangement not enjoined in Scripture "conventional," changeable with circumstances, "enacted by the authority of a whole community"; and Walter Scott (1844) refuses even Campbell: "Who made brother Campbell an organizer over us?" Full notes: database `10 Research Projects/Arguments/Authority by Consent.md`.
+
 ### Still to check before slides
 - Living Oracles and Griesbach: confirm the wording for the slide.
 - *Vision of Ephesians* has no print pages; cite by section.

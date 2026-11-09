@@ -80,3 +80,8 @@ Written 2026-11-08, after Chapter 6 was taught and published. Read this before s
 - `micahredding/stone-campbell-deck`: this repo.
 - `micahredding/stone-campbell`: the public class site.
 - `micahredding/stone-campbell-database`: research notes. `Who May Ordain/` was updated this round.
+
+## Research documented for later (2026-11-09)
+
+- **Authority by consent** (`micahredding/stone-campbell-database`, `10 Research Projects/Arguments/Authority by Consent.md`): Campbell's 1840s case for organization by consent at every scale (the Guernsey "Project," 1843, Proposition 8: arrangements not enjoined are "conventional," "enacted by the authority of a whole community"), and Walter Scott's "Who made brother Campbell an organizer over us?" (1844). Also lists the critiques of pattern theology before 1870, including Richardson's "Faith versus Philosophy" (1857). Could serve Chapter 7 (forms judged by their purpose) or Chapter 13 (governance).
+- Full texts, cleaned and summarized, in the database: `91 Extracted Text/Primary Periodicals/Millennial Harbinger/Church Organization and Expediency (1841-1849).md` (92 pieces) and `Faith versus Philosophy Exchange (1857-1858).md` (19 pieces). Readers: https://claude.ai/artifact/7y8xh7REirHJQqYU2YmLnP and https://claude.ai/artifact/GTwkh6JcrLbHHw1kE3GLGi (private).
