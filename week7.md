@@ -96,7 +96,12 @@ Have you noticed? Otter Creek, and increasingly Churches of Christ generally, re
 **The substructure (Micah 2026-11-09).** Sunday worship is a taste of the future: at the table, in worship, everyone is a citizen king and priest to God. The "pattern" arose out of the question of how to live the future in the present.
 - "[He] has made all the citizens of his kingdom, not citizens only, but citizen kings and priests to God." (July 4th oration, *MH* 1830, p. 309)
 - "Being a royal priesthood… they have a right to meet in his name to break the loaf of blessing, to drink the cup of blessing, without the intervention of a mediator, priest, or prophet, consecrated by human hands." (*MH* Aug. 1830, p. 368)
+- **New (round 2): the Lord's Day as foretaste.** "The Lord's day not only commemorates the resurrection of Jesus, but anticipates the morning of the resurrection." (*MH* Jan. 1834, p. 37) The day is "the beginning of a new creation"; the first Christians kept it with the loaf and cup, "songs of praise," "addresses of every sort," prayers "for all mankind," and "donations for the poor," "a day of pure, holy, and celestial joy—a day of social bliss." And against the one-man service: ministers "who enjoin silence upon all, that they alone may be heard… have yet to learn the New Testament religion." ("Reformation—No. XII. The Lord's Day," *MH* Sept. 1836, pp. 418–421)
+- The church at worship: "the only holy place now on earth—the Christian church," its table set for "a royal priesthood" (*CS* pp. 322–323); churches "like so many candlesticks in a large edifice… designed to enlighten and convert the world" (*CS*, from Extra No. VII, 1834); "the king and the beggar meet on one platform" (*MH* 1853).
+- The pattern was not a liturgy: "an economy of principles" (*CB* 1830); a fixed order would be "a liturgy, a ritual form like the Jewish" (*MH* June 1838).
 - The table as foretaste: Brush Run's "emblem of the millennial state" (Richardson); Campbell's joy at Christians "meeting around one and the same Lord's table" (1830); Walter Scott: the Supper and the Lord's Day are "pillars, monumental pillars… whose base and summit connect together the first and second coming of their author; for his command is to 'do this' until he comes again" (*The Gospel Restored*, 1836, p. 398).
+
+*Caution (round 2):* in 1834 Campbell expected no general restoration of the ancient order before "the great and notable day of the Lord"; by 1840 he is back to the 1825 view: "all the Millennium we could scripturally expect was not merely the restoration of the Jerusalem church… but the extension of it through all nations and languages for one thousand years" (*MH* Dec. 1840, p. 561). Use 1840 beside 1825, and don't present 1825 as unbroken.
 
 Campbell, 1825: "Just in so far as the ancient order of things, or the religion of the New Testament, is restored, just so far has the Millennium commenced, and so far has its blessings been enjoyed." (*Christian Baptist* 2, Feb. 7, 1825, p. 136)
 
@@ -133,7 +138,7 @@ Draft spine (to confirm before building):
 9. Pattern as testimony: "just so far has the Millennium commenced"; test doctrine by the Millennium; the three questions.
 10. Ideas, discussion, next week (the 1832 merger: unity in practice).
 Side paths to consider: the range of eschatologies (Campbell, Stone, Scott, Lipscomb); gradualism and freedom of opinion (database `10 Research Projects/Unity and Time/`); authority by consent; the Cherokees and the social program.
-Research: database `10 Research Projects/Eschatology and the Present/README.md`.
+Research: database `10 Research Projects/Eschatology and the Present/README.md`. Its section "Round 2: slide candidates by Micah's framings" lists the new quotations for each framing (the future itself; unity on Christ alone; Sunday as foretaste; the working model).
 
 ### Optional: authority by consent (documented 2026-11-09)
 
