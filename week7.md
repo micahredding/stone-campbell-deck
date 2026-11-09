@@ -9,6 +9,9 @@
 1. We live as a microcosm of the age to come
 2. Eschatology is our tradition
 3. Eschatology drives us in various ways, which may look very different
+4. The church's life now is a taste of God's future
+5. Its unity is founded on Christ alone, so it needs freedom of conscience
+6. Our practices are ways of living that future now
 
 **Connections:** 
 - Stone saw Cane Ridge as the Spirit moving towards God's future
@@ -148,6 +151,9 @@ If time allows after section 5: Campbell's Guernsey "Project" (1843), Propositio
 1. We live as a microcosm of the age to come
 2. Eschatology is our tradition
 3. Eschatology drives us in various ways, which may look very different
+4. The church's life now is a taste of God's future
+5. Its unity is founded on Christ alone, so it needs freedom of conscience
+6. Our practices are ways of living that future now
 
 ---
 
