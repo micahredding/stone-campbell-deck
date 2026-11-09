@@ -63,10 +63,17 @@ Have you noticed? Otter Creek, and increasingly Churches of Christ generally, re
   - A smaller note, for the notes only: his vocabulary is Baconian ("all true science is acquired from the observation and comparison of facts," p. 123). The later "book of facts as blueprint" reading, which Richardson criticized in the 1850s, flattened "deeds" into data.
 
 **(2) Eschatology as the driving category: the world renewed.**
-- Campbell: the Millennium as "that political and religious order of society… the consummation of that ultimate amelioration of society proposed in the Christian Scriptures" (Prospectus).
+- Campbell: the Millennium as "that political and religious order of society… the consummation of that ultimate amelioration of society proposed in the Christian Scriptures" (Prospectus, dated 1829, printed Jan. 1830).
 - Wright: "The life of the church is supposed to be a forward pointer to the long-promised cosmic reality." (*God's Homecoming*, p. 220)
-- Both look forward to the transformation of this world, and both let that future shape the church's work and identity now.
-- Caution: Wright's new creation is God's act at the resurrection; Campbell's millennium comes gradually, through reform under providence, and he still expected heaven beyond it. An analogy, not an identity. His optimism also dimmed: uncertainty about prophecy from 1833, then the Civil War (Chapter 9).
+- **The future is practical (use this, Micah 2026-11-09):** "This is not, indeed, a speculative and uninteresting subject. It is highly practical… It is therefore a practical question." Those who expect the millennium "are full of ways and means for the diffusion of knowledge, for the intellectual and moral improvement of society." (A. C., "The Coming of the Lord—No. I," *MH* Jan. 1841, pp. 10–11) Bethany College opened that November.
+- Renewal, not escape: "God recreates, regenerates, but annihilates nothing." (*Christian System*, p. 311) The new earth is "the everlasting home of man; for the tabernacle of God is to be there forever." (*MH* Feb. 1841, p. 54)
+- **The point is the future itself, not the program (Micah 2026-11-09).** The leaders could not agree on the schedule, and changed their minds:
+  - Campbell, 1830: confident ("ultimate amelioration of society"). 1831: "a deepening gloom overspreads our ecclesiastical heavens." 1833: "For the last five or six years we have been waiting for fair winds and a serene sky"; no "radical amelioration of society" till "Jesus appears in the clouds of heaven." *Christian System*: leaves open "how far by moral, and how far by physical means."
+  - Walter Scott: gradual in 1826; "the Millennium will commence in one day" (c. 1830–42); by 1859, "It is not an age to drop down from heaven, but a period of light, religion and enjoyment to arise out of the natural and gradual progress of society." (*The Messiahship*, p. 335)
+  - Stone: Christ comes first and reigns (from 1832–33), but "Our wisdom is to be always ready" (*CM* 1834, p. 148).
+  - So the significance was never the details of the eschatological program. It was the future itself: a future that defines the church now.
+- Keep at hand for his social program (not necessarily this week): the Cherokees. "…this most important community of the aborigines, to whom God gave this continent… if none but the eyes of God were upon some of them, I think they would send these poor defenceless Indians beyond the Rocky Mountains, if it would not cost too much." (*MH* Jan. 1830, pp. 44–45; he attacks the Baptist *Columbian Star* for supporting removal "in defiance of all treaties," June 1830, p. 258.) This is the Prospectus's "injustice… contrasted with the justice… which the millennial order of society promises," applied. Shadow beside it: "Even in the Millennium, I presume there will be masters and servants" (*MH* Mar. 1830, p. 129).
+- Caution (notes): Campbell's millennium is earthly history before Christ returns, with the new creation after; Wright's renewal comes by God's act at the resurrection. An analogy, not an identity.
 
 **(3) The church as a small working model of new creation, and its substance is unity.**
 - Wright: "…to think of the vocation of the church as the call to live as the small working model of new creation." (*The Vision of Ephesians*, §1) "…because in the future life we will be… united across all ethnic and other differences, it is all the more important that we anticipate this as far as possible in the present." (*God's Homecoming*, p. 273)
@@ -74,9 +81,19 @@ Have you noticed? Otter Creek, and increasingly Churches of Christ generally, re
 - Campbell, 1830: "To see even a few scores of intelligent christians… meeting around one and the same Lord's table, and uniting in the praises and adorations of one and the same common Lord and Saviour, imparts to us a joy which we are unable to express." (Prefatory Remarks)
 - Campbell goes further than Wright: unity now is not only a foretaste but the cause. "…to suppose that all christians will form one communion in that happy age of the world, and not before it, is to suppose a moral effect without a cause." (*Christian System*, p. 113) "…the union of christians is essential to the conversion of the world." (same page)
 - Wright: "Paul would be shocked by the very idea of 'denominations', sitting close to one another on the same street but not even trying to join up to share in mission and resources." (*VE* §6)
+- **Unity founded on Christ alone is the eschatological unity (Micah 2026-11-09).** If the church's unity rests on anything other than Christ (a creed, a party, a sword, a state), it is not the real unity; founded on Christ alone, it is the unity of the age to come. So freedom of conscience is an eschatological prerequisite, not a concession.
+  - Thomas Campbell, 1809 (use): "What! shall we pray for a thing, and not strive to obtain it!!" (*D&A*)
+  - Alexander Campbell, 1828 (use): "When then we see a people making new divisions and keeping up old ones, while praying for the Millennium or the triumph of love and harmony, we as naturally suspect that they are any thing but in earnest." It is like "a nation preparing for war, and praying for peace." (*Christian Baptist* 5, p. 263)
+  - Freedom of opinion as the way there (here, or in the gradualism side path): "WILL sects ever cease?… How then shall it be introduced? I answer unequivocally in one sentence, By abandoning opinions, and founding all associations upon the belief of gospel facts… We do not ask them to give up their opinions—We ask them only not to impose them upon others." (*MH* Apr. 1830, pp. 145–146)
+  - Not by the sword: "No kingdom now on earth can be regarded as a kingdom of our Lord, because they were all founded by the sword." (*MH* 1833, p. 121) "To conquer an enemy is to convert him into a friend." (*MH* July 1830, p. 304) A church established by law is "an impudent imposition or base counterfeit… When Christianity gains the throne, Jesus Christ will place it there himself." (*MH* 1833, p. 120)
 - So we ask: what does it look like for us to model new creation, and its unity, in the life and practice of the church?
 
 ### 5. The surprise: a context in which "pattern" makes sense
+
+**The substructure (Micah 2026-11-09).** Sunday worship is a taste of the future: at the table, in worship, everyone is a citizen king and priest to God. The "pattern" arose out of the question of how to live the future in the present.
+- "[He] has made all the citizens of his kingdom, not citizens only, but citizen kings and priests to God." (July 4th oration, *MH* 1830, p. 309)
+- "Being a royal priesthood… they have a right to meet in his name to break the loaf of blessing, to drink the cup of blessing, without the intervention of a mediator, priest, or prophet, consecrated by human hands." (*MH* Aug. 1830, p. 368)
+- The table as foretaste: Brush Run's "emblem of the millennial state" (Richardson); Campbell's joy at Christians "meeting around one and the same Lord's table" (1830); Walter Scott: the Supper and the Lord's Day are "pillars, monumental pillars… whose base and summit connect together the first and second coming of their author; for his command is to 'do this' until he comes again" (*The Gospel Restored*, 1836, p. 398).
 
 Campbell, 1825: "Just in so far as the ancient order of things, or the religion of the New Testament, is restored, just so far has the Millennium commenced, and so far has its blessings been enjoyed." (*Christian Baptist* 2, Feb. 7, 1825, p. 136)
 
@@ -90,6 +107,30 @@ For Campbell, restoring the ancient order was not legalism. It was the way the f
 Campbell's own summary of the program, 1835: "Let the bible be substituted for all human creeds; facts, for definitions; things, for words; faith, for speculation; unity of faith, for unity of opinion; the positive commandments of God, for human legislation and tradition; piety, for ceremony; morality, for partizan zeal; the practice of religion, for the mere profession of it: and the work is done." (*Christian System*, p. 115)
 
 This sets up Chapters 10–13: baptism, singing, Scripture and governance as ways of embodying the coming future, not as tests.
+
+### Decisions and slide plan (Micah, 2026-11-09)
+
+Decided:
+- Use: Campbell's "It is therefore a practical question" (1841); Thomas Campbell 1809 "shall we pray for a thing, and not strive to obtain it!!"; Campbell 1828 "any thing but in earnest… a nation preparing for war, and praying for peace."
+- Maybe: "We do not ask them to give up their opinions" (1830). If not here, in a side path on gradualism.
+- Highlight: Campbell and Scott changing their minds. The significance is the future itself, not the program.
+- Frame: unity founded on Christ alone is the eschatological unity; freedom of conscience is its prerequisite; not founded by the sword.
+- Frame: Sunday worship as a taste of the future (table, worship, citizen kings and priests) is the substructure of "pattern as how to live the future now."
+- Keep at hand: the Cherokees, for Campbell's social program.
+
+Draft spine (to confirm before building):
+1. Opening (quiz from `quizzes.md`), recap of Chapter 6.
+2. The pivot: *Christian Baptist* to *Millennial Harbinger*; the Prospectus (two or three slides).
+3. Our problem with Campbell; "Thus saith the Lord" as a shield (D&A Art. V, Props 5–6).
+4. "Have you noticed?" Otter Creek and N. T. Wright.
+5. The proposal, (1) history: "a book of facts" = things done.
+6. (2) The future: "It is therefore a practical question"; renewal not escape; the waffling, and what it shows.
+7. (3) The working model: Brush Run's emblem; TC 1809; AC 1828; unity on Christ alone, not the sword; Wright on denominations.
+8. Sunday as a taste of the future: citizen kings and priests; the table; Scott's "pillars."
+9. Pattern as testimony: "just so far has the Millennium commenced"; test doctrine by the Millennium; the three questions.
+10. Ideas, discussion, next week (the 1832 merger: unity in practice).
+Side paths to consider: the range of eschatologies (Campbell, Stone, Scott, Lipscomb); gradualism and freedom of opinion (database `10 Research Projects/Unity and Time/`); authority by consent; the Cherokees and the social program.
+Research: database `10 Research Projects/Eschatology and the Present/README.md`.
 
 ### Optional: authority by consent (documented 2026-11-09)
 
