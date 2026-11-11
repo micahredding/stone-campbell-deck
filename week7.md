@@ -16,7 +16,7 @@
 **Connections:** 
 - Stone saw Cane Ridge as the Spirit moving towards God's future
 - Stone saw the Springfield Presbytery in light of the age to come
-- Alexander Campbell says in his first sermon that Communion is a taste of the Millennial Church. This connects with the Communion theme throughout.
+- At Brush Run's first Supper (May 5, 1811), Alexander Campbell calls the gathered church "an emblem of the millennial state of the Church" (Richardson's report, *Memoirs* I:369): Communion as a taste of the church to come. This connects with the Communion theme throughout.
 - David Lipscomb takes eschatology as reason for radical non-conformity
 - Sets up Restoration & Science theme
 
