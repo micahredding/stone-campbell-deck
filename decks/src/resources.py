@@ -26,7 +26,9 @@
 #   unity(extra=[])             -> resource: union, all his life (Thomas Campbell's Declaration and Address, which
 #                                  Alexander endorsed; the 1810 party-man address; the Christian Baptist; The Christian
 #                                  System; Lunenburg; the open Campbell). Also its own deck: decks/src/unity/build.py
-#   WESTMINSTER, GOVERNANCE, CONSTITUTION, UNIVERSALS, WEEKLY,
+#   associations(extra=[])    -> resource: the Campbells' associations, joined, refused, formed, dissolved (1791-1866).
+#                                  Also its own deck: decks/src/associations/build.py
+#   WESTMINSTER, GOVERNANCE, CONSTITUTION, UNIVERSALS, WEEKLY, ASSOCIATIONS,
 #   CAMPBELL_REREAD, EKKLESIA, TABLE, UNITY -> (label, first-slide anchor, last-slide anchor) for SIDE
 #
 # Each resource's quotes are checked against a document: give a slide data-src=<key> to route it (see
@@ -1312,3 +1314,69 @@ def wright(extra=()):
              'The end. Discussion: if the church is the future in miniature, what does our division show the world? What practice of ours shows it best?'),
     ]
 
+
+# ---- The Campbells' associations: joined, refused, formed, dissolved (Micah, 2026-11-12) ----
+# Research: stone-campbell-database, 08 Timelines/Campbell Associations Timeline.md. No quotations on screen,
+# so nothing here needs the quote checker; short quotes are in the notes.
+ASSOCIATIONS = ('Joined, refused, dissolved', '<div class=eyebrow>Joined, refused, dissolved &middot; a resource', 'Two moves, again and again')
+def _as(eyebrow, title, items, notes, sub=''):
+    lis = ''.join('<div class="no frag"><b>%s</b> &nbsp;%s</div>' % (d, t) for d, t in items)
+    return ('<section class="slide"><div class=eyebrow>%s</div><h2 style="max-width:none">%s</h2>%s'
+            '<div class=litany style="text-align:left;gap:2.2vmin;font-size:1.55em;max-width:90vw">%s</div>'
+            '<aside class=notes>%s</aside></section>' % (eyebrow, title, ('<div class=sub>%s</div>' % sub) if sub else '', lis, notes))
+def associations(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>Joined, refused, dissolved &middot; a resource</div>'
+        '<h2 style="max-width:none">The Campbells&rsquo; associations,<br>1791&ndash;1866</h2>'
+        '<div class=sub>Every church body they joined, left, were refused by, formed, or dissolved</div>'
+        '<aside class=notes>A timeline in eight steps. Watch for two moves that keep repeating: reaching for the widest fellowship available, and refusing any body that makes a creed the test. Research: database, 08 Timelines, &ldquo;Campbell Associations Timeline.&rdquo;</aside></section>',
+        _as('Ireland', 'The Seceder Presbyterians', [
+            ('1791', 'Thomas licensed by the Anti-Burgher Seceder Synod of Ulster'),
+            ('1798', 'Ordained at Ahorey, Co. Armagh'),
+            ('1798', 'Helps found the Evangelical Society of Ulster, across party lines; his Synod objects'),
+            ('1804&ndash;05', 'Works to reunite Burghers and Anti-Burghers; fails')],
+            'Thomas was formally an Old Light Anti-Burgher, the strictest wing, but his sympathies ran to unity and cooperation. The Evangelical Society of Ulster (1798) is the model for the Christian Association of Washington eleven years later.'),
+        _as('Glasgow', 'Alexander leaves the Seceders', [
+            ('1808', 'Shipwrecked off Islay; ten months in Glasgow'),
+            ('1808&ndash;09', 'Among Greville Ewing and the Haldanes&rsquo; independents'),
+            ('1809', 'At the Seceder communion he gives back his token')],
+            'The token admitted a member to the Lord&rsquo;s table. Alexander returned it and did not commune: a refusal of a table fenced by a party. (Chapter 5.)'),
+        _as('Western Pennsylvania', 'Out of the Presbyterians', [
+            ('1807', 'Thomas assigned to Chartiers Presbytery; charged for an open communion; walks out (Oct. 28)'),
+            ('1808', 'The Associate Synod lifts his suspension but censures him; no appointments'),
+            ('May 1809', 'Thomas withdraws from the Associate Synod'),
+            ('Aug. 17, 1809', 'The Christian Association of Washington: a society, not a church'),
+            ('Oct. 1810', 'The Synod of Pittsburg refuses it communion')],
+            'September 7, 1809: Thomas reads the <i>Declaration and Address</i> to the Association. The Association was formed &ldquo;for the sole purpose of promoting simple evangelical Christianity.&rdquo; Refused by the Synod, it became a church the next spring.'),
+        _as('A church of its own', 'Brush Run', [
+            ('May 4, 1811', 'Brush Run constituted; the first Supper the next day'),
+            ('Jan. 1, 1812', 'The congregation ordains Alexander'),
+            ('June 1812', 'The family immersed')],
+            'Chapters 5 and 6.'),
+        _as('Among the Baptists', 'Redstone and Mahoning', [
+            ('Fall 1813', 'Joins the Redstone Baptist Association on its own terms: no creed'),
+            ('1816', 'The &ldquo;Sermon on the Law&rdquo;'),
+            ('1823', 'The Wellsburg church; it joins the Mahoning Association'),
+            ('1824&ndash;26', 'Redstone disfellowships Brush Run and four more churches'),
+            ('1827', 'Mahoning sends out Walter Scott'),
+            ('Aug. 1830', 'Mahoning dissolves itself')],
+            'Brush Run wrote out &ldquo;a full view of our sentiments&rdquo; and joined on condition of being left free. Campbell and Richardson date the union &ldquo;the fall of 1813&rdquo; (<i>MH</i> 1848, p. 344; <i>Memoirs</i> I); Foster gives 1815, perhaps the year of formal admission. Mahoning, at Austintown in August 1830, voted itself out of existence as having no scriptural standing, and met afterward only as an annual meeting for worship and reports: the Springfield Presbytery&rsquo;s <i>Last Will</i> again.'),
+        _as('Union', 'With Stone&rsquo;s Christians', [
+            ('1827&ndash;30', 'Baptist associations expel the &ldquo;Reformers&rdquo;'),
+            ('1831&ndash;32', 'Stone, John T. Johnson and &ldquo;Raccoon&rdquo; John Smith prepare a union'),
+            ('Jan. 1832', 'The handshake at Lexington: a union of congregations, not organizations')],
+            'Chapter 8.'),
+        _as('Cooperation', 'Societies by consent', [
+            ('1830s&ndash;40s', 'District and state co-operation meetings'),
+            ('1843', 'The &ldquo;Guernsey&rdquo; plan: the churches of a district as one body, by consent'),
+            ('1845', 'Objects when a few men name a Bible society for the whole brotherhood'),
+            ('Oct. 1849', 'The American Christian Missionary Society: Campbell its president until his death'),
+            ('1861, 1863', 'Its war resolutions, never printed in the <i>Harbinger</i>')],
+            'Campbell, 1845: &ldquo;I doubt the propriety of any institution being got up&hellip; without a general understanding some way obtained of the concurrence and support of the whole brotherhood.&rdquo; The Guernsey plan (<i>MH</i> Feb. 1843), Proposition 8: arrangements not enjoined in Scripture are &ldquo;conventional,&rdquo; &ldquo;enacted by the authority of a whole community.&rdquo; Walter Scott, 1844: &ldquo;Who made brother Campbell an organizer over us?&rdquo;'),
+        '<section class="slide breath"><div class=eyebrow>Joined, refused, dissolved</div>'
+        '<h2 style="max-width:none">Two moves, again and again</h2>'
+        '<div class=litany style="text-align:left;gap:2.6vmin;font-size:1.8em;max-width:88vw">'
+        '<div class="no frag">Reach for the widest fellowship there is.</div>'
+        '<div class="no frag">Refuse any body that makes a creed the test.</div></div>'
+        '<aside class=notes>The Evangelical Society, the overture to the Synod, the Baptists, the Stone union, the cooperative societies; and Thomas leaving the Seceders, Brush Run&rsquo;s terms with Redstone, Mahoning dissolving itself. Chapter 5&rsquo;s &ldquo;two ways not to become a sect.&rdquo;</aside></section>',
+    ] + list(extra)
