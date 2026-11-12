@@ -54,7 +54,7 @@ All seven are built. An eighth, *Wright and the Founders* (`decks/src/wright`), 
 
 ## Where the research behind them lives
 
-- **The research database**, `micahredding/stone-campbell-database` on GitHub (the GitHub copy of Micah's iCloud folder `Documents/3/research/stone-campbell-research`, synced from it by "Sync iCloud vault" commits; work added on GitHub reaches iCloud only when copied or pulled back). Folder `10 Research Projects/`:
+- **The research database**, `micahredding/stone-campbell-database` on GitHub (the GitHub copy of Micah's folder `~/Dropbox/3/research/stone-campbell-research` (in iCloud `Documents/3/research/` until 2026-11-12), synced from it by "Sync iCloud vault" commits; work added on GitHub reaches the local folder only when copied or pulled back). Folder `10 Research Projects/`:
   - `Ekklesia and Greek Democracy/`
   - `The Ecumenical Consensus/` (the Lima text, weekly communion, the Disciples–Catholic dialogue)
   - `Alexander Campbell Reread/` (including honest shadows: slavery and more)

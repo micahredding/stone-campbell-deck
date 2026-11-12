@@ -5,7 +5,7 @@ collapsed <details> block, so the page opens on the outline of the argument.
 Usage: python3 research/tools/build_wright_page.py [path-to-database-note]"""
 import os, re, sys
 
-DB = os.path.expanduser("~/Library/Mobile Documents/com~apple~CloudDocs/Documents/3/research/"
+DB = os.path.expanduser("~/Dropbox/3/research/"  # moved from iCloud Documents/3 on 2026-11-12
     "stone-campbell-research/10 Research Projects/The Church as Working Model (Wright)/"
     "Wright as Restorationist.md")
 OUT = os.path.join(os.path.dirname(__file__), "..", "wright-working-model.md")
