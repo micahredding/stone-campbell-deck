@@ -1324,12 +1324,29 @@ def _as(eyebrow, title, items, notes, sub=''):
     return ('<section class="slide"><div class=eyebrow>%s</div><h2 style="max-width:none">%s</h2>%s'
             '<div class=litany style="text-align:left;gap:2.2vmin;font-size:1.55em;max-width:90vw">%s</div>'
             '<aside class=notes>%s</aside></section>' % (eyebrow, title, ('<div class=sub>%s</div>' % sub) if sub else '', lis, notes))
+# One slide: the core moves, from Thomas Campbell's Evangelical Society of Ulster on (Micah, 2026-11-12).
+# Usable alone in any chapter (R.ASSOC_SUMMARY); also the second slide of associations().
+ASSOC_SUMMARY = (
+    '<section class="slide"><div class=eyebrow>From the Evangelical Society on</div>'
+    '<h2 style="max-width:none">Joined, refused, dissolved</h2>'
+    '<div class=litany style="text-align:left;gap:1.3vmin;font-size:1.32em;max-width:92vw;line-height:1.25">'
+    '<div class="no frag"><b>1798</b> &nbsp;The Evangelical Society of Ulster: evangelism across party lines</div>'
+    '<div class="no frag"><b>1809</b> &nbsp;The Christian Association of Washington: a society, not a church</div>'
+    '<div class="no frag"><b>1810</b> &nbsp;Asks the Synod of Pittsburg for communion; refused</div>'
+    '<div class="no frag"><b>1811</b> &nbsp;Brush Run: a church of its own</div>'
+    '<div class="no frag"><b>1813</b> &nbsp;The Redstone Baptists, on its own terms: no creed</div>'
+    '<div class="no frag"><b>1823</b> &nbsp;The Mahoning Association, after Redstone turns against them</div>'
+    '<div class="no frag"><b>1830</b> &nbsp;Mahoning dissolves itself</div>'
+    '<div class="no frag"><b>1832</b> &nbsp;Union with Stone&rsquo;s Christians</div>'
+    '<div class="no frag"><b>1849</b> &nbsp;The American Christian Missionary Society, by consent</div>'
+    '</div><aside class=notes>Thomas Campbell helped found the Evangelical Society of Ulster in 1798, against his Synod&rsquo;s objection; the Christian Association of Washington (1809) was modeled on it. Every move after reaches for the widest fellowship available, or refuses a body that makes a creed the test. Redstone: Campbell dates the &ldquo;conditional union&rdquo; to the fall of 1813 (<i>MH</i> 1848, p. 344, in Richardson); Foster gives 1815. Mahoning disbanded at Austintown in August 1830. The Stone union: Lexington, around New Year&rsquo;s 1832. Campbell was president of the Missionary Society from 1849 until his death. Full timeline: database, 08 Timelines, &ldquo;Campbell Associations Timeline.&rdquo;</aside></section>')
 def associations(extra=()):
     return [
         '<section class="slide breath"><div class=eyebrow>Joined, refused, dissolved &middot; a resource</div>'
         '<h2 style="max-width:none">The Campbells&rsquo; associations,<br>1791&ndash;1866</h2>'
         '<div class=sub>Every church body they joined, left, were refused by, formed, or dissolved</div>'
         '<aside class=notes>A timeline in eight steps. Watch for two moves that keep repeating: reaching for the widest fellowship available, and refusing any body that makes a creed the test. Research: database, 08 Timelines, &ldquo;Campbell Associations Timeline.&rdquo;</aside></section>',
+        ASSOC_SUMMARY,
         _as('Ireland', 'The Seceder Presbyterians', [
             ('1791', 'Thomas licensed by the Anti-Burgher Seceder Synod of Ulster'),
             ('1798', 'Ordained at Ahorey, Co. Armagh'),
