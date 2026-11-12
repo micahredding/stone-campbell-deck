@@ -13,9 +13,10 @@ The second slide of each deck is a short quiz drawn from this list (not from the
 - What exhortation do you give someone who has a habit of missing worship? (Do not forsake the assembly.)
 - Which is the preferred title for our preacher? A) pastor B) reverend C) brother D) none of the above — *used: Chapter 5*
 - What was carved on the front of the communion table in your church? (Do this in remembrance of me.) — *planned for Chapter 6, replaced*
-- When do we celebrate Easter? (Every Sunday.)
+- When do we celebrate Easter? (Every Sunday.) — *planned for Chapter 7, as the second question*
 - What is the anthem of the church of Christ? (728b)
 - Which cornerstone is correct?
 - Where do we meet on Sunday morning? A) in the sanctuary B) in the temple C) in the auditorium
 - Which of the following is a Restoration Movement publication? A) Christianity Today B) Contending for the Faith C) Charisma Magazine (B) — *used: Chapter 4*
 - Instead of seminaries, we have… A) Sunday schools B) singing schools C) preaching schools (C) — *used: Chapter 6*
+- Finish the song: "This world is not my home, I'm just a-passing through. My treasures are laid up…" (somewhere beyond the blue). Extra points if you can sing the next line. — *planned for Chapter 7*
