@@ -1,0 +1,140 @@
+{
+ "deck": "decks/joined-refused-dissolved-map.html",
+ "source": "decks/src/resources.py (associations)",
+ "built_by": "decks/src/associations/build.py",
+ "slides": [
+  {
+   "index": 0,
+   "n": 1,
+   "title": "Our Wild Democracy a resource Joined, Refused, Dissolved The Campbells' associations, 1791",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 1,
+   "n": 2,
+   "title": "Joined, refused, dissolved a resource The Campbells' associations, 1791-1866 Every church ",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 2,
+   "n": 3,
+   "title": "Ireland The Seceder Presbyterians 1791 Thomas licensed by the Anti-Burgher Seceder Synod o",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 3,
+   "n": 4,
+   "title": "Glasgow Alexander leaves the Seceders 1808 Shipwrecked off Islay; ten months in Glasgow 18",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 4,
+   "n": 5,
+   "title": "Western Pennsylvania Out of the Presbyterians 1807 Thomas assigned to Chartiers Presbytery",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 5,
+   "n": 6,
+   "title": "A church of its own Brush Run May 4, 1811 Brush Run constituted; the first Supper the next",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 6,
+   "n": 7,
+   "title": "Among the Baptists Redstone and Mahoning Fall 1813 Joins the Redstone Baptist Association ",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 7,
+   "n": 8,
+   "title": "Union With Stone's Christians 1827-30 Baptist associations expel the \"Reformers\" 1831-32 S",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 8,
+   "n": 9,
+   "title": "Cooperation Societies by consent 1830s-40s District and state co-operation meetings 1843 T",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 9,
+   "n": 10,
+   "title": "Joined, refused, dissolved Two moves, again and again Reach for the widest fellowship ther",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 10,
+   "n": 11,
+   "title": "(black)",
+   "path": "spine",
+   "doc": null
+  }
+ ],
+ "spine": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "branches": [],
+ "sections": [
+  {
+   "label": "Opening",
+   "at": 1
+  },
+  {
+   "label": "Ireland",
+   "at": 2
+  },
+  {
+   "label": "Glasgow",
+   "at": 3
+  },
+  {
+   "label": "Pennsylvania",
+   "at": 4
+  },
+  {
+   "label": "Brush Run",
+   "at": 5
+  },
+  {
+   "label": "The Baptists",
+   "at": 6
+  },
+  {
+   "label": "Union",
+   "at": 7
+  },
+  {
+   "label": "Cooperation",
+   "at": 8
+  },
+  {
+   "label": "Two moves",
+   "at": 9
+  }
+ ],
+ "docs": [],
+ "doc_doors": [],
+ "quotes": [],
+ "unmatched": []
+}
