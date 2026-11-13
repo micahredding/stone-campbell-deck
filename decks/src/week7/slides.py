@@ -139,6 +139,11 @@ A(CARD('It&rsquo;s about<br>' + G('the future.'), 'From Cane Ridge to Brush Run&
 
 # ---------- 6. HOW THEY SPOKE ABOUT THE FUTURE ----------
 A(C('How they spoke<br>about the future', 'Not escape from the world: a world made new. And the church&rsquo;s unity first, so that the world may believe.'))
+A(LIST('What was distinctive', 'Campbell&rsquo;s eschatology',
+       ['<b>New creation,</b> not just heaven: this earth made new.',
+        '<b>Brought by the gospel,</b> not the sword: the church&rsquo;s unity comes first, &ldquo;that the world may believe.&rdquo;',
+        '<b>The church as its foretaste:</b> living God&rsquo;s future now.'],
+       'Three marks, one per click; the next three sections take them in turn. (1) Not escape to heaven but a world made new (MH 1830, 1855). (2) How it comes: by the gospel, peacefully and gradually, with the church&rsquo;s unity as the prerequisite for the world&rsquo;s conversion (John 17, the D&amp;A, the <i>Christian System</i>). This is what made him postmillennial, and it is what put unity at the center. (3) So the church&rsquo;s life now (unity, conscience, the priesthood of all, the table) is the future in miniature, and its practices are tested by that future.'))
 A(QK('&ldquo;We expect <b>no new Sun</b>, no new revelation of the Spirit, no other than the same gospel and the same religion, only that it shall be disinterred from the rubbish of the dark ages&hellip;&rdquo;',
      AC + ', &ldquo;Prefatory Remarks,&rdquo; ' + MH + ', January 1830, p. 5', 'Nothing new, only renewed', 'mh1830',
      'The first issue. The millennium is the same gospel, recovered.'))
