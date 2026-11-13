@@ -142,8 +142,9 @@ A(C('How they spoke<br>about the future', 'Not escape from the world: a world ma
 A(LIST('What was distinctive', 'Campbell&rsquo;s eschatology',
        ['<b>New creation,</b> not just heaven: this earth made new.',
         '<b>Brought by the gospel,</b> not the sword: the church&rsquo;s unity comes first, &ldquo;that the world may believe.&rdquo;',
-        '<b>The church as its foretaste:</b> living God&rsquo;s future now.'],
-       'Three marks, one per click; the next three sections take them in turn. (1) Not escape to heaven but a world made new (MH 1830, 1855). (2) How it comes: by the gospel, peacefully and gradually, with the church&rsquo;s unity as the prerequisite for the world&rsquo;s conversion (John 17, the D&amp;A, the <i>Christian System</i>). This is what made him postmillennial, and it is what put unity at the center. (3) So the church&rsquo;s life now (unity, conscience, the priesthood of all, the table) is the future in miniature, and its practices are tested by that future.'))
+        '<b>The church as its foretaste:</b> living God&rsquo;s future now.',
+        '<b>The future as the test:</b> judge a doctrine by its effects, measured against what God&rsquo;s future promises.'],
+       'Three marks, one per click; the next three sections take them in turn. (1) Not escape to heaven but a world made new (MH 1830, 1855). (2) How it comes: by the gospel, peacefully and gradually, with the church&rsquo;s unity as the prerequisite for the world&rsquo;s conversion (John 17, the D&amp;A, the <i>Christian System</i>). This is what made him postmillennial, and it is what put unity at the center. (3) So the church&rsquo;s life now (unity, conscience, the priesthood of all, the table) is the future in miniature. (4) And the future is the test: a doctrine is judged by its effects, set beside what the Millennium proposes (MH 1830, p. 7; on screen before &ldquo;Not legalism&rdquo;).'))
 A(QK('&ldquo;We expect <b>no new Sun</b>, no new revelation of the Spirit, no other than the same gospel and the same religion, only that it shall be disinterred from the rubbish of the dark ages&hellip;&rdquo;',
      AC + ', &ldquo;Prefatory Remarks,&rdquo; ' + MH + ', January 1830, p. 5', 'Nothing new, only renewed', 'mh1830',
      'The first issue. The millennium is the same gospel, recovered.'))
@@ -200,6 +201,9 @@ A(QK('&ldquo;Being a royal priesthood, all children of a King, they have a right
      AC + ', ' + MH + ', August 1830, p. 368', 'At the table', 'mh1830', 'Just before: &ldquo;they are all made sons and daughters, kings and priests to God.&rdquo; The ideal voiced; not yet extended to women.'))
 A(QK('&ldquo;&hellip;the emancipation of all the world from faith in, and obedience to, <b>any set of men, titled and enthroned as they may be</b>, as the representatives or successors of the apostles of Christ.&rdquo;',
      AC + ', &ldquo;The Everlasting Gospel&rdquo; No. 3, ' + MH + ', May 1833, p. 226', 'What the coming judgment brings', 'mh1833', 'The end of clerical power is part of what is coming.'))
+A(QK('&ldquo;In detecting the false gospels, nothing will aid us so much as an examination of their tendencies, and <b>a comparison of their effects with what the Millennium proposes</b>. The gospel of no sect can convert the world.&rdquo;',
+     AC + ', Prefatory Remarks, ' + MH + ' 1, no. 1, 1830, p. 7', 'The future as the test', 'mh1830',
+     'The first issue. Not &ldquo;does it match the pattern?&rdquo; but &ldquo;where does it lead?&rdquo; Does it produce the united, converted world God&rsquo;s future promises? A sectarian gospel fails that test by its nature.'))
 A(CARD('Not legalism.<br>' + G('Embodying the future God will build.'),
   'Not only that they believed these things were right: their responsibility was to embrace and embody what God was going to build. The name <i>Millennial Harbinger</i> is their confidence in that future.'))
 A(C('The other<br>millennial harbinger', 'The Lord&rsquo;s Supper.'))

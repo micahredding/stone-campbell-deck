@@ -45,4 +45,6 @@ Run 2026-11-13 with `decks/src/week7/check_quotes.py` (agent-framework `tools/qu
 | 75 | skipped | — | Checked elsewhere | Micah's ebook (The Vision of Ephesians), 2026-10-27 |
 | 76 | skipped | — | Checked elsewhere | Micah's ebook (God's Homecoming), 2026-10-27 |
 
+Added 2026-11-13: MH 1830 Prefatory Remarks, p. 7 ("In detecting the false gospels…"): ALTERED only for the scan's line-break hyphen "ex- amination"; Checked.
+
 Two quotations to check against page scans before class: slide 62 (Stone's spelling of "Messiah"), and the Wright ebook and TIME lines (72, 74–76).
