@@ -137,7 +137,7 @@ Decided:
 - Keep at hand: the Cherokees, for Campbell's social program.
 
 Draft spine (to confirm before building):
-1. Opening (quiz from `quizzes.md`), recap of Chapter 6.
+1. Opening quiz (Micah, 2026-11-13): "Finish the song: 'This world is not my home, I'm just a-passing through. My treasures are laid up…'" (somewhere beyond the blue; extra points for singing the next line), then "When do we celebrate Easter?" (Every Sunday.) Come back to the song at "renewal, not escape" (Campbell's Prospectus; Lard 1864, "The earth in its renewed form will be man's everlasting dwelling-place"; Wright, "Christ is coming here"), and to Easter at "Sunday as a taste of the future" (Campbell 1834: the Lord's day "anticipates the morning of the resurrection"). Then the recap of Chapter 6.
 2. The pivot: *Christian Baptist* to *Millennial Harbinger*; the Prospectus (two or three slides).
 3. Our problem with Campbell; "Thus saith the Lord" as a shield (D&A Art. V, Props 5–6).
 4. "Have you noticed?" Otter Creek and N. T. Wright.
