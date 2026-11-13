@@ -47,4 +47,6 @@ Run 2026-11-13 with `decks/src/week7/check_quotes.py` (agent-framework `tools/qu
 
 Added 2026-11-13: MH 1830 Prefatory Remarks, p. 7 ("In detecting the false gospels…"): ALTERED only for the scan's line-break hyphen "ex- amination"; Checked.
 
+Added 2026-11-13 (Stone, Scott, Lipscomb): Stone, "Reflections of Old Age," CM 13 (1843), p. 126: EXACT. Stone, "Reply to T. P. Ware," CM 14 (1844), p. 170: EXACT. Scott, *Evangelist* May 1842, p. 98: ALTERED only for scan errors ("apon", "itt"). Lipscomb, *Civil Government*, pp. 12 and 85: EXACT. All Checked.
+
 Two quotations to check against page scans before class: slide 62 (Stone's spelling of "Messiah"), and the Wright ebook and TIME lines (72, 74–76).

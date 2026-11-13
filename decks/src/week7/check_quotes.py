@@ -22,6 +22,8 @@ SRC = {
     'cm6': os.path.join(P, 'Christian Messenger', 'Christian Messenger Volume 6 (1832).md'),
     'cm8': os.path.join(P, 'Christian Messenger', 'Christian Messenger Volume 8 (1834).md'),
     'cm13': os.path.join(P, 'Christian Messenger', 'Christian Messenger Volume 13 (1843).md'),
+    'cm14': os.path.join(P, 'Christian Messenger', 'Christian Messenger Volume 14 (1844).md'),
+    'lipcg': os.path.join(X, 'Civil Government (David Lipscomb).md'),
     'purv': os.path.join(ES, 'biographyofelder00purv.md'),
     'ev1834': os.path.join(P, 'The Evangelist', 'Issues 1832-1842'),
     'ainslie': os.path.join(ES, 'messageofdiscipl0000pete.md'),
