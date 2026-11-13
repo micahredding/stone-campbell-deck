@@ -30,7 +30,7 @@ Alexander from Ireland and the shipwreck to Glasgow, the family reunited in Penn
 ### 2. Still seeking a larger fellowship: the Baptists
 Thomas and Alexander kept looking for institutional alignment; it ended with the Baptists.
 - 1812: the family immersed; Baptist preachers press them to join Redstone.
-- Fall 1813: Brush Run's "conditional union with the Redstone Association" on a written statement of its views, no creed (Campbell, *MH* 1848, p. 344, in Richardson, *Memoirs* I; Foster gives 1815).
+- Fall 1813: Brush Run's "conditional union with the Redstone Association" on a written statement of its views, no creed (Campbell, *MH* 1848, p. 344, in Richardson, *Memoirs* I). Micah, 2026-11-13: go with 1813.
 - 1816: the "Sermon on the Law"; Redstone turns against him.
 - 1823: the Wellsburg church, which joins the Mahoning Baptist Association (eastern Ohio).
 - 1824–26: Redstone disfellowships Brush Run and four more churches.
@@ -55,14 +55,35 @@ The flagship of the movement: its most influential editorial voice, published fo
 
 It's not the *Restoration Quarterly*, or the *Primitivist Paper*, or the *Old Ways Digest*. It's not about the past at all. It's about the future.
 
-### 6. They were moved by God's future
+### 6. How they spoke about the future (Micah, 2026-11-13: all the powerful examples, right after the theme is introduced)
+
+**A transformed earth, not an escape from it**
+- Prospectus (dated 1829): "that political and religious order of society called THE MILLENNIUM, which will be the consummation of that ultimate amelioration of society proposed in the Christian Scriptures."
+- "We expect no new Sun, no new revelation of the Spirit, no other than the same gospel and the same religion, only that it shall be disinterred from the rubbish of the dark ages…" (Prefatory Remarks, *MH* Jan. 1830, p. 5)
+- "…our best political institutions we can part with without a tear or a sigh, when Jesus reigns on earth, and has placed a throne in every heart and built a temple in every family." (July 4th oration, *MH* 1830, p. 306)
+- "The Bible begins with the generations of the heavens and the earth; but the christian revelation ends with the regenerations, or new creation of the heavens and the earth… God recreates, regenerates, but annihilates nothing; and, therefore, the present earth is not to be annihilated." (*Christian System*, p. 311)
+- "…John saw the New Jerusalem… coming down from God out of heaven… to locate in the new earth, the everlasting home of man; for the tabernacle of God is to be there forever." ("The Coming of the Lord—No. II," *MH* Feb. 1841, p. 54)
+- "For man he made this planet, and all the tenantry thereof. And for him he has promised to create a new earth out of this earth, and a new heaven out of this heaven…" (*MH* 1855, p. 146)
+- Moses Lard, 1864: "The notion, so very prevalent, that the Christian's future home lies away in some immeasurably distant region, is only a vulgar error… God built this earth for man… The earth in its renewed form will be man's everlasting dwelling-place." (*Lard's Quarterly* 2, p. 21) (Back to the quiz song.)
+- Peace: the song sung after the 1830 oration, "To ploughshares men shall beat their swords!… And study war no more!" (*MH* 1830, p. 300); Campbell, 1848: "convert your war-ships into missionary packets" (Address on War); Stone, 1842: "the nations shall learn war no more… Lord! hasten the happy day!" (*CM* 12, p. 205).
+
+**John 17: the church's unity comes first, so that the world may believe**
+- Thomas Campbell quotes the prayer in the *Declaration and Address* (1809): "that they all may be one; as thou, Father, art in me and I in thee, that they also may be one in us; that the world may believe that thou hast sent me." And: "This gracious unity and unanimity in Jesus would afford the best external evidence of their union with him." "Are we not all praying for that happy event, when there shall be but one fold, as there is but one chief Shepherd?"
+- Alexander puts John 17 at the head of his essay "Foundation of Christian Union" in his own translation: "I pray—for those who shall believe on me through their teaching, that all may be one… that the world may believe that thou hast sent me… that their union may be perfected: and that the world may know that thou hast sent me, and that thou lovest them as thou lovest me." Then: "Thus Messiah prayed." (*Christian System*, p. 110)
+- The two propositions: "1st. Nothing is essential to the conversion of the world but the union and co-operation of christians. 2nd. Nothing is essential to the union of christians but the apostles teaching or testimony." (*Christian System*, p. 112) And: "to suppose that all christians will form one communion in that happy age of the world, and not before it, is to suppose a moral effect without a cause." (p. 113)
+- 1830: "the union of christians, and the destruction of sects, are indispensable prerequisites to the subjection of the world to the government of Jesus… While the Army of the Faith is enlisted under so many different generals… they may make havoc upon one another, but it is impossible they can convert the world." ("Millennium—No. I," *MH* Feb. 1830, p. 55)
+- Thomas Campbell, 1839: "we have the prayer of Christ for it, John xvii. 20—23; and the promise of God, Isai. xi. 9… are we not all looking for a Millennium of universal peace and prosperity…? These things being so, our grand concern and present duty is, to adopt the proper means for accomplishing this truly blissful and desirable object." (*MH* Apr. 1839, p. 155)
+- Stone, 1832: "Let the unity of Christians be our polar star… that the world may believe, and be saved… But let that man, who opposes Christian union, remember, that he opposes the prayer of Jesus, and the salvation of the world." (*CM* 6, p. 266)
+- Stone, 1843, firmly expecting Christ's return first: "Some of you say it will be effected in the millenium. No, it must be effected before, that the world may be brought to believe and be saved." (*CM* 13, p. 8)
+- Richardson, 1853: unity, "without which, the conversion of the world and the perfection of the church, would seem to be alike impossible!" (*Principles and Objects*, p. 84)
+- D. S. Burnet at Campbell's memorial, 1866: "the union of Christians is the crowning moral miracle which is to convert the world." (p. 7)
+
+### 7. They were moved by God's future: unity, conscience, the priesthood
 The point all through this class: from Cane Ridge to Brush Run's first Supper, they saw what was happening as a sign that the Spirit was on the move and that God's future could be glimpsed now, so their job was to get on board. Unity, freedom of conscience and the priesthood of all believers are wrapped up in that future.
 
 Unity as the nature of the coming church:
 - Thomas Campbell, 1809: the kingdom "shall be given to the people of the saints of the Most High… But this can not be in their present broken and divided state" (*D&A*, Address). "What! shall we pray for a thing, and not strive to obtain it!!" (*D&A*)
 - Alexander, 1828: "When then we see a people making new divisions and keeping up old ones, while praying for the Millennium or the triumph of love and harmony, we as naturally suspect that they are any thing but in earnest." (*CB* 5, p. 263)
-- Alexander, 1830: "the union of christians, and the destruction of sects, are indispensable prerequisites to the subjection of the world to the government of Jesus" ("Millennium—No. I," *MH* Feb. 1830, p. 55).
-- *Christian System*: "to suppose that all christians will form one communion in that happy age of the world, and not before it, is to suppose a moral effect without a cause" (p. 113).
 - Thomas Campbell, 1839: "are we not all looking for a Millennium of universal peace and prosperity…? These things being so, our grand concern and present duty is…" ("Christian Union," *MH* Apr. 1839, p. 155)
 
 The priesthood of all believers in the coming kingdom:
@@ -74,7 +95,7 @@ So it wasn't only that they believed these things were right. Their responsibili
 
 **The other millennial harbinger: communion.** Brush Run's first Supper, "an emblem of the millennial state of the Church" (Richardson's report, *Memoirs* I:369); "meeting around one and the same Lord's table… imparts to us a joy which we are unable to express" (Prefatory Remarks, *MH* 1830, p. 5); the Lord's day "anticipates the morning of the resurrection" (*MH* Jan. 1834, p. 37). (Back to the quiz: Easter every Sunday.)
 
-### 7. Not a particular eschatology: the future itself
+### 8. Not a particular eschatology: the future itself
 We might get hung up on Campbell's postmillennialism; most of us aren't. A distraction. He went back and forth in the *Harbinger* itself:
 - 1831: "a deepening gloom overspreads our ecclesiastical heavens" (p. 168).
 - 1833: "with what caution we have spoken on the prophecies and millennial matters" (p. 49).
@@ -85,7 +106,7 @@ Stone and others held other views (Stone expected Christ to return first and rei
 
 So the key is not any particular eschatology but eschatology itself: God's future had deep meaning, whether held pre-, post- or a-millennially. The real idea is the commitment to God's future, and that, I'd argue, is the leading emphasis, the motivating impulse, at a deeper layer than any restorationist impulse. Campbell, 1840: "all the Millennium we could scripturally expect was not merely the restoration of the Jerusalem church… but the extension of it through all nations and languages for one thousand years" (p. 561); and 1825: "Just in so far as the ancient order of things… is restored, just so far has the Millennium commenced" (*CB* 2, p. 136). Restoration served the future.
 
-### 8. N. T. Wright, and Campbell beside him
+### 9. N. T. Wright, and Campbell beside him
 Introduce Wright, then compare:
 - **Reading Scripture as story** (Micah's short list, in the earlier draft's section 4(1) below): story authority (Laing Lecture, p. 22); "not… rules and regulations… Nor… creeds" (p. 9); the authority of the triune God exercised through Scripture; "the task of the whole church… not merely of the professional caste" (p. 27); the aerial photograph (*SC* pp. 185–186); heaven and earth interlock (*SC* p. 188); worship as "a showcase for scripture" (*SC* p. 151); "go back to the first century" (*VE* §1). Beside Campbell's "book of facts": "something done."
 - **Wright's eschatology:** "Christ is coming here, to join together the heavens and the Earth in an act of new creation" (TIME, 2008); "life after life after death"; "colonize earth with the life of heaven" (*Surprised by Hope*, page to confirm). Beside Campbell: "God recreates, regenerates, but annihilates nothing" (*CS* p. 311); Lard, 1864: "The earth in its renewed form will be man's everlasting dwelling-place." (Back to the quiz song.)
