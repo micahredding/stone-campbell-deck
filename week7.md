@@ -22,7 +22,80 @@
 
 ---
 
-## Narrative (draft, in Micah's order, 2026-11-08)
+## Narrative: the story as we'll tell it (Micah, 2026-11-13)
+
+### 1. Recap: Ireland to America, ordained
+Alexander from Ireland and the shipwreck to Glasgow, the family reunited in Pennsylvania (1809), Brush Run constituted (May 4, 1811), Alexander ordained by the choice of the people (Jan. 1, 1812). One slide: `R.ASSOC_SUMMARY` (the moves from the Evangelical Society of Ulster on) can carry the whole recap and the next section.
+
+### 2. Still seeking a larger fellowship: the Baptists
+Thomas and Alexander kept looking for institutional alignment; it ended with the Baptists.
+- 1812: the family immersed; Baptist preachers press them to join Redstone.
+- Fall 1813: Brush Run's "conditional union with the Redstone Association" on a written statement of its views, no creed (Campbell, *MH* 1848, p. 344, in Richardson, *Memoirs* I; Foster gives 1815).
+- 1816: the "Sermon on the Law"; Redstone turns against him.
+- 1823: the Wellsburg church, which joins the Mahoning Baptist Association (eastern Ohio).
+- 1824–26: Redstone disfellowships Brush Run and four more churches.
+- 1827: Mahoning sends out Walter Scott.
+- Aug. 1830: Mahoning dissolves itself.
+
+**He cared about the association.** Answering "An Independent Baptist" who charged him with inconsistency, Campbell quotes his own declaration: "I and the church with which I am connected are in full communion with the Mahoning Baptist Association, and through them with the whole Baptist society." (*Christian Baptist* 3, 1826, "To an Independent Baptist," p. 200) He defends it: the only bond of union the paper ever advocated is the confession "that Jesus is the Christ," and he asks whether he would not be the inconsistent one "If I had refused communion with the whole Baptist society?" (pp. 201–202). [Checked in the database's OCR of *CB* vol. 3; check the scan before the slide.]
+
+### 3. The *Christian Baptist* (1823–1830)
+Its masthead verse ties straight back to last week (ordination; the priesthood of all believers; the Church of Christ list "No titles: no 'Reverend.' The preacher is 'Brother'"):
+> "Style no man on earth your Father: for he alone is your Father who is in heaven; and all ye are brethren. Assume not the title of Rabbi; for ye have only One Teacher: neither assume the title of Leader; for ye have only One Leader—the Messiah." (Matt. 23:8–10, on the title page of the *Christian Baptist*; seen in the 1827 edition, as reprinted 1955. Confirm it headed the 1823 issues.)
+Also on the title page: "Prove all things: hold fast that which is good," and Benson: "What a glorious freedom of thought do the Apostles recommend!… May all Christians use this liberty of judging for themselves in matters of religion, and allow it to one another."
+Alexander's years as a Baptist: attack journalism against clergy, creeds and the "kingdom of the clergy."
+
+### 4. The eternal pattern
+It comes to an end the way every affiliation did: the Campbells want the fellowship, but won't accept the boundaries the other body requires (the Seceders, the Synod of Pittsburg, Redstone, and in time the Baptists at large, 1827–30).
+
+### 5. The pivot: the *Millennial Harbinger* (1830–1870)
+The flagship of the movement: its most influential editorial voice, published for four decades (Campbell to 1864, then Pendleton), read for generations after. Prospectus (dated 1829): "It shall have for its object the developement, and introduction of that political and religious order of society called THE MILLENNIUM, which will be the consummation of that ultimate amelioration of society proposed in the Christian Scriptures."
+
+**Discussion:** Besides the fact that *Millennial Harbinger* is the most badass name for a religious journal ever, what do you notice about the name?
+
+It's not the *Restoration Quarterly*, or the *Primitivist Paper*, or the *Old Ways Digest*. It's not about the past at all. It's about the future.
+
+### 6. They were moved by God's future
+The point all through this class: from Cane Ridge to Brush Run's first Supper, they saw what was happening as a sign that the Spirit was on the move and that God's future could be glimpsed now, so their job was to get on board. Unity, freedom of conscience and the priesthood of all believers are wrapped up in that future.
+
+Unity as the nature of the coming church:
+- Thomas Campbell, 1809: the kingdom "shall be given to the people of the saints of the Most High… But this can not be in their present broken and divided state" (*D&A*, Address). "What! shall we pray for a thing, and not strive to obtain it!!" (*D&A*)
+- Alexander, 1828: "When then we see a people making new divisions and keeping up old ones, while praying for the Millennium or the triumph of love and harmony, we as naturally suspect that they are any thing but in earnest." (*CB* 5, p. 263)
+- Alexander, 1830: "the union of christians, and the destruction of sects, are indispensable prerequisites to the subjection of the world to the government of Jesus" ("Millennium—No. I," *MH* Feb. 1830, p. 55).
+- *Christian System*: "to suppose that all christians will form one communion in that happy age of the world, and not before it, is to suppose a moral effect without a cause" (p. 113).
+- Thomas Campbell, 1839: "are we not all looking for a Millennium of universal peace and prosperity…? These things being so, our grand concern and present duty is…" ("Christian Union," *MH* Apr. 1839, p. 155)
+
+The priesthood of all believers in the coming kingdom:
+- "…who has made all the citizens of his kingdom, not citizens only, but citizen kings and priests to God." (July 4th oration, *MH* 1830, p. 309)
+- "Being a royal priesthood… they have a right to meet in his name to break the loaf of blessing… without the intervention of a mediator, priest, or prophet, consecrated by human hands." (*MH* Aug. 1830, p. 368)
+- The coming judgment brings "the emancipation of all the world from faith in, and obedience to, any set of men, titled and enthroned as they may be, as the representatives or successors of the apostles of Christ." (*MH* May 1833, p. 226)
+
+So it wasn't only that they believed these things were right. Their responsibility was not to legalism but to embracing and embodying the future God was going to build, and the *Millennial Harbinger*'s name expresses their confidence in that future.
+
+**The other millennial harbinger: communion.** Brush Run's first Supper, "an emblem of the millennial state of the Church" (Richardson's report, *Memoirs* I:369); "meeting around one and the same Lord's table… imparts to us a joy which we are unable to express" (Prefatory Remarks, *MH* 1830, p. 5); the Lord's day "anticipates the morning of the resurrection" (*MH* Jan. 1834, p. 37). (Back to the quiz: Easter every Sunday.)
+
+### 7. Not a particular eschatology: the future itself
+We might get hung up on Campbell's postmillennialism; most of us aren't. A distraction. He went back and forth in the *Harbinger* itself:
+- 1831: "a deepening gloom overspreads our ecclesiastical heavens" (p. 168).
+- 1833: "with what caution we have spoken on the prophecies and millennial matters" (p. 49).
+- 1840: "we have not committed ourselves to any of the theories of the present day on the nature and coming of the Millennium… We had more pressing and important matter on hand." (pp. 561–562)
+- 1853: he lists "the millennium" among the "opinions and speculative views" that "terminate in schism" (p. 175).
+- 1856: "Modesty sits most gracefully on… interpreters of prophecy." (p. 698)
+Stone and others held other views (Stone expected Christ to return first and reign), and Campbell published them: the premillennialist "Daniel" in his first volume, McCorkle's pessimism in 1833.
+
+So the key is not any particular eschatology but eschatology itself: God's future had deep meaning, whether held pre-, post- or a-millennially. The real idea is the commitment to God's future, and that, I'd argue, is the leading emphasis, the motivating impulse, at a deeper layer than any restorationist impulse. Campbell, 1840: "all the Millennium we could scripturally expect was not merely the restoration of the Jerusalem church… but the extension of it through all nations and languages for one thousand years" (p. 561); and 1825: "Just in so far as the ancient order of things… is restored, just so far has the Millennium commenced" (*CB* 2, p. 136). Restoration served the future.
+
+### 8. N. T. Wright, and Campbell beside him
+Introduce Wright, then compare:
+- **Reading Scripture as story** (Micah's short list, in the earlier draft's section 4(1) below): story authority (Laing Lecture, p. 22); "not… rules and regulations… Nor… creeds" (p. 9); the authority of the triune God exercised through Scripture; "the task of the whole church… not merely of the professional caste" (p. 27); the aerial photograph (*SC* pp. 185–186); heaven and earth interlock (*SC* p. 188); worship as "a showcase for scripture" (*SC* p. 151); "go back to the first century" (*VE* §1). Beside Campbell's "book of facts": "something done."
+- **Wright's eschatology:** "Christ is coming here, to join together the heavens and the Earth in an act of new creation" (TIME, 2008); "life after life after death"; "colonize earth with the life of heaven" (*Surprised by Hope*, page to confirm). Beside Campbell: "God recreates, regenerates, but annihilates nothing" (*CS* p. 311); Lard, 1864: "The earth in its renewed form will be man's everlasting dwelling-place." (Back to the quiz song.)
+- **The church as a microcosm of that future:** "the small working model of new creation" (*VE* §1); "Ephesians is all about the church, and especially about its unity" (*GH* p. 260); "new creation that we can eat and drink" (*GH* p. 252). Beside Brush Run's emblem and Campbell's 1830 table.
+
+---
+
+## Earlier narrative draft (2026-11-08 to 11-10), kept as a quarry
+
+### Narrative (draft, in Micah's order, 2026-11-08)
 
 ### 1. The pivot: from demolition to destination
 
