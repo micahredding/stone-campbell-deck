@@ -87,8 +87,8 @@ A(LIST('Alexander becomes a Baptist', 'The Redstone Baptists: on their own terms
   [D('June 1812', 'Alexander, his wife, his parents and others immersed'),
    D('1812&ndash;13', 'Baptist preachers press Brush Run to join them'),
    D('Fall 1813', 'Brush Run joins the Redstone Baptist Association on their own written terms: no creed'),
-   D('1823', 'The Wellsburg church joins the Mahoning Association')],
-  'Four clicks. Campbell calls it &ldquo;a conditional union with the Redstone Association during the fall of 1813&rdquo; (<i>MH</i> 1848, p. 344, in Richardson, <i>Memoirs</i> I). Mahoning, in Ohio, was friendlier ground.',
+   D('July 1823', 'A Baptist paper: the <i>Christian Baptist</i> begins')],
+  'Four clicks. Campbell calls it &ldquo;a conditional union with the Redstone Association during the fall of 1813&rdquo; (<i>MH</i> 1848, p. 344, in Richardson, <i>Memoirs</i> I). The first issue is dated Buffaloe, July 4, 1823: he edited it as a Baptist, for Baptists.',
   size='clamp(24px,4.4vmin,56px)', gap='1.6vmin'))
 
 # ---------- 3. BAPTIST COMMUNION ----------
@@ -110,10 +110,12 @@ A(QK('&ldquo;The &lsquo;Christian Baptist&rsquo; shall espouse the cause of no r
 # ---------- 5. BAPTIST EXCOMMUNICATION ----------
 A(LIST('Out of the Baptists', 'Baptist excommunication',
   [D('1816', 'The &ldquo;Sermon on the Law&rdquo;; Redstone turns against him'),
+   D('1823', 'Redstone moves to put him out; he leaves first, to a new church at Wellsburg'),
+   D('1824', 'Wellsburg is received into the Mahoning Association'),
    D('1824&ndash;26', 'Redstone disfellowships Brush Run and four more churches'),
    D('1827&ndash;30', 'Baptist associations expel the &ldquo;Reformers&rdquo;'),
    D('Aug. 1830', 'Mahoning dissolves itself')],
-  'Four clicks. They did not leave the Baptists; the Baptists put them out, association by association (Dover, Virginia, 1830, among others). Mahoning, the friendly one, dissolved at Austintown, Ohio, judging it had no scriptural standing.',
+  'Six clicks. Wellsburg (Richardson, <i>Memoirs</i> II, pp. 68&ndash;69, 100): in August 1823 Campbell learned that his opponents in Redstone had packed the next meeting to expel him. With his debate with McCalla coming, he &ldquo;thought it best to evade the denominational discredit.&rdquo; Brush Run dismissed him and some thirty members to form a church at Wellsburg, &ldquo;the second church of the Reformation&rdquo;; he attended Redstone &ldquo;as a spectator,&rdquo; no longer a member. In September 1824 Mahoning received Wellsburg on his written statement of belief, not a creed. They did not leave the Baptists; the Baptists put them out, association by association (Dover, Virginia, 1830, among others). Mahoning, the friendly one, dissolved at Austintown, Ohio, judging it had no scriptural standing.',
   size='clamp(24px,4.4vmin,56px)', gap='1.6vmin'))
 
 # ---------- 6. A TANGENT: BACKWARD AND FORWARD ----------
