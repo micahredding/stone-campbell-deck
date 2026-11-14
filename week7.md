@@ -269,3 +269,17 @@ If time allows after section 5: Campbell's Guernsey "Project" (1843), Propositio
 ## Future
 
 *What is beautiful here? What do we carry forward?*
+
+## The shape (Micah, 2026-11-14)
+
+Supersedes the slide plan above where they differ. The deck (`decks/chapter7.html`, 101 spine slides) runs:
+
+1. **Opening and recap.**
+2. **Campbell's history with institutions:** still seeking a larger fellowship; the "Joined, refused, dissolved" side path; Redstone and Mahoning; communion with the Baptists.
+3. **The *Christian Baptist*:** its masthead; the eternal pattern.
+4. **The *Millennial Harbinger*:** the pivot, the flagship, "What do you notice about the name?", "It's about the future"; restoration served the future (*MH* 1840).
+5. **Their eschatology across the movement:** Campbell's four marks (new creation; by the gospel, not the sword; the church as foretaste; the future as the test) and how they spoke of a renewed earth; John 17 (unity first); Stone's eschatology; he went back and forth; John Mark Hicks (they disagreed on the millennium, agreed on renewal; "the dominant perspective among churches of Christ in the late nineteenth century"); "Not any particular eschatology. The future itself."; side path "Other voices on the future."
+6. **Everything so far, read forward** (Micah: the whole class so far reframed eschatologically; this is why unity, freedom, priesthood, communion and the church as foretaste come in): Chapters 1–6 read forward, with quotations for Cane Ridge, the *Declaration and Address*, the *Last Will* and Alexander's "gates of heaven"; then the five marks, each with its quotations: unity, freedom, priesthood, communion (the table), the church as foretaste; the future as the test; "Not legalism."
+7. **Two ways into the world:** the same hope led either to a strong separation of church and state (Stone 1843–44, Lipscomb) or to an institutional social agenda (Campbell's "in progress to another age… a millennial… period"; Scott 1859; the ACMS; P. J. Martin, notes only); "Same hope. Opposite routes."
+8. **Some Wright:** new creation, the church as small working model, the table, "Two centuries apart." Not his reading of Scripture, and not the discussion of how far we follow him: both move to Chapter 8 (`NEXT_WEEK` in `decks/src/week7/slides.py`).
+9. **Close:** six ideas, discussion, site, next week.

@@ -19,3 +19,7 @@ Narrative…
 ## Future
 
 *What is beautiful here? What do we carry forward?*
+
+## Carried from Chapter 7 (Micah, 2026-11-14)
+
+Moved out of Chapter 7 to open this week: N. T. Wright on reading Scripture as story, and the framing and discussion of how far we follow Wright ("how Wright-pilled are we?"). The four slides are kept as `NEXT_WEEK` in `decks/src/week7/slides.py`: *Simply Christian* (Scripture as story; "part of the plan"), and the Laing lecture, "How Can the Bible Be Authoritative?" ("story authority," p. 22; "not merely of the professional caste," p. 27). The Wright short list and bank: `week7.md` and the database's `10 Research Projects/The Church as Working Model (Wright)/`.

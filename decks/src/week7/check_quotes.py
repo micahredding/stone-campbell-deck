@@ -31,6 +31,8 @@ SRC = {
     'cm11': os.path.join(P, 'Christian Messenger', 'Christian Messenger Volume 11 (1840).md'),
     'scott59': os.path.join(X, 'The Messiahship (Walter Scott 1859).md'),
     'hicks2': os.path.join(X, "Hicks - The Lord's Supper as Eschatological Table (2026).md"),
+    'purv48': os.path.join(X, 'The Biography of Elder David Purviance (Levi Purviance 1848).md'),
+    'bio': os.path.join(X, 'The Biography of Eld. Barton Warren Stone.md'),
     'purv': os.path.join(ES, 'biographyofelder00purv.md'),
     'ev1834': os.path.join(P, 'The Evangelist', 'Issues 1832-1842'),
     'ainslie': os.path.join(ES, 'messageofdiscipl0000pete.md'),

@@ -158,7 +158,7 @@ A(QK('&ldquo;<b>In doing this they were clearing away the rubbish from the found
      'Barton W. Stone, &ldquo;Reply to T. P. Ware,&rdquo; <i>Christian Messenger</i> 14, October 1844, p. 170', 'Stone, 1844', 'cm14',
      '&ldquo;Doing this&rdquo;: arguing against human creeds and laws for governing the church. A month before his death (November 9, 1844), Stone carries the <i>Last Will</i>&rsquo;s logic from the church to the state.', size='clamp(36px,7.6vmin,96px)'))
 A(CARD('Same hope.<br>' + G('Opposite routes.'),
-  'Campbell: the future comes through the gospel in history, and the church reforms the world. Stone: Christ breaks in, and the church stands apart from the world&rsquo;s powers to show a better one. Both: the church should already look like what is coming.'))
+  'Separation: Stone, Lipscomb, Harding: no voting, office or war; the church as the alternative government. A social agenda: Campbell, and Scott after 1844: societies, schools, missions (the American Christian Missionary Society, 1849, Campbell its president); and P. J. Martin&rsquo;s postmillennial new earth (1913), with &ldquo;no exploitation&hellip; no foreclosing of mortgages&rdquo; (as quoted by John Mark Hicks; book not yet seen). Both: the church should already look like what is coming.'))
 A(QK('&ldquo;We expect <b>no new Sun</b>, no new revelation of the Spirit, no other than the same gospel and the same religion, only that it shall be disinterred from the rubbish of the dark ages&hellip;&rdquo;',
      AC + ', &ldquo;Prefatory Remarks,&rdquo; ' + MH + ', January 1830, p. 5', 'Nothing new, only renewed', 'mh1830',
      'The first issue. The millennium is the same gospel, recovered.'))
@@ -346,7 +346,7 @@ A(QK('&ldquo;The bread and the wine can be seen as true gifts coming forward to 
      NTW + ', <i>God&rsquo;s Homecoming</i> (2025), p. 252', 'At the table', 'none',
      'From Micah&rsquo;s ebook (read 2026-10-27). Brush Run&rsquo;s first Supper; the Lord&rsquo;s day that anticipates the resurrection.'))
 A(CARD('Two centuries apart:<br>' + G('the same impulse.'),
-  'Scripture as the story of what God has done; a future that renews this world; a church that lives it now, above all in its unity.'))
+  'A future that renews this world; a church that lives it now, above all in its unity and at its table. (Wright on reading Scripture as story, and how far we follow him: next week.)'))
 
 # ---------- CLOSE ----------
 DISCUSS = re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>Backup prompts (off the slide): Where do you glimpse God&rsquo;s future in this church? What would change if we believed our unity was the world&rsquo;s best evidence? Which of our practices are ways of living the future now?</aside>',
@@ -362,3 +362,87 @@ A('<section class="slide"><h2>Next week: the handshake at Lexington.</h2>'
   '<aside class=notes>Chapter 8, the Stone-Campbell merger.</aside></section>')
 A(BLACK)
 
+# ---------- RESHAPE (Micah, 2026-11-14) ----------
+# The shape: institutions; the Christian Baptist; the Harbinger, about the future; their eschatology across
+# the movement; everything so far read forward (unity, freedom, priesthood, communion, the church as
+# foretaste); two ways into the world (separation, or a social agenda); some Wright (his reading of
+# Scripture moves to Chapter 8: the slides are kept in NEXT_WEEK). New slides are made here, then S is reordered.
+_old = list(S); del S[:]
+A(C('Everything so far,<br>read forward', 'Unity, freedom, the priesthood of all, communion, and the church as a foretaste: every chapter so far, seen from the future they were living toward.'))
+A(LIST('Chapters 1&ndash;6, read forward', 'Everything so far',
+  ['<b>Cane Ridge</b> (1801): a communion festival, read as the dawn of the millennial day.',
+   '<b>Thomas Campbell&rsquo;s trial</b> (1807&ndash;09): tried for sharing the Lord&rsquo;s table.',
+   '<b>The <i>Declaration and Address</i></b> (1809): unity and liberty, because the kingdom is coming.',
+   '<b>The <i>Last Will</i></b> (1804): a presbytery dies into union, expecting redemption.',
+   '<b>Alexander and the sea</b> (1808&ndash;10): the church&rsquo;s gates as wide as heaven&rsquo;s.',
+   '<b>Brush Run</b> (1811&ndash;12): the first Supper an emblem of the millennial church; ministers chosen by the people.'],
+  'Six clicks, in the order we taught them. Each was already about the future: the table (1, 2, 6), unity (3, 4), liberty (3), the gates of admission (5), the priesthood (6). Quotations for four follow; the Brush Run Supper comes back at the table.',
+  size='clamp(24px,4.3vmin,54px)', gap='1.3vmin'))
+A(QK('&ldquo;Many were fully persuaded that <b>the glorious millennial day had commenced</b>, and that the world would soon become the Kingdom of our Lord Jesus Christ.&rdquo;',
+     'An eyewitness of Cane Ridge, in Levi Purviance, <i>Biography of Elder David Purviance</i> (1848), p. 301', 'Chapter 1 &middot; Cane Ridge', 'purv48',
+     'An anonymous eyewitness, about ten years old in 1801. He goes on: &ldquo;But alas! That enemy of God and man, sectarianism, raised its hydra head&hellip; and the fair prospects of Zion were in some degree blasted.&rdquo; Stone himself: from that revival &ldquo;a fountain of light has sprung&hellip; and it promises fair to enlighten the world&rdquo; (<i>Biography</i>, p. 46).'))
+A(QK('&ldquo;It is our consolation, in the mean time, that <b>the desired event, as certain as it will be happy and glorious, admits of no dispute</b>, however we may hesitate or differ about the proper means of promoting it.&rdquo;',
+     DA, 'Chapter 3 &middot; The <i>Declaration and Address</i>', 'dna',
+     'The close of the Address. The future is certain; the means are disputed. The &ldquo;desired event&rdquo;: the church&rsquo;s unity, and through it the conversion of the world.'))
+A(QK('&ldquo;&hellip;pray more and dispute less; and while they behold the signs of the times, look up, and <b>confidently expect that redemption draweth nigh</b>.&rdquo;',
+     'Springfield Presbytery, <i>Last Will and Testament</i> (1804), in Stone, <i>Biography</i>, p. 52', 'Chapter 4 &middot; The <i>Last Will</i>', 'bio',
+     'Its epigraph is Hebrews 12:27, &ldquo;that those things which cannot be shaken may remain.&rdquo; The Witnesses&rsquo; Address hopes the work &ldquo;will terminate in the universal spread of the gospel, and the unity of the church&rdquo; (pp. 54&ndash;55).', size='clamp(34px,7vmin,88px)'))
+A(QK('&ldquo;We have decided, therefore,&hellip; <b>to open the gates of admission into the Church as wide as the gates of heaven</b>.&rdquo;',
+     AC + ', November 1810 &middot; in Richardson, <i>Memoirs</i>, vol. 1, p. 341', 'Chapter 5 &middot; Alexander', 'rich1',
+     'From Chapter 5. The church&rsquo;s door measured by heaven&rsquo;s: the future sets the terms of fellowship now.', size='clamp(38px,8.4vmin,106px)'))
+A(LIST('The future, practiced now', 'What the church will be, it does now',
+  ['<b>Unity:</b> one body, gathered around Christ alone.',
+   '<b>Freedom:</b> faith binds; opinions do not.',
+   '<b>Priesthood:</b> no titled class between God and his people.',
+   '<b>Communion:</b> the table as a taste of the kingdom.',
+   '<b>The church as foretaste:</b> a small working model of what is coming.'],
+  'Five marks, one per click: why each theme of this class belongs here. Each was the nature of the coming church, so each was the church&rsquo;s work now. Their words for each follow, in this order.'))
+A(C('Two ways<br>into the world', 'The same hope pointed two ways in public life: a strong separation of church and state, or an institutional social agenda.'))
+A(QK('&ldquo;It took but little thought to see that Christians cannot fight&hellip; <b>But if he cannot fight himself, can he vote to make another fight?</b>&rdquo;',
+     'David Lipscomb, <i>Civil Government</i> (1889), preface, p. 4', 'Separation', 'lipcg',
+     'The Civil War turned him. The church, God&rsquo;s kingdom, displaces the human governments by spreading, not by force; so Christians do not fight, vote or hold office. Stone&rsquo;s line in the next generation; more in Chapter 9.'))
+A(QK('&ldquo;Society is not yet fully civilized. It is only beginning to be. Things are in process, <b>in progress to another age&mdash;a golden&mdash;a millennial&mdash;a blissful period</b> in human history.&rdquo;',
+     AC + ', &ldquo;Address on the Amelioration of the Social State,&rdquo; <i>Popular Lectures and Addresses</i> (1863), p. 69', 'A social agenda', 'pla',
+     'He goes on: &ldquo;Woman, I believe, is destined to be the great agent in this grandest of all human enterprises&mdash;an effort to advance society to the acme of its most glorious destiny on earth,&rdquo; and calls for &ldquo;universal female education.&rdquo; Shadows: in the same address her sphere is &ldquo;the domestic circle&rdquo;; elsewhere he expects an &ldquo;Anglo-Saxon triumph in the great work of human civilization and redemption.&rdquo;'))
+A(QK('&ldquo;&hellip;it is not an age to drop down from heaven, but <b>a period of light, religion and enjoyment to arise out of the natural and gradual progress of society</b>.&rdquo;',
+     'Walter Scott, <i>The Messiahship</i> (1859), p. 335', 'A social agenda', 'scott59',
+     'Scott after 1844, reversing his own premillennial reading of the 1830s. Shadow: he proves it from &ldquo;the elements of the Revolution of 1776&rdquo;; hope fused with the nation.'))
+_new = list(S); del S[:]
+def _ix(sub):
+    hits = [i for i, x in enumerate(_old) if sub in x]
+    assert len(hits) == 1, (sub, hits)
+    return hits[0]
+def _run(a, b): return [_old[i] for i in range(_ix(a), _ix(b) + 1)]
+def _one(*subs): return [_old[_ix(x)] for x in subs]
+NEXT_WEEK = _run('Most of the Bible does not consist', 'Who tells the story')   # Wright on reading Scripture: Chapter 8
+S.extend(_old[:_ix('It&rsquo;s about<br>') + 1]                       # opening, recap, institutions, Christian Baptist, the Harbinger
+  + _one('Restoration served the future')
+  # their eschatology across the movement
+  + _one('How they spoke<br>about the future', 'Campbell&rsquo;s eschatology')
+  + _run('Nothing new, only renewed', 'Beat your swords into ploughshares')
+  + _run('The prayer they lived by', 'Some of you say it will be effected')
+  + _one('Barton Stone&rsquo;s eschatology', 'Most of us are not.', 'He went back and forth',
+         'James A. Harding was a premillennialist', 'these all agreed that the most important aspect',
+         'the dominant perspective among churches of Christ', 'The commitment to God&rsquo;s future is the leading emphasis')
+  + _run('Side path &middot; other voices on the future', 'which even of our great men')
+  + _run('ride the sea of fire', 'a type of heaven</b>')
+  + _one('Different views of the end.')
+  # everything so far, read forward
+  + _new[:6] + _new[6:7]
+  + _one('shall be given to the people of the saints', 'pray for a thing, and not strive', 'a nucleus has been formed',
+         'Who that thinks of heaven', 'making new divisions and keeping up old ones')                       # unity
+  + _one('the things in which the kingdom of God does not consist', 'Resume that precious', 'We do not ask them to give up their opinions&mdash;<b>')  # freedom
+  + _one('citizen kings and priests to God</b>', 'without the intervention of a mediator', 'the king and the beggar meet',
+         'titled and enthroned as they may be', 'cancel all orders of nobility')                              # priesthood
+  + _run('The other<br>millennial harbinger', 'not only commemorates the resurrection of Jesus')                 # communion
+  + _one('is lived as if the future is already present', 'our grand concern and present duty',
+         'small societies, called churches', 'very order of heaven')                                         # foretaste
+  + _one('In detecting the false gospels', 'Not legalism.')
+  # two ways into the world
+  + _new[7:8] + _one('Where they differed', 'Let Christians shew', 'clearing away the rubbish', 'one universal brotherhood')
+  + _new[8:] + _one('Same hope.<br>')
+  # some Wright
+  + _one('Bishop of Durham', 'Christ is coming here', 'small working model of new creation</b>', 'new creation that we can eat', 'Two centuries apart')
+  + _old[_ix('Two centuries apart') + 1:])                               # close
+_dropped = [x for x in _old if x not in S]   # the two old "church to come" openers and the four Wright-on-Scripture slides
+assert len(_dropped) == 6 and len(S) == len(_old) - 6 + len(_new), (len(S), len(_old), [re.sub('<[^>]+>', ' ', x)[:80] for x in _dropped])
