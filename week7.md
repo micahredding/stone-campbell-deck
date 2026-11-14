@@ -299,14 +299,14 @@ Fact-check notes (2026-11-14):
 - Baptism as a foretaste: nearest source is Scott (baptism now, resurrection then), not priesthood.
 - Form without the Spirit rejected in the *Harbinger*: Richardson's "Faith versus Philosophy" (1857), with Campbell siding with him.
 
-## Structure from "It's about the future" (Micah, 2026-11-14)
+## Structure from "It's about the future" (Micah, 2026-11-14, refined)
 
-1. Not about postmillennialism, but the future in general: Campbell was postmillennial, most of us are not; he went back and forth; Hicks (they disagreed); "Not any particular eschatology. The future itself." (side path: other voices).
-2. The whole movement is about eschatology: everything so far, read forward (Chapters 1–6; Cane Ridge, the *Declaration*, the *Last Will*, the gates of heaven).
-3. The important point: a new earth (Campbell's four marks; Hicks, what they agreed on; "the dominant perspective"; the new-creation quotations; peace).
-4. The church as a microcosm of the future (Hicks, "lived as if the future is already present"; Thomas Campbell's "present duty"; small societies; Stone's "very order of heaven").
-5. How that shapes unity, priesthood, freedom (John 17 first).
-6. How that shapes practices (the table; the Lord's day).
-7. Restoration reframed, not legalism (the future as the test; "Not legalism").
-Then: two ways into the world (opening with Stone's eschatology), some Wright, close.
-
+1. Not about postmillennialism, but the future in general (Campbell postmillennial, back and forth; Hicks; "The future itself"; side path: other voices).
+2. This whole movement is about eschatology (everything so far, read forward). *Open question (Micah): unity, priesthood, freedom may belong here.*
+3. The important point of their eschatology: a new earth.
+4. The church as a microcosm of the future.
+5. Unity, priesthood, freedom as future.
+6. Practices as future (the table; the Lord's day).
+7. Restoration, reframed (the future as the test; "Not legalism").
+8. Eschatology and government: two paths (Stone's eschatology; separation; a social agenda).
+Then some Wright, and the close.

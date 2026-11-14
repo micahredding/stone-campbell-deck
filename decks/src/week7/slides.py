@@ -305,14 +305,13 @@ A(QK('&ldquo;The Lord&rsquo;s day not only commemorates the resurrection of Jesu
      AC + ', ' + MH + ', January 1834, p. 37', 'Easter every Sunday', 'mh1834', 'Easter every Sunday.'))
 
 # ---------- 8. THE FUTURE ITSELF ----------
-A(CARD('Campbell was postmillennial.<br>' + G('Most of us are not.'), 'We might get hung up here. A distraction: he went back and forth in his own paper.'))
-A(LIST('In his own paper', 'He went back and forth',
+A(LIST('Campbell was postmillennial. Most of us are not.', 'In his own paper, he went back and forth',
   [D('1831', '&ldquo;a deepening gloom overspreads our ecclesiastical heavens&rdquo;'),
    D('1833', '&ldquo;with what caution we have spoken on the prophecies and millennial matters&rdquo;'),
    D('1840', '&ldquo;We had more pressing and important matter on hand&rdquo;'),
    D('1853', '&ldquo;the millennium&rdquo; among the opinions that &ldquo;terminate in schism&rdquo;'),
    D('1856', '&ldquo;Modesty sits most gracefully on&hellip; interpreters of prophecy&rdquo;')],
-  'Five clicks. <i>MH</i> 1831, p. 168; 1833, p. 49; 1840, p. 562 (&ldquo;we have not committed ourselves to any of the theories of the present day on the nature and coming of the Millennium&rdquo;); 1853, p. 175; 1856, p. 698. He also printed the other views: the premillennialist &ldquo;Daniel&rdquo; in his first volume; McCorkle&rsquo;s pessimism in 1833; Stone, who expected Christ to come first and reign.',
+  'Five clicks. We might get hung up on his postmillennialism; it is a distraction, and he himself went back and forth. <i>MH</i> 1831, p. 168; 1833, p. 49; 1840, p. 562 (&ldquo;we have not committed ourselves to any of the theories of the present day on the nature and coming of the Millennium&rdquo;); 1853, p. 175; 1856, p. 698. He also printed the other views: the premillennialist &ldquo;Daniel&rdquo; in his first volume; McCorkle&rsquo;s pessimism in 1833; Stone, who expected Christ to come first and reign.',
   size='clamp(22px,4.1vmin,52px)'))
 A(QK('&ldquo;Alexander Campbell was a postmillennialist. James A. Harding was a premillennialist. Walter Scott changed his mind several times. <b>David Lipscomb was uncertain</b>.&rdquo;',
      'John Mark Hicks, &ldquo;What Will Become of the Earth: A Nashville Bible School Perspective&rdquo; (2015)', 'John Mark Hicks, 2015', 'hicks',
@@ -425,7 +424,7 @@ A(LIST('The future, practiced now', 'What the church will be, it does now',
    '<b>Priesthood:</b> no titled class between God and his people.',
    '<b>Freedom:</b> faith binds; opinions do not.'],
   'Three marks, one per click. Each was the nature of the coming church, so each was the church&rsquo;s work now. Their words for each follow: unity (John 17 first), priesthood, freedom.'))
-A(C('Two ways<br>into the world', 'The same hope pointed two ways in public life: a strong separation of church and state, or an institutional social agenda.'))
+A(C('Eschatology and government:<br>two paths', 'The same hope pointed two ways in public life: a strong separation of church and state, or an institutional social agenda.'))
 A(QK('&ldquo;It took but little thought to see that Christians cannot fight&hellip; <b>But if he cannot fight himself, can he vote to make another fight?</b>&rdquo;',
      'David Lipscomb, <i>Civil Government</i> (1889), preface, p. 4', 'Separation', 'lipcg',
      'The Civil War turned him. The church, God&rsquo;s kingdom, displaces the human governments by spreading, not by force; so Christians do not fight, vote or hold office. Stone&rsquo;s line in the next generation; more in Chapter 9.'))
@@ -449,7 +448,7 @@ S.extend(_old[:_ix('It&rsquo;s about<br>') + 1]                       # opening,
   + _one('How they spoke<br>about the future', 'Campbell&rsquo;s eschatology')
   + _run('Nothing new, only renewed', 'Beat your swords into ploughshares')
   + _run('The prayer they lived by', 'Some of you say it will be effected')
-  + _one('Barton Stone&rsquo;s eschatology', 'Most of us are not.', 'He went back and forth',
+  + _one('Barton Stone&rsquo;s eschatology', 'In his own paper, he went back and forth',
          'James A. Harding was a premillennialist', 'these all agreed that the most important aspect',
          'the dominant perspective among churches of Christ', 'The commitment to God&rsquo;s future is the leading emphasis')
   + _run('Side path &middot; other voices on the future', 'which even of our great men')
@@ -527,7 +526,7 @@ _seq = (
     list(range(0, _f('It&rsquo;s about<br>') + 1))
     + _r('Side path &middot; the Harbinger&rsquo;s aim', 'Millennial Character of the Harbinger')
     # 1. not postmillennialism: the future in general
-    + [_f('Most of us are not.'), _f('He went back and forth'), _f('James A. Harding was a premillennialist'),
+    + [_f('In his own paper, he went back and forth'), _f('James A. Harding was a premillennialist'),
        _f('The commitment to God&rsquo;s future is the leading emphasis')]
     + _r('Side path &middot; other voices on the future', 'Different views of the end.')
     # 2. the whole movement is about eschatology
@@ -549,8 +548,8 @@ _seq = (
     # 7. restoration reframed, not legalism
     + [_f('In detecting the false gospels'), _f('Not legalism.')]
     # two ways into the world (Stone's eschatology opens it), Wright, close
-    + [_f('Two ways<br>into the world'), _f('Barton Stone&rsquo;s eschatology</h2>')]
-    + list(range(_f('Two ways<br>into the world') + 1, len(S)))
+    + [_f('Eschatology and government:<br>two paths'), _f('Barton Stone&rsquo;s eschatology</h2>')]
+    + list(range(_f('Eschatology and government:<br>two paths') + 1, len(S)))
 )
 _seq2 = []
 for i in _seq:
