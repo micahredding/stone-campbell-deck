@@ -468,3 +468,8 @@ S.extend(_old[:_ix('It&rsquo;s about<br>') + 1]                       # opening,
   + _old[_ix('Two centuries apart') + 1:])                               # close
 _dropped = [x for x in _old if x not in S]   # the two old "church to come" openers and the four Wright-on-Scripture slides
 assert len(_dropped) == 6 and len(S) == len(_old) - 6 + len(_new), (len(S), len(_old), [re.sub('<[^>]+>', ' ', x)[:80] for x in _dropped])
+# Micah, 2026-11-14: the Prospectus comes after "It's about the future."
+_pro = [i for i, x in enumerate(S) if 'It shall have for its object' in x]
+_fut = [i for i, x in enumerate(S) if 'It&rsquo;s about<br>' in x]
+assert len(_pro) == len(_fut) == 1 and _pro[0] < _fut[0]
+S.insert(_fut[0], S.pop(_pro[0]))
