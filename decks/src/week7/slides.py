@@ -75,39 +75,51 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
   '<div class=sub>The <i>Millennial Harbinger</i> &middot; 1830&ndash;1870</div>'
   '<aside class=notes>Chapter 7. Last week: Brush Run ordains Alexander by the choice of the people. This morning: what they were reaching for.</aside></section>')
 
-# ---------- 1. RECAP ----------
-A(LIST('Where we are', 'Still seeking a larger fellowship',
-  [D('1798', 'Thomas helps found the Evangelical Society of Ulster, across party lines'),
-   D('1808', 'Shipwrecked off Islay; Alexander leaves the Seceders in Glasgow'),
-   D('1809', 'The Christian Association of Washington; the <i>Declaration and Address</i>'),
-   D('1810', 'They ask the Synod of Pittsburg for communion; refused'),
-   D('1811', 'Brush Run: a church of its own'),
-   D('1812', 'Alexander ordained by the choice of the people'),
-   D('1813', 'The Redstone Baptists: on their own terms')],
-  'Seven clicks: the recap and the search in one. One breath each through Brush Run (the ordination was last week); every move reaches for the widest fellowship there is, or refuses a body that makes a creed the test. It ended with the Baptists. The full timeline of their associations, 1791&ndash;1866, is the side path off this slide.',
-  size='clamp(22px,4vmin,50px)', gap='1.2vmin'))
-for _x in R.associations(): A(_x)   # side path: the whole timeline, off the summary
-A(LIST('Among the Baptists', 'The Redstone Baptists: on their own terms',
-  [D('1812', 'The family immersed; Baptist preachers press them to join'),
+# ---------- 1. RECAP (Micah's plan, 2026-11-14: recap; Alexander becomes a Baptist; Baptist communion;
+# the Christian Baptist's purpose; Baptist excommunication; a tangent, backward and forward; the pivot) ----------
+A(LIST('Where we are', 'From Ireland to Brush Run',
+  [D('1808', 'Shipwrecked off Islay; a winter in Glasgow'), D('1809', 'The family reunited in Pennsylvania; the <i>Declaration and Address</i>'),
+   D('1810', 'The Synod of Pittsburg refuses them'), D('May 1811', 'Brush Run constituted; the first Supper'), D('Jan. 1812', 'Alexander ordained by the choice of the people')],
+  'Five clicks. One breath each. The ordination was last week.'))
+
+# ---------- 2. ALEXANDER BECOMES A BAPTIST ----------
+A(LIST('Alexander becomes a Baptist', 'The Redstone Baptists: on their own terms',
+  [D('June 1812', 'Alexander, his wife, his parents and others immersed'),
+   D('1812&ndash;13', 'Baptist preachers press Brush Run to join them'),
    D('Fall 1813', 'Brush Run joins the Redstone Baptist Association on their own written terms: no creed'),
-   D('1816', 'The &ldquo;Sermon on the Law&rdquo;; Redstone turns against him'),
-   D('1823', 'The Wellsburg church joins the Mahoning Association'),
-   D('1824&ndash;26', 'Redstone disfellowships Brush Run and four more churches'),
-   D('1827', 'Mahoning sends out Walter Scott'),
-   D('Aug. 1830', 'Mahoning dissolves itself')],
-  'Seven clicks. Redstone: Campbell calls it &ldquo;a conditional union with the Redstone Association during the fall of 1813&rdquo; (<i>MH</i> 1848, p. 344, in Richardson, <i>Memoirs</i> I). Mahoning dissolved at Austintown, Ohio, in August 1830, judging it had no scriptural standing.',
-  size='clamp(22px,4vmin,50px)', gap='1.2vmin'))
+   D('1823', 'The Wellsburg church joins the Mahoning Association')],
+  'Four clicks. Campbell calls it &ldquo;a conditional union with the Redstone Association during the fall of 1813&rdquo; (<i>MH</i> 1848, p. 344, in Richardson, <i>Memoirs</i> I). Mahoning, in Ohio, was friendlier ground.',
+  size='clamp(24px,4.4vmin,56px)', gap='1.6vmin'))
+
+# ---------- 3. BAPTIST COMMUNION ----------
 A(QK('&ldquo;I and the church with which I am connected are in <b>full communion with the Mahoning Baptist Association, and through them with the whole Baptist society</b>.&rdquo;',
-     CB + ', 1826, &ldquo;To an Independent Baptist,&rdquo; p. 200', 'He cared about the connection', 'cb3',
+     CB + ', 1826, &ldquo;To an Independent Baptist,&rdquo; p. 200', 'Baptist communion', 'cb3',
      'Campbell quoting his own earlier declaration, which &ldquo;An Independent Baptist&rdquo; had attacked as inconsistent.',
      'His defense (pp. 201&ndash;202): the only bond of union the paper ever advocated is the confession &ldquo;that Jesus is the Christ.&rdquo; He would be the inconsistent one, he says, &ldquo;If I had refused communion with the whole Baptist society.&rdquo;'))
 
-# ---------- 3. THE CHRISTIAN BAPTIST ----------
+# ---------- 4. THE CHRISTIAN BAPTIST: PURPOSE AND AIM ----------
 A(C('The <i>Christian Baptist</i>', '1823&ndash;1830. Seven years of attack journalism against the clergy, creeds and &ldquo;the kingdom of the clergy.&rdquo;', '1823&ndash;1830'))
 A(QK('&ldquo;Style no man on earth your Father: for he alone is your Father who is in heaven; and <b>all ye are brethren</b>. Assume not the title of Rabbi; for ye have only One Teacher: neither assume the title of Leader; for ye have only One Leader&mdash;the Messiah.&rdquo;',
      'Matthew 23:8&ndash;10, on the title page of the <i>Christian Baptist</i>', 'Its masthead', 'cb1',
      'Last week&rsquo;s list: no titles, no &ldquo;Reverend&rdquo;; the preacher is &ldquo;Brother.&rdquo; Here it is on the masthead, in Campbell&rsquo;s own rendering of Matthew 23.',
      'Also on the title page: &ldquo;Prove all things: hold fast that which is good,&rdquo; and Benson: &ldquo;May all Christians use this liberty of judging for themselves in matters of religion, and allow it to one another.&rdquo; (Read in the 1827 edition, reprinted 1955.)'))
+A(QK('&ldquo;The &lsquo;Christian Baptist&rsquo; shall espouse the cause of no religious sect, excepting that ancient sect called &lsquo;Christians first at Antioch.&rsquo; <b>Its sole object shall be the eviction of truth, and the exposure of error in doctrine and practice</b>.&rdquo;',
+     AC + ', Prospectus of the ' + CB + ', 1823', 'Its purpose', 'cb1',
+     'He goes on: the editor acknowledges &ldquo;no standard of religious faith or works, other than the Old and New Testaments.&rdquo; Looking back: strip away the clergy, creeds and human additions.'))
+
+# ---------- 5. BAPTIST EXCOMMUNICATION ----------
+A(LIST('Out of the Baptists', 'Baptist excommunication',
+  [D('1816', 'The &ldquo;Sermon on the Law&rdquo;; Redstone turns against him'),
+   D('1824&ndash;26', 'Redstone disfellowships Brush Run and four more churches'),
+   D('1827&ndash;30', 'Baptist associations expel the &ldquo;Reformers&rdquo;'),
+   D('Aug. 1830', 'Mahoning dissolves itself')],
+  'Four clicks. They did not leave the Baptists; the Baptists put them out, association by association (Dover, Virginia, 1830, among others). Mahoning, the friendly one, dissolved at Austintown, Ohio, judging it had no scriptural standing.',
+  size='clamp(24px,4.4vmin,56px)', gap='1.6vmin'))
+
+# ---------- 6. A TANGENT: BACKWARD AND FORWARD ----------
+A(R.ASSOC_SUMMARY.replace('<div class=eyebrow>From the Evangelical Society on</div>', '<div class=eyebrow>A tangent &middot; backward and forward</div>', 1)
+   .replace('<h2 style="max-width:none">Joined, refused, dissolved</h2>', '<h2 style="max-width:none">They kept trying to join</h2>', 1))
+for _x in R.associations(): A(_x)   # side path: the whole timeline, off the tangent
 
 # ---------- 4. THE ETERNAL PATTERN ----------
 A('<section class="slide breath"><div class=eyebrow>The eternal pattern</div>'
@@ -443,9 +455,3 @@ S.extend(_old[:_ix('It&rsquo;s about<br>') + 1]                       # opening,
   + _old[_ix('Two centuries apart') + 1:])                               # close
 _dropped = [x for x in _old if x not in S]   # the two old "church to come" openers and the four Wright-on-Scripture slides
 assert len(_dropped) == 6 and len(S) == len(_old) - 6 + len(_new), (len(S), len(_old), [re.sub('<[^>]+>', ' ', x)[:80] for x in _dropped])
-# Micah, 2026-11-14: the Prospectus comes before "The eternal pattern" and "The pivot".
-_pat = [i for i, x in enumerate(S) if 'They won&rsquo;t accept the fence.' in x]
-_piv = [i for i, x in enumerate(S) if '<h2>The pivot</h2>' in x]
-_pro = [i for i, x in enumerate(S) if 'It shall have for its object' in x]
-assert len(_pat) == len(_piv) == len(_pro) == 1 and _pat[0] + 1 == _piv[0] and _piv[0] + 1 == _pro[0]
-S[_pat[0]:_pro[0] + 1] = [S[_pro[0]], S[_pat[0]], S[_piv[0]]]

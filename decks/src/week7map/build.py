@@ -13,9 +13,12 @@ SIDE = [
 ]
 SECTIONS = [
     ('Opening', 'Our Wild Democracy &middot; Chapter 7'),
-    ('Recap and institutions', 'Still seeking a larger fellowship'),
+    ('Recap', 'From Ireland to Brush Run'),
+    ('The Baptists', 'Alexander becomes a Baptist'),
     ('The Christian Baptist', 'Its masthead'),
-    ('The Harbinger', 'It shall have for its object'),
+    ('Excommunication', 'Baptist excommunication'),
+    ('A tangent', 'They kept trying to join'),
+    ('The Harbinger', '<h2>The pivot</h2>'),
     ('Their eschatology', 'How they spoke<br>about the future'),
     ('John 17', '<h2>John 17</h2>'),
     ('One future', 'Most of us are not.'),
