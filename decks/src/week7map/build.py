@@ -15,7 +15,7 @@ SECTIONS = [
     ('Opening', 'Our Wild Democracy &middot; Chapter 7'),
     ('Recap and institutions', 'Still seeking a larger fellowship'),
     ('The Christian Baptist', 'Its masthead'),
-    ('The Harbinger', '<h2>The pivot</h2>'),
+    ('The Harbinger', 'It shall have for its object'),
     ('Their eschatology', 'How they spoke<br>about the future'),
     ('John 17', '<h2>John 17</h2>'),
     ('One future', 'Most of us are not.'),

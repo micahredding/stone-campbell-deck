@@ -443,3 +443,9 @@ S.extend(_old[:_ix('It&rsquo;s about<br>') + 1]                       # opening,
   + _old[_ix('Two centuries apart') + 1:])                               # close
 _dropped = [x for x in _old if x not in S]   # the two old "church to come" openers and the four Wright-on-Scripture slides
 assert len(_dropped) == 6 and len(S) == len(_old) - 6 + len(_new), (len(S), len(_old), [re.sub('<[^>]+>', ' ', x)[:80] for x in _dropped])
+# Micah, 2026-11-14: the Prospectus comes before "The eternal pattern" and "The pivot".
+_pat = [i for i, x in enumerate(S) if 'They won&rsquo;t accept the fence.' in x]
+_piv = [i for i, x in enumerate(S) if '<h2>The pivot</h2>' in x]
+_pro = [i for i, x in enumerate(S) if 'It shall have for its object' in x]
+assert len(_pat) == len(_piv) == len(_pro) == 1 and _pat[0] + 1 == _piv[0] and _piv[0] + 1 == _pro[0]
+S[_pat[0]:_pro[0] + 1] = [S[_pro[0]], S[_pat[0]], S[_piv[0]]]
