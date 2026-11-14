@@ -57,4 +57,6 @@ Added 2026-11-14: Hicks (2019), "lived as if the future is already present": EXA
 
 Added 2026-11-14 (the future practiced now; the table): T. Campbell, MH 1839 p. 155; CS pp. 111, 166; Stone, CM 11 (1840) p. 33; MH Nov. 1840 p. 481; D&A ("kingdom of God does not consist"; "Resume that precious… liberty"); MH 1853 pp. 174–175; Scott, *Messiahship* p. 240 (read in context; OCR garbled); Campbell, CB 5 (1828) "gospel in bread and wine"; Hicks, "The Lord's Supper as Eschatological Table" (2026), two lines. EXACT, ELLIPSIS, or ALTERED only for scan errors. Checked.
 
+Added 2026-11-14 (Baptists): Campbell, "The Beaver Anathema," CB 7, p. 198: EXACT. Campbell, "Church Organization—No. IV," MH May 1849, p. 272: OCR only ("Iwas", "ina"). Campbell, "Anecdotes, Incidents, and Facts," MH 1848, p. 556 (notes): OCR only. Christian Baptist Prospectus (1823): EXACT. Checked.
+
 Two quotations to check against page scans before class: slide 62 (Stone's spelling of "Messiah"), and the Wright ebook and TIME lines (72, 74–76).

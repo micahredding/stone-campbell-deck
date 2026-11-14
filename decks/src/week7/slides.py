@@ -113,15 +113,24 @@ A(LIST('Out of the Baptists', 'Baptist excommunication',
    D('1823', 'Redstone moves to put him out; he leaves first, to a new church at Wellsburg'),
    D('1824', 'Wellsburg is received into the Mahoning Association'),
    D('1824&ndash;26', 'Redstone disfellowships Brush Run and four more churches'),
-   D('1827&ndash;30', 'Baptist associations expel the &ldquo;Reformers&rdquo;'),
+   D('1829', 'The Beaver Association anathematizes Campbell and Mahoning'),
+   D('1829&ndash;30', 'Baptist associations follow, expelling the &ldquo;Reformers&rdquo;'),
    D('Aug. 1830', 'Mahoning dissolves itself')],
-  'Six clicks. Wellsburg (Richardson, <i>Memoirs</i> II, pp. 68&ndash;69, 100): in August 1823 Campbell learned that his opponents in Redstone had packed the next meeting to expel him. With his debate with McCalla coming, he &ldquo;thought it best to evade the denominational discredit.&rdquo; Brush Run dismissed him and some thirty members to form a church at Wellsburg, &ldquo;the second church of the Reformation&rdquo;; he attended Redstone &ldquo;as a spectator,&rdquo; no longer a member. In September 1824 Mahoning received Wellsburg on his written statement of belief, not a creed. They did not leave the Baptists; the Baptists put them out, association by association (Dover, Virginia, 1830, among others). Mahoning, the friendly one, dissolved at Austintown, Ohio, judging it had no scriptural standing.',
+  'Seven clicks. Wellsburg (Richardson, <i>Memoirs</i> II, pp. 68&ndash;69, 100): in August 1823 Campbell learned that his opponents in Redstone had packed the next meeting to expel him. With his debate with McCalla coming, he &ldquo;thought it best to evade the denominational discredit.&rdquo; Brush Run dismissed him and some thirty members to form a church at Wellsburg, &ldquo;the second church of the Reformation&rdquo;; he attended Redstone &ldquo;as a spectator,&rdquo; no longer a member. His own memory of the moment: &ldquo;Never did hunters, on seeing the game unexpectedly escape from their toils at the moment when its capture was sure, glare upon each other a more mortifying disappointment&rdquo; (&ldquo;Anecdotes, Incidents, and Facts,&rdquo; <i>MH</i> 1848, p. 556). In September 1824 Mahoning received Wellsburg on his written statement of belief, not a creed. They did not leave the Baptists; the Baptists put them out, association by association (Dover, Virginia, 1830, among others). Mahoning, the friendly one, dissolved at Austintown, Ohio, judging it had no scriptural standing.',
   size='clamp(24px,4.4vmin,56px)', gap='1.6vmin'))
+
+A(QK('&ldquo;<b>Who gave to the Beaver Association the right to anathematize the Mahoning Association?</b> Has she a divine authority to mount the tribunal of judgment and to condemn the faith of another Association?&rdquo;',
+     AC + ', &ldquo;The Beaver Anathema,&rdquo; ' + CB + ' 7 (1829&ndash;30), p. 198', 'The Beaver Anathema, 1829', 'cb7',
+     'The Beaver Association, a small Pennsylvania body joined by fragments of Western Reserve churches that refused the Reformation, circulated an anathema against Mahoning and Campbell as &ldquo;disbelieving and denying many of the doctrines of the Holy Scripture&rdquo; (as quoted by Richardson, <i>Memoirs</i> II, pp. 322&ndash;323). Baptist papers reprinted it; the Franklin Association (Kentucky) and the Appomattox Association (Virginia) took it up; Richardson: it &ldquo;induced the Baptists almost everywhere to separate the Reformers from their communion.&rdquo;',
+     'Campbell&rsquo;s piece opens: &ldquo;There is nothing falling into less repute than bulls of excommunication and clerical denunciations.&rdquo;'))
 
 # ---------- 6. A TANGENT: BACKWARD AND FORWARD ----------
 A(R.ASSOC_SUMMARY.replace('<div class=eyebrow>From the Evangelical Society on</div>', '<div class=eyebrow>A tangent &middot; backward and forward</div>', 1)
    .replace('<h2 style="max-width:none">Joined, refused, dissolved</h2>', '<h2 style="max-width:none">They kept trying to join</h2>', 1))
 for _x in R.associations(): A(_x)   # side path: the whole timeline, off the tangent
+A(QK('&ldquo;I confess I was alarmed at the impassioned and hasty manner in which the association was, in a few minutes, dissolved&hellip; <b>the Regular Baptist Mahoning Association died of a moral apoplexy, in less than a quarter of an hour</b>.&rdquo;',
+     AC + ', &ldquo;Church Organization&mdash;No. IV,&rdquo; ' + MH + ', May 1849, p. 272', 'Mahoning, remembered', 'mh1849',
+     'He remembers it as 1828; it was August 1830, at Austintown. Between the two lines: &ldquo;Counsel and caution, argument and remonstrance were wholly in vain&hellip; that remonstrance was quashed by the previous question.&rdquo; Then: &ldquo;Reformation and annihilation are not with me now&hellip; convertible or identical terms.&rdquo; Richardson: at Austintown he &ldquo;was in favor of continuing the Association, or something like it&rdquo; (<i>Memoirs</i> II, p. 328). Even after the Baptists put them out, he wanted the larger connection.'))
 
 # ---------- 4. THE ETERNAL PATTERN ----------
 A('<section class="slide breath"><div class=eyebrow>The eternal pattern</div>'
