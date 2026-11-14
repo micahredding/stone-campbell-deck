@@ -227,6 +227,9 @@ A(QK('&ldquo;&hellip;in assembling there on that occasion, they furnished <b>an 
 A(QK('&ldquo;To see even a few scores of intelligent christians&hellip; <b>meeting around one and the same Lord&rsquo;s table</b>, and uniting in the praises and adorations of one and the same common Lord and Saviour, imparts to us a joy which we are unable to express.&rdquo;',
      AC + ', &ldquo;Prefatory Remarks,&rdquo; ' + MH + ', January 1830, p. 5', 'The first issue', 'mh1830',
      'Next: &ldquo;What we should feel, or how we should feel, among myriads of such, is not for us now to conjecture.&rdquo;'))
+A(QK('&ldquo;In the afternoon, <b>we had heaven upon earth</b>; that is, we had the Lord&rsquo;s Supper.&rdquo;',
+     'Walter Scott, diary, 1848, in William Baxter, <i>Life of Elder Walter Scott</i> (1874), p. 411', 'Walter Scott', 'baxter',
+     'From his diary (the next entry is dated December 17, 1848). John Mark Hicks points to it as an exception: the movement kept the table, weekly and joyful, but mostly as a memorial; Campbell called the Supper &ldquo;not an ordinance for receiving new blessings, but for commemorating those already received&rdquo; (<i>MH</i> 1846, p. 396).', size='clamp(40px,8.4vmin,108px)'))
 A(QK('&ldquo;The Lord&rsquo;s day not only commemorates the resurrection of Jesus, but <b>anticipates the morning of the resurrection</b> in which we shall enter into the rest which remains for the people of God.&rdquo;',
      AC + ', ' + MH + ', January 1834, p. 37', 'Easter every Sunday', 'mh1834', '&rarr; Back to the quiz: when do we celebrate Easter?'))
 
@@ -249,6 +252,9 @@ A(QK('&ldquo;However, these all agreed that the most important aspect of the Chr
 A(QK('&ldquo;&hellip;it was <b>the dominant perspective among churches of Christ in the late nineteenth century</b>&hellip;&rdquo;',
      'John Mark Hicks, &ldquo;What Will Become of the Earth: A Nashville Bible School Perspective&rdquo; (2015)', 'A renewed earth: our own tradition', 'hicks',
      'Just before: &ldquo;Many are surprised to learn this about our forbearers in the faith because they associate a renewed, material earth with fringe groups and strange ideas.&rdquo; He continues: &ldquo;particularly as articulated by David Lipscomb and James A. Harding.&rdquo; Lost in the twentieth century (Hicks, &ldquo;From Lipscomb to Wallace,&rdquo; 2012). Compare the opening quiz: &ldquo;This world is not my home.&rdquo;', size='clamp(40px,8.4vmin,108px)'))
+A(QK('&ldquo;Biblical faith, according to Lipscomb and Harding, <b>is lived as if the future is already present</b>, as if the heavenly city has already been planted on the earth.&rdquo;',
+     'John Mark Hicks, &ldquo;Extending the Kingdom Theology of Lipscomb and Harding&rdquo; (2019)', 'Living the future now', 'hicks',
+     'Just before: &ldquo;This apocalyptic vision is a form of inaugurated eschatology, which calls us to live in the present as if the kingdom of God has fully arrived in anticipation of that fullness.&rdquo; Next: &ldquo;And the present church on the earth is that heavenly city.&rdquo; The Wright link, in our own tradition&rsquo;s terms.', size='clamp(36px,7.6vmin,96px)'))
 A(CARD('Not any particular eschatology.<br>' + G('The future itself.'),
   'Pre-, post- or a-millennial, God&rsquo;s future had deep meaning. The commitment to God&rsquo;s future is the leading emphasis, the motivating impulse, at a deeper layer than any restorationist impulse.'))
 # ---- side path: other voices on the future (off "Not any particular eschatology") ----

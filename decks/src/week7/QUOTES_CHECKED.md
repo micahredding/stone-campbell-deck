@@ -53,4 +53,6 @@ Added 2026-11-14: John Mark Hicks, "What Will Become of the Earth" (2015), three
 
 Notes only (Secondhand): Lipscomb, "earth itself shall become heaven," *Gospel Advocate* 1903, p. 328, as quoted by Hicks (2015); Hicks gives "will become" in 2012. Original not found online.
 
+Added 2026-11-14: Hicks (2019), "lived as if the future is already present": EXACT. Scott, diary (1848), in Baxter, *Life of Elder Walter Scott* (1874), p. 411, "heaven upon earth": ALTERED only for scan errors ("Ave", "Siii)per"); read in the OCR text; Hicks cites p. 410. Checked.
+
 Two quotations to check against page scans before class: slide 62 (Stone's spelling of "Messiah"), and the Wright ebook and TIME lines (72, 74–76).

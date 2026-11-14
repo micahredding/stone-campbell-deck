@@ -26,6 +26,7 @@ SRC = {
     'lipcg': os.path.join(X, 'Civil Government (David Lipscomb).md'),
     'hicks': os.path.join(X, 'Hicks - New Creation essays (johnmarkhicks.com).md'),
     'way5': os.path.join(ES, 'the-way-v5-1903.md'),
+    'baxter': os.path.join(ES, 'baxter-life-of-walter-scott-1874.md'),
     'purv': os.path.join(ES, 'biographyofelder00purv.md'),
     'ev1834': os.path.join(P, 'The Evangelist', 'Issues 1832-1842'),
     'ainslie': os.path.join(ES, 'messageofdiscipl0000pete.md'),
