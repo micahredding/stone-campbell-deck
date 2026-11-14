@@ -13,8 +13,7 @@ SIDE = [
 ]
 SECTIONS = [
     ('Opening', 'Our Wild Democracy &middot; Chapter 7'),
-    ('Recap', 'From Ireland to Brush Run'),
-    ('Institutions', 'Still seeking<br>a larger fellowship'),
+    ('Recap and institutions', 'Still seeking a larger fellowship'),
     ('The Christian Baptist', 'Its masthead'),
     ('The Harbinger', '<h2>The pivot</h2>'),
     ('Their eschatology', 'How they spoke<br>about the future'),

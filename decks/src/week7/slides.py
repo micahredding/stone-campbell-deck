@@ -76,18 +76,20 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
   '<aside class=notes>Chapter 7. Last week: Brush Run ordains Alexander by the choice of the people. This morning: what they were reaching for.</aside></section>')
 
 # ---------- 1. RECAP ----------
-A(LIST('Where we are', 'From Ireland to Brush Run',
-  [D('1808', 'Shipwrecked off Islay; a winter in Glasgow'), D('1809', 'The family reunited in Pennsylvania; the <i>Declaration and Address</i>'),
-   D('1810', 'The Synod of Pittsburg refuses them'), D('May 1811', 'Brush Run constituted; the first Supper'), D('Jan. 1812', 'Alexander ordained by the choice of the people')],
-  'Five clicks. One breath each. The ordination was last week.'))
-
-# ---------- 2. STILL SEEKING FELLOWSHIP: THE BAPTISTS ----------
-A(C('Still seeking<br>a larger fellowship', 'Thomas and Alexander kept looking for an institutional home. It ended with the Baptists.'))
-A(R.ASSOC_SUMMARY)
+A(LIST('Where we are', 'Still seeking a larger fellowship',
+  [D('1798', 'Thomas helps found the Evangelical Society of Ulster, across party lines'),
+   D('1808', 'Shipwrecked off Islay; Alexander leaves the Seceders in Glasgow'),
+   D('1809', 'The Christian Association of Washington; the <i>Declaration and Address</i>'),
+   D('1810', 'They ask the Synod of Pittsburg for communion; refused'),
+   D('1811', 'Brush Run: a church of its own'),
+   D('1812', 'Alexander ordained by the choice of the people'),
+   D('1813', 'The Redstone Baptists: on their own terms')],
+  'Seven clicks: the recap and the search in one. One breath each through Brush Run (the ordination was last week); every move reaches for the widest fellowship there is, or refuses a body that makes a creed the test. It ended with the Baptists. The full timeline of their associations, 1791&ndash;1866, is the side path off this slide.',
+  size='clamp(22px,4vmin,50px)', gap='1.2vmin'))
 for _x in R.associations(): A(_x)   # side path: the whole timeline, off the summary
-A(LIST('Among the Baptists', 'Redstone and Mahoning',
+A(LIST('Among the Baptists', 'The Redstone Baptists: on their own terms',
   [D('1812', 'The family immersed; Baptist preachers press them to join'),
-   D('Fall 1813', 'Brush Run joins the Redstone Baptist Association, on its own written terms: no creed'),
+   D('Fall 1813', 'Brush Run joins the Redstone Baptist Association on their own written terms: no creed'),
    D('1816', 'The &ldquo;Sermon on the Law&rdquo;; Redstone turns against him'),
    D('1823', 'The Wellsburg church joins the Mahoning Association'),
    D('1824&ndash;26', 'Redstone disfellowships Brush Run and four more churches'),
