@@ -12,7 +12,7 @@ A movement drawn together from reformers, farmers, clergy, and laypeople of many
 - [Chapter 4 — Rise and Fall of the Springfield Presbytery](week4) · [slides](decks/week4-last-will-map.html)
 - [Chapter 5 — Alexander Campbell and the Sea](week5) · [slides](decks/chapter5.html)
 - [Chapter 6 — Wherever Two or Three Are Gathered: Brush Run Ordination](week6) · [slides](decks/chapter6.html)
-- [Chapter 7 — Living into God's Future: Millennial Harbinger](week7)
+- [Chapter 7 — Living into God's Future: Millennial Harbinger](week7) · [slides](decks/chapter7.html)
 - [Chapter 8 — The Stone-Campbell Merger](week8)
 - [Chapter 9 — Eschatology & Non-Conformity: Lipscomb & Civil War](week9)
 - [Chapter 10 — The Story of Believer's Baptism](week10)
