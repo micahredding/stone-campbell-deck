@@ -513,12 +513,7 @@ assert len(_pro) == 1
 S.insert(_pro[0] + 1, LIST('The Prospectus, 1829', 'Subjects &ldquo;subservient to this comprehensive object&rdquo;',
   ['1. &ldquo;The incompatibility of any sectarian establishment, now known on earth, with the genius of the glorious age to come.&rdquo;',
    '2. &ldquo;The inadequacy of all the present systems of education, literary and moral&hellip;&rdquo;',
-   '3. &ldquo;The disentanglement of the Holy Scriptures from the perplexities of the commentators and system-makers of the dark ages.&rdquo;',
    '4. &ldquo;The <i>injustice</i> which yet remains in many of the political regulations under the best political governments, when contrasted with the <i>justice</i> which Christianity proposes, and which the millennial order of society promises.&rdquo;',
-   '<span style="color:var(--gold)">5. &ldquo;Disquisitions upon the treatment of African slaves, as preparatory to their emancipation, and exaltation from their present degraded condition.&rdquo;</span>',
-   '6. &ldquo;General religious news&hellip;&rdquo;',
-   '7. &ldquo;Occasional notices of religious publications&hellip;&rdquo;',
-   '8. &ldquo;Answers to interesting queries of general utility, and notices of all things of universal interest to all engaged in the proclamation of the <i>Ancient Gospel</i>, and a restoration of the <i>Ancient Order of Things</i>.&rdquo;',
-   '9. &ldquo;Miscellanea, or religious, moral, and literary varieties.&rdquo;'],
-  'Nine clicks; read in the page scan (vol. 1, no. 1, p. 1). The program of the millennial order: against sects, for education, the Scriptures freed, political injustice measured by the millennium, and (5) slavery, toward &ldquo;their emancipation, and exaltation.&rdquo; The &ldquo;ancient order&rdquo; is one item of nine. Shadow: Campbell inherited enslaved people, freed them, and advocated gradual emancipation, while trying to hold the brotherhood together across the question.',
-  size='clamp(17px,2.75vmin,34px)', gap='0.9vmin'))
+   '<span style="color:var(--gold)">5. &ldquo;Disquisitions upon the treatment of African slaves, as preparatory to their emancipation, and exaltation from their present degraded condition.&rdquo;</span>'],
+  'Four clicks: subjects 1, 2, 4 and 5 of nine; read in the page scan (vol. 1, no. 1, p. 1). The others: freeing the Scriptures from the commentators; religious news; reviews; queries, including &ldquo;a restoration of the <i>Ancient Order of Things</i>&rdquo;; miscellanea. The program of the millennial order: against sects, for education, the Scriptures freed, political injustice measured by the millennium, and (5) slavery, toward &ldquo;their emancipation, and exaltation.&rdquo; Shadow: Campbell inherited enslaved people, freed them, and advocated gradual emancipation, while trying to hold the brotherhood together across the question.',
+  size='clamp(22px,3.8vmin,46px)', gap='1.6vmin'))
