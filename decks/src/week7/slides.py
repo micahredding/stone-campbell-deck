@@ -154,7 +154,8 @@ A(QK('&ldquo;It shall have for its object the developement, and introduction of 
      'Prospectus, ' + MH + ', vol. 1, no. 1 (dated 1829), p. 1', 'The <i>Millennial Harbinger</i>', 'mh1830',
      '&ldquo;developement&rdquo; is the original spelling.',
      'The rest of the Prospectus lists real work in the real world: the end of sectarianism, education, injustice in government, &ldquo;the treatment of African slaves, as preparatory to their emancipation.&rdquo;'))
-A(LIST('The flagship', 'The <i>Millennial Harbinger</i>',
+A(C('The <i>Millennial Harbinger</i>', 'January 1830. The new paper, alongside the old one until July.', '1830&ndash;1870'))
+A(LIST('The <i>Millennial Harbinger</i>', 'The flagship',
   ['Published for four decades, 1830&ndash;1870', 'Campbell editing to 1864; then W. K. Pendleton', 'The movement&rsquo;s most influential editorial voice', 'Read for generations after'],
   'Four clicks.'))
 A(CARD('What do you notice<br>' + G('about the name?'),
