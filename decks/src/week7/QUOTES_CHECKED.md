@@ -59,4 +59,6 @@ Added 2026-11-14 (the future practiced now; the table): T. Campbell, MH 1839 p. 
 
 Added 2026-11-14 (Baptists): Campbell, "The Beaver Anathema," CB 7, p. 198: EXACT. Campbell, "Church Organization—No. IV," MH May 1849, p. 272: OCR only ("Iwas", "ina"). Campbell, "Anecdotes, Incidents, and Facts," MH 1848, p. 556 (notes): OCR only. Christian Baptist Prospectus (1823): EXACT. Checked.
 
+Added 2026-11-14: "Reformation and annihilation are not with me now, as formerly, convertible or identical terms" (MH May 1849, p. 272): read in the archive.org page image (leaf 280); the OCR has "as eiiceys". Checked.
+
 Two quotations to check against page scans before class: slide 62 (Stone's spelling of "Messiah"), and the Wright ebook and TIME lines (72, 74–76).
