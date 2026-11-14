@@ -500,3 +500,10 @@ _blk = S[_mv[0]:_mv[0] + 4]; del S[_mv[0]:_mv[0] + 4]
 _ce = [i for i, x in enumerate(S) if 'Campbell&rsquo;s eschatology' in x and 'What was distinctive' in x]
 assert len(_ce) == 1
 S[_ce[0] + 1:_ce[0] + 1] = _blk
+# Micah, 2026-11-14: Hicks's first two (they disagreed; what they agreed on) right after "How they spoke about the future".
+_h = [i for i, x in enumerate(S) if 'James A. Harding was a premillennialist' in x or 'these all agreed that the most important aspect' in x]
+assert len(_h) == 2 and _h[1] == _h[0] + 1, _h
+_blk = S[_h[0]:_h[0] + 2]; del S[_h[0]:_h[0] + 2]
+_hs = [i for i, x in enumerate(S) if 'How they spoke<br>about the future' in x]
+assert len(_hs) == 1
+S[_hs[0] + 1:_hs[0] + 1] = _blk
