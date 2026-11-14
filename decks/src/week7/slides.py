@@ -480,7 +480,7 @@ _pro = [i for i, x in enumerate(S) if 'It shall have for its object' in x]
 _fut = [i for i, x in enumerate(S) if 'It&rsquo;s about<br>' in x]
 assert len(_pro) == len(_fut) == 1 and _pro[0] < _fut[0]
 S.insert(_fut[0], S.pop(_pro[0]))
-# Micah, 2026-11-14: the Harbinger's first masthead, just before its Prospectus.
-_pro = [i for i, x in enumerate(S) if 'It shall have for its object' in x]
-S.insert(_pro[0], MAST('millennial_harbinger_masthead_1830.jpg', 'Its masthead', 'The <i>Millennial Harbinger</i>, vol. 1, no. 1, January 4, 1830 (Internet Archive scan)',
+# Micah, 2026-11-14: the Harbinger's first masthead, right after "The pivot".
+_piv = [i for i, x in enumerate(S) if '<h2>The pivot</h2>' in x]
+S.insert(_piv[0] + 1, MAST('millennial_harbinger_masthead_1830.jpg', 'Its masthead', 'The <i>Millennial Harbinger</i>, vol. 1, no. 1, January 4, 1830 (Internet Archive scan)',
   'Revelation 14:6&ndash;7 (credited to &ldquo;John&rdquo;; &ldquo;messenger&rdquo; and &ldquo;good news&rdquo; rather than the King James &ldquo;angel&rdquo; and &ldquo;gospel&rdquo;): &ldquo;I saw another messenger flying through the midst of heaven, having everlasting good news to proclaim to the inhabitants of the earth&hellip; for the hour of his judgments is come.&rdquo; Then: &ldquo;Great is the truth and mighty above all things, and will prevail&rdquo; (compare 1 Esdras 4:41). Compare the <i>Christian Baptist</i>&rsquo;s masthead: titles forbidden. Here, a messenger from heaven with news for every nation: the paper&rsquo;s name in a verse.'))
