@@ -36,6 +36,13 @@ def LIST(eyebrow, title, items, note, size='clamp(26px,4.6vmin,58px)', gap='1.6v
             '<div class=litany style="text-align:left;gap:%s;max-width:90vw">%s</div><aside class=notes>%s</aside></section>' % (eyebrow, title, gap, lis, note))
 def D(y, t): return '<b>%s</b> &nbsp;%s' % (y, t)
 
+import base64 as _b64
+def MAST(img, eyebrow, cite, note):   # a scanned masthead, full width, with its source under it
+    _src = 'data:image/jpeg;base64,' + _b64.b64encode(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'images', img), 'rb').read()).decode()
+    return ('<section class="slide"><div class=eyebrow>%s</div>'
+            '<img src="%s" alt="" style="width:min(92vw,150vh);height:auto;background:#fff;border:1px solid rgba(201,162,74,.55);box-shadow:0 6px 24px rgba(0,0,0,.6)">'
+            '<div class=cite style="margin-top:2vmin">%s</div><aside class=notes>%s</aside></section>' % (eyebrow, _src, cite, note))
+
 AC = 'Alexander Campbell'
 MH = '<i>Millennial Harbinger</i>'
 CB = '<i>Christian Baptist</i>'
@@ -101,10 +108,8 @@ A(QK('&ldquo;I and the church with which I am connected are in <b>full communion
 
 # ---------- 4. THE CHRISTIAN BAPTIST: PURPOSE AND AIM ----------
 A(C('The <i>Christian Baptist</i>', '1823&ndash;1830. Seven years of attack journalism against the clergy, creeds and &ldquo;the kingdom of the clergy.&rdquo;', '1823&ndash;1830'))
-A(QK('&ldquo;Style no man on earth your Father: for he alone is your Father who is in heaven; and <b>all ye are brethren</b>. Assume not the title of Rabbi; for ye have only One Teacher: neither assume the title of Leader; for ye have only One Leader&mdash;the Messiah.&rdquo;',
-     'Matthew 23:8&ndash;10, on the title page of the <i>Christian Baptist</i>', 'Its masthead', 'cb1',
-     'Last week&rsquo;s list: no titles, no &ldquo;Reverend&rdquo;; the preacher is &ldquo;Brother.&rdquo; Here it is on the masthead, in Campbell&rsquo;s own rendering of Matthew 23.',
-     'Also on the title page: &ldquo;Prove all things: hold fast that which is good,&rdquo; and Benson: &ldquo;May all Christians use this liberty of judging for themselves in matters of religion, and allow it to one another.&rdquo; (Read in the 1827 edition, reprinted 1955.)'))
+A(MAST('christian_baptist_masthead_1825.jpg', 'Its masthead', 'The <i>Christian Baptist</i>, vol. 3, no. 1, August 1, 1825 (Internet Archive scan)',
+  'Matthew 23:8&ndash;10, in Campbell&rsquo;s rendering: &ldquo;Style no man on earth your Father: for he alone is your Father who is in heaven; and all ye are brethren. Assume not the title of Rabbi; for ye have only One Teacher; neither assume the title of Leader; for ye have only One Leader&mdash;the Messiah.&rdquo; ' + 'Also on the title page: &ldquo;Prove all things: hold fast that which is good,&rdquo; and Benson: &ldquo;May all Christians use this liberty of judging for themselves in matters of religion, and allow it to one another.&rdquo; (Read in the 1827 edition, reprinted 1955.)'))
 
 # ---------- 5. BAPTIST EXCOMMUNICATION ----------
 A(LIST('Out of the Baptists', 'Baptist excommunication',
@@ -473,3 +478,7 @@ _pro = [i for i, x in enumerate(S) if 'It shall have for its object' in x]
 _fut = [i for i, x in enumerate(S) if 'It&rsquo;s about<br>' in x]
 assert len(_pro) == len(_fut) == 1 and _pro[0] < _fut[0]
 S.insert(_fut[0], S.pop(_pro[0]))
+# Micah, 2026-11-14: the Harbinger's first masthead, just before its Prospectus.
+_pro = [i for i, x in enumerate(S) if 'It shall have for its object' in x]
+S.insert(_pro[0], MAST('millennial_harbinger_masthead_1830.jpg', 'Its masthead', 'The <i>Millennial Harbinger</i>, vol. 1, no. 1, January 4, 1830 (Internet Archive scan)',
+  'Revelation 14:6&ndash;7 (credited to &ldquo;John&rdquo;; &ldquo;messenger&rdquo; and &ldquo;good news&rdquo; rather than the King James &ldquo;angel&rdquo; and &ldquo;gospel&rdquo;): &ldquo;I saw another messenger flying through the midst of heaven, having everlasting good news to proclaim to the inhabitants of the earth&hellip; for the hour of his judgments is come.&rdquo; Then: &ldquo;Great is the truth and mighty above all things, and will prevail&rdquo; (compare 1 Esdras 4:41). Compare the <i>Christian Baptist</i>&rsquo;s masthead: titles forbidden. Here, a messenger from heaven with news for every nation: the paper&rsquo;s name in a verse.'))
