@@ -51,4 +51,6 @@ Added 2026-11-13 (Stone, Scott, Lipscomb): Stone, "Reflections of Old Age," CM 1
 
 Added 2026-11-14: John Mark Hicks, "What Will Become of the Earth" (2015), three slides: EXACT against the post as published (database: `91 Extracted Text/Hicks - New Creation essays (johnmarkhicks.com).md`). Harding, "For What Are We Here?", *The Way* 5, no. 33 (Dec. 3, 1903), p. 1041: ELLIPSIS, read in the scan (`Eschatology Sources (2026-11-09)/the-way-v5-1903.md`); Harding's own words, signed "J. A. H." Checked.
 
+Notes only (Secondhand): Lipscomb, "earth itself shall become heaven," *Gospel Advocate* 1903, p. 328, as quoted by Hicks (2015); Hicks gives "will become" in 2012. Original not found online.
+
 Two quotations to check against page scans before class: slide 62 (Stone's spelling of "Messiah"), and the Wright ebook and TIME lines (72, 74–76).
