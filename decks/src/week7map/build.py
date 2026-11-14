@@ -9,6 +9,7 @@ import mapdeck, resources as R
 
 SIDE = [
     R.ASSOCIATIONS,   # off the one-slide summary: the whole timeline of the Campbells' associations
+    ('The Harbinger\'s aim', 'Side path &middot; the Harbinger&rsquo;s aim', 'Restoration served the future'),
     ('Other voices on the future', 'Side path &middot; other voices on the future', 'One future.'),
 ]
 SECTIONS = [

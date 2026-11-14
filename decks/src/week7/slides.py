@@ -485,3 +485,9 @@ S.insert(_fut[0], S.pop(_pro[0]))
 _piv = [i for i, x in enumerate(S) if '<h2>The pivot</h2>' in x]
 S.insert(_piv[0] + 1, MAST('millennial_harbinger_masthead_1830.jpg', 'Its masthead', 'The <i>Millennial Harbinger</i>, vol. 1, no. 1, January 4, 1830 (Internet Archive scan)',
   'Revelation 14:6&ndash;7 (credited to &ldquo;John&rdquo;; &ldquo;messenger&rdquo; and &ldquo;good news&rdquo; rather than the King James &ldquo;angel&rdquo; and &ldquo;gospel&rdquo;): &ldquo;I saw another messenger flying through the midst of heaven, having everlasting good news to proclaim to the inhabitants of the earth&hellip; for the hour of his judgments is come.&rdquo; Then: &ldquo;Great is the truth and mighty above all things, and will prevail&rdquo; (compare 1 Esdras 4:41). Compare the <i>Christian Baptist</i>&rsquo;s masthead: titles forbidden. Here, a messenger from heaven with news for every nation: the paper&rsquo;s name in a verse.'))
+# Micah, 2026-11-14: a side path off "It's about the future.": the Prospectus and "Restoration served the future".
+_pro = [i for i, x in enumerate(S) if 'It shall have for its object' in x]
+assert len(_pro) == 1 and 'Restoration served the future' in S[_pro[0] + 1]
+S.insert(_pro[0], '<section class="slide breath"><div class=eyebrow>Side path &middot; the Harbinger&rsquo;s aim</div>'
+                  '<h2 style="max-width:none">The <i>Harbinger</i>&rsquo;s aim, in its own words</h2>'
+                  '<aside class=notes>Off &ldquo;It&rsquo;s about the future.&rdquo; The Prospectus (1829) and Campbell&rsquo;s own look back (1840): restoration served the millennium.</aside></section>')
