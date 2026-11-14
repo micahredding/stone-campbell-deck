@@ -200,12 +200,38 @@ A(QK('&ldquo;Some of you say it will be effected in the millenium. <b>No, it mus
 
 # ---------- 7. THE COMING CHURCH: UNITY, CONSCIENCE, PRIESTHOOD ----------
 A(C('The church to come', 'Unity, freedom of conscience and the priesthood of all believers were the nature of the millennial church, so they were the church&rsquo;s work now.'))
+A(LIST('The future, practiced now', 'What the church will be, it does now',
+       ['<b>Unity:</b> one body, gathered around Christ alone.',
+        '<b>Freedom:</b> faith binds; opinions do not.',
+        '<b>Priesthood:</b> no titled class between God and his people.'],
+       'Three marks of the coming church, one per click. Each was the nature of the millennial church, so each was the church&rsquo;s work now. First the general idea in their words, then each mark.'))
+A(QK('&ldquo;And are we not all looking for a Millennium of universal peace and prosperity&hellip;? These things being so, <b>our grand concern and present duty is, to adopt the proper means</b> for accomplishing this truly blissful and desirable object.&rdquo;',
+     'Thomas Campbell, &ldquo;Christian Union,&rdquo; ' + MH + ', April 1839, p. 155', 'Therefore, now', 'mh1839',
+     'Thirty years after the <i>Declaration and Address</i>, written while he edited the <i>Harbinger</i> in Alexander&rsquo;s absence. The grounds: &ldquo;the prayer of Christ for it, John xvii. 20&mdash;23; and the promise of God, Isai. xi. 9.&rdquo;'))
+A(QK('&ldquo;The kingdom of heaven is divided into <b>small societies, called churches</b>, or congregations of the Lord.&rdquo;',
+     CS + ', p. 166', 'The kingdom now', 'cs',
+     'Just before: &ldquo;The supreme law of this kingdom is love&mdash;love of the King and love of each other.&rdquo; Wright&rsquo;s small working models, in Campbell&rsquo;s idiom.', size='clamp(34px,7vmin,88px)'))
+A(QK('&ldquo;Would not the same effect be now produced, if the same means were used? <b>Certainly; for this is the very order of heaven</b>.&rdquo;',
+     'Barton W. Stone, &ldquo;The Responsibility of the Church to God,&rdquo; <i>Christian Messenger</i> 11, 1840, p. 33', 'Stone, 1840', 'cm11',
+     'Of the Corinthian assembly, where an unbeliever comes in and falls down to worship (1 Cor. 14:24&ndash;25). Earlier: the church is &ldquo;as visible as a city set on a hill&hellip; for the good of the world in darkness and death&rdquo; (p. 31). A congregation in right order shows heaven&rsquo;s order.', size='clamp(34px,7vmin,88px)'))
 A(QK('&ldquo;&lsquo;And the kingdom and dominion&hellip; shall be given to the people of the saints of the Most High&hellip;&rsquo; <b>But this can not be in their present broken and divided state</b>&hellip;&rdquo;',
      DA, 'Thomas Campbell, 1809', 'dna', 'Daniel 7:27, then the turn.'))
 A(QK('&ldquo;Are we not all praying for that happy event, when there shall be but one fold, as there is but one chief Shepherd? <b>What! shall we pray for a thing, and not strive to obtain it!!</b>&rdquo;',
      DA, 'Thomas Campbell, 1809', 'dna', 'The two exclamation points are his.', size='clamp(34px,7vmin,88px)'))
+A(QK('&ldquo;We are so sanguine (perhaps many will say, so visionary) as to imagine that <b>a nucleus has been formed, or may be formed, around which may one day congregate all the children of God</b>.&rdquo;',
+     CS + ', p. 111', 'Unity', 'cs',
+     'Same page: no one can say it is &ldquo;either impious or immoral&hellip; to meditate upon the possibility or practicability of any scheme of gathering together the children of God under the ensign of the cross alone.&rdquo; The church now is the nucleus of the church to come.'))
+A(QK('&ldquo;Who that thinks of heaven, of eternal peace and love, <b>can refrain from pleading the union</b>, concert, and co-operation of all the sincere followers of the Lamb of God?&rdquo;',
+     AC + ', &ldquo;Union,&rdquo; ' + MH + ', November 1840, p. 481', 'Unity', 'mh1840',
+     'Just before: &ldquo;Union, love, and social bliss, are only three ways of expressing the same idea.&rdquo; Heaven, therefore union now.', size='clamp(34px,7vmin,88px)'))
 A(QK('&ldquo;When then we see a people making new divisions and keeping up old ones, while praying for the Millennium or the triumph of love and harmony, <b>we as naturally suspect that they are any thing but in earnest</b>.&rdquo;',
      AC + ', ' + CB + ' 5, 1828, p. 263', 'Alexander, 1828', 'cb5', 'He goes on: like &ldquo;a nation preparing for war, and praying for peace.&rdquo;'))
+A(QK('&ldquo;&hellip;our differences, at most, are about <b>the things in which the kingdom of God does not consist</b>, that is, about matters of private opinion or human invention. What a pity that the kingdom of God should be divided about such things!&rdquo;',
+     DA, 'Freedom', 'dna',
+     'Opinions are not what the kingdom is made of, so they cannot be what divides it.'))
+A(QK('&ldquo;Resume that precious, that dear-bought liberty, wherewith Christ has made his people free; <b>a liberty from subjection to any authority but his own, in matters of religion</b>.&rdquo;',
+     DA, 'Freedom', 'dna',
+     'The <i>Declaration&rsquo;s</i> &ldquo;therefore&rdquo; after the signs of the times: &ldquo;Is it time for us to sit still in our corruptions and divisions&hellip;?&rdquo; It goes on: &ldquo;Call no man father, no man master on earth.&rdquo;'))
 A(QK('&ldquo;We do not ask them to give up their opinions&mdash;<b>We ask them only not to impose them upon others</b>.&rdquo;',
      AC + ', &ldquo;Millennium&mdash;No. II,&rdquo; ' + MH + ', April 1830, p. 145', 'How the sects will cease', 'mh1830',
      'His answer to &ldquo;WILL sects ever cease?&hellip; How then shall it be introduced?&rdquo; Same essay: &ldquo;The faith is public property: opinions are, and always have been, private property.&rdquo; (Micah: here, or in a side path on gradualism.)', size='clamp(34px,7vmin,88px)'))
@@ -213,8 +239,14 @@ A(QK('&ldquo;&hellip;who has made all the citizens of his kingdom, not citizens 
      AC + ', Fourth of July oration, ' + MH + ', 1830, p. 309', 'The priesthood', 'mh1830', 'Last week&rsquo;s theme, in the kingdom to come.', size='clamp(36px,7.6vmin,96px)'))
 A(QK('&ldquo;Being a royal priesthood, all children of a King, they have a right to meet in his name to break the loaf of blessing, to drink the cup of blessing, <b>without the intervention of a mediator, priest, or prophet, consecrated by human hands</b>.&rdquo;',
      AC + ', ' + MH + ', August 1830, p. 368', 'At the table', 'mh1830', 'Just before: &ldquo;they are all made sons and daughters, kings and priests to God.&rdquo; The ideal voiced; not yet extended to women.'))
+A(QK('&ldquo;&rsquo;Tis here, and here alone, that <b>the king and the beggar meet on one platform and stand on equal ground</b> before God, angels and demons.&rdquo;',
+     AC + ', letter to the church in Paisley, ' + MH + ', March 1853, pp. 174&ndash;175', 'Priesthood', 'mh1853',
+     'Of the church, &ldquo;God&rsquo;s school, his primary school, in which he is to be trained and disciplined for the celestial university.&rdquo; He goes on: &ldquo;Faith, then, and not opinion; fact, and not fable; truth, and not hypothesis; reality, and not fiction, are the bond of union and the terms of communion.&rdquo;'))
 A(QK('&ldquo;&hellip;the emancipation of all the world from faith in, and obedience to, <b>any set of men, titled and enthroned as they may be</b>, as the representatives or successors of the apostles of Christ.&rdquo;',
      AC + ', &ldquo;The Everlasting Gospel&rdquo; No. 3, ' + MH + ', May 1833, p. 226', 'What the coming judgment brings', 'mh1833', 'The end of clerical power is part of what is coming.'))
+A(QK('&ldquo;&hellip;our religion was destined&hellip; to <b>cancel all orders of nobility in the state and in the church</b>&hellip; and finally to restore the long-lost liberties of mankind.&rdquo;',
+     'Walter Scott, <i>The Messiahship</i> (1859), p. 240', 'Walter Scott, 1859', 'scott59',
+     'His full list: &ldquo;to put down princes from their thrones; subvert ancient dynasties&hellip; dissolve armies; break down navies.&rdquo; Shadow: by 1859 Scott fused this hope with America&rsquo;s destiny.'))
 A(QK('&ldquo;In detecting the false gospels, nothing will aid us so much as an examination of their tendencies, and <b>a comparison of their effects with what the Millennium proposes</b>. The gospel of no sect can convert the world.&rdquo;',
      AC + ', Prefatory Remarks, ' + MH + ' 1, no. 1, 1830, p. 7', 'The future as the test', 'mh1830',
      'The first issue. Not &ldquo;does it match the pattern?&rdquo; but &ldquo;where does it lead?&rdquo; Does it produce the united, converted world God&rsquo;s future promises? A sectarian gospel fails that test by its nature.'))
@@ -227,9 +259,18 @@ A(QK('&ldquo;&hellip;in assembling there on that occasion, they furnished <b>an 
 A(QK('&ldquo;To see even a few scores of intelligent christians&hellip; <b>meeting around one and the same Lord&rsquo;s table</b>, and uniting in the praises and adorations of one and the same common Lord and Saviour, imparts to us a joy which we are unable to express.&rdquo;',
      AC + ', &ldquo;Prefatory Remarks,&rdquo; ' + MH + ', January 1830, p. 5', 'The first issue', 'mh1830',
      'Next: &ldquo;What we should feel, or how we should feel, among myriads of such, is not for us now to conjecture.&rdquo;'))
+A(QK('&ldquo;&hellip;immersion, I mean Christian immersion, is the gospel in water, and that <b>the Lord&rsquo;s supper is the gospel in bread and wine</b>.&rdquo;',
+     AC + ', &ldquo;Ancient Gospel No. II,&rdquo; ' + CB + ' 5, February 1828', 'The table', 'cb5',
+     'He goes on: &ldquo;These two ordinances&hellip; fully exhibit the gospel in the most appropriate symbols.&rdquo; John Mark Hicks opens his essay on the eschatological table with this line.', size='clamp(36px,7.6vmin,96px)'))
+A(QK('&ldquo;&hellip;the original impulse of the Stone-Campbell Movement stressed <b>the metaphor of table rather than altar</b>. As a consequence, early traditions emphasized the role of Jesus as host at the table and the joy of table fellowship.&rdquo;',
+     'John Mark Hicks, &ldquo;The Lord&rsquo;s Supper as Eschatological Table&rdquo; (2026)', 'Table, not altar', 'hicks2',
+     'The background: Scottish communion festivals at long tables; Cane Ridge (1801) &ldquo;was designed as a communal festival.&rdquo; Campbell: &ldquo;In the house of God there is always the table of the Lord&rdquo;; all Christians, &ldquo;a holy and royal priesthood,&rdquo; may &ldquo;approach it without fear, and partake of it with joy&rdquo; (<i>Christian System</i>, pp. 265, 269).'))
 A(QK('&ldquo;In the afternoon, <b>we had heaven upon earth</b>; that is, we had the Lord&rsquo;s Supper.&rdquo;',
      'Walter Scott, diary, 1848, in William Baxter, <i>Life of Elder Walter Scott</i> (1874), p. 411', 'Walter Scott', 'baxter',
      'From his diary (the next entry is dated December 17, 1848). John Mark Hicks points to it as an exception: the movement kept the table, weekly and joyful, but mostly as a memorial; Campbell called the Supper &ldquo;not an ordinance for receiving new blessings, but for commemorating those already received&rdquo; (<i>MH</i> 1846, p. 396).', size='clamp(40px,8.4vmin,108px)'))
+A(QK('&ldquo;<b>We already eat at the eschatological table of the Lord</b>; we already sit at the table with Jesus in his kingdom.&rdquo;',
+     'John Mark Hicks, &ldquo;The Lord&rsquo;s Supper as Eschatological Table&rdquo; (2026)', 'The table now', 'hicks2',
+     'His verdict on the tradition: it &ldquo;stressed memorialism&hellip; and reduced eschatological perspectives to the promised fact of a future reality.&rdquo; His exceptions: Scott, and William Robinson (the &ldquo;kingdom is both present and future,&rdquo; so &ldquo;we are with Him at the Lamb&rsquo;s great Bridal Feast&rdquo;; as quoted by Hicks). His call: &ldquo;The church needs to revision the Supper as an experience of resurrection joy at the kingdom table rather than as an altar of sacrifice.&rdquo;', size='clamp(36px,7.6vmin,96px)'))
 A(QK('&ldquo;The Lord&rsquo;s day not only commemorates the resurrection of Jesus, but <b>anticipates the morning of the resurrection</b> in which we shall enter into the rest which remains for the people of God.&rdquo;',
      AC + ', ' + MH + ', January 1834, p. 37', 'Easter every Sunday', 'mh1834', '&rarr; Back to the quiz: when do we celebrate Easter?'))
 
