@@ -85,9 +85,10 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
 # ---------- 1. RECAP (Micah's plan, 2026-11-14: recap; Alexander becomes a Baptist; Baptist communion;
 # the Christian Baptist's purpose; Baptist excommunication; a tangent, backward and forward; the pivot) ----------
 A(LIST('Where we are', 'From Ireland to Brush Run',
-  [D('1808', 'Shipwrecked off Islay; a winter in Glasgow'), D('1809', 'The family reunited in Pennsylvania; the <i>Declaration and Address</i>'),
+  [D('Ireland', 'The family sets sail to join Thomas in America (1808)'), D('Scotland', 'Shipwrecked off Islay; a winter in Glasgow (1808&ndash;09)'),
+   D('1809', 'The family reunited in Pennsylvania; the <i>Declaration and Address</i>'),
    D('1810', 'The Synod of Pittsburg refuses them'), D('May 1811', 'Brush Run constituted; the first Supper'), D('Jan. 1812', 'Alexander ordained by the choice of the people')],
-  'Five clicks. One breath each. The ordination was last week.'))
+  'Six clicks. One breath each. The ordination was last week.'))
 
 # ---------- 2. ALEXANDER BECOMES A BAPTIST ----------
 A(LIST('Among the Baptists', 'Alexander becomes a Baptist',
