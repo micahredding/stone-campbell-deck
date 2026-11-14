@@ -83,7 +83,7 @@ A(LIST('Where we are', 'From Ireland to Brush Run',
   'Five clicks. One breath each. The ordination was last week.'))
 
 # ---------- 2. ALEXANDER BECOMES A BAPTIST ----------
-A(LIST('Alexander becomes a Baptist', 'The Redstone Baptists: on their own terms',
+A(LIST('Among the Baptists', 'Alexander becomes a Baptist',
   [D('June 1812', 'Alexander, his wife, his parents and others immersed'),
    D('1812&ndash;13', 'Baptist preachers press Brush Run to join them'),
    D('Fall 1813', 'Brush Run joins the Redstone Baptist Association on their own terms'),
