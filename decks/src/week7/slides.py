@@ -126,6 +126,13 @@ A(QK('&ldquo;<b>Who gave to the Beaver Association the right to anathematize the
 A(R.ASSOC_SUMMARY.replace('<div class=eyebrow>From the Evangelical Society on</div>', '<div class=eyebrow>A tangent &middot; backward and forward</div>', 1)
    .replace('<h2 style="max-width:none">Joined, refused, dissolved</h2>', '<h2 style="max-width:none">They kept trying to join</h2>', 1))
 for _x in R.associations(): A(_x)   # side path: the whole timeline, off the tangent
+# the eternal pattern (Micah, 2026-11-14: right after the tangent's timeline)
+A('<section class="slide breath"><div class=eyebrow>The eternal pattern</div>'
+  '<div class=litany style="gap:3vmin;max-width:86vw">'
+  '<div class=no style="font-size:clamp(36px,7.2vmin,92px)">They want the fellowship.</div>'
+  '<div class="no frag" style="font-size:clamp(36px,7.2vmin,92px);color:var(--gold)">They won&rsquo;t accept the fence.</div></div>'
+  '<aside class=notes>One click. The Seceders, the Synod of Pittsburg, Redstone, and by 1827&ndash;30 the Baptists at large, whose associations expelled the &ldquo;Reformers.&rdquo; Every time: they reach for the widest fellowship there is, and refuse any body that makes a creed the test.</aside></section>')
+
 A(QK('&ldquo;I confess I was alarmed at the impassioned and hasty manner in which the association was, in a few minutes, dissolved&hellip; <b>the Regular Baptist Mahoning Association died of a moral apoplexy, in less than a quarter of an hour</b>.&rdquo;',
      AC + ', &ldquo;Church Organization&mdash;No. IV,&rdquo; ' + MH + ', May 1849, p. 272', 'Mahoning, remembered', 'mh1849',
      'He remembers it as 1828; it was August 1830, at Austintown. Between the two lines: &ldquo;Counsel and caution, argument and remonstrance were wholly in vain&hellip; that remonstrance was quashed by the previous question.&rdquo; Then: &ldquo;Reformation and annihilation are not with me now, as formerly, convertible or identical terms&rdquo; (read in the page scan; the OCR garbles &ldquo;as formerly&rdquo;). He admits he once treated them as the same. Richardson: at Austintown he &ldquo;was in favor of continuing the Association, or something like it&rdquo; (<i>Memoirs</i> II, p. 328). Even after the Baptists put them out, he wanted the larger connection.'))
@@ -133,13 +140,6 @@ A(QK('&ldquo;<b>Reformation and annihilation are not with me now, as formerly, c
      AC + ', &ldquo;Church Organization&mdash;No. IV,&rdquo; ' + MH + ', May 1849, p. 272', 'A confession', 'mh1849',
      'Read in the page scan (the OCR garbles &ldquo;as formerly&rdquo;). &ldquo;Formerly&rdquo; is most likely the <i>Christian Baptist</i> years (1823&ndash;30): in the previous essay he speaks of the &ldquo;appendages, against which we remonstrated twenty-five years ago&rdquo; (No. III, <i>MH</i> 1849, p. 271), and Mahoning&rsquo;s dissolution in 1830 is where that zeal ended. He does not name the years himself. Next sentence: &ldquo;We want occasional, if not stated, deliberative meetings on questions of expediency in adaptation to the ever changing fortune and character of society.&rdquo;',
      size='clamp(40px,8.4vmin,108px)'))
-
-# ---------- 4. THE ETERNAL PATTERN ----------
-A('<section class="slide breath"><div class=eyebrow>The eternal pattern</div>'
-  '<div class=litany style="gap:3vmin;max-width:86vw">'
-  '<div class=no style="font-size:clamp(36px,7.2vmin,92px)">They want the fellowship.</div>'
-  '<div class="no frag" style="font-size:clamp(36px,7.2vmin,92px);color:var(--gold)">They won&rsquo;t accept the fence.</div></div>'
-  '<aside class=notes>One click. The Seceders, the Synod of Pittsburg, Redstone, and by 1827&ndash;30 the Baptists at large, whose associations expelled the &ldquo;Reformers.&rdquo; Every time: they reach for the widest fellowship there is, and refuse any body that makes a creed the test.</aside></section>')
 
 # ---------- 5. THE PIVOT ----------
 A(C('The pivot', 'January 1830. Campbell starts a new paper; by July he closes the old one.', '1830'))
