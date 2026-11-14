@@ -491,3 +491,12 @@ assert len(_pro) == 1 and 'Restoration served the future' in S[_pro[0] + 1]
 S.insert(_pro[0], '<section class="slide breath"><div class=eyebrow>Side path &middot; the Harbinger&rsquo;s aim</div>'
                   '<h2 style="max-width:none">The <i>Harbinger</i>&rsquo;s aim, in its own words</h2>'
                   '<aside class=notes>Off &ldquo;It&rsquo;s about the future.&rdquo; The Prospectus (1829) and Campbell&rsquo;s own look back (1840): restoration served the millennium.</aside></section>')
+# Micah, 2026-11-14: the new-creation run (a new creation; coming down; this earth made new; not just Campbell)
+# right after "Campbell's eschatology", before "Nothing new, only renewed".
+_mv = [i for i, x in enumerate(S) if any(k in x for k in ('<div class=eyebrow>A new creation</div>', '<div class=eyebrow>Coming down, not going up</div>',
+                                                         '<div class=eyebrow>This earth, made new</div>', '<div class=eyebrow>Not just Campbell</div>'))]
+assert len(_mv) == 4 and _mv == list(range(_mv[0], _mv[0] + 4)), _mv
+_blk = S[_mv[0]:_mv[0] + 4]; del S[_mv[0]:_mv[0] + 4]
+_ce = [i for i, x in enumerate(S) if 'Campbell&rsquo;s eschatology' in x and 'What was distinctive' in x]
+assert len(_ce) == 1
+S[_ce[0] + 1:_ce[0] + 1] = _blk
