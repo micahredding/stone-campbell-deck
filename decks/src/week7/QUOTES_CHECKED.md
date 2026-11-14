@@ -49,4 +49,6 @@ Added 2026-11-13: MH 1830 Prefatory Remarks, p. 7 ("In detecting the false gospe
 
 Added 2026-11-13 (Stone, Scott, Lipscomb): Stone, "Reflections of Old Age," CM 13 (1843), p. 126: EXACT. Stone, "Reply to T. P. Ware," CM 14 (1844), p. 170: EXACT. Scott, *Evangelist* May 1842, p. 98: ALTERED only for scan errors ("apon", "itt"). Lipscomb, *Civil Government*, pp. 12 and 85: EXACT. All Checked.
 
+Added 2026-11-14: John Mark Hicks, "What Will Become of the Earth" (2015), three slides: EXACT against the post as published (database: `91 Extracted Text/Hicks - New Creation essays (johnmarkhicks.com).md`). Harding, "For What Are We Here?", *The Way* 5, no. 33 (Dec. 3, 1903), p. 1041: ELLIPSIS, read in the scan (`Eschatology Sources (2026-11-09)/the-way-v5-1903.md`); Harding's own words, signed "J. A. H." Checked.
+
 Two quotations to check against page scans before class: slide 62 (Stone's spelling of "Messiah"), and the Wright ebook and TIME lines (72, 74–76).
