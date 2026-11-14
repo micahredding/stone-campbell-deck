@@ -400,12 +400,11 @@ _old = list(S); del S[:]
 A(C('Everything so far,<br>read forward', 'Unity, freedom, the priesthood of all, communion, and the church as a foretaste: every chapter so far, seen from the future they were living toward.'))
 A(LIST('Chapters 1&ndash;6, read forward', 'Everything so far',
   ['<b>Cane Ridge</b> (1801): a communion festival, read as the dawn of the millennial day.',
-   '<b>Thomas Campbell&rsquo;s trial</b> (1807&ndash;09): tried for sharing the Lord&rsquo;s table.',
    '<b>The <i>Declaration and Address</i></b> (1809): unity and liberty, because the kingdom is coming.',
    '<b>The <i>Last Will</i></b> (1804): a presbytery dies into union, expecting redemption.',
-   '<b>Alexander and the sea</b> (1808&ndash;10): the church&rsquo;s gates as wide as heaven&rsquo;s.',
+   '<b>Alexander&rsquo;s defense</b> (1810): the church&rsquo;s gates as wide as heaven&rsquo;s.',
    '<b>Brush Run</b> (1811&ndash;12): the first Supper an emblem of the millennial church; ministers chosen by the people.'],
-  'Six clicks, in the order we taught them. Each was already about the future: the table (1, 2, 6), unity (3, 4), liberty (3), the gates of admission (5), the priesthood (6). Quotations for four follow; the Brush Run Supper comes back at the table.',
+  'Five clicks, in the order we taught them. Each was already about the future: the table (Cane Ridge, Brush Run), unity (the <i>Declaration</i>, the <i>Last Will</i>), liberty (the <i>Declaration</i>), the gates of admission (Alexander&rsquo;s defense, November 1810), the priesthood (Brush Run). Quotations for four follow; the Brush Run Supper comes back at the table.',
   size='clamp(24px,4.3vmin,54px)', gap='1.3vmin'))
 A(QK('&ldquo;Many were fully persuaded that <b>the glorious millennial day had commenced</b>, and that the world would soon become the Kingdom of our Lord Jesus Christ.&rdquo;',
      'An eyewitness of Cane Ridge, in Levi Purviance, <i>Biography of Elder David Purviance</i> (1848), p. 301', 'Chapter 1 &middot; Cane Ridge', 'purv48',
@@ -417,7 +416,7 @@ A(QK('&ldquo;&hellip;pray more and dispute less; and while they behold the signs
      'Springfield Presbytery, <i>Last Will and Testament</i> (1804), in Stone, <i>Biography</i>, p. 52', 'Chapter 4 &middot; The <i>Last Will</i>', 'bio',
      'Its epigraph is Hebrews 12:27, &ldquo;that those things which cannot be shaken may remain.&rdquo; The Witnesses&rsquo; Address hopes the work &ldquo;will terminate in the universal spread of the gospel, and the unity of the church&rdquo; (pp. 54&ndash;55).', size='clamp(34px,7vmin,88px)'))
 A(QK('&ldquo;We have decided, therefore,&hellip; <b>to open the gates of admission into the Church as wide as the gates of heaven</b>.&rdquo;',
-     AC + ', November 1810 &middot; in Richardson, <i>Memoirs</i>, vol. 1, p. 341', 'Chapter 5 &middot; Alexander', 'rich1',
+     AC + ', November 1810 &middot; in Richardson, <i>Memoirs</i>, vol. 1, p. 341', 'Chapter 5 &middot; Alexander&rsquo;s defense', 'rich1',
      'From Chapter 5. The church&rsquo;s door measured by heaven&rsquo;s: the future sets the terms of fellowship now.', size='clamp(38px,8.4vmin,106px)'))
 A(LIST('The future, practiced now', 'What the church will be, it does now',
   ['<b>Unity:</b> one body, gathered around Christ alone.',
