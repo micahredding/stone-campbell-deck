@@ -487,7 +487,7 @@ _pro = [i for i, x in enumerate(S) if 'It shall have for its object' in x]
 assert len(_pro) == 1 and 'Restoration served the future' in S[_pro[0] + 1]
 S.insert(_pro[0], '<section class="slide breath"><div class=eyebrow>Side path &middot; the Harbinger&rsquo;s aim</div>'
                   '<h2 style="max-width:none">The <i>Harbinger</i>&rsquo;s aim, in its own words</h2>'
-                  '<aside class=notes>Off &ldquo;It&rsquo;s about the future.&rdquo; The Prospectus (1829) and Campbell&rsquo;s own look back (1840): restoration served the millennium.</aside></section>')
+                  '<aside class=notes>Off &ldquo;It&rsquo;s about the future.&rdquo; The Prospectus (1829) and its subjects. Campbell&rsquo;s look back (1840), &ldquo;Restoration served the future,&rdquo; is on the main line under &ldquo;Restoration, reframed.&rdquo;</aside></section>')
 # Micah, 2026-11-14: the new-creation run (a new creation; coming down; this earth made new; not just Campbell)
 # right after "Campbell's eschatology", before "Nothing new, only renewed".
 _mv = [i for i, x in enumerate(S) if any(k in x for k in ('<div class=eyebrow>A new creation</div>', '<div class=eyebrow>Coming down, not going up</div>',
@@ -524,7 +524,7 @@ def _f(sub):
 def _r(a, b): return list(range(_f(a), _f(b) + 1))
 _seq = (
     list(range(0, _f('It&rsquo;s about<br>') + 1))
-    + _r('Side path &middot; the Harbinger&rsquo;s aim', 'Millennial Character of the Harbinger')
+    + _r('Side path &middot; the Harbinger&rsquo;s aim', 'subservient to this comprehensive object')
     # 1. not postmillennialism: the future in general
     + [_f('In his own paper, he went back and forth'), _f('James A. Harding was a premillennialist'),
        _f('The commitment to God&rsquo;s future is the leading emphasis')]
@@ -546,7 +546,7 @@ _seq = (
     # 6. practices
     + _r('The other<br>millennial harbinger', 'not only commemorates the resurrection of Jesus')
     # 7. restoration reframed, not legalism
-    + [_f('In detecting the false gospels'), _f('Not legalism.')]
+    + [_f('Millennial Character of the Harbinger'), _f('In detecting the false gospels'), _f('Not legalism.')]
     # two ways into the world (Stone's eschatology opens it), Wright, close
     + [_f('Eschatology and government:<br>two paths'), _f('Barton Stone&rsquo;s eschatology</h2>')]
     + list(range(_f('Eschatology and government:<br>two paths') + 1, len(S)))

@@ -9,7 +9,7 @@ import mapdeck, resources as R
 
 SIDE = [
     R.ASSOCIATIONS,   # off the one-slide summary: the whole timeline of the Campbells' associations
-    ('The Harbinger\'s aim', 'Side path &middot; the Harbinger&rsquo;s aim', 'Restoration served the future'),
+    ('The Harbinger\'s aim', 'Side path &middot; the Harbinger&rsquo;s aim', 'subservient to this comprehensive object'),
     ('Other voices on the future', 'Side path &middot; other voices on the future', 'One future.'),
 ]
 SECTIONS = [
@@ -26,7 +26,7 @@ SECTIONS = [
     ('The church as microcosm', 'is lived as if the future is already present'),
     ('Unity, priesthood, freedom', 'What the church will be, it does now'),
     ('Practices', 'The other<br>millennial harbinger'),
-    ('Restoration, reframed', 'In detecting the false gospels'),
+    ('Restoration, reframed', 'Millennial Character of the Harbinger'),
     ('Eschatology and government', 'Eschatology and government:<br>two paths'),
     ('N. T. Wright', '<h2>N. T. Wright</h2>'),
     ('Close', 'for discussion &middot; Chapter 7'),
