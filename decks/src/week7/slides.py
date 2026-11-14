@@ -87,8 +87,9 @@ A(LIST('Among the Baptists', 'Alexander becomes a Baptist',
   [D('June 1812', 'Alexander, his wife, his parents and others immersed'),
    D('1812&ndash;13', 'Baptist preachers press Brush Run to join them'),
    D('Fall 1813', 'Brush Run joins the Redstone Baptist Association on their own terms'),
-   D('July 1823', 'A Baptist paper: the <i>Christian Baptist</i> begins')],
-  'Four clicks. Their terms were written: no creed. Campbell calls it &ldquo;a conditional union with the Redstone Association during the fall of 1813&rdquo; (<i>MH</i> 1848, p. 344, in Richardson, <i>Memoirs</i> I). The first issue is dated Buffaloe, July 4, 1823: he edited it as a Baptist, for Baptists.',
+   D('July 1823', 'A Baptist paper: the <i>Christian Baptist</i> begins'),
+   D('1827', 'The Mahoning Baptist Association sends out Walter Scott as its evangelist')],
+  'Five clicks. Their terms were written: no creed. Campbell calls it &ldquo;a conditional union with the Redstone Association during the fall of 1813&rdquo; (<i>MH</i> 1848, p. 344, in Richardson, <i>Memoirs</i> I). The first issue is dated Buffaloe, July 4, 1823: he edited it as a Baptist, for Baptists. Scott: sent out by Mahoning in 1827, he gained more than 2,000 additions on the Western Reserve in two years (<i>Encyclopedia</i>, &ldquo;Scott, Walter&rdquo;).',
   size='clamp(24px,4.4vmin,56px)', gap='1.6vmin'))
 
 # ---------- 3. BAPTIST COMMUNION ----------
