@@ -174,7 +174,7 @@ A(LIST('What was distinctive', 'Campbell&rsquo;s eschatology',
         '<b>Brought by the gospel,</b> not the sword: the church&rsquo;s unity comes first, &ldquo;that the world may believe.&rdquo;',
         '<b>The church as its foretaste:</b> living God&rsquo;s future now.',
         '<b>The future as the test:</b> judge a doctrine by its effects, measured against what God&rsquo;s future promises.'],
-       'Three marks, one per click; the next three sections take them in turn. (1) Not escape to heaven but a world made new (MH 1830, 1855). (2) How it comes: by the gospel, peacefully and gradually, with the church&rsquo;s unity as the prerequisite for the world&rsquo;s conversion (John 17, the D&amp;A, the <i>Christian System</i>). This is what made him postmillennial, and it is what put unity at the center. (3) So the church&rsquo;s life now (unity, conscience, the priesthood of all, the table) is the future in miniature. (4) And the future is the test: a doctrine is judged by its effects, set beside what the Millennium proposes (MH 1830, p. 7; on screen before &ldquo;Not legalism&rdquo;).'))
+       'Four marks, one per click. The new earth comes right after this slide; the church as foretaste, unity (John 17) and the future as the test follow in their own sections. (1) Not escape to heaven but a world made new (MH 1830, 1855). (2) How it comes: by the gospel, peacefully and gradually, with the church&rsquo;s unity as the prerequisite for the world&rsquo;s conversion (John 17, the D&amp;A, the <i>Christian System</i>). This is what made him postmillennial, and it is what put unity at the center. (3) So the church&rsquo;s life now (unity, conscience, the priesthood of all, the table) is the future in miniature. (4) And the future is the test: a doctrine is judged by its effects, set beside what the Millennium proposes (MH 1830, p. 7; on screen before &ldquo;Not legalism&rdquo;).'))
 A(LIST('What was distinctive', 'Barton Stone&rsquo;s eschatology',
        ['<b>Breaking in now:</b> Cane Ridge and the <i>Last Will</i> as its dawn.',
         '<b>Christ comes first,</b> to judge: not a world gradually converted.',
@@ -422,11 +422,9 @@ A(QK('&ldquo;We have decided, therefore,&hellip; <b>to open the gates of admissi
      'From Chapter 5. The church&rsquo;s door measured by heaven&rsquo;s: the future sets the terms of fellowship now.', size='clamp(38px,8.4vmin,106px)'))
 A(LIST('The future, practiced now', 'What the church will be, it does now',
   ['<b>Unity:</b> one body, gathered around Christ alone.',
-   '<b>Freedom:</b> faith binds; opinions do not.',
    '<b>Priesthood:</b> no titled class between God and his people.',
-   '<b>Communion:</b> the table as a taste of the kingdom.',
-   '<b>The church as foretaste:</b> a small working model of what is coming.'],
-  'Five marks, one per click: why each theme of this class belongs here. Each was the nature of the coming church, so each was the church&rsquo;s work now. Their words for each follow, in this order.'))
+   '<b>Freedom:</b> faith binds; opinions do not.'],
+  'Three marks, one per click. Each was the nature of the coming church, so each was the church&rsquo;s work now. Their words for each follow: unity (John 17 first), priesthood, freedom.'))
 A(C('Two ways<br>into the world', 'The same hope pointed two ways in public life: a strong separation of church and state, or an institutional social agenda.'))
 A(QK('&ldquo;It took but little thought to see that Christians cannot fight&hellip; <b>But if he cannot fight himself, can he vote to make another fight?</b>&rdquo;',
      'David Lipscomb, <i>Civil Government</i> (1889), preface, p. 4', 'Separation', 'lipcg',
@@ -517,3 +515,45 @@ S.insert(_pro[0] + 1, LIST('The Prospectus, 1829', 'Subjects &ldquo;subservient 
    '5. &ldquo;Disquisitions upon the treatment of African slaves, as preparatory to their emancipation, and exaltation from their present degraded condition.&rdquo;'],
   'Four clicks: subjects 1, 2, 4 and 5 of nine; read in the page scan (vol. 1, no. 1, p. 1). The others: freeing the Scriptures from the commentators; religious news; reviews; queries, including &ldquo;a restoration of the <i>Ancient Order of Things</i>&rdquo;; miscellanea. The program of the millennial order: against sects, for education, the Scriptures freed, political injustice measured by the millennium, and (5) slavery, toward &ldquo;their emancipation, and exaltation.&rdquo; Shadow: Campbell inherited enslaved people, freed them, and advocated gradual emancipation, while trying to hold the brotherhood together across the question.',
   size='clamp(22px,3.8vmin,46px)', gap='1.6vmin'))
+# ---------- Micah's structure from "It's about the future" (2026-11-14) ----------
+# not a timeline, the future in general; the whole movement is about eschatology; a new earth; the church as
+# microcosm; unity, priesthood, freedom; practices; restoration reframed, not legalism. Then two ways, Wright, close.
+def _f(sub):
+    h = [i for i, x in enumerate(S) if sub in x]
+    assert len(h) == 1, (sub, h)
+    return h[0]
+def _r(a, b): return list(range(_f(a), _f(b) + 1))
+_seq = (
+    list(range(0, _f('It&rsquo;s about<br>') + 1))
+    + _r('Side path &middot; the Harbinger&rsquo;s aim', 'Millennial Character of the Harbinger')
+    # 1. not postmillennialism: the future in general
+    + [_f('Most of us are not.'), _f('He went back and forth'), _f('James A. Harding was a premillennialist'),
+       _f('The commitment to God&rsquo;s future is the leading emphasis')]
+    + _r('Side path &middot; other voices on the future', 'Different views of the end.')
+    # 2. the whole movement is about eschatology
+    + _r('Everything so far,<br>read forward', 'gates of admission into the Church as wide as the gates of heaven</b>')
+    # 3. a new earth
+    + [_f('How they spoke<br>about the future'), _f('Campbell&rsquo;s eschatology</h2>'),
+       _f('these all agreed that the most important aspect'), _f('the dominant perspective among churches of Christ')]
+    + _r('<div class=eyebrow>A new creation</div>', '<div class=eyebrow>Peace</div>')
+    # 4. the church as microcosm of the future
+    + _r('is lived as if the future is already present', 'Certainly; for this is the very order of heaven')
+    # 5. unity, priesthood, freedom
+    + [_f('What the church will be, it does now')]
+    + _r('<h2>John 17</h2>', 'Some of you say it will be effected')
+    + _r('shall be given to the people of the saints', 'making new divisions and keeping up old ones')
+    + _r('citizen kings and priests to God</b>', 'cancel all orders of nobility')
+    + _r('the things in which the kingdom of God does not consist', 'We do not ask them to give up their opinions&mdash;<b>')
+    # 6. practices
+    + _r('The other<br>millennial harbinger', 'not only commemorates the resurrection of Jesus')
+    # 7. restoration reframed, not legalism
+    + [_f('In detecting the false gospels'), _f('Not legalism.')]
+    # two ways into the world (Stone's eschatology opens it), Wright, close
+    + [_f('Two ways<br>into the world'), _f('Barton Stone&rsquo;s eschatology</h2>')]
+    + list(range(_f('Two ways<br>into the world') + 1, len(S)))
+)
+_seq2 = []
+for i in _seq:
+    if i not in _seq2: _seq2.append(i)
+assert sorted(_seq2) == list(range(len(S))), sorted(set(range(len(S))) - set(_seq2))
+S[:] = [S[i] for i in _seq2]
