@@ -61,4 +61,6 @@ Added 2026-11-14 (Baptists): Campbell, "The Beaver Anathema," CB 7, p. 198: EXAC
 
 Added 2026-11-14: "Reformation and annihilation are not with me now, as formerly, convertible or identical terms" (MH May 1849, p. 272): read in the archive.org page image (leaf 280); the OCR has "as eiiceys". Checked.
 
+Added 2026-11-14: the *Harbinger* Prospectus subjects 1–9 (vol. 1, no. 1, p. 1): read in the page scan; items 2, 3, 6, 7 trimmed with ellipses. Checked.
+
 Two quotations to check against page scans before class: slide 62 (Stone's spelling of "Messiah"), and the Wright ebook and TIME lines (72, 74–76).
