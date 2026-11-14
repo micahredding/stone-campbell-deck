@@ -69,12 +69,7 @@ def HIDE(slide): pass
 A(w3b.S[0])   # the class title
 A('<section class="slide"><div class=eyebrow>Quiz</div>'
   '<h2 style="max-width:24ch">Finish the song:<br><i>&ldquo;This world is not my home, I&rsquo;m just a-passing through. My treasures are laid up&hellip;&rdquo;</i></h2>'
-  '<div class="sub frag" style="font-size:clamp(30px,6vmin,76px);margin-top:3vmin">&hellip;somewhere beyond the blue.</div>'
-  '<aside class=notes>One click for the answer. Extra points if anyone sings the next line (&ldquo;The angels beckon me from heaven&rsquo;s open door&rdquo;). Let them sing. Don&rsquo;t comment yet: we come back to this song when we get to &ldquo;a new earth out of this earth.&rdquo;</aside></section>')
-A('<section class="slide"><div class=eyebrow>Quiz</div>'
-  '<h2 style="max-width:none">When do we celebrate Easter?</h2>'
-  '<div class="sub frag" style="font-size:clamp(34px,7vmin,88px);margin-top:3vmin">Every Sunday.</div>'
-  '<aside class=notes>One click. We come back to this too: Campbell, 1834, the Lord&rsquo;s day &ldquo;anticipates the morning of the resurrection.&rdquo;</aside></section>')
+  '<aside class=notes>The answer (not on the slide): &ldquo;&hellip;somewhere beyond the blue.&rdquo; Extra points if anyone sings the next line (&ldquo;The angels beckon me from heaven&rsquo;s open door&rdquo;). Let them sing. Don&rsquo;t comment yet: we come back to this song when we get to &ldquo;a new earth out of this earth.&rdquo;</aside></section>')
 A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 7</div>'
   '<h1>Living into<br>God&rsquo;s Future</h1><div class=table-line></div>'
   '<div class=sub>The <i>Millennial Harbinger</i> &middot; 1830&ndash;1870</div>'
@@ -272,7 +267,7 @@ A(QK('&ldquo;<b>We already eat at the eschatological table of the Lord</b>; we a
      'John Mark Hicks, &ldquo;The Lord&rsquo;s Supper as Eschatological Table&rdquo; (2026)', 'The table now', 'hicks2',
      'His verdict on the tradition: it &ldquo;stressed memorialism&hellip; and reduced eschatological perspectives to the promised fact of a future reality.&rdquo; His exceptions: Scott, and William Robinson (the &ldquo;kingdom is both present and future,&rdquo; so &ldquo;we are with Him at the Lamb&rsquo;s great Bridal Feast&rdquo;; as quoted by Hicks). His call: &ldquo;The church needs to revision the Supper as an experience of resurrection joy at the kingdom table rather than as an altar of sacrifice.&rdquo;', size='clamp(36px,7.6vmin,96px)'))
 A(QK('&ldquo;The Lord&rsquo;s day not only commemorates the resurrection of Jesus, but <b>anticipates the morning of the resurrection</b> in which we shall enter into the rest which remains for the people of God.&rdquo;',
-     AC + ', ' + MH + ', January 1834, p. 37', 'Easter every Sunday', 'mh1834', '&rarr; Back to the quiz: when do we celebrate Easter?'))
+     AC + ', ' + MH + ', January 1834, p. 37', 'Easter every Sunday', 'mh1834', 'Easter every Sunday.'))
 
 # ---------- 8. THE FUTURE ITSELF ----------
 A(CARD('Campbell was postmillennial.<br>' + G('Most of us are not.'), 'We might get hung up here. A distraction: he went back and forth in his own paper.'))
