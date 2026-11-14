@@ -285,3 +285,16 @@ Supersedes the slide plan above where they differ. The deck (`decks/chapter7.htm
 7. **Two ways into the world:** the same hope led either to a strong separation of church and state (Stone 1843–44, Lipscomb) or to an institutional social agenda (Campbell's "in progress to another age… a millennial… period"; Scott 1859; the ACMS; P. J. Martin, notes only); "Same hope. Opposite routes."
 8. **Some Wright:** new creation, the church as small working model, the table, "Two centuries apart." Not his reading of Scripture, and not the discussion of how far we follow him: both move to Chapter 8 (`NEXT_WEEK` in `decks/src/week7/slides.py`).
 9. **Close:** six ideas, discussion, site, next week.
+
+## Talk-through (Micah, 2026-11-14)
+
+Micah's spoken run of the morning, through "Not legalism": last week (Brush Run, the people ordain) → the movement's anti-institutional streak (Luther; Stone's *Last Will* dissolving its own body) versus the Campbells, who gave up authority but kept seeking institutional affiliation (Evangelical Society of Ulster, Christian Association, the Synod's refusal) → 1812: first child, the infant-baptism question, immersion by Baptist preachers → Redstone (1813) and two decades as Baptists → the *Christian Baptist* (1823), "Restoration of the Ancient Order" written as a Baptist; "the present reformation," not a restoration movement; communion with "the whole Baptist society" → Redstone's packed meeting (1823), Wellsburg, Redstone's expulsions → Mahoning, Scott (1827) → the Beaver Anathema (1829), "Who gave to the Beaver Association the right…?" → Mahoning dissolves itself for fear of its own power; Campbell objects and is voted down (a healthy community: even his influence was questioned) → no longer a Baptist; "Reformation and annihilation" → the pivot: tearing down is not enough, build up → the *Millennial Harbinger*, the name, the future not the past → not a timeline (Campbell post-, Stone pre-, Scott back and forth; he printed all of them) → the future is renewal of creation; so the church embodies it now (Cane Ridge as the Spirit moving; unity, freedom, priesthood) → the Supper as the other millennial harbinger → Thomas Campbell: get on board with unity now (cf. Josh's sermons) → John 17: unity so that the world may believe → restoration and "ancient order" as living the future, not legalism; not boundaries of communion → in the *Harbinger*, form without the Spirit rejected.
+
+Fact-check notes (2026-11-14):
+- Brush Run went on to the new Washington Association (1827); Mahoning received Campbell's Wellsburg church (1824), before Redstone cut Brush Run off.
+- Scott's 2,000-plus additions were over his first two years, not one.
+- The "Reformation and annihilation… as formerly" confession is from 1849, looking back.
+- Mahoning dissolved for two reasons (Richardson): fear of associations' power, and no scriptural warrant.
+- That Campbell dropped "ancient order" because it was misunderstood: no source found yet.
+- Baptism as a foretaste: nearest source is Scott (baptism now, resurrection then), not priesthood.
+- Form without the Spirit rejected in the *Harbinger*: Richardson's "Faith versus Philosophy" (1857), with Campbell siding with him.
