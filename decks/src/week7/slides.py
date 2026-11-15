@@ -305,14 +305,9 @@ A(QK('&ldquo;The Lord&rsquo;s day not only commemorates the resurrection of Jesu
      AC + ', ' + MH + ', January 1834, p. 37', 'Easter every Sunday', 'mh1834', 'Easter every Sunday.'))
 
 # ---------- 8. THE FUTURE ITSELF ----------
-A(LIST('Campbell was postmillennial. Most of us are not.', 'In his own paper, he went back and forth',
-  [D('1831', '&ldquo;a deepening gloom overspreads our ecclesiastical heavens&rdquo;'),
-   D('1833', '&ldquo;with what caution we have spoken on the prophecies and millennial matters&rdquo;'),
-   D('1840', '&ldquo;We had more pressing and important matter on hand&rdquo;'),
-   D('1853', '&ldquo;the millennium&rdquo; among the opinions that &ldquo;terminate in schism&rdquo;'),
-   D('1856', '&ldquo;Modesty sits most gracefully on&hellip; interpreters of prophecy&rdquo;')],
-  'Five clicks. We might get hung up on his postmillennialism; it is a distraction, and he himself went back and forth. <i>MH</i> 1831, p. 168; 1833, p. 49; 1840, p. 562 (&ldquo;we have not committed ourselves to any of the theories of the present day on the nature and coming of the Millennium&rdquo;); 1853, p. 175; 1856, p. 698. He also printed the other views: the premillennialist &ldquo;Daniel&rdquo; in his first volume; McCorkle&rsquo;s pessimism in 1833; Stone, who expected Christ to come first and reign.',
-  size='clamp(22px,4.1vmin,52px)'))
+A(CARD('Not a particular<br>' + G('timeline.'),
+  'Campbell was postmillennial. Most of us are not. We might get hung up here; it is a distraction. In his own paper, he went back and forth: 1831, &ldquo;a deepening gloom overspreads our ecclesiastical heavens&rdquo; (<i>MH</i> 1831, p. 168); 1833, &ldquo;with what caution we have spoken on the prophecies and millennial matters&rdquo; (p. 49); 1840, &ldquo;We had more pressing and important matter on hand&rdquo; (p. 562; also &ldquo;we have not committed ourselves to any of the theories of the present day on the nature and coming of the Millennium&rdquo;); 1853, &ldquo;the millennium&rdquo; among the opinions that &ldquo;terminate in schism&rdquo; (p. 175); 1856, &ldquo;Modesty sits most gracefully on&hellip; interpreters of prophecy&rdquo; (p. 698). He also printed the other views: the premillennialist &ldquo;Daniel&rdquo; in his first volume; McCorkle&rsquo;s pessimism in 1833; Stone, who expected Christ to come first and reign.',
+  style=';font-size:clamp(60px,12.6vmin,150px);line-height:1.08'))
 A(QK('&ldquo;Alexander Campbell was a postmillennialist. James A. Harding was a premillennialist. Walter Scott changed his mind several times. <b>David Lipscomb was uncertain</b>.&rdquo;',
      'John Mark Hicks, &ldquo;What Will Become of the Earth: A Nashville Bible School Perspective&rdquo; (2015)', 'John Mark Hicks, 2015', 'hicks',
      'Hicks teaches theology at Lipscomb University; with Bobby Valentine he wrote <i>Kingdom Come: Embracing the Spiritual Legacy of David Lipscomb and James A. Harding</i> (2006). Harding co-founded the Nashville Bible School (now Lipscomb University) with Lipscomb.', size='clamp(34px,7vmin,88px)'))
