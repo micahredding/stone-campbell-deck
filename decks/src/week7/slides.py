@@ -641,3 +641,6 @@ S[_pf + 1:_pf + 1] = _blk
 del S[_one_ix('without a tear or a sigh, when Jesus reigns on earth')]
 # Micah, 2026-11-15: drop "The kingdom now: small societies" (kept in the source).
 del S[_one_ix('small societies, called churches</b>')]
+# Micah, 2026-11-15: hide Thomas Campbell's "present duty" (1839) and Stone's "very order of heaven" (1840), kept in the source.
+for _k in ('our grand concern and present duty', 'Certainly; for this is the very order of heaven'):
+    del S[_one_ix(_k)]
