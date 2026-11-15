@@ -519,9 +519,9 @@ def _MARK(big, small):
     return ('<div class="no frag" style="margin:0"><div style="font-family:IM Fell English,Georgia,serif;font-size:clamp(40px,8.4vmin,104px);line-height:1.05;color:var(--gold)">%s</div>'
             '<div style="font-size:clamp(20px,3.3vmin,40px);color:var(--bone-dim);font-style:italic;margin-top:.6vmin">%s</div></div>' % (big, small))
 A('<section class="slide room"><div class=eyebrow>What was distinctive</div><div class=litany style="gap:3.4vmin;margin-top:1vmin">'
-  + _MARK('A new creation', 'this earth made new, not an escape to heaven')
-  + _MARK('The church as a microcosm', 'a small working model of what is coming')
-  + _MARK('Practicing the future today', 'unity, priesthood, freedom, the table')
+  + _MARK('<span style="color:var(--bone-dim)">1.</span> A new creation', 'this earth made new, not an escape to heaven')
+  + _MARK('<span style="color:var(--bone-dim)">2.</span> The church as a microcosm', 'a small working model of what is coming')
+  + _MARK('<span style="color:var(--bone-dim)">3.</span> Practicing the future today', 'unity, priesthood, freedom, the table')
   + '</div><aside class=notes>Three clicks; each has its own section next, behind a title card. Across the movement, whatever their timeline (Campbell post-, Stone pre-, Scott changing, Lipscomb uncertain), these three held. (Their eschatology, in three marks.)</aside></section>')
 A(C('A new creation', 'Not an escape to heaven: this earth made new.'))
 A(C('The church as a microcosm', 'The church now as a small working model of God&rsquo;s future.'))
