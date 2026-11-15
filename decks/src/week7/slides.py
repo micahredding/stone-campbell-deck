@@ -691,3 +691,5 @@ assert len(_blk) == 3, len(_blk)
 del S[_sc:_sc + 3]
 _rs = _one_ix('Millennial Character of the Harbinger')
 S[_rs + 1:_rs + 1] = _blk
+# Micah, 2026-11-15: a question card before the three marks.
+S.insert(_one_ix('Their eschatology, in three marks'), CARD('What was' + '<br>' + G('distinctive?'), 'Ask it, and let them answer before the three marks appear.'))
