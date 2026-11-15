@@ -403,9 +403,9 @@ A(LIST('Chapters 1&ndash;6, read forward', 'All of them',
 A(QK('&ldquo;Many were fully persuaded that <b>the glorious millennial day had commenced</b>, and that the world would soon become the Kingdom of our Lord Jesus Christ.&rdquo;',
      'An eyewitness of Cane Ridge, in Levi Purviance, <i>Biography of Elder David Purviance</i> (1848), p. 301', 'Chapter 1 &middot; Cane Ridge', 'purv48',
      'An anonymous eyewitness, about ten years old in 1801. He goes on: &ldquo;But alas! That enemy of God and man, sectarianism, raised its hydra head&hellip; and the fair prospects of Zion were in some degree blasted.&rdquo; Stone himself: from that revival &ldquo;a fountain of light has sprung&hellip; and it promises fair to enlighten the world&rdquo; (<i>Biography</i>, p. 46).'))
-A(QK('&ldquo;It is our consolation, in the mean time, that <b>the desired event, as certain as it will be happy and glorious, admits of no dispute</b>, however we may hesitate or differ about the proper means of promoting it.&rdquo;',
+A(QK('&ldquo;Do ye not discern the signs of the times?&hellip; <b>Is it time for us to sit still in our corruptions and divisions, when the Lord, by his word and providence, is so loudly and expressly calling us to repentance, and reformation?</b>&rdquo;',
      DA, 'Chapter 3 &middot; The <i>Declaration and Address</i>', 'dna',
-     'The close of the Address. The future is certain; the means are disputed. The &ldquo;desired event&rdquo;: the church&rsquo;s unity, and through it the conversion of the world.'))
+     'The closing appeal of the Address. The cut is his reading of the times through Revelation 11: &ldquo;Have not the two witnesses arisen from their state of political death&hellip;? Has not their resurrection been accompanied with a great earthquake?&hellip; these awful convulsions and revolutions that have dashed and are dashing to pieces the nations, like a potter&rsquo;s vessel&rdquo;: the French Revolution and its wars, felt even in America. Just before, he rejects the &ldquo;siren song&rdquo; that &ldquo;The time is not yet come.&rdquo; Just after: &ldquo;Awake, awake; put on thy strength, O Zion.&rdquo; God&rsquo;s future is arriving, so a divided church cannot wait.'))
 A(QK('&ldquo;&hellip;pray more and dispute less; and while they behold the signs of the times, look up, and <b>confidently expect that redemption draweth nigh</b>.&rdquo;',
      'Springfield Presbytery, <i>Last Will and Testament</i> (1804), in Stone, <i>Biography</i>, p. 52', 'Chapter 4 &middot; The <i>Last Will</i>', 'bio',
      'Its epigraph is Hebrews 12:27, &ldquo;that those things which cannot be shaken may remain.&rdquo; The Witnesses&rsquo; Address hopes the work &ldquo;will terminate in the universal spread of the gospel, and the unity of the church&rdquo; (pp. 54&ndash;55).', size='clamp(34px,7vmin,88px)'))
@@ -515,12 +515,14 @@ A(QK('&ldquo;Now this congregation was intended to be a model, and <b>did actual
 # Micah, 2026-11-15: one slide on what was distinctive, then a title card before each mark's quotations.
 for _gone in ('How they spoke<br>about the future', 'Campbell&rsquo;s eschatology</h2>', 'Everything so far,<br>read forward'):   # replaced by the slide and cards below
     _g = [i for i, x in enumerate(S) if _gone in x]; assert len(_g) == 1, _gone; del S[_g[0]]
-A(LIST('What was distinctive', 'Their eschatology, in three marks',
-  ['<b>A new creation:</b> this earth made new, not an escape to heaven.',
-   '<b>The church as a microcosm:</b> a small working model of what is coming.',
-   '<b>Practicing the future today:</b> unity, priesthood, freedom, the table.'],
-  'Three clicks; each has its own section next, behind a title card. Across the movement, whatever their timeline (Campbell post-, Stone pre-, Scott changing, Lipscomb uncertain), these three held.',
-  size='clamp(26px,4.8vmin,60px)', gap='2vmin'))
+def _MARK(big, small):
+    return ('<div class="no frag" style="margin:0"><div style="font-family:IM Fell English,Georgia,serif;font-size:clamp(40px,8.4vmin,104px);line-height:1.05;color:var(--gold)">%s</div>'
+            '<div style="font-size:clamp(20px,3.3vmin,40px);color:var(--bone-dim);font-style:italic;margin-top:.6vmin">%s</div></div>' % (big, small))
+A('<section class="slide room"><div class=eyebrow>What was distinctive</div><div class=litany style="gap:3.4vmin;margin-top:1vmin">'
+  + _MARK('A new creation', 'this earth made new, not an escape to heaven')
+  + _MARK('The church as a microcosm', 'a small working model of what is coming')
+  + _MARK('Practicing the future today', 'unity, priesthood, freedom, the table')
+  + '</div><aside class=notes>Three clicks; each has its own section next, behind a title card. Across the movement, whatever their timeline (Campbell post-, Stone pre-, Scott changing, Lipscomb uncertain), these three held. (Their eschatology, in three marks.)</aside></section>')
 A(C('A new creation', 'Not an escape to heaven: this earth made new.'))
 A(C('The church as a microcosm', 'The church now as a small working model of God&rsquo;s future.'))
 A(C('Practicing the future today', 'The church does now what it will be: unity, priesthood, freedom, and the table.'))
