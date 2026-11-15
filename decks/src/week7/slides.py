@@ -711,3 +711,6 @@ _fl = _one_ix('Campbell editing to 1864; then W. K. Pendleton')
 _ms = _one_ix('millennial_harbinger_masthead') if False else [i for i, x in enumerate(S) if 'January 4, 1830 (Internet Archive scan)' in x][0]
 assert _fl == _ms + 1
 S[_ms], S[_fl] = S[_fl], S[_ms]
+# Micah, 2026-11-15: a copy of Hicks's "they disagreed" before "What they agreed on", so the two halves sit together.
+_h1 = _one_ix('James A. Harding was a premillennialist')
+S.insert(_one_ix('these all agreed that the most important aspect'), S[_h1].replace('<section ', '<section data-copy="hicks" ', 1))
