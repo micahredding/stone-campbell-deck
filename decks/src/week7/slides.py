@@ -566,3 +566,10 @@ for i in _seq:
     if i not in _seq2: _seq2.append(i)
 assert sorted(_seq2) == list(range(len(S))), sorted(set(range(len(S))) - set(_seq2))
 S[:] = [S[i] for i in _seq2]
+# Micah, 2026-11-15: "Peace" (the Address on War) belongs with eschatology and government, after Lipscomb on fighting and voting.
+_pe = [i for i, x in enumerate(S) if '<div class=eyebrow>Peace</div>' in x]
+assert len(_pe) == 1
+_peace = S.pop(_pe[0])
+_lf = [i for i, x in enumerate(S) if 'It took but little thought to see that Christians cannot fight' in x]
+assert len(_lf) == 1
+S.insert(_lf[0] + 1, _peace)
