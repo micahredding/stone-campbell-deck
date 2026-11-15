@@ -702,3 +702,7 @@ assert 'In detecting the false gospels' in _blk[1] and len(_blk) == 5, [len(_blk
 del S[_c[0]:_e + 1]
 _w = _one_ix('What the church will be, it does now')
 S[_w:_w] = _blk
+# Micah, 2026-11-15: "The future as the test" (with its side path) before the Stone 1843 copy.
+_c = [i for i, x in enumerate(S) if 'data-copy="1"' in x]; assert len(_c) == 1
+_stone = S.pop(_c[0])
+S.insert(_one_ix('Now this congregation was intended to be a model') + 1, _stone)

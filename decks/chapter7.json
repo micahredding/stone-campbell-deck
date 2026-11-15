@@ -531,37 +531,37 @@
   {
    "index": 75,
    "n": 76,
-   "title": "Stone, 1843 \"Let Christians shew by their peaceful, holy lives, that his laws are sufficie",
+   "title": "The future as the test \"In detecting the false gospels, nothing will aid us so much as an ",
    "path": "spine",
    "doc": null
   },
   {
    "index": 76,
    "n": 77,
-   "title": "The future as the test \"In detecting the false gospels, nothing will aid us so much as an ",
-   "path": "spine",
+   "title": "Side path restoration as recovery Restoration as recovery",
+   "path": "Restoration as recovery",
    "doc": null
   },
   {
    "index": 77,
    "n": 78,
-   "title": "Side path restoration as recovery Restoration as recovery",
+   "title": "Nothing new, only renewed \"We expect no new Sun , no new revelation of the Spirit, no othe",
    "path": "Restoration as recovery",
    "doc": null
   },
   {
    "index": 78,
    "n": 79,
-   "title": "Nothing new, only renewed \"We expect no new Sun , no new revelation of the Spirit, no othe",
+   "title": "Acts 2: a model for the world \"Now this congregation was intended to be a model, and did a",
    "path": "Restoration as recovery",
-   "doc": null
+   "doc": "cb25"
   },
   {
    "index": 79,
    "n": 80,
-   "title": "Acts 2: a model for the world \"Now this congregation was intended to be a model, and did a",
-   "path": "Restoration as recovery",
-   "doc": "cb25"
+   "title": "Stone, 1843 \"Let Christians shew by their peaceful, holy lives, that his laws are sufficie",
+   "path": "spine",
+   "doc": null
   },
   {
    "index": 80,
@@ -965,7 +965,7 @@
   73,
   74,
   75,
-  76,
+  79,
   80,
   88,
   89,
@@ -1078,11 +1078,11 @@
   },
   {
    "label": "Restoration as recovery",
-   "fork": 76,
+   "fork": 75,
    "slides": [
+    76,
     77,
-    78,
-    79
+    78
    ]
   },
   {
@@ -1169,7 +1169,7 @@
   },
   {
    "label": "Restoration, reframed",
-   "at": 50
+   "at": 49
   },
   {
    "label": "Close",
@@ -1261,7 +1261,7 @@
    "text": "Are we not all praying for that happy event, when there shall be but one fold, as there is but one chief Shepherd? What! shall we pray for a thing, and not strive to obtain it!!"
   },
   {
-   "slide": 79,
+   "slide": 78,
    "doc": "cb25",
    "text": "Now this congregation was intended to be a model, and did actually become such to Judea, Samaria, and to the uttermost parts of the earth."
   },
@@ -1548,23 +1548,23 @@
   },
   {
    "slide": 75,
-   "text": "Let Christians shew by their peaceful, holy lives, that his laws are sufficient to govern the whole world in peace and love."
-  },
-  {
-   "slide": 75,
-   "text": "Reflections of Old Age,"
-  },
-  {
-   "slide": 76,
    "text": "In detecting the false gospels, nothing will aid us so much as an examination of their tendencies, and a comparison of their effects with what the Millennium proposes. The gospel of no sect can convert the world."
   },
   {
-   "slide": 78,
+   "slide": 77,
    "text": "We expect no new Sun, no new revelation of the Spirit, no other than the same gospel and the same religion, only that it shall be disinterred from the rubbish of the dark ages"
   },
   {
-   "slide": 78,
+   "slide": 77,
    "text": "Prefatory Remarks,"
+  },
+  {
+   "slide": 79,
+   "text": "Let Christians shew by their peaceful, holy lives, that his laws are sufficient to govern the whole world in peace and love."
+  },
+  {
+   "slide": 79,
+   "text": "Reflections of Old Age,"
   },
   {
    "slide": 83,
