@@ -251,7 +251,7 @@ A(QK('&ldquo;Are we not all praying for that happy event, when there shall be bu
 A(QK('&ldquo;We are so sanguine (perhaps many will say, so visionary) as to imagine that <b>a nucleus has been formed, or may be formed, around which may one day congregate all the children of God</b>.&rdquo;',
      CS + ', p. 111', 'Unity', 'cs',
      'Same page: no one can say it is &ldquo;either impious or immoral&hellip; to meditate upon the possibility or practicability of any scheme of gathering together the children of God under the ensign of the cross alone.&rdquo; The church now is the nucleus of the church to come.'))
-A(QK('&ldquo;Who that thinks of heaven, of eternal peace and love, <b>can refrain from pleading the union</b>, concert, and co-operation of all the sincere followers of the Lamb of God?&rdquo;',
+HIDE(QK('&ldquo;Who that thinks of heaven, of eternal peace and love, <b>can refrain from pleading the union</b>, concert, and co-operation of all the sincere followers of the Lamb of God?&rdquo;',
      AC + ', &ldquo;Union,&rdquo; ' + MH + ', November 1840, p. 481', 'Unity', 'mh1840',
      'Just before: &ldquo;Union, love, and social bliss, are only three ways of expressing the same idea.&rdquo; Heaven, therefore union now.', size='clamp(34px,7vmin,88px)'))
 A(QK('&ldquo;When then we see a people making new divisions and keeping up old ones, while praying for the Millennium or the triumph of love and harmony, <b>we as naturally suspect that they are any thing but in earnest</b>.&rdquo;',
@@ -456,7 +456,7 @@ S.extend(_old[:_ix('It&rsquo;s about<br>') + 1]                       # opening,
   # everything so far, read forward
   + _new[:6] + _new[6:7]
   + _one('shall be given to the people of the saints', 'pray for a thing, and not strive', 'a nucleus has been formed',
-         'Who that thinks of heaven', 'making new divisions and keeping up old ones')                       # unity
+         'making new divisions and keeping up old ones')                       # unity
   + _one('the things in which the kingdom of God does not consist', 'Resume that precious', 'We do not ask them to give up their opinions&mdash;<b>')  # freedom
   + _one('citizen kings and priests to God</b>', 'without the intervention of a mediator', 'the king and the beggar meet',
          'titled and enthroned as they may be', 'cancel all orders of nobility')                              # priesthood
@@ -515,11 +515,8 @@ S.insert(_pro[0] + 1, LIST('The Prospectus, 1829', 'Subjects &ldquo;subservient 
   size='clamp(22px,3.8vmin,46px)', gap='1.6vmin'))
 # Acts 2 (Micah, 2026-11-15): the Jerusalem church as model, and Campbell against a liturgy drawn from Acts 2:42.
 A(QK('&ldquo;Now this congregation was intended to be a model, and <b>did actually become such to Judea, Samaria, and to the uttermost parts of the earth</b>.&rdquo;',
-     AC + ', &ldquo;A Restoration of the Ancient Order of Things. No. VII,&rdquo; ' + CB + ' 3, September 1825, p. 30', 'Acts 2: a model for the world', 'cb3',
-     'Of the Jerusalem church after Pentecost: the apostles &ldquo;proceeded to organize a congregation of disciples, and to set them in the order which the Lord had commanded.&rdquo; Then he quotes Acts 2:41&ndash;42: &ldquo;they continued stedfastly in the apostles&rsquo; doctrine, and in the fellowship, and in breaking of bread, and in prayers.&rdquo; The first church as a model sent outward, to the ends of the earth (Acts 1:8): the pattern as mission, not museum.'))
-A(QK('&ldquo;<b>To ascribe to any arrangement of items a divine appointment, is to make every departure from it positively sinful</b> and inacceptable to God.&rdquo;',
-     '&ldquo;Order of Worship,&rdquo; ' + MH + ', 1838, pp. 247&ndash;248 (unsigned, in the editor&rsquo;s voice)', 'Acts 2:42 is not a liturgy', 'mh1838',
-     'Against a brother (Emmons) who drew a fixed order of Sunday worship from the order of the words in Acts 2:42. The editor &ldquo;must dissent&rdquo;: it &ldquo;would give to the Christian worship a liturgy, a ritual form like the Jewish, wholly incompatible with the genius of Christ&rsquo;s religion&hellip; This, to my mind, would be an intolerable idea, and hostile to the spirit and scope of the evangelical economy.&rdquo; Unsigned; the first person is the editor&rsquo;s, so presumably Campbell; check before calling it his.'))
+     AC + ', A Restoration of the Ancient Order of Things, No. VII, ' + CB + ' 3, September 1825, p. 30', 'Acts 2: a model for the world', 'cb3',
+     'Of the Jerusalem church after Pentecost: the apostles &ldquo;proceeded to organize a congregation of disciples, and to set them in the order which the Lord had commanded.&rdquo; Then he quotes Acts 2:41&ndash;42: &ldquo;they continued stedfastly in the apostles&rsquo; doctrine, and in the fellowship, and in breaking of bread, and in prayers.&rdquo; The first church as a model sent outward, to the ends of the earth (Acts 1:8). Be candid about the essay (whole text: press Z): its argument is that &ldquo;Apostolic example is justly esteemed of equal authority with an apostolic precept,&rdquo; and from Acts 2 and Acts 20:7 it concludes the Supper was weekly, on the first day, &ldquo;the most prominent object of their meeting.&rdquo; This is a root of the later command-and-example reading; here its aim is weekly communion.').replace('<section ', '<section data-src="cb25" ', 1))
 # ---------- Micah's structure from "It's about the future" (2026-11-14) ----------
 # not a timeline, the future in general; the whole movement is about eschatology; a new earth; the church as
 # microcosm; unity, priesthood, freedom; practices; restoration reframed, not legalism. Then two ways, Wright, close.
@@ -553,7 +550,7 @@ _seq = (
     + _r('The other<br>millennial harbinger', 'not only commemorates the resurrection of Jesus')
     # 7. restoration reframed, not legalism
     + [_f('Millennial Character of the Harbinger'), _f('We expect <b>no new Sun</b>'), _f('Now this congregation was intended to be a model'),
-       _f('To ascribe to any arrangement of items a divine appointment'), _f('In detecting the false gospels'), _f('Not legalism.')]
+       _f('In detecting the false gospels'), _f('Not legalism.')]
     # two ways into the world (Stone's eschatology opens it), Wright, close
     + [_f('Eschatology and government:<br>two paths'), _f('Barton Stone&rsquo;s eschatology</h2>')]
     + list(range(_f('Eschatology and government:<br>two paths') + 1, len(S)))
