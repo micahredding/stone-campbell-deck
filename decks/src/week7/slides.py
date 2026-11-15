@@ -248,10 +248,10 @@ A(QK('&ldquo;&lsquo;And the kingdom and dominion&hellip; shall be given to the p
      DA, 'Thomas Campbell, 1809', 'dna', 'Daniel 7:27, then the turn.'))
 A(QK('&ldquo;Are we not all praying for that happy event, when there shall be but one fold, as there is but one chief Shepherd? <b>What! shall we pray for a thing, and not strive to obtain it!!</b>&rdquo;',
      DA, 'Thomas Campbell, 1809', 'dna', 'The two exclamation points are his.', size='clamp(34px,7vmin,88px)'))
-A(QK('&ldquo;We are so sanguine (perhaps many will say, so visionary) as to imagine that <b>a nucleus has been formed, or may be formed, around which may one day congregate all the children of God</b>.&rdquo;',
+HIDE(QK('&ldquo;We are so sanguine (perhaps many will say, so visionary) as to imagine that <b>a nucleus has been formed, or may be formed, around which may one day congregate all the children of God</b>.&rdquo;',
      CS + ', p. 111', 'Unity', 'cs',
      'Same page: no one can say it is &ldquo;either impious or immoral&hellip; to meditate upon the possibility or practicability of any scheme of gathering together the children of God under the ensign of the cross alone.&rdquo; The church now is the nucleus of the church to come.'))
-HIDE(QK('&ldquo;Who that thinks of heaven, of eternal peace and love, <b>can refrain from pleading the union</b>, concert, and co-operation of all the sincere followers of the Lamb of God?&rdquo;',
+A(QK('&ldquo;Who that thinks of heaven, of eternal peace and love, <b>can refrain from pleading the union</b>, concert, and co-operation of all the sincere followers of the Lamb of God?&rdquo;',
      AC + ', &ldquo;Union,&rdquo; ' + MH + ', November 1840, p. 481', 'Unity', 'mh1840',
      'Just before: &ldquo;Union, love, and social bliss, are only three ways of expressing the same idea.&rdquo; Heaven, therefore union now.', size='clamp(34px,7vmin,88px)'))
 A(QK('&ldquo;When then we see a people making new divisions and keeping up old ones, while praying for the Millennium or the triumph of love and harmony, <b>we as naturally suspect that they are any thing but in earnest</b>.&rdquo;',
@@ -455,8 +455,8 @@ S.extend(_old[:_ix('It&rsquo;s about<br>') + 1]                       # opening,
   + _one('Different views of the end.')
   # everything so far, read forward
   + _new[:6] + _new[6:7]
-  + _one('shall be given to the people of the saints', 'pray for a thing, and not strive', 'a nucleus has been formed',
-         'making new divisions and keeping up old ones')                       # unity
+  + _one('shall be given to the people of the saints', 'pray for a thing, and not strive',
+         'Who that thinks of heaven', 'making new divisions and keeping up old ones')                       # unity
   + _one('the things in which the kingdom of God does not consist', 'Resume that precious', 'We do not ask them to give up their opinions&mdash;<b>')  # freedom
   + _one('citizen kings and priests to God</b>', 'without the intervention of a mediator', 'the king and the beggar meet',
          'titled and enthroned as they may be', 'cancel all orders of nobility')                              # priesthood
