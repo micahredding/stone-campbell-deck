@@ -676,3 +676,5 @@ S[_ft + 1:_ft + 1] = [_hdr('restoration as recovery', 'Restoration as recovery',
 # Micah, 2026-11-15: a copy of Stone 1843 ("peaceful, holy lives") on the spine after "one platform";
 # eschatology and government, and N. T. Wright, become side paths (built in decks/src/week7map/build.py).
 S.insert(_one_ix('We do not ask them to give up their opinions&mdash;<b>') + 1, S[_one_ix('Let Christians shew by their peaceful, holy lives')].replace('<section ', '<section data-copy="1" ', 1))
+# Micah, 2026-11-15: drop Campbell's reply to the Beaver Anathema (kept in the source).
+del S[_one_ix('Who gave to the Beaver Association the right to anathematize the Mahoning Association?</b>')]
