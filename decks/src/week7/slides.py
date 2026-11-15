@@ -513,7 +513,7 @@ A(QK('&ldquo;Now this congregation was intended to be a model, and <b>did actual
      AC + ', A Restoration of the Ancient Order of Things, No. VII, ' + CB + ' 3, September 1825, p. 30', 'Acts 2: a model for the world', 'cb3',
      'Of the Jerusalem church after Pentecost: the apostles &ldquo;proceeded to organize a congregation of disciples, and to set them in the order which the Lord had commanded.&rdquo; Then he quotes Acts 2:41&ndash;42: &ldquo;they continued stedfastly in the apostles&rsquo; doctrine, and in the fellowship, and in breaking of bread, and in prayers.&rdquo; The first church as a model sent outward, to the ends of the earth (Acts 1:8). Be candid about the essay (whole text: press Z): its argument is that &ldquo;Apostolic example is justly esteemed of equal authority with an apostolic precept,&rdquo; and from Acts 2 and Acts 20:7 it concludes the Supper was weekly, on the first day, &ldquo;the most prominent object of their meeting.&rdquo; This is a root of the later command-and-example reading; here its aim is weekly communion.').replace('<section ', '<section data-src="cb25" ', 1))
 # Micah, 2026-11-15: one slide on what was distinctive, then a title card before each mark's quotations.
-for _gone in ('How they spoke<br>about the future', 'Campbell&rsquo;s eschatology</h2>'):   # replaced by the slide and cards below
+for _gone in ('How they spoke<br>about the future', 'Campbell&rsquo;s eschatology</h2>', 'Everything so far,<br>read forward'):   # replaced by the slide and cards below
     _g = [i for i, x in enumerate(S) if _gone in x]; assert len(_g) == 1, _gone; del S[_g[0]]
 A(LIST('What was distinctive', 'Their eschatology, in three marks',
   ['<b>A new creation:</b> this earth made new, not an escape to heaven.',
@@ -540,7 +540,7 @@ _seq = (
        _f('The commitment to God&rsquo;s future is the leading emphasis')]
     + _r('Side path &middot; other voices on the future', 'Different views of the end.')
     # 2. the whole movement is about eschatology
-    + _r('Everything so far,<br>read forward', 'gates of admission into the Church as wide as the gates of heaven</b>')
+    + _r('Chapters 1&ndash;6, read forward', 'gates of admission into the Church as wide as the gates of heaven</b>')
     # what was distinctive, in one slide; then each mark behind its own title card
     + [_f('Their eschatology, in three marks')]
     + [_f('<h2>A new creation</h2>'), _f('these all agreed that the most important aspect'), _f('the dominant perspective among churches of Christ')]
