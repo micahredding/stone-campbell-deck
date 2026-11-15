@@ -191,7 +191,7 @@ A(CARD('Same hope.<br>' + G('Opposite routes.'),
   'Separation: Stone, Lipscomb, Harding: no voting, office or war; the church as the alternative government. A social agenda: Campbell, and Scott after 1844: societies, schools, missions (the American Christian Missionary Society, 1849, Campbell its president); and P. J. Martin&rsquo;s postmillennial new earth (1913), with &ldquo;no exploitation&hellip; no foreclosing of mortgages&rdquo; (as quoted by John Mark Hicks; book not yet seen). Both: the church should already look like what is coming.'))
 A(QK('&ldquo;We expect <b>no new Sun</b>, no new revelation of the Spirit, no other than the same gospel and the same religion, only that it shall be disinterred from the rubbish of the dark ages&hellip;&rdquo;',
      AC + ', &ldquo;Prefatory Remarks,&rdquo; ' + MH + ', January 1830, p. 5', 'Nothing new, only renewed', 'mh1830',
-     'The first issue. The millennium is the same gospel, recovered.'))
+     'The first issue. The Sun is a metaphor: just before, the first step toward &ldquo;this glorious age&rdquo; is &ldquo;to dissipate the darkness which covers the people and hides from their eyes the Sun, the quickening, renewing, animating Sun of Mercy.&rdquo; No new gospel: the same one, recovered from &ldquo;the rubbish of the dark ages.&rdquo;'))
 A(QK('&ldquo;&hellip;our best political institutions we can part with <b>without a tear or a sigh, when Jesus reigns on earth</b>, and has placed a throne in every heart and built a temple in every family.&rdquo;',
      AC + ', Fourth of July oration, ' + MH + ', 1830, p. 306', 'Jesus reigns on earth', 'mh1830',
      'The same oration: &ldquo;Not by might, nor by sword, but by the Spirit of the Lord.&rdquo;'))
