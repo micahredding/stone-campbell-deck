@@ -678,3 +678,6 @@ S[_ft + 1:_ft + 1] = [_hdr('restoration as recovery', 'Restoration as recovery',
 S.insert(_one_ix('We do not ask them to give up their opinions&mdash;<b>') + 1, S[_one_ix('Let Christians shew by their peaceful, holy lives')].replace('<section ', '<section data-copy="1" ', 1))
 # Micah, 2026-11-15: drop Campbell's reply to the Beaver Anathema (kept in the source).
 del S[_one_ix('Who gave to the Beaver Association the right to anathematize the Mahoning Association?</b>')]
+# Micah, 2026-11-15: a title card, "Mahoning's dissolution", after "The eternal pattern".
+S.insert(_one_ix('They won&rsquo;t accept the fence.') + 1,
+  C('Mahoning&rsquo;s dissolution', 'Austintown, Ohio, August 1830. Two reasons (Richardson, <i>Memoirs</i> II, pp. 327&ndash;328): fear of associations&rsquo; power, after Redstone and the Beaver Anathema had shown &ldquo;the tendency of such bodies to the exercise of arbitrary power&rdquo;; and no warrant in Scripture, &ldquo;no positive command for them.&rdquo; It ended the association &ldquo;as an advisory council or an ecclesiastical tribunal&rdquo; and became a yearly meeting for worship and reports. Campbell objected and was voted down.', 'August 1830'))
