@@ -652,3 +652,11 @@ S[_sc + 1:_sc + 1] = [
     '<h2 style="max-width:none">The table today</h2>'
     '<aside class=notes>Off Scott&rsquo;s &ldquo;heaven upon earth.&rdquo; John Mark Hicks (2026) restates it for us, drawing on Schmemann and the Wesleys: the Supper is &ldquo;the experience of that future in the present.&rdquo; Next in his essay: &ldquo;the church still generally practices the Supper as if it were still Friday rather than Sunday.&rdquo;</aside></section>',
     _ht]
+# Micah, 2026-11-15: "citizen kings and priests" and "a royal priesthood" (1830) to a side path off the Paisley "princes" slide.
+_kp = [S[_one_ix(k)] for k in ('citizen kings and priests to God</b>', 'without the intervention of a mediator')]
+for x in _kp: S.remove(x)
+_pr = _one_ix('adopted and enrolled amongst princes')
+S[_pr + 1:_pr + 1] = [
+    '<section class="slide breath"><div class=eyebrow>Side path &middot; kings and priests, 1830</div>'
+    '<h2 style="max-width:none">Kings and priests, 1830</h2>'
+    '<aside class=notes>Off &ldquo;enrolled amongst princes.&rdquo; Twenty-three years earlier, the same royal language for every believer: the Fourth of July oration and the August 1830 essay on the table.</aside></section>'] + _kp
