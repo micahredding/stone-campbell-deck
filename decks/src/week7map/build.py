@@ -45,3 +45,14 @@ mapdeck.build({
     'out': 'decks/chapter7.html', 'source': 'decks/src/week7/slides.py', 'built_by': 'decks/src/week7map/build.py',
     'side': SIDE, 'sections': SECTIONS, 'docs': docs, 'short': R.SHORT, 'doc_doors': [], 'doc_order': R.doc_order,
 })
+
+# The taught Chapter 7 for the public site (Micah, 2026-11-15: "as taught… drop the side paths… take off the next week slide"):
+# the spine only, without "Next week". Publish with stone-campbell's scripts/strip-deck-notes.mjs.
+mapdeck.build({
+    'part': '7', 'key': 'w7t', 'chapter': 'Chapter 7', 'title': 'Chapter 7 &middot; Living into God&rsquo;s Future',
+    'page_title': 'Chapter 7 &middot; Living into God&rsquo;s Future',
+    'out': 'decks/chapter7-taught.html', 'source': 'decks/src/week7/slides.py', 'built_by': 'decks/src/week7map/build.py',
+    'side': SIDE, 'sections': SECTIONS, 'docs': docs, 'short': R.SHORT, 'doc_doors': [], 'doc_order': R.doc_order,
+    'drop_side': True, 'omit': ['Next week: the handshake at Lexington.'],
+})
+

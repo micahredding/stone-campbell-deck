@@ -31,6 +31,16 @@ def build(cfg):
         S = S[i0:i1 + 1]
         assert html.count('<section') == len(S)
 
+    if cfg.get('omit'):   # drop single slides by anchor (e.g. a taught deck without its "next week" slide)
+        spans = [m.span() for m in re.finditer(r'<section\b.*?</section>', html, flags=re.S)]
+        assert len(spans) == len(S)
+        gone = [i for i, s in enumerate(S) if any(a in s for a in cfg['omit'])]
+        assert len(gone) == len(cfg['omit']), gone
+        for k in reversed(gone):
+            p, q = spans[k]; html = html[:p] + html[q:]
+        S = [s for i, s in enumerate(S) if i not in gone]
+        assert html.count('<section') == len(S)
+
     def find(anchor, after=-1):
         hits = [i for i, s in enumerate(S) if anchor in s and i > after]
         assert hits, 'anchor not found: %r' % anchor
