@@ -54,7 +54,6 @@ NTW = 'N. T. Wright'
 IDEAS = [   # Micah 2026-11-10 (three) + 2026-11-10 additions; 2026-11-15: first two swapped, "unity founded on Christ alone" dropped
     ('Eschatology<br>' + G('is our tradition.'), 'Not a borrowed idea: the movement named its flagship for the future. Cane Ridge, the <i>Last Will</i>, Brush Run, the <i>Harbinger</i>.'),
     ('We live as a microcosm<br>' + G('of the age to come.'), 'Brush Run&rsquo;s table, &ldquo;an emblem of the millennial state of the Church&rdquo;; Wright&rsquo;s &ldquo;small working model of new creation.&rdquo;'),
-    ('Eschatology drives us in various ways,<br>' + G('which may look very different.'), 'Campbell&rsquo;s colleges and missionary society; Stone&rsquo;s and Lipscomb&rsquo;s withdrawal from government and war. The same hope, different &ldquo;therefores.&rdquo;'),
     ('The church&rsquo;s life now<br>' + G('is a taste of God&rsquo;s future.'), 'The table, the Lord&rsquo;s day that &ldquo;anticipates the morning of the resurrection,&rdquo; every member a king and priest.'),
     ('Our practices are ways<br>' + G('of living that future now.'), 'The pattern as testimony, not legalism: how do we best embody the unity, the priesthood, the future that is coming?'),
 ]
@@ -693,3 +692,13 @@ _rs = _one_ix('Millennial Character of the Harbinger')
 S[_rs + 1:_rs + 1] = _blk
 # Micah, 2026-11-15: a question card before the three marks.
 S.insert(_one_ix('Their eschatology, in three marks'), CARD('What was' + '<br>' + G('distinctive?'), 'Ask it, and let them answer before the three marks appear.'))
+# Micah, 2026-11-15: drop Daniel 7 (D&A); move the Stone 1843 copy and "The future as the test" (with its side path)
+# before "What the church will be, it does now".
+del S[_one_ix('shall be given to the people of the saints')]
+_c = [i for i, x in enumerate(S) if 'data-copy="1"' in x]; assert len(_c) == 1
+_e = _one_ix('Now this congregation was intended to be a model')
+_blk = S[_c[0]:_e + 1]
+assert 'In detecting the false gospels' in _blk[1] and len(_blk) == 5, [len(_blk)]
+del S[_c[0]:_e + 1]
+_w = _one_ix('What the church will be, it does now')
+S[_w:_w] = _blk

@@ -10,9 +10,8 @@
 
 1. Eschatology is our tradition
 2. We live as a microcosm of the age to come
-3. Eschatology drives us in various ways, which may look very different
-4. The church's life now is a taste of God's future
-5. Our practices are ways of living that future now
+3. The church's life now is a taste of God's future
+4. Our practices are ways of living that future now
 
 **Connections:** 
 - Stone saw Cane Ridge as the Spirit moving towards God's future
