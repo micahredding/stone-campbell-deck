@@ -52,7 +52,7 @@ CM = 'Barton W. Stone, <i>Christian Messenger</i>'
 NTW = 'N. T. Wright'
 
 IDEAS = [   # Micah 2026-11-10 (three) + 2026-11-10 additions; 2026-11-15: first two swapped, "unity founded on Christ alone" dropped
-    ('Eschatology<br>' + G('is our tradition.'), 'Not a borrowed idea: the movement named its flagship for the future. Cane Ridge, the <i>Last Will</i>, Brush Run, the <i>Harbinger</i>.'),
+    ('The future<br>' + G('is our tradition.'), 'Not a borrowed idea: the movement named its flagship for the future. Cane Ridge, the <i>Last Will</i>, Brush Run, the <i>Harbinger</i>.'),
     ('We live as a microcosm<br>' + G('of the age to come.'), 'Brush Run&rsquo;s table, &ldquo;an emblem of the millennial state of the Church&rdquo;; Wright&rsquo;s &ldquo;small working model of new creation.&rdquo;'),
     ('The church&rsquo;s life now<br>' + G('is a taste of God&rsquo;s future.'), 'The table, the Lord&rsquo;s day that &ldquo;anticipates the morning of the resurrection,&rdquo; every member a king and priest.'),
     ('Our practices are ways<br>' + G('of living that future now.'), 'The pattern as testimony, not legalism: how do we best embody the unity, the priesthood, the future that is coming?'),
