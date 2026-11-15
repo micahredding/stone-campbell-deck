@@ -167,7 +167,7 @@
   {
    "index": 23,
    "n": 24,
-   "title": "A confession \" Reformation and annihilation are not with me now, as formerly, convertible ",
+   "title": "A confession \" Reformation and annihilation are not with me now... convertible or identica",
    "path": "spine",
    "doc": null
   },
@@ -1359,7 +1359,11 @@
   },
   {
    "slide": 23,
-   "text": "Reformation and annihilation are not with me now, as formerly, convertible or identical terms."
+   "text": "Reformation and annihilation are not with me now"
+  },
+  {
+   "slide": 23,
+   "text": "convertible or identical terms."
   },
   {
    "slide": 23,
