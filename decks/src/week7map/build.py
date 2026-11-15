@@ -11,6 +11,7 @@ SIDE = [
     R.ASSOCIATIONS,   # off the one-slide summary: the whole timeline of the Campbells' associations
     ('The Harbinger\'s aim', 'Side path &middot; the Harbinger&rsquo;s aim', 'subservient to this comprehensive object'),
     ('Other voices on the future', 'Side path &middot; other voices on the future', 'One future.'),
+    ('The table today', 'Side path &middot; the table today', 'We already eat at the eschatological table of the Lord'),
     ('John 17', '<h2>John 17</h2>', 'Some of you say it will be effected'),   # off "What the church will be, it does now"
 ]
 SECTIONS = [

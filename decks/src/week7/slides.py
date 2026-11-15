@@ -644,3 +644,11 @@ del S[_one_ix('small societies, called churches</b>')]
 # Micah, 2026-11-15: hide Thomas Campbell's "present duty" (1839) and Stone's "very order of heaven" (1840), kept in the source.
 for _k in ('our grand concern and present duty', 'Certainly; for this is the very order of heaven'):
     del S[_one_ix(_k)]
+# Micah, 2026-11-15: Hicks's "We already eat at the eschatological table" moves to a side path off Scott's "heaven upon earth".
+_ht = S.pop(_one_ix('We already eat at the eschatological table of the Lord'))
+_sc = _one_ix('we had heaven upon earth</b>')
+S[_sc + 1:_sc + 1] = [
+    '<section class="slide breath"><div class=eyebrow>Side path &middot; the table today</div>'
+    '<h2 style="max-width:none">The table today</h2>'
+    '<aside class=notes>Off Scott&rsquo;s &ldquo;heaven upon earth.&rdquo; John Mark Hicks (2026) restates it for us, drawing on Schmemann and the Wesleys: the Supper is &ldquo;the experience of that future in the present.&rdquo; Next in his essay: &ldquo;the church still generally practices the Supper as if it were still Friday rather than Sunday.&rdquo;</aside></section>',
+    _ht]
