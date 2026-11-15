@@ -102,7 +102,7 @@ A(LIST('Among the Baptists', 'Alexander becomes a Baptist',
 # ---------- 3. BAPTIST COMMUNION ----------
 A(QK('&ldquo;I and the church with which I am connected are in <b>full communion with the Mahoning Baptist Association, and through them with the whole Baptist society</b>.&rdquo;',
      CB + ', 1826, &ldquo;To an Independent Baptist,&rdquo; p. 200', 'Baptist communion', 'cb3',
-     'Campbell quoting his own earlier declaration, which &ldquo;An Independent Baptist&rdquo; had attacked as inconsistent.',
+     'Much early Churches of Christ material comes from this era, written by Campbell as a Baptist, for Baptists: the <i>Christian Baptist</i>, including &ldquo;A Restoration of the Ancient Order of Things.&rdquo; Here: Campbell quoting his own earlier declaration, which &ldquo;An Independent Baptist&rdquo; had attacked as inconsistent.',
      'His defense (pp. 201&ndash;202): the only bond of union the paper ever advocated is the confession &ldquo;that Jesus is the Christ.&rdquo; He would be the inconsistent one, he says, &ldquo;If I had refused communion with the whole Baptist society.&rdquo;'))
 
 # ---------- 4. THE CHRISTIAN BAPTIST: PURPOSE AND AIM ----------
@@ -111,7 +111,7 @@ A(MAST('christian_baptist_masthead_1825.jpg', 'Its masthead', 'The <i>Christian 
   'Matthew 23:8&ndash;10, in Campbell&rsquo;s rendering: &ldquo;Style no man on earth your Father: for he alone is your Father who is in heaven; and all ye are brethren. Assume not the title of Rabbi; for ye have only One Teacher; neither assume the title of Leader; for ye have only One Leader&mdash;the Messiah.&rdquo; ' + 'Also on the title page: &ldquo;Prove all things: hold fast that which is good,&rdquo; and Benson: &ldquo;May all Christians use this liberty of judging for themselves in matters of religion, and allow it to one another.&rdquo; (Read in the 1827 edition, reprinted 1955.)'))
 
 # ---------- 5. BAPTIST EXCOMMUNICATION ----------
-A(LIST('Out of the Baptists', 'Baptist expulsion',
+A(LIST('Out of the Baptists', 'End of Baptist Communion',
   [D('1823', 'Redstone moves to put him out; he leaves first, to a new church at Wellsburg'),
    D('1824', 'Wellsburg is received into the Mahoning Association'),
    D('1824&ndash;26', 'Redstone disfellowships Brush Run and four more churches'),
@@ -128,7 +128,8 @@ A(QK('&ldquo;<b>Who gave to the Beaver Association the right to anathematize the
 
 # ---------- 6. A TANGENT: BACKWARD AND FORWARD ----------
 A(R.ASSOC_SUMMARY.replace('<div class=eyebrow>From the Evangelical Society on</div>', '<div class=eyebrow>A tangent &middot; backward and forward</div>', 1)
-   .replace('<h2 style="max-width:none">Joined, refused, dissolved</h2>', '<h2 style="max-width:none">They kept trying to join</h2>', 1))
+   .replace('<h2 style="max-width:none">Joined, refused, dissolved</h2>', '<h2 style="max-width:none">They kept trying to join</h2>', 1)
+   .replace('<div class="no frag"><b>1811</b> &nbsp;Brush Run: a church of its own</div>', '', 1))
 for _x in R.associations(): A(_x)   # side path: the whole timeline, off the tangent
 # the eternal pattern (Micah, 2026-11-14: right after the tangent's timeline)
 A('<section class="slide breath"><div class=eyebrow>The eternal pattern</div>'
