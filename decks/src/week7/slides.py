@@ -51,12 +51,11 @@ DA = 'Thomas Campbell, <i>Declaration and Address</i> (1809)'
 CM = 'Barton W. Stone, <i>Christian Messenger</i>'
 NTW = 'N. T. Wright'
 
-IDEAS = [   # the three ideas Micah drafted, then the three added 2026-11-10 (all six kept: Micah, "add, don't replace")
-    ('We live as a microcosm<br>' + G('of the age to come.'), 'Brush Run&rsquo;s table, &ldquo;an emblem of the millennial state of the Church&rdquo;; Wright&rsquo;s &ldquo;small working model of new creation.&rdquo;'),
+IDEAS = [   # Micah 2026-11-10 (three) + 2026-11-10 additions; 2026-11-15: first two swapped, "unity founded on Christ alone" dropped
     ('Eschatology<br>' + G('is our tradition.'), 'Not a borrowed idea: the movement named its flagship for the future. Cane Ridge, the <i>Last Will</i>, Brush Run, the <i>Harbinger</i>.'),
+    ('We live as a microcosm<br>' + G('of the age to come.'), 'Brush Run&rsquo;s table, &ldquo;an emblem of the millennial state of the Church&rdquo;; Wright&rsquo;s &ldquo;small working model of new creation.&rdquo;'),
     ('Eschatology drives us in various ways,<br>' + G('which may look very different.'), 'Campbell&rsquo;s colleges and missionary society; Stone&rsquo;s and Lipscomb&rsquo;s withdrawal from government and war. The same hope, different &ldquo;therefores.&rdquo;'),
     ('The church&rsquo;s life now<br>' + G('is a taste of God&rsquo;s future.'), 'The table, the Lord&rsquo;s day that &ldquo;anticipates the morning of the resurrection,&rdquo; every member a king and priest.'),
-    ('Its unity is founded on Christ alone,<br>' + G('so it needs freedom of conscience.'), 'Unity on anything else (creed, party, sword, state) is not the real unity. &ldquo;We do not ask them to give up their opinions&mdash;We ask them only not to impose them upon others.&rdquo; (1830)'),
     ('Our practices are ways<br>' + G('of living that future now.'), 'The pattern as testimony, not legalism: how do we best embody the unity, the priesthood, the future that is coming?'),
 ]
 def IDEA(k):
@@ -376,7 +375,7 @@ A(CARD('Two centuries apart:<br>' + G('the same impulse.'),
 DISCUSS = re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>Backup prompts (off the slide): Where do you glimpse God&rsquo;s future in this church? What would change if we believed our unity was the world&rsquo;s best evidence? Which of our practices are ways of living the future now?</aside>',
                  w3b.pick('&#9670; for discussion', 0), flags=re.S).replace('&#9670; for discussion', '&#9670; for discussion &middot; Chapter 7', 1)
 for _k in range(1, len(IDEAS) + 1): A(IDEA(_k))
-A(IDEASUM('All six at once, before the discussion: Micah&rsquo;s three and the three added on 2026-11-10.'))
+A(IDEASUM('All five at once, before the discussion.'))
 A(DISCUSS)
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. Today&rsquo;s sources: the <i>Millennial Harbinger</i>, the <i>Christian Baptist</i>, <i>The Christian System</i>, Stone&rsquo;s <i>Christian Messenger</i>.</aside>',
           w3b.pick('stone-campbell.micahredding.com'), flags=re.S).replace('<h2 class=url>stone-campbell.micahredding.com</h2>',
@@ -674,3 +673,6 @@ S[_op + 1:_op + 1] = ([_hdr('no titles', 'No titles', 'Off &ldquo;one platform.&
                       + [_hdr('freedom', 'Freedom', 'Off &ldquo;one platform.&rdquo; Faith binds; opinions do not: the <i>Declaration and Address</i> (1809) and the <i>Harbinger</i> (1830).')] + _fr)
 _ft = _one_ix('In detecting the false gospels')
 S[_ft + 1:_ft + 1] = [_hdr('restoration as recovery', 'Restoration as recovery', 'Off &ldquo;the future as the test.&rdquo; No new gospel, the same one recovered (1830); the Jerusalem church as a model for the ends of the earth (1825; the whole essay behind Z).')] + _rc
+# Micah, 2026-11-15: a copy of Stone 1843 ("peaceful, holy lives") on the spine after "one platform";
+# eschatology and government, and N. T. Wright, become side paths (built in decks/src/week7map/build.py).
+S.insert(_one_ix('We do not ask them to give up their opinions&mdash;<b>') + 1, S[_one_ix('Let Christians shew by their peaceful, holy lives')].replace('<section ', '<section data-copy="1" ', 1))

@@ -16,7 +16,9 @@ SIDE = [
     ('Kings and priests, 1830', 'Side path &middot; kings and priests, 1830', 'without the intervention of a mediator'),
     ('No titles', 'Side path &middot; no titles', 'cancel all orders of nobility'),
     ('Freedom', 'Side path &middot; freedom', 'We do not ask them to give up their opinions&mdash;<b>'),
-    ('Restoration as recovery', 'Side path &middot; restoration as recovery', 'Now this congregation was intended to be a model'),   # off "What the church will be, it does now"
+    ('Restoration as recovery', 'Side path &middot; restoration as recovery', 'Now this congregation was intended to be a model'),
+    ('Eschatology and government', '<h2>Eschatology and government:<br>two paths</h2>', 'Same hope.<br>'),
+    ('N. T. Wright', '<h2>N. T. Wright</h2>', 'Two centuries apart'),
 ]
 SECTIONS = [
     ('Opening', 'Our Wild Democracy &middot; Chapter 7'),
@@ -33,8 +35,6 @@ SECTIONS = [
     ('The church as a microcosm', '<h2>The church as a microcosm</h2>'),
     ('Practicing the future today', '<h2>Practicing the future today</h2>'),
     ('Restoration, reframed', 'In detecting the false gospels'),
-    ('Eschatology and government', 'Eschatology and government:<br>two paths'),
-    ('N. T. Wright', '<h2>N. T. Wright</h2>'),
     ('Close', 'for discussion &middot; Chapter 7'),
 ]
 def docs(between, clean): return R.docs(between, clean, ['dna', 'rich', 'cb25', 'mh40', 'mh53'])

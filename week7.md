@@ -8,12 +8,11 @@
 
 **The Idea**: Our movement's animating impulse was eschatology. Not looking backwards, but looking forwards to embody the age to come. Not just for the church, but for the world. We continue the same impulse today—NT Wright, Josh Graves telling us to live as a microcosm of the future. That's not a new discovery, it's one of our deepest impulses.
 
-1. We live as a microcosm of the age to come
-2. Eschatology is our tradition
+1. Eschatology is our tradition
+2. We live as a microcosm of the age to come
 3. Eschatology drives us in various ways, which may look very different
 4. The church's life now is a taste of God's future
-5. Its unity is founded on Christ alone, so it needs freedom of conscience
-6. Our practices are ways of living that future now
+5. Our practices are ways of living that future now
 
 **Connections:** 
 - Stone saw Cane Ridge as the Spirit moving towards God's future
