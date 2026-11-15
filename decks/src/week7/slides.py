@@ -637,3 +637,5 @@ _blk = [S[_one_ix(k)] for k in ('is lived as if the future is already present', 
 for x in _blk: S.remove(x)
 _pf = _one_ix('<h2>Practicing the future today</h2>')
 S[_pf + 1:_pf + 1] = _blk
+# Micah, 2026-11-15: hide "Jesus reigns on earth" (kept in the source).
+del S[_one_ix('without a tear or a sigh, when Jesus reigns on earth')]
