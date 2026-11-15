@@ -31,7 +31,7 @@ SECTIONS = [
     ('N. T. Wright', '<h2>N. T. Wright</h2>'),
     ('Close', 'for discussion &middot; Chapter 7'),
 ]
-def docs(between, clean): return R.docs(between, clean, ['dna', 'rich', 'cb25'])
+def docs(between, clean): return R.docs(between, clean, ['dna', 'rich', 'cb25', 'mh40'])
 
 mapdeck.build({
     'part': '7', 'key': 'w7', 'chapter': 'Chapter 7', 'title': 'Chapter 7 &middot; Living into God&rsquo;s Future',

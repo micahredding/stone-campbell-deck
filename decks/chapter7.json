@@ -680,7 +680,7 @@
    "n": 97,
    "title": "Restoration served the future \"...all the Millennium we could scripturally expect was not ",
    "path": "spine",
-   "doc": null
+   "doc": "mh40"
   },
   {
    "index": 97,
@@ -1130,6 +1130,12 @@
    "key": "cb25",
    "title": "Alexander Campbell, The Christian Baptist, September 5, 1825",
    "short": "The <i>Christian Baptist</i>, 1825"
+  },
+  {
+   "index": 3,
+   "key": "mh40",
+   "title": "Alexander Campbell, The Millennial Harbinger, December 1840",
+   "short": "The <i>Harbinger</i>, 1840"
   }
  ],
  "doc_doors": [],
@@ -1188,6 +1194,11 @@
    "slide": 89,
    "doc": "rich",
    "text": "in assembling there on that occasion, they furnished an emblem of the millennial state of the Church, nay, an emblem of the heavenly state, when men of different nations, and known by different names, should sit down together in the kingdom of God."
+  },
+  {
+   "slide": 96,
+   "doc": "mh40",
+   "text": "all the Millennium we could scripturally expect was not merely the restoration of the Jerusalem church in all its moral and religious characters, but the extension of it through all nations and languages for one thousand years."
   },
   {
    "slide": 98,
@@ -1575,14 +1586,6 @@
   {
    "slide": 95,
    "text": "The Lord’s day not only commemorates the resurrection of Jesus, but anticipates the morning of the resurrection in which we shall enter into the rest which remains for the people of God."
-  },
-  {
-   "slide": 96,
-   "text": "all the Millennium we could scripturally expect was not merely the restoration of the Jerusalem church in all its moral and religious characters, but the extension of it through all nations and languages for one thousand years."
-  },
-  {
-   "slide": 96,
-   "text": "Millennial Character of the Harbinger,"
   },
   {
    "slide": 97,

@@ -350,8 +350,8 @@ A(LIST('Where they differed', 'Two questions',
        'Campbell (and Scott after 1844): the first answer to both. Stone, Scott in the 1830s, Lipscomb: the second.'))
 A(CARD('Different views of the end.<br>' + G('One future.'), 'Neither question touched the shared claim: the church should already look like what is coming. &rarr; Back to the spine.'))
 A(QK('&ldquo;&hellip;all the Millennium we could scripturally expect was not merely the restoration of the Jerusalem church in all its moral and religious characters, but <b>the extension of it through all nations and languages for one thousand years</b>.&rdquo;',
-     AC + ', &ldquo;Millennial Character of the Harbinger,&rdquo; ' + MH + ', December 1840, p. 561', 'Restoration served the future', 'mh1840',
-     'Before it: &ldquo;When we put to sea under this banner we had the port of Primitive Christianity&hellip; in our eye.&rdquo; And 1825: &ldquo;Just in so far as the ancient order of things&hellip; is restored, just so far has the Millennium commenced&rdquo; (<i>CB</i> 2, p. 136).'))
+     AC + ', Millennial Character of the Harbinger, ' + MH + ', December 1840, p. 561', 'Restoration served the future', 'mh1840',
+     'Before it: &ldquo;When we put to sea under this banner we had the port of Primitive Christianity&hellip; in our eye.&rdquo; And 1825: &ldquo;Just in so far as the ancient order of things&hellip; is restored, just so far has the Millennium commenced&rdquo; (<i>CB</i> 2, p. 136).').replace('<section ', '<section data-src="mh40" ', 1))
 
 # ---------- 9. N. T. WRIGHT ----------
 A(C('N. T. Wright', 'Bishop of Durham (2003&ndash;2010); New Testament scholar at St Andrews and Oxford. Read across the Churches of Christ, and here at Otter Creek.', 'Two centuries later'))
