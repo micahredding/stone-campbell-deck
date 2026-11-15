@@ -416,7 +416,8 @@ A(LIST('The future, practiced now', 'What the church will be, it does now',
   ['<b>Unity:</b> one body, gathered around Christ alone.',
    '<b>Priesthood:</b> no titled class between God and his people.',
    '<b>Freedom:</b> subject only to Christ.'],
-  'Three marks, one per click. Each was the nature of the coming church, so each was the church&rsquo;s work now. Their words follow for priesthood and freedom; unity&rsquo;s came just before. John 17 (unity so that the world may believe) is a side path off this slide.'))
+  'Three marks, one per click. Each was the nature of the coming church, so each was the church&rsquo;s work now. Their words follow for priesthood and freedom; unity&rsquo;s came just before. John 17 (unity so that the world may believe) is a side path off this slide.',
+  size='clamp(36px,7.4vmin,92px)', gap='3vmin'))
 A(C('Eschatology and government:<br>two paths', 'The same hope pointed two ways in public life: a strong separation of church and state, or an institutional social agenda.'))
 A(QK('&ldquo;It took but little thought to see that Christians cannot fight&hellip; <b>But if he cannot fight himself, can he vote to make another fight?</b>&rdquo;',
      'David Lipscomb, <i>Civil Government</i> (1889), preface, p. 4', 'Separation', 'lipcg',
@@ -718,3 +719,7 @@ S.insert(_one_ix('these all agreed that the most important aspect'), S[_h1].repl
 _ea = _one_ix('not only commemorates the resurrection of Jesus'); _rs = _one_ix('Millennial Character of the Harbinger')
 assert _rs == _ea + 1
 S[_ea], S[_rs] = S[_rs], S[_ea]
+# Micah, 2026-11-15: number the three section cards to match "What was distinctive".
+for _n, _t in ((1, 'A new creation'), (2, 'The church as a microcosm'), (3, 'Practicing the future today')):
+    _i = _one_ix('<h2>%s</h2>' % _t)
+    S[_i] = S[_i].replace('<h2>%s</h2>' % _t, '<h2><span style="color:var(--bone-dim)">%d.</span> %s</h2>' % (_n, _t), 1)

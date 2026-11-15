@@ -31,9 +31,9 @@ SECTIONS = [
     ('The future, not a timeline', 'In his own paper, he went back and forth'),
     ('About eschatology', 'Chapters 1&ndash;6, read forward'),
     ('What was distinctive', 'Their eschatology, in three marks'),
-    ('A new creation', '<h2>A new creation</h2>'),
-    ('The church as a microcosm', '<h2>The church as a microcosm</h2>'),
-    ('Practicing the future today', '<h2>Practicing the future today</h2>'),
+    ('A new creation', 'A new creation</h2>'),
+    ('The church as a microcosm', 'The church as a microcosm</h2>'),
+    ('Practicing the future today', 'Practicing the future today</h2>'),
     ('Restoration, reframed', 'In detecting the false gospels'),
     ('Close', 'for discussion &middot; Chapter 7'),
 ]
