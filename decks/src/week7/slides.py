@@ -319,7 +319,7 @@ A(QK('&ldquo;&hellip;it was <b>the dominant perspective among churches of Christ
 A(QK('&ldquo;Biblical faith, according to Lipscomb and Harding, <b>is lived as if the future is already present</b>, as if the heavenly city has already been planted on the earth.&rdquo;',
      'John Mark Hicks, &ldquo;Extending the Kingdom Theology of Lipscomb and Harding&rdquo; (2019)', 'Living the future now', 'hicks',
      'Just before: &ldquo;This apocalyptic vision is a form of inaugurated eschatology, which calls us to live in the present as if the kingdom of God has fully arrived in anticipation of that fullness.&rdquo; Next: &ldquo;And the present church on the earth is that heavenly city.&rdquo; The Wright link, in our own tradition&rsquo;s terms.', size='clamp(36px,7.6vmin,96px)'))
-A(CARD('Not any particular eschatology.<br>' + G('The future itself.'),
+A(CARD('Not a particular timeline.<br>' + G('The future itself.'),
   'Pre-, post- or a-millennial, God&rsquo;s future had deep meaning. The commitment to God&rsquo;s future is the leading emphasis, the motivating impulse, at a deeper layer than any restorationist impulse.'))
 # ---- side path: other voices on the future (off "Not any particular eschatology") ----
 A('<section class="slide breath"><div class=eyebrow>Side path &middot; other voices on the future</div><h2 style="max-width:none">Other voices on the future</h2><aside class=notes>Off &ldquo;Not any particular eschatology.&rdquo; Different views of the end, one future.</aside></section>')
