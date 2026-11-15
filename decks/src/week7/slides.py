@@ -609,7 +609,7 @@ _pa_before = [
      'The church now as training for what is coming: the microcosm in Campbell&rsquo;s idiom.'),
   _P('&ldquo;In it the ruined and undone wretch is taken from the mire of his own pollutions, renovated and sanctified, <b>adopted and enrolled amongst princes&mdash;peers of the celestial realm</b>&hellip;&rdquo;', '174', 'Paisley, 1853 &middot; princes',
      'It ends: &ldquo;over which Jehovah reigns the supreme and eternal Autocrat. This is his school, and the Bible is his text-book, from its Alpha to its Omega.&rdquo; Kings and priests to God, in the language of royalty.'),
-  _P('&ldquo;Located here, we see all things right, and in their true colors and proportions, and no where else. Hence in the church there is neither Jew nor Greek, there is neither bond nor free, <b>there is neither male nor female</b>. We are all one&mdash;in one Lord, one faith, one baptism, and in one hope of one and the same inheritance.&rdquo;', '174', 'Paisley, 1853 &middot; all one',
+  _P('&ldquo;<b>Located here, we see all things right, and in their true colors and proportions, and no where else.</b> Hence in the church there is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female. We are all one&mdash;in one Lord, one faith, one baptism, and in one hope of one and the same inheritance.&rdquo;', '174', 'Paisley, 1853 &middot; all one',
      '&ldquo;Located here&rdquo;: in the church, God&rsquo;s school. Galatians 3:28 and Ephesians 4: the ideal voiced, including women; not yet extended to them in practice.'),
 ]
 _pa_after = [
