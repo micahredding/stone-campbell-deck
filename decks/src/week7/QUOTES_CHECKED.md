@@ -63,4 +63,6 @@ Added 2026-11-14: "Reformation and annihilation are not with me now, as formerly
 
 Added 2026-11-14: the *Harbinger* Prospectus subjects 1–9 (vol. 1, no. 1, p. 1): read in the page scan; items 2, 3, 6, 7 trimmed with ellipses. Checked.
 
+Added 2026-11-15: CB 3 (Sept. 1825), p. 30, "Now this congregation was intended to be a model…": EXACT. "Order of Worship," MH 1838, pp. 247–248: OCR only ("arrange ment"); unsigned, in the editor's voice: attribution to Campbell presumed, not confirmed.
+
 Two quotations to check against page scans before class: slide 62 (Stone's spelling of "Messiah"), and the Wright ebook and TIME lines (72, 74–76).

@@ -513,6 +513,13 @@ S.insert(_pro[0] + 1, LIST('The Prospectus, 1829', 'Subjects &ldquo;subservient 
    '5. &ldquo;Disquisitions upon the treatment of African slaves, as preparatory to their emancipation, and exaltation from their present degraded condition.&rdquo;'],
   'Four clicks: subjects 1, 2, 4 and 5 of nine; read in the page scan (vol. 1, no. 1, p. 1). The others: freeing the Scriptures from the commentators; religious news; reviews; queries, including &ldquo;a restoration of the <i>Ancient Order of Things</i>&rdquo;; miscellanea. The program of the millennial order: against sects, for education, the Scriptures freed, political injustice measured by the millennium, and (5) slavery, toward &ldquo;their emancipation, and exaltation.&rdquo; Shadow: Campbell inherited enslaved people, freed them, and advocated gradual emancipation, while trying to hold the brotherhood together across the question.',
   size='clamp(22px,3.8vmin,46px)', gap='1.6vmin'))
+# Acts 2 (Micah, 2026-11-15): the Jerusalem church as model, and Campbell against a liturgy drawn from Acts 2:42.
+A(QK('&ldquo;Now this congregation was intended to be a model, and <b>did actually become such to Judea, Samaria, and to the uttermost parts of the earth</b>.&rdquo;',
+     AC + ', &ldquo;A Restoration of the Ancient Order of Things. No. VII,&rdquo; ' + CB + ' 3, September 1825, p. 30', 'Acts 2: a model for the world', 'cb3',
+     'Of the Jerusalem church after Pentecost: the apostles &ldquo;proceeded to organize a congregation of disciples, and to set them in the order which the Lord had commanded.&rdquo; Then he quotes Acts 2:41&ndash;42: &ldquo;they continued stedfastly in the apostles&rsquo; doctrine, and in the fellowship, and in breaking of bread, and in prayers.&rdquo; The first church as a model sent outward, to the ends of the earth (Acts 1:8): the pattern as mission, not museum.'))
+A(QK('&ldquo;<b>To ascribe to any arrangement of items a divine appointment, is to make every departure from it positively sinful</b> and inacceptable to God.&rdquo;',
+     '&ldquo;Order of Worship,&rdquo; ' + MH + ', 1838, pp. 247&ndash;248 (unsigned, in the editor&rsquo;s voice)', 'Acts 2:42 is not a liturgy', 'mh1838',
+     'Against a brother (Emmons) who drew a fixed order of Sunday worship from the order of the words in Acts 2:42. The editor &ldquo;must dissent&rdquo;: it &ldquo;would give to the Christian worship a liturgy, a ritual form like the Jewish, wholly incompatible with the genius of Christ&rsquo;s religion&hellip; This, to my mind, would be an intolerable idea, and hostile to the spirit and scope of the evangelical economy.&rdquo; Unsigned; the first person is the editor&rsquo;s, so presumably Campbell; check before calling it his.'))
 # ---------- Micah's structure from "It's about the future" (2026-11-14) ----------
 # not a timeline, the future in general; the whole movement is about eschatology; a new earth; the church as
 # microcosm; unity, priesthood, freedom; practices; restoration reframed, not legalism. Then two ways, Wright, close.
@@ -533,7 +540,7 @@ _seq = (
     # 3. a new earth
     + [_f('How they spoke<br>about the future'), _f('Campbell&rsquo;s eschatology</h2>'),
        _f('these all agreed that the most important aspect'), _f('the dominant perspective among churches of Christ')]
-    + _r('<div class=eyebrow>A new creation</div>', '<div class=eyebrow>Peace</div>')
+    + [i for i in _r('<div class=eyebrow>A new creation</div>', '<div class=eyebrow>Peace</div>') if i != _f('We expect <b>no new Sun</b>')]
     # 4. the church as microcosm of the future
     + _r('is lived as if the future is already present', 'Certainly; for this is the very order of heaven')
     # 5. unity, priesthood, freedom
@@ -545,7 +552,8 @@ _seq = (
     # 6. practices
     + _r('The other<br>millennial harbinger', 'not only commemorates the resurrection of Jesus')
     # 7. restoration reframed, not legalism
-    + [_f('Millennial Character of the Harbinger'), _f('In detecting the false gospels'), _f('Not legalism.')]
+    + [_f('Millennial Character of the Harbinger'), _f('We expect <b>no new Sun</b>'), _f('Now this congregation was intended to be a model'),
+       _f('To ascribe to any arrangement of items a divine appointment'), _f('In detecting the false gospels'), _f('Not legalism.')]
     # two ways into the world (Stone's eschatology opens it), Wright, close
     + [_f('Eschatology and government:<br>two paths'), _f('Barton Stone&rsquo;s eschatology</h2>')]
     + list(range(_f('Eschatology and government:<br>two paths') + 1, len(S)))

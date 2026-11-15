@@ -27,7 +27,7 @@ SRC = {
     'hicks': os.path.join(X, 'Hicks - New Creation essays (johnmarkhicks.com).md'),
     'way5': os.path.join(ES, 'the-way-v5-1903.md'),
     'baxter': os.path.join(ES, 'baxter-life-of-walter-scott-1874.md'),
-    'mh1839': MHF(1839), 'mh1849': MHF(1849),
+    'mh1838': MHF(1838), 'mh1839': MHF(1839), 'mh1849': MHF(1849),
     'cb7': os.path.join(P, 'Christian Baptist', 'Christian Baptist Volume 7.md'), 'mh1853': MHF(1853),
     'cm11': os.path.join(P, 'Christian Messenger', 'Christian Messenger Volume 11 (1840).md'),
     'scott59': os.path.join(X, 'The Messiahship (Walter Scott 1859).md'),
