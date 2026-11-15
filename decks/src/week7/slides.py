@@ -723,3 +723,11 @@ S[_ea], S[_rs] = S[_rs], S[_ea]
 for _n, _t in ((1, 'A new creation'), (2, 'The church as a microcosm'), (3, 'Practicing the future today')):
     _i = _one_ix('<h2>%s</h2>' % _t)
     S[_i] = S[_i].replace('<h2>%s</h2>' % _t, '<h2><span style="color:var(--bone-dim)">%d.</span> %s</h2>' % (_n, _t), 1)
+# Micah, 2026-11-15: split the Paisley "all one" slide; "Located here…" on its own.
+_al = _one_ix('<b>Located here, we see all things right')
+S[_al:_al + 1] = [
+  _P('&ldquo;<b>Located here, we see all things right, and in their true colors and proportions, and no where else.</b>&rdquo;', '174', 'Paisley, 1853 &middot; located here',
+     '&ldquo;Here&rdquo;: in the church, God&rsquo;s school for the celestial university. The church as the place where the coming order is already visible.', size='clamp(40px,8.4vmin,108px)'),
+  _P('&ldquo;Hence in the church there is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female. We are all one&mdash;in one Lord, one faith, one baptism, and in one hope of one and the same inheritance.&rdquo;', '174', 'Paisley, 1853 &middot; all one',
+     'Galatians 3:28 and Ephesians 4: the ideal voiced, including women; not yet extended to them in practice.'),
+]
