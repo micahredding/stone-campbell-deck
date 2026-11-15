@@ -560,49 +560,49 @@
    "index": 79,
    "n": 80,
    "title": "The prayer they lived by John 17",
-   "path": "spine",
+   "path": "John 17",
    "doc": null
   },
   {
    "index": 80,
    "n": 81,
    "title": "Thomas Campbell, 1809 \"...that they all may be one; as thou, Father, art in me and I in th",
-   "path": "spine",
+   "path": "John 17",
    "doc": "dna"
   },
   {
    "index": 81,
    "n": 82,
    "title": "Alexander's motto \"I pray-for those who shall believe on me through their teaching, that a",
-   "path": "spine",
+   "path": "John 17",
    "doc": null
   },
   {
    "index": 82,
    "n": 83,
    "title": "The two propositions \"1st. Nothing is essential to the conversion of the world but the uni",
-   "path": "spine",
+   "path": "John 17",
    "doc": null
   },
   {
    "index": 83,
    "n": 84,
    "title": "Unity first \"...the union of christians, and the destruction of sects, are indispensable p",
-   "path": "spine",
+   "path": "John 17",
    "doc": null
   },
   {
    "index": 84,
    "n": 85,
    "title": "Stone, 1832 \"Let the unity of Christians be our polar star ... that the world may believe,",
-   "path": "spine",
+   "path": "John 17",
    "doc": null
   },
   {
    "index": 85,
    "n": 86,
    "title": "Stone, 1843 \"Some of you say it will be effected in the millenium. No, it must be effected",
-   "path": "spine",
+   "path": "John 17",
    "doc": null
   },
   {
@@ -970,13 +970,6 @@
   76,
   77,
   78,
-  79,
-  80,
-  81,
-  82,
-  83,
-  84,
-  85,
   86,
   87,
   88,
@@ -1064,6 +1057,19 @@
     46,
     47
    ]
+  },
+  {
+   "label": "John 17",
+   "fork": 78,
+   "slides": [
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+   ]
   }
  ],
  "sections": [
@@ -1121,19 +1127,19 @@
   },
   {
    "label": "Restoration, reframed",
-   "at": 75
+   "at": 68
   },
   {
    "label": "Eschatology and government",
-   "at": 79
+   "at": 72
   },
   {
    "label": "N. T. Wright",
-   "at": 90
+   "at": 83
   },
   {
    "label": "Close",
-   "at": 102
+   "at": 95
   }
  ],
  "docs": [
