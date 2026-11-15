@@ -631,3 +631,9 @@ S.insert(_one_ix('Who that thinks of heaven') + 1, _x)
 _d7 = _one_ix('shall be given to the people of the saints'); _pr = _one_ix('pray for a thing, and not strive')
 assert _pr == _d7 + 1
 S[_d7], S[_pr] = S[_pr], S[_d7]
+# Micah, 2026-11-15: Hicks's "lived as if the future is already present", Thomas Campbell's "present duty" and
+# Stone's "very order of heaven" open "Practicing the future today".
+_blk = [S[_one_ix(k)] for k in ('is lived as if the future is already present', 'our grand concern and present duty', 'Certainly; for this is the very order of heaven')]
+for x in _blk: S.remove(x)
+_pf = _one_ix('<h2>Practicing the future today</h2>')
+S[_pf + 1:_pf + 1] = _blk
