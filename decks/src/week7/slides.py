@@ -113,7 +113,7 @@ A(MAST('christian_baptist_masthead_1825.jpg', 'Its masthead', 'The <i>Christian 
   'Matthew 23:8&ndash;10, in Campbell&rsquo;s rendering: &ldquo;Style no man on earth your Father: for he alone is your Father who is in heaven; and all ye are brethren. Assume not the title of Rabbi; for ye have only One Teacher; neither assume the title of Leader; for ye have only One Leader&mdash;the Messiah.&rdquo; ' + 'Also on the title page: &ldquo;Prove all things: hold fast that which is good,&rdquo; and Benson: &ldquo;May all Christians use this liberty of judging for themselves in matters of religion, and allow it to one another.&rdquo; (Read in the 1827 edition, reprinted 1955.)'))
 
 # ---------- 5. BAPTIST EXCOMMUNICATION ----------
-A(LIST('Out of the Baptists', 'Baptist excommunication',
+A(LIST('Out of the Baptists', 'Baptist expulsion',
   [D('1823', 'Redstone moves to put him out; he leaves first, to a new church at Wellsburg'),
    D('1824', 'Wellsburg is received into the Mahoning Association'),
    D('1824&ndash;26', 'Redstone disfellowships Brush Run and four more churches'),

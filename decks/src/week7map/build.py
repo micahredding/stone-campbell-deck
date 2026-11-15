@@ -25,7 +25,7 @@ SECTIONS = [
     ('Recap', 'From Ireland to Brush Run'),
     ('The Baptists', 'Alexander becomes a Baptist'),
     ('The Christian Baptist', 'Its masthead'),
-    ('Excommunication', 'Baptist excommunication'),
+    ('Expulsion', 'Baptist expulsion'),
     ('A tangent', 'They kept trying to join'),
     ('The Harbinger', '<h2>The pivot</h2>'),
     ('The future, not a timeline', 'In his own paper, he went back and forth'),
