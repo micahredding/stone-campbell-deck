@@ -68,3 +68,15 @@ Added 2026-11-15: CB 3 (Sept. 1825), p. 30, "Now this congregation was intended 
 Added 2026-11-15: Campbell, letter to the church in Paisley (MH 1853, pp. 173–175), six slides: transcribed from the page scans (leaves 179–181) and checked by eye; the OCR text differs only by scan errors. "Millennial Character of the Harbinger" (MH Dec. 1840, pp. 561–562): transcribed from the page scans. Checked.
 
 Two quotations to check against page scans before class: slide 62 (Stone's spelling of "Messiah"), and the Wright ebook and TIME lines (72, 74–76).
+
+## Full re-check (2026-11-15, after the class)
+
+Every quotation slide in `decks/src/week7/slides.py` (main line and side paths) re-run through `check_quotes.py`: 31 EXACT, 8 ELLIPSIS, 26 ALTERED, 1 NOT FOUND, 3 skipped. Every ALTERED and NOT FOUND was read against the source:
+
+- Scan errors only (the wording on screen is right): the *Harbinger* Prospectus (1829/30); Scott 1834 and 1842; the Cane Ridge eyewitness (Purviance 1848); Richardson's Brush Run emblem; *Christian System* p. 257; *Harbinger* 1830 (one Lord's table; "royal priesthood"; "citizen kings and priests"; the false gospels; union and the destruction of sects), 1840 (port; "Who that thinks of heaven"), 1841, 1855; Baxter (Scott's diary); Stone 1832 ("polar star", text confirmed) and 1843; the Paisley letter (1853, also read in the page scans); Scott 1859.
+- Read in the page scan: Campbell, *Harbinger* May 1849, p. 272 ("moral apoplexy"; "Reformation and annihilation… as formerly"); Marshall and Thompson 1811 (Purviance 1940, p. 255; OCR "\'c" for "We").
+- **Corrected:** Stone, *Christian Messenger* 8 (1834), p. 148: the page prints "**Mesiah's**", not "Messiah's" (scan, PDF p. 152). The slide now matches the page.
+- Splice to note: Scott 1859 ("our religion was destined… to cancel all orders of nobility"): "destined" governs his first sentence ("to put down all other religions, and also to revolutionize the nations politically"); "to cancel" is from the next ("It was to: put down princes… cancel all orders of nobility…"). The meaning holds; the ellipsis marks the join.
+- Wright: *TIME* interview (Feb. 7, 2008) checked exact against time.com's archive. *Simply Christian*, *The Vision of Ephesians* and *God's Homecoming* (ebooks) could not be opened here: still to check in Micah's copies. All four are in the N. T. Wright side path, not in the deck as taught.
+- *Declaration and Address* slides: checked by the map build against the class site's full text; nothing flagged.
+
