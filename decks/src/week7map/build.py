@@ -13,7 +13,10 @@ SIDE = [
     ('Other voices on the future', 'Side path &middot; other voices on the future', 'One future.'),
     ('The table today', 'Side path &middot; the table today', 'We already eat at the eschatological table of the Lord'),
     ('John 17', '<h2>John 17</h2>', 'Some of you say it will be effected'),
-    ('Kings and priests, 1830', 'Side path &middot; kings and priests, 1830', 'without the intervention of a mediator'),   # off "What the church will be, it does now"
+    ('Kings and priests, 1830', 'Side path &middot; kings and priests, 1830', 'without the intervention of a mediator'),
+    ('No titles', 'Side path &middot; no titles', 'cancel all orders of nobility'),
+    ('Freedom', 'Side path &middot; freedom', 'We do not ask them to give up their opinions&mdash;<b>'),
+    ('Restoration as recovery', 'Side path &middot; restoration as recovery', 'Now this congregation was intended to be a model'),   # off "What the church will be, it does now"
 ]
 SECTIONS = [
     ('Opening', 'Our Wild Democracy &middot; Chapter 7'),
@@ -29,7 +32,7 @@ SECTIONS = [
     ('A new creation', '<h2>A new creation</h2>'),
     ('The church as a microcosm', '<h2>The church as a microcosm</h2>'),
     ('Practicing the future today', '<h2>Practicing the future today</h2>'),
-    ('Restoration, reframed', 'We expect <b>no new Sun</b>'),
+    ('Restoration, reframed', 'In detecting the false gospels'),
     ('Eschatology and government', 'Eschatology and government:<br>two paths'),
     ('N. T. Wright', '<h2>N. T. Wright</h2>'),
     ('Close', 'for discussion &middot; Chapter 7'),

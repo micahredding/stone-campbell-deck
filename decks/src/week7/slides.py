@@ -660,3 +660,17 @@ S[_pr + 1:_pr + 1] = [
     '<section class="slide breath"><div class=eyebrow>Side path &middot; kings and priests, 1830</div>'
     '<h2 style="max-width:none">Kings and priests, 1830</h2>'
     '<aside class=notes>Off &ldquo;enrolled amongst princes.&rdquo; Twenty-three years earlier, the same royal language for every believer: the Fourth of July oration and the August 1830 essay on the table.</aside></section>'] + _kp
+# Micah, 2026-11-15: 56-63 into side paths. Off "one platform": "No titles" (no chairs; the coming judgment; Scott 1859)
+# and "Freedom" (the D&A twice; 1830). Off "The future as the test": "Restoration as recovery" (no new Sun; Acts 2).
+def _hdr(label, title, note):
+    return ('<section class="slide breath"><div class=eyebrow>Side path &middot; %s</div><h2 style="max-width:none">%s</h2>'
+            '<aside class=notes>%s</aside></section>' % (label, title, note))
+_nt = [S[_one_ix(k)] for k in ('have <b>no moral chairs', 'titled and enthroned as they may be', 'cancel all orders of nobility')]
+_fr = [S[_one_ix(k)] for k in ('the things in which the kingdom of God does not consist', 'Resume that precious', 'We do not ask them to give up their opinions&mdash;<b>')]
+_rc = [S[_one_ix(k)] for k in ('We expect <b>no new Sun</b>', 'Now this congregation was intended to be a model')]
+for x in _nt + _fr + _rc: S.remove(x)
+_op = _one_ix('the king and the beggar meet on one platform')
+S[_op + 1:_op + 1] = ([_hdr('no titles', 'No titles', 'Off &ldquo;one platform.&rdquo; No chairs, no titles, no orders of nobility: Paisley (1853), the coming judgment (1833), Scott (1859).')] + _nt
+                      + [_hdr('freedom', 'Freedom', 'Off &ldquo;one platform.&rdquo; Faith binds; opinions do not: the <i>Declaration and Address</i> (1809) and the <i>Harbinger</i> (1830).')] + _fr)
+_ft = _one_ix('In detecting the false gospels')
+S[_ft + 1:_ft + 1] = [_hdr('restoration as recovery', 'Restoration as recovery', 'Off &ldquo;the future as the test.&rdquo; No new gospel, the same one recovered (1830); the Jerusalem church as a model for the ends of the earth (1825; the whole essay behind Z).')] + _rc
