@@ -416,7 +416,7 @@ A(QK('&ldquo;We have decided, therefore,&hellip; <b>to open the gates of admissi
 A(LIST('The future, practiced now', 'What the church will be, it does now',
   ['<b>Unity:</b> one body, gathered around Christ alone.',
    '<b>Priesthood:</b> no titled class between God and his people.',
-   '<b>Freedom:</b> faith binds; opinions do not.'],
+   '<b>Freedom:</b> subject only to Christ.'],
   'Three marks, one per click. Each was the nature of the coming church, so each was the church&rsquo;s work now. Their words follow for priesthood and freedom; unity&rsquo;s came just before. John 17 (unity so that the world may believe) is a side path off this slide.'))
 A(C('Eschatology and government:<br>two paths', 'The same hope pointed two ways in public life: a strong separation of church and state, or an institutional social agenda.'))
 A(QK('&ldquo;It took but little thought to see that Christians cannot fight&hellip; <b>But if he cannot fight himself, can he vote to make another fight?</b>&rdquo;',
