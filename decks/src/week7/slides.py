@@ -393,7 +393,7 @@ A(BLACK)
 # Scripture moves to Chapter 8: the slides are kept in NEXT_WEEK). New slides are made here, then S is reordered.
 _old = list(S); del S[:]
 A(C('Everything so far,<br>read forward', 'Unity, freedom, the priesthood of all, communion, and the church as a foretaste: every chapter so far, seen from the future they were living toward.'))
-A(LIST('Chapters 1&ndash;6, read forward', 'Everything so far',
+A(LIST('Chapters 1&ndash;6, read forward', 'All of them',
   ['<b>Cane Ridge</b> (1801): a communion festival, read as the dawn of the millennial day.',
    '<b>The <i>Declaration and Address</i></b> (1809): unity and liberty, because the kingdom is coming.',
    '<b>The <i>Last Will</i></b> (1804): a presbytery dies into union, expecting redemption.',
