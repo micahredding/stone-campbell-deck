@@ -706,3 +706,8 @@ S[_w:_w] = _blk
 _c = [i for i, x in enumerate(S) if 'data-copy="1"' in x]; assert len(_c) == 1
 _stone = S.pop(_c[0])
 S.insert(_one_ix('Now this congregation was intended to be a model') + 1, _stone)
+# Micah, 2026-11-15: "The flagship" before the Harbinger's masthead.
+_fl = _one_ix('Campbell editing to 1864; then W. K. Pendleton')
+_ms = _one_ix('millennial_harbinger_masthead') if False else [i for i, x in enumerate(S) if 'January 4, 1830 (Internet Archive scan)' in x][0]
+assert _fl == _ms + 1
+S[_ms], S[_fl] = S[_fl], S[_ms]
