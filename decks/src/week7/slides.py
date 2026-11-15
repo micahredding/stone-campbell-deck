@@ -90,14 +90,13 @@ A(LIST('Where we are', 'From Ireland to Brush Run',
 
 # ---------- 2. ALEXANDER BECOMES A BAPTIST ----------
 A(LIST('Among the Baptists', 'Alexander becomes a Baptist',
-  [D('March 1812', 'A first child, Jane: the question of infant baptism'),
-   D('June 1812', 'Alexander, his wife, his parents and others immersed'),
-   D('1812&ndash;13', 'Baptist preachers press Brush Run to join them'),
-   D('Fall 1813', 'Brush Run joins the Redstone Baptist Association on their own terms'),
+  [D('March 1812', 'First child, Jane: infant baptism?'),
+   D('June 1812', 'Alexander, wife, parents, others immersed'),
+   D('Fall 1813', 'Brush Run joins Redstone Baptist Association on their own terms'),
    D('July 1823', 'The <i>Christian Baptist</i> begins'),
-   D('1824', 'The Wellsburg Church joins the Mahoning Baptist Association'),
-   D('1827', 'The Mahoning Baptist Association sends out Walter Scott as its evangelist')],
-  'Seven clicks. Jane was born March 13, 1812; &ldquo;soon after this event, a considerable change took place in his views in regard to baptism&rdquo; (Richardson, <i>Memoirs</i> I). Their terms were written: no creed. Campbell calls it &ldquo;a conditional union with the Redstone Association during the fall of 1813&rdquo; (<i>MH</i> 1848, p. 344, in Richardson, <i>Memoirs</i> I). The first issue is dated Buffaloe, July 4, 1823: he edited it as a Baptist, for Baptists. Scott: sent out by Mahoning in 1827, he gained more than 2,000 additions on the Western Reserve in two years (<i>Encyclopedia</i>, &ldquo;Scott, Walter&rdquo;).',
+   D('1824', 'Wellsburg Church joins Mahoning Baptist Association'),
+   D('1827', 'Mahoning Baptist Association sends out Walter Scott as evangelist')],
+  'Six clicks. Baptist preachers then pressed Brush Run to join them (1812&ndash;13). Jane was born March 13, 1812; &ldquo;soon after this event, a considerable change took place in his views in regard to baptism&rdquo; (Richardson, <i>Memoirs</i> I). Their terms were written: no creed. Campbell calls it &ldquo;a conditional union with the Redstone Association during the fall of 1813&rdquo; (<i>MH</i> 1848, p. 344, in Richardson, <i>Memoirs</i> I). The first issue is dated Buffaloe, July 4, 1823: he edited it as a Baptist, for Baptists. Scott: sent out by Mahoning in 1827, he gained more than 2,000 additions on the Western Reserve in two years (<i>Encyclopedia</i>, &ldquo;Scott, Walter&rdquo;).',
   size='clamp(24px,4.4vmin,56px)', gap='1.6vmin'))
 
 # ---------- 3. BAPTIST COMMUNION ----------
