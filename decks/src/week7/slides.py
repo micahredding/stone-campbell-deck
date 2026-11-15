@@ -270,7 +270,7 @@ A(QK('&ldquo;&hellip;who has made all the citizens of his kingdom, not citizens 
 A(QK('&ldquo;Being a royal priesthood, all children of a King, they have a right to meet in his name to break the loaf of blessing, to drink the cup of blessing, <b>without the intervention of a mediator, priest, or prophet, consecrated by human hands</b>.&rdquo;',
      AC + ', ' + MH + ', August 1830, p. 368', 'At the table', 'mh1830', 'Just before: &ldquo;they are all made sons and daughters, kings and priests to God.&rdquo; The ideal voiced; not yet extended to women.'))
 A(QK('&ldquo;&rsquo;Tis here, and here alone, that <b>the king and the beggar meet on one platform and stand on equal ground</b> before God, angels and demons.&rdquo;',
-     AC + ', letter to the church in Paisley, ' + MH + ', March 1853, pp. 174&ndash;175', 'Priesthood', 'mh1853',
+     AC + ', letter to the church in Paisley, ' + MH + ' 1853, pp. 174&ndash;175', 'Paisley, 1853 &middot; one platform', 'mh1853',
      'Of the church, &ldquo;God&rsquo;s school, his primary school, in which he is to be trained and disciplined for the celestial university.&rdquo; He goes on: &ldquo;Faith, then, and not opinion; fact, and not fable; truth, and not hypothesis; reality, and not fiction, are the bond of union and the terms of communion.&rdquo;'))
 A(QK('&ldquo;&hellip;the emancipation of all the world from faith in, and obedience to, <b>any set of men, titled and enthroned as they may be</b>, as the representatives or successors of the apostles of Christ.&rdquo;',
      AC + ', &ldquo;The Everlasting Gospel&rdquo; No. 3, ' + MH + ', May 1833, p. 226', 'What the coming judgment brings', 'mh1833', 'The end of clerical power is part of what is coming.'))
@@ -593,3 +593,29 @@ _blk = [S[_one_ix('they furnished <b>an emblem of the millennial state of the Ch
 for x in _blk: S.remove(x)
 _tn = _one_ix('We already eat at the eschatological table of the Lord')
 S[_tn:_tn] = _blk
+# Micah, 2026-11-15: the 1830 "one Lord's table" into the microcosm section, after Brush Run; its title card dropped.
+del S[_one_ix('<h2>The other<br>millennial harbinger</h2>')]
+_fi = S.pop(_one_ix('meeting around one and the same Lord&rsquo;s table</b>'))
+S.insert(_one_ix('they furnished <b>an emblem of the millennial state of the Church</b>') + 1, _fi)
+# Micah, 2026-11-15: the Paisley letter (1853) in fuller context, around "the king and the beggar"; whole letter behind Z.
+_PAIS = AC + ', letter to the church in Paisley, ' + MH + ' 1853, p. %s'
+def _P(q, page, eyebrow, key_note, size=None):
+    return QK(q, _PAIS % page, eyebrow, 'mh1853', key_note, size=size).replace('<section ', '<section data-src="mh53" ', 1)
+_pa_before = [
+  _P('&ldquo;Man&hellip; was predestined and created <b>for a citizenship in the whole universe</b>, and not for any locality in the solar or material realms. God and his whole creation is the patrimonial inheritance of man.&rdquo;', '174', 'Paisley, 1853 &middot; a citizenship',
+     'To the church in Paisley, Scotland, after Dr. John Thomas (later founder of the Christadelphians) had split it over his speculations. Campbell begins with destiny: &ldquo;Man, the most sublime and awful object that man himself or angel ever saw&hellip;&rdquo; It goes on: &ldquo;God himself is his portion. Therefore, all things are man&rsquo;s, because man is Christ&rsquo;s.&rdquo; Press Z for the whole letter.'),
+  _P('&ldquo;To educate man in harmony with his origin and his destiny, <b>the church is God&rsquo;s school, his primary school, in which he is to be trained and disciplined for the celestial university</b>&hellip;&rdquo;', '174', 'Paisley, 1853 &middot; God&rsquo;s school',
+     'It ends: &ldquo;that he may ultimately be a peer of the realm of creation, in its broadest, fullest, and highest import.&rdquo; The church now as training for what is coming: the microcosm in Campbell&rsquo;s idiom.'),
+  _P('&ldquo;In it the ruined and undone wretch is taken from the mire of his own pollutions, renovated and sanctified, <b>adopted and enrolled amongst princes&mdash;peers of the celestial realm</b>&hellip;&rdquo;', '174', 'Paisley, 1853 &middot; princes',
+     'It ends: &ldquo;over which Jehovah reigns the supreme and eternal Autocrat. This is his school, and the Bible is his text-book, from its Alpha to its Omega.&rdquo; Kings and priests to God, in the language of royalty.'),
+  _P('&ldquo;Hence in the church there is neither Jew nor Greek, there is neither bond nor free, <b>there is neither male nor female</b>. We are all one&mdash;in one Lord, one faith, one baptism, and in one hope of one and the same inheritance.&rdquo;', '174', 'Paisley, 1853 &middot; all one',
+     'Just before: &ldquo;Located here, we see all things right, and in their true colors and proportions, and no where else.&rdquo; Galatians 3:28 and Ephesians 4: the ideal voiced, including women; not yet extended to them in practice.'),
+]
+_pa_after = [
+  _P('&ldquo;Doctors of theology, as such&hellip; doctors of opinions&hellip; have <b>no moral chairs, or moral authority, no ecclesiastic power, no prescriptive rights, over the understanding, the conscience, or the hearts of the citizens of Messiah&rsquo;s spiritual empire</b>.&rdquo;', '175', 'Paisley, 1853 &middot; no chairs',
+     'Between the king and the beggar and this: &ldquo;Faith, then, and not opinion; fact, and not fable; truth, and not hypothesis; reality, and not fiction, are the bond of union and the terms of communion.&rdquo; &ldquo;Doctors of opinions&rdquo; names Thomas. Next: opinions on &ldquo;the millennium&rdquo; among them &ldquo;centre in self-esteem and terminate in schism.&rdquo; Priesthood and freedom together: no title gives anyone authority over a believer&rsquo;s conscience.'),
+]
+_kb = _one_ix('the king and the beggar meet on one platform')
+S[_kb] = S[_kb].replace('<section ', '<section data-src="mh53" ', 1)
+S[_kb + 1:_kb + 1] = _pa_after
+S[_kb:_kb] = _pa_before
