@@ -714,3 +714,7 @@ S[_ms], S[_fl] = S[_fl], S[_ms]
 # Micah, 2026-11-15: a copy of Hicks's "they disagreed" before "What they agreed on", so the two halves sit together.
 _h1 = _one_ix('James A. Harding was a premillennialist')
 S.insert(_one_ix('these all agreed that the most important aspect'), S[_h1].replace('<section ', '<section data-copy="hicks" ', 1))
+# Micah, 2026-11-15: "Restoration served the future" before "Easter every Sunday".
+_ea = _one_ix('not only commemorates the resurrection of Jesus'); _rs = _one_ix('Millennial Character of the Harbinger')
+assert _rs == _ea + 1
+S[_ea], S[_rs] = S[_rs], S[_ea]
