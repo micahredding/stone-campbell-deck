@@ -624,3 +624,6 @@ _blk = [S[_one_ix(k)] for k in ('shall be given to the people of the saints', 'p
 for x in _blk: S.remove(x)
 _pf = _one_ix('<h2>Practicing the future today</h2>')
 S[_pf + 1:_pf + 1] = _blk
+# Micah, 2026-11-15: Alexander's 1828 "praying for the Millennium" right after "Who that thinks of heaven".
+_x = S.pop(_one_ix('making new divisions and keeping up old ones'))
+S.insert(_one_ix('Who that thinks of heaven') + 1, _x)
