@@ -639,3 +639,5 @@ _pf = _one_ix('<h2>Practicing the future today</h2>')
 S[_pf + 1:_pf + 1] = _blk
 # Micah, 2026-11-15: hide "Jesus reigns on earth" (kept in the source).
 del S[_one_ix('without a tear or a sigh, when Jesus reigns on earth')]
+# Micah, 2026-11-15: drop "The kingdom now: small societies" (kept in the source).
+del S[_one_ix('small societies, called churches</b>')]
