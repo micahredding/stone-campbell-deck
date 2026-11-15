@@ -583,3 +583,13 @@ for x in _blk: S.remove(x)
 _oh = [i for i, x in enumerate(S) if 'Certainly; for this is the very order of heaven' in x]
 assert len(_oh) == 1
 S[_oh[0] + 1:_oh[0] + 1] = _blk
+# Micah, 2026-11-15: Brush Run's emblem and Scott's "heaven upon earth" into the microcosm section (before "The table now");
+# "the gospel in bread and wine" and Hicks's "table, not altar" dropped.
+def _one_ix(k):
+    h = [i for i, x in enumerate(S) if k in x]; assert len(h) == 1, (k, h); return h[0]
+for _k in ('is the gospel in water, and that', 'stressed <b>the metaphor of table rather than altar</b>'):
+    del S[_one_ix(_k)]
+_blk = [S[_one_ix('they furnished <b>an emblem of the millennial state of the Church</b>')], S[_one_ix('we had heaven upon earth</b>')]]
+for x in _blk: S.remove(x)
+_tn = _one_ix('We already eat at the eschatological table of the Lord')
+S[_tn:_tn] = _blk
