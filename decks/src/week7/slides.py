@@ -627,3 +627,7 @@ S[_pf + 1:_pf + 1] = _blk
 # Micah, 2026-11-15: Alexander's 1828 "praying for the Millennium" right after "Who that thinks of heaven".
 _x = S.pop(_one_ix('making new divisions and keeping up old ones'))
 S.insert(_one_ix('Who that thinks of heaven') + 1, _x)
+# Micah, 2026-11-15: "pray for a thing" before Daniel 7.
+_d7 = _one_ix('shall be given to the people of the saints'); _pr = _one_ix('pray for a thing, and not strive')
+assert _pr == _d7 + 1
+S[_d7], S[_pr] = S[_pr], S[_d7]
