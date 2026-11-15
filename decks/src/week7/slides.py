@@ -619,3 +619,8 @@ _kb = _one_ix('the king and the beggar meet on one platform')
 S[_kb] = S[_kb].replace('<section ', '<section data-src="mh53" ', 1)
 S[_kb + 1:_kb + 1] = _pa_after
 S[_kb:_kb] = _pa_before
+# Micah, 2026-11-15: Daniel 7, "pray for a thing", and "Who that thinks of heaven" right after the "Practicing the future today" card.
+_blk = [S[_one_ix(k)] for k in ('shall be given to the people of the saints', 'pray for a thing, and not strive', 'Who that thinks of heaven')]
+for x in _blk: S.remove(x)
+_pf = _one_ix('<h2>Practicing the future today</h2>')
+S[_pf + 1:_pf + 1] = _blk
