@@ -29,7 +29,7 @@ SECTIONS = [
     ('A tangent', 'They kept trying to join'),
     ('The Harbinger', '<h2>The pivot</h2>'),
     ('The future, not a timeline', 'In his own paper, he went back and forth'),
-    ('About eschatology', 'Chapters 1&ndash;6, read forward'),
+    ('About eschatology', 'From the class so far, read forward'),
     ('What was distinctive', 'Their eschatology, in three marks'),
     ('A new creation', 'A new creation</h2>'),
     ('The church as a microcosm', 'The church as a microcosm</h2>'),

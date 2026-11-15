@@ -13,6 +13,82 @@
 3. The church's life now is a taste of God's future
 4. Our practices are ways of living that future now
 
+## The deck as it stands (2026-11-15)
+
+Current outline of `decks/chapter7.html` (69 main slides; side paths in brackets). Supersedes the earlier shapes and slide plans below.
+
+Sections: opening and recap (1–4); Alexander becomes a Baptist, Baptist communion, the *Christian Baptist* (5–8); end of Baptist communion and a tangent, backward and forward (9–14); the pivot and the *Harbinger* (15–21); not a particular timeline (22–24); the class so far, read forward (25–29); what was distinctive (30–31); 1. a new creation (32–39); 2. the church as a microcosm (40–45); 3. practicing the future today (46–60); ideas and close (61–69).
+
+1. Otter Creek Fall 2026 Our Wild Democracy The Story, Promise, and Future of the C
+2. Quiz Finish the song: "This world is not my home, I'm just a-passing through. My
+3. Our Wild Democracy Chapter 7 Living into God's Future The Millennial Harbinger 1
+4. Where we are From Ireland to Brush Run 1808 Ireland: the family sets sail to joi
+5. Among the Baptists Alexander becomes a Baptist March 1812 First child, Jane: inf
+6. Baptist communion "I and the church with which I am connected are in full commun
+7. 1823-1830 The Christian Baptist
+8. Its masthead The Christian Baptist , vol. 3, no. 1, August 1, 1825 (Internet Arc
+9. Out of the Baptists End of Baptist Communion 1823 Redstone moves to put him out;
+10. A tangent backward and forward They kept trying to join 1798 The Evangelical Soc  →  side path: Joined, refused, dissolved (10)
+11. The eternal pattern They want the fellowship. They won't accept the fence.
+12. August 1830 Mahoning's dissolution
+13. Mahoning, remembered "I confess I was alarmed at the impassioned and hasty manne
+14. A confession " Reformation and annihilation are not with me now... convertible o
+15. 1830 The pivot
+16. 1830-1870 The Millennial Harbinger
+17. The Millennial Harbinger The flagship Published for four decades, 1830-1870 Camp
+18. Its masthead The Millennial Harbinger , vol. 1, no. 1, January 4, 1830 (Internet
+19. For discussion What do you notice about the name?
+20. Not the Restoration Quarterly . Not the Primitivist Paper . Not the Old Ways Dig
+21. It's about the future.  →  side path: The Harbinger's aim (3)
+22. Not a particular timeline.
+23. John Mark Hicks, 2015 "Alexander Campbell was a postmillennialist. James A. Hard
+24. Not a particular timeline. The future itself.  →  side path: Other voices on the future (11)
+25. From the class so far, read forward All of them Cane Ridge (1801): a communion f
+26. Chapter 1 Cane Ridge "Many were fully persuaded that the glorious millennial day
+27. Chapter 3 The Declaration and Address "Unite with us in... the cause of Christ, 
+28. Chapter 4 The Last Will "...pray more and dispute less; and while they behold th
+29. Chapter 5 Alexander's defense "We have decided, therefore,... to open the gates 
+30. What was distinctive?
+31. What was distinctive 1. A new creation this earth made new, not an escape to hea
+32. 1. A new creation
+33. John Mark Hicks, 2015 "Alexander Campbell was a postmillennialist. James A. Hard
+34. What they agreed on "However, these all agreed that the most important aspect of
+35. A renewed earth: our own tradition "...it was the dominant perspective among chu
+36. God annihilates nothing "The Bible begins with the generations of the heavens an
+37. Coming down, not going up "...John saw the New Jerusalem, the holy city, coming 
+38. This earth, made new "For man he made this planet, and all the tenantry thereof.
+39. Not just Campbell "The notion, so very prevalent, that the Christian's future ho
+40. 2. The church as a microcosm
+41. Brush Run's first Supper, May 5, 1811 "...in assembling there on that occasion, 
+42. The first issue "To see even a few scores of intelligent christians... meeting a
+43. Restoration served the future "...all the Millennium we could scripturally expec
+44. Easter every Sunday "The Lord's day not only commemorates the resurrection of Je
+45. Walter Scott "In the afternoon, we had heaven upon earth ; that is, we had the L  →  side path: The table today (2)
+46. 3. Practicing the future today
+47. Living the future now "Biblical faith, according to Lipscomb and Harding, is liv
+48. Thomas Campbell, 1809 "Are we not all praying for that happy event, when there s
+49. Unity "Who that thinks of heaven, of eternal peace and love, can refrain from pl
+50. Alexander, 1828 "When then we see a people making new divisions and keeping up o
+51. The future as the test "In detecting the false gospels, nothing will aid us so m  →  side path: Restoration as recovery (3)
+52. Stone, 1843 "Let Christians shew by their peaceful, holy lives, that his laws ar
+53. The future, practiced now What the church will be, it does now Unity: one body,   →  side path: John 17 (7)
+54. Paisley, 1853 a citizenship "Man... was predestined and created for a citizenshi
+55. Paisley, 1853 God's school "To educate man in harmony with his origin and his de
+56. Paisley, 1853 princes "In it the ruined and undone wretch is taken from the mire  →  side path: Kings and priests, 1830 (3)
+57. Paisley, 1853 located here " Located here, we see all things right, and in their
+58. Paisley, 1853 all one "Hence in the church there is neither Jew nor Greek, there
+59. Paisley, 1853 one platform "'Tis here, and here alone, that the king and the beg  →  side path: No titles (4); Freedom (4)
+60. Not legalism. Embodying the future God will build.  →  side path: Eschatology and government (11); N. T. Wright (5)
+61. Idea 1 of 4 The future is our tradition.
+62. Idea 2 of 4 We live as a microcosm of the age to come.
+63. Idea 3 of 4 The church's life now is a taste of God's future.
+64. Idea 4 of 4 Our practices are ways of living that future now.
+65. Today's ideas 1. The future is our tradition. 2. We live as a microcosm of the a
+66. for discussion Chapter 7 What is beautiful here? What do we carry forward?
+67. Online stone-campbell .micahredding.com Home Timeline Exhibits People Exhibits T
+68. Next week: the handshake at Lexington. 1832: Stone's Christians and Campbell's r
+69. (black)
+
 **Connections:** 
 - Stone saw Cane Ridge as the Spirit moving towards God's future
 - Stone saw the Springfield Presbytery in light of the age to come

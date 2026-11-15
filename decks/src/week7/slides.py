@@ -63,7 +63,7 @@ def IDEA(k):
 def IDEASUM(note):
     return ('<section class="slide room"><div class=eyebrow>Today&rsquo;s ideas</div>'
             '<div class="litany ideasum" style="text-align:left;gap:1vmin;margin-top:2vmin">'
-            + ''.join('<div class=no style="font-size:clamp(24px,4.6vmin,58px)"><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (n, h.replace('<br>', ' ')) for n, (h, _) in enumerate(IDEAS, 1))
+            + ''.join('<div class=no style="font-size:clamp(32px,6.4vmin,80px)"><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (n, h.replace('<br>', ' ')) for n, (h, _) in enumerate(IDEAS, 1))
             + '</div><aside class=notes>%s</aside></section>' % note)
 
 S = []
@@ -86,7 +86,8 @@ A(LIST('Where we are', 'From Ireland to Brush Run',
   [D('1808', 'Ireland: the family sets sail to join Thomas in America'), D('1809', 'Scotland: shipwrecked off Islay; a winter in Glasgow'),
    D('1809', 'The family reunited in Pennsylvania; the <i>Declaration and Address</i>'),
    D('1810', 'The Synod of Pittsburg refuses them'), D('May 1811', 'Brush Run constituted; the first Supper'), D('Jan. 1812', 'Alexander ordained by the choice of the people')],
-  'Six clicks. One breath each. The ordination was last week.'))
+  'Six clicks. One breath each. The ordination was last week.',
+  size='clamp(30px,5.6vmin,70px)', gap='1.8vmin'))
 
 # ---------- 2. ALEXANDER BECOMES A BAPTIST ----------
 A(LIST('Among the Baptists', 'Alexander becomes a Baptist',
@@ -97,7 +98,7 @@ A(LIST('Among the Baptists', 'Alexander becomes a Baptist',
    D('1824', 'Wellsburg Church joins Mahoning Baptist Association'),
    D('1827', 'Mahoning Baptist Association sends out Walter Scott as evangelist')],
   'Six clicks. Baptist preachers then pressed Brush Run to join them (1812&ndash;13). Jane was born March 13, 1812; &ldquo;soon after this event, a considerable change took place in his views in regard to baptism&rdquo; (Richardson, <i>Memoirs</i> I). Their terms were written: no creed. Campbell calls it &ldquo;a conditional union with the Redstone Association during the fall of 1813&rdquo; (<i>MH</i> 1848, p. 344, in Richardson, <i>Memoirs</i> I). The first issue is dated Buffaloe, July 4, 1823: he edited it as a Baptist, for Baptists. Scott: sent out by Mahoning in 1827, he gained more than 2,000 additions on the Western Reserve in two years (<i>Encyclopedia</i>, &ldquo;Scott, Walter&rdquo;).',
-  size='clamp(24px,4.4vmin,56px)', gap='1.6vmin'))
+  size='clamp(28px,5.2vmin,66px)', gap='1.6vmin'))
 
 # ---------- 3. BAPTIST COMMUNION ----------
 A(QK('&ldquo;I and the church with which I am connected are in <b>full communion with the Mahoning Baptist Association, and through them with the whole Baptist society</b>.&rdquo;',
@@ -119,7 +120,7 @@ A(LIST('Out of the Baptists', 'End of Baptist Communion',
    D('1829&ndash;30', 'Baptist associations follow, expelling the &ldquo;Reformers&rdquo;'),
    D('Aug. 1830', 'Mahoning dissolves itself')],
   'Six clicks. Redstone had turned against him after his &ldquo;Sermon on the Law&rdquo; (1816). Wellsburg (Richardson, <i>Memoirs</i> II, pp. 68&ndash;69, 100): in August 1823 Campbell learned that his opponents in Redstone had packed the next meeting to expel him. With his debate with McCalla coming, he &ldquo;thought it best to evade the denominational discredit.&rdquo; Brush Run dismissed him and some thirty members to form a church at Wellsburg, &ldquo;the second church of the Reformation&rdquo;; he attended Redstone &ldquo;as a spectator,&rdquo; no longer a member. His own memory of the moment: &ldquo;Never did hunters, on seeing the game unexpectedly escape from their toils at the moment when its capture was sure, glare upon each other a more mortifying disappointment&rdquo; (&ldquo;Anecdotes, Incidents, and Facts,&rdquo; <i>MH</i> 1848, p. 556). In September 1824 Mahoning received Wellsburg on his written statement of belief, not a creed. They did not leave the Baptists; the Baptists put them out, association by association (Dover, Virginia, 1830, among others). Mahoning, the friendly one, dissolved at Austintown, Ohio, judging it had no scriptural standing.',
-  size='clamp(24px,4.4vmin,56px)', gap='1.6vmin'))
+  size='clamp(26px,4.9vmin,62px)', gap='1.5vmin'))
 
 A(QK('&ldquo;<b>Who gave to the Beaver Association the right to anathematize the Mahoning Association?</b> Has she a divine authority to mount the tribunal of judgment and to condemn the faith of another Association?&rdquo;',
      AC + ', &ldquo;The Beaver Anathema,&rdquo; ' + CB + ' 7 (1829&ndash;30), p. 198', 'The Beaver Anathema, 1829', 'cb7',
@@ -129,7 +130,8 @@ A(QK('&ldquo;<b>Who gave to the Beaver Association the right to anathematize the
 # ---------- 6. A TANGENT: BACKWARD AND FORWARD ----------
 A(R.ASSOC_SUMMARY.replace('<div class=eyebrow>From the Evangelical Society on</div>', '<div class=eyebrow>A tangent &middot; backward and forward</div>', 1)
    .replace('<h2 style="max-width:none">Joined, refused, dissolved</h2>', '<h2 style="max-width:none">They kept trying to join</h2>', 1)
-   .replace('<div class="no frag"><b>1811</b> &nbsp;Brush Run: a church of its own</div>', '', 1))
+   .replace('<div class="no frag"><b>1811</b> &nbsp;Brush Run: a church of its own</div>', '', 1)
+   .replace('font-size:1.32em', 'font-size:1.75em', 1))
 for _x in R.associations(): A(_x)   # side path: the whole timeline, off the tangent
 # the eternal pattern (Micah, 2026-11-14: right after the tangent's timeline)
 A('<section class="slide breath"><div class=eyebrow>The eternal pattern</div>'
@@ -144,7 +146,7 @@ A(QK('&ldquo;I confess I was alarmed at the impassioned and hasty manner in whic
 A(QK('&ldquo;<b>Reformation and annihilation are not with me now&hellip; convertible or identical terms.</b>&rdquo;',
      AC + ', &ldquo;Church Organization&mdash;No. IV,&rdquo; ' + MH + ', May 1849, p. 272', 'A confession', 'mh1849',
      'The full sentence, read in the page scan: &ldquo;Reformation and annihilation are not with me now, as formerly, convertible or identical terms&rdquo; (the OCR garbles &ldquo;as formerly&rdquo;). &ldquo;Formerly&rdquo; is most likely the <i>Christian Baptist</i> years (1823&ndash;30): in the previous essay he speaks of the &ldquo;appendages, against which we remonstrated twenty-five years ago&rdquo; (No. III, <i>MH</i> 1849, p. 271), and Mahoning&rsquo;s dissolution in 1830 is where that zeal ended. He does not name the years himself. Next sentence: &ldquo;We want occasional, if not stated, deliberative meetings on questions of expediency in adaptation to the ever changing fortune and character of society.&rdquo;',
-     size='clamp(40px,8.4vmin,108px)'))
+     size='clamp(54px,11.5vmin,140px)', width='22ch'))
 
 # ---------- 5. THE PIVOT ----------
 A(C('The pivot', 'January 1830. Campbell starts a new paper; by July he closes the old one.', '1830'))
@@ -155,7 +157,8 @@ A(QK('&ldquo;It shall have for its object the developement, and introduction of 
 A(C('The <i>Millennial Harbinger</i>', 'January 1830. The new paper, alongside the old one until July.', '1830&ndash;1870'))
 A(LIST('The <i>Millennial Harbinger</i>', 'The flagship',
   ['Published for four decades, 1830&ndash;1870', 'Campbell editing to 1864; then W. K. Pendleton', 'The movement&rsquo;s most influential editorial voice', 'Read for generations after'],
-  'Four clicks.'))
+  'Four clicks.',
+  size='clamp(34px,6.6vmin,84px)', gap='2.2vmin'))
 A(CARD('What do you notice<br>' + G('about the name?'),
   '&rarr; Besides the fact that <i>Millennial Harbinger</i> is the most badass name for a religious journal ever. Let them talk.', 'For discussion'))
 A('<section class="slide breath"><div class=litany style="gap:2.4vmin;max-width:86vw">'
@@ -194,7 +197,7 @@ A(QK('&ldquo;&hellip;our best political institutions we can part with <b>without
      AC + ', Fourth of July oration, ' + MH + ', 1830, p. 306', 'Jesus reigns on earth', 'mh1830',
      'The same oration: &ldquo;Not by might, nor by sword, but by the Spirit of the Lord.&rdquo;'))
 A(QK('&ldquo;The Bible begins with the generations of the heavens and the earth; but the christian revelation ends with the regenerations, or new creation of the heavens and the earth&hellip; <b>God recreates, regenerates, but annihilates nothing</b>; and, therefore, the present earth is not to be annihilated.&rdquo;',
-     CS + ', p. 311', 'A new creation', 'cs',
+     CS + ', p. 311', 'God annihilates nothing', 'cs',
      'Between the sentences: &ldquo;The bodies of the saints will be as homogeneous with the new earth and heavens, as their present bodies are with the present heavens and earth.&rdquo;'))
 A(QK('&ldquo;&hellip;John saw the New Jerusalem, the holy city, coming down from God out of heaven, prepared as a bride for her husband, to locate in the new earth, <b>the everlasting home of man</b>; for the tabernacle of God is to be there forever.&rdquo;',
      AC + ', &ldquo;The Coming of the Lord&mdash;No. II,&rdquo; ' + MH + ', February 1841, p. 54', 'Coming down, not going up', 'mh1841',
@@ -391,7 +394,7 @@ A(BLACK)
 # Scripture moves to Chapter 8: the slides are kept in NEXT_WEEK). New slides are made here, then S is reordered.
 _old = list(S); del S[:]
 A(C('Everything so far,<br>read forward', 'Unity, freedom, the priesthood of all, communion, and the church as a foretaste: every chapter so far, seen from the future they were living toward.'))
-A(LIST('Chapters 1&ndash;6, read forward', 'All of them',
+A(LIST('From the class so far, read forward', 'All of them',
   ['<b>Cane Ridge</b> (1801): a communion festival, read as the dawn of the millennial day.',
    '<b>The <i>Declaration and Address</i></b> (1809): unity and liberty, because the kingdom is coming.',
    '<b>The <i>Last Will</i></b> (1804): a presbytery dies into union, expecting redemption.',
@@ -485,7 +488,7 @@ S.insert(_pro[0], '<section class="slide breath"><div class=eyebrow>Side path &m
                   '<aside class=notes>Off &ldquo;It&rsquo;s about the future.&rdquo; The Prospectus (1829) and its subjects. Campbell&rsquo;s look back (1840), &ldquo;Restoration served the future,&rdquo; is on the main line under &ldquo;Restoration, reframed.&rdquo;</aside></section>')
 # Micah, 2026-11-14: the new-creation run (a new creation; coming down; this earth made new; not just Campbell)
 # right after "Campbell's eschatology", before "Nothing new, only renewed".
-_mv = [i for i, x in enumerate(S) if any(k in x for k in ('<div class=eyebrow>A new creation</div>', '<div class=eyebrow>Coming down, not going up</div>',
+_mv = [i for i, x in enumerate(S) if any(k in x for k in ('<div class=eyebrow>God annihilates nothing</div>', '<div class=eyebrow>Coming down, not going up</div>',
                                                          '<div class=eyebrow>This earth, made new</div>', '<div class=eyebrow>Not just Campbell</div>'))]
 assert len(_mv) == 4 and _mv == list(range(_mv[0], _mv[0] + 4)), _mv
 _blk = S[_mv[0]:_mv[0] + 4]; del S[_mv[0]:_mv[0] + 4]
@@ -543,11 +546,11 @@ _seq = (
        _f('The commitment to God&rsquo;s future is the leading emphasis')]
     + _r('Side path &middot; other voices on the future', 'Different views of the end.')
     # 2. the whole movement is about eschatology
-    + _r('Chapters 1&ndash;6, read forward', 'gates of admission into the Church as wide as the gates of heaven</b>')
+    + _r('From the class so far, read forward', 'gates of admission into the Church as wide as the gates of heaven</b>')
     # what was distinctive, in one slide; then each mark behind its own title card
     + [_f('Their eschatology, in three marks')]
     + [_f('<h2>A new creation</h2>'), _f('these all agreed that the most important aspect'), _f('the dominant perspective among churches of Christ')]
-    + [i for i in _r('<div class=eyebrow>A new creation</div>', '<div class=eyebrow>Peace</div>') if i != _f('We expect <b>no new Sun</b>')]
+    + [i for i in _r('<div class=eyebrow>God annihilates nothing</div>', '<div class=eyebrow>Peace</div>') if i != _f('We expect <b>no new Sun</b>')]
     + [_f('<h2>The church as a microcosm</h2>')]
     + _r('is lived as if the future is already present', 'Certainly; for this is the very order of heaven')
     + [_f('<h2>Practicing the future today</h2>'), _f('What the church will be, it does now')]
