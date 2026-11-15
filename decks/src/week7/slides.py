@@ -275,7 +275,7 @@ A(QK('&ldquo;&hellip;the emancipation of all the world from faith in, and obedie
 A(QK('&ldquo;&hellip;our religion was destined&hellip; to <b>cancel all orders of nobility in the state and in the church</b>&hellip; and finally to restore the long-lost liberties of mankind.&rdquo;',
      'Walter Scott, <i>The Messiahship</i> (1859), p. 240', 'Walter Scott, 1859', 'scott59',
      'His full list: &ldquo;to put down princes from their thrones; subvert ancient dynasties&hellip; dissolve armies; break down navies.&rdquo; Shadow: by 1859 Scott fused this hope with America&rsquo;s destiny.'))
-A(QK('&ldquo;In detecting the false gospels, nothing will aid us so much as an examination of their tendencies, and <b>a comparison of their effects with what the Millennium proposes</b>. The gospel of no sect can convert the world.&rdquo;',
+A(QK('&ldquo;In detecting the false gospels, nothing will aid us so much as an examination of their tendencies, and <b>a comparison of their effects with what the Millennium proposes</b>.&rdquo;',
      AC + ', Prefatory Remarks, ' + MH + ' 1, no. 1, 1830, p. 7', 'The future as the test', 'mh1830',
      'The first issue. Not &ldquo;does it match the pattern?&rdquo; but &ldquo;where does it lead?&rdquo; Does it produce the united, converted world God&rsquo;s future promises? A sectarian gospel fails that test by its nature.'))
 A(CARD('Not legalism.<br>' + G('Embodying the future God will build.'),
