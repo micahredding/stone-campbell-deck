@@ -26,7 +26,7 @@ SECTIONS = [
     ('A new creation', '<h2>A new creation</h2>'),
     ('The church as a microcosm', '<h2>The church as a microcosm</h2>'),
     ('Practicing the future today', '<h2>Practicing the future today</h2>'),
-    ('Restoration, reframed', 'Millennial Character of the Harbinger'),
+    ('Restoration, reframed', 'We expect <b>no new Sun</b>'),
     ('Eschatology and government', 'Eschatology and government:<br>two paths'),
     ('N. T. Wright', '<h2>N. T. Wright</h2>'),
     ('Close', 'for discussion &middot; Chapter 7'),

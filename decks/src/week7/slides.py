@@ -573,3 +573,13 @@ _peace = S.pop(_pe[0])
 _lf = [i for i, x in enumerate(S) if 'It took but little thought to see that Christians cannot fight' in x]
 assert len(_lf) == 1
 S.insert(_lf[0] + 1, _peace)
+# Micah, 2026-11-15: "The table now", "Easter every Sunday" and "Restoration served the future" belong with the church as microcosm.
+_mv = [[i for i, x in enumerate(S) if k in x] for k in ('We already eat at the eschatological table of the Lord',
+                                                         'not only commemorates the resurrection of Jesus',
+                                                         'Millennial Character of the Harbinger')]
+assert all(len(h) == 1 for h in _mv), _mv
+_blk = [S[h[0]] for h in _mv]
+for x in _blk: S.remove(x)
+_oh = [i for i, x in enumerate(S) if 'Certainly; for this is the very order of heaven' in x]
+assert len(_oh) == 1
+S[_oh[0] + 1:_oh[0] + 1] = _blk
