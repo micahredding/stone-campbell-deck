@@ -517,6 +517,18 @@ S.insert(_pro[0] + 1, LIST('The Prospectus, 1829', 'Subjects &ldquo;subservient 
 A(QK('&ldquo;Now this congregation was intended to be a model, and <b>did actually become such to Judea, Samaria, and to the uttermost parts of the earth</b>.&rdquo;',
      AC + ', A Restoration of the Ancient Order of Things, No. VII, ' + CB + ' 3, September 1825, p. 30', 'Acts 2: a model for the world', 'cb3',
      'Of the Jerusalem church after Pentecost: the apostles &ldquo;proceeded to organize a congregation of disciples, and to set them in the order which the Lord had commanded.&rdquo; Then he quotes Acts 2:41&ndash;42: &ldquo;they continued stedfastly in the apostles&rsquo; doctrine, and in the fellowship, and in breaking of bread, and in prayers.&rdquo; The first church as a model sent outward, to the ends of the earth (Acts 1:8). Be candid about the essay (whole text: press Z): its argument is that &ldquo;Apostolic example is justly esteemed of equal authority with an apostolic precept,&rdquo; and from Acts 2 and Acts 20:7 it concludes the Supper was weekly, on the first day, &ldquo;the most prominent object of their meeting.&rdquo; This is a root of the later command-and-example reading; here its aim is weekly communion.').replace('<section ', '<section data-src="cb25" ', 1))
+# Micah, 2026-11-15: one slide on what was distinctive, then a title card before each mark's quotations.
+for _gone in ('How they spoke<br>about the future', 'Campbell&rsquo;s eschatology</h2>'):   # replaced by the slide and cards below
+    _g = [i for i, x in enumerate(S) if _gone in x]; assert len(_g) == 1, _gone; del S[_g[0]]
+A(LIST('What was distinctive', 'Their eschatology, in three marks',
+  ['<b>A new creation:</b> this earth made new, not an escape to heaven.',
+   '<b>The church as a microcosm:</b> a small working model of what is coming.',
+   '<b>Practicing the future today:</b> unity, priesthood, freedom, the table.'],
+  'Three clicks; each has its own section next, behind a title card. Across the movement, whatever their timeline (Campbell post-, Stone pre-, Scott changing, Lipscomb uncertain), these three held.',
+  size='clamp(26px,4.8vmin,60px)', gap='2vmin'))
+A(C('A new creation', 'Not an escape to heaven: this earth made new.'))
+A(C('The church as a microcosm', 'The church now as a small working model of God&rsquo;s future.'))
+A(C('Practicing the future today', 'The church does now what it will be: unity, priesthood, freedom, and the table.'))
 # ---------- Micah's structure from "It's about the future" (2026-11-14) ----------
 # not a timeline, the future in general; the whole movement is about eschatology; a new earth; the church as
 # microcosm; unity, priesthood, freedom; practices; restoration reframed, not legalism. Then two ways, Wright, close.
@@ -534,19 +546,17 @@ _seq = (
     + _r('Side path &middot; other voices on the future', 'Different views of the end.')
     # 2. the whole movement is about eschatology
     + _r('Everything so far,<br>read forward', 'gates of admission into the Church as wide as the gates of heaven</b>')
-    # 3. a new earth
-    + [_f('How they spoke<br>about the future'), _f('Campbell&rsquo;s eschatology</h2>'),
-       _f('these all agreed that the most important aspect'), _f('the dominant perspective among churches of Christ')]
+    # what was distinctive, in one slide; then each mark behind its own title card
+    + [_f('Their eschatology, in three marks')]
+    + [_f('<h2>A new creation</h2>'), _f('these all agreed that the most important aspect'), _f('the dominant perspective among churches of Christ')]
     + [i for i in _r('<div class=eyebrow>A new creation</div>', '<div class=eyebrow>Peace</div>') if i != _f('We expect <b>no new Sun</b>')]
-    # 4. the church as microcosm of the future
+    + [_f('<h2>The church as a microcosm</h2>')]
     + _r('is lived as if the future is already present', 'Certainly; for this is the very order of heaven')
-    # 5. unity, priesthood, freedom
-    + [_f('What the church will be, it does now')]
+    + [_f('<h2>Practicing the future today</h2>'), _f('What the church will be, it does now')]
     + _r('<h2>John 17</h2>', 'Some of you say it will be effected')
     + _r('shall be given to the people of the saints', 'making new divisions and keeping up old ones')
     + _r('citizen kings and priests to God</b>', 'cancel all orders of nobility')
     + _r('the things in which the kingdom of God does not consist', 'We do not ask them to give up their opinions&mdash;<b>')
-    # 6. practices
     + _r('The other<br>millennial harbinger', 'not only commemorates the resurrection of Jesus')
     # 7. restoration reframed, not legalism
     + [_f('Millennial Character of the Harbinger'), _f('We expect <b>no new Sun</b>'), _f('Now this congregation was intended to be a model'),
