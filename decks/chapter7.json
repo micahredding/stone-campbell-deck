@@ -454,37 +454,37 @@
   {
    "index": 64,
    "n": 65,
-   "title": "Walter Scott \"In the afternoon, we had heaven upon earth ; that is, we had the Lord's Supp",
+   "title": "Easter every Sunday \"The Lord's day not only commemorates the resurrection of Jesus, but a",
    "path": "spine",
    "doc": null
   },
   {
    "index": 65,
    "n": 66,
-   "title": "Side path the table today The table today",
-   "path": "The table today",
-   "doc": null
+   "title": "Restoration served the future \"...all the Millennium we could scripturally expect was not ",
+   "path": "spine",
+   "doc": "mh40"
   },
   {
    "index": 66,
    "n": 67,
-   "title": "The table now \" We already eat at the eschatological table of the Lord ; we already sit at",
-   "path": "The table today",
+   "title": "Walter Scott \"In the afternoon, we had heaven upon earth ; that is, we had the Lord's Supp",
+   "path": "spine",
    "doc": null
   },
   {
    "index": 67,
    "n": 68,
-   "title": "Easter every Sunday \"The Lord's day not only commemorates the resurrection of Jesus, but a",
-   "path": "spine",
+   "title": "Side path the table today The table today",
+   "path": "The table today",
    "doc": null
   },
   {
    "index": 68,
    "n": 69,
-   "title": "Restoration served the future \"...all the Millennium we could scripturally expect was not ",
-   "path": "spine",
-   "doc": "mh40"
+   "title": "The table now \" We already eat at the eschatological table of the Lord ; we already sit at",
+   "path": "The table today",
+   "doc": null
   },
   {
    "index": 69,
@@ -963,8 +963,8 @@
   62,
   63,
   64,
-  67,
-  68,
+  65,
+  66,
   69,
   70,
   71,
@@ -1036,10 +1036,10 @@
   },
   {
    "label": "The table today",
-   "fork": 64,
+   "fork": 66,
    "slides": [
-    65,
-    66
+    67,
+    68
    ]
   },
   {
@@ -1244,7 +1244,7 @@
    "text": "in assembling there on that occasion, they furnished an emblem of the millennial state of the Church, nay, an emblem of the heavenly state, when men of different nations, and known by different names, should sit down together in the kingdom of God."
   },
   {
-   "slide": 68,
+   "slide": 65,
    "doc": "mh40",
    "text": "all the Millennium we could scripturally expect was not merely the restoration of the Jerusalem church in all its moral and religious characters, but the extension of it through all nations and languages for one thousand years."
   },
@@ -1524,19 +1524,19 @@
   },
   {
    "slide": 64,
+   "text": "The Lord’s day not only commemorates the resurrection of Jesus, but anticipates the morning of the resurrection in which we shall enter into the rest which remains for the people of God."
+  },
+  {
+   "slide": 66,
    "text": "In the afternoon, we had heaven upon earth; that is, we had the Lord’s Supper."
   },
   {
-   "slide": 66,
+   "slide": 68,
    "text": "We already eat at the eschatological table of the Lord; we already sit at the table with Jesus in his kingdom."
   },
   {
-   "slide": 66,
+   "slide": 68,
    "text": "The Lord’s Supper as Eschatological Table"
-  },
-  {
-   "slide": 67,
-   "text": "The Lord’s day not only commemorates the resurrection of Jesus, but anticipates the morning of the resurrection in which we shall enter into the rest which remains for the people of God."
   },
   {
    "slide": 70,

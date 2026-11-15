@@ -683,3 +683,10 @@ del S[_one_ix('Who gave to the Beaver Association the right to anathematize the 
 # Micah, 2026-11-15: a title card, "Mahoning's dissolution", after "The eternal pattern".
 S.insert(_one_ix('They won&rsquo;t accept the fence.') + 1,
   C('Mahoning&rsquo;s dissolution', 'Austintown, Ohio, August 1830. Two reasons (Richardson, <i>Memoirs</i> II, pp. 327&ndash;328): fear of associations&rsquo; power, after Redstone and the Beaver Anathema had shown &ldquo;the tendency of such bodies to the exercise of arbitrary power&rdquo;; and no warrant in Scripture, &ldquo;no positive command for them.&rdquo; It ended the association &ldquo;as an advisory council or an ecclesiastical tribunal&rdquo; and became a yearly meeting for worship and reports. Campbell objected and was voted down.', 'August 1830'))
+# Micah, 2026-11-15: Scott's "heaven upon earth" (with its side path, "The table today") after "Restoration served the future".
+_sc = _one_ix('we had heaven upon earth</b>')
+_blk = S[_sc:_one_ix('We already eat at the eschatological table of the Lord') + 1]
+assert len(_blk) == 3, len(_blk)
+del S[_sc:_sc + 3]
+_rs = _one_ix('Millennial Character of the Harbinger')
+S[_rs + 1:_rs + 1] = _blk
