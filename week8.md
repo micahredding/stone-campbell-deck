@@ -33,7 +33,7 @@ Every quotation below is checked (database: `10 Research Projects/The Lexington 
 
 **Opening**
 1. Title.
-2. Quiz (from `quizzes.md`).
+2. **Quiz: "No creed but…"** (Micah, 2026-11-18). Leave it open, and let the class answer aloud. Expect both "Christ" and "the Bible". Don't resolve it here: note who said which, and come back to it in slide 17a.
 3. Recap from Chapter 7: one slide.
 
 **I. Two movements** (a few slides)
@@ -64,6 +64,10 @@ Every quotation below is checked (database: `10 Research Projects/The Lexington 
 16. **The statement** (Stone and Johnson, CM 6, Jan. 1832), built in:
     - "is there no difference of opinion among you? We answer, we do not know, nor are we concerned to know."
     - "Have you no creed…? We answer, yes. We have a perfect one… we mean the New Testament."
+17a. **The quiz, answered** (callback to slide 2; built in):
+    - "No creed but the Bible" is the founders' own phrase, Stone's: "We determined that we would own no name but Christian… and that we would subscribe to no creed but the Bible" (CM 3, 1828, p. 231). At Lexington: "After we had given up all creeds and taken the Bible, and the Bible alone" (Williams, p. 454).
+    - "No creed but Christ" came later: from Scott's confession that Jesus is the Christ, as a slogan by the 1900s ("No creed but Christ, no book but the Bible, no law but love, no name but the divine").
+    - *Notes:* the room divided the way the movement did. Stevenson (1960s) called them "very different proposals". The point for this morning: the class gave two answers to one slogan, and still sits at one table. The same was true of Lexington.
 17. John Rogers: "We solemnly pledged ourselves to one another before God, to abandon all speculations, especially on the Trinity". (Stone, *Biography*, p. 343)
 
 **V. (c) How long it took** (a timeline slide, built in, then the Lexington episode)

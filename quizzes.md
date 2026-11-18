@@ -7,7 +7,7 @@ The second slide of each deck is a short quiz drawn from this list (not from the
 - We believe in doing Bible things (the Bible way). — *used: Chapter 3*
 - OR: We call Bible things (by Bible names). — *used: Chapter 3*
 - We are Christians only… (but not the only Christians). — *used: Chapter 2*
-- No creed (but Christ). (Alternative answer: the Bible.) — *planned for Chapter 4, replaced*
+- No creed (but Christ). (Alternative answer: the Bible.) — *planned for Chapter 4, replaced; chosen for Chapter 8 (Micah, 2026-11-18): the class's two answers become part of the story*
 - When someone becomes a Christian, we say they: A) get saved B) accept Christ C) obey the gospel
 - How often should you go to church? (As often as the doors are open.)
 - What exhortation do you give someone who has a habit of missing worship? (Do not forsake the assembly.)
