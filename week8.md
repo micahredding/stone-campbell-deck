@@ -14,6 +14,23 @@ Micah: "They came together, they disagreed on all these things, they united and 
 
 Every quotation below is checked (database: `10 Research Projects/The Lexington Union/README.md`). Williams = J. A. Williams, *Life of Elder John Smith* (1870), written 38 years later from Smith's papers and memory, so his speeches are reconstructions; CM = Stone's *Christian Messenger*.
 
+**Sources in hand (2026-11-18).**
+- **The full account,** Williams pp. 449–456, transcribed from the page scans: `decks/src/sources/williams-1870-lexington-union.html`, registered as doc `wil32` (press Z on a slide with `data-src="wil32"`).
+- **Images,** in `decks/src/week8/images/` (see `SOURCES.md` there):
+  - the Cane Ridge stained-glass window of the handshake (over an open Bible, the communion table before them);
+  - its companion window of the Hill Street meetinghouse;
+  - Bower's 1955 painting of the meetinghouse;
+  - a 1970s photograph of the building.
+
+  Fine for the class; ask before putting them on the public site.
+
+**The slogans (Micah asked, 2026-11-18).**
+- **"No creed but the Bible" is Stone's own phrase:**
+  - "We determined that we would own no name but Christian, which we derive from our union with Christ; and that we would subscribe to no creed but the Bible" (CM 3, 1828, "Reply to Elder John Powell's Queries No. III", p. 231);
+  - "You know, sir, that I owned no creed but the Bible, and that I was ordained with this understanding by the Presbytery" (CM 6, 1832, letter to J. L. Wilson);
+  - at Lexington, Stone in Williams: "After we had given up all creeds and taken the Bible, and the Bible alone" (p. 454).
+- **"No creed but Christ" is later.** The *Encyclopedia* ("Creeds and Confessions") traces it to Walter Scott's "golden oracle", the Petrine confession that Jesus is the Christ, "immortalized in the slogan 'No creed but Christ'". It gives no author. The full form, "No creed but Christ, no book but the Bible, no law but love, no name but the divine", is in the *Encyclopedia*'s "Slogans" entry (Terry Miethe). The earliest uses in our corpus are T. W. Phillips at the 1909 Centennial Convention and Garrison (1926). For its history: W. J. Jarman et al., "The Slogans of the Disciples," *Christian-Evangelist* (1949). Dwight Stevenson (1960s): the two slogans are "very different proposals".
+
 **Opening**
 1. Title.
 2. Quiz (from `quizzes.md`).
@@ -30,8 +47,8 @@ Every quotation below is checked (database: `10 Research Projects/The Lexington 
 **III. (b) What they disagreed on** (one slide, built in, one line per click; Williams, p. 450, read off)
 8. "some of each party still cherished honest doubts respecting the doctrine of the others":
    - **The Trinity:** "Some Reformers still looked upon the Christians as Arians".
-   - **The Spirit:** some Christians believed the Reformers denied the Spirit's influence in conversion (paraphrase; the OCR is scrambled here).
-   - **Baptism:** the Reformers "attached undue importance to baptism" (same, paraphrase); and "all did not hold in the same sense that baptism was for the remission of sins".
+   - **The Spirit and baptism:** "some Christians were adverse to the union, in the belief that the Reformers denied the influence of the Spirit, and attached undue importance to baptism" (checked on the scan, 2026-11-18).
+   - **Baptism for remission:** "all did not hold in the same sense that baptism was for the remission of sins".
    - **The name:** "the Christians still refused to give up their name" (Christian or Disciple).
    - **The table:** "they still differed on the question of free or restricted communion".
    - *Notes, not slide:* also weekly communion and ordination (the *Stone and Campbell Disagreements* dossier); both come back in Act V.
@@ -41,7 +58,7 @@ Every quotation below is checked (database: `10 Research Projects/The Lexington 
 10. Smith: "While there is but one faith, there may be ten thousand opinions; and hence, if Christians are ever to be one, they must be one in faith, and not in opinion." (p. 453)
 11. Smith: "let us all come to the Bible, and to the Bible alone, as the only book in the world that can give us all the Light we need." (p. 454)
 12. Stone answers: "Christians never can be one in their speculations upon those mysterious and sublime subjects". (p. 454)
-13. Stone: "I have not one objection to the ground laid down by him as the true scriptural basis of union among the people of God; and I am willing to give him, now and here, my hand." (p. 455; OCR scrambled, check the scan.)
+13. Stone: "I have not one objection to the ground laid down by him as the true scriptural basis of union among the people of God; and I am willing to give him, now and here, my hand." (p. 455; checked on the scan.)
 14. **The handshake.** Elders and teachers come forward and join hands; "A song arose". (p. 455)
 15. **The loaf.** "On Lord's day, they broke the loaf together". (p. 455) Notes: Williams is the only source for the Jan. 1 communion; Smith's own letter (CM, Feb. 1832) confirms shared tables in the following weeks.
 16. **The statement** (Stone and Johnson, CM 6, Jan. 1832), built in:

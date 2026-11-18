@@ -86,6 +86,9 @@ def docs(between, clean, keys):
         'cb': lambda: {'title': 'Alexander Campbell, <i>The Christian Baptist</i>, July 5, 1824',
             'sub': '&ldquo;Essays on Ecclesiastical Characters, Councils, Creeds, and Sects, No. III&rdquo; &middot; the opening, transcribed from the 1835 edition',
             'html': clean(src('sources', 'christian-baptist-1824-ecclesiastical-courts.html'))},
+        'wil32': lambda: {'title': 'John Augustus Williams, <i>Life of Elder John Smith</i> (1870)',
+            'sub': 'The union at Lexington, 1831&ndash;32, pp. 449&ndash;456 &middot; transcribed from the page scans',
+            'html': clean(src('sources', 'williams-1870-lexington-union.html'))},
         'mh53': lambda: {'title': 'Alexander Campbell, letter to the church in Paisley (1853)',
             'sub': '&ldquo;Letters to Europe&mdash;No. I,&rdquo; <i>Millennial Harbinger</i> 1853, pp. 173&ndash;175 &middot; transcribed from the page scans',
             'html': clean(src('sources', 'millennial-harbinger-1853-letter-to-paisley.html'))},
@@ -140,7 +143,7 @@ def docs(between, clean, keys):
     }
     return [dict(D[k](), key=k) for k in keys]
 
-SHORT = {'mh53': 'To Paisley, 1853', 'mh40': 'The <i>Harbinger</i>, 1840', 'cb25': 'The <i>Christian Baptist</i>, 1825', 'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
+SHORT = {'wil32': 'Williams, 1870', 'mh53': 'To Paisley, 1853', 'mh40': 'The <i>Harbinger</i>, 1840', 'cb25': 'The <i>Christian Baptist</i>, 1825', 'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
          'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience', 'bible': 'The Bible in every hand', 'bapt': 'One baptism', 'fnd': 'The founders on unity', 'tcl': 'Thomas&rsquo;s letters home', 'wrt': 'Wright and the founders'}
