@@ -64,6 +64,7 @@ Every quotation below is checked (database: `10 Research Projects/The Lexington 
 16. **The statement** (Stone and Johnson, CM 6, Jan. 1832), built in:
     - "is there no difference of opinion among you? We answer, we do not know, nor are we concerned to know."
     - "Have you no creed…? We answer, yes. We have a perfect one… we mean the New Testament."
+17a-side. **Side path: "No creed but…"** (Micah, 2026-11-18): `R.creed()`, 12 slides. It holds all the Stone, Scott, Phillips and Stevenson material; anchor `R.CREED`; doc `crd` (`decks/src/sources/no-creed-but.html`). Hang it off slide 17a.
 17a. **The quiz, answered** (callback to slide 2; built in):
     - "No creed but the Bible" is the founders' own phrase, Stone's: "We determined that we would own no name but Christian… and that we would subscribe to no creed but the Bible" (CM 3, 1828, p. 231). At Lexington: "After we had given up all creeds and taken the Bible, and the Bible alone" (Williams, p. 454).
     - "No creed but Christ" came later: from Scott's confession that Jesus is the Christ, as a slogan by the 1900s ("No creed but Christ, no book but the Bible, no law but love, no name but the divine").

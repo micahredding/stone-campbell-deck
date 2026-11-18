@@ -26,10 +26,12 @@
 #   unity(extra=[])             -> resource: union, all his life (Thomas Campbell's Declaration and Address, which
 #                                  Alexander endorsed; the 1810 party-man address; the Christian Baptist; The Christian
 #                                  System; Lunenburg; the open Campbell). Also its own deck: decks/src/unity/build.py
+#   creed(extra=[])           -> side path: no creed but... (Stone's 'no creed but the Bible', Scott's creed, the 1909 slogan,
+#                                  Stevenson's 'Christocentric and bibliocentric'). Doc key crd.
 #   associations(extra=[])    -> resource: the Campbells' associations, joined, refused, formed, dissolved (1791-1866).
 #                                  Also its own deck: decks/src/associations/build.py
 #   WESTMINSTER, GOVERNANCE, CONSTITUTION, UNIVERSALS, WEEKLY, ASSOCIATIONS,
-#   CAMPBELL_REREAD, EKKLESIA, TABLE, UNITY -> (label, first-slide anchor, last-slide anchor) for SIDE
+#   CAMPBELL_REREAD, EKKLESIA, TABLE, UNITY, CREED -> (label, first-slide anchor, last-slide anchor) for SIDE
 #
 # Each resource's quotes are checked against a document: give a slide data-src=<key> to route it (see
 # doc_order). Keys: church (the-whole-church.html), acr (campbell-reread.html), ekk (ekklesia.html), tbl (the-table.html), uni (campbell-unity.html).
@@ -86,6 +88,9 @@ def docs(between, clean, keys):
         'cb': lambda: {'title': 'Alexander Campbell, <i>The Christian Baptist</i>, July 5, 1824',
             'sub': '&ldquo;Essays on Ecclesiastical Characters, Councils, Creeds, and Sects, No. III&rdquo; &middot; the opening, transcribed from the 1835 edition',
             'html': clean(src('sources', 'christian-baptist-1824-ecclesiastical-courts.html'))},
+        'crd': lambda: {'title': 'No creed but&hellip;',
+            'sub': 'Stone, Scott, the 1909 slogan and Stevenson &middot; checked excerpts',
+            'html': clean(src('sources', 'no-creed-but.html'))},
         'wil32': lambda: {'title': 'John Augustus Williams, <i>Life of Elder John Smith</i> (1870)',
             'sub': 'The union at Lexington, 1831&ndash;32, pp. 449&ndash;456 &middot; transcribed from the page scans',
             'html': clean(src('sources', 'williams-1870-lexington-union.html'))},
@@ -143,7 +148,7 @@ def docs(between, clean, keys):
     }
     return [dict(D[k](), key=k) for k in keys]
 
-SHORT = {'wil32': 'Williams, 1870', 'mh53': 'To Paisley, 1853', 'mh40': 'The <i>Harbinger</i>, 1840', 'cb25': 'The <i>Christian Baptist</i>, 1825', 'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
+SHORT = {'crd': 'No creed but&hellip;', 'wil32': 'Williams, 1870', 'mh53': 'To Paisley, 1853', 'mh40': 'The <i>Harbinger</i>, 1840', 'cb25': 'The <i>Christian Baptist</i>, 1825', 'rich': 'Richardson&rsquo;s <i>Memoirs</i>', 'dna': 'The Declaration and Address', 'will': 'The whole will',
          'stone': 'Stone&rsquo;s own account', 'apology': 'The five&rsquo;s own history', 'wcf': 'The Westminster Confession',
          'kjv': 'Scripture (KJV)', 'cb': 'The <i>Christian Baptist</i>, 1824', 'church': 'The whole church',
          'acr': 'Campbell, reread', 'ekk': 'The assembly', 'tbl': 'Who keeps the table', 'uni': 'Campbell on union', 'lord': 'Every Lord&rsquo;s day', 'priest': 'The priesthood of all', 'sing': 'The whole church sings', 'consc': 'Freedom of conscience', 'bible': 'The Bible in every hand', 'bapt': 'One baptism', 'fnd': 'The founders on unity', 'tcl': 'Thomas&rsquo;s letters home', 'wrt': 'Wright and the founders'}
@@ -1408,4 +1413,66 @@ def associations(extra=()):
         '<div class="no frag">Reach for the widest fellowship there is.</div>'
         '<div class="no frag">Refuse any body that makes a creed the test.</div></div>'
         '<aside class=notes>The Evangelical Society, the overture to the Synod, the Baptists, the Stone union, the cooperative societies; and Thomas leaving the Seceders, Brush Run&rsquo;s terms with Redstone, Mahoning dissolving itself. Chapter 5&rsquo;s &ldquo;two ways not to become a sect.&rdquo;</aside></section>',
+    ] + list(extra)
+
+
+# ---- No creed but... (2026-11-18): Stone's "no creed but the Bible", Scott's creed ("Jesus is the Christ"),
+# the later slogan "No creed but Christ", and Stevenson's "Christocentric and bibliocentric". A side path for
+# Chapter 8's quiz ("No creed but..."); every quote is in sources/no-creed-but.html (doc key crd).
+CREED = ('No creed but&hellip;', '<div class=eyebrow>No creed but&hellip; &middot; a resource</div>', 'Christocentric and bibliocentric')
+SCOTT_EV = 'Walter Scott, <i>The Evangelist</i> (1832)'
+SCOTT_M = 'Walter Scott, <i>The Messiahship</i> (1859)'
+def _k(slide):
+    return slide.replace('<section class="slide', '<section data-src="crd" class="slide', 1)
+def creed(extra=()):
+    return [
+        '<section class="slide breath"><div class=eyebrow>No creed but&hellip; &middot; a resource</div>'
+        '<h2 style="max-width:none">No creed but&hellip;</h2>'
+        '<aside class=notes>The quiz, answered. The room will have said &ldquo;Christ&rdquo; and &ldquo;the Bible.&rdquo; Both have a history: the first is Stone&rsquo;s own phrase; the second grows out of Walter Scott&rsquo;s creed, and became a slogan later. For Scott in 1832 they were one thing. Every quote is in the document &ldquo;No creed but&hellip;&rdquo;.</aside></section>',
+
+        _k(BIG(Q('&ldquo;We determined that we would own no name but Christian&hellip; and that we would <b>subscribe to no creed but the Bible</b>&hellip;&rdquo;',
+                 'Barton W. Stone, <i>Christian Messenger</i> (1828)', 'Stone'))) +
+        N('&ldquo;Reply to Elder John Powell&rsquo;s Queries, No. III,&rdquo; p. 231. The name: &ldquo;which we derive from our union with Christ.&rdquo; It goes on: &ldquo;if we were deprived of the fellowship of any Christians, it should be by an act of theirs and not of ours.&rdquo;'),
+
+        _k(Q('&ldquo;You know, sir, that <b>I owned no creed but the Bible</b>, and that I was ordained with this understanding by the Presbytery.&rdquo;',
+             'Barton W. Stone, letter to J. L. Wilson, <i>Christian Messenger</i> (1832)', 'Stone, to a Presbyterian') +
+           N('Wilson was the Presbyterian minister in Cincinnati who had written against the New Lights. Stone&rsquo;s ordination at Cane Ridge (1798): he accepted the Westminster Confession only &ldquo;as far as I see it consistent with the word of God.&rdquo;')),
+
+        _k(Q('&ldquo;After we had given up all creeds and taken <b>the Bible, and the Bible alone</b>, as our rule of faith and practice&hellip;&rdquo;',
+             'Stone at Lexington, Dec. 31, 1831, in Williams, <i>Life of Elder John Smith</i> (1870)', 'At Lexington') +
+           N('p. 454. Stone answering Smith, just before the handshake. Williams wrote in 1870; the words are his reconstruction.')),
+
+        _k(Q('&ldquo;Behold my beloved Son in whom I am well pleased; hear ye him.&rdquo; &hellip; he proposes it for <b>the religious creed of all the world</b>&hellip;',
+             SCOTT_EV, 'Walter Scott') +
+           N('p. 3, the opening of Scott&rsquo;s paper, the year of Lexington. &ldquo;He&rdquo; is the Father, speaking at the Jordan. Scott calls it &ldquo;this illustrious Oracle&rdquo;; the confession that Jesus is the Christ, the Son of God, is the creed.')),
+
+        _k(BIG(Q('&ldquo;&hellip;her only manual was, &lsquo;<b>The Bible</b>.&rsquo; And her all comprehensive creed for the binding of the faithful; &lsquo;<b>Jesus Christ is the Son of God</b>.&rsquo;&rdquo;',
+                 SCOTT_EV + ', &ldquo;Primitive Sufferings&rdquo;', 'The first church'), 'clamp(30px,6.6vmin,84px)', '30ch')) +
+        N('p. 32. It goes on: &ldquo;On this faith and this volume she gathered her children thick as the leaves in Autumn.&rdquo; The Bible is the manual; Christ is the creed. Both answers to the quiz, in one sentence, in 1832.'),
+
+        '<section data-src="crd" class="slide"><div class=eyebrow>Scott, 1832</div>'
+        '<div class=litany style="font-size:2.6em;max-width:88vw;gap:3vmin;text-align:left">'
+        '<div class="no frag">Her manual: <b>the Bible</b>.</div>'
+        '<div class="no frag">Her creed: <b>Jesus Christ is the Son of God</b>.</div>'
+        '</div><aside class=notes>Two clicks. Not rival answers: one is the book, the other is the confession. &ldquo;On this faith and this volume.&rdquo;</aside></section>',
+
+        _k(Q('&ldquo;It shows <b>the true creed</b>, and restores it to its native eminence above all other things in the gospel.&rdquo;',
+             SCOTT_M, 'Scott, 1859') +
+           N('p. 272, of the Messiahship, the confession that Jesus is the Christ. p. 211: &ldquo;the creed, built exclusively on Christ as the Son of the living God.&rdquo; p. 273: &ldquo;As a creed, it is exclusive of all foreign matter, and will make no concession to, or compromises with any other creed, Catholic or Protestant.&rdquo;')),
+
+        _k(Q('&ldquo;By a series of negations, <b>I might exclude every creed in Christendom</b> from its claims to be called the creed of our religion&hellip;&rdquo;',
+             SCOTT_M, 'Scott, 1859') +
+           N('pp. 274&ndash;275 (page to confirm). And arrive, he says, at the Messiahship. A creed of one article, a person.')),
+
+        _k(Q('&ldquo;&hellip;if any section of the Christian profession offers it in its practical forms as <b>the basis of Christian union</b>, the symbol of confession for the remission of sins, and the element of our perfection in holiness, save our brethren, the author is not aware of it.&rdquo;',
+             SCOTT_M + ', preface', 'What was ours') +
+           N('p. 7. &ldquo;It&rdquo; is &ldquo;the great oracle that &lsquo;Jesus is the Christ.&rsquo;&rdquo; Scott does not claim to have restored it; he claims his brethren alone made it the basis of union. Note: the phrase &ldquo;golden oracle&rdquo; is not in Scott&rsquo;s texts in our database; it is the title of Dwight Stevenson&rsquo;s biography of him (1946).')),
+
+        _k(Q('&ldquo;We have no authority but the Bible; we wear no name but &lsquo;Christians;&rsquo; and <b>we have no creed but Christ</b>.&rdquo;',
+             'T. W. Phillips, chairman, Centennial Convention, Pittsburgh (1909)', 'The slogan') +
+           N('The centennial of the <i>Declaration and Address</i>. By then the full slogan ran: &ldquo;No creed but Christ, no book but the Bible, no law but love, no name but the divine&rdquo; (<i>Encyclopedia of the Stone-Campbell Movement</i>, &ldquo;Slogans&rdquo;; no known author). The earliest uses in our corpus are 1909 and Garrison (1926).')),
+
+        _k(BIG(Q('&ldquo;&hellip;to state the anomaly as boldly as possible, the movement is at one and the same time <b>Christocentric and bibliocentric</b>.&rdquo;',
+                 'Dwight E. Stevenson, Disciples Panel of Scholars (1963)', 'The two answers'))) +
+        N('&ldquo;Faith versus Theology in the Thought of the Disciple Fathers,&rdquo; <i>The Renewal of Church</i>, vol. 2, pp. 33&ndash;60, as quoted in the <i>Encyclopedia</i> (&ldquo;Faith&rdquo;). Stevenson taught preaching at the College of the Bible (Lexington Theological Seminary) and wrote <i>Walter Scott: Voice of the Golden Oracle</i>. Paul Blowers&rsquo;s summary of him: the two slogans are &ldquo;very different proposals, as different as allegiance to Christ and allegiance to the strict letter of the scriptural text.&rdquo; Scott held them together; later readers pulled them apart.'),
     ] + list(extra)
