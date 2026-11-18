@@ -8,7 +8,72 @@
 
 ---
 
-## Draft outline (2026-11-15, for Micah to shape)
+## Story spine (Micah, 2026-11-18): the handshake, without Campbell's hermeneutic
+
+Micah: "They came together, they disagreed on all these things, they united and made this statement, and then it still took 3 years. Takeaway: they united around the Bible, not agreement on interpretations of the Bible." Tell this story first; then see how much room is left for the Campbell material (Facts and Story dossier).
+
+Every quotation below is checked (database: `10 Research Projects/The Lexington Union/README.md`). Williams = J. A. Williams, *Life of Elder John Smith* (1870), written 38 years later from Smith's papers and memory, so his speeches are reconstructions; CM = Stone's *Christian Messenger*.
+
+**Opening**
+1. Title.
+2. Quiz (from `quizzes.md`).
+3. Recap from Chapter 7: one slide.
+
+**I. Two movements** (a few slides)
+4. Stone's Christians (Cane Ridge, the Last Will, 1804) and Campbell's Reformers (the D&A, Brush Run, the Baptists): two portraits, two names.
+5. They already had the same aims: no creed, the Bible alone, union. Georgetown, autumn 1831, Stone with J. T. Johnson: "We saw no reason why we should not be the same family." (CM 6, Jan. 1832, p. 10)
+
+**II. The meeting**
+6. Lexington, Hill Street meetinghouse, Saturday, Dec. 31, 1831. A four-day meeting, after another four days at Georgetown over Christmas.
+7. "It was not a meeting of Elders or Preachers only, but a popular assembly". (Williams, p. 450)
+
+**III. (b) What they disagreed on** (one slide, built in, one line per click; Williams, p. 450, read off)
+8. "some of each party still cherished honest doubts respecting the doctrine of the others":
+   - **The Trinity:** "Some Reformers still looked upon the Christians as Arians".
+   - **The Spirit:** some Christians believed the Reformers denied the Spirit's influence in conversion (paraphrase; the OCR is scrambled here).
+   - **Baptism:** the Reformers "attached undue importance to baptism" (same, paraphrase); and "all did not hold in the same sense that baptism was for the remission of sins".
+   - **The name:** "the Christians still refused to give up their name" (Christian or Disciple).
+   - **The table:** "they still differed on the question of free or restricted communion".
+   - *Notes, not slide:* also weekly communion and ordination (the *Stone and Campbell Disagreements* dossier); both come back in Act V.
+
+**IV. (a) What was said**
+9. John Smith rises first: "God has but one people on the earth. He has given to them but one Book". (p. 452)
+10. Smith: "While there is but one faith, there may be ten thousand opinions; and hence, if Christians are ever to be one, they must be one in faith, and not in opinion." (p. 453)
+11. Smith: "let us all come to the Bible, and to the Bible alone, as the only book in the world that can give us all the Light we need." (p. 454)
+12. Stone answers: "Christians never can be one in their speculations upon those mysterious and sublime subjects". (p. 454)
+13. Stone: "I have not one objection to the ground laid down by him as the true scriptural basis of union among the people of God; and I am willing to give him, now and here, my hand." (p. 455; OCR scrambled, check the scan.)
+14. **The handshake.** Elders and teachers come forward and join hands; "A song arose". (p. 455)
+15. **The loaf.** "On Lord's day, they broke the loaf together". (p. 455) Notes: Williams is the only source for the Jan. 1 communion; Smith's own letter (CM, Feb. 1832) confirms shared tables in the following weeks.
+16. **The statement** (Stone and Johnson, CM 6, Jan. 1832), built in:
+    - "is there no difference of opinion among you? We answer, we do not know, nor are we concerned to know."
+    - "Have you no creed…? We answer, yes. We have a perfect one… we mean the New Testament."
+17. John Rogers: "We solemnly pledged ourselves to one another before God, to abandon all speculations, especially on the Trinity". (Stone, *Biography*, p. 343)
+
+**V. (c) How long it took** (a timeline slide, built in, then the Lexington episode)
+18. The timeline:
+    - Jan. 1832: Smith (Reformer) and Rogers (Christian) ride out together as evangelists.
+    - Feb. 1832: the two Lexington congregations pledge union, break bread together, and dissolve the pledge (Feb. 25).
+    - Feb. 1832: Smith has to defend himself to alarmed Reformers.
+    - 1834: Jacksonville, Ill.: Stone joins neither church "until they united together".
+    - July 1835: the Lexington congregations finally unite.
+19. **Lexington, February 1832.** Why it broke: "no person but a preacher has a right to administer the ordinances—such as the breaking of the loaf"; "alarmed at the idea of us common folks receiving the name of kings and priests to the Lord." (H. C. C., MH 1832, p. 192)
+20. **July 1835.** "Nor was a union between the two congregations finally and formally effected till in July, 1835". (Williams, p. 460)
+21. **Stone, years later:** union would have come as easily elsewhere "had there not been a few ignorant, headstrong bigots on both sides". (Stone, *Biography*; page to confirm)
+22. **Stone:** "This union, irrespective of reproach, I view as the noblest act of my life." (*Biography*, p. 79)
+
+**VI. Takeaway**
+23. They did not unite on agreement.
+24. They united around the Bible, not on agreement about how to read it.
+25. Ideas, discussion, site.
+
+**Count:** about 25 spine slides, against about 65 for Chapter 7. That leaves room for a Campbell section of 15–25 slides, or for side paths.
+
+**Where the Campbell material could go** (to decide after reading the spine):
+- **(i) After slide 24, as "how could that work?"** Campbell's own program (MH 1830: union "upon the belief of gospel facts"; interpretations "build the whole Babel"), then the facts as story, the ages as acts, and reading as the first readers did. The story first, then the theory.
+- **(ii) As side paths** off slides 10 (one faith, ten thousand opinions), 16 (the New Testament as creed) and 24 (the takeaway).
+- **(iii) Held for Chapter 9**, as its own session on how they read the Bible.
+
+## Earlier draft outline (2026-11-15; superseded by the story spine above)
 
 Options 1 and 6 combined: **they shook hands on the Bible; they broke bread on it; and the table was where "the Bible alone" was tested.** Sources and page numbers: database `10 Research Projects/The Lexington Union/README.md` (all quotations checked; Williams 1870 is the only source for the Jan. 1 communion and for July 1835).
 
