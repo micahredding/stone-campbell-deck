@@ -15,6 +15,7 @@ def _load(name, rel):
 w3b = _load('w3bslides', 'week3b/slides.py')
 w4 = _load('w4slides', 'week4/slides.py')
 R = _load('resources', 'resources.py')
+UM = _load('unionmap', 'week8/unionmap.py')
 w3 = w3b.w3
 C, CARD, G, BLACK = w4.C, w4.CARD, w4.G, w4.BLACK
 PATDEFS, CHRISTENDOM_CSS = w3b.PATDEFS, w3b.CHRISTENDOM_CSS
@@ -186,8 +187,9 @@ A(LIST('Beyond Lexington', 'Person by person, congregation by congregation',
    D('1832', 'Smith defends himself to his own alarmed Reformers'),
    D('1834', 'Jacksonville, Illinois: Stone joins neither church until they unite'),
    D('1835', 'Lexington, at last')],
-  'Four clicks. Stone at Jacksonville: &ldquo;I refused to unite with either until they united together, and labored to effect it. It was effected&rdquo; (<i>Biography</i>, p. 79). Where it was slow, Stone blamed &ldquo;a few ignorant, headstrong bigots on both sides.&rdquo; (The map of the spreading union goes here once the gazetteer is in.)',
+  'Four clicks. Stone at Jacksonville: &ldquo;I refused to unite with either until they united together, and labored to effect it. It was effected&rdquo; (<i>Biography</i>, p. 79). Where it was slow, Stone blamed &ldquo;a few ignorant, headstrong bigots on both sides.&rdquo;',
   size='clamp(28px,5.2vmin,66px)', gap='1.8vmin'))
+A(UM.slide())   # the union spreading, in waves (Micah, 2026-11-19)
 A(CARD('No magic moment.<br>' + G('It was worked out.'),
   'Visible unity came over years, with patience and forbearance, exploring together. Smith called it &ldquo;the best act of his life&rdquo; (Williams, p. 456); Stone, &ldquo;the noblest act of my life&rdquo; (<i>Biography</i>, p. 79).'))
 
