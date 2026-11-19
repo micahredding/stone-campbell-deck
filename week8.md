@@ -61,6 +61,11 @@ Every quotation below is checked (database: `10 Research Projects/The Lexington 
 13. Stone: "I have not one objection to the ground laid down by him as the true scriptural basis of union among the people of God; and I am willing to give him, now and here, my hand." (p. 455; checked on the scan.)
 14. **The handshake.** Elders and teachers come forward and join hands; "A song arose". (p. 455)
 15. **The loaf.** "On Lord's day, they broke the loaf together". (p. 455) Notes: Williams is the only source for the Jan. 1 communion; Smith's own letter (CM, Feb. 1832) confirms shared tables in the following weeks.
+15a. **One centre** (Micah, 2026-11-19): `R.circle()`, two slides.
+     - Slide one: Campbell's circle drawn (lines from the circumference meeting at the centre, with the loaf and cup there), and "Is it not obvious that all lines drawn from the circumference of any circle towards its centre, will meet in the same point?"
+     - Slide two: "…one and the same centre of faith, hope, and love… every sect coming to this centre".
+     - Source: *Millennial Harbinger*, Jan. 2, 1832, p. 36, the day after Hill Street, answering the charge that the Georgetown "Campbellites" had "united with the Arians". Doc `mh32a`, the whole piece from the scan.
+     - The same drawing is on the book cover.
 16. **The statement** (Stone and Johnson, CM 6, Jan. 1832), built in:
     - "is there no difference of opinion among you? We answer, we do not know, nor are we concerned to know."
     - "Have you no creed…? We answer, yes. We have a perfect one… we mean the New Testament."
