@@ -8,7 +8,107 @@
 
 ---
 
-## Story spine (Micah, 2026-11-18): the handshake, without Campbell's hermeneutic
+## Story spine v3 (Micah, 2026-11-19): the whole history of division comes to one table
+
+Micah's telling, dictated 2026-11-19, set out as slides. Earlier spines below are kept for their material. Checked sources:
+- `wil32`: Williams, pp. 449–456, from the scans.
+- `crd`: the no-creed side path.
+- `mh32a`: Campbell's circle.
+- The database dossier *The Lexington Union*.
+- Marburg: the database's *Who May Ordain / Churches Refusing Each Other's Orders*, A.1–A.2, and Chapter 3's Marburg slide (`decks/src/week3/slides.py`, the Noack painting).
+
+**Fact-check notes on the telling (read before writing slides):**
+- **The Spirit.** Williams says some Christians thought "the Reformers denied the influence of the Spirit". That is the Spirit's work in conversion (Campbell's word-alone view of how the Spirit works), not the Spirit's rank in the Trinity. The Trinity charge ran the other way: "Some Reformers still looked upon the Christians as Arians" (Christ's divinity). So on slide 10, say "the Spirit" and "Christ", and keep "within the Trinity" for Christ only.
+- **The date.** The meeting was Saturday, Dec. 31, 1831, at the start of a four-day meeting over New Year's 1832, with the loaf on Sunday, Jan. 1. "Lexington, 1832" is fine as shorthand.
+- **Clintonville, Bourbon County, October 1832,** a general meeting that ratified the union, comes from Bower's 1962 history of Central Christian Church, via therestorationmovement.com. It is secondary: verify it before it goes on a slide.
+
+**Opening**
+1. Title.
+2. Quiz: "No creed but…" (left open; called back in section X).
+
+**I. Recap: unity, freedom, priesthood, and refused on every side** (about 5 slides, from Chapters 1–7)
+3. Two streams seeking **unity**: Cane Ridge's open table; the *Declaration and Address*.
+4. **Freedom** of conscience and of the people over outside authorities: Thomas Campbell before the Synod; the Last Will.
+5. They **laid down their own authority** rather than stand in the way: the Springfield Presbytery dissolves itself (1804); Mahoning dissolves itself (1830).
+6. **Unity, freedom, and the priesthood** together: Brush Run ordains by the choice of the people.
+7. **And on every side they were refused**, because they would not draw the lines where others drew them: the Synod (1810), the Baptists (1820s–30), the Presbyterians (Stone). Side path: *Joined, refused, dissolved* (`R.associations()`).
+8. **The question:** can they achieve unity with anyone?
+
+**II. 1832: two movements**
+9. Our predecessors, the movement that led to us, and yet in 1831 they are two movements:
+   - Stone's people want only to be called *Christians*; Campbell's, *Disciples*.
+   - Both have rejected creeds, and every authority but Scripture.
+   - Can they unite with each other?
+
+**III. Lexington: the differences** (Williams, p. 450, read off; one slide built in, then the grouping)
+10. A four-day meeting; on the Saturday they "talk over, once more, and finally, the points of difference":
+    - **Christ:** "Some Reformers still looked upon the Christians as Arians".
+    - **The Spirit:** "some Christians were adverse to the union, in the belief that the Reformers denied the influence of the Spirit, and attached undue importance to baptism."
+    - **Baptism:** "all did not hold in the same sense that baptism was for the remission of sins".
+    - **The table, how open:** "they still differed on the question of free or restricted communion".
+    - **The table, how often:** Stone: the Reformers "insisted also upon weekly communion, which we had neglected" (Stone, *Biography*).
+    - **Clergy:** one people, no clergy over them, yet they differ on who may serve. Stone (1830): "the church may elect, but not ordain". The Lexington congregations split over exactly this in February 1832 (section VIII).
+    - **The name:** "the Christians still refused to give up their name".
+
+**IV. The whole history of Christian division at one table**
+11. Group the list under three heads:
+    - **God:** the Trinity (Nicaea, 325; the Arians).
+    - **Authority:** who governs, who is clergy (1054; the Reformation).
+    - **The sacraments:** baptism, the table, how open, how often (1529).
+
+    These are the things that divided Christendom for nearly two thousand years.
+12. The river of division: reuse `decks/elements/christendom-divisions.html` (Chapter 3's diagram, 325–1806).
+13. **Marburg, 1529:** reuse Chapter 3's slide (Noack's painting): Luther and Zwingli agree on fourteen articles, and on the fifteenth everything but the bodily presence.
+14. Luther, to his wife, from Marburg: "the Landgrave is making every effort to unite us, or at least to make us consider each other brethren and members of Christ's body… But although we object to be brethren, we wish to live at peace and on good terms." (Luther to Katharina, Oct. 4, 1529, trans. Currie, 1908, p. 197; verified in the database)
+    - *Notes:* the Lutheran decision, per Brenz: the Zwinglians are to be acknowledged "as friends, but not as brothers and members of the church of Christ" (WA 30 III, p. 155). Luther would not take the offered hand.
+15. **The question again:** all Christendom had failed to unite across these. Every one of these divisions is in the room at Lexington. Can they?
+
+**V. The proposition: unite around the Bible**
+16. Smith: "God has but one people on the earth. He has given to them but one Book". (p. 452)
+17. Smith: "an amalgamation of sects is not such a union as Christ prayed for". (p. 452)
+18. Smith: "While there is but one faith, there may be ten thousand opinions; and hence, if Christians are ever to be one, they must be one in faith, and not in opinion." (p. 453)
+19. Smith: "let us all come to the Bible, and to the Bible alone". (p. 454)
+20. Stone: "Christians never can be one in their speculations upon those mysterious and sublime subjects". (p. 454)
+21. Stone: "I am willing to give him, now and here, my hand." (p. 455)
+22. **The handshake:** the Cane Ridge window (`decks/src/week8/images/cane-ridge-window-lexington-handshake.jpg`). Set it against Marburg: Luther withheld his hand, Stone offered his.
+23. "A song arose…" and "On Lord's day, they broke the loaf together". (p. 455)
+
+**VI. Not agreement on interpretation**
+24. Re-emphasize: they did not agree on how to read it.
+25. "is there no difference of opinion among you? We answer, we do not know, nor are we concerned to know." (Stone and Johnson, CM, Jan. 1832; also in Williams, p. 456)
+26. Campbell's circle, two slides (`R.circle()`): "all lines drawn from the circumference of any circle towards its centre, will meet in the same point"; "one and the same centre of faith, hope, and love".
+
+**VII. It took three years**
+27. **The differences mattered in practice.** Lexington's two congregations pledge union and break bread (Feb. 12–19, 1832), then dissolve it over who may serve the loaf: "no person but a preacher has a right to administer the ordinances"; "alarmed at the idea of us common folks receiving the name of kings and priests to the Lord" (H. C. C., MH 1832, p. 192). Side path: *Who keeps the table* (`R.table()`).
+28. **July 1835:** "Nor was a union between the two congregations finally and formally effected till in July, 1835". (Williams, p. 460)
+29. **Beyond Lexington: person by person, congregation by congregation.**
+    - Smith and Rogers ride together to every church (1832).
+    - Stone in Jacksonville (1834): "I refused to unite with either until they united together, and labored to effect it. It was effected."
+    - Stone on the places it was slow: "a few ignorant, headstrong bigots on both sides".
+30. **No magic moment.** Visible unity was worked out over years, with patience and forbearance. Smith called it "the best act of his life" (Williams, p. 456); Stone, "the noblest act of my life".
+
+**VIII. And it worked**
+31. Today it is one movement, and a shared history. Ask: in the Churches of Christ, are we more Stone or more Campbell? (Discussion: weekly communion, baptism, elders and preachers, the name, the open table.) It gets confusing, and that is the point.
+
+**IX. The quiz, again: No creed but…**
+32. The room's two answers. Stevenson (1963): the movement is "at one and the same time Christocentric and bibliocentric"; Blowers: "very different proposals".
+33. Walter Scott, the year of Lexington: "…her only manual was, 'The Bible.' And her all comprehensive creed for the binding of the faithful; 'Jesus Christ is the Son of God.'" (*Evangelist*, 1832, p. 32) Side path: *No creed but…* (`R.creed()`).
+34. They are different proposals only if we forget what they first meant.
+    - Uniting "on the Bible" was never uniting on opinions about the Bible: Smith, "no deduction or inference from them, however logical or true, forms any part of the Gospel of Jesus Christ" (p. 453).
+    - Notes: Micah prefers "No creed but Christ"; say so in his own voice.
+35. Williams's summary of what the handshake meant: "The brethren of Stone did not join Alexander Campbell as their leader, nor did the brethren of Campbell join Barton W. Stone as their leader; but each, having already taken Jesus the Christ as their only Leader, in love and liberty became one body". (p. 456)
+36. **The point:** they united in a shared practice, coming to Scripture to meet Christ. What that looked like in each person and congregation could be as far apart as all the historic streams of Christianity, and still they held it could bring them together.
+
+**X. Close**
+37. Ideas.
+38. Discussion.
+39. Site.
+
+**Count:** about 40 spine slides, plus the reused Chapter 3 slides and the three side paths (associations, the table, no creed).
+
+## Earlier spine v2 (2026-11-18; superseded by v3 above)
+
+### Story spine (Micah, 2026-11-18): the handshake, without Campbell's hermeneutic
 
 Micah: "They came together, they disagreed on all these things, they united and made this statement, and then it still took 3 years. Takeaway: they united around the Bible, not agreement on interpretations of the Bible." Tell this story first; then see how much room is left for the Campbell material (Facts and Story dossier).
 
