@@ -10,6 +10,18 @@
 
 ---
 
+## "Raccoon" John Smith, for flavor (2026-11-18; checked against Williams, *Life of Elder John Smith*, 1870, and the *Encyclopedia*, "Smith, 'Raccoon' John")
+
+- **The frontier.** Born 1784 in East Tennessee to a Regular Baptist family. Raised in Stockton's Valley, under Poplar Mountain in what is now Clinton County, Kentucky, then "an almost unbroken solitude". He "never had more than six months of schooling" but was "a voracious reader and a diligent student of oratory" (*Encyclopedia*). At twelve he was sent alone through the wilderness with two pack horses to the nearest mill.
+- **The fire, January 1815.** He had moved his family to the Hickory Flats near Huntsville, Alabama, dreaming of cotton land. While he was away preaching, a messenger came: "Your house took fire last night, and every thing is lost. Two of the children were burned to death" (Williams, p. 102). Riding home, the Calvinist preacher found he could not comfort his wife: "If I tell her that our babies are glorified, the thought that possibly they were of the non-elect will only aggravate her woe." His faith in that doctrine "yielded up its strength forever" (p. 103). Anna died soon after (1815). He remarried, to Nancy Hurt, and moved to Montgomery County, east of Lexington.
+- **The name.** Snubbed at Frankfort, where every church was closed to him, he preached in the court-room by the judge's leave ("Tell him I will adjourn the court, and he can preach in the court-room"). Philip Fall posted notices that "Raccoon John Smith would preach", and ever after "some knew me as 'Raccoon John Smith, of Montgomery'" (pp. 277–278). The *Encyclopedia*: a title "he disliked but tolerated".
+- **The preacher.**
+  - A deep, chant-like voice.
+  - In 1828, more than thirty baptisms a week for months. To his wife: "I have baptized seven hundred sinners and capsized fifteen hundred Baptists" (p. 258).
+  - He farmed his whole life, because the Baptists did not pay their preachers.
+- **His wit.** To a Reformer boasting that the last of his Calvinism was gone: "you may have drained out the last drop from the cask, but the very hoops and staves smell of it still!" (p. 431)
+- **At Lexington.** Chosen by the Disciples to speak first. Afterwards he called the union "the best act of his life". To a brother who feared it would drive the Baptists further off: "certain I am that the union of Christians, upon a scriptural basis, is right, and that it can never be bad policy to do what is right" (p. 456).
+
 ## Deck order v4 (Micah, 2026-11-20), as built in `decks/chapter8.html`
 
 1. **Recap:** the story so far: Cane Ridge, Thomas Campbell, Alexander, the *Declaration*, the *Last Will*, Brush Run, the *Harbinger*.
