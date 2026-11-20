@@ -2,6 +2,8 @@
 
 [← All chapters](.)
 
+**Slides:** [Chapter 8 deck](decks/chapter8.html) (draft, Nov 20; opens with the quiz "No creed but…"; side paths: "Joined, refused, dissolved", "Who keeps the table", "No creed but…"; the map of the union spreading, 1831–1835)
+
 **The Story:** In Lexington, two unity and reform movements, represented by Barton W Stone and Raccoon John Smith, come together to work out unity with each other. Yet after days of wrestling, they disagree on many foundational issues. The only basis for unity they can come up with is the Bible. And that's what they shake on.
 
 **The Idea**: Our movement is united around a commitment to the Bible—NOT agreement on _interpretations_ of the Bible! While uniting on interpretations is impossible, uniting on commitment to wrestle with Scripture actually worked at least once.
