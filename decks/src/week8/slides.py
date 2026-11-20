@@ -134,9 +134,6 @@ A(DS(LIST('&ldquo;Honest doubts respecting the doctrine of the others&rdquo;', '
 
 # ---------- IV. EVERY HISTORIC DIVISION AT ONE TABLE ----------
 for _x in DV.slides(): A(_x)   # the egg replayed; God, authority and clergy, the sacraments, each answered at Lexington
-A(QK('&ldquo;To-day the Landgrave is making every effort to unite us, or at least to make us consider each other brethren and members of Christ&rsquo;s body&hellip; But <b>although we object to be brethren</b>, we wish to live at peace and on good terms.&rdquo;',
-     'Martin Luther to Katharina, Marburg, October 4, 1529 (trans. Currie, 1908)', 'Luther, from Marburg', 'none',
-     'Checked in the research database (<i>Who May Ordain / Churches Refusing Each Other&rsquo;s Orders</i>, A.2; Currie, <i>The Letters of Martin Luther</i>, p. 197). The Lutherans&rsquo; decision, per Brenz: the Zwinglians to be acknowledged &ldquo;as friends, but not as brothers and members of the church of Christ&rdquo; (WA 30 III, p. 155). Luther would not take the offered hand.', doc='lex'))
 A(CARD('Every one of these divisions<br>' + G('was in the room at Lexington.'),
   'All Christendom had failed to unite across them. Can two small movements in Kentucky?'))
 
