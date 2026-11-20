@@ -11,3 +11,16 @@ https://therestorationmovement.com/_states/kentucky/hillstreet.htm (downloaded 2
 | `hill-street-meetinghouse-photo-1970s.jpg` | Framed photograph of the building in the 1970s, shortly before demolition (on display, apparently at Cane Ridge). |
 
 Rights: photographs by the site's author; the windows and Bower's painting are 20th-century works. Fine for the class room; ask before putting them on the public site.
+
+## The division slides (2026-11-20, `decks/src/week8/division.py`)
+
+| File | What it is | Source / rights |
+|---|---|---|
+| `egg/egg-*.jpg` | Twelve frames of Chapter 3's egg (Christendom's search for unity) | Ours: `decks/elements/egg-frames/` |
+| `nicaea-icon.jpg` | The Fathers of Nicaea holding the Nicene Creed (modern Orthodox icon) | Wikimedia Commons, "Nicaea icon.jpg" (downloaded from upload.wikimedia.org, 2026-11-20). Rights to check before the public site. |
+| `hus_degraded.jpg` | "Trial of Huss: Degrading the Martyr" (Constance, 1415) | Wylie, *History of Protestantism* (c. 1870s); public domain. Copy of Chapter 6's image. |
+| `luther_bull.jpg` | Luther burns the papal bull (1520) | Reinier Vinkeles, 1783; Rijksmuseum RP-P-OB-64.217; public domain. Copy of Chapter 6's image. |
+| `ejection.jpg` | "Ejection of Nonconformists on St. Bartholomew's Day" (1662) | *Cassell's Illustrated History of England*, vol. 3 (1865), p. 427; public domain. Copy of Chapter 6's image. |
+| `manz_drowning.jpg` | The drowning of Felix Manz, Zurich, 1527 | Jan Luyken, *Martyrs Mirror* (1685); public domain. Copy of Chapters 3 and 6's image. |
+| `marburg.jpg` | Marburg, 1529 (detail) | August Noack, 1867–69; public domain. Copy of Chapter 3's image. |
+| `hagia_sophia_hildebrandt.jpg` | Hagia Sophia (Hildebrandt, c. 1852), for 1054 if wanted | Wikimedia Commons; public domain. Not used yet. |
