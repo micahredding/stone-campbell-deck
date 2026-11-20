@@ -8,21 +8,19 @@ sys.path.insert(0, os.path.join(_H, '..'))
 import mapdeck, resources as R
 
 SIDE = [
-    R.ASSOCIATIONS,   # off "They were refused": the whole timeline of joining and refusal
     R.TABLE,          # off Lexington, February 1832: who may serve the table
     R.CREED,          # off Scott, 1832: No creed but...
 ]
 SECTIONS = [
     ('Opening', 'Our Wild Democracy &middot; Chapter 8'),
     ('Recap', 'The story so far'),
-    ('Two movements', 'Our movement, our tradition'),
+    ('Two movements, much in common', 'Our movement, our tradition'),
     ('Lexington', 'Hill Street, Lexington'),
-    ('Every division at one table', 'Two thousand years of division'),
-    ('The proposition', 'The proposition</h2>'),
-    ('Not agreement', 'on how to read it.'),
-    ('Three years', 'It took three years'),
+    ('The whole history of division', 'Two thousand years of division &middot; 1'),
+    ('The handshake', 'The proposition</h2>'),
+    ('It took years', 'It took years</h2>'),
     ('It worked', 'one movement, one history.'),
-    ('No creed but..., again', 'The quiz, again'),
+    ('Uniting on the Bible', 'Uniting on the Bible</h2>'),
     ('Close', 'for discussion &middot; Chapter 8'),
 ]
 def docs(between, clean): return R.docs(between, clean, ['wil32', 'lex', 'mh32a', 'crd', 'tbl'])

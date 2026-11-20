@@ -10,6 +10,60 @@
 
 ---
 
+## Deck order v4 (Micah, 2026-11-20), as built in `decks/chapter8.html`
+
+1. **Recap:** the story so far: Cane Ridge, Thomas Campbell, Alexander, the *Declaration*, the *Last Will*, Brush Run, the *Harbinger*.
+2. **Our movement, two movements:** this is our movement, but until 1832 it was two. Then the side-by-side slide of what they had in common:
+   - unity with freedom of opinion;
+   - an open table;
+   - no creed as a test;
+   - the priesthood of all, with governance in the people;
+   - a radical future.
+
+   Then "So much in common: surely they could unite with each other", and Georgetown, "the same family".
+3. **Lexington:** Hill Street; "a popular assembly", the people and not delegates; the points of contention, side by side.
+4. **The whole history of division:**
+   - the egg replayed;
+   - God (Nicaea);
+   - authority and clergy (1415, 1520, 1662);
+   - the sacraments (Zurich, 1527; Marburg, 1529);
+   - "Every division of eighteen centuries in one room."
+5. **The handshake:**
+   - Smith's speech: one Book; one faith, ten thousand opinions;
+   - Stone's reply, and his hand;
+   - "Not agreement of opinion: agreement of faith";
+   - "we do not know, nor are we concerned to know";
+   - the window; the song and the loaf.
+6. **It took years:**
+   - February 1832 (side path: *Who keeps the table*);
+   - July 1835;
+   - beyond Lexington;
+   - the map;
+   - "No magic moment."
+7. **It worked:** one movement, one history.
+8. **Uniting on the Bible:**
+   - "Not uniting on opinions about the Bible";
+   - the quiz again;
+   - Christ alone (Campbell, 1826; *Christian System*, "one fact");
+   - Scott's manual and creed (side path: *No creed but…*);
+   - "and the Scriptures" (D&A Proposition 1; Eric's wish);
+   - Smith, "the Bible alone";
+   - Stevenson;
+   - D&A Proposition 6;
+   - Smith, "no deduction or inference";
+   - "Different proposals, only if we forget";
+   - Campbell's circle;
+   - Williams, "their only Leader";
+   - "Scripture, like the table: shared by all."
+9. **Close:** ideas (the fourth is now "Scripture, like the table, is shared by all"), discussion, site.
+
+**Taken out of the spine:**
+- the "Five things" slide (its contents are now the shared-ground rows);
+- "They were refused" and "Can they achieve unity with anyone?", with the *Joined, refused, dissolved* side path;
+- the Williams list of differences (now in the notes of "Points of contention");
+- Smith's "amalgamation of sects" line;
+- "Are we more Stone or Campbell?" (now in the notes of "It worked").
+
 ## Story spine v3 (Micah, 2026-11-19): the whole history of division comes to one table
 
 Micah's telling, dictated 2026-11-19, set out as slides. Earlier spines below are kept for their material. Checked sources:

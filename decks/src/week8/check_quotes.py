@@ -16,6 +16,9 @@ SRC = {
     'enc': os.path.join(X, 'The Encyclopedia of the Stone-Campbell Movement (Douglas A. Foster).md'),
     'ev32': os.path.join(P, 'The Evangelist', 'The Evangelist Volume 1 (1832).md'),
     'bio': os.path.join(X, 'The Biography of Eld. Barton Warren Stone.md'),
+    'cb3': os.path.join(P, 'Christian Baptist', 'Christian Baptist Volume 3.md'),
+    'cs': os.path.join(X, 'The Christian System (Alexander Campbell).md'),
+    'dna': os.path.join(X, 'declaration-and-address-1809_fulltext.md'),
 }
 spec = importlib.util.spec_from_file_location('w8', os.path.join(H, 'slides.py')); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
 bad = 0
