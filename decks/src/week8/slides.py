@@ -77,14 +77,26 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
   '<div class=sub>Stone&rsquo;s Christians and Campbell&rsquo;s Disciples &middot; 1831&ndash;1835</div>'
   '<aside class=notes>Chapter 8. Last week: the <i>Millennial Harbinger</i>, a movement living toward God&rsquo;s future. This morning: can they unite with anyone, even each other?</aside></section>')
 
-# ---------- I. RECAP ----------
-A(LIST('Where we are', 'What they were reaching for',
-  ['<b>Unity:</b> Cane Ridge&rsquo;s open table; the <i>Declaration and Address</i>',
-   '<b>Freedom:</b> conscience, and the people, over every outside authority',
-   '<b>Laying down their own authority:</b> the Springfield Presbytery dies (1804); Mahoning dissolves itself (1830)',
-   '<b>The priesthood of all:</b> Brush Run ordains by the choice of the people (1812)'],
-  'Four clicks, one breath each. Unity, freedom, priesthood, and a willingness to dissolve their own bodies rather than stand in the way.',
-  size='clamp(26px,4.8vmin,60px)', gap='2vmin'))
+# ---------- I. RECAP (Micah, 2026-11-20: the whole story, then five things they reached for) ----------
+A(LIST('Where we are', 'The story so far',
+  [D('1801', 'Cane Ridge: thousands at one table'),
+   D('Ireland', 'Thomas Campbell works for union among divided Seceders, in a violent, war-torn land'),
+   D('1807', 'In America, he serves the Supper to Presbyterians of other sects, and is tried for it'),
+   D('1808&ndash;09', 'Alexander, shipwrecked in Scotland, gives back his communion token'),
+   D('1809', 'The <i>Declaration and Address</i>: union and freedom of conscience'),
+   D('1804', 'The <i>Last Will</i>: a presbytery lays down its authority for the unity of the body'),
+   D('1812', 'Brush Run: the people ordain, as kings and priests'),
+   D('1830', 'The <i>Millennial Harbinger</i>: a radical future, religious and social reform')],
+  'Eight clicks, one breath each, in the order we told them (the <i>Last Will</i>, 1804, was Chapter 4, after the <i>Declaration</i>). Ireland: Thomas worked to reunite the Burgher and Anti-Burgher Seceders in Ulster, in the years of the 1798 rebellion and its aftermath. 1807: censured by the Presbytery of Chartiers for serving the Supper beyond the Seceders; he left them in 1808&ndash;09. Alexander in Glasgow, 1808&ndash;09: he would not take communion with a church that excluded the independents (Ewing, the Haldanes). Brush Run: Alexander ordained by the congregation, January 1812.',
+  size='clamp(24px,4.3vmin,54px)', gap='1.3vmin'))
+A(LIST('What they were reaching for', 'Five things',
+  ['<b>Unity:</b> one body, one table',
+   '<b>Freedom:</b> of conscience, and of the people, over every outside authority',
+   '<b>Laying down their own authority,</b> so as not to stand in the way',
+   '<b>The priesthood of all:</b> the people take up their rightful power',
+   '<b>A radical future:</b> religious and social reform'],
+  'Five clicks. The fifth is last week&rsquo;s: the <i>Millennial Harbinger</i>, whose Prospectus aimed at &ldquo;that political and religious order of society called THE MILLENNIUM,&rdquo; with the end of sectarianism, education, and &ldquo;the treatment of African slaves, as preparatory to their emancipation.&rdquo;',
+  size='clamp(30px,5.8vmin,72px)', gap='2vmin'))
 A(R.ASSOC_SUMMARY.replace('<div class=eyebrow>From the Evangelical Society on</div>', '<div class=eyebrow>And on every side</div>', 1)
    .replace('<h2 style="max-width:none">Joined, refused, dissolved</h2>', '<h2 style="max-width:none">They were refused</h2>', 1))
 for _x in R.associations(): A(_x)   # side path: the whole timeline of joining and refusal
@@ -93,13 +105,9 @@ A(CARD('Because they would not<br>' + G('draw the lines where others drew them.'
 A(CARD('Can they achieve unity<br>' + G('with anyone?'), 'Hold the question.'))
 
 # ---------- II. TWO MOVEMENTS ----------
-A(C('1831: two movements', 'Our predecessors, the movement that led to us, and in 1831 still two.', '1831'))
-A('<section class="slide"><div class=eyebrow>Two names</div>'
-  '<div class=litany style="gap:3vmin;max-width:88vw">'
-  '<div class=no style="font-size:clamp(34px,6.8vmin,86px)">Stone&rsquo;s people: <span style="color:var(--gold)">Christians</span>, only.</div>'
-  '<div class="no frag" style="font-size:clamp(34px,6.8vmin,86px)">Campbell&rsquo;s people: <span style="color:var(--gold)">Disciples</span>, only.</div>'
-  '<div class="no frag" style="font-size:clamp(28px,5vmin,62px);color:var(--bone-dim)">No creed. No authority but Scripture.</div></div>'
-  '<aside class=notes>Two clicks. Stone&rsquo;s churches in Kentucky and Ohio since 1804; Campbell&rsquo;s &ldquo;Reformers,&rdquo; put out of the Baptist associations by 1830. Both had rejected creeds and every authority but Scripture. In Georgetown, in the autumn of 1831, the two began to worship together.</aside></section>')
+A(C('Our movement, our tradition', 'This is the movement that led to us. Until 1832, it was two.', 'Until 1832'))
+A('<section class="slide" style="padding:3vmin 4vw 6vmin"><div class=eyebrow>Two movements, side by side</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:4vw;width:88vw;align-items:end;margin:1vmin 0 2vmin"><div style="text-align:right"><img src="IMG_STONE" alt="Barton W. Stone" style="height:24vh;width:auto;border:1px solid rgba(201,162,74,.55);box-shadow:0 6px 24px rgba(0,0,0,.6)"><div style="font-family:\'IM Fell English\',Georgia,serif;color:var(--gold);font-size:clamp(26px,4.6vmin,58px)">Stone&rsquo;s Christians</div></div><div style="text-align:left"><img src="IMG_ACAMPBELL" alt="Alexander Campbell" style="height:24vh;width:auto;border:1px solid rgba(201,162,74,.55);box-shadow:0 6px 24px rgba(0,0,0,.6)"><div style="font-family:\'IM Fell English\',Georgia,serif;color:var(--gold);font-size:clamp(26px,4.6vmin,58px)">Campbell&rsquo;s Disciples</div></div></div><div class=litany style="gap:1.2vmin;width:88vw;max-width:none"><div class="no frag" style="display:grid;grid-template-columns:1fr 1fr;gap:4vw;font-size:clamp(20px,3.5vmin,44px);line-height:1.25"><div style="text-align:right">Known only as <b style="color:var(--gold)">Christians</b></div><div style="text-align:left">Known only as <b style="color:var(--gold)">Disciples</b></div></div><div class="no frag" style="display:grid;grid-template-columns:1fr 1fr;gap:4vw;font-size:clamp(20px,3.5vmin,44px);line-height:1.25"><div style="text-align:right">No creed; &ldquo;no creed but the Bible&rdquo;</div><div style="text-align:left">No creed as a test; &ldquo;the Bible alone&rdquo;</div></div><div class="no frag" style="display:grid;grid-template-columns:1fr 1fr;gap:4vw;font-size:clamp(20px,3.5vmin,44px);line-height:1.25"><div style="text-align:right">Unity: the <i>Last Will</i> dissolves their own presbytery</div><div style="text-align:left">Unity: the <i>Declaration and Address</i></div></div><div class="no frag" style="display:grid;grid-template-columns:1fr 1fr;gap:4vw;font-size:clamp(20px,3.5vmin,44px);line-height:1.25"><div style="text-align:right">An open table: they invite none, debar none</div><div style="text-align:left">A table every Lord&rsquo;s day</div></div><div class="no frag" style="display:grid;grid-template-columns:1fr 1fr;gap:4vw;font-size:clamp(20px,3.5vmin,44px);line-height:1.25"><div style="text-align:right">Each congregation governs itself</div><div style="text-align:left">The people ordain their own elders</div></div><div class="no frag" style="display:grid;grid-template-columns:1fr 1fr;gap:4vw;font-size:clamp(20px,3.5vmin,44px);line-height:1.25"><div style="text-align:right">The end near: Christ&rsquo;s kingdom breaking in</div><div style="text-align:left">A radical future: the <i>Millennial Harbinger</i></div></div><div class="no frag" style="display:grid;grid-template-columns:1fr 1fr;gap:4vw;font-size:clamp(20px,3.5vmin,44px);line-height:1.25"><div style="text-align:right">Kentucky and Ohio</div><div style="text-align:left">Virginia, Pennsylvania, Ohio, Kentucky</div></div></div><aside class=notes>Seven clicks, one row each. The same family, two names. Stone&rsquo;s Christians: since the <i>Last Will</i> (1804), in Kentucky and Ohio; an open table (his editors&rsquo; note on Smith&rsquo;s letter, 1832: &ldquo;Nor debar them&rdquo;); premillennial by 1832&ndash;33. Campbell&rsquo;s Disciples (&ldquo;Reformers&rdquo; to others): put out of the Baptist associations by 1830; weekly communion; Brush Run&rsquo;s ordination by the people; the <i>Harbinger</i>. Both: no creed as a test, the Bible alone, union. In Georgetown, in the autumn of 1831, they began to worship together.</aside></section>')
+
 A(QK('&ldquo;We saw no reason why <b>we should not be the same family</b>.&rdquo;',
      CM + ', January 1832', 'Georgetown, autumn 1831', 'cm6',
      '&ldquo;Union of Christians,&rdquo; <i>CM</i> 6, p. 6. Stone and J. T. Johnson, in Georgetown: &ldquo;the Reforming Baptists, (known invidiously, by the name of Campbellites,) and the Christians, in Georgetown and the neighborhood, agreed to meet and worship together. We soon found that we were indeed in the same spirit, on the same foundation, the New Testament, and wore the same name, Christian.&rdquo;',

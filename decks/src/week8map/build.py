@@ -14,8 +14,8 @@ SIDE = [
 ]
 SECTIONS = [
     ('Opening', 'Our Wild Democracy &middot; Chapter 8'),
-    ('Recap', 'What they were reaching for'),
-    ('Two movements', '1831: two movements'),
+    ('Recap', 'The story so far'),
+    ('Two movements', 'Our movement, our tradition'),
     ('Lexington', 'Hill Street, Lexington'),
     ('Every division at one table', 'Two thousand years of division'),
     ('The proposition', 'The proposition</h2>'),
