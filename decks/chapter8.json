@@ -692,139 +692,153 @@
   {
    "index": 98,
    "n": 99,
-   "title": "Dwight Stevenson, 1963 \"...to state the anomaly as boldly as possible, the movement is at ",
+   "title": "The Centennial, 1909 \" We have no authority but the Bible ; we wear no name but 'Christian",
    "path": "spine",
    "doc": "crd"
   },
   {
    "index": 99,
    "n": 100,
-   "title": "Paul Blowers, 2004 \"... very different proposals , as different as allegiance to Christ an",
+   "title": "Dwight Stevenson, 1963 \"...to state the anomaly as boldly as possible, the movement is at ",
    "path": "spine",
    "doc": "crd"
   },
   {
    "index": 100,
    "n": 101,
+   "title": "Paul Blowers, 2004 \"... very different proposals , as different as allegiance to Christ an",
+   "path": "spine",
+   "doc": "crd"
+  },
+  {
+   "index": 101,
+   "n": 102,
    "title": "But",
    "path": "spine",
    "doc": null
   },
   {
-   "index": 101,
-   "n": 102,
+   "index": 102,
+   "n": 103,
    "title": "Not our readings \"...inferences and deductions from Scripture premises... are they not for",
    "path": "spine",
    "doc": "lex"
   },
   {
-   "index": 102,
-   "n": 103,
+   "index": 103,
+   "n": 104,
    "title": "Smith, the same morning \"... no deduction or inference from them, however logical or true,",
    "path": "spine",
    "doc": "wil32"
   },
   {
-   "index": 103,
-   "n": 104,
+   "index": 104,
+   "n": 105,
    "title": "Stone and Johnson \"If they have opinions different from ours, they are welcome to have the",
    "path": "spine",
    "doc": "lex"
   },
   {
-   "index": 104,
-   "n": 105,
-   "title": "How can they unite around the Bible, but not its interpretations?",
-   "path": "spine",
-   "doc": null
-  },
-  {
    "index": 105,
    "n": 106,
-   "title": "Practically: they spoke in the Bible's own words.",
+   "title": "How can they unite around the Bible, but not its interpretations?",
    "path": "spine",
    "doc": null
   },
   {
    "index": 106,
    "n": 107,
+   "title": "Practically: they spoke in the Bible's own words.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 107,
+   "n": 108,
    "title": "Smith, at Lexington \"For several years past I have tried to speak on such subjects only in",
    "path": "spine",
    "doc": "wil32"
   },
   {
-   "index": 107,
-   "n": 108,
-   "title": "Like the liturgy: immersed in Scripture's words.",
-   "path": "spine",
-   "doc": null
-  },
-  {
    "index": 108,
    "n": 109,
-   "title": "Sacramentally: formed by its words and its story.",
+   "title": "Like the liturgy: immersed in Scripture's words.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 109,
    "n": 110,
-   "title": "We do this here.",
+   "title": "Sacramentally: formed by its words and its story.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 110,
    "n": 111,
-   "title": "Idea 1 of 4 Every historic division came to one table.",
+   "title": "We do this here.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 111,
    "n": 112,
-   "title": "Idea 2 of 4 They united around the Bible, not their readings of it.",
+   "title": "Scripture, like the table: shared by all.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 112,
    "n": 113,
-   "title": "Idea 3 of 4 Unity was not a moment. It was worked out.",
+   "title": "Idea 1 of 4 Every historic division came to one table.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 113,
    "n": 114,
-   "title": "Idea 4 of 4 Scripture, like the table, is shared by all.",
+   "title": "Idea 2 of 4 They united around the Bible, not their readings of it.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 114,
    "n": 115,
-   "title": "Today's ideas 1. Every historic division came to one table. 2. They united around the Bibl",
+   "title": "Idea 3 of 4 Unity was not a moment. It was worked out.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 115,
    "n": 116,
-   "title": "for discussion Chapter 8 What is beautiful here? What do we carry forward?",
+   "title": "Idea 4 of 4 Scripture, like the table, is shared by all.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 116,
    "n": 117,
-   "title": "Online stone-campbell .micahredding.com Home Timeline Exhibits People Exhibits Timeline Pe",
+   "title": "Today's ideas 1. Every historic division came to one table. 2. They united around the Bibl",
    "path": "spine",
    "doc": null
   },
   {
    "index": 117,
    "n": 118,
+   "title": "for discussion Chapter 8 What is beautiful here? What do we carry forward?",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 118,
+   "n": 119,
+   "title": "Online stone-campbell .micahredding.com Home Timeline Exhibits People Exhibits Timeline Pe",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 119,
+   "n": 120,
    "title": "(black)",
    "path": "spine",
    "doc": null
@@ -913,7 +927,9 @@
   114,
   115,
   116,
-  117
+  117,
+  118,
+  119
  ],
  "branches": [
   {
@@ -1015,7 +1031,7 @@
   },
   {
    "label": "Close",
-   "at": 80
+   "at": 82
   }
  ],
  "docs": [
@@ -1405,40 +1421,45 @@
   {
    "slide": 98,
    "doc": "crd",
-   "text": "to state the anomaly as boldly as possible, the movement is at one and the same time Christocentric and bibliocentric."
+   "text": "We have no authority but the Bible; we wear no name but ‘Christians;’ and we have no creed but Christ."
   },
   {
    "slide": 99,
    "doc": "crd",
+   "text": "to state the anomaly as boldly as possible, the movement is at one and the same time Christocentric and bibliocentric."
+  },
+  {
+   "slide": 100,
+   "doc": "crd",
    "text": "very different proposals, as different as allegiance to Christ and allegiance to the strict letter of the scriptural text."
   },
   {
-   "slide": 101,
+   "slide": 102,
    "doc": "lex",
    "text": "inferences and deductions from Scripture premises"
   },
   {
-   "slide": 101,
+   "slide": 102,
    "doc": "lex",
    "text": "are they not formally binding upon the consciences of Christians farther than they perceive the connection"
   },
   {
-   "slide": 102,
+   "slide": 103,
    "doc": "wil32",
    "text": "no deduction or inference from them, however logical or true, forms any part of the Gospel of Jesus Christ."
   },
   {
-   "slide": 103,
+   "slide": 104,
    "doc": "lex",
    "text": "If they have opinions different from ours, they are welcome to have them, provided they do not endeavor to impose them on us as articles of faith."
   },
   {
-   "slide": 103,
+   "slide": 104,
    "doc": "lex",
    "text": "Union of Christians,"
   },
   {
-   "slide": 106,
+   "slide": 107,
    "doc": "wil32",
    "text": "For several years past I have tried to speak on such subjects only in the language of inspiration; for it can offend no one to say about those things just what the Lord himself has said. In this scriptural style of speech all Christians should be agreed."
   }

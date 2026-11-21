@@ -275,6 +275,9 @@ for _x in R.creed(): A(_x)   # side path: No creed but...
 
 A(CARD('<i style="color:var(--gold);font-size:1.7em">The problem</i>',
   'Two answers, Christ and the Bible: are they the same proposal?'))
+A(QK('&ldquo;<b>We have no authority but the Bible</b>; we wear no name but &lsquo;Christians;&rsquo; and <b>we have no creed but Christ</b>.&rdquo;',
+     'T. W. Phillips, chairman, Centennial Convention, Pittsburgh (1909)', 'The Centennial, 1909', 'none',
+     'The centennial of the <i>Declaration and Address</i>: the two answers, side by side, a century on. By then the full slogan ran: &ldquo;No creed but Christ, no book but the Bible, no law but love, no name but the divine&rdquo; (<i>Encyclopedia</i>, &ldquo;Slogans&rdquo;; no known author). The earliest uses in our corpus are 1909 and Garrison (1926). Then the scholars ask whether they are one proposal or two.'))
 A(QK('&ldquo;&hellip;to state the anomaly as boldly as possible, the movement is at one and the same time <b>Christocentric and bibliocentric</b>.&rdquo;',
      'Dwight E. Stevenson, Disciples Panel of Scholars (1963)', 'Dwight Stevenson, 1963', 'enc',
      'As quoted in the <i>Encyclopedia of the Stone-Campbell Movement</i>, &ldquo;Faith.&rdquo; Paul Blowers summarizes him: the two slogans are &ldquo;very different proposals, as different as allegiance to Christ and allegiance to the strict letter of the scriptural text.&rdquo;'))
@@ -307,6 +310,8 @@ A(CARD('Sacramentally:<br><span style="color:var(--gold)">formed by its words an
   'They came to the Bible as a text that forms us: not through our interpretation of it, but through the encounter with its words and its story. Like the table: we do not have to agree on what happens there to be fed by it, together.'))
 A(CARD('<i style="color:var(--gold);font-size:1.7em">We do this here.</i>',
   'Our congregation: we read it together, sing it, pray it, argue about it, hold every interpretation there is, and still it brings us together, and back to Christ.'))
+A(CARD('Scripture, like the table:<br>' + G('shared by all.'),
+  'The summary. Not a set of doctrines to agree on, but a shared table to come to: a shared basis for conversation and dialogue, and a shared way to meet Christ himself. Like the communion table, Scripture is the common property of all: unity in our dialogue, in our diversity. (More on how they read the Bible in the weeks ahead.)'))
 
 # ---------- CLOSE ----------
 for _k in range(1, len(IDEAS) + 1): A(IDEA(_k))
