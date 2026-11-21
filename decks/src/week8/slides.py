@@ -166,9 +166,14 @@ A(DS(QK('&ldquo;One man told me that they would sometimes take people by force, 
 A(BGIMG('smith-sartain-bg.jpg', '<span style="font-size:.62em;line-height:1.2;display:block">&ldquo;Madam&hellip; look right at me, and you will see one! But don&rsquo;t be afraid&hellip; I am a <i>civil</i> Campbellite, and <span style="color:var(--gold)">will not chase <i>you</i> into the water</span>.&rdquo;<span style="display:block;margin-top:1.2em;color:var(--gold)">&mdash; Raccoon John Smith</span></span>',
   WIL + ', p. 479',
   'Read on the page scan. Williams: &ldquo;said he, laying down the knife and fork which he had plied with more than usual assiduity, and raising his bland, good-natured face upon her&rdquo;; she started, &ldquo;and then blush[ed] with confusion.&rdquo; Afterward he told her what they believed and preached, &ldquo;and corrected all the wicked stories that had been told against them,&rdquo; and invited her to hear him preach at Sparta.', pos='74%'))
+A(C('Lexington<div style="font-size:.42em;color:var(--gold);margin-top:2vmin;letter-spacing:.04em">Saturday, December 31, 1831</div>',
+  'The four-day meeting at the Christians&rsquo; Hill Street meetinghouse, Saturday, December 31, 1831, to Tuesday, January 3, 1832 (Williams, pp. 450&ndash;455). One speaker from each side: Smith for the Disciples, Stone for the Christians.'))
 A(QK('&ldquo;God has but one people on the earth. <b>He has given to them but one Book</b>, and therein exhorts and commands them to be one family.&rdquo;',
      SMITH + ' &middot; ' + WIL + ', p. 452', 'Smith rises first', 'wil',
      'Stone had asked: &ldquo;What is your choice, my brother? Will you speak first, or last?&rdquo; Smith: &ldquo;Brother Stone, I have no choice.&rdquo; Williams: &ldquo;Every eye turned upon him, and every ear leaned to catch the slightest tones of his voice.&rdquo;', doc='wil32'))
+A(DS(QK('&ldquo;A union, such as we plead for&mdash;a union of God&rsquo;s people on that one Book&mdash;<b>must, then, be practicable</b>.&rdquo;',
+     SMITH + ' &middot; ' + WIL + ', p. 452', 'Smith, continuing', 'wil',
+     'Read on the page scan. Next: &ldquo;Every Christian desires to stand complete in the whole will of God. The prayer of the Savior, and the whole tenor of his teaching, clearly show that it is God&rsquo;s will that his children should be united. To the Christian, then, such a union must be desirable. But an amalgamation of sects is not such a union as Christ prayed for, and God enjoins.&rdquo;', size='clamp(36px,7.6vmin,96px)'), 'wil32'))
 
 A(QK('&ldquo;While there is but one faith, there may be ten thousand opinions; and hence, if Christians are ever to be one, <b>they must be one in faith, and not in opinion</b>.&rdquo;',
      SMITH + ' &middot; ' + WIL + ', p. 453', 'One faith', 'wil',
