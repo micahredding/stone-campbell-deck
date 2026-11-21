@@ -78,15 +78,19 @@ def slide():
 T = json.load(open(os.path.join(_H, 'today_points.json')))
 HIST = json.load(open(os.path.join(_H, 'history_points.json')))
 def _fmt(n): return '{:,}'.format(n)
-FRAMES = [
-    ('1926', HIST['1926']['points'], '1926: %s congregations' % _fmt(HIST['1926']['total']),
-     'Disciples of Christ %s &middot; Churches of Christ %s (surviving census schedules)' % (_fmt(HIST['1926']['disciples']), _fmt(HIST['1926']['coc']))),
-    ('1980', HIST['1980']['points'], '1980: %s congregations' % _fmt(HIST['1980']['total']),
-     'Churches of Christ %s &middot; Christian Churches and Churches of Christ %s &middot; Disciples of Christ %s' % (_fmt(HIST['1980']['by_body']['CCHRIS_C']), _fmt(HIST['1980']['by_body']['CCCC_C']), _fmt(HIST['1980']['by_body']['DOFC_C']))),
-    ('2000', HIST['2000']['points'], '2000: %s congregations' % _fmt(HIST['2000']['total']),
-     'Churches of Christ %s &middot; Christian Churches and Churches of Christ %s &middot; Disciples of Christ %s &middot; International Churches of Christ %s' % tuple(_fmt(HIST['2000']['by_body'][k]) for k in ('chschcg', 'chrchcg', 'chrdicg', 'inchccg'))),
-    ('2020', T['points'], 'Today: %s congregations, in every state' % _fmt(sum(v[0] for v in T['totals'].values())),
-     'Churches of Christ 11,881 &middot; Christian Churches and Churches of Christ 4,787 &middot; Disciples of Christ 3,135 &middot; International Churches of Christ 175 (2020)'),
+PE = HIST['people']
+def _b(yr, *keys): return tuple(_fmt(PE[yr]['by_body'][k]) for k in keys)
+FRAMES = [   # people: members (1906, 1926), adherents (1980 on); the measure the censuses share back to 1906
+    ('1906', PE['1906']['points'], '1906: %s members' % _fmt(PE['1906']['total']),
+     'Disciples of Christ %s &middot; Churches of Christ %s (the first census to count them apart)' % _b('1906', 'disciples', 'churches_of_christ')),
+    ('1926', PE['1926']['points'], '1926: %s members' % _fmt(PE['1926']['total']),
+     'Disciples of Christ %s &middot; Churches of Christ %s' % _b('1926', 'disciples', 'churches_of_christ')),
+    ('1980', PE['1980']['points'], '1980: %s adherents' % _fmt(PE['1980']['total']),
+     'Churches of Christ %s &middot; Christian Churches and Churches of Christ %s &middot; Disciples of Christ %s' % _b('1980', 'CCHRIS_A', 'CCCC_A', 'DOFC_A')),
+    ('2000', PE['2000']['points'], '2000: %s adherents' % _fmt(PE['2000']['total']),
+     'Churches of Christ %s &middot; Christian Churches and Churches of Christ %s &middot; Disciples %s &middot; ICOC %s' % _b('2000', 'chschad', 'chrchad', 'chrdiad', 'inchcad')),
+    ('2020', PE['2020']['points'], 'Today: %s adherents, in every state' % _fmt(PE['2020']['total']),
+     'Churches of Christ %s &middot; Christian Churches and Churches of Christ %s &middot; Disciples %s &middot; ICOC %s; 19,978 congregations (2020)' % _b('2020', '167', '097', '093', '264')),
 ]
 def today_svg():
     import math
@@ -100,7 +104,7 @@ def today_svg():
     for yr, pts, cap, sub in FRAMES:
         g = ['<g class="lit frag">', '<g style="mix-blend-mode:screen">']
         for x, y, n in sorted(pts, key=lambda p: p[2]):
-            g.append('<circle cx="%.1f" cy="%.1f" r="%.1f" fill="url(#tglow)"/>' % (x, y, 4 + 3.4 * math.sqrt(n)))
+            g.append('<circle cx="%.1f" cy="%.1f" r="%.1f" fill="url(#tglow)"/>' % (x, y, 4 + 0.34 * math.sqrt(n)))
         for x, y, n in pts:
             g.append('<circle cx="%.1f" cy="%.1f" r="1.5" fill="#f6dc8c"/>' % (x, y))
         g.append('</g><text class=cap x="22" y="%d">%s</text><text class=sub x="24" y="%d">%s</text></g>' % (H - 50, cap, H - 18, sub))
@@ -109,12 +113,9 @@ def today_svg():
     return ''.join(o)
 
 def today_slide():
-    h = HIST
-    return ('<section class="slide" style="padding:2vmin 2vmin 5vmin"><div class=eyebrow>From 1926 to today</div>' + today_svg() +
-            '<aside class=notes>Four clicks: 1926, 1980, 2000, today. Every Stone-Campbell congregation counted, by county; each glow grows with the number in that county. '
-            '1926: the U.S. Census of Religious Bodies, which since 1906 had counted the Disciples of Christ and the Churches of Christ separately; these are the %s surviving congregation schedules (Disciples %s, Churches of Christ %s), digitized by American Religious Ecologies (religiousecologies.org); %s could not be placed by county. '
-            '1980: %s congregations (Churches of Christ %s; Christian Churches and Churches of Christ %s, counted apart from the Disciples since 1971; Disciples %s). 2000: %s. Today (2020): 19,978; about 3.25 million adherents. '
-            'Not every year counted every body (1952 and 1971 lack the Churches of Christ), so those years are left out. Places by county seat-area centroid; Alaska, Hawaii and Puerto Rico off the map. '
-            'Sources: American Religious Ecologies, 1926 schedules (RRCHNM); <i>Churches and Church Membership in the United States, 1980</i> and <i>Religious Congregations and Membership Study, 2000</i> (county files, ARDA, thearda.com); <i>2020 U.S. Religion Census</i> (ASARB, 2022). Figures are as each body reported them.</aside></section>') % (
-        _fmt(h['1926']['total']), _fmt(h['1926']['disciples']), _fmt(h['1926']['coc']), _fmt(h['1926']['unplaced']),
-        _fmt(h['1980']['total']), _fmt(h['1980']['by_body']['CCHRIS_C']), _fmt(h['1980']['by_body']['CCCC_C']), _fmt(h['1980']['by_body']['DOFC_C']), _fmt(h['2000']['total']))
+    pe = PE
+    return ('<section class="slide" style="padding:2vmin 2vmin 5vmin"><div class=eyebrow>From 1906 to today</div>' + today_svg() +
+            '<aside class=notes>Five clicks: 1906, 1926, 1980, 2000, today. Each glow grows with the number of people in that county. The measure that runs the whole way is people, not congregations: members in the U.S. Census of Religious Bodies (1906, 1926), adherents (members plus children and others attending) from 1980; so the step from 1926 to 1980 is partly a change of measure. '
+            '1906 was the first census to count the Disciples and the Churches of Christ apart (the division made official). 1926 is the high point of the old census; the Depression-era 1936 census undercounted and is left out. The Christian Churches and Churches of Christ appear separately from 1971. '
+            'About 2%% of each year could not be placed by county (renamed or vanished counties; Alaska, Hawaii, Puerto Rico); the totals in the captions are the full totals from each file. Congregations: about 12,300 surviving 1926 schedules; 22,336 (1980); 21,936 (2000); 19,978 (2020). '
+            'Sources: <i>United States Census of Religious Bodies, County File</i>, 1906 and 1926 (ARDA, from ICPSR 8); <i>Churches and Church Membership in the United States, 1980</i> and <i>Religious Congregations and Membership Study, 2000</i> (ARDA county files); <i>2020 U.S. Religion Census</i> (ASARB, 2022). Figures are as each body reported them.</aside></section>')

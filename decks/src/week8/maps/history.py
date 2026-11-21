@@ -65,4 +65,39 @@ for yr, f, cols in [('1980', 'CMS80CNT', ['DOFC_C', 'CCCC_C', 'CCHRIS_C']), ('20
     p, off = pts(by)
     R[yr] = {'points': p, 'total': sum(tot.values()), 'by_body': tot, 'unplaced': off}
     print(yr, sum(tot.values()), 'unplaced', off)
+# ---- people (members 1906, 1926; adherents 1980, 2000, 2020), the measure that runs the whole way ----
+FULL = {n.upper(): f for n, f in [('Alabama','01'),('Arizona','04'),('Arkansas','05'),('California','06'),('Colorado','08'),('Connecticut','09'),('Delaware','10'),('District of Columbia','11'),('Florida','12'),('Georgia','13'),('Idaho','16'),('Illinois','17'),('Indiana','18'),('Iowa','19'),('Kansas','20'),('Kentucky','21'),('Louisiana','22'),('Maine','23'),('Maryland','24'),('Massachusetts','25'),('Michigan','26'),('Minnesota','27'),('Mississippi','28'),('Missouri','29'),('Montana','30'),('Nebraska','31'),('Nevada','32'),('New Hampshire','33'),('New Jersey','34'),('New Mexico','35'),('New York','36'),('North Carolina','37'),('North Dakota','38'),('Ohio','39'),('Oklahoma','40'),('Oregon','41'),('Pennsylvania','42'),('Rhode Island','44'),('South Carolina','45'),('South Dakota','46'),('Tennessee','47'),('Texas','48'),('Utah','49'),('Vermont','50'),('Virginia','51'),('Washington','53'),('West Virginia','54'),('Wisconsin','55'),('Wyoming','56')]}
+FULL['DIST. OF COLUMBIA'] = '11'; FULL['DIST OF COLUMBIA'] = '11'
+P2 = {}
+for yr, cc in (('1906', 'chchrist'), ('1926', 'chchrist')):
+    d = pd.read_stata(os.path.join(DATA, '%sCENSCT.dta' % yr), convert_categoricals=False)
+    by, miss, tot = {}, 0, {'disciples': 0, 'churches_of_christ': 0}
+    for _, r in d.iterrows():
+        a = int(r['disciple']) if pd.notna(r['disciple']) else 0; b = int(r[cc]) if pd.notna(r[cc]) else 0
+        tot['disciples'] += a; tot['churches_of_christ'] += b
+        if not a + b: continue
+        f = IDX.get((FULL.get(str(r['state']).strip().upper(), '??'), norm(str(r['cntyname']))))
+        if f: by[f] = by.get(f, 0) + a + b
+        else: miss += a + b
+    p, off = pts(by); P2[yr] = {'points': p, 'by_body': tot, 'total': sum(tot.values()), 'unplaced': miss + off, 'measure': 'members'}
+    print(yr, 'members', tot, 'unplaced', miss + off)
+for yr, f, cols in [('1980', 'CMS80CNT', ['CCHRIS_A', 'CCCC_A', 'DOFC_A']), ('2000', 'RCMSCY', ['chschad', 'chrchad', 'chrdiad', 'inchcad'])]:
+    d = pd.read_stata(os.path.join(DATA, f + '.dta'), convert_categoricals=False)
+    fc = 'fips' if 'fips' in d.columns else 'fip'
+    by, tot = {}, {}
+    for _, r in d.iterrows():
+        n = sum(int(v) for v in (pd.to_numeric(r[x], errors='coerce') for x in cols) if pd.notna(v))
+        if n: k = '%05d' % int(r[fc]); by[k] = by.get(k, 0) + n
+    for x in cols: tot[x] = int(pd.to_numeric(d[x], errors='coerce').fillna(0).sum())
+    p, off = pts(by); P2[yr] = {'points': p, 'by_body': tot, 'total': sum(tot.values()), 'unplaced': off, 'measure': 'adherents'}
+    print(yr, 'adherents', tot, 'unplaced', off)
+import openpyxl
+ws = openpyxl.load_workbook(os.path.join(CACHE, '2020_USRC_Group_Detail.xlsx'), read_only=True)['2020 Group by County']
+by, tot = {}, {}
+for r in ws.iter_rows(min_row=2, values_only=True):
+    if r[3] in ('167', '097', '093', '264') and r[6]:
+        by[r[0]] = by.get(r[0], 0) + r[6]; tot[r[3]] = tot.get(r[3], 0) + r[6]
+p, off = pts(by); P2['2020'] = {'points': p, 'by_body': tot, 'total': sum(tot.values()), 'unplaced': off, 'measure': 'adherents'}
+print('2020 adherents', tot, 'unplaced', off)
+R['people'] = P2
 json.dump(R, open(os.path.join(H_, '..', 'history_points.json'), 'w')); print('wrote history_points.json')
