@@ -17,6 +17,7 @@ w4 = _load('w4slides', 'week4/slides.py')
 R = _load('resources', 'resources.py')
 UM = _load('unionmap', 'week8/unionmap.py')
 DV = _load('division', 'week8/division.py')
+RC = _load('recap', 'week8/recap.py')
 w3 = w3b.w3
 C, CARD, G, BLACK = w4.C, w4.CARD, w4.G, w4.BLACK
 PATDEFS, CHRISTENDOM_CSS = w3b.PATDEFS, w3b.CHRISTENDOM_CSS
@@ -83,6 +84,7 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
 
 # ---------- I. RECAP: the story so far ----------
 
+for _x in RC.slides(): A(_x)   # the recap in pictures (Micah, 2026-11-21: one image slide per point; Cane Ridge first)
 A(LIST('Where we are', 'The story so far',
   [D('1801', 'Cane Ridge: thousands at one table'),
    D('Ireland', 'Thomas Campbell works for union among divided Seceders, in a violent, war-torn land'),

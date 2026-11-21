@@ -26,3 +26,11 @@ Rights: photographs by the site's author; the windows and Bower's painting are 2
 | `hagia_sophia_hildebrandt.jpg` | Hagia Sophia (Hildebrandt, c. 1852), for 1054 if wanted | Wikimedia Commons; public domain. Not used yet. |
 
 | `smith-sartain-1870.jpg` | "Raccoon" John Smith, engraved by John Sartain, with his signature ("Yours affectionately, John Smith") | Frontispiece of J. A. Williams, *Life of Elder John Smith* (Cincinnati, 1870), archive.org `lifeofelderjohns00williala`, leaf n7 (downloaded 2026-11-21); public domain. Copy in the database: `09 Images/smith-raccoon-john-sartain-1870.jpg`. |
+
+## The recap in pictures (2026-11-21, `decks/src/week8/recap.py`)
+
+| File | What it is | Source / rights |
+|---|---|---|
+| `recap-cane-ridge-revival-milbert-1819.jpg` | J. Milbert, "Camp Meeting of the Methodists in N. America" (1819), cropped | Database `09 Images/1819-milbert-camp-meeting-methodists-north-america.jpg`; public domain |
+| `recap-cane-ridge-sacrament-1854.jpg` | "Sacramental Scene in a Western Forest" (P. S. Duval, lith., 1854), cropped | Library of Congress master TIFF, database `09 Images/1854-sacramental-scene-in-a-western-forest-master.jpg`; public domain |
+| `stone-biography-1847.jpg` | Barton W. Stone, engraved by Harrison & Jewett, Cincinnati, signed "Once more, farewell. B. W. Stone" | Frontispiece of *The Biography of Eld. Barton Warren Stone* (1847), archive.org `biographyofeldba01ston`, leaf n5; public domain |
