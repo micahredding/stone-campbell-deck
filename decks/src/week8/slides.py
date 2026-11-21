@@ -66,8 +66,8 @@ SMITH = '&ldquo;Raccoon&rdquo; John Smith, at Lexington'
 STONE = 'Barton W. Stone, at Lexington'
 
 IDEAS = [
-    ('They united around the Bible,<br>' + G('not their readings of it.'), 'Smith: &ldquo;one in faith, and not in opinion.&rdquo; Stone and Johnson: &ldquo;we do not know, nor are we concerned to know.&rdquo;'),
     ('Every historic division<br>' + G('came to one table.'), 'God, authority, the sacraments: what had divided Christendom since Nicaea was in the room at Hill Street.'),
+    ('They united around the Bible,<br>' + G('not their readings of it.'), 'Smith: &ldquo;one in faith, and not in opinion.&rdquo; Stone and Johnson: &ldquo;we do not know, nor are we concerned to know.&rdquo;'),
     ('Unity was not a moment.<br>' + G('It was worked out.'), 'Three years in Lexington; person by person, congregation by congregation elsewhere.'),
     ('Scripture, like the table,<br>' + G('is shared by all.'), 'Not doctrines to agree on: a shared table, a shared conversation, a shared way to meet Christ. Scott, 1832: the Bible &ldquo;her only manual,&rdquo; &ldquo;Jesus Christ is the Son of God&rdquo; her creed.'),
 ]
