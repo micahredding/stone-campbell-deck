@@ -54,7 +54,7 @@
    - February 1832 (side path: *Who keeps the table*);
    - July 1835;
    - beyond Lexington;
-   - the map (1831–1835), then the one movement spreading, 1836–1860 (national map, five clicks);
+   - the map (1831–1835), then the one movement spreading, 1836–1860 (national map, five clicks), then today: every congregation by county, 2020 (one click);
    - "No magic moment."
 7. **It worked:** one movement, one history.
 8. **Uniting on the Bible:**

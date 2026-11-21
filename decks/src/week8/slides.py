@@ -223,7 +223,8 @@ A(LIST('Beyond Lexington', 'Person by person, congregation by congregation',
   size='clamp(28px,5.2vmin,66px)', gap='1.8vmin'))
 
 A(UM.slide())
-A(SP.slide())   # the one movement spreading, 1836-1860 (Micah, 2026-11-21)   # the union spreading, in waves (Micah, 2026-11-19)
+A(SP.slide())   # the one movement spreading, 1836-1860 (Micah, 2026-11-21)
+A(SP.today_slide())   # and today: every congregation, 2020   # the union spreading, in waves (Micah, 2026-11-19)
 
 A(CARD('No magic moment.<br>' + G('It was worked out.'),
   'Visible unity came over years, with patience and forbearance, exploring together. Smith called it &ldquo;the best act of his life&rdquo; (Williams, p. 456); Stone, &ldquo;the noblest act of my life&rdquo; (<i>Biography</i>, p. 79).'))
