@@ -196,14 +196,14 @@
    "index": 27,
    "n": 28,
    "title": "The Fire",
-   "path": "spine",
+   "path": "The fire",
    "doc": null
   },
   {
    "index": 28,
    "n": 29,
    "title": "The fire \"If I tell her that our babies are glorified, the thought that possibly they were",
-   "path": "spine",
+   "path": "The fire",
    "doc": "lex"
   },
   {
@@ -746,8 +746,6 @@
   24,
   25,
   26,
-  27,
-  28,
   29,
   30,
   31,
@@ -792,6 +790,14 @@
   101
  ],
  "branches": [
+  {
+   "label": "The fire",
+   "fork": 26,
+   "slides": [
+    27,
+    28
+   ]
+  },
   {
    "label": "Who keeps the table",
    "fork": 41,
@@ -863,19 +869,19 @@
   },
   {
    "label": "It took years",
-   "at": 40
+   "at": 38
   },
   {
    "label": "It worked",
-   "at": 46
+   "at": 44
   },
   {
    "label": "Uniting on the Bible",
-   "at": 47
+   "at": 45
   },
   {
    "label": "Close",
-   "at": 68
+   "at": 66
   }
  ],
  "docs": [

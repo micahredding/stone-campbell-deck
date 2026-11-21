@@ -8,6 +8,7 @@ sys.path.insert(0, os.path.join(_H, '..'))
 import mapdeck, resources as R
 
 SIDE = [
+    ('The fire', 'The Fire</i>', '<div class=eyebrow>The fire<'),   # off 'raised among the raccoons' (Micah, 2026-11-21: a side path for now)
     R.TABLE,          # off Lexington, February 1832: who may serve the table
     R.CREED,          # off Scott, 1832: No creed but...
 ]
