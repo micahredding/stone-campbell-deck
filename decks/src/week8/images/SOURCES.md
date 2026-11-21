@@ -39,3 +39,5 @@ Rights: photographs by the site's author; the windows and Bower's painting are 2
 | `tcampbell-oval.jpg` | Thomas Campbell, engraved portrait, cropped to an oval | Our Chapter 2–3 image (`decks/src/week3/tcampbell.jpg`) |
 | `recap-covenanters-communion-harvey-1840.jpg` | Sir George Harvey, *The Covenanters' Communion* (c. 1840; National Galleries of Scotland, NG 608) | Wikimedia Commons, "The Covenanters' Communion.jpg" (960 px thumbnail; public domain); copy in database `09 Images/1840-harvey-covenanters-communion.jpg` |
 | `recap-communion-token-1750.jpg` | Scottish communion token, 1750 | Database `09 Images/scottish-communion-token-1750.jpg` (CC0) |
+| `recap-shipwreck-loutherbourg.jpg` | Philippe Jacques de Loutherbourg, *A Shipwreck off a Rocky Coast* (not the *Hibernia*, and not Islay) | Our Chapter 2 image (`decks/src/week2/wreck.jpg`) |
+| `acyoung-oval.jpg` | Young Alexander Campbell (Washington Bogart Cooper; from an 1889 photograph by Ira F. Collins) | Our Chapter 5 image (`decks/src/week5/acyoung.jpg`); ACU Stone-Campbell Teaching Images, CC BY-NC-ND 4.0: class use |
