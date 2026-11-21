@@ -50,3 +50,6 @@ Rights: photographs by the site's author; the windows and Bower's painting are 2
 | `recap-brush-run-meetinghouse.jpg` | The Brush Run meeting house, as reconstructed at Bethany | Our Chapter 5 image (`decks/src/week5/brushrun.jpg`); courtesy of Bethany College |
 | `recap-richardson-memoirs-p383.jpg` | Richardson, *Memoirs of Alexander Campbell* I, p. 383 (lower part): Alexander's sermon notes on ordination, "consists in the choice of the people" | archive.org `memoirsofalexand12rich` (1897 printing), leaf n374; public domain |
 | `acold-photo-oval.jpg` | Alexander Campbell late in life, photograph (oval crop, warm-toned) | Our Chapter 5 image (`decks/src/week5/acold.jpg`, from the class site) |
+| `recap-mh-1830-title.jpg` | *Millennial Harbinger* vol. 1 (Bethany, Va., 1830), title page, with the epigraph from Revelation 14:6 (toned) | archive.org `millennialharbinger1830` (Google scan, Andover-Harvard Theological Library), leaf n5; public domain |
+| `recap-mh-1830-prospectus.jpg` | *Millennial Harbinger* no. 1, January 4, 1830, p. 1: masthead, epigraph and Prospectus (toned) | archive.org `millennialharbinger1830`, leaf n7; public domain |
+| `acold-engraving-oval.jpg` | Alexander Campbell, engraved portrait, middle age (oval crop) | Database `09 Images/alexander-campbell-age-65.jpg` (Wikimedia Commons); public domain |
