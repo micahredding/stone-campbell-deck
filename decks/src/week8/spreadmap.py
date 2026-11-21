@@ -74,33 +74,47 @@ def slide():
     return ('<section class="slide" style="padding:2vmin 2vmin 5vmin"><div class=eyebrow>One movement, spreading &middot; 1836&ndash;1860</div>' + svg() +
             '<aside class=notes>%s</aside></section>' % NOTES)
 
-# ---- today (Micah, 2026-11-21): every Stone-Campbell congregation in the 2020 U.S. Religion Census, by county ----
+# ---- 1926 to today (Micah, 2026-11-21: "fill in the gap"): Stone-Campbell congregations by county, four snapshots ----
 T = json.load(open(os.path.join(_H, 'today_points.json')))
+HIST = json.load(open(os.path.join(_H, 'history_points.json')))
+def _fmt(n): return '{:,}'.format(n)
+FRAMES = [
+    ('1926', HIST['1926']['points'], '1926: %s congregations' % _fmt(HIST['1926']['total']),
+     'Disciples of Christ %s &middot; Churches of Christ %s (surviving census schedules)' % (_fmt(HIST['1926']['disciples']), _fmt(HIST['1926']['coc']))),
+    ('1980', HIST['1980']['points'], '1980: %s congregations' % _fmt(HIST['1980']['total']),
+     'Churches of Christ %s &middot; Christian Churches and Churches of Christ %s &middot; Disciples of Christ %s' % (_fmt(HIST['1980']['by_body']['CCHRIS_C']), _fmt(HIST['1980']['by_body']['CCCC_C']), _fmt(HIST['1980']['by_body']['DOFC_C']))),
+    ('2000', HIST['2000']['points'], '2000: %s congregations' % _fmt(HIST['2000']['total']),
+     'Churches of Christ %s &middot; Christian Churches and Churches of Christ %s &middot; Disciples of Christ %s &middot; International Churches of Christ %s' % tuple(_fmt(HIST['2000']['by_body'][k]) for k in ('chschcg', 'chrchcg', 'chrdicg', 'inchccg'))),
+    ('2020', T['points'], 'Today: %s congregations, in every state' % _fmt(sum(v[0] for v in T['totals'].values())),
+     'Churches of Christ 11,881 &middot; Christian Churches and Churches of Christ 4,787 &middot; Disciples of Christ 3,135 &middot; International Churches of Christ 175 (2020)'),
+]
 def today_svg():
     import math
-    o = ['<svg viewBox="0 0 %d %d" style="width:min(96vw,160vh);height:auto;display:block;margin:0 auto" role=img aria-label="Map: Stone-Campbell congregations in the United States today, by county, 2020">' % (W, H),
+    o = ['<svg viewBox="0 0 %d %d" style="width:min(96vw,160vh);height:auto;display:block;margin:0 auto" role=img aria-label="Map: Stone-Campbell congregations in the United States by county, 1926, 1980, 2000 and 2020">' % (W, H),
          '<defs><radialGradient id=tglow><stop offset=0 stop-color="#f6dc8c" stop-opacity=".9"/><stop offset=".4" stop-color="#c89b3c" stop-opacity=".35"/><stop offset=1 stop-color="#c89b3c" stop-opacity="0"/></radialGradient></defs>',
-         '<style>.tm .st{fill:#1a1510;stroke:#5c4a33;stroke-width:1}.tm .lit{opacity:0;transition:opacity 2.4s ease}.tm .lit.on{opacity:1}'
+         '<style>.tm .st{fill:#1a1510;stroke:#5c4a33;stroke-width:1}.tm .lit{opacity:0;transition:opacity 1.2s ease}.tm .lit.on{opacity:1}.tm .lit.on:has(~ .lit.on){opacity:0}'
          '.tm .cap{font:34px "IM Fell English",Georgia,serif;fill:#c89b3c}.tm .sub{font:20px Spectral,Georgia,serif;fill:#a89a82}</style><g class=tm>']
     for nm, d in G['paths'].items():
         o.append('<path class=st d="%s"/>' % d)
-    g = ['<g class="lit frag" style="mix-blend-mode:screen">']
-    for x, y, n in sorted(T['points'], key=lambda p: p[2]):
-        g.append('<circle cx="%.1f" cy="%.1f" r="%.1f" fill="url(#tglow)"/>' % (x, y, 4 + 3.4 * math.sqrt(n)))
-    for x, y, n in T['points']:
-        g.append('<circle cx="%.1f" cy="%.1f" r="1.5" fill="#f6dc8c"/>' % (x, y))
-    g.append('</g>'); o.append(''.join(g))
-    tot = sum(v[0] for v in T['totals'].values())
-    o.append('<rect x="0" y="%d" width="%d" height="84" fill="#100d0a" opacity=".82"/>' % (H - 92, int(W * .78)))
-    o.append('<text class=cap x="22" y="%d">Today: %s congregations, in every state</text>' % (H - 50, '{:,}'.format(tot)))
-    o.append('<text class=sub x="24" y="%d">Churches of Christ 11,881 &middot; Christian Churches and Churches of Christ 4,787 &middot; Disciples of Christ 3,135 &middot; International Churches of Christ 175 (2020)</text>' % (H - 18))
+    o.append('<rect x="0" y="%d" width="%d" height="84" fill="#100d0a" opacity=".82"/>' % (H - 92, int(W * .86)))
+    for yr, pts, cap, sub in FRAMES:
+        g = ['<g class="lit frag">', '<g style="mix-blend-mode:screen">']
+        for x, y, n in sorted(pts, key=lambda p: p[2]):
+            g.append('<circle cx="%.1f" cy="%.1f" r="%.1f" fill="url(#tglow)"/>' % (x, y, 4 + 3.4 * math.sqrt(n)))
+        for x, y, n in pts:
+            g.append('<circle cx="%.1f" cy="%.1f" r="1.5" fill="#f6dc8c"/>' % (x, y))
+        g.append('</g><text class=cap x="22" y="%d">%s</text><text class=sub x="24" y="%d">%s</text></g>' % (H - 50, cap, H - 18, sub))
+        o.append(''.join(g))
     o.append('</g></svg>')
     return ''.join(o)
 
 def today_slide():
-    t = T['totals']
-    return ('<section class="slide" style="padding:2vmin 2vmin 5vmin"><div class=eyebrow>The Stone-Campbell movement today</div>' + today_svg() +
-            '<aside class=notes>One click: the lights come up. Every Stone-Campbell congregation in the 2020 U.S. Religion Census, by county; each glow grows with the number of congregations in that county (%s counties; %s congregations in Alaska, Hawaii and Puerto Rico are off the map). '
-            'Churches of Christ: 11,881 congregations, 1,422,331 adherents. Christian Churches and Churches of Christ: 4,787 and 1,379,041. Christian Church (Disciples of Christ): 3,135 and 398,072. International Churches of Christ: 175 and 53,612. Together some 20,000 congregations and about 3.25 million adherents. '
-            'The three main streams divided later (the Churches of Christ counted separately from 1906; the Christian Churches from the Disciples by the 1960s&ndash;70s): one family, from one handshake. Not counted here: the churches abroad, larger than the American ones in some places. '
-            'Source: Clifford Grammich et al., <i>2020 U.S. Religion Census: Religious Congregations &amp; Adherents Study</i> (Association of Statisticians of American Religious Bodies, 2022), Group by County. Figures are as each body reported them.</aside></section>') % (len(T['points']), T['off_map'])
+    h = HIST
+    return ('<section class="slide" style="padding:2vmin 2vmin 5vmin"><div class=eyebrow>From 1926 to today</div>' + today_svg() +
+            '<aside class=notes>Four clicks: 1926, 1980, 2000, today. Every Stone-Campbell congregation counted, by county; each glow grows with the number in that county. '
+            '1926: the U.S. Census of Religious Bodies, which since 1906 had counted the Disciples of Christ and the Churches of Christ separately; these are the %s surviving congregation schedules (Disciples %s, Churches of Christ %s), digitized by American Religious Ecologies (religiousecologies.org); %s could not be placed by county. '
+            '1980: %s congregations (Churches of Christ %s; Christian Churches and Churches of Christ %s, counted apart from the Disciples since 1971; Disciples %s). 2000: %s. Today (2020): 19,978; about 3.25 million adherents. '
+            'Not every year counted every body (1952 and 1971 lack the Churches of Christ), so those years are left out. Places by county seat-area centroid; Alaska, Hawaii and Puerto Rico off the map. '
+            'Sources: American Religious Ecologies, 1926 schedules (RRCHNM); <i>Churches and Church Membership in the United States, 1980</i> and <i>Religious Congregations and Membership Study, 2000</i> (county files, ARDA, thearda.com); <i>2020 U.S. Religion Census</i> (ASARB, 2022). Figures are as each body reported them.</aside></section>') % (
+        _fmt(h['1926']['total']), _fmt(h['1926']['disciples']), _fmt(h['1926']['coc']), _fmt(h['1926']['unplaced']),
+        _fmt(h['1980']['total']), _fmt(h['1980']['by_body']['CCHRIS_C']), _fmt(h['1980']['by_body']['CCCC_C']), _fmt(h['1980']['by_body']['DOFC_C']), _fmt(h['2000']['total']))
