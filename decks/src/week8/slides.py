@@ -174,15 +174,30 @@ A(QK('&ldquo;God has but one people on the earth. <b>He has given to them but on
 A(DS(QK('&ldquo;A union, such as we plead for&mdash;a union of God&rsquo;s people on that one Book&mdash;<b>must, then, be practicable</b>.&rdquo;',
      SMITH + ' &middot; ' + WIL + ', p. 452', 'Smith, continuing', 'wil',
      'Read on the page scan. Next: &ldquo;Every Christian desires to stand complete in the whole will of God. The prayer of the Savior, and the whole tenor of his teaching, clearly show that it is God&rsquo;s will that his children should be united. To the Christian, then, such a union must be desirable. But an amalgamation of sects is not such a union as Christ prayed for, and God enjoins.&rdquo;', size='clamp(36px,7.6vmin,96px)'), 'wil32'))
+A(DS(QK('&ldquo;There are certain abstruse or speculative matters&mdash;such as the mode of the <i>Divine Existence</i>, and the <i>Ground and Nature of the Atonement</i>&mdash;that have, for centuries, been themes of discussion among Christians. <b>These questions are as far from being settled now as they were in the beginning of the controversy.</b>&rdquo;',
+     SMITH + ' &middot; ' + WIL + ', p. 453', 'Never settled', 'wil',
+     'Read on the page scan. Smith&rsquo;s first move: the very questions that split Christendom (who God is; how Christ saves) have never been settled, and will not be settled at Lexington either. Before it: &ldquo;the only union practicable or desirable must be based on the Word of God, as the only rule of faith and practice&rdquo; (p. 452).', size='clamp(28px,5.8vmin,74px)'), 'wil32'))
+A(DS(QK('&ldquo;By a needless and intemperate discussion of them much feeling has been provoked, and <b>divisions have been produced</b>.&rdquo;',
+     SMITH + ' &middot; ' + WIL + ', p. 453', 'Smith', 'wil',
+     'Read on the page scan. The history of division, in one sentence.', size='clamp(36px,7.6vmin,96px)'), 'wil32'))
 
 A(QK('&ldquo;While there is but one faith, there may be ten thousand opinions; and hence, if Christians are ever to be one, <b>they must be one in faith, and not in opinion</b>.&rdquo;',
      SMITH + ' &middot; ' + WIL + ', p. 453', 'One faith', 'wil',
      'Just before, on the Trinity and the atonement: &ldquo;If I come to the passage, &lsquo;My Father is greater than I,&rsquo; I will quote it, but will not stop to speculate upon the inferiority of the Son.&rdquo; He will speak of such things &ldquo;only in the words which the Lord has given.&rdquo;',
      size='clamp(32px,6.6vmin,84px)', doc='wil32'))
+A(DS(QK('&ldquo;While, for the sake of peace and Christian union, <b>I have long since waived the public maintenance of any speculation I may hold</b>, yet not one Gospel fact, commandment, or promise, will I surrender for the world!&rdquo;',
+     SMITH + ' &middot; ' + WIL + ', p. 454', 'Smith', 'wil',
+     'Read on the page scan (the last clause is italic in Williams). He keeps his opinions; he stops making them public business. Just before: &ldquo;speak of them in the words of the Scriptures, and no offense will be given, and no pride of doctrine will be encouraged. We may even come, in the end, by thus speaking the same things, to think the same things.&rdquo;', size='clamp(30px,6.4vmin,82px)'), 'wil32'))
 
-A(QK('&ldquo;&hellip;the controversies of the Church sufficiently prove that <b>Christians never can be one in their speculations</b> upon those mysterious and sublime subjects&hellip;&rdquo;',
+A(QK('&ldquo;&hellip;the controversies of the Church sufficiently prove that <b>Christians never can be one in their speculations</b> upon those mysterious and sublime subjects, which, while they interest the Christian philosopher, can not edify the Church.&rdquo;',
      STONE + ' &middot; ' + WIL + ', p. 454', 'Stone answers', 'wil',
      'Stone: &ldquo;I will not attempt to introduce any new topic.&rdquo; Of his own sermons on the Trinity, forced by opposition: &ldquo;I never preached a sermon of that kind that once feasted my heart; I always felt a barrenness of soul afterwards.&rdquo;', doc='wil32'))
+A(DS(QK('&ldquo;&hellip;by force of circumstances, I was led to deliver some speculative discourses upon those subjects. But <b>I never preached a sermon of that kind that once feasted my heart</b>; I always felt a barrenness of soul afterwards.&rdquo;',
+     STONE + ' &middot; ' + WIL + ', pp. 454&ndash;455', 'Stone', 'wil',
+     'Read on the page scan. Before it: &ldquo;After we had given up all creeds and taken the Bible, and the Bible alone, as our rule of faith and practice, we met with so much opposition, that, by force of circumstances&hellip;&rdquo; Stone had been accused of Arianism for years; he knew what these arguments cost.', size='clamp(30px,6.4vmin,82px)'), 'wil32'))
+A(DS(QK('&ldquo;I perfectly accord with Brother Smith that <b>those speculations should never be taken into the pulpit</b>; but that when compelled to speak of them at all, we should do so in the words of inspiration.&rdquo;',
+     STONE + ' &middot; ' + WIL + ', p. 455', 'Stone', 'wil',
+     'Read on the page scan. Then, at once: &ldquo;I have not one objection to the ground laid down by him&hellip;&rdquo;', size='clamp(30px,6.4vmin,82px)'), 'wil32'))
 
 A(QK('&ldquo;I have not one objection to the ground laid down by him as the true scriptural basis of union among the people of God; and <b>I am willing to give him, now and here, my hand</b>.&rdquo;',
      STONE + ' &middot; ' + WIL + ', p. 455', 'His hand', 'none',
