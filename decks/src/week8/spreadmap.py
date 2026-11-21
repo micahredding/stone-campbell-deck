@@ -95,7 +95,7 @@ FRAMES = [   # people: members (1906, 1926), adherents (1980 on); the measure th
      'Churches of Christ %s &middot; Christian Churches and Churches of Christ %s &middot; Disciples of Christ %s' % _b('1980', 'CCHRIS_A', 'CCCC_A', 'DOFC_A')),
     ('2000', PE['2000']['points'], '2000: %s adherents' % _fmt(PE['2000']['total']),
      'Churches of Christ %s &middot; Christian Churches and Churches of Christ %s &middot; Disciples %s &middot; ICOC %s' % _b('2000', 'chschad', 'chrchad', 'chrdiad', 'inchcad')),
-    ('2020', PE['2020']['points'], 'Today: %s adherents, in every state' % _fmt(PE['2020']['total']),
+    ('2020', PE['2020']['points'], '2020: %s adherents, in every state' % _fmt(PE['2020']['total']),
      'Churches of Christ %s &middot; Christian Churches and Churches of Christ %s &middot; Disciples %s &middot; ICOC %s; 19,978 congregations (2020)' % _b('2020', '167', '097', '093', '264')),
 ]
 def _smooth(frames):
@@ -114,6 +114,18 @@ def _smooth(frames):
             out[i][k] = D[h][k] + (D[j][k] - D[h][k]) * t
     return [(f[0], [[x, y, n] for (x, y), n in out[i].items()], f[2], f[3]) for i, f in enumerate(frames)]
 FRAMES = _smooth(FRAMES)
+
+def _between(frames, a, b, years):
+    # in-between frames for an illustration (Micah, 2026-11-21): each county eased from year a to year b, linearly
+    i = [f[0] for f in frames].index(a); j = [f[0] for f in frames].index(b)
+    A = {(x, y): n for x, y, n in frames[i][1]}; B = {(x, y): n for x, y, n in frames[j][1]}
+    new = []
+    for yr in years:
+        t = (yr - int(a)) / (int(b) - int(a))
+        pts = [[x, y, A.get((x, y), 0) + (B.get((x, y), 0) - A.get((x, y), 0)) * t] for (x, y) in set(A) | set(B)]
+        new.append((str(yr), [p for p in pts if p[2] > 0], '%d' % yr, 'between the 1926 census and the 1980 count (an illustration, not a count)'))
+    return frames[:j] + new + frames[j:]
+FRAMES = _between(FRAMES, '1926', '1980', (1940, 1950, 1960, 1970))
 
 def today_svg():
     import math
@@ -144,8 +156,8 @@ def today_svg():
 
 def today_slide():
     pe = PE
-    return ('<section class="slide" style="padding:2vmin 2vmin 5vmin"><div class=eyebrow>From 1850 to today</div>' + today_svg() +
-            '<aside class=notes>Opens where the last map ended: its dots (the union, 1831&ndash;35, and the first reports to 1860) stay on throughout. Eight clicks: 1850, 1860, 1870, 1906, 1926, 1980, 2000, today. Each glow grows with the number of people (before 1906, churches) in that county. An illustration, not a data display: where a county is lit before and after a year but blank in it, the gap is filled by interpolating between the two (this fills the states missing from the 1870 file). 1850&ndash;1870: the decennial census counted churches and their seats by denomination, and its category &ldquo;Christian&rdquo; took in both the Disciples and the Christian Connection (the Christians who never united), so those three frames are churches of both, each glow sized by the number of churches (IPUMS NHGIS, county tables). The 1870 file is incomplete: New York, Pennsylvania, Michigan, New Jersey and Wisconsin have no &ldquo;Christian&rdquo; figures at all (they had 102, 69, 13, 10 and 8 churches in 1860), so the Northeast looks emptier than it was; where the data are complete, 1860&ndash;1870 is growth (Ohio 365 to 681 churches, Kentucky 304 to 490, Missouri 150 to 393, Illinois 148 to 350). From 1906, people: members in the U.S. Census of Religious Bodies (1906, 1926), adherents (members plus children and others attending) from 1980; so the step from 1926 to 1980 is partly a change of measure. '
+    return ('<section class="slide" style="padding:2vmin 2vmin 5vmin"><div class=eyebrow>From 1850 to 2020</div>' + today_svg() +
+            '<aside class=notes>Opens where the last map ended: its dots (the union, 1831&ndash;35, and the first reports to 1860) stay on throughout. Twelve clicks: 1850, 1860, 1870, 1906, 1926, 1940, 1950, 1960, 1970, 1980, 2000, 2020. 1940&ndash;1970 are not counts: each county is eased in a straight line from 1926 to 1980, to carry the picture through the decades the surveys miss. Each glow grows with the number of people (before 1906, churches) in that county. An illustration, not a data display: where a county is lit before and after a year but blank in it, the gap is filled by interpolating between the two (this fills the states missing from the 1870 file). 1850&ndash;1870: the decennial census counted churches and their seats by denomination, and its category &ldquo;Christian&rdquo; took in both the Disciples and the Christian Connection (the Christians who never united), so those three frames are churches of both, each glow sized by the number of churches (IPUMS NHGIS, county tables). The 1870 file is incomplete: New York, Pennsylvania, Michigan, New Jersey and Wisconsin have no &ldquo;Christian&rdquo; figures at all (they had 102, 69, 13, 10 and 8 churches in 1860), so the Northeast looks emptier than it was; where the data are complete, 1860&ndash;1870 is growth (Ohio 365 to 681 churches, Kentucky 304 to 490, Missouri 150 to 393, Illinois 148 to 350). From 1906, people: members in the U.S. Census of Religious Bodies (1906, 1926), adherents (members plus children and others attending) from 1980; so the step from 1926 to 1980 is partly a change of measure. '
             '1906 was the first census to count the Disciples and the Churches of Christ apart (the division made official). 1926 is the high point of the old census; the Depression-era 1936 census undercounted and is left out. The Christian Churches and Churches of Christ appear separately from 1971. '
             'About 2%% of each year could not be placed by county (renamed or vanished counties; Alaska, Hawaii, Puerto Rico); the totals in the captions are the full totals from each file. Congregations: about 12,300 surviving 1926 schedules; 22,336 (1980); 21,936 (2000); 19,978 (2020). '
             'Sources: IPUMS NHGIS (Schroeder et al., version 21.0, 2026, doi:10.18128/D050.V21.0), 1850, 1860, 1870 county church tables; <i>United States Census of Religious Bodies, County File</i>, 1906 and 1926 (ARDA, from ICPSR 8); <i>Churches and Church Membership in the United States, 1980</i> and <i>Religious Congregations and Membership Study, 2000</i> (ARDA county files); <i>2020 U.S. Religion Census</i> (ASARB, 2022). Figures are as each body reported them.</aside></section>')

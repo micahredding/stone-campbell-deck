@@ -54,7 +54,7 @@
    - February 1832 (side path: *Who keeps the table*);
    - July 1835;
    - beyond Lexington;
-   - the map (1831–1835), then the one movement spreading, 1836–1860 (national map, five clicks), then from 1850 to today by county: 1850, 1860, 1870 ("Christian" churches, sized by seats), 1906, 1926 (members), 1980, 2000, 2020 (adherents) (seven clicks);
+   - the map (1831–1835), then the one movement spreading, 1836–1860 (national map, five clicks), then from 1850 to today by county: 1850, 1860, 1870 ("Christian" churches, sized by seats), 1906, 1926 (members), 1980, 2000, 2020 (adherents) (twelve clicks, with 1940–1970 eased between the 1926 and 1980 counts; heading "From 1850 to 2020");
    - "No magic moment."
 7. **It worked:** one movement, one history.
 8. **Uniting on the Bible:**
