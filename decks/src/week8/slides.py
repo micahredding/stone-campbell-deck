@@ -84,18 +84,8 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
 
 # ---------- I. RECAP: the story so far ----------
 
-for _x in RC.slides(): A(_x)   # the recap in pictures (Micah, 2026-11-21: one image slide per point; Cane Ridge first)
-A(LIST('Where we are', 'The story so far',
-  [D('1801', 'Cane Ridge: thousands at one table'),
-   D('Ireland', 'Thomas Campbell works for union among divided Seceders, in a violent, war-torn land'),
-   D('1807', 'In America, he serves the Supper to Presbyterians of other sects, and is tried for it'),
-   D('1808&ndash;09', 'Alexander, shipwrecked in Scotland, gives back his communion token'),
-   D('1809', 'The <i>Declaration and Address</i>: union and freedom of conscience'),
-   D('1804', 'The <i>Last Will</i>: a presbytery lays down its authority for the unity of the body'),
-   D('1812', 'Brush Run: the people ordain, as kings and priests'),
-   D('1830', 'The <i>Millennial Harbinger</i>: a radical future, religious and social reform')],
-  'Eight clicks, one breath each, in the order we told them (the <i>Last Will</i>, 1804, was Chapter 4, after the <i>Declaration</i>). Ireland: Thomas worked to reunite the Burgher and Anti-Burgher Seceders in Ulster, in the years of the 1798 rebellion and its aftermath. 1807: censured by the Presbytery of Chartiers for serving the Supper beyond the Seceders; he left them in 1808&ndash;09. Alexander in Glasgow, 1808&ndash;09: he would not take communion with a church that excluded the independents (Ewing, the Haldanes). Brush Run: Alexander ordained by the congregation, January 1812.',
-  size='clamp(24px,4.3vmin,54px)', gap='1.3vmin'))
+A(C('The story so far&hellip;', 'Seven pictures, one breath each, in the order we told them (the <i>Last Will</i>, 1804, was Chapter 4, after the <i>Declaration</i>).'))
+for _x in RC.slides(): A(_x)   # the recap in pictures (Micah, 2026-11-21: one image slide per point; the eight-line list removed)
 
 # ---------- II. OUR MOVEMENT, TWO MOVEMENTS, SO MUCH IN COMMON ----------
 

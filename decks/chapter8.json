@@ -27,56 +27,56 @@
   {
    "index": 3,
    "n": 4,
-   "title": "Revival Communion 1801 Cane Ridge Thousands at one table Milbert, 1819 \"Sacramental Scene ",
+   "title": "The story so far...",
    "path": "spine",
    "doc": null
   },
   {
    "index": 4,
    "n": 5,
-   "title": "Ulster, 1798 The table Ireland Pennsylvania 1798-1807 Thomas Campbell: union in a land at ",
+   "title": "Revival Communion 1801 Cane Ridge Thousands at one table Milbert, 1819 \"Sacramental Scene ",
    "path": "spine",
    "doc": null
   },
   {
    "index": 5,
    "n": 6,
-   "title": "Shipwrecked, 1808 The token, given back 1808-09 Scotland Alexander Campbell: shipwrecked, ",
+   "title": "Ulster, 1798 The table Ireland Pennsylvania 1798-1807 Thomas Campbell: union in a land at ",
    "path": "spine",
    "doc": null
   },
   {
    "index": 6,
    "n": 7,
-   "title": "In farmhouses and groves The Declaration, 1809 1809 Washington, Pennsylvania The Declarati",
+   "title": "Shipwrecked, 1808 The token, given back 1808-09 Scotland Alexander Campbell: shipwrecked, ",
    "path": "spine",
    "doc": null
   },
   {
    "index": 7,
    "n": 8,
-   "title": "Signed at Cane Ridge The Last Will, 1804 1804 Cane Ridge The Last Will : \"sink into union ",
+   "title": "In farmhouses and groves The Declaration, 1809 1809 Washington, Pennsylvania The Declarati",
    "path": "spine",
    "doc": null
   },
   {
    "index": 8,
    "n": 9,
-   "title": "Brush Run, 1811 \"The choice of the people\" 1811-12 Brush Run, Pennsylvania A church of the",
+   "title": "Signed at Cane Ridge The Last Will, 1804 1804 Cane Ridge The Last Will : \"sink into union ",
    "path": "spine",
    "doc": null
   },
   {
    "index": 9,
    "n": 10,
-   "title": "\"Everlasting good news\" The Prospectus, 1830 1830 Bethany, Virginia The Millennial Harbing",
+   "title": "Brush Run, 1811 \"The choice of the people\" 1811-12 Brush Run, Pennsylvania A church of the",
    "path": "spine",
    "doc": null
   },
   {
    "index": 10,
    "n": 11,
-   "title": "Where we are The story so far 1801 Cane Ridge: thousands at one table Ireland Thomas Campb",
+   "title": "\"Everlasting good news\" The Prospectus, 1830 1830 Bethany, Virginia The Millennial Harbing",
    "path": "spine",
    "doc": null
   },
@@ -827,7 +827,7 @@
   },
   {
    "label": "Recap",
-   "at": 10
+   "at": 3
   },
   {
    "label": "Two movements, much in common",
@@ -1269,19 +1269,19 @@
  ],
  "unmatched": [
   {
-   "slide": 3,
+   "slide": 4,
    "text": "Sacramental Scene in a Western Forest,"
   },
   {
-   "slide": 7,
+   "slide": 8,
    "text": "sink into union with the Body of Christ at large"
   },
   {
-   "slide": 8,
+   "slide": 9,
    "text": "The choice of the people"
   },
   {
-   "slide": 9,
+   "slide": 10,
    "text": "Everlasting good news"
   }
  ]
