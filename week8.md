@@ -28,7 +28,7 @@
 
 ## Deck order v4 (Micah, 2026-11-20), as built in `decks/chapter8.html`
 
-1. **Recap:** "The story so far…", then one picture slide each: Cane Ridge, Thomas Campbell (Ireland; the table), Alexander (shipwreck; the token), the *Declaration*, the *Last Will*, Brush Run, the *Harbinger*.
+1. **Recap:** "Story so far…", then one picture slide each: Cane Ridge, Thomas Campbell (Ireland; the table), Alexander (shipwreck; the token), the *Declaration*, the *Last Will*, Brush Run, the *Harbinger*.
 2. **Our movement, two movements:** this is our movement, but until 1832 it was two. Then the side-by-side slide of what they had in common:
    - unity with freedom of opinion;
    - an open table;

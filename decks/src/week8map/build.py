@@ -13,7 +13,7 @@ SIDE = [
 ]
 SECTIONS = [
     ('Opening', 'Our Wild Democracy &middot; Chapter 8'),
-    ('Recap', 'The story so far'),
+    ('Recap', 'Story so far'),
     ('Two movements, much in common', 'Our movement, our tradition'),
     ('Lexington', 'Hill Street, Lexington'),
     ('The whole history of division', 'Two thousand years of division &middot; 1'),

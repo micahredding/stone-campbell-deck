@@ -84,7 +84,7 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
 
 # ---------- I. RECAP: the story so far ----------
 
-A(C('The story so far&hellip;', 'Seven pictures, one breath each, in the order we told them (the <i>Last Will</i>, 1804, was Chapter 4, after the <i>Declaration</i>).'))
+A(C('Story so far&hellip;', 'Seven pictures, one breath each, in the order we told them (the <i>Last Will</i>, 1804, was Chapter 4, after the <i>Declaration</i>).'))
 for _x in RC.slides(): A(_x)   # the recap in pictures (Micah, 2026-11-21: one image slide per point; the eight-line list removed)
 
 # ---------- II. OUR MOVEMENT, TWO MOVEMENTS, SO MUCH IN COMMON ----------
