@@ -9,9 +9,33 @@ _s = importlib.util.spec_from_file_location('unionmap', os.path.join(_H, 'unionm
 W, H = G['W'], G['H']
 def P(lat, lon): return (G['ox'] + (lon - G['lon0']) * G['C'] * G['k'], G['oy'] + (G['lat1'] - lat) * G['k'])
 
-WAVES = []      # (caption, [(name, lat, lon, label or None)]) -- filled from the research
-ABROAD = ''     # caption line for churches abroad, if any
-NOTES = ''
+WAVES = [   # (caption, [(name, lat, lon, label)]); label = (text, dx, dy, anchor) or None
+    ('Already, beyond the union: the Reformers, 1828&ndash;34', [
+        ('Western Reserve, Ohio', 41.10, -80.76, ('Western Reserve', 14, -12, 'start')), ('Pittsburgh', 40.44, -80.00, None),
+        ('Philadelphia', 39.95, -75.17, ('Philadelphia', 14, 22, 'start')), ('New York', 40.73, -74.00, ('New York', 14, -8, 'start')),
+        ('Bowling Green, Va.', 38.05, -77.35, None), ('Richmond, Va.', 37.54, -77.44, ('Virginia', 14, 24, 'start')),
+        ('Little Rock', 34.75, -92.29, ('Arkansas', 14, -14, 'start')), ('Carlowsville, Ala.', 32.17, -87.00, ('Alabama', 14, 8, 'start')),
+        ('Waterloo, Ala.', 34.92, -88.06, None), ('Toronto', 43.65, -79.38, ('Toronto', 0, -16, 'middle'))]),
+    ('1836&ndash;39: Iowa, Michigan, Georgia, Mississippi, Wisconsin; New Brunswick; Britain', [
+        ('Dubuque', 42.50, -90.66, ('Iowa 1835', -14, 6, 'end')), ('Grant Co., Wis.', 42.85, -90.71, ('Wisconsin 1838', -14, -16, 'end')),
+        ('Middleville, Mich.', 42.71, -85.46, ('Michigan 1836', 0, -16, 'middle')), ('Clarke Co., Ga.', 33.95, -83.38, ('Georgia 1836', 14, 6, 'start')),
+        ('Holly Springs, Miss.', 34.77, -89.45, None), ('Franklin Co., Miss.', 31.47, -90.90, ('Mississippi 1836', -14, 8, 'end')),
+        ('Saint John, N.B.', 45.27, -66.06, ('New Brunswick 1839', -14, -14, 'end'))]),
+    ('1840&ndash;47: Arkansas, Texas, North Carolina, Oregon', [
+        ('Fayetteville, Ark.', 36.06, -94.16, None), ('Pulaski Co., Va.', 37.05, -80.78, None),
+        ('Gay Hill, Tex.', 30.27, -96.48, ('Texas 1841', -14, 8, 'end')), ('Bowie Co., Tex.', 33.55, -94.40, None),
+        ('Hookerton, N.C.', 35.42, -77.58, ('North Carolina 1845', 14, 8, 'start')), ('Yamhill, Ore.', 45.34, -123.19, ('Oregon 1846', 14, 8, 'start'))]),
+    ('1852&ndash;57: California, Kansas; and Australia', [
+        ('Stockton', 37.96, -121.29, None), ('San Jose', 37.34, -121.89, ('California 1852', 14, 8, 'start')),
+        ('Timbered Hill, Kan.', 37.90, -94.80, ('Kansas 1856', -14, 26, 'end')), ('Leavenworth', 39.31, -94.92, None)]),
+    ('By 1860, by their own estimate: &ldquo;upwards of 300,000&rdquo;', []),
+]
+NOTES = ('Five clicks. The map opens with the unions of 1831&ndash;35 already lit. After 1836 the record shows no new unions of Christians and Disciples, only refusals (the <i>Gazetteer of Local Unions</i>); what spreads is the one movement. Each light is the earliest report found in the <i>Millennial Harbinger</i> (pages from the OCR, approximate). '
+ '(1) Already, beyond the union, the Campbells&rsquo; Reformers: the Western Reserve (Scott, 1827&ndash;28); Pittsburgh, Philadelphia (Bank Street, 1832), New York (1834), eastern Virginia (1832), Little Rock (1832: the Philadelphia Confession &ldquo;renounced by the church&rdquo;), Alabama (1833&ndash;34), Toronto (1834: &ldquo;a little band of reformers&hellip; about twenty in number&rdquo;). '
+ '(2) 1836&ndash;39: near Dubuque, 1 Nov. 1835, a church &ldquo;of eight members&rdquo; (MH 1836, p. 88); Middleville, Michigan, &ldquo;a company of disciples in this place&rdquo; (1836); Clarke County, Georgia (1836); Mississippi (1836); Grant County, Wisconsin: &ldquo;We met on the second Lord&rsquo;s day in October, when eleven of us united together&rdquo; (1838; MH 1839); Saint John, New Brunswick (1839); Nottingham, &ldquo;a congregation of New Testament Disciples&rdquo; (MH 1837), and New Mills near Glasgow (1837). '
+ '(3) 1840&ndash;47: Little Rock and Fayetteville (1840); Texas, Gay Hill (1841) and Bowie County, &ldquo;constituted a church of sixteen members&rdquo; (MH 1842); Hookerton, North Carolina: &ldquo;between twenty and thirty churches&rdquo; (MH 1845); Oregon, Yamhill: &ldquo;in March we organized a congregation upon the Book alone&rdquo;, the first in the Territory (1846, letter in MH 1848, p. 402). '
+ '(4) 1852&ndash;57: &ldquo;In Stockton and San Jose there are churches. In Stockton the brethren meet weekly to break the loaf&rdquo; (MH 1852); Kansas Territory, Timbered Hill (1856) and Leavenworth (1857); Sydney, Australia (MH 1852). '
+ '(5) Their own estimates, not counts: &ldquo;at least one hundred thousand&rdquo; (MH 1839); &ldquo;two hundred thousand soldiers of the Cross&rdquo; (MH 1848); 1860: &ldquo;nearly one hundred churches in Great Britain&rdquo;, &ldquo;in the United States upwards of 300,000 brethren&rdquo;, and Australia (MH 1860). The <i>Harbinger</i> itself doubted the larger figures (1857: &ldquo;This may be too large a figure&rdquo;). Nebraska: no congregation reported by 1860.')
 
 def svg():
     o = ['<svg viewBox="0 0 %d %d" style="width:min(96vw,160vh);height:auto;display:block;margin:0 auto" role=img aria-label="Map: the Stone-Campbell movement spreading across the United States after the union, 1836 to 1860">' % (W, H),

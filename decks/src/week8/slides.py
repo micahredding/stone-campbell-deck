@@ -18,6 +18,7 @@ R = _load('resources', 'resources.py')
 UM = _load('unionmap', 'week8/unionmap.py')
 DV = _load('division', 'week8/division.py')
 RC = _load('recap', 'week8/recap.py')
+SP = _load('spreadmap', 'week8/spreadmap.py')
 w3 = w3b.w3
 C, CARD, G, BLACK = w4.C, w4.CARD, w4.G, w4.BLACK
 PATDEFS, CHRISTENDOM_CSS = w3b.PATDEFS, w3b.CHRISTENDOM_CSS
@@ -221,7 +222,8 @@ A(LIST('Beyond Lexington', 'Person by person, congregation by congregation',
   'Four clicks. Stone at Jacksonville: &ldquo;I refused to unite with either until they united together, and labored to effect it. It was effected&rdquo; (<i>Biography</i>, p. 79). Where it was slow, Stone blamed &ldquo;a few ignorant, headstrong bigots on both sides.&rdquo;',
   size='clamp(28px,5.2vmin,66px)', gap='1.8vmin'))
 
-A(UM.slide())   # the union spreading, in waves (Micah, 2026-11-19)
+A(UM.slide())
+A(SP.slide())   # the one movement spreading, 1836-1860 (Micah, 2026-11-21)   # the union spreading, in waves (Micah, 2026-11-19)
 
 A(CARD('No magic moment.<br>' + G('It was worked out.'),
   'Visible unity came over years, with patience and forbearance, exploring together. Smith called it &ldquo;the best act of his life&rdquo; (Williams, p. 456); Stone, &ldquo;the noblest act of my life&rdquo; (<i>Biography</i>, p. 79).'))

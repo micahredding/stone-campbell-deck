@@ -2,7 +2,7 @@
 
 [← All chapters](.)
 
-**Slides:** [Chapter 8 deck](decks/chapter8.html) (draft, Nov 20; opens with the quiz "No creed but…"; side paths: "Joined, refused, dissolved", "Who keeps the table", "No creed but…"; the map of the union spreading, 1831–1835)
+**Slides:** [Chapter 8 deck](decks/chapter8.html) (draft, Nov 20; opens with the quiz "No creed but…"; side paths: "Joined, refused, dissolved", "Who keeps the table", "No creed but…"; the map of the union spreading, 1831–1835, and the one movement spreading to 1860)
 
 **The Story:** In Lexington, two unity and reform movements, represented by Barton W Stone and Raccoon John Smith, come together to work out unity with each other. Yet after days of wrestling, they disagree on many foundational issues. The only basis for unity they can come up with is the Bible. And that's what they shake on.
 
@@ -54,7 +54,7 @@
    - February 1832 (side path: *Who keeps the table*);
    - July 1835;
    - beyond Lexington;
-   - the map;
+   - the map (1831–1835), then the one movement spreading, 1836–1860 (national map, five clicks);
    - "No magic moment."
 7. **It worked:** one movement, one history.
 8. **Uniting on the Bible:**
