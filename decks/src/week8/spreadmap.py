@@ -96,18 +96,18 @@ def today_svg():
     import math
     o = ['<svg viewBox="0 0 %d %d" style="width:min(96vw,160vh);height:auto;display:block;margin:0 auto" role=img aria-label="Map: Stone-Campbell congregations in the United States by county, 1926, 1980, 2000 and 2020">' % (W, H),
          '<defs><radialGradient id=tglow><stop offset=0 stop-color="#f6dc8c" stop-opacity=".9"/><stop offset=".4" stop-color="#c89b3c" stop-opacity=".35"/><stop offset=1 stop-color="#c89b3c" stop-opacity="0"/></radialGradient></defs>',
-         '<style>.tm .st{fill:#1a1510;stroke:#5c4a33;stroke-width:1}.tm .lit{opacity:0;transition:opacity 1.2s ease}.tm .lit.on{opacity:1}.tm .lit.on:has(~ .lit.on){opacity:0}'
-         '.tm .cap{font:34px "IM Fell English",Georgia,serif;fill:#c89b3c}.tm .sub{font:20px Spectral,Georgia,serif;fill:#a89a82}</style><g class=tm>']
+         '<style>.tm .st{fill:#1a1510;stroke:#5c4a33;stroke-width:1}.tm .lit{opacity:0;transition:opacity 1.2s ease}.tm .lit.on,.tm .lit.first{opacity:1}.tm .lit.on:has(~ .lit.on),.tm .lit.first:has(~ .lit.on){opacity:0}'
+         '.tm .cap{font:34px "IM Fell English",Georgia,serif;fill:#c89b3c}.tm .tsub{font:20px Spectral,Georgia,serif;fill:#a89a82}</style><g class=tm>']
     for nm, d in G['paths'].items():
         o.append('<path class=st d="%s"/>' % d)
     o.append('<rect x="0" y="%d" width="%d" height="84" fill="#100d0a" opacity=".82"/>' % (H - 92, int(W * .86)))
-    for yr, pts, cap, sub in FRAMES:
-        g = ['<g class="lit frag">', '<g style="mix-blend-mode:screen">']
+    for i, (yr, pts, cap, sub) in enumerate(FRAMES):
+        g = ['<g class="lit first">' if i == 0 else '<g class="lit frag">', '<g style="mix-blend-mode:screen">']
         for x, y, n in sorted(pts, key=lambda p: p[2]):
             g.append('<circle cx="%.1f" cy="%.1f" r="%.1f" fill="url(#tglow)"/>' % (x, y, 4 + 0.34 * math.sqrt(n)))
         for x, y, n in pts:
             g.append('<circle cx="%.1f" cy="%.1f" r="1.5" fill="#f6dc8c"/>' % (x, y))
-        g.append('</g><text class=cap x="22" y="%d">%s</text><text class=sub x="24" y="%d">%s</text></g>' % (H - 50, cap, H - 18, sub))
+        g.append('</g><text class=cap x="22" y="%d">%s</text><text class=tsub x="24" y="%d">%s</text></g>' % (H - 50, cap, H - 18, sub))
         o.append(''.join(g))
     o.append('</g></svg>')
     return ''.join(o)
@@ -115,7 +115,7 @@ def today_svg():
 def today_slide():
     pe = PE
     return ('<section class="slide" style="padding:2vmin 2vmin 5vmin"><div class=eyebrow>From 1906 to today</div>' + today_svg() +
-            '<aside class=notes>Five clicks: 1906, 1926, 1980, 2000, today. Each glow grows with the number of people in that county. The measure that runs the whole way is people, not congregations: members in the U.S. Census of Religious Bodies (1906, 1926), adherents (members plus children and others attending) from 1980; so the step from 1926 to 1980 is partly a change of measure. '
+            '<aside class=notes>Opens on 1906; four clicks: 1926, 1980, 2000, today. Each glow grows with the number of people in that county. The measure that runs the whole way is people, not congregations: members in the U.S. Census of Religious Bodies (1906, 1926), adherents (members plus children and others attending) from 1980; so the step from 1926 to 1980 is partly a change of measure. '
             '1906 was the first census to count the Disciples and the Churches of Christ apart (the division made official). 1926 is the high point of the old census; the Depression-era 1936 census undercounted and is left out. The Christian Churches and Churches of Christ appear separately from 1971. '
             'About 2%% of each year could not be placed by county (renamed or vanished counties; Alaska, Hawaii, Puerto Rico); the totals in the captions are the full totals from each file. Congregations: about 12,300 surviving 1926 schedules; 22,336 (1980); 21,936 (2000); 19,978 (2020). '
             'Sources: <i>United States Census of Religious Bodies, County File</i>, 1906 and 1926 (ARDA, from ICPSR 8); <i>Churches and Church Membership in the United States, 1980</i> and <i>Religious Congregations and Membership Study, 2000</i> (ARDA county files); <i>2020 U.S. Religion Census</i> (ASARB, 2022). Figures are as each body reported them.</aside></section>')
