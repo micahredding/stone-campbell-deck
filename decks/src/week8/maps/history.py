@@ -111,9 +111,9 @@ if os.path.isdir(NH):
             n = int(r[cc]) if pd.notna(r[cc]) else 0; a = int(r[aa]) if pd.notna(r[aa]) else 0; tot += n; seats += a
             if not n: continue
             f2 = IDX.get((FULL.get(str(r['STATE']).strip().upper(), '??'), norm(str(r['COUNTY']))))
-            if f2: by[f2] = by.get(f2, 0) + max(a, 1)
+            if f2: by[f2] = by.get(f2, 0) + n * 100   # glow by churches (x100, to sit on the people scale of the later frames); seats are often blank in 1870
             else: miss += n
-        p, off = pts(by); P2[yr] = {'points': p, 'total': tot, 'seats': seats, 'unplaced': miss, 'measure': 'churches (glow by seats)'}
+        p, off = pts(by); P2[yr] = {'points': p, 'total': tot, 'seats': seats, 'unplaced': miss, 'measure': 'churches'}
         print(yr, 'churches', tot, 'seats', seats, 'unplaced', miss + off)
 R['people'] = P2
 json.dump(R, open(os.path.join(H_, '..', 'history_points.json'), 'w')); print('wrote history_points.json')
