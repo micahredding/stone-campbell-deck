@@ -233,65 +233,80 @@ A(CARD('No magic moment.<br>' + G('It was worked out.'),
 
 A(CARD('And it worked:<br>' + G('one movement, one history.'), 'Today we do not speak of a Stone movement and a Campbell movement, but of the Stone-Campbell movement, the Restoration movement. (If time: are we more Stone or more Campbell? Weekly communion and baptism for remission, Campbell; the open table and revival, Stone. It gets confusing, and that is the point.)'))
 
-# ---------- VIII. UNITING ON THE BIBLE: WHAT THEY MEANT ----------
+# ---------- VIII. CHRIST... OR THE BIBLE? (Micah, 2026-11-21) ----------
 
-A(C('Uniting on the Bible', 'We put this off. Now: what did they mean by it?'))
+A(C('Christ&hellip; or the Bible?', 'The quiz, again: no creed but&hellip; Christ, or the Bible? The room gave both answers. So did they.'))
 
-A(CARD('Not uniting on opinions<br>' + G('about the Bible.'), 'Not doctrines to agree on, not interpretations: they explicitly rejected that.'))
-
-A('<section class="slide"><div class=eyebrow>The quiz, again</div>'
-  '<h2 style="max-width:none;font-size:clamp(60px,13vmin,160px)">No creed but&hellip;</h2>'
-  '<div class="litany" style="gap:2vmin;margin-top:3vmin">'
-  '<div class="no frag" style="font-size:clamp(34px,7vmin,88px);color:var(--gold)">&hellip;Christ.</div>'
-  '<div class="no frag" style="font-size:clamp(34px,7vmin,88px);color:var(--gold)">&hellip;the Bible.</div></div>'
-  '<aside class=notes>Two clicks: the room&rsquo;s two answers. &ldquo;No creed but the Bible&rdquo; is Stone&rsquo;s own phrase (1828, 1832); &ldquo;No creed but Christ&rdquo; grows out of Walter Scott&rsquo;s creed and is a slogan by the 1900s. Side path: <i>No creed but&hellip;</i>.</aside></section>')
-
+A(CARD('<i style="color:var(--gold);font-size:1.7em">Christ</i>',
+  'First: what they said was required of a Christian, and for union. Each of them answers: faith in Jesus as the Christ.'))
+A(QK('&ldquo;&hellip;a profession of their faith in and obedience to him, in all things, according to his word, <b>is all that is absolutely necessary to qualify them for admission into his Church</b>.&rdquo;',
+     'Thomas Campbell, <i>Declaration and Address</i> (1809), Proposition 8', 'Thomas Campbell', 'dna',
+     'In full: &ldquo;That as it is not necessary that persons should have a particular knowledge or distinct apprehension of all Divinely revealed truths in order to entitle them to a place in the Church; neither should they, for this purpose, be required to make a profession more extensive than their knowledge; but that, on the contrary, their having a due measure of Scriptural self-knowledge respecting their lost and perishing condition by nature and practice, and of the way of salvation through Jesus Christ, accompanied with a profession of their faith in and obedience to him, in all things, according to his word, is all that is absolutely necessary to qualify them for admission into his Church.&rdquo;'))
 A(DS(QK('&ldquo;&hellip;has not this been <b>the only bond of union</b> which the &lsquo;Christian Baptist&rsquo; ever advocated? And what is it but a sincere and hearty conviction, expressed or confessed by the lips, <b>that Jesus is the Christ</b>&hellip;&rdquo;',
-     'Alexander Campbell, <i>Christian Baptist</i> (1826), &ldquo;To an Independent Baptist,&rdquo; p. 201', 'Christ alone', 'cb3',
+     'Alexander Campbell, <i>Christian Baptist</i> (1826), &ldquo;To an Independent Baptist,&rdquo; p. 201', 'Alexander Campbell', 'cb3',
      'Campbell defending himself: he is in &ldquo;full communion&rdquo; with the Baptists because the confession is the only bond of union. It goes on: &ldquo;and this belief, exhibited by an overt act of obedience&hellip; qualifies him, if you please, to be saluted as a brother.&rdquo;'), 'lex'))
-
 A(DS(QK('&ldquo;The belief of this one fact, and submission to one institution expressive of it, <b>is all that is required of Heaven to admission into the church</b>.&rdquo;',
      'Alexander Campbell, <i>The Christian System</i>, &ldquo;Foundation of Christian Union,&rdquo; p. 128', 'One fact', 'cs',
      'Next: &ldquo;The one fact is expressed in a single proposition&mdash;that Jesus the Nazarene is the Messiah.&rdquo; The one institution: baptism. The confession, not a system, is the foundation of union.'), 'lex'))
+A(QK('&ldquo;&hellip;they all stand ultimately upon this one Oracle, &lsquo;<b>Jesus is the Christ</b>.&rsquo; The person who affectionately admits this into the chambers of his soul, and reforms, <b>may be admitted into our churches</b>&hellip;&rdquo;',
+     'Walter Scott, <i>The Evangelist</i> (1832), p. 4', 'Walter Scott', 'ev32',
+     'Before it: &ldquo;Perhaps it is none of the least of all those things which distinguish the Reformation Churches, that they all stand ultimately upon this one Oracle&rdquo;. After: &ldquo;and if he continues to do honor to his own confession, he may ever remain in our churches&rdquo;. The year of Lexington.'))
+A(DS(QK('&ldquo;&hellip;this grand fact, that <b>Jesus is the Christ</b>, the Son of the living God&hellip; the belief of this one fact with the heart, <b>is the only prerequisite to Christian baptism and Church membership</b>&hellip;&rdquo;',
+     'Stone&rsquo;s <i>Christian Messenger</i> (May 1828), &ldquo;The Spirit of Orthodoxy, No. II,&rdquo; p. 146', 'Barton W. Stone', 'cm2',
+     'The lead article of Stone&rsquo;s paper, unsigned (Stone was its editor), stating what the Christians hold: &ldquo;to meet the christian world upon the language which the Holy Spirit teaches, unconnected with any opinions or speculations&rdquo;; &ldquo;all agree that Jesus is the Christ&rdquo;; and on this foundation all Christians &ldquo;will ultimately settle and unite.&rdquo; Williams, of Lexington: each side, &ldquo;having already taken Jesus the Christ as their only Leader, in love and liberty became one body&rdquo; (p. 456). Full sentence on the slide: &ldquo;this grand fact, that Jesus is the Christ, the Son of the living God, and Saviour of men, is the foundation on which the Saviour has built his Church&rdquo;.', size='clamp(30px,6.2vmin,80px)'), 'lex'))
+for _x in R.circle(): A(_x)   # side path: Campbell's circle, January 2, 1832 (Christ the centre)
 
+A(CARD('<i style="color:var(--gold);font-size:1.7em">The Bible</i>',
+  'Second: what they said of the Bible. The same people, often in the same breath.'))
+A(DS(QK('&ldquo;We determined that we would own no name but Christian&hellip; and that we would <b>subscribe to no creed but the Bible</b>&hellip;&rdquo;',
+     'Barton W. Stone, <i>Christian Messenger</i> (1828), p. 231', 'Barton W. Stone', 'cm3',
+     'In full: &ldquo;We determined that we would own no name but Christian, which we derive from our union with Christ; and that we would subscribe to no creed but the Bible&rdquo;. Of the Springfield Presbytery&rsquo;s choice in 1804.'), 'crd'))
+A(QK('&ldquo;Let us, then, my brethren, be no longer Campbellites or Stoneites&hellip; but <b>let us all come to the Bible, and to the Bible alone</b>, as the only book in the world that can give us all the Light we need.&rdquo;',
+     SMITH + ' &middot; ' + WIL + ', p. 454', 'Smith, at Lexington', 'wil',
+     'The words cut: &ldquo;New Lights or Old Lights, or any other kind of lights.&rdquo; He sat down.', doc='wil32'))
+A(DS(QK('&ldquo;&hellip;consisting of all those in every place that profess their faith in Christ and obedience to him in all things <b>according to the Scriptures</b>&hellip;&rdquo;',
+     'Thomas Campbell, <i>Declaration and Address</i> (1809), Proposition 1', 'And the Scriptures', 'dna',
+     'Proposition 1 opens: &ldquo;That the Church of Christ upon earth is essentially, intentionally, and constitutionally one.&rdquo; Faith in Christ, and then: according to the Scriptures. Eric, a few weeks ago: he wishes Thomas had left that out. Micah: so do I; it would have saved confusion. But it matters what they meant by it.'), 'lex'))
 A(DS(QK('&ldquo;&hellip;her only manual was, &lsquo;<b>The Bible</b>.&rsquo; And her all comprehensive creed for the binding of the faithful; &lsquo;<b>Jesus Christ is the Son of God</b>.&rsquo;&rdquo;',
      'Walter Scott, <i>The Evangelist</i> (1832), &ldquo;Primitive Sufferings,&rdquo; p. 32', 'Scott, the year of Lexington', 'ev32',
      'Of the first church. &ldquo;On this faith and this volume she gathered her children thick as the leaves in Autumn.&rdquo; The Bible the manual; Christ the creed. Both of the room&rsquo;s answers, in one sentence. Side path follows.',
      size='clamp(30px,6.4vmin,82px)', width='34ch'), 'crd'))
-
 for _x in R.creed(): A(_x)   # side path: No creed but...
 
-A(DS(QK('&ldquo;&hellip;consisting of all those in every place that profess their faith in Christ and obedience to him in all things <b>according to the Scriptures</b>&hellip;&rdquo;',
-     'Thomas Campbell, <i>Declaration and Address</i> (1809), Proposition 1', 'And the Scriptures', 'dna',
-     'Proposition 1 opens: &ldquo;That the Church of Christ upon earth is essentially, intentionally, and constitutionally one.&rdquo; Faith in Christ, and then: according to the Scriptures. Eric, a few weeks ago: he wishes Thomas had left that out. Micah: so do I; it would have saved confusion. But it matters what they meant by it.'), 'lex'))
-
-A(QK('&ldquo;Let us, then, my brethren, be no longer Campbellites or Stoneites&hellip; but <b>let us all come to the Bible, and to the Bible alone</b>, as the only book in the world that can give us all the Light we need.&rdquo;',
-     SMITH + ' &middot; ' + WIL + ', p. 454', 'Smith, at Lexington', 'wil',
-     'The words cut: &ldquo;New Lights or Old Lights, or any other kind of lights.&rdquo; He sat down.', doc='wil32'))
-
+A(CARD('<i style="color:var(--gold);font-size:1.7em">The problem</i>',
+  'Two answers, Christ and the Bible: are they the same proposal?'))
 A(QK('&ldquo;&hellip;to state the anomaly as boldly as possible, the movement is at one and the same time <b>Christocentric and bibliocentric</b>.&rdquo;',
-     'Dwight E. Stevenson, Disciples Panel of Scholars (1963)', 'Two proposals?', 'enc',
+     'Dwight E. Stevenson, Disciples Panel of Scholars (1963)', 'Dwight Stevenson, 1963', 'enc',
      'As quoted in the <i>Encyclopedia of the Stone-Campbell Movement</i>, &ldquo;Faith.&rdquo; Paul Blowers summarizes him: the two slogans are &ldquo;very different proposals, as different as allegiance to Christ and allegiance to the strict letter of the scriptural text.&rdquo;'))
+A(QK('&ldquo;&hellip;<b>very different proposals</b>, as different as allegiance to Christ and allegiance to the strict letter of the scriptural text.&rdquo;',
+     'Paul M. Blowers, <i>Encyclopedia of the Stone-Campbell Movement</i> (2004), &ldquo;Faith&rdquo;', 'Paul Blowers, 2004', 'enc',
+     'Blowers, summarizing the two slogans, &ldquo;No creed but Christ&rdquo; and &ldquo;No book but the Bible&rdquo;, after Stevenson.'))
 
+A(CARD('<i style="color:var(--gold);font-size:1.7em">But</i>',
+  'Uniting on the Bible was never uniting on opinions about the Bible. They said so, plainly.'))
 A(DS(QK('&ldquo;&hellip;inferences and deductions from Scripture premises&hellip; <b>are they not formally binding upon the consciences of Christians farther than they perceive the connection</b>&hellip;&rdquo;',
      'Thomas Campbell, <i>Declaration and Address</i> (1809), Proposition 6', 'Not our readings', 'dna',
      'In full: &ldquo;although inferences and deductions from Scripture premises, when fairly inferred, may be truly called the doctrine of God&rsquo;s holy word, yet are they not formally binding upon the consciences of Christians farther than they perceive the connection, and evidently see that they are so&hellip; Therefore, no such deductions can be made terms of communion.&rdquo; Our readings of Scripture are not the bond.'), 'lex'))
-
 A(DS(QK('&ldquo;&hellip;<b>no deduction or inference from them, however logical or true, forms any part of the Gospel</b> of Jesus Christ.&rdquo;',
      '&ldquo;Raccoon&rdquo; John Smith, at Lexington &middot; ' + WIL + ', p. 453', 'Smith, the same morning', 'wil',
      'Before it: &ldquo;the Gospel is a system of facts, commands, and promises.&rdquo; After: &ldquo;No heaven is promised to those who hold them, and no hell is threatened to those who deny them.&rdquo;'), 'wil32'))
+A(DS(QK('&ldquo;If they have opinions different from ours, they are welcome to have them, <b>provided they do not endeavor to impose them on us as articles of faith</b>.&rdquo;',
+     'Stone and Johnson, <i>Christian Messenger</i>, January 1832, &ldquo;Union of Christians,&rdquo; pp. 6&ndash;8', 'Stone and Johnson', 'cm6',
+     'Of the Reformers, just after Lexington. Before it: &ldquo;We have never asked them what were their opinions, nor have they asked us.&rdquo; After: &ldquo;They say the same of us. We hear each other preach; and are mutually pleased.&rdquo;'), 'lex'))
 
-A(CARD('Different proposals,<br>' + G('only if we forget what they meant.'),
-  'Micah, in his own voice: he prefers &ldquo;No creed but Christ.&rdquo; Uniting on the Bible was never uniting on opinions about the Bible. Smith, the same morning: &ldquo;no deduction or inference from them, however logical or true, forms any part of the Gospel of Jesus Christ&rdquo; (Williams, p. 453).'))
-
-for _x in R.circle(): A(_x)   # Campbell's circle, January 2, 1832 (two slides)
-
-A(DS(QK('&ldquo;The brethren of Stone did not join Alexander Campbell as their leader, nor did the brethren of Campbell join Barton W. Stone as their leader; but each, <b>having already taken Jesus the Christ as their only Leader</b>, in love and liberty became one body&hellip;&rdquo;',
-     WIL + ', p. 456', 'Their only Leader', 'wil',
-     'Williams&rsquo;s summary of what the handshake meant (1870). It goes on: &ldquo;not Stoneites, or Campbellites; not Christians, or Disciples, distinctively as such; but Christians, Disciples, saints, brethren, and children of the same Father.&rdquo; Before it: &ldquo;an equal and mutual pledge and resolution to meet on the Bible as on common ground, and to preach the Gospel rather than to propagate opinions.&rdquo;'), 'wil32'))
-
-A(CARD('Scripture, like the table:<br>' + G('shared by all.'),
-  'Not a set of doctrines to agree on, but a shared table to come to: a shared basis for conversation and dialogue, and a shared way to meet Christ himself. We know this in our own congregation: we can argue about Scripture all day, hold every interpretation there is, and still it brings us together, and back to Christ. Like the communion table, Scripture is the common property of all: unity in our dialogue, in our diversity. (More on how they read the Bible in the weeks ahead.)'))
+A(CARD('How can they unite around the Bible,<br><span style="color:var(--gold)">but not its interpretations?</span>',
+  'The question. Two answers: one practical, one sacramental.'))
+A(CARD('Practically:<br><span style="color:var(--gold)">they spoke in the Bible&rsquo;s own words.</span>',
+  'In their preaching they used the words the Bible uses, and left their theories unspoken.'))
+A(DS(QK('&ldquo;For several years past I have tried to speak on such subjects <b>only in the language of inspiration</b>; for it can offend no one to say about those things just what the Lord himself has said. In this scriptural style of speech <b>all Christians should be agreed</b>.&rdquo;',
+     SMITH + ' &middot; ' + WIL + ', p. 453', 'Smith, at Lexington', 'wil',
+     'Read on the page scan. On the Trinity and Christ: &ldquo;If I come to the passage, &lsquo;My Father is greater than I,&rsquo; I will quote it, but will not stop to speculate upon the inferiority of the Son&hellip; I will present these subjects only in the words which the Lord has given to me. I know he will not be displeased if we say just what he has said.&rdquo; Campbell called it &ldquo;Bible names for Bible things&rdquo; (MH 1837).', size='clamp(30px,6.2vmin,80px)'), 'wil32'))
+A(CARD('Like the liturgy:<br><span style="color:var(--gold)">immersed in Scripture&rsquo;s words.</span>',
+  'What the liturgical churches have long done: the service itself is an immersion in Scripture, its psalms, readings, canticles and prayers in the Bible&rsquo;s own words. Unity in the words we share, not in our theories about them.'))
+A(CARD('Sacramentally:<br><span style="color:var(--gold)">formed by its words and its story.</span>',
+  'They came to the Bible as a text that forms us: not through our interpretation of it, but through the encounter with its words and its story. Like the table: we do not have to agree on what happens there to be fed by it, together.'))
+A(CARD('<i style="color:var(--gold);font-size:1.7em">We do this here.</i>',
+  'Our congregation: we read it together, sing it, pray it, argue about it, hold every interpretation there is, and still it brings us together, and back to Christ.'))
 
 # ---------- CLOSE ----------
 for _k in range(1, len(IDEAS) + 1): A(IDEA(_k))

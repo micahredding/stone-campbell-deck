@@ -12,6 +12,8 @@ MHF = lambda y: os.path.join(P, 'Millennial Harbinger', 'Millennial Harbinger %s
 SRC = {
     'wil': os.path.join(X, 'Life of Elder John Smith (John Augustus Williams).md'),
     'cm6': os.path.join(P, 'Christian Messenger', 'Christian Messenger Volume 6 (1832).md'),
+    'cm2': os.path.join(P, 'Christian Messenger', 'Christian Messenger Volume 2 (1827).md'),
+    'cm3': os.path.join(P, 'Christian Messenger', 'Christian Messenger Volume 3 (1828).md'),
     'mh1832': MHF(1832),
     'enc': os.path.join(X, 'The Encyclopedia of the Stone-Campbell Movement (Douglas A. Foster).md'),
     'ev32': os.path.join(P, 'The Evangelist', 'The Evangelist Volume 1 (1832).md'),

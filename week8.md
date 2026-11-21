@@ -57,20 +57,12 @@
    - the map (1831–1835), then the one movement spreading, 1836–1860 (national map, five clicks), then from 1850 to today by county: 1850, 1860, 1870 ("Christian" churches, sized by seats), 1906, 1926 (members), 1980, 2000, 2020 (adherents) (eleven clicks, ending at 2000, with 1940–1970 eased between the 1926 and 1980 counts; heading "From 1850 to 2000");
    - "No magic moment."
 7. **It worked:** one movement, one history.
-8. **Uniting on the Bible:**
-   - "Not uniting on opinions about the Bible";
-   - the quiz again;
-   - Christ alone (Campbell, 1826; *Christian System*, "one fact");
-   - Scott's manual and creed (side path: *No creed but…*);
-   - "and the Scriptures" (D&A Proposition 1; Eric's wish);
-   - Smith, "the Bible alone";
-   - Stevenson;
-   - D&A Proposition 6;
-   - Smith, "no deduction or inference";
-   - "Different proposals, only if we forget";
-   - Campbell's circle;
-   - Williams, "their only Leader";
-   - "Scripture, like the table: shared by all."
+8. **Christ… or the Bible?** (reworked 2026-11-21)
+   - **Christ:** Thomas Campbell, D&A Proposition 8 ("is all that is absolutely necessary to qualify them for admission into his Church"); Alexander Campbell, *Christian Baptist* 1826 ("the only bond of union") and *Christian System* ("one fact"); Walter Scott, *Evangelist* 1832, p. 4 ("they all stand ultimately upon this one Oracle, 'Jesus is the Christ'"); Stone's *Christian Messenger*, May 1828, p. 146 ("the only prerequisite to Christian baptism and Church membership"). Side path: Campbell's circle (*One centre*).
+   - **The Bible:** Stone, CM 1828, p. 231 ("subscribe to no creed but the Bible"); Smith at Lexington ("the Bible alone"); D&A Proposition 1 ("according to the Scriptures"; Eric's wish); Scott's manual and creed (side path: *No creed but…*).
+   - **The problem:** Stevenson 1963 ("Christocentric and bibliocentric"); Blowers 2004 ("very different proposals").
+   - **But:** not opinions about the Bible: D&A Proposition 6; Smith, "no deduction or inference"; Stone and Johnson, January 1832 ("provided they do not endeavor to impose them on us as articles of faith").
+   - **How can they unite around the Bible, but not its interpretations?** Practically: they spoke in the Bible's own words (Smith, p. 453: "only in the language of inspiration… In this scriptural style of speech all Christians should be agreed"); like the liturgy, an immersion in Scripture's words. Sacramentally: formed by its words and its story, not by our interpretation of it. We do this here.
 9. **Close:** ideas (the fourth is now "Scripture, like the table, is shared by all"), discussion, site.
 
 **Taken out of the spine:**

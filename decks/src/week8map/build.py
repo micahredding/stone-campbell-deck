@@ -10,6 +10,7 @@ import mapdeck, resources as R
 SIDE = [
     ('The fire', 'The Fire</i>', '<div class=eyebrow>The fire<'),   # off 'raised among the raccoons' (Micah, 2026-11-21: a side path for now)
     R.TABLE,          # off Lexington, February 1832: who may serve the table
+    R.CIRCLE,         # off Stone, Christian Messenger 1828: Campbell's circle, Christ the centre
     R.CREED,          # off Scott, 1832: No creed but...
 ]
 SECTIONS = [
@@ -21,7 +22,7 @@ SECTIONS = [
     ('The handshake', 'The proposition</h2>'),
     ('It took years', 'It took years</h2>'),
     ('It worked', 'one movement, one history.'),
-    ('Uniting on the Bible', 'Uniting on the Bible</h2>'),
+    ('Christ... or the Bible?', 'Christ&hellip; or the Bible?</h2>'),
     ('Close', 'for discussion &middot; Chapter 8'),
 ]
 def docs(between, clean): return R.docs(between, clean, ['wil32', 'lex', 'mh32a', 'crd', 'tbl'])
