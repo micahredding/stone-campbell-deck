@@ -36,7 +36,7 @@
    - the priesthood of all, with governance in the people;
    - a radical future.
 
-   Then "So much in common: surely they could unite with each other", and Georgetown, "the same family".
+   Then (said, not on a slide) so much in common, surely they could unite with each other; and Georgetown, "the same family".
 3. **Lexington:** Hill Street; "a popular assembly", the people and not delegates; the points of contention, side by side.
 4. **The whole history of division:**
    - the egg replayed;
