@@ -37,3 +37,5 @@ Rights: photographs by the site's author; the windows and Bower's painting are 2
 | `recap-ireland-ballynahinch-1798.jpg` | Thomas Robinson, *The Battle of Ballynahinch* (County Down, June 13, 1798; c. 1798–1800) | Wikimedia Commons, "Battle of Ballynahinch by Thomas Robinson.jpg" (public domain); copy in database `09 Images` |
 | `recap-ireland-cruikshank-1845.jpg` | George Cruikshank, "Rebels destroying a house and furniture," for W. H. Maxwell, *History of the Irish Rebellion in 1798* (1845) | victorianweb.org (scan of the 1845 plate; public domain); copy in database `09 Images` |
 | `tcampbell-oval.jpg` | Thomas Campbell, engraved portrait, cropped to an oval | Our Chapter 2–3 image (`decks/src/week3/tcampbell.jpg`) |
+| `recap-covenanters-communion-harvey-1840.jpg` | Sir George Harvey, *The Covenanters' Communion* (c. 1840; National Galleries of Scotland, NG 608) | Wikimedia Commons, "The Covenanters' Communion.jpg" (960 px thumbnail; public domain); copy in database `09 Images/1840-harvey-covenanters-communion.jpg` |
+| `recap-communion-token-1750.jpg` | Scottish communion token, 1750 | Database `09 Images/scottish-communion-token-1750.jpg` (CC0) |
