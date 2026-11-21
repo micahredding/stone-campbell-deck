@@ -179,6 +179,14 @@ def today_svg():
          '<div class=cap0><div class=cap>1831&ndash;1860: the union, and the first reports</div></div>']
     for yr, pts, cap, sub in FRAMES:
         o.append('<div class="lit frag">' + img % _frame_webp(base, pts, carry) + '<div class=capbox><div class=cap>%s</div><div class=tsub>%s</div></div></div>' % (cap, sub))
+    lab = ['<svg viewBox="0 0 %d %d" style="position:absolute;inset:0;width:100%%;height:100%%;pointer-events:none"><g style="font:22px Spectral,Georgia,serif;fill:#ede4d3;paint-order:stroke;stroke:#0e0b09;stroke-width:5">' % (W, H)]
+    for cap, pts in WAVES:   # the place names of the 1836-1860 map, carried over (Micah, 2026-11-21)
+        for nm, la, lo, lb in pts:
+            if not lb: continue
+            t, dx, dy, an = lb if isinstance(lb, tuple) else (lb, 12, -10, 'start')
+            x, y = P(la, lo)
+            lab.append('<text x="%.1f" y="%.1f" text-anchor="%s">%s</text>' % (x + dx, y + dy, an, t))
+    lab.append('</g></svg>'); o.append(''.join(lab))
     o.append('</div>')
     return ''.join(o)
 
