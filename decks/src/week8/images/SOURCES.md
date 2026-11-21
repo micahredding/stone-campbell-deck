@@ -41,3 +41,6 @@ Rights: photographs by the site's author; the windows and Bower's painting are 2
 | `recap-communion-token-1750.jpg` | Scottish communion token, 1750 | Database `09 Images/scottish-communion-token-1750.jpg` (CC0) |
 | `recap-shipwreck-loutherbourg.jpg` | Philippe Jacques de Loutherbourg, *A Shipwreck off a Rocky Coast* (not the *Hibernia*, and not Islay) | Our Chapter 2 image (`decks/src/week2/wreck.jpg`) |
 | `acyoung-oval.jpg` | Young Alexander Campbell (Washington Bogart Cooper; from an 1889 photograph by Ira F. Collins) | Our Chapter 5 image (`decks/src/week5/acyoung.jpg`); ACU Stone-Campbell Teaching Images, CC BY-NC-ND 4.0: class use |
+| `recap-grove.jpg` | A forest grove (painting) | Our Chapter 3 image (`decks/src/week3/grove.jpg`) |
+| `recap-dna-1809-cover.jpg` | The *Declaration and Address* (Washington, Pa., 1809), cover of an original pamphlet | Our Chapter 5 image (`decks/src/week5/dna_cover.jpg`) |
+| `tcampbell-1908-oval.jpg` | Thomas Campbell, engraved, signed "Your affectionate Father, Thomas Campbell" | Frontispiece of the *Declaration and Address* centennial edition (1908), archive.org `declarationaddre00camp`, leaf n7; public domain. Full page in the database `09 Images/thomas-campbell-1908-frontispiece.jpg` |
