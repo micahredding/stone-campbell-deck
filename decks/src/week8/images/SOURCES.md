@@ -24,3 +24,5 @@ Rights: photographs by the site's author; the windows and Bower's painting are 2
 | `manz_drowning.jpg` | The drowning of Felix Manz, Zurich, 1527 | Jan Luyken, *Martyrs Mirror* (1685); public domain. Copy of Chapters 3 and 6's image. |
 | `marburg.jpg` | Marburg, 1529 (detail) | August Noack, 1867–69; public domain. Copy of Chapter 3's image. |
 | `hagia_sophia_hildebrandt.jpg` | Hagia Sophia (Hildebrandt, c. 1852), for 1054 if wanted | Wikimedia Commons; public domain. Not used yet. |
+
+| `smith-sartain-1870.jpg` | "Raccoon" John Smith, engraved by John Sartain, with his signature ("Yours affectionately, John Smith") | Frontispiece of J. A. Williams, *Life of Elder John Smith* (Cincinnati, 1870), archive.org `lifeofelderjohns00williala`, leaf n7 (downloaded 2026-11-21); public domain. Copy in the database: `09 Images/smith-raccoon-john-sartain-1870.jpg`. |
