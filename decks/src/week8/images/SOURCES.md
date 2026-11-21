@@ -44,3 +44,6 @@ Rights: photographs by the site's author; the windows and Bower's painting are 2
 | `recap-grove.jpg` | A forest grove (painting) | Our Chapter 3 image (`decks/src/week3/grove.jpg`) |
 | `recap-dna-1809-cover.jpg` | The *Declaration and Address* (Washington, Pa., 1809), cover of an original pamphlet | Our Chapter 5 image (`decks/src/week5/dna_cover.jpg`) |
 | `tcampbell-1908-oval.jpg` | Thomas Campbell, engraved, signed "Your affectionate Father, Thomas Campbell" | Frontispiece of the *Declaration and Address* centennial edition (1908), archive.org `declarationaddre00camp`, leaf n7; public domain. Full page in the database `09 Images/thomas-campbell-1908-frontispiece.jpg` |
+| `recap-last-will-signing-window.jpg` | Stained-glass window at Cane Ridge: the signing of the *Last Will and Testament* | Our Chapter 4 image (`decks/src/week4/signing.jpg`); photo Chris Light, CC BY-SA 4.0 (Wikimedia Commons) |
+| `recap-last-will-1847-p51.jpg` | *The Last Will and Testament of the Springfield Presbytery*, first page, as printed in Stone's *Biography* (1847), p. 51 | archive.org `biographyofeldba01ston`, leaf n66; public domain |
+| `stone-painted-oval.jpg` | Barton W. Stone, painted portrait at the Cane Ridge shrine (cropped, sharpened) | Database `09 Images/barton-w-stone-memorial-portrait.jpg`; photo Chris Light, CC BY-SA 4.0 |
