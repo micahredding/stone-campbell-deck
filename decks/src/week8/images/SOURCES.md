@@ -53,3 +53,4 @@ Rights: photographs by the site's author; the windows and Bower's painting are 2
 | `recap-mh-1830-title.jpg` | *Millennial Harbinger* vol. 1 (Bethany, Va., 1830), title page, with the epigraph from Revelation 14:6 (toned) | archive.org `millennialharbinger1830` (Google scan, Andover-Harvard Theological Library), leaf n5; public domain |
 | `recap-mh-1830-prospectus.jpg` | *Millennial Harbinger* no. 1, January 4, 1830, p. 1: masthead, epigraph and Prospectus (toned) | archive.org `millennialharbinger1830`, leaf n7; public domain |
 | `acold-engraving-oval.jpg` | Alexander Campbell at about sixty-five, engraved portrait (oval crop, warm-toned) | Database `09 Images/alexander-campbell-age-65.jpg` (Wikimedia Commons); public domain |
+| `smith-sartain-bg.jpg` | The Sartain frontispiece of Smith, cropped above the signature and toned dark, for the background treatment | From `smith-sartain-1870.jpg` (same source; public domain) |

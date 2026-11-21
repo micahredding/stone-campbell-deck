@@ -39,6 +39,19 @@ def LIST(eyebrow, title, items, note, size='clamp(26px,4.6vmin,58px)', gap='1.6v
     return ('<section class="slide"><div class=eyebrow>%s</div><h2 style="max-width:none">%s</h2>'
             '<div class=litany style="text-align:left;gap:%s;max-width:90vw">%s</div><aside class=notes>%s</aside></section>' % (eyebrow, title, gap, lis, note))
 def D(y, t): return '<b>%s</b> &nbsp;%s' % (y, t)
+def BGIMG(img, title, cite, note, pos='66%', h=None):
+    # the picture behind the words (Micah, 2026-11-21): large, dimmed, its edges feathered into the dark
+    src = RC._b64(img)
+    return ('<section class="slide" style="padding:0;background:#0e0b09">'
+            '<img src="%s" alt="" style="position:absolute;top:-4vh;height:118vh;left:%s;transform:translateX(-50%%);'
+            'filter:none;'
+            '-webkit-mask-image:radial-gradient(ellipse 50%% 50%% at 50%% 42%%,#000 60%%,transparent 100%%);mask-image:radial-gradient(ellipse 50%% 50%% at 50%% 42%%,#000 60%%,transparent 100%%)">'
+            '<div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(14,11,9,.9) 0%%,rgba(14,11,9,.4) 45%%,rgba(14,11,9,0) 70%%)"></div>'
+            '<div style="position:absolute;left:6vw;top:50%%;transform:translateY(-50%%);max-width:52vw;text-align:left;text-shadow:0 2px 16px #000">'
+            '<div style="font-family:\'IM Fell English\',Georgia,serif;color:var(--bone);font-size:clamp(44px,9vmin,116px);line-height:1.05">%s</div>'
+            '<div style="font-family:Spectral,Georgia,serif;color:var(--bone-dim);font-size:clamp(14px,2.2vmin,26px);margin-top:3vmin;max-width:40vw">%s</div></div>'
+            '<aside class=notes>%s</aside></section>' % (src, pos, title, cite, note))
+
 def IMG(img, eyebrow, cite, note, h='72vh'):
     p = os.path.join(_H, 'images', img)
     src = 'data:image/jpeg;base64,' + base64.b64encode(open(p, 'rb').read()).decode()
@@ -121,7 +134,7 @@ A(CARD('Every division of eighteen centuries<br>' + G('in one room.'),
 
 A(C('The proposition', 'Saturday, December 31, 1831. One speaker from each side: Smith for the Disciples, Stone for the Christians.'))
 
-A(IMG('smith-sartain-1870.jpg', '&ldquo;Raccoon&rdquo; John Smith, 1784&ndash;1868', 'Frontispiece engraving by John Sartain, in J. A. Williams, <i>Life of Elder John Smith</i> (1870)',
+A(BGIMG('smith-sartain-bg.jpg', '&ldquo;Raccoon&rdquo;<br>John Smith<div style="font-size:.42em;color:var(--gold);margin-top:1.5vmin;letter-spacing:.06em">1784&ndash;1868</div>', 'Frontispiece engraving by John Sartain, in J. A. Williams, <i>Life of Elder John Smith</i> (1870)',
   'Who he was: born 1784 in East Tennessee (&ldquo;a native of the State of Franklin,&rdquo; the short-lived breakaway frontier state, Williams p. 13) to a Regular Baptist family, raised in Stockton&rsquo;s Valley on the Kentucky frontier, &ldquo;never had more than six months of schooling&rdquo; (<i>Encyclopedia</i>). January 1815, near Huntsville, Alabama: his cabin burned and two of his children died; his wife died soon after. Riding home, the Calvinist preacher could not comfort her: &ldquo;If I tell her that our babies are glorified, the thought that possibly they were of the non-elect will only aggravate her woe&rdquo;; his faith in that doctrine &ldquo;yielded up its strength forever&rdquo; (Williams, p. 103). The nickname means backwoodsman: at Crab Orchard in 1815 he introduced himself as from the hills of the Cumberland, where &ldquo;saltpeter caves abound, and raccoons make their homes&rdquo; (p. 115), and people spoke of &ldquo;the man that had been raised among the raccoons&rdquo; (p. 117). Later Philip Fall posted notices in Frankfort that &ldquo;Raccoon John Smith would preach&rdquo;; ever after, &ldquo;some knew me as &lsquo;Raccoon John Smith, of Montgomery&rsquo;&rdquo; (p. 278), a title he &ldquo;disliked but tolerated.&rdquo; 1828, to his wife: &ldquo;I have baptized seven hundred sinners and capsized fifteen hundred Baptists&rdquo; (p. 258). &ldquo;A civil Campbellite&rdquo; (Williams, pp. 478&ndash;479, read on the page scan): on a journey south, a woman serving him breakfast had heard of &ldquo;a strange sort of people up there in Kentucky called Campbellites&rdquo;; she was told they &ldquo;even chased after people, and ran them down,&rdquo; and once ran a poor fellow &ldquo;five miles before they caught him.&rdquo; Smith: &ldquo;That was a very long-winded fellow, ma&rsquo;am.&rdquo; She imagined &ldquo;a sort of wild, fierce, fanatical look.&rdquo; Smith, setting down his knife and fork: &ldquo;look right at me, and you will see one! But don&rsquo;t be afraid&hellip; I am a <i>civil</i> Campbellite, and will not chase <i>you</i> into the water.&rdquo;', h='74vh'))
 # Raccoon John Smith, for flavor (Micah, 2026-11-21: "I want all this")
 A(DS(QK('&ldquo;I am John Smith, from Stockton&rsquo;s Valley&hellip; Down there, saltpeter caves abound, and <b>raccoons make their homes</b>. On that wild frontier we never had good schools, nor many books; consequently, I stand before you to-day a man without an education.&rdquo;',
