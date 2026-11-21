@@ -81,6 +81,12 @@ def _fmt(n): return '{:,}'.format(n)
 PE = HIST['people']
 def _b(yr, *keys): return tuple(_fmt(PE[yr]['by_body'][k]) for k in keys)
 FRAMES = [   # people: members (1906, 1926), adherents (1980 on); the measure the censuses share back to 1906
+    ('1850', PE['1850']['points'], '1850: %s &ldquo;Christian&rdquo; churches' % _fmt(PE['1850']['total']),
+     'U.S. census: churches and %s seats; Disciples and the Christian Connection counted together' % _fmt(PE['1850']['seats'])),
+    ('1860', PE['1860']['points'], '1860: %s &ldquo;Christian&rdquo; churches' % _fmt(PE['1860']['total']),
+     'U.S. census: churches and %s seats; Disciples and the Christian Connection counted together' % _fmt(PE['1860']['seats'])),
+    ('1870', PE['1870']['points'], '1870: %s &ldquo;Christian&rdquo; churches' % _fmt(PE['1870']['total']),
+     'U.S. census: organizations and %s sittings; Disciples and the Christian Connection counted together' % _fmt(PE['1870']['seats'])),
     ('1906', PE['1906']['points'], '1906: %s members' % _fmt(PE['1906']['total']),
      'Disciples of Christ %s &middot; Churches of Christ %s (the first census to count them apart)' % _b('1906', 'disciples', 'churches_of_christ')),
     ('1926', PE['1926']['points'], '1926: %s members' % _fmt(PE['1926']['total']),
@@ -114,8 +120,8 @@ def today_svg():
 
 def today_slide():
     pe = PE
-    return ('<section class="slide" style="padding:2vmin 2vmin 5vmin"><div class=eyebrow>From 1906 to today</div>' + today_svg() +
-            '<aside class=notes>Opens on 1906; four clicks: 1926, 1980, 2000, today. Each glow grows with the number of people in that county. The measure that runs the whole way is people, not congregations: members in the U.S. Census of Religious Bodies (1906, 1926), adherents (members plus children and others attending) from 1980; so the step from 1926 to 1980 is partly a change of measure. '
+    return ('<section class="slide" style="padding:2vmin 2vmin 5vmin"><div class=eyebrow>From 1850 to today</div>' + today_svg() +
+            '<aside class=notes>Opens on 1850; seven clicks: 1860, 1870, 1906, 1926, 1980, 2000, today. Each glow grows with the number of people (or, before 1906, seats) in that county. 1850&ndash;1870: the decennial census counted churches and their seats by denomination, and its category &ldquo;Christian&rdquo; took in both the Disciples and the Christian Connection (the Christians who never united), so those three frames are churches of both, sized by seats (IPUMS NHGIS, county tables). From 1906, people: members in the U.S. Census of Religious Bodies (1906, 1926), adherents (members plus children and others attending) from 1980; so the step from 1926 to 1980 is partly a change of measure. '
             '1906 was the first census to count the Disciples and the Churches of Christ apart (the division made official). 1926 is the high point of the old census; the Depression-era 1936 census undercounted and is left out. The Christian Churches and Churches of Christ appear separately from 1971. '
             'About 2%% of each year could not be placed by county (renamed or vanished counties; Alaska, Hawaii, Puerto Rico); the totals in the captions are the full totals from each file. Congregations: about 12,300 surviving 1926 schedules; 22,336 (1980); 21,936 (2000); 19,978 (2020). '
-            'Sources: <i>United States Census of Religious Bodies, County File</i>, 1906 and 1926 (ARDA, from ICPSR 8); <i>Churches and Church Membership in the United States, 1980</i> and <i>Religious Congregations and Membership Study, 2000</i> (ARDA county files); <i>2020 U.S. Religion Census</i> (ASARB, 2022). Figures are as each body reported them.</aside></section>')
+            'Sources: IPUMS NHGIS (Schroeder et al., version 21.0, 2026, doi:10.18128/D050.V21.0), 1850, 1860, 1870 county church tables; <i>United States Census of Religious Bodies, County File</i>, 1906 and 1926 (ARDA, from ICPSR 8); <i>Churches and Church Membership in the United States, 1980</i> and <i>Religious Congregations and Membership Study, 2000</i> (ARDA county files); <i>2020 U.S. Religion Census</i> (ASARB, 2022). Figures are as each body reported them.</aside></section>')

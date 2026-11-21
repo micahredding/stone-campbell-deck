@@ -99,5 +99,21 @@ for r in ws.iter_rows(min_row=2, values_only=True):
         by[r[0]] = by.get(r[0], 0) + r[6]; tot[r[3]] = tot.get(r[3], 0) + r[6]
 p, off = pts(by); P2['2020'] = {'points': p, 'by_body': tot, 'total': sum(tot.values()), 'unplaced': off, 'measure': 'adherents'}
 print('2020 adherents', tot, 'unplaced', off)
+
+# ---- 1850, 1860, 1870: churches of the census category "Christian" (Disciples and the Christian Connection together),
+# IPUMS NHGIS county tables NT47 (1850), NT26 (1860), NT41 (1870); extract nhgis0001 in DATA/nhgis/ ----
+NH = os.path.join(DATA, 'nhgis')
+if os.path.isdir(NH):
+    for yr, f, cc, aa in (('1850', 'ds10_1850', 'AET002', 'AEU002'), ('1860', 'ds14_1860', 'AHL003', 'AHN003'), ('1870', 'ds17_1870', 'AK5002', 'AK6002')):
+        d = pd.read_csv(os.path.join(NH, 'nhgis0001_%s_county.csv' % f), encoding='latin-1', skiprows=[1])
+        by, miss, tot, seats = {}, 0, 0, 0
+        for _, r in d.iterrows():
+            n = int(r[cc]) if pd.notna(r[cc]) else 0; a = int(r[aa]) if pd.notna(r[aa]) else 0; tot += n; seats += a
+            if not n: continue
+            f2 = IDX.get((FULL.get(str(r['STATE']).strip().upper(), '??'), norm(str(r['COUNTY']))))
+            if f2: by[f2] = by.get(f2, 0) + max(a, 1)
+            else: miss += n
+        p, off = pts(by); P2[yr] = {'points': p, 'total': tot, 'seats': seats, 'unplaced': miss, 'measure': 'churches (glow by seats)'}
+        print(yr, 'churches', tot, 'seats', seats, 'unplaced', miss + off)
 R['people'] = P2
 json.dump(R, open(os.path.join(H_, '..', 'history_points.json'), 'w')); print('wrote history_points.json')
