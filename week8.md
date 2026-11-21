@@ -22,6 +22,7 @@
   - A deep, chant-like voice.
   - In 1828, more than thirty baptisms a week for months. To his wife: "I have baptized seven hundred sinners and capsized fifteen hundred Baptists" (p. 258).
   - He farmed his whole life, because the Baptists did not pay their preachers.
+- **"A civil Campbellite"** (Williams, pp. 478–479, read on the page scan). On a journey south, a woman serving him breakfast asked what the "strange sort of people up there in Kentucky called Campbellites" looked like. She had heard they "even chased after people, and ran them down," and once ran a poor fellow "five miles before they caught him." Smith: "That was a very long-winded fellow, ma'am, to run five miles before the Campbellites caught him." She imagined "a sort of wild, fierce, fanatical look." Smith put down his knife and fork: "look right at me, and you will see one! But don't be afraid, I am a *civil* Campbellite, and will not chase *you* into the water."
 - **His wit.** To a Reformer boasting that the last of his Calvinism was gone: "you may have drained out the last drop from the cask, but the very hoops and staves smell of it still!" (p. 431)
 - **At Lexington.** Chosen by the Disciples to speak first. Afterwards he called the union "the best act of his life". To a brother who feared it would drive the Baptists further off: "certain I am that the union of Christians, upon a scriptural basis, is right, and that it can never be bad policy to do what is right" (p. 456).
 
