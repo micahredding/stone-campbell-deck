@@ -144,7 +144,7 @@ A(DS(QK('&ldquo;I am John Smith, from Stockton&rsquo;s Valley&hellip; Down there
 A(DS(QK('&ldquo;Smith was urged to preach that night, for every body wished to hear again <b>the man that had been raised among the raccoons</b>.&rdquo;',
      WIL + ', p. 117', 'Raised among the raccoons', 'none',
      'Williams narrating, Crab Orchard, 1815; read on the page scan (the OCR interleaves the lines). He would not preach that night: he &ldquo;rather shrank from the attentions that were now pressed upon him.&rdquo; On the way home, &ldquo;they smiled when told how he looked that day on the stand, as he declared his origin among the raccoons and caves of the rocky frontier.&rdquo; The nickname means backwoodsman.'), 'lex'))
-A(CARD('Tragedy:<br>' + G('two babies die in a fire.'),
+A(CARD('<i style="color:var(--gold);font-size:1.7em">The Fire</i>',
   'January 1815, near Huntsville, Alabama, while Smith was away preaching. The messenger: &ldquo;Your house took fire last night, and every thing is lost. Two of the children were burned to death&rdquo; (Williams, p. 102). His wife Anna died soon after.'))
 A(DS(QK('&ldquo;If I tell her that our babies are glorified, <b>the thought that possibly they were of the non-elect will only aggravate her woe</b>.&rdquo;',
      'Smith, riding home to his wife, January 1815 &middot; ' + WIL + ', p. 103', 'The fire', 'wil',
