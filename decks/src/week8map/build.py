@@ -33,3 +33,27 @@ mapdeck.build({
     'out': 'decks/chapter8.html', 'source': 'decks/src/week8/slides.py', 'built_by': 'decks/src/week8map/build.py',
     'side': SIDE, 'sections': SECTIONS, 'docs': docs, 'short': R.SHORT, 'doc_doors': [], 'doc_order': R.doc_order,
 })
+
+
+# ---- slim the output for phones (Micah, 2026-11-21: "The slideshow on phone is hanging") ----
+# Re-encode embedded images larger than 40 KB as WebP, no longer side than 1400 px; ask the browser to decode lazily.
+def slim(path, max_side=1400, min_bytes=40_000, quality=68):
+    import base64, io, re
+    from PIL import Image
+    h = open(path).read(); before = len(h); cache = {}
+    def sub(m):
+        mime, data = m.group(1), m.group(2)
+        if len(data) * 3 // 4 < min_bytes: return m.group(0)
+        if data in cache: return cache[data]
+        im = Image.open(io.BytesIO(base64.b64decode(data)))
+        im = im.convert('RGBA' if im.mode in ('RGBA', 'LA', 'P') and 'transparency' in im.info or im.mode in ('RGBA', 'LA') else 'RGB')
+        if max(im.size) > max_side: im.thumbnail((max_side, max_side), Image.LANCZOS)
+        bio = io.BytesIO(); im.save(bio, 'WEBP', quality=quality, method=6)
+        out = 'data:image/webp;base64,' + base64.b64encode(bio.getvalue()).decode()
+        if len(out) >= len(m.group(0)): out = m.group(0)
+        cache[data] = out; return out
+    h = re.sub(r'data:image/(jpeg|jpg|png);base64,([A-Za-z0-9+/=]+)', sub, h)
+    h = re.sub(r'<img(?![^>]*\bdecoding=)', '<img decoding="async"', h)
+    open(path, 'w').write(h)
+    print('slimmed %s: %.1f MB -> %.1f MB' % (path, before / 1e6, len(h) / 1e6))
+slim('decks/chapter8.html')

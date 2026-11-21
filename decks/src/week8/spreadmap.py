@@ -125,31 +125,61 @@ def _between(frames, a, b, years):
     return frames[:j] + new + frames[j:]
 FRAMES = _between(FRAMES, '1926', '1980', (1940, 1950, 1960, 1970))
 
-def today_svg():
-    import math
-    o = ['<svg viewBox="0 0 %d %d" style="width:min(96vw,160vh);height:auto;display:block;margin:0 auto" role=img aria-label="Map: Stone-Campbell congregations in the United States by county, 1926, 1980, 2000 and 2020">' % (W, H),
-         '<defs><radialGradient id=sglow2><stop offset=0 stop-color="#f3d27a" stop-opacity=".9"/><stop offset=".35" stop-color="#c89b3c" stop-opacity=".4"/><stop offset=1 stop-color="#c89b3c" stop-opacity="0"/></radialGradient><radialGradient id=tglow><stop offset=0 stop-color="#f6dc8c" stop-opacity=".9"/><stop offset=".4" stop-color="#c89b3c" stop-opacity=".35"/><stop offset=1 stop-color="#c89b3c" stop-opacity="0"/></radialGradient></defs>',
-         '<style>.tm .st{fill:#1a1510;stroke:#5c4a33;stroke-width:1}.tm .lit{opacity:0;transition:opacity 1.2s ease}.tm .lit.on{opacity:1}.tm .lit.on:has(~ .lit.on){opacity:0}.tm .cap0{transition:opacity .4s}.tm:has(.lit.on) .cap0{opacity:0}'
-         '.tm .cap{font:34px "IM Fell English",Georgia,serif;fill:#c89b3c}.tm .tsub{font:20px Spectral,Georgia,serif;fill:#a89a82}</style><g class=tm>']
+# ---- rendered as images (2026-11-21): 44,000 SVG circles with blending hung phones; each frame is now one WebP ----
+import base64, io, math, re as _re
+def _base_image():
+    from PIL import Image, ImageDraw
+    im = Image.new('RGB', (W, H), (14, 11, 9)); dr = ImageDraw.Draw(im)
     for nm, d in G['paths'].items():
-        o.append('<path class=st d="%s"/>' % d)
-    o.append('<rect x="0" y="%d" width="%d" height="84" fill="#100d0a" opacity=".82"/>' % (H - 92, int(W * .86)))
-    o.append('<text class="cap cap0" x="22" y="%d">1831&ndash;1860: the union, and the first reports</text>' % (H - 50))
-    for i, (yr, pts, cap, sub) in enumerate(FRAMES):
-        g = ['<g class="lit frag">', '<g style="mix-blend-mode:screen">']
-        for x, y, n in sorted(pts, key=lambda p: p[2]):
-            g.append('<circle cx="%.1f" cy="%.1f" r="%.1f" fill="url(#tglow)"/>' % (x, y, 4 + 0.34 * math.sqrt(n)))
-        for x, y, n in pts:
-            g.append('<circle cx="%.1f" cy="%.1f" r="1.5" fill="#f6dc8c"/>' % (x, y))
-        g.append('</g><text class=cap x="22" y="%d">%s</text><text class=tsub x="24" y="%d">%s</text></g>' % (H - 50, cap, H - 18, sub))
-        o.append(''.join(g))
-    d = ['<g class=carry>']   # the dots of the previous map (1831-1860), carried over and kept on
+        for ring in _re.findall(r'M([^Z]+)Z', d):
+            pts = [tuple(map(float, q.split(','))) for q in ring.split('L')]
+            if len(pts) > 2: dr.polygon(pts, fill=(26, 21, 16), outline=(92, 74, 51))
+    return im
+def _glow(acc, x, y, r, inner, outer, a0, mid, amid):
+    import numpy as np
+    R = int(math.ceil(r)) + 1; x0, y0 = int(x) - R, int(y) - R
+    xs = np.arange(x0, x0 + 2 * R + 1); ys = np.arange(y0, y0 + 2 * R + 1)
+    gx, gy = np.meshgrid(xs, ys); d = np.sqrt((gx - x) ** 2 + (gy - y) ** 2) / r
+    al = np.where(d < mid, a0 + (amid - a0) * d / mid, np.where(d < 1, amid * (1 - (d - mid) / (1 - mid)), 0.0))
+    t = np.clip(d / mid, 0, 1)[..., None]
+    col = (np.array(inner) * (1 - t) + np.array(outer) * t) / 255.0
+    sx0, sy0 = max(x0, 0), max(y0, 0); sx1, sy1 = min(x0 + 2 * R + 1, W), min(y0 + 2 * R + 1, H)
+    if sx0 >= sx1 or sy0 >= sy1: return
+    a = al[sy0 - y0:sy1 - y0, sx0 - x0:sx1 - x0, None] * col[sy0 - y0:sy1 - y0, sx0 - x0:sx1 - x0]
+    acc[sy0:sy1, sx0:sx1] = 1 - (1 - acc[sy0:sy1, sx0:sx1]) * (1 - a)
+def _carry_pts():
+    out = []
     for cap, pts in list(UM.WAVES) + list(WAVES):
-        for nm, la, lo, lab in pts:
-            x, y = P(la, lo)
-            d.append('<circle cx="%.1f" cy="%.1f" r="11" fill="url(#sglow2)"/><circle cx="%.1f" cy="%.1f" r="3.8" fill="#f3d27a"/>' % (x, y, x, y))
-    d.append('</g>'); o.append(''.join(d))
-    o.append('</g></svg>')
+        for nm, la, lo, lab in pts: out.append(P(la, lo))
+    return out
+def _frame_webp(base, pts, carry):
+    import numpy as np
+    from PIL import Image
+    acc = np.asarray(base, dtype=np.float64) / 255.0
+    for x, y, n in sorted(pts, key=lambda p: p[2]):
+        _glow(acc, x, y, 4 + 0.34 * math.sqrt(n), (246, 220, 140), (200, 155, 60), 0.9, 0.4, 0.35)
+    for x, y, n in pts:
+        _glow(acc, x, y, 1.6, (246, 220, 140), (246, 220, 140), 1.0, 0.9, 1.0)
+    for x, y in carry:
+        _glow(acc, x, y, 11, (243, 210, 122), (200, 155, 60), 0.9, 0.35, 0.4)
+        _glow(acc, x, y, 3.8, (243, 210, 122), (243, 210, 122), 1.0, 0.9, 1.0)
+    im = Image.fromarray((np.clip(acc, 0, 1) * 255).astype('uint8'))
+    bio = io.BytesIO(); im.save(bio, 'WEBP', quality=72, method=6)
+    return 'data:image/webp;base64,' + base64.b64encode(bio.getvalue()).decode()
+
+def today_svg():
+    base = _base_image(); carry = _carry_pts()
+    img = '<img src="%s" alt="" decoding="async" style="position:absolute;inset:0;width:100%%;height:100%%">'
+    o = ['<div class=tm role=img aria-label="Map: Stone-Campbell churches and people by county, 1850 to 2000" style="position:relative;width:min(96vw,160vh);aspect-ratio:16/9;margin:0 auto">',
+         '<style>.tm .lit{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease}.tm .lit.on{opacity:1}.tm .lit.on:has(~ .lit.on){opacity:0}'
+         '.tm .cap0,.tm .lit .capbox{position:absolute;left:0;bottom:0;width:86%;background:rgba(16,13,10,.82);padding:.6% 1.4% .9%;text-align:left}'
+         '.tm .cap0{transition:opacity .4s}.tm:has(.lit.on) .cap0{opacity:0}'
+         '.tm .cap{font:clamp(14px,2.1vw,34px) "IM Fell English",Georgia,serif;color:#c89b3c;line-height:1.15}.tm .tsub{font:clamp(9px,1.25vw,20px) Spectral,Georgia,serif;color:#a89a82}</style>',
+         img % _frame_webp(base, [], carry),
+         '<div class=cap0><div class=cap>1831&ndash;1860: the union, and the first reports</div></div>']
+    for yr, pts, cap, sub in FRAMES:
+        o.append('<div class="lit frag">' + img % _frame_webp(base, pts, carry) + '<div class=capbox><div class=cap>%s</div><div class=tsub>%s</div></div></div>' % (cap, sub))
+    o.append('</div>')
     return ''.join(o)
 
 def today_slide():
