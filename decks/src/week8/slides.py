@@ -232,7 +232,6 @@ A(LIST('Beyond Lexington', 'Person by person, congregation by congregation',
 A(UM.slide())
 A(SP.slide())   # the one movement spreading, 1836-1860 (Micah, 2026-11-21)
 A(SP.today_slide())   # and today: every congregation, 2020   # the union spreading, in waves (Micah, 2026-11-19)
-A(CARD('And it worked:<br>' + G('one movement, one history.'), 'Today we do not speak of a Stone movement and a Campbell movement, but of the Stone-Campbell movement, the Restoration movement. No Stone church, no Campbell church: every church that traces its roots to this story sees itself as heir of both, and our practices come from both sides of that room, inextricably. The churches descended from it have divided over other things; none has renounced the handshake. (If time: are we more Stone or more Campbell? Weekly communion and baptism for remission, Campbell; the open table and revival, Stone. It gets confusing, and that is the point.)'))
 
 # ---------- VI. IT TOOK SEVERAL YEARS ----------
 
@@ -250,6 +249,7 @@ A(DS(QK('&ldquo;Nor was a union between the two congregations finally and formal
      size='clamp(36px,7.6vmin,96px)'), 'lex'))
 A(CARD('No magic moment.<br>' + G('It was worked out.'),
   'Visible unity came over years, with patience and forbearance, exploring together. Smith called it &ldquo;the best act of his life&rdquo; (Williams, p. 456); Stone, &ldquo;the noblest act of my life&rdquo; (<i>Biography</i>, p. 79).'))
+A(CARD('And it worked:<br>' + G('one movement, one history.'), 'Today we do not speak of a Stone movement and a Campbell movement, but of the Stone-Campbell movement, the Restoration movement. No Stone church, no Campbell church: every church that traces its roots to this story sees itself as heir of both, and our practices come from both sides of that room, inextricably. The churches descended from it have divided over other things; none has renounced the handshake. (If time: are we more Stone or more Campbell? Weekly communion and baptism for remission, Campbell; the open table and revival, Stone. It gets confusing, and that is the point.)'))
 A(CARD('<span style="font-size:.55em;color:var(--bone-dim);letter-spacing:.08em">Faywood, Woodford County, Kentucky</span><br>New Union Christian Church',
   'Micah and Emily attended here, outside Lexington. We were told it was founded in 1834 and named for the new union of these two movements. (Founding date as told; not yet confirmed in print.)'))
 A(CARD('Still working it out:<br>' + G('one handshake at a time.'),

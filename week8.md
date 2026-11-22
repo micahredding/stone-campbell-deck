@@ -50,10 +50,10 @@
    - Stone: never one in speculations; no sermon that feasted my heart; never into the pulpit; his hand;
    - the proposition: "Not agreement of opinion: agreement of faith"; "we do not know, nor are we concerned to know";
    - the window; everyone ratifies (not delegates); the song and the loaf.
-7. **It spread, and it worked; it took years** (order of the talk-through, 2026-11-22):
+7. **It spread; it took years; it worked** (order of the talk-through, 2026-11-22):
    - beyond Lexington, person by person; the maps (1831–1835; 1836–1860; 1850 to 2000);
-   - "And it worked: one movement, one history" (no Stone church, no Campbell church);
    - it took years: February 1832 (side path: *Who keeps the table*); July 1835; "No magic moment";
+   - "And it worked: one movement, one history" (no Stone church, no Campbell church);
    - New Union Christian Church, Faywood (founded 1834, as we were told, and named for the union);
    - "Still working it out: one handshake at a time."
 8. **Christ… or the Bible?** (reworked 2026-11-21; ends with "Scripture, like the table: shared by all")
