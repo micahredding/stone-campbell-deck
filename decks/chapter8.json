@@ -440,7 +440,7 @@
   {
    "index": 62,
    "n": 63,
-   "title": "What the union was \"It was a union of those who held alike the necessity of implicit faith",
+   "title": "What the union was \"It was a union of those who held... the necessity of implicit faith...",
    "path": "spine",
    "doc": "wil32"
   },
@@ -1376,7 +1376,12 @@
   {
    "slide": 62,
    "doc": "wil32",
-   "text": "It was a union of those who held alike the necessity of implicit faith and of unreserved obedience"
+   "text": "It was a union of those who held"
+  },
+  {
+   "slide": 62,
+   "doc": "wil32",
+   "text": "the necessity of implicit faith"
   },
   {
    "slide": 62,
