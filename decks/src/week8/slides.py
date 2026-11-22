@@ -101,6 +101,7 @@ def IDEASUM(note):
 
 S = []
 A = S.append
+def HIDE(slide): pass   # a hidden slide: kept here, left out of the deck (change HIDE back to A to show it)
 
 # ---------- OPENING ----------
 
@@ -228,10 +229,10 @@ A(DS(QK('&ldquo;Let us, then, my brethren, be no longer Campbellites or Stoneite
 A(BGIMG('stone-1847-bg.jpg', 'Barton W. Stone<div style="font-size:.42em;color:var(--gold);margin-top:1.5vmin;letter-spacing:.04em">answers for the Christians</div>',
   'Lexington, Saturday, December 31, 1831',
   'Williams: &ldquo;He sat down, and Stone arose, his heart glowing with love, and every pulse bounding with hope&rdquo; (p. 454). Stone: &ldquo;I will not attempt to introduce any new topic, but will say a few things on the same subjects already presented by my beloved brother.&rdquo; Portrait: frontispiece of his <i>Biography</i> (1847), toned.'))
-A(QK('&ldquo;&hellip;the controversies of the Church sufficiently prove that <b>Christians never can be one in their speculations</b> upon those mysterious and sublime subjects, which, while they interest the Christian philosopher, can not edify the Church.&rdquo;',
+A(QK('&ldquo;&hellip;the controversies of the Church sufficiently prove that <b>Christians never can be one in their speculations</b> upon those mysterious and sublime subjects&hellip;&rdquo;',
      STONE + ' &middot; ' + WIL + ', p. 454', 'Stone answers', 'wil',
      'Stone rises knowing every historic division is in the room: the wrong word could split it down the middle. Stone: &ldquo;I will not attempt to introduce any new topic.&rdquo; Of his own sermons on the Trinity, forced by opposition: &ldquo;I never preached a sermon of that kind that once feasted my heart; I always felt a barrenness of soul afterwards.&rdquo;', doc='wil32'))
-A(DS(QK('&ldquo;&hellip;by force of circumstances, I was led to deliver some speculative discourses upon those subjects. But <b>I never preached a sermon of that kind that once feasted my heart</b>; I always felt a barrenness of soul afterwards.&rdquo;',
+HIDE(DS(QK('&ldquo;&hellip;by force of circumstances, I was led to deliver some speculative discourses upon those subjects. But <b>I never preached a sermon of that kind that once feasted my heart</b>; I always felt a barrenness of soul afterwards.&rdquo;',
      STONE + ' &middot; ' + WIL + ', pp. 454&ndash;455', 'Stone', 'wil',
      'Read on the page scan. Before it: &ldquo;After we had given up all creeds and taken the Bible, and the Bible alone, as our rule of faith and practice, we met with so much opposition, that, by force of circumstances&hellip;&rdquo; Stone had been accused of Arianism for years; he knew what these arguments cost.', size='clamp(30px,6.4vmin,82px)'), 'wil32'))
 A(DS(QK('&ldquo;I perfectly accord with Brother Smith that <b>those speculations should never be taken into the pulpit</b>; but that when compelled to speak of them at all, we should do so in the words of inspiration.&rdquo;',
