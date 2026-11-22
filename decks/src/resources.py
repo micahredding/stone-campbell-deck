@@ -1454,7 +1454,7 @@ def creed(extra=()):
              SCOTT_EV, 'Walter Scott') +
            N('p. 3, the opening of Scott&rsquo;s paper, the year of Lexington. &ldquo;He&rdquo; is the Father, speaking at the Jordan. Scott calls it &ldquo;this illustrious Oracle&rdquo;; the confession that Jesus is the Christ, the Son of God, is the creed.')),
 
-        _k(BIG(Q('&ldquo;&hellip;her only manual was, &lsquo;<b>The Bible</b>.&rsquo; And her all comprehensive creed for the binding of the faithful; &lsquo;<b>Jesus Christ is the Son of God</b>.&rsquo;&rdquo;',
+        _k(BIG(Q('&ldquo;&hellip;her [the primitive church&rsquo;s] only manual was, &lsquo;<b>The Bible</b>.&rsquo; And her all comprehensive creed for the binding of the faithful; &lsquo;<b>Jesus Christ is the Son of God</b>.&rsquo;&rdquo;',
                  SCOTT_EV + ', &ldquo;Primitive Sufferings&rdquo;', 'The first church'), 'clamp(30px,6.6vmin,84px)', '30ch')) +
         N('p. 32. It goes on: &ldquo;On this faith and this volume she gathered her children thick as the leaves in Autumn.&rdquo; The Bible is the manual; Christ is the creed. Both answers to the quiz, in one sentence, in 1832.'),
 

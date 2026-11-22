@@ -324,9 +324,9 @@ A(QK('&ldquo;Let us, then, my brethren, be no longer Campbellites or Stoneites&h
 A(DS(QK('&ldquo;That the Church of Christ upon earth is essentially, intentionally, and constitutionally one; consisting of all those in every place that profess their faith in Christ and obedience to him in all things <b>according to the Scriptures</b>&hellip;&rdquo;',
      'Thomas Campbell, <i>Declaration and Address</i> (1809), Proposition 1', 'And the Scriptures', 'dna',
      'It goes on: &ldquo;and that manifest the same by their tempers and conduct, and of none else; as none else can be truly and properly called Christians.&rdquo; Faith in Christ, and then: according to the Scriptures. Eric, a few weeks ago: he wishes Thomas had left that out. Micah: so do I; it would have saved confusion. But it matters what they meant by it.'), 'lex'))
-A(DS(QK('&ldquo;&hellip;her only manual was, &lsquo;<b>The Bible</b>.&rsquo; And her all comprehensive creed for the binding of the faithful; &lsquo;<b>Jesus Christ is the Son of God</b>.&rsquo;&rdquo;',
-     'Walter Scott, <i>The Evangelist</i> (1832), &ldquo;Primitive Sufferings,&rdquo; p. 32', 'Scott, the year of Lexington', 'ev32',
-     'Of the first church. &ldquo;On this faith and this volume she gathered her children thick as the leaves in Autumn.&rdquo; The Bible the manual; Christ the creed. Both of the room&rsquo;s answers, in one sentence. Side path follows.',
+A(DS(QK('&ldquo;&hellip;her [the primitive church&rsquo;s] only manual was, &lsquo;<b>The Bible</b>.&rsquo; And her all comprehensive creed for the binding of the faithful; &lsquo;<b>Jesus Christ is the Son of God</b>.&rsquo;&rdquo;',
+     'Walter Scott, <i>The Evangelist</i> (1832), &ldquo;Primitive Sufferings,&rdquo; p. 32', 'Scott, on the first church', 'ev32',
+     'Of the first church: the essay sets the primitive church, &ldquo;a sweet, innocent virgin attired in Godly simplicity,&rdquo; against the Apostasy and the Reformation, &ldquo;Alike unacquainted with the creeds of the Reformation and the idolatrous manuals of the Apostacy&rdquo;. It is printed right after George W. Elley&rsquo;s letter reporting the Lexington union. &ldquo;On this faith and this volume she gathered her children thick as the leaves in Autumn.&rdquo; The Bible the manual; Christ the creed. Both of the room&rsquo;s answers, in one sentence. Side path follows.',
      size='clamp(30px,6.4vmin,82px)', width='34ch'), 'crd'))
 for _x in R.creed(): A(_x)   # side path: No creed but...
 
