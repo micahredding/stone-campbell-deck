@@ -342,15 +342,10 @@ A(CARD('<i style="color:var(--gold);font-size:1.7em">But</i>',
 A(DS(QK('&ldquo;&hellip;inferences and deductions from Scripture premises&hellip; <b>are they not formally binding upon the consciences of Christians farther than they perceive the connection</b>&hellip;&rdquo;',
      'Thomas Campbell, <i>Declaration and Address</i> (1809), Proposition 6', 'Not our readings', 'dna',
      'In full: &ldquo;although inferences and deductions from Scripture premises, when fairly inferred, may be truly called the doctrine of God&rsquo;s holy word, yet are they not formally binding upon the consciences of Christians farther than they perceive the connection, and evidently see that they are so&hellip; Therefore, no such deductions can be made terms of communion.&rdquo; Our readings of Scripture are not the bond.'), 'lex'))
-A(DS(QK('&ldquo;&hellip;<b>no deduction or inference&hellip; however logical or true, forms any part of the Gospel</b> of Jesus Christ.&rdquo;',
-     '&ldquo;Raccoon&rdquo; John Smith, at Lexington &middot; ' + WIL + ', p. 453', 'Smith, the same morning', 'wil',
-     'Before it: &ldquo;the Gospel is a system of facts, commands, and promises.&rdquo; After: &ldquo;No heaven is promised to those who hold them, and no hell is threatened to those who deny them.&rdquo;'), 'wil32'))
 A(DS(QK('&ldquo;If they have opinions different from ours, they are welcome to have them, <b>provided they do not endeavor to impose them on us as articles of faith</b>.&rdquo;',
      'Stone and Johnson, <i>Christian Messenger</i>, January 1832, &ldquo;Union of Christians,&rdquo; pp. 6&ndash;8', 'Stone and Johnson', 'cm6',
      'Of the Reformers, just after Lexington. Before it: &ldquo;We have never asked them what were their opinions, nor have they asked us.&rdquo; After: &ldquo;They say the same of us. We hear each other preach; and are mutually pleased.&rdquo;'), 'lex'))
 
-A(CARD('How can they unite around the Bible,<br><span style="color:var(--gold)">but not its interpretations?</span>',
-  'The question. Two answers: sacramentally, and liturgically.'))
 A(CARD('Sacramentally:<br><span style="color:var(--gold)">formed by its words and its story.</span>',
   'They came to the Bible as a text that forms us: not through our interpretation of it, but through the encounter with its words and its story. Like the table: we do not have to agree on what happens there to be fed by it, together.'))
 A(CARD('Liturgically:<br><span style="color:var(--gold)">immersed in Scripture&rsquo;s words.</span>',
