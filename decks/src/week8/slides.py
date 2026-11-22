@@ -315,9 +315,6 @@ A(CARD('<i style="color:var(--gold);font-size:1.7em">The Bible</i>',
 A(DS(QK('&ldquo;We determined that we would own no name but Christian&hellip; and that we would <b>subscribe to no creed but the Bible</b>&hellip;&rdquo;',
      'Barton W. Stone, <i>Christian Messenger</i> (1828), p. 231', 'Barton W. Stone', 'cm3',
      'In full: &ldquo;We determined that we would own no name but Christian, which we derive from our union with Christ; and that we would subscribe to no creed but the Bible&rdquo;. Of the Springfield Presbytery&rsquo;s choice in 1804.'), 'crd'))
-A(QK('&ldquo;Let us, then, my brethren, be no longer Campbellites or Stoneites&hellip; but <b>let us all come to the Bible, and to the Bible alone</b>, as the only book in the world that can give us all the Light we need.&rdquo;',
-     SMITH + ' &middot; ' + WIL + ', p. 454', 'Smith, at Lexington', 'wil',
-     'The words cut: &ldquo;New Lights or Old Lights, or any other kind of lights.&rdquo; He sat down.', doc='wil32'))
 A(DS(QK('&ldquo;That the Church of Christ upon earth is essentially, intentionally, and constitutionally one; consisting of all those in every place that profess their faith in Christ and obedience to him in all things <b>according to the Scriptures</b>&hellip;&rdquo;',
      'Thomas Campbell, <i>Declaration and Address</i> (1809), Proposition 1', 'And the Scriptures', 'dna',
      'It goes on: &ldquo;and that manifest the same by their tempers and conduct, and of none else; as none else can be truly and properly called Christians.&rdquo; Faith in Christ, and then: according to the Scriptures. Eric, a few weeks ago: he wishes Thomas had left that out. Micah: so do I; it would have saved confusion. But it matters what they meant by it.'), 'lex'))
