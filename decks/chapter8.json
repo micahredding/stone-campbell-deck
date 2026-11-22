@@ -818,97 +818,83 @@
   {
    "index": 116,
    "n": 117,
-   "title": "Practically: they spoke in the Bible's own words.",
+   "title": "Sacramentally: formed by its words and its story.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 117,
    "n": 118,
-   "title": "Smith, at Lexington \"For several years past I have tried to speak on such subjects only in",
+   "title": "Liturgically: immersed in Scripture's words.",
    "path": "spine",
-   "doc": "wil32"
+   "doc": null
   },
   {
    "index": 118,
    "n": 119,
-   "title": "Like the liturgy: immersed in Scripture's words.",
+   "title": "We do this here.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 119,
    "n": 120,
-   "title": "Sacramentally: formed by its words and its story.",
+   "title": "Scripture, like the table: shared by all.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 120,
    "n": 121,
-   "title": "We do this here.",
+   "title": "Idea 1 of 4 Every historic division came to one table.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 121,
    "n": 122,
-   "title": "Scripture, like the table: shared by all.",
+   "title": "Idea 2 of 4 They united around the Bible, not their readings of it.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 122,
    "n": 123,
-   "title": "Idea 1 of 4 Every historic division came to one table.",
+   "title": "Idea 3 of 4 Unity was not a moment. It was worked out.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 123,
    "n": 124,
-   "title": "Idea 2 of 4 They united around the Bible, not their readings of it.",
+   "title": "Idea 4 of 4 Scripture, like the table, is shared by all.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 124,
    "n": 125,
-   "title": "Idea 3 of 4 Unity was not a moment. It was worked out.",
+   "title": "Today's ideas 1. Every historic division came to one table. 2. They united around the Bibl",
    "path": "spine",
    "doc": null
   },
   {
    "index": 125,
    "n": 126,
-   "title": "Idea 4 of 4 Scripture, like the table, is shared by all.",
+   "title": "for discussion Chapter 8 What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
   {
    "index": 126,
    "n": 127,
-   "title": "Today's ideas 1. Every historic division came to one table. 2. They united around the Bibl",
+   "title": "Online stone-campbell .micahredding.com Home Timeline Exhibits People Exhibits Timeline Pe",
    "path": "spine",
    "doc": null
   },
   {
    "index": 127,
    "n": 128,
-   "title": "for discussion Chapter 8 What is beautiful here? What do we carry forward?",
-   "path": "spine",
-   "doc": null
-  },
-  {
-   "index": 128,
-   "n": 129,
-   "title": "Online stone-campbell .micahredding.com Home Timeline Exhibits People Exhibits Timeline Pe",
-   "path": "spine",
-   "doc": null
-  },
-  {
-   "index": 129,
-   "n": 130,
    "title": "(black)",
    "path": "spine",
    "doc": null
@@ -1007,9 +993,7 @@
   124,
   125,
   126,
-  127,
-  128,
-  129
+  127
  ],
  "branches": [
   {
@@ -1111,7 +1095,7 @@
   },
   {
    "label": "Close",
-   "at": 92
+   "at": 90
   }
  ],
  "docs": [
@@ -1572,11 +1556,6 @@
    "slide": 114,
    "doc": "lex",
    "text": "Union of Christians,"
-  },
-  {
-   "slide": 117,
-   "doc": "wil32",
-   "text": "For several years past I have tried to speak on such subjects only in the language of inspiration; for it can offend no one to say about those things just what the Lord himself has said. In this scriptural style of speech all Christians should be agreed."
   }
  ],
  "unmatched": [

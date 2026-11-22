@@ -61,7 +61,7 @@
    - **The Bible:** Stone, CM 1828, p. 231 ("subscribe to no creed but the Bible"); Smith at Lexington ("the Bible alone"); D&A Proposition 1 ("according to the Scriptures"; Eric's wish); Scott's manual and creed (side path: *No creed but…*).
    - **The problem:** Phillips at the Centennial, 1909 ("no authority but the Bible… no creed but Christ"); Stevenson 1963 ("Christocentric and bibliocentric"); Blowers 2004 ("very different proposals").
    - **But:** not opinions about the Bible: D&A Proposition 6; Smith, "no deduction or inference"; Stone and Johnson, January 1832 ("provided they do not endeavor to impose them on us as articles of faith").
-   - **How can they unite around the Bible, but not its interpretations?** Practically: they spoke in the Bible's own words (Smith, p. 453: "only in the language of inspiration… In this scriptural style of speech all Christians should be agreed"); like the liturgy, an immersion in Scripture's words. Sacramentally: formed by its words and its story, not by our interpretation of it. We do this here. Then the summary, "Scripture, like the table: shared by all", before the ideas.
+   - **How can they unite around the Bible, but not its interpretations?** Two answers: sacramentally, formed by its words and its story, not by our interpretation of it; liturgically, immersed in Scripture's words (in the notes: they spoke in the Bible's own words; Smith, p. 453, "only in the language of inspiration"). We do this here. Then the summary, "Scripture, like the table: shared by all", before the ideas.
 9. **Close:** ideas (the fourth is now "Scripture, like the table, is shared by all"), discussion, site.
 
 **Taken out of the spine:**
