@@ -267,11 +267,8 @@ A(SP.today_slide())   # and today: every congregation, 2020   # the union spread
 
 # ---------- VI. IT TOOK SEVERAL YEARS ----------
 
-A(C('It took years', 'The honest truth: the differences mattered in practice: how to keep the Supper, how to think of their clergy. They worked it out, congregation by congregation.'))
+A(C('It took years', 'The honest truth: the differences mattered in practice: how to keep the Supper, how to think of their clergy. They worked it out, congregation by congregation. Lexington, February 1832: the two congregations pledged union, broke the loaf together on Feb. 19, and dissolved it on Feb. 25, because many of the Christians held that &ldquo;no person but a preacher has a right to administer the ordinances&rdquo; and were &ldquo;alarmed at the idea of us common folks receiving the name of kings and priests to the Lord&rdquo; (H. C. C., MH 1832, p. 192). Side path: <i>Who keeps the table</i>.'))
 
-A(QK('&ldquo;For they believe that <b>no person but a preacher</b> has a right to administer the ordinances&mdash;such as the breaking of the loaf &amp;c. and become very much alarmed at the idea of <b>us common folks</b> receiving the name of kings and priests to the Lord&hellip;&rdquo;',
-     'H. C. C., a Disciple in Lexington, to Campbell, <i>Millennial Harbinger</i> 1832, p. 192', 'Lexington, February 1832', 'mh1832',
-     'The two Lexington congregations pledged to &ldquo;unite upon the New Testament&rdquo; (Feb. 12), broke the loaf together (Feb. 19), and dissolved the pledge (Feb. 25), over choosing an elder and who may serve the table. &ldquo;us common folks&rdquo;: read on the page scan. His verdict: &ldquo;It is the Clergy&mdash;the hireling system&mdash;the called and sent&mdash;the rulers&mdash;that keep us apart.&rdquo; Side path: <i>Who keeps the table</i>.', doc='lex'))
 
 for _x in R.table(): A(_x)   # side path: who keeps the table
 
