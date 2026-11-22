@@ -328,7 +328,7 @@
   {
    "index": 46,
    "n": 47,
-   "title": "Smith \"...the Gospel is a system of facts, commands, and promises, and no deduction or inf",
+   "title": "Smith \"... no deduction or inference... however logical or true, forms any part of the Gos",
    "path": "spine",
    "doc": "wil32"
   },
@@ -1294,7 +1294,12 @@
   {
    "slide": 46,
    "doc": "wil32",
-   "text": "the Gospel is a system of facts, commands, and promises, and no deduction or inference from them, however logical or true, forms any part of the Gospel of Jesus Christ."
+   "text": "no deduction or inference"
+  },
+  {
+   "slide": 46,
+   "doc": "wil32",
+   "text": "however logical or true, forms any part of the Gospel of Jesus Christ."
   },
   {
    "slide": 47,
