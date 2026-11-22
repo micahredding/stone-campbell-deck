@@ -47,7 +47,7 @@
 5. **"How could they possibly come together?"** Then Raccoon John Smith: the State of Franklin; the name; raised among the raccoons; 1828, thirty baptisms a week, "capsized"; the civil Campbellite (side path: the fire).
 6. **The handshake** (Lexington, Saturday, December 31, 1831, New Year's Eve):
    - Smith: one Book; "must, then, be practicable"; never settled; divisions produced; one faith, ten thousand opinions; speculations waived;
-   - Stone: never one in speculations; no sermon that feasted my heart; never into the pulpit; his hand;
+   - Stone: never one in speculations; his hand;
    - the proposition: "Not agreement of opinion: agreement of faith"; "we do not know, nor are we concerned to know";
    - the window; everyone ratifies (not delegates); the song and the loaf; the proposition; "we do not know"; Williams, "What the union was" (pp. 455–456).
 7. **It spread; it took years; it worked** (order of the talk-through, 2026-11-22):
