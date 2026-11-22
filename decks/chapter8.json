@@ -664,51 +664,51 @@
   {
    "index": 94,
    "n": 95,
-   "title": "Thomas Campbell \"[T]he Church of Christ upon earth is essentially, intentionally, and cons",
+   "title": "Walter Scott, on the first church \"[The church's] all comprehensive creed for the binding ",
    "path": "spine",
-   "doc": "lex"
+   "doc": "crd"
   },
   {
    "index": 95,
    "n": 96,
-   "title": "Alexander Campbell \"...has not this been the only bond of union which the 'Christian Bapti",
+   "title": "Thomas Campbell \"[T]he Church of Christ upon earth is essentially, intentionally, and cons",
    "path": "spine",
    "doc": "lex"
   },
   {
    "index": 96,
    "n": 97,
-   "title": "Walter Scott \"...they all stand ultimately upon this one Oracle, ' Jesus is the Christ .' ",
+   "title": "Alexander Campbell \"...has not this been the only bond of union which the 'Christian Bapti",
    "path": "spine",
-   "doc": null
+   "doc": "lex"
   },
   {
    "index": 97,
    "n": 98,
-   "title": "Barton W. Stone \"...this grand fact, that Jesus is the Christ , the Son of the living God.",
+   "title": "Walter Scott \"...they all stand ultimately upon this one Oracle, ' Jesus is the Christ .' ",
    "path": "spine",
    "doc": null
   },
   {
    "index": 98,
    "n": 99,
-   "title": "Campbell, January 2, 1832 \"Is it not obvious that all lines drawn from the circumference o",
-   "path": "One centre",
-   "doc": "mh32a"
+   "title": "Barton W. Stone \"...this grand fact, that Jesus is the Christ , the Son of the living God.",
+   "path": "spine",
+   "doc": null
   },
   {
    "index": 99,
    "n": 100,
-   "title": "The centre \"As all sects forsake their systems, and return to the apostolic gospel and ins",
+   "title": "Campbell, January 2, 1832 \"Is it not obvious that all lines drawn from the circumference o",
    "path": "One centre",
    "doc": "mh32a"
   },
   {
    "index": 100,
    "n": 101,
-   "title": "Walter Scott, on the first church \"[The church's] all comprehensive creed for the binding ",
-   "path": "spine",
-   "doc": "crd"
+   "title": "The centre \"As all sects forsake their systems, and return to the apostolic gospel and ins",
+   "path": "One centre",
+   "doc": "mh32a"
   },
   {
    "index": 101,
@@ -741,7 +741,7 @@
   {
    "index": 105,
    "n": 106,
-   "title": "Scott, on the first church \"[The church's] only manual was, ' The Bible .'\" Walter Scott, ",
+   "title": "Walter Scott, on the first church \"[The church's] only manual was, ' The Bible .'\" Walter ",
    "path": "spine",
    "doc": "crd"
   },
@@ -1055,7 +1055,7 @@
   95,
   96,
   97,
-  100,
+  98,
   101,
   102,
   103,
@@ -1119,10 +1119,10 @@
   },
   {
    "label": "One centre",
-   "fork": 97,
+   "fork": 98,
    "slides": [
-    98,
-    99
+    99,
+    100
    ]
   },
   {
@@ -1522,38 +1522,38 @@
   },
   {
    "slide": 94,
-   "doc": "lex",
-   "text": "he Church of Christ upon earth is essentially, intentionally, and constitutionally one; consisting of all those in every place that profess their faith in Christ"
-  },
-  {
-   "slide": 95,
-   "doc": "lex",
-   "text": "has not this been the only bond of union which the ‘Christian Baptist’ ever advocated? And what is it but a sincere and hearty conviction, expressed or confessed by the lips, that Jesus is the Christ"
-  },
-  {
-   "slide": 95,
-   "doc": "lex",
-   "text": "To an Independent Baptist,"
-  },
-  {
-   "slide": 98,
-   "doc": "mh32a",
-   "text": "Is it not obvious that all lines drawn from the circumference of any circle towards its centre, will meet in the same point?"
-  },
-  {
-   "slide": 99,
-   "doc": "mh32a",
-   "text": "As all sects forsake their systems, and return to the apostolic gospel and institutions, they will meet in one and the same centre of faith, hope, and love. We devoutly wish to see Papists and Protestants, every sect coming to this centre, and then I trust they will find all those slanderously called ‘Campbellites,’ rejoicing to receive them."
-  },
-  {
-   "slide": 100,
    "doc": "crd",
    "text": "all comprehensive creed for the binding of the faithful; ‘Jesus Christ is the Son of God.’"
   },
   {
-   "slide": 100,
+   "slide": 94,
    "doc": "crd",
    "text": "Primitive Sufferings,"
+  },
+  {
+   "slide": 95,
+   "doc": "lex",
+   "text": "he Church of Christ upon earth is essentially, intentionally, and constitutionally one; consisting of all those in every place that profess their faith in Christ"
+  },
+  {
+   "slide": 96,
+   "doc": "lex",
+   "text": "has not this been the only bond of union which the ‘Christian Baptist’ ever advocated? And what is it but a sincere and hearty conviction, expressed or confessed by the lips, that Jesus is the Christ"
+  },
+  {
+   "slide": 96,
+   "doc": "lex",
+   "text": "To an Independent Baptist,"
+  },
+  {
+   "slide": 99,
+   "doc": "mh32a",
+   "text": "Is it not obvious that all lines drawn from the circumference of any circle towards its centre, will meet in the same point?"
+  },
+  {
+   "slide": 100,
+   "doc": "mh32a",
+   "text": "As all sects forsake their systems, and return to the apostolic gospel and institutions, they will meet in one and the same centre of faith, hope, and love. We devoutly wish to see Papists and Protestants, every sect coming to this centre, and then I trust they will find all those slanderously called ‘Campbellites,’ rejoicing to receive them."
   },
   {
    "slide": 102,
@@ -1743,19 +1743,19 @@
    "text": "I’d give more to see one of those people than any show."
   },
   {
-   "slide": 96,
+   "slide": 97,
    "text": "they all stand ultimately upon this one Oracle, ‘Jesus is the Christ.’ The person who affectionately admits this into the chambers of his soul, and reforms, may be admitted into our churches"
   },
   {
-   "slide": 97,
+   "slide": 98,
    "text": "this grand fact, that Jesus is the Christ, the Son of the living God"
   },
   {
-   "slide": 97,
+   "slide": 98,
    "text": "the belief of this one fact with the heart, is the only prerequisite to Christian baptism and Church membership"
   },
   {
-   "slide": 97,
+   "slide": 98,
    "text": "The Spirit of Orthodoxy, No. II,"
   }
  ]
