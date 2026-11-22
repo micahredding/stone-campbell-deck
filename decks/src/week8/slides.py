@@ -315,6 +315,9 @@ A(DS(QK('&ldquo;&hellip;this grand fact, that <b>Jesus is the Christ</b>, the So
      'Stone&rsquo;s <i>Christian Messenger</i> (May 1828), &ldquo;The Spirit of Orthodoxy, No. II,&rdquo; p. 146', 'Barton W. Stone', 'cm2',
      'The lead article of Stone&rsquo;s paper, unsigned (Stone was its editor), stating what the Christians hold: &ldquo;to meet the christian world upon the language which the Holy Spirit teaches, unconnected with any opinions or speculations&rdquo;; &ldquo;all agree that Jesus is the Christ&rdquo;; and on this foundation all Christians &ldquo;will ultimately settle and unite.&rdquo; Williams, of Lexington: each side, &ldquo;having already taken Jesus the Christ as their only Leader, in love and liberty became one body&rdquo; (p. 456). Full sentence on the slide: &ldquo;this grand fact, that Jesus is the Christ, the Son of the living God, and Saviour of men, is the foundation on which the Saviour has built his Church&rdquo;.', size='clamp(30px,6.2vmin,80px)'), 'lex'))
 for _x in R.circle(): A(_x)   # side path: Campbell's circle, January 2, 1832 (Christ the centre)
+A(DS(QK('&ldquo;[The church&rsquo;s] all comprehensive creed for the binding of the faithful; &lsquo;<b>Jesus Christ is the Son of God</b>.&rsquo;&rdquo;',
+     'Walter Scott, <i>The Evangelist</i> (1832), &ldquo;Primitive Sufferings,&rdquo; p. 32', 'Walter Scott, on the first church', 'ev32',
+     'Of the primitive church: &ldquo;Alike unacquainted with the creeds of the Reformation and the idolatrous manuals of the Apostacy; her only manual was, &lsquo;The Bible.&rsquo; And her all comprehensive creed for the binding of the faithful; &lsquo;Jesus Christ is the Son of God.&rsquo;&rdquo; The other half of the sentence comes back under &ldquo;&hellip;and the Bible.&rdquo;', size='clamp(36px,7.6vmin,96px)', width='28ch'), 'crd'))
 
 A(CARD('<i style="color:var(--gold);font-size:1.7em">&hellip;and the Bible</i>',
   'Second: what they said of the Bible. The same people, often in the same breath.'))
@@ -327,17 +330,17 @@ A(QK('&ldquo;Let us, then, my brethren, be no longer Campbellites or Stoneites&h
 A(DS(QK('&ldquo;[T]he Church of Christ upon earth is essentially, intentionally, and constitutionally one; consisting of all those in every place that profess their faith in Christ&hellip;<br>&hellip;and obedience to him in all things <b>according to the Scriptures</b>&hellip;&rdquo;',
      'Thomas Campbell, <i>Declaration and Address</i> (1809), Proposition 1', 'And the Scriptures', 'dna',
      'It goes on: &ldquo;and that manifest the same by their tempers and conduct, and of none else; as none else can be truly and properly called Christians.&rdquo; Faith in Christ, and then: according to the Scriptures. Eric, a few weeks ago: he wishes Thomas had left that out. Micah: so do I; it would have saved confusion. But it matters what they meant by it.'), 'lex'))
-A(DS(QK('&ldquo;&hellip;her [the primitive church&rsquo;s] only manual was, &lsquo;<b>The Bible</b>.&rsquo; And her all comprehensive creed for the binding of the faithful; &lsquo;<b>Jesus Christ is the Son of God</b>.&rsquo;&rdquo;',
+A(DS(QK('&ldquo;[The church&rsquo;s] only manual was, &lsquo;<b>The Bible</b>.&rsquo;&rdquo;',
      'Walter Scott, <i>The Evangelist</i> (1832), &ldquo;Primitive Sufferings,&rdquo; p. 32', 'Scott, on the first church', 'ev32',
      'Of the first church: the essay sets the primitive church, &ldquo;a sweet, innocent virgin attired in Godly simplicity,&rdquo; against the Apostasy and the Reformation, &ldquo;Alike unacquainted with the creeds of the Reformation and the idolatrous manuals of the Apostacy&rdquo;. It is printed right after George W. Elley&rsquo;s letter reporting the Lexington union. &ldquo;On this faith and this volume she gathered her children thick as the leaves in Autumn.&rdquo; The Bible the manual; Christ the creed. Both of the room&rsquo;s answers, in one sentence. Side path follows.',
-     size='clamp(30px,6.4vmin,82px)', width='34ch'), 'crd'))
+     size='clamp(40px,9vmin,116px)', width='24ch'), 'crd'))
 for _x in R.creed(): A(_x)   # side path: No creed but...
 
-A(CARD('<i style="color:var(--gold);font-size:1.7em">The problem</i>',
-  'Two answers, Christ and the Bible: are they the same proposal?'))
 A(QK('&ldquo;<b>We have no authority but the Bible</b>; we wear no name but &lsquo;Christians;&rsquo; and <b>we have no creed but Christ</b>.&rdquo;',
      'T. W. Phillips, chairman, Centennial Convention, Pittsburgh (1909)', 'The Centennial, 1909', 'none',
      'The centennial of the <i>Declaration and Address</i>: the two answers, side by side, a century on. By then the full slogan ran: &ldquo;No creed but Christ, no book but the Bible, no law but love, no name but the divine&rdquo; (<i>Encyclopedia</i>, &ldquo;Slogans&rdquo;; no known author). The earliest uses in our corpus are 1909 and Garrison (1926). Then the scholars ask whether they are one proposal or two.'))
+A(CARD('<i style="color:var(--gold);font-size:1.7em">The problem</i>',
+  'Two answers, Christ and the Bible: are they the same proposal?'))
 A(QK('&ldquo;&hellip;to state the anomaly as boldly as possible, the movement is at one and the same time <b>Christocentric and bibliocentric</b>.&rdquo;',
      'Dwight E. Stevenson, Disciples Panel of Scholars (1963)', 'Dwight Stevenson, 1963', 'enc',
      'As quoted in the <i>Encyclopedia of the Stone-Campbell Movement</i>, &ldquo;Faith.&rdquo; Paul Blowers summarizes him: the two slogans are &ldquo;very different proposals, as different as allegiance to Christ and allegiance to the strict letter of the scriptural text.&rdquo;'))
@@ -350,7 +353,7 @@ A(CARD('<i style="color:var(--gold);font-size:1.7em">But</i>',
 A(DS(QK('&ldquo;&hellip;inferences and deductions from Scripture premises&hellip; <b>are they not formally binding upon the consciences of Christians farther than they perceive the connection</b>&hellip;&rdquo;',
      'Thomas Campbell, <i>Declaration and Address</i> (1809), Proposition 6', 'Not our readings', 'dna',
      'In full: &ldquo;although inferences and deductions from Scripture premises, when fairly inferred, may be truly called the doctrine of God&rsquo;s holy word, yet are they not formally binding upon the consciences of Christians farther than they perceive the connection, and evidently see that they are so&hellip; Therefore, no such deductions can be made terms of communion.&rdquo; Our readings of Scripture are not the bond.'), 'lex'))
-A(DS(QK('&ldquo;&hellip;<b>no deduction or inference from them, however logical or true, forms any part of the Gospel</b> of Jesus Christ.&rdquo;',
+A(DS(QK('&ldquo;&hellip;<b>no deduction or inference&hellip; however logical or true, forms any part of the Gospel</b> of Jesus Christ.&rdquo;',
      '&ldquo;Raccoon&rdquo; John Smith, at Lexington &middot; ' + WIL + ', p. 453', 'Smith, the same morning', 'wil',
      'Before it: &ldquo;the Gospel is a system of facts, commands, and promises.&rdquo; After: &ldquo;No heaven is promised to those who hold them, and no hell is threatened to those who deny them.&rdquo;'), 'wil32'))
 A(DS(QK('&ldquo;If they have opinions different from ours, they are welcome to have them, <b>provided they do not endeavor to impose them on us as articles of faith</b>.&rdquo;',
