@@ -206,9 +206,9 @@ A(DS(QK('&ldquo;But an amalgamation of sects is not such a union as Christ praye
 A(DS(QK('&ldquo;There are certain abstruse or speculative matters&mdash;such as the mode of the <i>Divine Existence</i>, and the <i>Ground and Nature of the Atonement</i>&mdash;that have, for centuries, been themes of discussion among Christians. <b>These questions are as far from being settled now as they were in the beginning of the controversy.</b>&rdquo;',
      SMITH + ' &middot; ' + WIL + ', p. 453', 'Never settled', 'wil',
      'Read on the page scan. Smith&rsquo;s first move: the very questions that split Christendom (who God is; how Christ saves) have never been settled, and will not be settled at Lexington either. Before it: &ldquo;the only union practicable or desirable must be based on the Word of God, as the only rule of faith and practice&rdquo; (p. 452).', size='clamp(28px,5.8vmin,74px)'), 'wil32'))
-A(DS(QK('&ldquo;By a needless and intemperate discussion of them much feeling has been provoked, and <b>divisions have been produced</b>.&rdquo;',
+A(DS(QK('&ldquo;&hellip;the Gospel is a system of facts, commands, and promises, and <b>no deduction or inference from them, however logical or true, forms any part of the Gospel of Jesus Christ</b>.&rdquo;',
      SMITH + ' &middot; ' + WIL + ', p. 453', 'Smith', 'wil',
-     'Read on the page scan. The history of division, in one sentence.', size='clamp(36px,7.6vmin,96px)'), 'wil32'))
+     'Read on the page scan. Between the two: &ldquo;By a needless and intemperate discussion of them much feeling has been provoked, and divisions have been produced. For several years past I have tried to speak on such subjects only in the language of inspiration&hellip; I have the more cheerfully resolved on this course, because the Gospel is a system of facts&hellip;&rdquo; After: &ldquo;No heaven is promised to those who hold them, and no hell is threatened to those who deny them.&rdquo;', size='clamp(32px,6.6vmin,84px)'), 'wil32'))
 
 A(QK('&ldquo;While there is but one faith, there may be ten thousand opinions; and hence, if Christians are ever to be one, <b>they must be one in faith, and not in opinion</b>.&rdquo;',
      SMITH + ' &middot; ' + WIL + ', p. 453', 'One faith', 'wil',
