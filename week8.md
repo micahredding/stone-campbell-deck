@@ -57,7 +57,7 @@
    - "Still working it out: one handshake at a time."
 8. **Christ… or the Bible?** (reworked 2026-11-21; ends with "Scripture, like the table: shared by all")
    - **Christ:** Thomas Campbell, D&A Proposition 1, to "profess their faith in Christ"; Alexander Campbell, *Christian Baptist* 1826 ("the only bond of union"); Walter Scott, *Evangelist* 1832, p. 4 ("they all stand ultimately upon this one Oracle, 'Jesus is the Christ'"); Stone's *Christian Messenger*, May 1828, p. 146 ("the only prerequisite to Christian baptism and Church membership"). Side path: Campbell's circle (*One centre*).
-   - **…and the Bible:** Stone, CM 1828, p. 231 ("subscribe to no creed but the Bible"); Smith at Lexington ("the Bible alone"); D&A Proposition 1 ("according to the Scriptures"; Eric's wish); Scott's manual and creed (side path: *No creed but…*).
+   - **…and the Bible:** Stone, CM 1828, p. 231 ("subscribe to no creed but the Bible"); Scott's manual and creed (side path: *No creed but…*).
    - **The problem:** Phillips at the Centennial, 1909 ("no authority but the Bible… no creed but Christ"); Stevenson 1963 ("Christocentric and bibliocentric"); Blowers 2004 ("very different proposals").
    - **But:** not opinions about the Bible: D&A Proposition 6; Stone and Johnson, January 1832 ("provided they do not endeavor to impose them on us as articles of faith").
    - Two answers (the question card dropped 2026-11-22): sacramentally, formed by its words and its story, not by our interpretation of it; liturgically, immersed in Scripture's words (in the notes: they spoke in the Bible's own words; Smith, p. 453, "only in the language of inspiration"). We do this here. Then the summary, "Scripture, like the table: shared by all", before the ideas.
