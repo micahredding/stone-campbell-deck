@@ -53,6 +53,15 @@ def BGIMG(img, title, cite, note, pos='66%', h=None):
             '<div style="font-family:Spectral,Georgia,serif;color:var(--bone-dim);font-size:clamp(14px,2.2vmin,26px);margin-top:3vmin;max-width:40vw">%s</div></div>'
             '<aside class=notes>%s</aside></section>' % (src, pos, title, cite, note))
 
+def BGCARD(img, eyebrow, html, note, pos='center'):
+    # a statement over a darkened full-bleed picture (Micah, 2026-11-22)
+    return ('<section class="slide" style="padding:0">'
+            '<img src="%s" alt="" style="position:absolute;inset:0;width:100%%;height:100%%;object-fit:cover;object-position:%s;filter:sepia(.3) brightness(.38)">'
+            '<div style="position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(14,11,9,.55) 0%%,rgba(14,11,9,.1) 75%%)"></div>'
+            '<div style="position:relative;z-index:1;text-align:center;text-shadow:0 2px 16px #000">'
+            '<div class=eyebrow>%s</div><h2 style="max-width:none">%s</h2></div>'
+            '<aside class=notes>%s</aside></section>' % (RC._b64(img), pos, eyebrow, html, note))
+
 def IMG(img, eyebrow, cite, note, h='72vh'):
     p = os.path.join(_H, 'images', img)
     src = 'data:image/jpeg;base64,' + base64.b64encode(open(p, 'rb').read()).decode()
@@ -161,8 +170,8 @@ A(CARD('1828, Montgomery County:<br>' + G('thirty baptisms a week.'),
 A(DS(QK('&ldquo;I have <i>baptized</i> seven hundred sinners, and <b><i>capsized</i> fifteen hundred Baptists</b>&hellip;&rdquo;',
      'Smith to his wife, 1828 &middot; ' + WIL + ', p. 258', 'The preacher', 'none',
      'Read on the page scan (pp. 258&ndash;259). The context: he kept no journal, but for a while in 1828 he noted the results of each week; one evening at home, mid-1828, reviewing the past few months, he announced the result to his wife. He went on: &ldquo;so we have made two great mistakes&rdquo;: &ldquo;He had said to her, at the beginning of the year, that the Reformation would not prevail in his lifetime; yet six months only had passed by, and it was already established in the hearts of the people. He had counted up the sacrifices, too, that he would have to make, and had talked of the persecutions that he would have to endure; but now he felt that the struggle was over.&rdquo; &ldquo;Nancy,&rdquo; said he: checked; the OCR runs &ldquo;sinners and&rdquo; together. &ldquo;Capsized&rdquo; is a boat joke beside &ldquo;baptized&rdquo;: he turned Baptists over, out of the Calvinist Baptist creed and into the Reformation. Not rebaptism: they were already immersed, and the Reformers did not rebaptize Baptists. Seven hundred new converts baptized; fifteen hundred Baptists won over, whole churches with them. He went on: &ldquo;so we have made two great mistakes&rdquo;: he had told her at the start of the year that the Reformation would not prevail in his lifetime, and he had braced for persecution, yet within six months &ldquo;it was already established in the hearts of the people&rdquo; (Williams, pp. 258&ndash;259).', size='clamp(40px,8.4vmin,104px)', width='26ch'), 'lex'))
-A(CARD('On the road to Alabama, about 1834:<br>' + G('breakfast at a roadside inn.'),
-  'Williams, pp. 477&ndash;478: riding through Tennessee one hot summer morning, nearly twenty-five miles already, Smith stopped at an inn on the roadside, not far from Sparta, and called for his breakfast. The landlady was alone that day (the young people of the family had gone to a social gathering), so she served him herself. Learning he was from Montgomery County, Kentucky, she put down her coffee-pot&hellip;'))
+A(BGCARD('krimmel_village_politicians_1819.jpg', 'about 1834', 'On the road to Alabama:<br>' + G('breakfast at a roadside inn.'),
+  'Williams, pp. 477&ndash;478: riding through Tennessee one hot summer morning, nearly twenty-five miles already, Smith stopped at an inn on the roadside, not far from Sparta, and called for his breakfast. The landlady was alone that day (the young people of the family had gone to a social gathering), so she served him herself. Learning he was from Montgomery County, Kentucky, she put down her coffee-pot&hellip; Picture: John Lewis Krimmel, <i>The Village Politicians</i> (c. 1819; Crystal Bridges Museum of American Art; Wikimedia Commons, public domain), an American tavern of the time, not Smith&rsquo;s inn.'))
 A(CARD('<i style="color:var(--gold);font-size:1.7em">&ldquo;A strange sort of people&hellip;&rdquo;</i>',
   'On a journey south, at breakfast, the lady of the house heard he was from Montgomery County, Kentucky: &ldquo;Travelers tell me that there is a strange sort of people up there in Kentucky called Campbellites&rdquo; (Williams, p. 478).'))
 A(DS(QK('&ldquo;Well,&rdquo; said she, &ldquo;I imagine they have <b>a sort of wild, fierce, fanatical look</b> about them.&rdquo;',
