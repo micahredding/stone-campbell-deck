@@ -244,13 +244,7 @@ A(DS(QK('&ldquo;It was now proposed that <b>all who felt willing to unite on the
 A(DS(QK('&ldquo;A song arose, and brethren and sisters, with many tearful greetings, ratified and confirmed the union. <b>On Lord&rsquo;s day, they broke the loaf together</b>&hellip;&rdquo;',
      WIL + ', p. 455', 'The song and the loaf', 'wil',
      'Before: &ldquo;elders and teachers hastened forward, and joined their hands and hearts in joyful accord.&rdquo; After: &ldquo;and in that sweet and solemn communion, again pledged to each other their brotherly love.&rdquo; Sunday, January 1, 1832. Williams is the only source for the communion that day; Smith&rsquo;s own letter (February 1832) confirms they broke the loaf together in the weeks after.'), 'wil32'))
-A(LIST('Beyond Lexington', 'Person by person, congregation by congregation',
-  [D('1832', 'Smith (a Disciple) and Rogers (a Christian) ride together to every church'),
-   D('1832', 'Smith defends himself to his own alarmed Reformers'),
-   D('1834', 'Jacksonville, Illinois: Stone joins neither church until they unite'),
-   D('1835', 'Lexington, at last')],
-  'Four clicks. Stone at Jacksonville: &ldquo;I refused to unite with either until they united together, and labored to effect it. It was effected&rdquo; (<i>Biography</i>, p. 79). Where it was slow, Stone blamed &ldquo;a few ignorant, headstrong bigots on both sides.&rdquo;',
-  size='clamp(28px,5.2vmin,66px)', gap='1.8vmin'))
+A('<section class="slide"><div class=litany style="gap:2vmin;text-align:center;align-items:center"><div class="no frag" style="font-size:clamp(36px,8vmin,100px);line-height:1.2">Handshake by handshake</div><div class="no frag" style="font-size:clamp(36px,8vmin,100px);line-height:1.2">Person by person</div><div class="no frag" style="font-size:clamp(36px,8vmin,100px);line-height:1.2"><span style="color:var(--gold)">Congregation by congregation</span></div></div><aside class=notes>Three clicks. Then the maps. As it spread: 1832, Smith (a Disciple) and Rogers (a Christian) ride together to every church; 1832, Smith defends himself to his own alarmed Reformers; 1834, Jacksonville, Illinois: Stone joins neither church until they unite; 1835, Lexington, at last. Stone at Jacksonville: &ldquo;I refused to unite with either until they united together, and labored to effect it. It was effected&rdquo; (<i>Biography</i>, p. 79). Where it was slow, Stone blamed &ldquo;a few ignorant, headstrong bigots on both sides.&rdquo;</aside></section>')
 A(UM.slide())
 A(SP.slide())   # the one movement spreading, 1836-1860 (Micah, 2026-11-21)
 A(SP.today_slide())   # and today: every congregation, 2020   # the union spreading, in waves (Micah, 2026-11-19)
