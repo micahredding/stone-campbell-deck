@@ -236,13 +236,7 @@ A(QK('&ldquo;I have not one objection to the ground laid down by him as the true
      'Checked on the page scan (the OCR interleaves two lines here). Williams: &ldquo;He turned as he spoke, and offered to Smith a hand trembling with rapture and brotherly love, and it was grasped by a hand full of the honest pledges of fellowship.&rdquo;',
      size='clamp(32px,6.6vmin,84px)', doc='wil32'))
 
-A(CARD('Not agreement of opinion:<br>' + G('agreement of faith.'),
-  'Smith: &ldquo;one in faith, and not in opinion.&rdquo; Williams: &ldquo;who taught that opinions were no part of the faith delivered to the saints&rdquo; (p. 455). So this was the proposition before the room: unite on faith, not opinion.', 'The proposition'))
 
-A(QK('&ldquo;It may be asked, is there no difference of opinion among you? We answer, <b>we do not know, nor are we concerned to know</b>.&rdquo;',
-     CM + ', January 1832', 'The statement', 'cm6',
-     '&ldquo;Union of Christians,&rdquo; <i>CM</i> 6, p. 6&ndash;8. Next: &ldquo;We have never asked them what were their opinions, nor have they asked us. If they have opinions different from ours, they are welcome to have them, provided they do not endeavor to impose them on us as articles of faith.&rdquo; And the creed: &ldquo;We have a perfect one&hellip; we mean the New Testament.&rdquo;',
-     size='clamp(32px,6.8vmin,86px)', doc='lex'))
 
 A(IMG('cane-ridge-window-lexington-handshake.jpg', 'The handshake', 'Stained-glass window, Cane Ridge Meeting House (photograph: therestorationmovement.com)',
   'Over an open Bible on the pulpit; the communion table before them, two plates and two cups. Set it against Marburg: Luther would not take the hand; Stone offered his. Maker and date of the window: unknown (to find). Class use only.', h='70vh'))
@@ -253,6 +247,12 @@ A(DS(QK('&ldquo;It was now proposed that <b>all who felt willing to unite on the
 A(DS(QK('&ldquo;A song arose, and brethren and sisters, with many tearful greetings, ratified and confirmed the union. <b>On Lord&rsquo;s day, they broke the loaf together</b>&hellip;&rdquo;',
      WIL + ', p. 455', 'The song and the loaf', 'wil',
      'Before: &ldquo;elders and teachers hastened forward, and joined their hands and hearts in joyful accord.&rdquo; After: &ldquo;and in that sweet and solemn communion, again pledged to each other their brotherly love.&rdquo; Sunday, January 1, 1832. Williams is the only source for the communion that day; Smith&rsquo;s own letter (February 1832) confirms they broke the loaf together in the weeks after.'), 'wil32'))
+A(CARD('Not agreement of opinion:<br>' + G('agreement of faith.'),
+  'Smith: &ldquo;one in faith, and not in opinion.&rdquo; Williams: &ldquo;who taught that opinions were no part of the faith delivered to the saints&rdquo; (p. 455). So this was the proposition before the room: unite on faith, not opinion.', 'The proposition'))
+A(QK('&ldquo;It may be asked, is there no difference of opinion among you? We answer, <b>we do not know, nor are we concerned to know</b>.&rdquo;',
+     CM + ', January 1832', 'The statement', 'cm6',
+     '&ldquo;Union of Christians,&rdquo; <i>CM</i> 6, p. 6&ndash;8. Next: &ldquo;We have never asked them what were their opinions, nor have they asked us. If they have opinions different from ours, they are welcome to have them, provided they do not endeavor to impose them on us as articles of faith.&rdquo; And the creed: &ldquo;We have a perfect one&hellip; we mean the New Testament.&rdquo;',
+     size='clamp(32px,6.8vmin,86px)', doc='lex'))
 A('<section class="slide"><div class=litany style="gap:2vmin;text-align:center;align-items:center"><div class="no frag" style="font-size:clamp(36px,8vmin,100px);line-height:1.2">Handshake by handshake</div><div class="no frag" style="font-size:clamp(36px,8vmin,100px);line-height:1.2">Person by person</div><div class="no frag" style="font-size:clamp(36px,8vmin,100px);line-height:1.2"><span style="color:var(--gold)">Congregation by congregation</span></div></div><aside class=notes>Three clicks. Then the maps. As it spread: 1832, Smith (a Disciple) and Rogers (a Christian) ride together to every church; 1832, Smith defends himself to his own alarmed Reformers; 1834, Jacksonville, Illinois: Stone joins neither church until they unite; 1835, Lexington, at last. Stone at Jacksonville: &ldquo;I refused to unite with either until they united together, and labored to effect it. It was effected&rdquo; (<i>Biography</i>, p. 79). Where it was slow, Stone blamed &ldquo;a few ignorant, headstrong bigots on both sides.&rdquo;</aside></section>')
 A(UM.slide())
 A(SP.slide())   # the one movement spreading, 1836-1860 (Micah, 2026-11-21)

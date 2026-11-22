@@ -384,37 +384,37 @@
   {
    "index": 54,
    "n": 55,
-   "title": "The proposition Not agreement of opinion: agreement of faith.",
+   "title": "The handshake Stained-glass window, Cane Ridge Meeting House (photograph: therestorationmo",
    "path": "spine",
    "doc": null
   },
   {
    "index": 55,
    "n": 56,
-   "title": "The statement \"It may be asked, is there no difference of opinion among you? We answer, we",
-   "path": "spine",
-   "doc": "lex"
-  },
-  {
-   "index": 56,
-   "n": 57,
-   "title": "The handshake Stained-glass window, Cane Ridge Meeting House (photograph: therestorationmo",
-   "path": "spine",
-   "doc": null
-  },
-  {
-   "index": 57,
-   "n": 58,
    "title": "Everyone ratifies \"It was now proposed that all who felt willing to unite on these princip",
    "path": "spine",
    "doc": "wil32"
   },
   {
-   "index": 58,
-   "n": 59,
+   "index": 56,
+   "n": 57,
    "title": "The song and the loaf \"A song arose, and brethren and sisters, with many tearful greetings",
    "path": "spine",
    "doc": "wil32"
+  },
+  {
+   "index": 57,
+   "n": 58,
+   "title": "The proposition Not agreement of opinion: agreement of faith.",
+   "path": "spine",
+   "doc": null
+  },
+  {
+   "index": 58,
+   "n": 59,
+   "title": "The statement \"It may be asked, is there no difference of opinion among you? We answer, we",
+   "path": "spine",
+   "doc": "lex"
   },
   {
    "index": 59,
@@ -1333,18 +1333,18 @@
   },
   {
    "slide": 55,
-   "doc": "lex",
-   "text": "It may be asked, is there no difference of opinion among you? We answer, we do not know, nor are we concerned to know."
-  },
-  {
-   "slide": 57,
    "doc": "wil32",
    "text": "It was now proposed that all who felt willing to unite on these principles, should express that willingness by giving one another the hand of fellowship; and elders and teachers hastened forward, and joined their hands and hearts in joyful accord."
   },
   {
-   "slide": 58,
+   "slide": 56,
    "doc": "wil32",
    "text": "A song arose, and brethren and sisters, with many tearful greetings, ratified and confirmed the union. On Lord’s day, they broke the loaf together"
+  },
+  {
+   "slide": 58,
+   "doc": "lex",
+   "text": "It may be asked, is there no difference of opinion among you? We answer, we do not know, nor are we concerned to know."
   },
   {
    "slide": 64,
