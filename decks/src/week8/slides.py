@@ -194,6 +194,9 @@ A(QK('&ldquo;God has but one people on the earth. <b>He has given to them but on
 A(DS(QK('&ldquo;A union, such as we plead for&mdash;a union of God&rsquo;s people on that one Book&mdash;<b>must, then, be practicable</b>.&rdquo;',
      SMITH + ' &middot; ' + WIL + ', p. 452', 'Smith, continuing', 'wil',
      'Read on the page scan. Next: &ldquo;Every Christian desires to stand complete in the whole will of God. The prayer of the Savior, and the whole tenor of his teaching, clearly show that it is God&rsquo;s will that his children should be united. To the Christian, then, such a union must be desirable. But an amalgamation of sects is not such a union as Christ prayed for, and God enjoins.&rdquo;', size='clamp(36px,7.6vmin,96px)'), 'wil32'))
+A(DS(QK('&ldquo;The prayer of the Savior, and the whole tenor of his teaching, clearly show that <b>it is God&rsquo;s will that his children should be united</b>. To the Christian, then, such a union must be desirable.&rdquo;',
+     SMITH + ' &middot; ' + WIL + ', p. 452', 'Smith', 'wil',
+     'Read on the page scan. Just before: &ldquo;Every Christian desires to stand complete in the whole will of God.&rdquo; The prayer is John 17: &ldquo;that they all may be one.&rdquo; Next: &ldquo;But an amalgamation of sects is not such a union as Christ prayed for, and God enjoins.&rdquo;', size='clamp(32px,6.8vmin,86px)'), 'wil32'))
 A(DS(QK('&ldquo;There are certain abstruse or speculative matters&mdash;such as the mode of the <i>Divine Existence</i>, and the <i>Ground and Nature of the Atonement</i>&mdash;that have, for centuries, been themes of discussion among Christians. <b>These questions are as far from being settled now as they were in the beginning of the controversy.</b>&rdquo;',
      SMITH + ' &middot; ' + WIL + ', p. 453', 'Never settled', 'wil',
      'Read on the page scan. Smith&rsquo;s first move: the very questions that split Christendom (who God is; how Christ saves) have never been settled, and will not be settled at Lexington either. Before it: &ldquo;the only union practicable or desirable must be based on the Word of God, as the only rule of faith and practice&rdquo; (p. 452).', size='clamp(28px,5.8vmin,74px)'), 'wil32'))
@@ -205,9 +208,9 @@ A(QK('&ldquo;While there is but one faith, there may be ten thousand opinions; a
      SMITH + ' &middot; ' + WIL + ', p. 453', 'One faith', 'wil',
      'Just before, on the Trinity and the atonement: &ldquo;If I come to the passage, &lsquo;My Father is greater than I,&rsquo; I will quote it, but will not stop to speculate upon the inferiority of the Son.&rdquo; He will speak of such things &ldquo;only in the words which the Lord has given.&rdquo;',
      size='clamp(32px,6.6vmin,84px)', doc='wil32'))
-A(DS(QK('&ldquo;While, for the sake of peace and Christian union, <b>I have long since waived the public maintenance of any speculation I may hold</b>, yet not one Gospel fact, commandment, or promise, will I surrender for the world!&rdquo;',
-     SMITH + ' &middot; ' + WIL + ', p. 454', 'Smith', 'wil',
-     'Read on the page scan (the last clause is italic in Williams). He keeps his opinions; he stops making them public business. Just before: &ldquo;speak of them in the words of the Scriptures, and no offense will be given, and no pride of doctrine will be encouraged. We may even come, in the end, by thus speaking the same things, to think the same things.&rdquo;', size='clamp(30px,6.4vmin,82px)'), 'wil32'))
+A(DS(QK('&ldquo;Let us, then, my brethren, be no longer Campbellites or Stoneites, New Lights or Old Lights, or any other kind of lights, but <b>let us all come to the Bible, and to the Bible alone</b>, as the only book in the world that can give us all the Light we need.&rdquo;',
+     SMITH + ' &middot; ' + WIL + ', p. 454', 'Smith, closing', 'wil',
+     'Read on the page scan. His last words before he sat down; then &ldquo;Stone arose, his heart glowing with love, and every pulse bounding with hope.&rdquo; Just before: &ldquo;For several years past, I have stood pledged to meet the religious world, or any part of it, on the ancient Gospel and order of things, as presented in the words of the Book.&rdquo;', size='clamp(30px,6.2vmin,80px)'), 'wil32'))
 
 A(QK('&ldquo;&hellip;the controversies of the Church sufficiently prove that <b>Christians never can be one in their speculations</b> upon those mysterious and sublime subjects, which, while they interest the Christian philosopher, can not edify the Church.&rdquo;',
      STONE + ' &middot; ' + WIL + ', p. 454', 'Stone answers', 'wil',
