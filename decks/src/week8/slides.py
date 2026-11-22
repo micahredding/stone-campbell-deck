@@ -226,7 +226,7 @@ A(DS(QK('&ldquo;I perfectly accord with Brother Smith that <b>those speculations
      STONE + ' &middot; ' + WIL + ', p. 455', 'Stone', 'wil',
      'Read on the page scan. Then, at once: &ldquo;I have not one objection to the ground laid down by him&hellip;&rdquo;', size='clamp(30px,6.4vmin,82px)'), 'wil32'))
 
-A(QK('&ldquo;I have not one objection to the ground laid down by him as the true scriptural basis of union among the people of God; and <b>I am willing to give him, now and here, my hand</b>.&rdquo;',
+A(QK('&ldquo;I have not one objection to the ground laid down by him as the&hellip; basis of union among the people of God; and <b>I am willing to give him, now and here, my hand</b>.&rdquo;',
      STONE + ' &middot; ' + WIL + ', p. 455', 'His hand', 'none',
      'Checked on the page scan (the OCR interleaves two lines here). Williams: &ldquo;He turned as he spoke, and offered to Smith a hand trembling with rapture and brotherly love, and it was grasped by a hand full of the honest pledges of fellowship.&rdquo;',
      size='clamp(32px,6.6vmin,84px)', doc='wil32'))
