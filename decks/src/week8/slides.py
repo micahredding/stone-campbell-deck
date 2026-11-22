@@ -148,13 +148,13 @@ A('<section class="slide twomv" style="padding:3vmin 4vw 6vmin"><div class=twobg
 
 for _x in DV.slides(): A(_x)   # the egg replayed; God, authority and clergy, the sacraments, each answered at Lexington
 
-A(CARD('Every division of eighteen centuries<br>' + G('in one room.'),
-  'The Trinity, the clergy, the sacraments: what had divided Christendom since Nicaea. Will it be unity, or division, like every effort before?'))
+A(WITHBG(CARD('Every division of eighteen centuries<br>' + G('in one room.'),
+  'The Trinity, the clergy, the sacraments: what had divided Christendom since Nicaea. Will it be unity, or division, like every effort before?'), 'bower-1955-hill-street-meetinghouse.jpg'))
 
 # ---------- V. THE HANDSHAKE ----------
 
-A(CARD('How could they possibly<br>' + G('come together?'),
-  'Every division of eighteen centuries in one room, as wide as any division Christianity had ever known. Before we get to the answer, we have to meet somebody: &ldquo;Raccoon&rdquo; John Smith.'))
+A(WITHBG(CARD('How could they possibly<br>' + G('come together?'),
+  'Every division of eighteen centuries in one room, as wide as any division Christianity had ever known. Before we get to the answer, we have to meet somebody: &ldquo;Raccoon&rdquo; John Smith.'), 'bower-1955-hill-street-meetinghouse.jpg'))
 A(CARD('<span style="font-size:2.2em;color:var(--gold)">&hellip;</span>',
   'A pause. Before we get to the answer, we have to meet somebody.'))
 
