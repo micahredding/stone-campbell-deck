@@ -40,7 +40,7 @@
 3. **Lexington:** Hill Street; "a popular assembly", the people and not delegates; the points of contention, one list: Trinity, clergy, communion, baptism, future.
 4. **The whole history of division:**
    - the egg replayed;
-   - God (Nicaea);
+   - God (325 Nicaea, 451 Chalcedon, 1054 East and West);
    - authority and clergy (1415, 1520, 1662);
    - the sacraments (Zurich, 1527; Marburg, 1529);
    - "Every division of eighteen centuries in one room."
