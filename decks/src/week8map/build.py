@@ -57,3 +57,15 @@ def slim(path, max_side=1400, min_bytes=40_000, quality=68):
     open(path, 'w').write(h)
     print('slimmed %s: %.1f MB -> %.1f MB' % (path, before / 1e6, len(h) / 1e6))
 slim('decks/chapter8.html')
+
+# The taught Chapter 8 for the public site (Micah, 2026-11-22: "the deck, as taught, on the live site, without the side paths"):
+# the spine only. Images are already embedded; slimmed to 960 px. Not committed here.
+# Publish with stone-campbell's scripts/strip-deck-notes.mjs decks/chapter8-taught.html site/decks/week-8.html.
+mapdeck.build({
+    'part': '8', 'key': 'w8t', 'chapter': 'Chapter 8', 'title': 'Chapter 8 &middot; The Handshake at Lexington',
+    'page_title': 'Chapter 8 &middot; The Handshake at Lexington',
+    'out': 'decks/chapter8-taught.html', 'source': 'decks/src/week8/slides.py', 'built_by': 'decks/src/week8map/build.py',
+    'side': SIDE, 'sections': SECTIONS, 'docs': docs, 'short': R.SHORT, 'doc_doors': [], 'doc_order': R.doc_order,
+    'drop_side': True,
+})
+slim('decks/chapter8-taught.html', max_side=960)
