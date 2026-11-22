@@ -11,16 +11,25 @@ def _b64(rel):
 EGG = ['egg/egg-%02d.jpg' % i for i in (0, 1, 2, 3, 5, 7, 9, 11, 13, 14, 15, 16)]
 STEP = 1.0   # seconds per frame
 
-def egg_replay():
-    frames = ''.join('<img class=eggf src="%s" alt="" style="z-index:%d;animation-delay:%.1fs">' % (_b64(f), i + 1, i * STEP) for i, f in enumerate(EGG))
+def egg_replay(frames, note):
+    fr = ''.join('<img class=eggf src="%s" alt="" style="z-index:%d;animation-delay:%.1fs">' % (_b64(f), i + 1, i * STEP) for i, f in enumerate(frames))
     return ('<section class="slide" style="padding:0"><style>'
             '.eggbox{position:relative;width:min(96vw,170vh);aspect-ratio:16/9}'
             '.eggbox .eggf{position:absolute;inset:0;width:100%;height:100%;opacity:0}'
             '.eggbox .eggf:first-child{opacity:1}'
             '.slide.on .eggbox .eggf{animation:eggshow .35s ease forwards}'
             '@keyframes eggshow{to{opacity:1}}</style>'
-            '<div class=eggbox>' + frames + '</div>'
-            '<aside class=notes>Plays by itself (about %d seconds): Chapter 3&rsquo;s egg, Christendom&rsquo;s search for unity, from one church through Nicaea, Chalcedon, 1054, Worms, the Reformation and the Scottish splits, to today: too many divisions to count. Every split was made by an instrument meant to secure unity (a creed, a council, a confession). Now: the same three kinds of division, one at a time, and what each looked like at Lexington.</aside></section>' % int(len(EGG) * STEP))
+            '<div class=eggbox>' + fr + '</div>'
+            '<aside class=notes>%s</aside></section>' % note)
+
+def egg_slides():
+    # Micah, 2026-11-22: three slides: one church to 1054; 1054 to the Scottish splits; then today, on its own
+    a = EGG[:6]; b = EGG[5:11]; c = EGG[11:]
+    return [
+        egg_replay(a, 'Plays by itself (about %d seconds): Chapter 3&rsquo;s egg, Christendom&rsquo;s search for unity, from one church through Nicaea (325), Constantinople (381), Ephesus (431), the Instrument of Union (482), to 1054 and the filioque: East and West apart. Every split made by an instrument meant to secure unity (a creed, a council).' % (len(a) * STEP)),
+        egg_replay(b, 'Plays by itself, from 1054: Zurich (1527), Westminster (1646), the Secession (1733), the Burgess Oath (1747), Old Light and New Light (1799&ndash;1806): the Reformation and the Scottish splits the Campbells came out of.'),
+        egg_replay(c, '&hellip;and today: too many divisions to count. Now the same three kinds of division, one at a time, and what each looked like at Lexington.'),
+    ]
 
 def _pic(img, year, cap, h='46vh'):
     return ('<div class=frag style="flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 1vw">'
@@ -36,8 +45,7 @@ def _div(eyebrow, title, pics, lex, notes, h='46vh'):
             '<aside class=notes>%s</aside></section>' % (eyebrow, title, ''.join(_pic(*p, h=h) for p in pics), lex, notes))
 
 def slides():
-    return [
-        egg_replay(),
+    return egg_slides() + [
         _div('Two thousand years of division &middot; 1', 'God',
              [('nicaea-icon.jpg', '325 &middot; Nicaea', 'The creed that divided Arius&rsquo;s followers from the church'),
               ('chalcedon_surikov_1876.jpg', '451 &middot; Chalcedon', 'Christ in two natures: the Oriental churches part ways'),

@@ -39,7 +39,7 @@
    Then (said, not on a slide) so much in common, surely they could unite with each other; and Georgetown, "the same family".
 3. **Lexington:** Hill Street; "a popular assembly", the people and not delegates; the points of contention, one list: Trinity, atonement, clergy, communion, baptism, future.
 4. **The whole history of division:**
-   - the egg replayed;
+   - the egg replayed in three slides: one church to 1054; 1054 to Old Light and New Light; "…and today";
    - God (325 Nicaea, 451 Chalcedon, 1054 East and West);
    - authority and clergy (1415, 1520, 1662);
    - the sacraments (Zurich, 1527; Marburg, 1529);
