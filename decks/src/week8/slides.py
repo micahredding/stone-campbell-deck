@@ -349,9 +349,9 @@ A(QK('&ldquo;[These are] <b>very different proposals</b>, as different as allegi
 
 A(CARD('<i style="color:var(--gold);font-size:1.7em">But</i>',
   'Uniting on the Bible was never uniting on opinions about the Bible. They said so, plainly.'))
-A(DS(QK('&ldquo;&hellip;inferences and deductions from Scripture premises&hellip; <b>are they not formally binding upon the consciences of Christians farther than they perceive the connection</b>&hellip;&rdquo;',
-     'Thomas Campbell, <i>Declaration and Address</i> (1809), Proposition 6', 'Not our readings', 'dna',
-     'In full: &ldquo;although inferences and deductions from Scripture premises, when fairly inferred, may be truly called the doctrine of God&rsquo;s holy word, yet are they not formally binding upon the consciences of Christians farther than they perceive the connection, and evidently see that they are so&hellip; Therefore, no such deductions can be made terms of communion.&rdquo; Our readings of Scripture are not the bond.'), 'lex'))
+A(DS(QK('&ldquo;&hellip;<b>no deduction or inference&hellip; however logical or true, forms any part of the Gospel</b> of Jesus Christ.&rdquo;',
+     '&ldquo;Raccoon&rdquo; John Smith, at Lexington &middot; ' + WIL + ', p. 453', 'Smith, at Lexington', 'wil',
+     'Before it: &ldquo;the Gospel is a system of facts, commands, and promises.&rdquo; After: &ldquo;No heaven is promised to those who hold them, and no hell is threatened to those who deny them.&rdquo;'), 'wil32'))
 
 A(CARD('How can they unite on the Bible,<br>' + G('not interpretations of the Bible?'),
   'The question. Two answers, one click each: sacramentally, and liturgically.'))
