@@ -133,12 +133,13 @@ A(CARD('Every division of eighteen centuries<br>' + G('in one room.'),
 
 # ---------- V. THE HANDSHAKE ----------
 
-A(C('The proposition', 'Saturday, December 31, 1831. One speaker from each side: Smith for the Disciples, Stone for the Christians.'))
+A(CARD('How could they possibly<br>' + G('come together?'),
+  'Every division of eighteen centuries in one room, as wide as any division Christianity had ever known. Before we get to the answer, we have to meet somebody: &ldquo;Raccoon&rdquo; John Smith.'))
 
 A(BGIMG('smith-sartain-bg.jpg', '&ldquo;Raccoon&rdquo;<br>John Smith<div style="font-size:.42em;color:var(--gold);margin-top:1.5vmin;letter-spacing:.06em">1784&ndash;1868</div>', 'Frontispiece engraving by John Sartain, in J. A. Williams, <i>Life of Elder John Smith</i> (1870)',
   'Who he was: born 1784 in East Tennessee (&ldquo;a native of the State of Franklin,&rdquo; the short-lived breakaway frontier state, Williams p. 17) to a Regular Baptist family, raised in Stockton&rsquo;s Valley on the Kentucky frontier, &ldquo;never had more than six months of schooling&rdquo; (<i>Encyclopedia</i>). January 1815, near Huntsville, Alabama: his cabin burned and two of his children died; his wife died soon after. Riding home, the Calvinist preacher could not comfort her: &ldquo;If I tell her that our babies are glorified, the thought that possibly they were of the non-elect will only aggravate her woe&rdquo;; his faith in that doctrine &ldquo;yielded up its strength forever&rdquo; (Williams, p. 103). The nickname means backwoodsman: at Crab Orchard in 1815 he introduced himself as from the hills of the Cumberland, where &ldquo;saltpeter caves abound, and raccoons make their homes&rdquo; (p. 115), and people spoke of &ldquo;the man that had been raised among the raccoons&rdquo; (p. 117). Later Philip Fall posted notices in Frankfort that &ldquo;Raccoon John Smith would preach&rdquo;; ever after, &ldquo;some knew me as &lsquo;Raccoon John Smith, of Montgomery&rsquo;&rdquo; (p. 278), a title he &ldquo;disliked but tolerated.&rdquo; 1828, to his wife: &ldquo;I have baptized seven hundred sinners and capsized fifteen hundred Baptists&rdquo; (p. 258). &ldquo;A civil Campbellite&rdquo; (Williams, pp. 478&ndash;479, read on the page scan): on a journey south, a woman serving him breakfast had heard of &ldquo;a strange sort of people up there in Kentucky called Campbellites&rdquo;; she was told they &ldquo;even chased after people, and ran them down,&rdquo; and once ran a poor fellow &ldquo;five miles before they caught him.&rdquo; Smith: &ldquo;That was a very long-winded fellow, ma&rsquo;am.&rdquo; She imagined &ldquo;a sort of wild, fierce, fanatical look.&rdquo; Smith, setting down his knife and fork: &ldquo;look right at me, and you will see one! But don&rsquo;t be afraid&hellip; I am a <i>civil</i> Campbellite, and will not chase <i>you</i> into the water.&rdquo;', h='74vh'))
 # Raccoon John Smith, for flavor (Micah, 2026-11-21: "I want all this")
-A('<section class="slide" style="padding:0;background:#0e0b09">' + _load('franklin_svg', 'week8/franklin_svg.py').SVG + '<aside class=notes>Where Smith came from. Williams: &ldquo;Elder John Smith was born on the 15th of October, 1784, in Sullivan County, East Tennessee&rdquo; (p. 15); &ldquo;he was a native of the State of Franklin, an unacknowledged, though duly organized commonwealth of the olden time&rdquo; (p. 17). Franklin: the counties west of the mountains that North Carolina ceded to Congress in 1784 organized their own state (Jonesborough, then Greeneville, its capital; John Sevier its governor), petitioned Congress for admission, and never got it; by 1788&ndash;89 it had collapsed back into North Carolina, and the land became part of Tennessee in 1796. The Smiths moved on to Stockton&rsquo;s Valley, on the Kentucky frontier. He &ldquo;never had more than six months of schooling&rdquo; (<i>Encyclopedia</i>). A Regular Baptist preacher from 1808, and a farmer all his life, since the Baptists did not pay their preachers. The shading follows today&rsquo;s counties, an approximation: Franklin&rsquo;s western line was never settled. Map drawn for the class from U.S. Census boundaries (us-atlas).</aside></section>')
+A('<section class="slide" style="padding:0;background:#0e0b09">' + _load('franklin_svg', 'week8/franklin_svg.py').SVG + '<aside class=notes>Where Smith came from. Williams: &ldquo;Elder John Smith was born on the 15th of October, 1784, in Sullivan County, East Tennessee&rdquo; (p. 15); &ldquo;he was a native of the State of Franklin, an unacknowledged, though duly organized commonwealth of the olden time&rdquo; (p. 17). Franklin: the counties west of the mountains that North Carolina ceded to Congress in 1784 organized their own state (Jonesborough, then Greeneville, its capital; John Sevier its governor), petitioned Congress for admission, and never got it; its leaders even sounded out Spain, and North Carolina arrested Sevier (1788); by 1788&ndash;89 it had collapsed back into North Carolina, and the land became part of Tennessee in 1796. The Smiths moved on to Stockton&rsquo;s Valley, on the Kentucky frontier. He &ldquo;never had more than six months of schooling&rdquo; (<i>Encyclopedia</i>). A Regular Baptist preacher from 1808, and a farmer all his life, since the Baptists did not pay their preachers. The shading follows today&rsquo;s counties, an approximation: Franklin&rsquo;s western line was never settled. Map drawn for the class from U.S. Census boundaries (us-atlas).</aside></section>')
 A(DS(QK('&ldquo;I am John Smith, from Stockton&rsquo;s Valley&hellip; Down there, saltpeter caves abound, and <b>raccoons make their homes</b>. On that wild frontier we never had good schools, nor many books; consequently, I stand before you to-day a man without an education.&rdquo;',
      'Smith at Crab Orchard, Kentucky, 1815 &middot; ' + WIL + ', p. 115', 'Where the name came from', 'none',
      'Read on the page scan (the OCR scrambles it). He came back from Alabama ragged and grieving, and introduced himself so to a Baptist association. It goes on: &ldquo;But, my brethren, even in that ill-favored region, the Lord, in good time, found me.&rdquo; The crowd wanted to hear again &ldquo;the man that had been raised among the raccoons&rdquo; (p. 117). Years later, at Frankfort, Philip Fall&rsquo;s notices read &ldquo;Raccoon John Smith would preach&rdquo;; he &ldquo;disliked but tolerated&rdquo; the name.'), 'lex'))
@@ -170,7 +171,7 @@ A(C('Lexington<div style="font-size:.42em;color:var(--gold);margin-top:2vmin;let
   'The four-day meeting at the Christians&rsquo; Hill Street meetinghouse, Saturday, December 31, 1831, to Tuesday, January 3, 1832 (Williams, pp. 450&ndash;455). One speaker from each side: Smith for the Disciples, Stone for the Christians.'))
 A(QK('&ldquo;God has but one people on the earth. <b>He has given to them but one Book</b>, and therein exhorts and commands them to be one family.&rdquo;',
      SMITH + ' &middot; ' + WIL + ', p. 452', 'Smith rises first', 'wil',
-     'Stone had asked: &ldquo;What is your choice, my brother? Will you speak first, or last?&rdquo; Smith: &ldquo;Brother Stone, I have no choice.&rdquo; Williams: &ldquo;Every eye turned upon him, and every ear leaned to catch the slightest tones of his voice.&rdquo;', doc='wil32'))
+     'The Disciples had chosen Smith to speak for them; the Christians chose Stone. Stone had asked: &ldquo;What is your choice, my brother? Will you speak first, or last?&rdquo; Smith: &ldquo;Brother Stone, I have no choice.&rdquo; Williams: &ldquo;Every eye turned upon him, and every ear leaned to catch the slightest tones of his voice.&rdquo;', doc='wil32'))
 A(DS(QK('&ldquo;A union, such as we plead for&mdash;a union of God&rsquo;s people on that one Book&mdash;<b>must, then, be practicable</b>.&rdquo;',
      SMITH + ' &middot; ' + WIL + ', p. 452', 'Smith, continuing', 'wil',
      'Read on the page scan. Next: &ldquo;Every Christian desires to stand complete in the whole will of God. The prayer of the Savior, and the whole tenor of his teaching, clearly show that it is God&rsquo;s will that his children should be united. To the Christian, then, such a union must be desirable. But an amalgamation of sects is not such a union as Christ prayed for, and God enjoins.&rdquo;', size='clamp(36px,7.6vmin,96px)'), 'wil32'))
@@ -191,7 +192,7 @@ A(DS(QK('&ldquo;While, for the sake of peace and Christian union, <b>I have long
 
 A(QK('&ldquo;&hellip;the controversies of the Church sufficiently prove that <b>Christians never can be one in their speculations</b> upon those mysterious and sublime subjects, which, while they interest the Christian philosopher, can not edify the Church.&rdquo;',
      STONE + ' &middot; ' + WIL + ', p. 454', 'Stone answers', 'wil',
-     'Stone: &ldquo;I will not attempt to introduce any new topic.&rdquo; Of his own sermons on the Trinity, forced by opposition: &ldquo;I never preached a sermon of that kind that once feasted my heart; I always felt a barrenness of soul afterwards.&rdquo;', doc='wil32'))
+     'Stone rises knowing every historic division is in the room: the wrong word could split it down the middle. Stone: &ldquo;I will not attempt to introduce any new topic.&rdquo; Of his own sermons on the Trinity, forced by opposition: &ldquo;I never preached a sermon of that kind that once feasted my heart; I always felt a barrenness of soul afterwards.&rdquo;', doc='wil32'))
 A(DS(QK('&ldquo;&hellip;by force of circumstances, I was led to deliver some speculative discourses upon those subjects. But <b>I never preached a sermon of that kind that once feasted my heart</b>; I always felt a barrenness of soul afterwards.&rdquo;',
      STONE + ' &middot; ' + WIL + ', pp. 454&ndash;455', 'Stone', 'wil',
      'Read on the page scan. Before it: &ldquo;After we had given up all creeds and taken the Bible, and the Bible alone, as our rule of faith and practice, we met with so much opposition, that, by force of circumstances&hellip;&rdquo; Stone had been accused of Arianism for years; he knew what these arguments cost.', size='clamp(30px,6.4vmin,82px)'), 'wil32'))
@@ -205,7 +206,7 @@ A(QK('&ldquo;I have not one objection to the ground laid down by him as the true
      size='clamp(32px,6.6vmin,84px)', doc='wil32'))
 
 A(CARD('Not agreement of opinion:<br>' + G('agreement of faith.'),
-  'Smith: &ldquo;one in faith, and not in opinion.&rdquo; Williams: &ldquo;who taught that opinions were no part of the faith delivered to the saints&rdquo; (p. 455).'))
+  'Smith: &ldquo;one in faith, and not in opinion.&rdquo; Williams: &ldquo;who taught that opinions were no part of the faith delivered to the saints&rdquo; (p. 455). So this was the proposition before the room: unite on faith, not opinion.', 'The proposition'))
 
 A(QK('&ldquo;It may be asked, is there no difference of opinion among you? We answer, <b>we do not know, nor are we concerned to know</b>.&rdquo;',
      CM + ', January 1832', 'The statement', 'cm6',
@@ -215,9 +216,23 @@ A(QK('&ldquo;It may be asked, is there no difference of opinion among you? We an
 A(IMG('cane-ridge-window-lexington-handshake.jpg', 'The handshake', 'Stained-glass window, Cane Ridge Meeting House (photograph: therestorationmovement.com)',
   'Over an open Bible on the pulpit; the communion table before them, two plates and two cups. Set it against Marburg: Luther would not take the hand; Stone offered his. Maker and date of the window: unknown (to find). Class use only.', h='70vh'))
 
+A(DS(QK('&ldquo;It was now proposed that <b>all who felt willing to unite on these principles</b>, should express that willingness by giving one another the hand of fellowship; and elders and teachers hastened forward, and joined their hands and hearts in joyful accord.&rdquo;',
+     WIL + ', p. 455', 'Everyone ratifies', 'wil',
+     'Read on the page scan. They were not delegates; no one there had authority to enact a union for anyone else. So the handshake was offered to the whole room, and the room itself ratified it, hand by hand.', size='clamp(30px,6.4vmin,82px)'), 'wil32'))
 A(DS(QK('&ldquo;A song arose, and brethren and sisters, with many tearful greetings, ratified and confirmed the union. <b>On Lord&rsquo;s day, they broke the loaf together</b>&hellip;&rdquo;',
      WIL + ', p. 455', 'The song and the loaf', 'wil',
      'Before: &ldquo;elders and teachers hastened forward, and joined their hands and hearts in joyful accord.&rdquo; After: &ldquo;and in that sweet and solemn communion, again pledged to each other their brotherly love.&rdquo; Sunday, January 1, 1832. Williams is the only source for the communion that day; Smith&rsquo;s own letter (February 1832) confirms they broke the loaf together in the weeks after.'), 'wil32'))
+A(LIST('Beyond Lexington', 'Person by person, congregation by congregation',
+  [D('1832', 'Smith (a Disciple) and Rogers (a Christian) ride together to every church'),
+   D('1832', 'Smith defends himself to his own alarmed Reformers'),
+   D('1834', 'Jacksonville, Illinois: Stone joins neither church until they unite'),
+   D('1835', 'Lexington, at last')],
+  'Four clicks. Stone at Jacksonville: &ldquo;I refused to unite with either until they united together, and labored to effect it. It was effected&rdquo; (<i>Biography</i>, p. 79). Where it was slow, Stone blamed &ldquo;a few ignorant, headstrong bigots on both sides.&rdquo;',
+  size='clamp(28px,5.2vmin,66px)', gap='1.8vmin'))
+A(UM.slide())
+A(SP.slide())   # the one movement spreading, 1836-1860 (Micah, 2026-11-21)
+A(SP.today_slide())   # and today: every congregation, 2020   # the union spreading, in waves (Micah, 2026-11-19)
+A(CARD('And it worked:<br>' + G('one movement, one history.'), 'Today we do not speak of a Stone movement and a Campbell movement, but of the Stone-Campbell movement, the Restoration movement. No Stone church, no Campbell church: every church that traces its roots to this story sees itself as heir of both, and our practices come from both sides of that room, inextricably. The churches descended from it have divided over other things; none has renounced the handshake. (If time: are we more Stone or more Campbell? Weekly communion and baptism for remission, Campbell; the open table and revival, Stone. It gets confusing, and that is the point.)'))
 
 # ---------- VI. IT TOOK SEVERAL YEARS ----------
 
@@ -233,25 +248,18 @@ A(DS(QK('&ldquo;Nor was a union between the two congregations finally and formal
      WIL + ', p. 460', 'Lexington, 1835', 'wil',
      'When Thomas M. Allen, preaching to the Lexington Christians, proposed it again; they &ldquo;waived all prejudice and differences of opinion on the subject of order and clerical privilege&rdquo; and &ldquo;not only consented to the union, but nobly proposed it to the Disciples.&rdquo; Williams is the only source for 1835 found so far.',
      size='clamp(36px,7.6vmin,96px)'), 'lex'))
-
-A(LIST('Beyond Lexington', 'Person by person, congregation by congregation',
-  [D('1832', 'Smith (a Disciple) and Rogers (a Christian) ride together to every church'),
-   D('1832', 'Smith defends himself to his own alarmed Reformers'),
-   D('1834', 'Jacksonville, Illinois: Stone joins neither church until they unite'),
-   D('1835', 'Lexington, at last')],
-  'Four clicks. Stone at Jacksonville: &ldquo;I refused to unite with either until they united together, and labored to effect it. It was effected&rdquo; (<i>Biography</i>, p. 79). Where it was slow, Stone blamed &ldquo;a few ignorant, headstrong bigots on both sides.&rdquo;',
-  size='clamp(28px,5.2vmin,66px)', gap='1.8vmin'))
-
-A(UM.slide())
-A(SP.slide())   # the one movement spreading, 1836-1860 (Micah, 2026-11-21)
-A(SP.today_slide())   # and today: every congregation, 2020   # the union spreading, in waves (Micah, 2026-11-19)
-
 A(CARD('No magic moment.<br>' + G('It was worked out.'),
   'Visible unity came over years, with patience and forbearance, exploring together. Smith called it &ldquo;the best act of his life&rdquo; (Williams, p. 456); Stone, &ldquo;the noblest act of my life&rdquo; (<i>Biography</i>, p. 79).'))
+A(CARD('<span style="font-size:.55em;color:var(--bone-dim);letter-spacing:.08em">Faywood, Woodford County, Kentucky</span><br>New Union Christian Church',
+  'Micah and Emily attended here, outside Lexington. We were told it was founded in 1834 and named for the new union of these two movements. (Founding date as told; not yet confirmed in print.)'))
+A(CARD('Still working it out:<br>' + G('one handshake at a time.'),
+  'With all the divisions we have, maybe we are still working it out. And maybe, like the church at Lexington, we can keep working it out: one handshake, one person, one congregation at a time.'))
+
+
+
 
 # ---------- VII. IT WORKED ----------
 
-A(CARD('And it worked:<br>' + G('one movement, one history.'), 'Today we do not speak of a Stone movement and a Campbell movement, but of the Stone-Campbell movement, the Restoration movement. (If time: are we more Stone or more Campbell? Weekly communion and baptism for remission, Campbell; the open table and revival, Stone. It gets confusing, and that is the point.)'))
 
 # ---------- VIII. CHRIST... OR THE BIBLE? (Micah, 2026-11-21) ----------
 
@@ -303,7 +311,7 @@ A(QK('&ldquo;&hellip;to state the anomaly as boldly as possible, the movement is
      'As quoted in the <i>Encyclopedia of the Stone-Campbell Movement</i>, &ldquo;Faith.&rdquo; Paul Blowers summarizes him: the two slogans are &ldquo;very different proposals, as different as allegiance to Christ and allegiance to the strict letter of the scriptural text.&rdquo;'))
 A(QK('&ldquo;&hellip;<b>very different proposals</b>, as different as allegiance to Christ and allegiance to the strict letter of the scriptural text.&rdquo;',
      'Paul M. Blowers, <i>Encyclopedia of the Stone-Campbell Movement</i> (2004), &ldquo;Faith&rdquo;', 'Paul Blowers, 2004', 'enc',
-     'Blowers, summarizing the two slogans, &ldquo;No creed but Christ&rdquo; and &ldquo;No book but the Bible&rdquo;, after Stevenson.'))
+     'Blowers, summarizing the two slogans, &ldquo;No creed but Christ&rdquo; and &ldquo;No book but the Bible&rdquo;, after Stevenson. Micah: I disagree with Blowers here. For these first reformers it was not a call to the strict letter, not a new legalism: not our interpretation of Scripture, but Scripture itself; not our opinions about the Bible, but the Bible.'))
 
 A(CARD('<i style="color:var(--gold);font-size:1.7em">But</i>',
   'Uniting on the Bible was never uniting on opinions about the Bible. They said so, plainly.'))
@@ -325,13 +333,13 @@ A(DS(QK('&ldquo;For several years past I have tried to speak on such subjects <b
      SMITH + ' &middot; ' + WIL + ', p. 453', 'Smith, at Lexington', 'wil',
      'Read on the page scan. On the Trinity and Christ: &ldquo;If I come to the passage, &lsquo;My Father is greater than I,&rsquo; I will quote it, but will not stop to speculate upon the inferiority of the Son&hellip; I will present these subjects only in the words which the Lord has given to me. I know he will not be displeased if we say just what he has said.&rdquo; Campbell called it &ldquo;Bible names for Bible things&rdquo; (MH 1837).', size='clamp(30px,6.2vmin,80px)'), 'wil32'))
 A(CARD('Like the liturgy:<br><span style="color:var(--gold)">immersed in Scripture&rsquo;s words.</span>',
-  'What the liturgical churches have long done: the service itself is an immersion in Scripture, its psalms, readings, canticles and prayers in the Bible&rsquo;s own words. Unity in the words we share, not in our theories about them.'))
+  'What the liturgical churches have long done: the service itself is an immersion in Scripture, its psalms, readings, canticles and prayers in the Bible&rsquo;s own words. Unity in the words we share, not in our theories about them. (The Book of Common Prayer: read and recite Scripture together, without much speculation upon the words, and let the words do the work they are meant to do.)'))
 A(CARD('Sacramentally:<br><span style="color:var(--gold)">formed by its words and its story.</span>',
   'They came to the Bible as a text that forms us: not through our interpretation of it, but through the encounter with its words and its story. Like the table: we do not have to agree on what happens there to be fed by it, together.'))
 A(CARD('<i style="color:var(--gold);font-size:1.7em">We do this here.</i>',
-  'Our congregation: we read it together, sing it, pray it, argue about it, hold every interpretation there is, and still it brings us together, and back to Christ.'))
+  'Our congregation: we read it together, sing it, pray it, argue about it, hold every interpretation there is, and still it brings us together, and back to Christ. Wednesday nights: Christians with very different opinions argue these things and leave with different opinions, and Scripture still brings us together: a shared touchstone, not because it irons out our differences, but because it gives us a way to be one in spite of them.'))
 A(CARD('Scripture, like the table:<br>' + G('shared by all.'),
-  'The summary. Not a set of doctrines to agree on, but a shared table to come to: a shared basis for conversation and dialogue, and a shared way to meet Christ himself. Like the communion table, Scripture is the common property of all: unity in our dialogue, in our diversity. (More on how they read the Bible in the weeks ahead.)'))
+  'The summary. As far apart as east from west, they could still recognize Scripture as a shared inheritance, something all of them cherished, and come together around it as around a table. Not a set of doctrines to agree on, but a shared table to come to: a shared basis for conversation and dialogue, and a shared way to meet Christ himself. Like the communion table, Scripture is the common property of all: unity in our dialogue, in our diversity. (More on how they read the Bible in the weeks ahead.)'))
 
 # ---------- CLOSE ----------
 for _k in range(1, len(IDEAS) + 1): A(IDEA(_k))

@@ -19,7 +19,7 @@ SECTIONS = [
     ('Two movements, much in common', 'Our movement, our tradition'),
     ('Lexington', 'Hill Street, Lexington'),
     ('The whole history of division', 'Two thousand years of division &middot; 1'),
-    ('The handshake', 'The proposition</h2>'),
+    ('The handshake', 'come together?</span></h2>'),
     ('It took years', 'It took years</h2>'),
     ('It worked', 'one movement, one history.'),
     ('Christ... or the Bible?', 'Christ&hellip; or the Bible?</h2>'),

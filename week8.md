@@ -44,20 +44,19 @@
    - authority and clergy (1415, 1520, 1662);
    - the sacraments (Zurich, 1527; Marburg, 1529);
    - "Every division of eighteen centuries in one room."
-5. **The handshake:**
-   - Smith's speech: one Book; one faith, ten thousand opinions;
-   - Stone's reply, and his hand;
-   - "Not agreement of opinion: agreement of faith";
-   - "we do not know, nor are we concerned to know";
-   - the window; the song and the loaf.
-6. **It took years:**
-   - February 1832 (side path: *Who keeps the table*);
-   - July 1835;
-   - beyond Lexington;
-   - the map (1831–1835), then the one movement spreading, 1836–1860 (national map, five clicks), then from 1850 to today by county: 1850, 1860, 1870 ("Christian" churches, sized by seats), 1906, 1926 (members), 1980, 2000, 2020 (adherents) (eleven clicks, ending at 2000, with 1940–1970 eased between the 1926 and 1980 counts; heading "From 1850 to 2000");
-   - "No magic moment."
-7. **It worked:** one movement, one history.
-8. **Christ… or the Bible?** (reworked 2026-11-21)
+5. **"How could they possibly come together?"** Then Raccoon John Smith: the State of Franklin; the name; raised among the raccoons; 1828, thirty baptisms a week, "capsized"; the civil Campbellite (side path: the fire).
+6. **The handshake** (Lexington, Saturday, December 31, 1831, New Year's Eve):
+   - Smith: one Book; "must, then, be practicable"; never settled; divisions produced; one faith, ten thousand opinions; speculations waived;
+   - Stone: never one in speculations; no sermon that feasted my heart; never into the pulpit; his hand;
+   - the proposition: "Not agreement of opinion: agreement of faith"; "we do not know, nor are we concerned to know";
+   - the window; everyone ratifies (not delegates); the song and the loaf.
+7. **It spread, and it worked; it took years** (order of the talk-through, 2026-11-22):
+   - beyond Lexington, person by person; the maps (1831–1835; 1836–1860; 1850 to 2000);
+   - "And it worked: one movement, one history" (no Stone church, no Campbell church);
+   - it took years: February 1832 (side path: *Who keeps the table*); July 1835; "No magic moment";
+   - New Union Christian Church, Faywood (founded 1834, as we were told, and named for the union);
+   - "Still working it out: one handshake at a time."
+8. **Christ… or the Bible?** (reworked 2026-11-21; ends with "Scripture, like the table: shared by all")
    - **Christ:** Thomas Campbell, D&A Proposition 8 ("is all that is absolutely necessary to qualify them for admission into his Church"); Alexander Campbell, *Christian Baptist* 1826 ("the only bond of union") and *Christian System* ("one fact"); Walter Scott, *Evangelist* 1832, p. 4 ("they all stand ultimately upon this one Oracle, 'Jesus is the Christ'"); Stone's *Christian Messenger*, May 1828, p. 146 ("the only prerequisite to Christian baptism and Church membership"). Side path: Campbell's circle (*One centre*).
    - **The Bible:** Stone, CM 1828, p. 231 ("subscribe to no creed but the Bible"); Smith at Lexington ("the Bible alone"); D&A Proposition 1 ("according to the Scriptures"; Eric's wish); Scott's manual and creed (side path: *No creed but…*).
    - **The problem:** Phillips at the Centennial, 1909 ("no authority but the Bible… no creed but Christ"); Stevenson 1963 ("Christocentric and bibliocentric"); Blowers 2004 ("very different proposals").
