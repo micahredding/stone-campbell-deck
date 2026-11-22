@@ -343,7 +343,7 @@ A(CARD('<i style="color:var(--gold);font-size:1.7em">The problem</i>',
 A(QK('&ldquo;&hellip;to state the anomaly as boldly as possible, the movement is at one and the same time <b>Christocentric and bibliocentric</b>.&rdquo;',
      'Dwight E. Stevenson, Disciples Panel of Scholars (1963)', 'Dwight Stevenson, 1963', 'enc',
      'As quoted in the <i>Encyclopedia of the Stone-Campbell Movement</i>, &ldquo;Faith.&rdquo; Paul Blowers summarizes him: the two slogans are &ldquo;very different proposals, as different as allegiance to Christ and allegiance to the strict letter of the scriptural text.&rdquo;'))
-A(QK('&ldquo;&hellip;<b>very different proposals</b>, as different as allegiance to Christ and allegiance to the strict letter of the scriptural text.&rdquo;',
+A(QK('&ldquo;[These are] <b>very different proposals</b>, as different as allegiance to Christ and allegiance to the strict letter of the scriptural text.&rdquo;',
      'Paul M. Blowers, <i>Encyclopedia of the Stone-Campbell Movement</i> (2004), &ldquo;Faith&rdquo;', 'Paul Blowers, 2004', 'enc',
      'Blowers, summarizing the two slogans, &ldquo;No creed but Christ&rdquo; and &ldquo;No book but the Bible&rdquo;, after Stevenson. Micah: I disagree with Blowers here. For these first reformers it was not a call to the strict letter, not a new legalism: not our interpretation of Scripture, but Scripture itself; not our opinions about the Bible, but the Bible.'))
 
