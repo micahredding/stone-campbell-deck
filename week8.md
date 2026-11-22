@@ -49,12 +49,11 @@
    - Smith: one Book; "must, then, be practicable"; never settled; divisions produced; one faith, ten thousand opinions; speculations waived;
    - Stone: never one in speculations; no sermon that feasted my heart; never into the pulpit; his hand;
    - the proposition: "Not agreement of opinion: agreement of faith"; "we do not know, nor are we concerned to know";
-   - the window; everyone ratifies (not delegates); the song and the loaf.
+   - the window; everyone ratifies (not delegates); the song and the loaf; the proposition; "we do not know"; Williams, "What the union was" (pp. 455–456).
 7. **It spread; it took years; it worked** (order of the talk-through, 2026-11-22):
    - beyond Lexington, person by person; the maps (1831–1835; 1836–1860; 1850 to 2000);
    - it took years: February 1832 (side path: *Who keeps the table*); July 1835; "No magic moment";
    - "And it worked: one movement, one history" (no Stone church, no Campbell church);
-   - New Union Christian Church, Faywood (founded 1834, as we were told, and named for the union);
    - "Still working it out: one handshake at a time."
 8. **Christ… or the Bible?** (reworked 2026-11-21; ends with "Scripture, like the table: shared by all")
    - **Christ:** Thomas Campbell, D&A Proposition 8 ("is all that is absolutely necessary to qualify them for admission into his Church"); Alexander Campbell, *Christian Baptist* 1826 ("the only bond of union") and *Christian System* ("one fact"); Walter Scott, *Evangelist* 1832, p. 4 ("they all stand ultimately upon this one Oracle, 'Jesus is the Christ'"); Stone's *Christian Messenger*, May 1828, p. 146 ("the only prerequisite to Christian baptism and Church membership"). Side path: Campbell's circle (*One centre*).
