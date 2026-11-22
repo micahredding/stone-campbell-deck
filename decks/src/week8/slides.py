@@ -235,7 +235,7 @@ A(QK('&ldquo;&hellip;the controversies of the Church sufficiently prove that <b>
 HIDE(DS(QK('&ldquo;&hellip;by force of circumstances, I was led to deliver some speculative discourses upon those subjects. But <b>I never preached a sermon of that kind that once feasted my heart</b>; I always felt a barrenness of soul afterwards.&rdquo;',
      STONE + ' &middot; ' + WIL + ', pp. 454&ndash;455', 'Stone', 'wil',
      'Read on the page scan. Before it: &ldquo;After we had given up all creeds and taken the Bible, and the Bible alone, as our rule of faith and practice, we met with so much opposition, that, by force of circumstances&hellip;&rdquo; Stone had been accused of Arianism for years; he knew what these arguments cost.', size='clamp(30px,6.4vmin,82px)'), 'wil32'))
-A(DS(QK('&ldquo;I perfectly accord with Brother Smith that <b>those speculations should never be taken into the pulpit</b>; but that when compelled to speak of them at all, we should do so in the words of inspiration.&rdquo;',
+HIDE(DS(QK('&ldquo;I perfectly accord with Brother Smith that <b>those speculations should never be taken into the pulpit</b>; but that when compelled to speak of them at all, we should do so in the words of inspiration.&rdquo;',
      STONE + ' &middot; ' + WIL + ', p. 455', 'Stone', 'wil',
      'Read on the page scan. Then, at once: &ldquo;I have not one objection to the ground laid down by him&hellip;&rdquo;', size='clamp(30px,6.4vmin,82px)'), 'wil32'))
 
