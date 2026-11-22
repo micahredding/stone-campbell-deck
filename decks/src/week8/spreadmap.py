@@ -38,7 +38,7 @@ NOTES = ('Five clicks. The map opens with the unions of 1831&ndash;35 already li
  '(5) Their own estimates, not counts: &ldquo;at least one hundred thousand&rdquo; (MH 1839); &ldquo;two hundred thousand soldiers of the Cross&rdquo; (MH 1848); 1860: &ldquo;nearly one hundred churches in Great Britain&rdquo;, &ldquo;in the United States upwards of 300,000 brethren&rdquo;, and Australia (MH 1860). The <i>Harbinger</i> itself doubted the larger figures (1857: &ldquo;This may be too large a figure&rdquo;). Nebraska: no congregation reported by 1860.')
 
 def svg():
-    o = ['<svg viewBox="0 0 %d %d" style="width:min(96vw,160vh);height:auto;display:block;margin:0 auto" role=img aria-label="Map: the Stone-Campbell movement spreading across the United States after the union, 1836 to 1860">' % (W, H),
+    o = ['<svg viewBox="0 0 %d %d" style="width:min(94vw,148vh);aspect-ratio:16/9;flex:none;height:auto;display:block;margin:0 auto" role=img aria-label="Map: the Stone-Campbell movement spreading across the United States after the union, 1836 to 1860">' % (W, H),
          '<defs><radialGradient id=sglow><stop offset=0 stop-color="#f3d27a" stop-opacity=".95"/><stop offset=".35" stop-color="#c89b3c" stop-opacity=".45"/><stop offset=1 stop-color="#c89b3c" stop-opacity="0"/></radialGradient></defs>',
          '<style>.sm .st{fill:#1a1510;stroke:#5c4a33;stroke-width:1}'
          '.sm .pl{font:22px Spectral,Georgia,serif;fill:#ede4d3;paint-order:stroke;stroke:#0e0b09;stroke-width:5}'
@@ -170,7 +170,7 @@ def _frame_webp(base, pts, carry):
 def today_svg():
     base = _base_image(); carry = _carry_pts()
     img = '<img src="%s" alt="" decoding="async" style="position:absolute;inset:0;width:100%%;height:100%%">'
-    o = ['<div class=tm role=img aria-label="Map: Stone-Campbell churches and people by county, 1850 to 2000" style="position:relative;width:min(96vw,160vh);aspect-ratio:16/9;margin:0 auto">',
+    o = ['<div class=tm role=img aria-label="Map: Stone-Campbell churches and people by county, 1850 to 2000" style="position:relative;width:min(94vw,148vh);aspect-ratio:16/9;flex:none;margin:0 auto">',
          '<style>.tm .lit{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease}.tm .lit.on{opacity:1}.tm .lit.on:has(~ .lit.on){opacity:0}'
          '.tm .cap0,.tm .lit .capbox{position:absolute;left:0;bottom:0;width:86%;background:rgba(16,13,10,.82);padding:.6% 1.4% .9%;text-align:left}'
          '.tm .cap0{transition:opacity .4s}.tm:has(.lit.on) .cap0{opacity:0}'
