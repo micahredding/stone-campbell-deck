@@ -202,30 +202,30 @@
   {
    "index": 28,
    "n": 29,
+   "title": "Where the name came from \"I am John Smith, from Stockton's Valley... Down there, saltpeter",
+   "path": "spine",
+   "doc": "lex"
+  },
+  {
+   "index": 29,
+   "n": 30,
    "title": "Raised among the raccoons \"Smith was urged to preach that night, for every body wished to ",
    "path": "spine",
    "doc": null
   },
   {
-   "index": 29,
-   "n": 30,
+   "index": 30,
+   "n": 31,
    "title": "The Fire",
    "path": "The fire",
    "doc": null
   },
   {
-   "index": 30,
-   "n": 31,
+   "index": 31,
+   "n": 32,
    "title": "The fire \"If I tell her that our babies are glorified, the thought that possibly they were",
    "path": "The fire",
    "doc": "lex"
-  },
-  {
-   "index": 31,
-   "n": 32,
-   "title": "1824: Smith meets Campbell \"I know nothing about the man; but, be he saint or devil, he ha",
-   "path": "spine",
-   "doc": null
   },
   {
    "index": 32,
@@ -965,7 +965,7 @@
   26,
   27,
   28,
-  31,
+  29,
   32,
   33,
   34,
@@ -1038,10 +1038,10 @@
  "branches": [
   {
    "label": "The fire",
-   "fork": 28,
+   "fork": 29,
    "slides": [
-    29,
-    30
+    30,
+    31
    ]
   },
   {
@@ -1208,7 +1208,17 @@
    "text": "free or restricted communion."
   },
   {
-   "slide": 30,
+   "slide": 28,
+   "doc": "lex",
+   "text": "I am John Smith, from Stockton’s Valley"
+  },
+  {
+   "slide": 28,
+   "doc": "lex",
+   "text": "Down there, saltpeter caves abound, and raccoons make their homes. On that wild frontier we never had good schools, nor many books; consequently, I stand before you to-day a man without an education."
+  },
+  {
+   "slide": 31,
    "doc": "lex",
    "text": "If I tell her that our babies are glorified, the thought that possibly they were of the non-elect will only aggravate her woe."
   },
@@ -1606,12 +1616,8 @@
    "text": "Everlasting good news"
   },
   {
-   "slide": 28,
+   "slide": 29,
    "text": "Smith was urged to preach that night, for every body wished to hear again the man that had been raised among the raccoons."
-  },
-  {
-   "slide": 31,
-   "text": "I know nothing about the man; but, be he saint or devil, he has thrown more light on that epistle, and on the whole Scriptures, than I have received in all the sermons that I have ever heard before."
   },
   {
    "slide": 37,
