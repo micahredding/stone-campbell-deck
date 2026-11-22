@@ -867,83 +867,76 @@
   {
    "index": 123,
    "n": 124,
-   "title": "Sacramentally: formed by its words and its story.",
+   "title": "Sacramentally: formed by its words and its story. Liturgically: immersed in Scripture's wo",
    "path": "spine",
    "doc": null
   },
   {
    "index": 124,
    "n": 125,
-   "title": "Liturgically: immersed in Scripture's words.",
+   "title": "We do this here.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 125,
    "n": 126,
-   "title": "We do this here.",
+   "title": "Scripture, like the table: shared by all.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 126,
    "n": 127,
-   "title": "Scripture, like the table: shared by all.",
+   "title": "Idea 1 of 4 Every historic division came to one table.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 127,
    "n": 128,
-   "title": "Idea 1 of 4 Every historic division came to one table.",
+   "title": "Idea 2 of 4 They united around the Bible, not their readings of it.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 128,
    "n": 129,
-   "title": "Idea 2 of 4 They united around the Bible, not their readings of it.",
+   "title": "Idea 3 of 4 Unity was not a moment. It was worked out.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 129,
    "n": 130,
-   "title": "Idea 3 of 4 Unity was not a moment. It was worked out.",
+   "title": "Idea 4 of 4 Scripture, like the table, is shared by all.",
    "path": "spine",
    "doc": null
   },
   {
    "index": 130,
    "n": 131,
-   "title": "Idea 4 of 4 Scripture, like the table, is shared by all.",
+   "title": "Today's ideas 1. Every historic division came to one table. 2. They united around the Bibl",
    "path": "spine",
    "doc": null
   },
   {
    "index": 131,
    "n": 132,
-   "title": "Today's ideas 1. Every historic division came to one table. 2. They united around the Bibl",
+   "title": "for discussion Chapter 8 What is beautiful here? What do we carry forward?",
    "path": "spine",
    "doc": null
   },
   {
    "index": 132,
    "n": 133,
-   "title": "for discussion Chapter 8 What is beautiful here? What do we carry forward?",
+   "title": "Online stone-campbell .micahredding.com Home Timeline Exhibits People Exhibits Timeline Pe",
    "path": "spine",
    "doc": null
   },
   {
    "index": 133,
    "n": 134,
-   "title": "Online stone-campbell .micahredding.com Home Timeline Exhibits People Exhibits Timeline Pe",
-   "path": "spine",
-   "doc": null
-  },
-  {
-   "index": 134,
-   "n": 135,
    "title": "(black)",
    "path": "spine",
    "doc": null
@@ -1048,8 +1041,7 @@
   130,
   131,
   132,
-  133,
-  134
+  133
  ],
  "branches": [
   {
@@ -1151,7 +1143,7 @@
   },
   {
    "label": "Close",
-   "at": 97
+   "at": 96
   }
  ],
  "docs": [
