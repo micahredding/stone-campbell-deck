@@ -28,38 +28,91 @@ Quotations are checked with `quote_check.py`. "Exact" means word for word. "OCR"
 
 ---
 
-## 1. Universalism, a movement of its own *(waiting on research)*
+## 1. Universalism, a movement of its own
 
-- What it was by 1828. Murray, Winchester, the 1803 Winchester Profession, Hosea Ballou.
-- The split between **Restorationists** (punishment after death, then all restored) and **ultra-Universalists** (no punishment after death).
-- Why the orthodox counted it outside the faith.
+**What to say:** by 1828 Universalism was not a stray opinion. It was a denomination, with preachers, conventions, papers and a confession of faith, and it was growing fast on the Western Reserve.
+
+**Sources.** The research texts are in the database at `91 Extracted Text/Universalism Sources (2026-11-24)/`:
+- Eddy, *Universalism in America* (1884–86), cited **Eddy**;
+- Whittemore, *Modern History of Universalism* (1830);
+- Winchester, *Dialogues* (1792, 1803 and 1831 editions);
+- Ballou, *Treatise on Atonement*;
+- Hayward, *Religious Creeds and Statistics* (1836).
+
+**Founders and documents:**
+- **John Murray** reached America in 1770. His first sermon was at Good Luck, New Jersey. The church at Gloucester, Massachusetts adopted its articles in 1779 (Eddy I).
+- **Elhanan Winchester**, *Dialogues on the Universal Restoration* (London, 1788). This is the book that converted Raines.
+  - "Christ is the great attracting loadstone, that shall finally draw all things to him" (1831 ed., exact).
+  - His stance foreshadows Raines at Warren: "I have always made it a rule never to press the belief of my sentiments upon my friends… I never have refused to own my sentiments, when asked" (1831 ed., pp. 53–54; OCR).
+- **The Winchester Profession, 1803.** This is the General Convention's confession. Article II: "We believe that there is one God, whose nature is Love, revealed in one Lord Jesus Christ, by one Holy Spirit of Grace, who will finally restore the whole family of mankind to holiness and happiness" (Eddy II, 49; exact).
+  - On the same page is a Universalist parallel to Campbell's faith/opinion line: "where the brethren cannot see alike, they may agree to differ" (Eddy II, 50; OCR).
+- **Hosea Ballou**, *Treatise on Atonement* (1805): "the atonement by Christ was the effect, and not the cause, of God's love to man" (p. 99).
+
+**Two kinds of Universalist:**
+- From 1817, Ballou taught **no punishment after death**. His opponents called it "death and glory."
+- **Restorationists**, like Winchester and Raines, held a real punishment after death that ends in restoration.
+- In 1831 the Restorationists split off at Mendon, Massachusetts (Paul Dean, Adin Ballou and others). They resolved that "No-Future accountability… [is] subversive of the best interests of society" (Eddy II, 331; OCR).
+- Raines kept the same line all his life: "I make a distinction between Restorationism and Universalism" (H p. 170).
+
+**Size:**
+- By 1836, about 317 preachers and 653 societies, with a claimed "population" of about 500,000 (Hayward 1836, p. 151; the OCR of the table is garbled, so the figures are approximate).
+
+**On the Western Reserve:**
+- **The first preacher.** New Englanders brought it west. In 1814, Timothy Bigelow came to Ohio from Winchester, New Hampshire, because his old neighbors there wanted "a Universalist Minister to break up the ground" (Eddy II, 126).
+- **The Association.** At Palmyra, Portage County, in 1821, eleven churches and sixteen societies formed the **Northern Ohio Universalian Association**. They ordained **Ebenezer Williams** "minister at large" (Eddy II, 393; Whittemore pp. 427–428). He is the friend Raines later baptizes at Sandy Lake.
+- **Its growth, in Bigelow's words that year:** "your whole number, seven years ago, who believed in the universal love of God, did not exceed twenty; and at this time, on the same ground, your numbers are more than fifteen hundred" (Whittemore p. 428; exact).
+- Hayden: "Restorationists, who were numerous" (H p. 130). At Austintown "the Universalists… composed the larger part of the assembly" (H p. 131).
+
+**Why the orthodox shunned it.** It was accused of licensing sin and dissolving social order (Encyclopedia of the Stone-Campbell Movement, "Universalism"). Winchester's own objector puts it this way: "One grand objection… is, that it tends to licentiousness" (*Dialogues*, 1831 ed., p. 147; OCR). For a Baptist association to receive a Universalist preacher was unheard of.
 
 **Raines's road in:**
-- Born near Fredericksburg, Virginia, in 1797.
-- At four, he is "christened" in the Episcopal church, in "tears… of fear and apprehension" (H p. 150; Hayden's words).
-- At 14 the family moves to Jefferson County, Kentucky.
-- Contradictory preaching and Paine's *Age of Reason* leave him "skeptical."
-- Teaching near Fredonia, Indiana, he loses arguments with his Restorationist employers, and Winchester's *Dialogues on Universal Restoration* "completed the work" (H p. 151; Hayden).
+- **Birth.** Born near Fredericksburg, Virginia. Hayden gives 1797. His gravestone, as reported on a website, gives January 22, 1798, which still needs checking.
+- **Childhood.** At four, he is "christened" in the Episcopal church, in "tears… of fear and apprehension" (H p. 150; Hayden's words).
+- **Kentucky.** At 14 the family moves to Jefferson County, Kentucky.
+- **Doubt.** Contradictory preaching and Paine's *Age of Reason* leave him "skeptical."
+- **Conversion.** Teaching near Fredonia, Indiana, he loses arguments with his Restorationist employers, and Winchester's *Dialogues* "completed the work" (H p. 151; Hayden).
 
 **Raines (1868):** "I got religion. The sky appeared to be bluer, the leaves looked greener, and the birds sang more sweetly than ever before." (H p. 151, exact)
 
-**Raines (1868):** "I preached Res- toration ism five years" (H p. 151; the word is split across a line in the scan) In the last two years he travels "at large," and that brings him to the Western Reserve.
+**Raines (1868):** He preached Restorationism "five years" (H p. 151; the word is split across a line in the scan). In the last two years he travels "at large," and that brings him to the Western Reserve.
 
-**Raines later drew his own line** between the two kinds: "I make a distinction between Restorationism and Universalism." He thought Universalism denied the atonement, the judgment and punishment after death (H p. 170). This belongs in the notes.
+**His later life** (notes): over fifty years of ministry in Ohio and Kentucky, longest at Paris, Kentucky. He died at Eminence, Kentucky, on September 7, 1881. That date is from a website citing his gravestone; check it before it goes on a slide.
 
-## 2. The geography *(map waiting on research)*
+## 2. The geography
 
-- **The Western Reserve:** northeastern Ohio, settled from Connecticut and New England.
-- **Places in this story:**
-  - Windham (Samuel Robbins's house)
-  - Ravenna (Ebenezer Williams)
-  - Sandy Lake (Brimfield/Rootstown)
-  - Austintown
-  - Shalersville
-  - Warren (the Association)
-  - New Lisbon (Scott's first baptisms, 1827)
-  - Bethany, Virginia
-- **The Mahoning Baptist Association.** In 1827 it appointed Walter Scott as its evangelist. By August 1828 nearly a thousand had been added to its churches (R p. 244).
+**The Western Reserve.**
+- **Origin.** Connecticut kept this strip along Lake Erie when it ceded its western claims in 1786. It sold the land in 1795, and Moses Cleaveland surveyed it in 1796. It became part of Ohio in 1800, as Trumbull County.
+- **Counties by 1828:** Trumbull, Ashtabula, Geauga, Portage, Cuyahoga, Medina, Lorain and Huron.
+- **Settlers.** New Englanders, which is why Universalism was strong there.
+- **Caveat.** These facts are general knowledge and have not been checked against a source.
+
+**Places in this story** (approximate latitude and longitude, for a map):
+
+| Place | County | Lat, long | What happened |
+|---|---|---|---|
+| Windham | Portage | 41.234, −81.049 | Scott preaches at Samuel Robbins's house, and Raines comes to argue |
+| Austintown | Mahoning (Trumbull in 1828) | 41.102, −80.765 | Raines's renunciation sermon (Hayden: "It was in April"; 1828 is inferred) |
+| Shalersville | Portage | ~41.22, −81.23 | Williams preaches against baptism, then can't sleep |
+| Ravenna | Portage | 41.158, −81.242 | Williams's home |
+| Sandy Lake | Portage (Brimfield/Rootstown corner) | 41.120, −81.296 | They baptize each other (May 1828) |
+| Palmyra | Portage | ~41.11, −81.09 | The Universalian Association forms, 1821 |
+| Warren | Trumbull | 41.238, −80.818 | The Mahoning Association, August 1828 |
+| New Lisbon (Lisbon) | Columbiana (south of the Reserve) | 40.772, −80.768 | Scott's first "ancient gospel" baptism, November 1827 |
+| Bethany | Brooke, (W.) Va. | 40.206, −80.559 | The Campbells' home |
+
+**Raines's road west:**
+- Fredericksburg, Virginia (38.303, −77.461);
+- Jefferson County, Kentucky (Louisville area, 38.25, −85.76);
+- Fredonia, Indiana (38.178, −86.383).
+
+**The Mahoning Baptist Association.** In 1827 it appointed Walter Scott as its evangelist. By August 1828 nearly a thousand had been added to its churches (R p. 244).
+
+**The map slide:**
+- the Reserve outlined;
+- Warren, Windham, Ravenna, Sandy Lake and Austintown marked;
+- New Lisbon and Bethany to the south.
+
+All of them lie within about 40 miles of each other.
 
 ## 3. Windham: he came to argue (spring 1828)
 
@@ -77,7 +130,7 @@ Quotations are checked with `quote_check.py`. "Exact" means word for word. "OCR"
 7. **The fourth night: Hebrews 11, the story of faith.** "Here I virtually surrendered — not that I was convinced that all men would not be finally saved." (H p. 154)
    - Scott said nothing against his opinion, "only that it was a philosophy, as was Calvinism, Arminianism, etc., and no part of Christianity." (H p. 154)
 8. **He keeps his old appointments.** Raines (1868): "I told my old brethren that I threw myself on their mercy; in other words, that if they believed me to be going astray, in mercy to set me right." (H p. 154)
-9. **Austintown, April 1828.** He preaches his renunciation (Hayden's report, H pp. 130–131):
+9. **Austintown, April (1828 inferred; Hayden gives no year).** He preaches his renunciation (Hayden's report, H pp. 130–131):
    - "My friends, I find myself in a strait… I can see no way out, with the Word of God in my hand, but through the obedience of faith in baptism. If any of you can see any other, I implore you in the name of my Master to show it to me."
    - The Universalists in the crowd "jerked up their chairs, started over the benches, and hurried to their homes."
 10. **Sandy Lake, May 1828.** He goes to his friend Ebenezer Williams, a Restorationist preacher in Ravenna: "he had been hearing Walter Scott; that he had got into trouble, and wanted me to help him out." (Williams, H p. 156)
