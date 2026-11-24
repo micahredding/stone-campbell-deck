@@ -15,6 +15,10 @@ Micah asked for three things:
 
 He set aside the *Sermon on the Law* (Cross Creek, 1816) as "not sympathetic enough." He asked for "another shipwreck, another showdown," and said Campbell need not be the main character.
 
+## The chosen story (Micah, 2026-11-24)
+
+The chapter is built on **Aylett Raines**. The story, in Micah's order, with checked lines: `RAINES_STORY.md`. The candidates below are kept for reference.
+
 ## Hook candidates (2026-11-24)
 
 Micah: keep Cane Spring as candidate 1 and keep digging.
