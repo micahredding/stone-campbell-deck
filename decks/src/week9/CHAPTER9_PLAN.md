@@ -6,122 +6,120 @@ Drafted 2026-11-22 for next Sunday (Micah: "make sense of AC's hermeneutic in co
 
 Research base: database `10 Research Projects/Facts and Story (Campbell and Wright)/`, which has about 130 verified Campbell quotations, the scholarship, and Wright. Wright's slides already exist as `NEXT_WEEK` in `decks/src/week7/slides.py`: *Simply Christian* and the Laing Lecture. They were moved to Chapter 8 but never used there.
 
-## What the chapter needs (Micah, 2026-11-23)
+## What the chapter needs (Micah, 2026-11-23 and 11-24)
 
-Micah asked for three things: a narrative hook, color (like Raccoon John Smith), and contrast, the bad guys against the good guys, closed against open (for example, the mourner's bench against the free response).
+Micah asked for three things:
+- a narrative hook;
+- color (like Raccoon John Smith);
+- contrast that the class can feel: good guys against bad guys, closed against open.
 
-**The answer is to tell it through Raccoon John Smith.** The class already knows him from Chapter 8, and his own life runs from the closed system to the open book. Campbell's hermeneutic explains *why* that change happened. Wright then names it again for today.
+He set aside the *Sermon on the Law* (Cross Creek, 1816) as "not sympathetic enough." He asked for "another shipwreck, another showdown," and said Campbell need not be the main character.
 
-The key link is that, for Campbell, the Bible is a book of facts. "History, or narrative, whether oral or written, is only another name for testimony" (CS p. 118). Faith answers testimony, so anyone who hears the story can believe it now. They do not need to wait for a sign, and they do not need a church to vote on their feelings. A way of reading the Bible becomes an open door.
+## The hook: Raccoon John Smith on trial, Cane Spring, Kentucky, July 1827
 
-### The story: Raccoon John Smith, from the mourner's bench to the water
+Source: Williams, *Life of Elder John Smith* (1870), pp. 181–193 (printed pages). The speeches are as Williams tells them, so credit them "in Williams". Each line was checked with `quote_check.py` against the database text:
+- "exact" means a word-for-word match;
+- "OCR" means the only differences are scan damage or a broken-up dialogue tag.
 
-Source: Williams, *Life of Elder John Smith* (1870), printed pages given. Smith's speeches are as Williams tells them; credit them "in Williams". Checked with `quote_check.py` against the database text. "OCR" means the only differences are scan damage.
+**Why it is the right story.** It has the shipwreck's ingredients:
+- **Grief.** He comes to the meeting straight from his son's grave.
+- **Isolation.** Every friend falls away.
+- **Villains.** One elder praises the man who burned a Bible; another shakes his fist.
+- **A hero who keeps his temper and wins over the crowd.**
 
-1. **The hook: 1804, a boy at a crack in the wall.** For ten months, John (17) cannot tell whether he is elect. His mother can only say: "you must wait the Lord's time" (p. 62, exact).
-   - He goes to Clear Fork, where experiences are being told, and listens outside, through a crevice between the logs. An old man tells how he met the devil in the woods: "He was about the size of a yearlin'" (p. 64, OCR). The boy "turned away from the house with sorrow and disgust."
-2. **The church votes on his soul.** He tells his own experience on December 26, 1804. The moderator asks: "All who believe that the experience just related is a work of grace, hold up their right hand" (p. 64, OCR). Every hand goes up, and he is baptized the next day.
-   - This is the closed door: the church judges your inner life.
-3. **The dark turn: January 1815, Alabama.** While he is away, his cabin burns and two of his children die. Riding home, he thinks: "If I tell her that our babies are glorified, the thought that possibly they were of the non-elect will only aggravate her woe" (pp. 102–103, exact). This is what the system costs.
-   - His wife Anna dies soon after. Then comes Crab Orchard in 1815 and "raccoons make their homes", which links back to Chapter 8.
-4. **1822, Spencer's Creek: "we are all in the dark."** Mid-sermon, his creed collapses: if the elect don't believe, his preaching is false; if the non-elect believe, their faith is false. He stops: "Brethren, something is wrong — I am in the dark — we are all in the dark…" (pp. 145–146).
-   - The OCR mixes the columns here. Rebuild the wording from a page image before it goes on screen.
-5. **The candle.** He and his wife pray, and he pledges "that he would take God's Word as his only oracle… and, calling no man master, follow its teachings, wherever they might lead him" (p. 146; Williams's words). He reads at night "as the candle burned to the socket" (p. 147).
-   - Then "a friend put into his hand the prospectus" of the *Christian Baptist* (p. 147). That is the turn to Campbell.
-6. **1828, Slate Creek: the open door.** Smith invites believers to come forward. Colonel John T. Mason, a lawyer, stands: "I do not believe that such a statement is divinely required as a condition of baptism. I believe, with all my heart, that Jesus is the Christ" (p. 218, exact in part).
-   - Smith: "I have long been convinced that there is nothing in the Book that requires a sinner to tell all the workings of his guilty conscience, before he can lawfully be baptized" (p. 218, exact). A dozen more follow into the creek.
-   - "From that day Smith never received an experience again."
-7. **The punchline.** A Methodist preacher taunts Smith that "the sword" (the Word) has had little power tonight. Smith answers that "you teachers of human systems… have blunted it so against your anxious seats and mourning-benches, that sinners can feel neither edge nor point" (p. 501, OCR).
-   - Asked the difference between "your baptism and our mourning-bench": "one from Heaven, the other from the saw-mill" (pp. 501–502, exact).
+Every charge against him is a question about Scripture. What *is* the Word of God? Does church custom outrank the text? Who may break the loaf? Who judges?
 
-### Campbell's side: Cross Creek, 1816 (shorter, the same contrast)
+1. **Alone.** Charges are coming, but Smith cannot learn what they are. "Professed friends began to fall away."
+2. **The grave.** His little boy is sick for weeks, and Smith keeps watch for sixteen days and nights. The child dies, and they bury him "among the vines of the garden." Walking back, Smith tells his wife the Association meets tomorrow: "Many things will be said against me… and no one will be there to defend me… I must then go" (p. 181, OCR). She goes with him.
+3. **The charges** (Lulbegrud's letter, p. 183):
+   - (1) He has read in public "from Alexander Campbell's translation" (exact).
+   - (2) At baptism he says "I immerse you… into the name of the Father and of the Son and of the Holy Spirit." A voice from the floor objects: "And there is no Ghost in it at all" (exact).
+   - (3) At the Supper he leaves the bread in large pieces, "teaching that each communicant should break it for himself." This calls back to Chapter 8's "who keeps the table" and the priesthood of all believers.
+4. **"I plead guilty to them all."** "My brethren from Lulbegrud need not feel the least concern for evidence to sustain their charges; I plead guilty to them all" (p. 184, exact).
+   - Then more than fifty messengers speak against him. Under the speaking rule he is called to order, and "he had not one friend" to ask that he be heard (p. 185).
+5. **Into the enemy's house.** That night the moderator, David Chenault, has the visiting messengers for dinner, and Smith decides to go too.
+   - His wife: "They do not want you to go, Mr. Smith." Smith: "I know it, Nancy… and that is one reason why I want to go" (p. 186, OCR).
+   - From the steps he calls across the yard: "Brother Chenault… my wife here says that she is unwilling to go unless you invite her." "Come along, sister." This is a moment of comic relief.
+   - Under the shade-trees he asks his accusers to name his errors, and none of them answers. Old John Taylor, a famous Baptist, agrees with him about breaking the bread (p. 187).
+6. **Monday: the showdown.**
+   - Elder after elder says the New Translation "was not the Word of God."
+   - Then Chenault comes down from the chair: he "had never seen the book, and never wished to see it… 'But Elder Waller… did right when he burnt it to ashes'" (p. 188, exact).
+   - Smith asks another elder whether the king's version is the only Word of God. "Yes… I said so, and I still say it."
+   - Smith: "is it not a pity that the apostles left the world and the Church without any Word of God for fifteen hundred years?… do you not, brethren, pity the Dutch, who have not that version, and who could not read one word of it, had it?" (p. 189, OCR).
+7. **The fist.** The crowd is with him. One elder jumps up, grinding his teeth and stamping the floor: "Brother Moderator, I can not stand it! I would rather die than be run over in this way by a Campbellite!" He shakes "his orthodox fist in the Campbellite's face" (p. 189, exact).
+   - Smith, calm: he is charged with denying the Spirit; "if this is the fruit of that Spirit… then do I plead guilty to that charge. For, whether such a spirit as this is from God or not, I leave you all to judge" (p. 190; the last clause exact).
+8. **The verdict.** The case is laid over a year, sure "the heresy of Campbellism would be forgotten." The Association adds "a protest against any translation of the Scriptures except that which was in common use" (p. 190, exact).
+9. **The ax.** All that fall he clears land alone to pay his debts. In January 1828 he throws down the ax: "Nancy, I shall work no more!… I am determined, from this time forth, to preach the Gospel, and leave the consequences to God" (p. 192, exact in part).
+   - Then comes 1828, the year Chapter 8 told: "700 sinners… 1500 Baptists". In the same year Slate Creek's Colonel Mason refuses to tell an experience (p. 218). The next year the North District itself goes over to the Reformers (dates to check).
 
-Source: Richardson, *Memoirs* I, pp. 469–483 (Richardson's report), and Campbell's own retrospect, MH 1846, p. 493.
+**Optional flashback, for color:**
+- the boy at the crack in the wall in 1804: "about the size of a yearlin'," and the church's show of hands on his soul (pp. 62–64);
+- the fire of January 1815 (pp. 100–103).
 
-- **Before the sermon.**
-  - "I do not think they will let me preach at this Association at all."
-  - Elder Pritchard keeps him off the Lord's-day list. The people insist, and the substitute falls ill.
-  - At the bridge Pritchard has to say it: "you must preach to-day."
-- **The sermon.**
-  - It is the *Sermon on the Law*, preached under the elms by the creek, on Romans 8:3.
-  - A lady faints, and Pritchard creates "great disturbance… as if with a design of preventing the people from hearing."
-- **The intermission.**
-  - Pritchard: "This will never do. This is not our doctrine."
-  - Elder Estep: "let the people judge for themselves."
-- **What followed.**
-  - A heresy trial in 1817.
-  - "a seven years' war."
-- **The content:** the Bible in ages. The law of Moses belongs to an earlier one, given "to the Jewish nation and to none else."
-- **Wright, 173 years later:** "The Old Testament has the authority that an earlier act of the play would have, no more, no less" (Laing Lecture, p. 19).
-- **Its place.** Use it as Campbell's own "bad guys" scene if time allows; otherwise as a side path. Smith carries the main line.
+Use them as backstory slides, or in the notes. The checked lines are in the database dossier.
 
-### The contrast, as a two-column slide (built one row per click)
+### Why this is about hermeneutics
 
-| The system | The book |
+| Custom | The Word |
 |---|---|
-| God has chosen some; wait for "the Lord's time" | "Faith comes by hearing": anyone who hears may believe, today |
-| Tell your experience; the church raises hands | Confess that Jesus is the Christ |
-| The mourning-bench | The creek ("one from Heaven, the other from the saw-mill") |
-| The preacher's system decides what the text means | The Book in every hand, "calling no man master" |
-| Keep him out of the pulpit (Pritchard) | "let the people judge for themselves" (Estep) |
+| The king's version is the Word of God | The apostles wrote in Greek, and the Dutch have their own Bible: the Word is in the text, and in every hand |
+| Burn the new translation unread | Read it and compare (Waller compared it, then burned it) |
+| "Ghost", "baptize": the church's words | Bible names for Bible things |
+| The preacher breaks the bread into bits | Each disciple breaks the loaf |
+| Fifty messengers decide | "I leave you all to judge" |
+
+Smith's own standard is "a single departure that he had made from Baptist usage, except where Baptist usage had departed from the Word of God" (p. 188).
 
 **Fairness, in the notes.**
-- The Calvinists and Methodists were sincere. The hand vote was Baptist practice; the mourning-bench was Methodist and revivalist practice.
-- The Reformers' answer had shadows. Stone's people thought it left too little room for the Spirit (Chapter 8's disagreements). And "confess and be baptized" could become a new test of its own (Chapter 10, baptism).
+- His opponents were defending what they had been given. To them, a new translation looked like a new Bible.
+- Wright's caution belongs here: tradition is a "second-order story… we can't do without". Custom is not the villain; custom treated as the Word is.
 
-### How Wright comes in
+### Behind Smith: Campbell's way of reading
 
-- **Campbell:** the gospel is facts, things God has done, told as testimony. "History, or narrative… is only another name for testimony."
-- **Wright:** the gospel is news of what God has done, and the Bible is a story we are invited into ("story authority"; the five acts; the `NEXT_WEEK` slides).
-- **Where they meet:** neither treats the Bible as a code that only the system can unlock.
-- **Where they part:** what a fact is. Campbell expects the same rules to give "uniformity in opinion." Lexington, 1832, shows it did not. Wright: "the more that you insist that you are based on the Bible, the more fissiparous you become."
-- **To find and verify:** Wright's "good news, not good advice" (*Simply Good News*, 2015). It is not yet in the database.
+- *Living Oracles* (1826): the reason for the first charge. Its prefaces are in dossier file 07: "we must live in them nearly two thousand years before we lived at all."
+- "A book of facts": history as testimony; "History, or narrative… is only another name for testimony" (*CS* pp. 19, 118). Faith answers testimony, so anyone who hears may believe; that is Slate Creek.
+- The ages: who speaks to whom, under which dispensation (*CS* Rule 2; the "starlight… sunlight" serial). It can be taught without the Cross Creek story.
+
+### Then Wright
+
+- The Bible as story ("story authority"); the five acts; the Old Testament has "the authority that an earlier act of the play would have, no more, no less" (Laing, p. 19). These are the `NEXT_WEEK` slides.
+- Where they part: Campbell expected the same rules to give "uniformity in opinion." Lexington in 1832 showed they did not. Wright: "the more that you insist that you are based on the Bible, the more fissiparous you become."
+- To find and verify: Wright's "good news, not good advice" (*Simply Good News*, 2015).
 
 ## Shape (draft)
 
 1. **Quiz** (from `quizzes.md`, unused): "We speak (where the Bible speaks)…"
-2. **Recap of Chapter 8:** "Scripture, like the table, is shared by all." So how did they read it?
-3. **Smith, 1804–1822:** the crevice and the yearling; the hand vote; the fire; "all in the dark"; the candle.
-4. **Campbell's reading, in Smith's hands:**
-   - the *Christian Baptist* arrives;
-   - "a book of facts";
-   - narrative as testimony;
-   - the three ages (Cross Creek, short or as a side path).
-5. **Slate Creek, 1828,** then the two-column contrast and the saw-mill.
-6. **Wright:**
-   - the Bible as story;
-   - five acts;
-   - "no more, no less";
-   - improvising the last act.
-7. **The fork:**
-   - Campbell restores the first scene ("Ancient Order", 1825);
-   - Wright improvises the next.
-   - What a fact is, with Lexington as the proof.
+2. **Recap of Chapter 8:** "Scripture, like the table, is shared by all." So whose Bible, and who reads it?
+3. **Cane Spring, 1827:** the grave, the charges, "I plead guilty to them all," Chenault's dinner, "burnt it to ashes," the Dutch, the fist, "I leave you all to judge," the protest, the ax. About 12–15 slides; this is the session's story.
+4. **The two-column contrast:** custom against the Word.
+5. **Campbell's reading behind Smith:** the translation, a book of facts, testimony (and Slate Creek), the ages.
+6. **Wright:** story, five acts, "no more, no less," improvising the last act.
+7. **The fork:** Campbell restores the first scene ("Ancient Order," 1825); Wright improvises the next; what a fact is, with Lexington as the proof.
 8. **"How Wright-pilled are we?"** Ideas, discussion, site.
 
 **Candidate ideas:**
-- The Bible is testimony, not a code: anyone who hears may answer.
-- No one votes on your soul.
+- The Word of God is not the church's custom.
+- The Bible belongs in every hand, in a language every person can read.
+- "I leave you all to judge": the people read for themselves.
 - The Bible is a story, and we live in its unfinished last act.
-- Reading the story together keeps us together; agreeing on rules does not.
 
 **Discussion candidates:**
-- What are today's mourning-benches: what do we ask of people before we let them in?
-- Where do we still read the Bible as one flat rulebook?
+- What is our "king's version": a custom we would defend as if it were the Word?
+- What would it take to let people judge for themselves?
 
 ## Narrative history: what to bring in
 
-- **Bring in: Raccoon John Smith, 1804–1828 (the main line),** then Cross Creek and Redstone (1816–1823), shorter. Chapter 7 covered them only as dates on a timeline ("Redstone had turned against him after his 'Sermon on the Law'"). This is the story's natural home, and it fills the gap in the Baptist years.
-- **Bring in briefly: the "Ancient Order" series (CB 1825).** It is the other half of Campbell's reading. Without it the later pattern reading appears from nowhere.
-- **Optional side path: Walter Scott's gospel facts (1827).** The "facts" become a preachable story. File 01 §9 has Scott's sequence (*Messiahship* pp. 252–253). Note that "golden oracle" is not Scott's phrase.
-- **Leave for Chapter 12:** the *Living Oracles*, and the 1829 convention's "a Bible all his own". That is Chapter 12's planned hook.
-- **Skip:** the Campbell–Owen debate (1829). It would carry the Baconian epistemology, but its text is not in the corpus.
+- **Main line:** Smith, July 1827 to January 1828 (Cane Spring and the ax). Chapter 8 only alluded to the North District's fight.
+- **Briefly:** the *Living Oracles* (1826), because the trial is about it. **Overlap with Chapter 12:** Chapter 12's planned hook is the 1829 Virginia convention's "a Bible all his own." This chapter can use the translation as Smith's charge and leave its making and its scholarship to Chapter 12. Or Chapter 12 can take a different hook.
+- **Briefly:** the "Ancient Order" series (CB 1825), for the fork.
+- **Dropped as the hook:** Cross Creek, 1816 (kept in the database). It could still give Campbell's three ages a one-slide origin.
+- **Held in reserve:** Walter Scott and William Amend at New Lisbon (1827), and the Campbell–Owen debate (1829). Both are other showdowns; neither is yet checked in the corpus.
 
 ## Open before slides
 
-- **Map:** Cross Creek (Brooke County, W.Va.), Wellsburg and Bethany.
-- **Picture:** an open-air association meeting, or the creek valley.
+- **Map:** Cane Spring (Madison County, Ky.), Lulbegrud (Montgomery County) and Smith's home near Mount Sterling. Check the locations.
+- **Picture:** a log meeting-house; an 1820s *Living Oracles* title page; John Smith's portrait (already in Chapter 8).
+- **Rebuild from page images:** the loaf line on p. 183 and the "Many things will be said" speech (OCR columns).
 - Run every on-screen quotation through `quote_check.py`.
-  - Richardson is Richardson, not Campbell. The scene's lines are his report.
-  - The 1846 headnote OCR reads "whether the present reformation had cver becn advocated", with a word likely missing. Check a page image before putting it on screen.
+  - Williams is Williams. Smith's speeches are his telling, written in 1870 from Smith's own account.
 - **A further Wright line on improvisation,** from the Laing Lecture, p. 19. The improvisation lines run pp. 18–20 and are in `hcba.txt`.
