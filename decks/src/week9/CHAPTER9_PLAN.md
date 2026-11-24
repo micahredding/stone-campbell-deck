@@ -15,7 +15,20 @@ Micah asked for three things:
 
 He set aside the *Sermon on the Law* (Cross Creek, 1816) as "not sympathetic enough." He asked for "another shipwreck, another showdown," and said Campbell need not be the main character.
 
-## The hook: Raccoon John Smith on trial, Cane Spring, Kentucky, July 1827
+## Hook candidates (2026-11-24)
+
+Micah: keep Cane Spring as candidate 1 and keep digging.
+
+The full shortlist, with checked lines, is in the database: `10 Research Projects/Facts and Story (Campbell and Wright)/08 Hook Candidates (2026-11-24).md`.
+
+1. **Smith on trial at Cane Spring (1827): custom against the Word.** Details below.
+2. **Aylett Raines at Mahoning (1828): faith against opinion.**
+   - Thomas Campbell: "I would put my right hand into the fire and have it burnt off before I would hold up my hands against him."
+   - Raines, two years later: "The facts of the New Testament… have conquered me."
+3. **William Amend at New Lisbon (1827): the man who read it for himself.** It overlaps the baptism chapter.
+4. **Jane Coons and her father (1825):** "He that sows the tares is the devil!"
+
+## Candidate 1: Raccoon John Smith on trial, Cane Spring, Kentucky, July 1827
 
 Source: Williams, *Life of Elder John Smith* (1870), pp. 181–193 (printed pages). The speeches are as Williams tells them, so credit them "in Williams". Each line was checked with `quote_check.py` against the database text:
 - "exact" means a word-for-word match;
