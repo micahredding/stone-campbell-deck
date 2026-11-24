@@ -34,16 +34,16 @@ def SVG(name, note):
     svg = open(os.path.join(_H, 'images', name)).read()
     return '<section class="slide" style="padding:0;background:#0e0b09">' + svg + '<aside class=notes>%s</aside></section>' % note
 
-def PORTRAIT(img, name, line, note, eyebrow=''):
+def PORTRAIT(img, name, line, note, eyebrow='', h='74vh'):
     # a portrait at the left, the name and one line at the right
     if not have(img):
         return C(name, note + ' [Portrait to come: %s]' % img, eyebrow)
     e = '<div class=eyebrow style="text-align:left">%s</div>' % eyebrow if eyebrow else ''
     return ('<section class="slide" style="flex-direction:row;gap:5vw;align-items:center;justify-content:center">'
-            '<img src="%s" alt="" style="max-height:74vh;max-width:38vw;height:auto;border:1px solid rgba(201,162,74,.55);box-shadow:0 6px 24px rgba(0,0,0,.6);filter:sepia(.2)">'
+            '<img src="%s" alt="" style="max-height:%s;max-width:38vw;height:auto;border:1px solid rgba(201,162,74,.55);box-shadow:0 6px 24px rgba(0,0,0,.6);filter:sepia(.2)">'
             '<div style="text-align:left;max-width:44vw">%s<h2 style="max-width:none;text-align:left">%s</h2>'
             '<div class=sub style="text-align:left;margin-top:2vmin">%s</div></div>'
-            '<aside class=notes>%s</aside></section>' % (b64(img), e, name, line, note))
+            '<aside class=notes>%s</aside></section>' % (b64(img), h, e, name, line, note))
 
 def WITHBG(slide, img, dim=.28, pos='center'):
     return w8.WITHBG(slide, img, dim, pos) if have(img) and os.path.dirname(img_path(img)).endswith('week8/images') else (
@@ -130,6 +130,7 @@ if have('murray.jpg') and have('ballou.jpg'):
 A(QK('&ldquo;We believe that there is one God, whose nature is Love, revealed in one Lord Jesus Christ, by one Holy Spirit of Grace, <b>who will finally restore the whole family of mankind to holiness and happiness</b>.&rdquo;',
      'The Winchester Profession (1803), Article II &middot; in Eddy, <i>Universalism in America</i>, vol. 2, p. 49', 'Their confession', 'eddy2',
      'Adopted at Winchester, N.H., by the General Association of Universalists of the New England States. Its plan of union, on the next page, has a line Campbell could have written: &ldquo;where the brethren cannot see alike, they may agree to differ&rdquo; (p. 50).'))
+A(SCENE('winchester-dialogues-title.jpg', 'The book that converted Raines', 'Winchester&rsquo;s <i>Dialogues</i>', 'Elhanan Winchester, <i>The Universal Restoration, Exhibited in Four Dialogues</i>, 2nd ed. (Philadelphia, 1792)', 'First published in London, 1788. Dialogues between a Minister and a Friend who raises the objections. Raines read it teaching school near Fredonia, Indiana; it &ldquo;completed the work&rdquo; (Hayden p. 151).', h='64vh'))
 A(QK('&ldquo;Christ is <b>the great attracting loadstone</b>, that shall finally draw all things to him.&rdquo;',
      'Elhanan Winchester, <i>Dialogues on the Universal Restoration</i> (1831 ed.)', 'The book that converted Raines', 'winc31',
      'The book Raines read in Indiana: it &ldquo;completed the work&rdquo; (Hayden p. 151). Winchester wrote it as dialogues between a Minister and a Friend who objects. His Minister, on his own manner: &ldquo;I have always made it a rule never to press the belief of my sentiments upon my friends&rdquo; (pp. 53&ndash;54). Keep that in mind for Warren.', size='clamp(40px,8.6vmin,110px)', width='26ch'))
@@ -147,7 +148,7 @@ A(QK('&ldquo;One grand objection that is very generally made against the doctrin
 
 # ---------- II. RAINES, AND WHERE ----------
 A(PORTRAIT('aylett-raines.jpg', 'Aylett Raines', 'Born in Virginia, 1797 or 1798. Five years a Restorationist preacher.',
-  'Hayden: born near Fredericksburg, Spotsylvania County (p. 150, &ldquo;1797&rdquo;; his gravestone, as reported online, 22 Jan. 1798: to check). Christened at four in the Episcopal church, &ldquo;amidst many tears,&rdquo; tears &ldquo;of fear and apprehension&rdquo; (Hayden&rsquo;s words). Skeptical in his teens, after contradictory preaching and Paine&rsquo;s <i>Age of Reason</i>. Teaching school near Fredonia, Indiana, his employers were Restorationists; he lost the arguments, and Winchester &ldquo;completed the work.&rdquo; Died at Eminence, Kentucky, 1881 (to check); fifty years a preacher of the gospel in Ohio and Kentucky.', 'Our man'))
+  'Hayden: born near Fredericksburg, Spotsylvania County (p. 150, &ldquo;1797&rdquo;; his gravestone, as reported online, 22 Jan. 1798: to check). Christened at four in the Episcopal church, &ldquo;amidst many tears,&rdquo; tears &ldquo;of fear and apprehension&rdquo; (Hayden&rsquo;s words). Skeptical in his teens, after contradictory preaching and Paine&rsquo;s <i>Age of Reason</i>. Teaching school near Fredonia, Indiana, his employers were Restorationists; he lost the arguments, and Winchester &ldquo;completed the work.&rdquo; Died at Eminence, Kentucky, 1881 (to check); fifty years a preacher of the gospel in Ohio and Kentucky.', 'Our man', h='56vh'))
 A(SVG('map-road.svg', 'His road: Virginia; at fourteen, Jefferson County, Kentucky; teaching near Fredonia, Indiana, where he became a Restorationist; then two years preaching &ldquo;at large,&rdquo; which brought him to the Western Reserve in 1828. Map drawn for the class from U.S. Census boundaries; the Reserve is shaded by today&rsquo;s counties.'))
 A(QK('&ldquo;I got religion. <b>The sky appeared to be bluer, the leaves looked greener, and the birds sang more sweetly than ever before.</b>&rdquo;',
      RAINES + ', p. 151', 'Raines, on becoming a Universalist', 'hay',
@@ -195,7 +196,7 @@ A(QK('&ldquo;Bro. Scott said nothing on this subject, only that <b>it was a phil
 A(QK('&ldquo;My friends, I find myself in a strait; I am shut up in a dilemma; and <b>I can see no way out, with the Word of God in my hand, but through the obedience of faith in baptism.</b> If any of you can see any other, I implore you in the name of my Master to show it to me.&rdquo;',
      'Raines at Austintown, April (1828) &middot; as Hayden reports it, p. 131', 'He tells his own people', 'hay',
      'He kept his old appointments, and told them so: &ldquo;I threw myself on their mercy; in other words, that if they believed me to be going astray, in mercy to set me right&rdquo; (p. 154). At Austintown, word had gone round that he would preach his renunciation of Universalism; the house was full. Hayden: the Universalists &ldquo;jerked up their chairs, started over the benches, and hurried to their homes.&rdquo; (Hayden gives &ldquo;April,&rdquo; no year; 1828 by the order of events.)'))
-A(SCENE('bg-ravenna-1846.jpg', 'Ebenezer Williams&rsquo;s town', 'Ravenna', 'View in Ravenna &middot; Henry Howe, <i>Historical Collections of Ohio</i> (1847)', 'Williams: born at Warwick, Mass., 1793; settled in Ravenna in 1815; ordained &ldquo;minister at large&rdquo; by the Universalian Association in 1821; preaching at Shalersville a quarter of his time &ldquo;at one hundred dollars.&rdquo; In May 1828 he preached there against baptism, from Acts 2, and rode home unhappy: &ldquo;My text&hellip; were constantly occupying my mind&rdquo; (Hayden pp. 155&ndash;156). Then Raines appeared at his door.'))
+A(SCENE('bg-ravenna-1846.jpg', 'Ebenezer Williams&rsquo;s town', 'Ravenna', 'View in Ravenna &middot; Henry Howe, <i>Historical Collections of Ohio</i> (1847)', 'Howe&rsquo;s view of Ravenna in the 1840s; by the image researcher&rsquo;s reading of Howe&rsquo;s text, the church shown is the Universalist church (to confirm). Williams: born at Warwick, Mass., 1793; settled in Ravenna in 1815; ordained &ldquo;minister at large&rdquo; by the Universalian Association in 1821; preaching at Shalersville a quarter of his time &ldquo;at one hundred dollars.&rdquo; In May 1828 he preached there against baptism, from Acts 2, and rode home unhappy: &ldquo;My text&hellip; were constantly occupying my mind&rdquo; (Hayden pp. 155&ndash;156). Then Raines appeared at his door.'))
 A(WITHBG(QK('&ldquo;&hellip;<b>taking hold of each other&rsquo;s hands, we walked into the water. I baptized him; he in turn baptized me.</b> I think they were all Universalists who witnessed the scene. Some cried, some scolded.&rdquo;',
      'Ebenezer Williams, Restorationist preacher of Ravenna &middot; in Hayden, p. 157', 'Sandy Lake, May 1828', 'hay',
      'Williams, the minister ordained by the Universalian Association in 1821, had just preached against baptism at Shalersville and could not sleep. Then: &ldquo;a child came and informed me that Bro. Raines was at the house&hellip; Bro. Raines said he had been hearing Walter Scott; that he had got into trouble, and wanted me to help him out&rdquo; (p. 156). Sandy Lake: &ldquo;a beautiful pond in the corners of Brimfield and Rootstown.&rdquo; It cost Williams his salary: &ldquo;Thus I turned my back on the four hundred a year.&rdquo; Raines: &ldquo;within five weeks I immersed fifty persons, three of them, counting Bro. Williams, talented Restorationist preachers&rdquo; (p. 154).'), 'bg-baptism.jpg', .26))
