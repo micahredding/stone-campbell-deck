@@ -202,3 +202,10 @@ All of them lie within about 40 miles of each other.
 - Check the date of the Warren meeting: the Friday in late August 1828. Hayden's date line is cut off in the OCR.
 - Add Hayden's chapters to the reader.
 - Pictures: Thomas Campbell (have); Walter Scott (have?); an 1820s Ohio meeting-house; Sandy Lake today.
+
+## A contrast, not yet placed (2026-11-25)
+
+- **Stacy and Person, New York, 1817–18** (Eddy II, pp. 7–8). Cornelius G. Person, a Universalist preacher, asked to be immersed: "neither would baptize him unless he would renounce his faith in Universal Salvation" (Baptist and Methodist both). A fellow Universalist, Nathaniel Stacy, immersed him through the ice.
+- The point: the Baptists and Methodists asked him to give up the opinion first. The Mahoning Association, itself still Baptist in 1828, received Raines with his opinion kept as private property.
+- In `slides.py` as a hidden slide just before "The worry" (Warren). Other candidate places: Sandy Lake; before Alexander's proposal.
+- Why the Universalists resisted the Disciples' baptism: its necessity and mode, not baptism itself. Williams: "baptism was but voluntary and quite unessential"; "I had been sprinkled — I had sprinkled others" (H pp. 155–156).
