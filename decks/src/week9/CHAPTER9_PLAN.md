@@ -19,6 +19,10 @@ He set aside the *Sermon on the Law* (Cross Creek, 1816) as "not sympathetic eno
 
 The chapter is built on **Aylett Raines**. The story, in Micah's order, with checked lines: `RAINES_STORY.md`. The candidates below are kept for reference.
 
+## Cuts (log every slide that leaves the deck)
+
+- **2026-11-25, Micah: "we don't need the backstory on universalism."** Slides 5–13 (section I, "A movement of its own" through "Why the orthodox shunned them": the timeline, the three founders' portraits, the Winchester Profession, Winchester's *Dialogues* title page and "loadstone", Restorationists vs. "death and glory", Bigelow's 1821 numbers, the "licentiousness" objection) are kept in `slides.py` under `HIDE(...)`. The deck now goes from last week's idea straight to Raines's portrait; its notes gloss "Restorationist" in one line. Sources stay in `RAINES_STORY.md` and the database.
+
 ## Hook candidates (2026-11-24)
 
 Micah: keep Cane Spring as candidate 1 and keep digging.

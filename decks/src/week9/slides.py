@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Chapter 9: The Heckler Who Kept His Seat (Aylett Raines, Walter Scott and the Campbells, 1828), then N. T. Wright.
-# The story as Micah ordered it (2026-11-24; decks/src/week9/RAINES_STORY.md): Universalism, a movement of its own;
-# the geography; Windham and the conversion (how Scott made the Scriptures come alive); the road with Thomas Campbell;
+# The story as Micah ordered it (2026-11-24; decks/src/week9/RAINES_STORY.md): the geography;
+# (the Universalism backstory is hidden, 2026-11-25); Windham and the conversion (how Scott made the Scriptures come alive); the road with Thomas Campbell;
 # the trial at Warren and Thomas Campbell's intervention; Alexander Campbell's proposal; then the question,
 # what way of reading makes Scripture come alive?, and the turn to Wright.
 # Build:  python3 decks/src/week9map/build.py   ->  decks/chapter9.html
@@ -112,9 +112,9 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
 A(CARD('Scripture, like the table:<br>' + G('shared by all.'),
   'Last week&rsquo;s last idea. They came to Scripture as to a table: not a set of agreed readings, but a shared inheritance. This morning: what kind of reading made it live?', 'Last week'))
 
-# ---------- I. UNIVERSALISM ----------
-A(C('A movement of its own', 'Before the story, the man&rsquo;s church. In 1828 Universalism was not a stray opinion. It was a denomination: preachers, conventions, papers, a confession of faith, and growing fast on the Western Reserve.', 'Universalism'))
-A(LIST('Universalism in America', 'A denomination, not a stray opinion',
+# ---------- I. UNIVERSALISM (hidden: Micah, 2026-11-25, "we don't need the backstory on universalism") ----------
+HIDE(C('A movement of its own', 'Before the story, the man&rsquo;s church. In 1828 Universalism was not a stray opinion. It was a denomination: preachers, conventions, papers, a confession of faith, and growing fast on the Western Reserve.', 'Universalism'))
+HIDE(LIST('Universalism in America', 'A denomination, not a stray opinion',
   ['<b>1770</b> &nbsp;John Murray lands; Gloucester, Mass., 1779.',
    '<b>1788</b> &nbsp;Elhanan Winchester, <i>Dialogues on the Universal Restoration</i>.',
    '<b>1803</b> &nbsp;The Winchester Profession: a confession of faith.',
@@ -123,32 +123,32 @@ A(LIST('Universalism in America', 'A denomination, not a stray opinion',
   'Five clicks. Sources: Richard Eddy, <i>Universalism in America</i> (1884&ndash;86), vol. 1 p. 137 (Murray&rsquo;s first American sermon, Good Luck, N.J., 30 Sept. 1770), vol. 2 pp. 48&ndash;50 (the Profession), p. 393 (Ohio). By 1836, about 317 preachers and 653 societies (Hayward, <i>Religious Creeds and Statistics</i>, 1836, p. 151; approximate). The 1821 association met at Palmyra, Portage County: eleven churches and sixteen societies.',
   size='clamp(30px,5.6vmin,70px)', gap='1.8vmin'))
 if have('murray.jpg') and have('ballou.jpg'):
-    A('<section class="slide" style="flex-direction:row;gap:4vw;align-items:flex-end;justify-content:center">'
+    HIDE('<section class="slide" style="flex-direction:row;gap:4vw;align-items:flex-end;justify-content:center">'
       + ''.join('<div style="text-align:center"><img src="%s" alt="" style="height:62vh;width:auto;border:1px solid rgba(201,162,74,.55);filter:sepia(.25)"><div class=cite style="margin-top:1.5vmin">%s</div></div>' % (b64(f), t)
                 for f, t in (('murray.jpg', 'John Murray (1741&ndash;1815)'), ('winchester-portrait.jpg' if have('winchester-portrait.jpg') else 'murray.jpg', 'Elhanan Winchester (1751&ndash;1797)'), ('ballou.jpg', 'Hosea Ballou (1771&ndash;1852)')))
       + '<aside class=notes>Three founders. Murray, the English preacher who landed in New Jersey; Winchester, the Baptist preacher in Philadelphia whose <i>Dialogues</i> made Raines a Restorationist; Ballou, who by 1817 taught no punishment after death at all.</aside></section>')
-A(QK('&ldquo;We believe that there is one God, whose nature is Love, revealed in one Lord Jesus Christ, by one Holy Spirit of Grace, <b>who will finally restore the whole family of mankind to holiness and happiness</b>.&rdquo;',
+HIDE(QK('&ldquo;We believe that there is one God, whose nature is Love, revealed in one Lord Jesus Christ, by one Holy Spirit of Grace, <b>who will finally restore the whole family of mankind to holiness and happiness</b>.&rdquo;',
      'The Winchester Profession (1803), Article II &middot; in Eddy, <i>Universalism in America</i>, vol. 2, p. 49', 'Their confession', 'eddy2',
      'Adopted at Winchester, N.H., by the General Association of Universalists of the New England States. Its plan of union, on the next page, has a line Campbell could have written: &ldquo;where the brethren cannot see alike, they may agree to differ&rdquo; (p. 50).'))
-A(SCENE('winchester-dialogues-title.jpg', 'The book that converted Raines', 'Winchester&rsquo;s <i>Dialogues</i>', 'Elhanan Winchester, <i>The Universal Restoration, Exhibited in Four Dialogues</i>, 2nd ed. (Philadelphia, 1792)', 'First published in London, 1788. Dialogues between a Minister and a Friend who raises the objections. Raines read it teaching school near Fredonia, Indiana; it &ldquo;completed the work&rdquo; (Hayden p. 151).', h='64vh'))
-A(QK('&ldquo;Christ is <b>the great attracting loadstone</b>, that shall finally draw all things to him.&rdquo;',
+HIDE(SCENE('winchester-dialogues-title.jpg', 'The book that converted Raines', 'Winchester&rsquo;s <i>Dialogues</i>', 'Elhanan Winchester, <i>The Universal Restoration, Exhibited in Four Dialogues</i>, 2nd ed. (Philadelphia, 1792)', 'First published in London, 1788. Dialogues between a Minister and a Friend who raises the objections. Raines read it teaching school near Fredonia, Indiana; it &ldquo;completed the work&rdquo; (Hayden p. 151).', h='64vh'))
+HIDE(QK('&ldquo;Christ is <b>the great attracting loadstone</b>, that shall finally draw all things to him.&rdquo;',
      'Elhanan Winchester, <i>Dialogues on the Universal Restoration</i> (1831 ed.)', 'The book that converted Raines', 'winc31',
      'The book Raines read in Indiana: it &ldquo;completed the work&rdquo; (Hayden p. 151). Winchester wrote it as dialogues between a Minister and a Friend who objects. His Minister, on his own manner: &ldquo;I have always made it a rule never to press the belief of my sentiments upon my friends&rdquo; (pp. 53&ndash;54). Keep that in mind for Warren.', size='clamp(40px,8.6vmin,110px)', width='26ch'))
-A(LIST('Two kinds of Universalist', 'After death, then what?',
+HIDE(LIST('Two kinds of Universalist', 'After death, then what?',
   ['<b>Restorationists</b> (Winchester; Raines): real punishment after death, and then all restored.',
    '<b>&ldquo;Ultra&rdquo; Universalists</b> (Ballou, from 1817): no punishment after death. Opponents called it &ldquo;death and glory.&rdquo;'],
   'Two clicks. The quarrel split the movement: in 1831 the Restorationists formed their own Massachusetts association at Mendon (Paul Dean, Adin Ballou and others), resolving that &ldquo;No-Future accountability&rdquo; was &ldquo;subversive of the best interests of society&rdquo; (Eddy II, 331). Raines kept the distinction all his life: &ldquo;I make a distinction between Restorationism and Universalism&rdquo; (Hayden p. 170).',
   size='clamp(32px,6.2vmin,78px)', gap='3.4vmin'))
-A(QK('&ldquo;&hellip;your whole number, seven years ago, who believed in the universal love of God, did not exceed twenty; and at this time, on the same ground, <b>your numbers are more than fifteen hundred</b>.&rdquo;',
+HIDE(QK('&ldquo;&hellip;your whole number, seven years ago, who believed in the universal love of God, did not exceed twenty; and at this time, on the same ground, <b>your numbers are more than fifteen hundred</b>.&rdquo;',
      'Timothy Bigelow, to the Northern Ohio Universalian Association, 1821 &middot; in Whittemore, <i>Modern History of Universalism</i> (1830), p. 428', 'On the Western Reserve', 'whit',
      'New Englanders carried it west: Bigelow came from Winchester, N.H., in 1814, because his former neighbors wanted &ldquo;a Universalist Minister to break up the ground&rdquo; (Eddy II, 126). At this 1821 meeting the association ordained Ebenezer Williams of Ravenna &ldquo;minister at large.&rdquo; Remember the name. Hayden, of 1828: &ldquo;Restorationists, who were numerous&rdquo; (p. 130).'))
-A(QK('&ldquo;One grand objection that is very generally made against the doctrine of the Restoration, is, that <b>it tends to licentiousness</b>.&rdquo;',
+HIDE(QK('&ldquo;One grand objection that is very generally made against the doctrine of the Restoration, is, that <b>it tends to licentiousness</b>.&rdquo;',
      'The objector in Winchester&rsquo;s <i>Dialogues</i> (1831 ed.), p. 147', 'Why the orthodox shunned them', 'winc31',
      'The charge everyone knew: no hell, no restraint, no social order (<i>Encyclopedia</i>, &ldquo;Universalism&rdquo;). For a Baptist association to receive a Universalist preacher was unheard of.'))
 
 # ---------- II. RAINES, AND WHERE ----------
 A(PORTRAIT('aylett-raines.jpg', 'Aylett Raines', 'Born in Virginia, 1797 or 1798. Five years a Restorationist preacher.',
-  'Hayden: born near Fredericksburg, Spotsylvania County (p. 150, &ldquo;1797&rdquo;; his gravestone, as reported online, 22 Jan. 1798: to check). Christened at four in the Episcopal church, &ldquo;amidst many tears,&rdquo; tears &ldquo;of fear and apprehension&rdquo; (Hayden&rsquo;s words). Skeptical in his teens, after contradictory preaching and Paine&rsquo;s <i>Age of Reason</i>. Teaching school near Fredonia, Indiana, his employers were Restorationists; he lost the arguments, and Winchester &ldquo;completed the work.&rdquo; Died at Eminence, Kentucky, 1881 (to check); fifty years a preacher of the gospel in Ohio and Kentucky.', 'Our man', h='56vh'))
+  'Restorationist: a Universalist who held there is punishment after death, and then all are restored (Winchester&rsquo;s <i>Dialogues</i>, the book that converted him). Hayden: born near Fredericksburg, Spotsylvania County (p. 150, &ldquo;1797&rdquo;; his gravestone, as reported online, 22 Jan. 1798: to check). Christened at four in the Episcopal church, &ldquo;amidst many tears,&rdquo; tears &ldquo;of fear and apprehension&rdquo; (Hayden&rsquo;s words). Skeptical in his teens, after contradictory preaching and Paine&rsquo;s <i>Age of Reason</i>. Teaching school near Fredonia, Indiana, his employers were Restorationists; he lost the arguments, and Winchester &ldquo;completed the work.&rdquo; Died at Eminence, Kentucky, 1881 (to check); fifty years a preacher of the gospel in Ohio and Kentucky.', 'Our man', h='56vh'))
 A(SVG('map-road.svg', 'His road: Virginia; at fourteen, Jefferson County, Kentucky; teaching near Fredonia, Indiana, where he became a Restorationist; then two years preaching &ldquo;at large,&rdquo; which brought him to the Western Reserve in 1828. Map drawn for the class from U.S. Census boundaries; the Reserve is shaded by today&rsquo;s counties.'))
 A(QK('&ldquo;I got religion. <b>The sky appeared to be bluer, the leaves looked greener, and the birds sang more sweetly than ever before.</b>&rdquo;',
      RAINES + ', p. 151', 'Raines, on becoming a Universalist', 'hay',

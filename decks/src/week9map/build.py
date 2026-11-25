@@ -11,7 +11,6 @@ import mapdeck, resources as R
 SIDE = []
 SECTIONS = [
     ('Opening', 'Our Wild Democracy &middot; Chapter 9'),
-    ('Universalism', 'A movement of its own'),
     ('Raines, and where', 'Fredericksburg, Spotsylvania County'),
     ('Windham', 'Scottish-born, a schoolmaster in Pittsburgh'),
     ('Thomas Campbell', 'probably no man within the reformation who possessed'),
