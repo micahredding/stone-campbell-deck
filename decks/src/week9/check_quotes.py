@@ -16,6 +16,10 @@ SRC = {
     'eddy2': os.path.join(U, 'universalisminam02eddy.txt'),
     'winc31': os.path.join(U, 'universalrestora1831winc.txt'),
     'whit': os.path.join(U, 'modernhistoryun01whitgoog.txt'),
+    'bax': os.path.join(X, 'Life of Elder Walter Scott (William Baxter 1874).txt'),
+    'cb2': os.path.join(P, 'Christian Baptist', 'Christian Baptist Volume 2.md'),
+    'cb6': os.path.join(P, 'Christian Baptist', 'Christian Baptist Volume 6.md'),
+    'w18': os.path.join(DB, '10 Research Projects', 'Facts and Story (Campbell and Wright)', 'sources', 'wright-2018-meanings-of-history-JAT.txt'),
     'hcba': os.path.join(DB, '10 Research Projects', 'The Church as Working Model (Wright)', 'sources', 'hcba.txt'),
 }
 spec = importlib.util.spec_from_file_location('w9', os.path.join(H, 'slides.py')); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)

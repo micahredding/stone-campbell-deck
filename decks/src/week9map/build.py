@@ -11,13 +11,16 @@ import mapdeck, resources as R
 SIDE = []
 SECTIONS = [
     ('Opening', 'Our Wild Democracy &middot; Chapter 9'),
-    ('Raines, and where', 'Fredericksburg, Spotsylvania County'),
-    ('Windham', 'Scottish-born, a schoolmaster in Pittsburgh'),
+    ('A young Universalist', 'Fredericksburg, Spotsylvania County'),
+    ('What made Scott compelling?', 'Scottish-born, a schoolmaster in Pittsburgh'),
     ('Thomas Campbell', 'probably no man within the reformation who possessed'),
-    ('Warren', 'Warren, August 1828<'),
+    ('The trial', 'Warren, August 1828<'),
     ('Alexander&rsquo;s proposal', 'substantially repeated what he had said in his introductory discourse'),
-    ('What made it come alive?', 'come alive?'),
+    ('The rest of the story', 'forty years on and two years on'),
+    ('Campbell&rsquo;s method', 'Bible method?'),
+    ('Doing with the Bible', 'doing with the Bible?'),
     ('N. T. Wright', 'Two centuries later'),
+    ('Wright and Campbell', 'Wright is a historian.'),
     ('Close', 'The quiz, again'),
 ]
 def docs(between, clean): return R.docs(between, clean, [])
