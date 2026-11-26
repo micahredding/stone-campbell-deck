@@ -361,7 +361,7 @@ A(LIST('The five acts', 'Wright&rsquo;s play',
   'Five clicks. Laing Lecture, p. 19: &ldquo;the possibility of seeing the five acts as follows: (1) Creation; (2) Fall; (3) Israel; (4) Jesus. The New Testament would then form the first scene in the fifth act, giving hints as well (Rom 8; 1 Cor 15; parts of the Apocalypse) of how the play is supposed to end.&rdquo; Note 1 Corinthians 15: Raines&rsquo;s chapter. Campbell&rsquo;s acts: the Patriarchal, the Jewish, the Christian ages (<i>Sermon on the Law</i>, 1816; &ldquo;the star-light&hellip; the moonlight&hellip; the sun-light of the moral world,&rdquo; <i>Christian Baptist</i>, 1828).',
   size='clamp(36px,7vmin,88px)', gap='1.6vmin'))
 A(QK('&ldquo;<b>The first act of the great drama closes with the Deluge.</b>&rdquo;',
-     '<i>Christian Baptist</i> 6 (Dec. 1, 1828), &ldquo;The Patriarchal Age.&mdash;No. V,&rdquo; p. 118', 'Campbell, too, reads in acts', 'cb6',
+     'Alexander Campbell&rsquo;s <i>Christian Baptist</i> 6 (Dec. 1, 1828), &ldquo;The Patriarchal Age.&mdash;No. V,&rdquo; p. 118 (unsigned)', 'Campbell&rsquo;s paper, too, reads in acts', 'cb6',
      'From Campbell&rsquo;s serial on the ages, running in his paper the very months of the Raines story (1828&ndash;30; this number unsigned, in the editor&rsquo;s series). Babel closes the second act; Abraham begins &ldquo;a new chapter.&rdquo; His ages: starlight, moonlight, twilight, sunlight. And Rule 2: &ldquo;Is he a Patriarch, a Jew, or a Christian?&rdquo;'))
 
 # 2. Creeds
