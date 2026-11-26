@@ -396,14 +396,6 @@ A(QK('&ldquo;<b>The fact, or the thing said to be done, produces the change</b> 
      AC + ', <i>The Christian System</i> (1839), p. 122', 'Campbell: the story does the work', 'cs',
      'His chain: &ldquo;fact, testimony, faith, and feeling&rdquo; (same page), then action. The facts, understood, are &ldquo;a moral seal or archetype&rdquo; that draws the image of God on the soul (p. 116). Raines, 1830: &ldquo;The facts of the New Testament will conquer the world. They have conquered me.&rdquo;'))
 
-# The payoff
-A(LIST('So', 'The story does the work',
-  ['This is how <b>Walter Scott</b> can be so compelling.',
-   'This is how <b>Alexander Campbell</b> can embrace a Universalist.',
-   'This is how <b>Stone-Campbell</b> can unite on the Bible.'],
-  'Three clicks. Scott: four nights of whole chapters, and the story converted a man no argument could. Campbell: the facts are the faith; Raines&rsquo;s Universalism was an opinion about what the story had not told. Lexington: they united on the story itself, and left the readings free.',
-  size='clamp(34px,6.6vmin,82px)', gap='3.4vmin'))
-
 # Hidden in the reshape (2026-11-26), kept for reference
 HIDE(QK('&ldquo;<b>The Old Testament has the authority that an earlier act of the play would have, no more, no less.</b>&rdquo;',
      LAING + ', p. 19', 'The two covenants', 'hcba',
@@ -423,8 +415,18 @@ A('<section class="slide"><div class=eyebrow>The quiz, again</div>'
   '<h2 style="max-width:none;font-size:clamp(40px,8vmin,104px)">&ldquo;We speak where the Bible speaks&hellip;&rdquo;</h2>'
   '<div class="sub frag" style="font-size:clamp(26px,5vmin,62px);color:var(--gold)">To whom? In which act? Read whole?</div>'
   '<aside class=notes>One click. Raines had a verse where the Bible spoke, and it spoke wrong until he heard the chapter. Where the Bible is silent (the end of all things, in Raines&rsquo;s case), Campbell&rsquo;s answer was: keep your opinion as private property, and preach the story.</aside></section>')
-for _k in range(1, len(IDEAS) + 1): A(IDEA(_k))
-A(IDEASUM('All four at once, before the discussion.'))
+# One idea, three ramifications (Micah, 2026-11-26). The four earlier ideas (IDEAS, above) are no longer shown.
+A('<section class="slide idea room"><div class=eyebrow>Today&rsquo;s idea</div>'
+  '<h2 style="max-width:none">The story ' + G('does the work.') + '</h2>'
+  '<div class=litany style="text-align:left;gap:2.6vmin;max-width:90vw;margin-top:3vmin">'
+  + ''.join('<div class="no frag" style="font-size:clamp(30px,5.6vmin,70px)">%s</div>' % t for t in (
+    'This is how <b>Walter Scott</b> can be so compelling.',
+    'This is how <b>Alexander Campbell</b> can embrace a Universalist.',
+    'This is how <b>Stone-Campbell</b> can unite on the Bible.'))
+  + '</div><aside class=notes>One idea, three clicks for its ramifications. '
+  '<b>Scott:</b> four nights of whole chapters (1 Cor 1, 1 Cor 15, the two covenants, Hebrews 11); the story converted a man no argument could. Robbins: he convinced them &ldquo;that God meant what he said.&rdquo; '
+  '<b>Campbell:</b> faith rests on the testimony of the story, &ldquo;No testimony, no faith&rdquo;; Raines&rsquo;s Universalism was an opinion about what the story had not told, so it could be held &ldquo;as private property.&rdquo; And it was held kindly: Raines, &ldquo;Had they attempted to brow-beat me I might have been ruined forever. But treating me kindly&hellip; redeemed me.&rdquo; '
+  '<b>Stone-Campbell:</b> Lexington, 1832, united on the story itself and left the readings free. Wright: the story is still going, and the whole church is in it.</aside></section>')
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>Backup prompts (off the slide): Where do we still read the Bible as a book of proverbs, a verse at a time? What opinions do we hold as tests of fellowship? Who has been our Thomas Campbell, kind while we were wrong?</aside>',
          w3b.pick('&#9670; for discussion', 0), flags=re.S).replace('&#9670; for discussion', '&#9670; for discussion &middot; Chapter 9', 1))
 A(re.sub(r'<aside class=notes>.*?</aside>', '<aside class=notes>The site: stone-campbell.micahredding.com. Today&rsquo;s sources: Hayden, <i>Early History of the Disciples in the Western Reserve</i> (1875), with Raines&rsquo;s own recollections; Richardson&rsquo;s <i>Memoirs</i>; Campbell, &ldquo;Millennium.&mdash;No. II&rdquo; (1830); Eddy, <i>Universalism in America</i>; Wright&rsquo;s Laing Lecture.</aside>',
