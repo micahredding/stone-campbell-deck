@@ -94,6 +94,28 @@ def IDEASUM(note):
             + ''.join('<div class=no style="font-size:clamp(30px,6vmin,74px)"><span style="color:var(--gold);display:inline-block;width:1.6em">%d.</span>%s</div>' % (n, h.replace('<br>', ' ')) for n, (h, _) in enumerate(IDEAS, 1))
             + '</div><aside class=notes>%s</aside></section>' % note)
 
+# The escalating questions (Micah, 2026-11-26): each card shows the ones before it, dimmed.
+QUESTIONS = [
+    'What made Scott&rsquo;s preaching <span style="color:var(--gold)">so compelling?</span>',
+    'How could Campbell <span style="color:var(--gold)">embrace a Universalist?</span>',
+    'What was Campbell&rsquo;s <span style="color:var(--gold)">Bible method?</span>',
+    'What are these people all <span style="color:var(--gold)">doing with the Bible?</span>',
+    'How could a whole movement <span style="color:var(--gold)">unite on the Bible?</span>',
+    'Why is Wright <span style="color:var(--gold)">popular among us?</span>',
+]
+def ASK(k, note, eyebrow='The question'):
+    # k = 1..6: questions 1..k-1 small and dim, question k large; k = 0: all of them, even
+    rows = []
+    for n, q in enumerate(QUESTIONS, 1):
+        if k and n > k: break
+        if k and n < k: st = 'font-size:clamp(20px,3.3vmin,40px);opacity:.42'
+        elif k: st = 'font-size:clamp(40px,7.6vmin,96px);margin-top:1.4vmin'
+        else: st = 'font-size:clamp(30px,6.2vmin,78px)'
+        rows.append('<div class=no style="%s"><span style="color:var(--gold);display:inline-block;width:1.5em">%d.</span>%s</div>' % (st, n, q))
+    return ('<section class="slide room"><div class=eyebrow>%s</div>'
+            '<div class=litany style="text-align:left;gap:1.2vmin;max-width:90vw">%s</div>'
+            '<aside class=notes>%s</aside></section>' % (eyebrow, ''.join(rows), note))
+
 S = []
 A = S.append
 def HIDE(slide): pass
@@ -165,8 +187,7 @@ A(QK('&ldquo;Misrepresentations&hellip; <b>were as numerous as blackbirds in Aug
      'In full: &ldquo;Hundreds were being baptized. Much interest had been awakened in behalf of the gospel, and bitter was the opposition which had been enlisted against it. Misrepresentations &mdash; not to use a harsher term &mdash; were as numerous as blackbirds in August, and these too, very often by those who professed to be &lsquo;embassadors for Christ&rsquo;&rdquo;. The rumor about Scott&rsquo;s preaching: &ldquo;Just say you believe, and let a preacher dip you&rdquo;.', size='clamp(40px,8.6vmin,110px)', width='26ch'))
 
 # ---------- III. WINDHAM ----------
-A(CARD('What made Scott&rsquo;s preaching<br>' + G('so compelling?'),
-  'Hold the question. The answer comes at the end: he let the story do the work.', 'The question'))
+A(ASK(1, 'Hold the question. The answer comes at the end: he let the story do the work. Each new question widens the circle: one preacher, one leader, one method, a whole people, a movement, and us.'))
 A(PORTRAIT('walter-scott.jpg', 'Walter Scott', 'The evangelist of the Mahoning Association, 1827&ndash;30.',
   'Scott (1796&ndash;1861): Scottish-born, a schoolmaster in Pittsburgh, the Association&rsquo;s evangelist from August 1827. His plan of the gospel in &ldquo;six points&rdquo; (later counted on five fingers): faith, repentance, baptism, remission of sins, the gift of the Holy Spirit, eternal life. He was known to call for objections at the end of a sermon.', 'Windham, 1828'))
 A(QK('&ldquo;&hellip;I had been told that he was a very bold man, and at the close of his discourses he challenged objectors to make known their objections. Here, thought I, will be a good opportunity for me! and hence <b>I let a number of my brethren know that I intended to oppose him</b>.&rdquo;',
@@ -223,6 +244,7 @@ A(CARD('A Calvinist and a Universalist,<br>' + G('on the road together.'),
 
 # ---------- V. WARREN ----------
 A(SCENE('bg-warren-1846.jpg', 'The trial', 'Warren, August 1828', 'Public Square, Warren &middot; Henry Howe, <i>Historical Collections of Ohio</i> (1847)', 'The Mahoning Association met at Warren, the seat of Trumbull County, in the last week of August 1828 (exact days to check). Hayden was there &ldquo;from first to last&rdquo; (p. 161). A triumphant meeting: Methodists, Baptists, Universalists, now one body: &ldquo;a grand demonstration of the possibility of the union of Christians on original Bible ground&rdquo; (p. 162). And a worry. Engraving from Howe&rsquo;s drawings of the 1840s, the nearest view we have to the town of 1828.'))
+A(ASK(2, 'The stakes at Warren. Baptists and Methodists elsewhere would not even immerse a Universalist (Stacy and Person, New York, 1817). Hold it: the answer is the same as the first.'))
 # Stacy and Person (Eddy II, 7-8): hidden until Micah places it (2026-11-25). Candidates: before 'The worry' (here), at Sandy Lake, or before Alexander's proposal.
 HIDE(QK('&ldquo;He had, therefore, offered to receive it by the hands of both Baptist and Methodist, but <b>neither would baptize him unless he would renounce his faith in Universal Salvation.</b>&rdquo;',
      'Nathaniel Stacy, on Cornelius G. Person, New York, 1817 &middot; in Eddy, <i>Universalism in America</i>, vol. 2, p. 7', 'Elsewhere, a Universalist asks to be immersed', 'eddy2',
@@ -309,8 +331,7 @@ A(QK('&ldquo;Reason and experience unite their testimony in assuring us that, <b
      'He goes on: &ldquo;The greater the emphasis laid upon opinions, the more rapidly they generate. The nearest approaches to a unity of opinion which I have ever witnessed, have appeared in those societies in which no effort was made to be of one opinion; in which they allowed the greatest liberty of opinion, and in which they talked more and boasted more of the glory and majesty of the great facts, the wonderful works of God&rsquo;s loving kindness.&rdquo; Honest notes: the terms were that Raines not teach his opinion; a minority nearly split the Association, and some would-be members walked away (Richardson II, p. 246).'))
 
 # ---------- VII. THE HINGE ----------
-A(CARD('What was Campbell&rsquo;s<br>' + G('Bible method?'),
-  'Back to Windham. Not an argument against Universalism: Scott never made one. Four nights of whole chapters, and a preacher of five years saw the Bible for the first time.', 'The question'))
+A(ASK(3, 'Back to Windham. Not an argument against Universalism: Scott never made one. Four nights of whole chapters, and a preacher of five years saw the Bible for the first time. What was the method behind it?'))
 A(LIST('Two ways of reading', 'Raines, before and after',
   ['<b>Before:</b> a verse as proof. &ldquo;The scrap.&rdquo; The covenants a &ldquo;hotch-potch,&rdquo; &ldquo;a chaos.&rdquo;',
    '<b>Scott:</b> the whole chapter. The covenants in order. The story of faith.'],
@@ -324,8 +345,7 @@ A(QK('&ldquo;In reading the historical and epistolary parts of the sacred writin
 A(QK('&ldquo;The Bible is a book of facts, not of opinions, theories, abstract generalities, nor of verbal definitions&hellip; <b>History is therefore the plan pursued in both Testaments</b>&hellip;&rdquo;',
      AC + ', <i>The Christian System</i> (1839), p. 19', 'Campbell: a book of facts', 'cs',
      'In full: &ldquo;It is a book of awful facts, grand and sublime beyond description. These facts reveal God and man&hellip; The meaning of the Bible facts is the true biblical doctrine. History is therefore the plan pursued in both Testaments; for testimony has primarily to do with faith, and reasoning with the understanding.&rdquo; History and prophecy &ldquo;make up exactly four-fifths of all the volumes of inspiration.&rdquo; And: &ldquo;Fact means something done&rdquo; (p. 115). A book of deeds, a story; and its facts are received on testimony. That is the Warren sermon.'))
-A(CARD('What are these people all<br>' + G('doing with the Bible?'),
-  'Not Campbell now: the farmers, the diarists, the lay preachers. Their own words.', 'The question'))
+A(ASK(4, 'Not Campbell now: the farmers, the diarists, the lay preachers. Their own words.'))
 A(QK('&ldquo;His main object was to convince the people <b>that God meant what he said</b> in his Word, which caused great excitement&hellip; <b>many sitting up all night reading the Scriptures to see if they meant what they said</b>&hellip;&rdquo;',
      'Samuel Robbins&rsquo;s diary, Braceville Ridge, February 23, 1828 &middot; ' + HAY + ', p. 143', 'Up all night', 'hay',
      'Scott preaching, the winter before Warren; the excitement ran through &ldquo;Braceville and Windham.&rdquo; Robbins goes on: Scott held up his left hand and counted the five items on his fingers, &ldquo;then contrast it with the five points of Calvinism; and thus he made the Scripture order of the gospel so plain, that little boys could carry it home.&rdquo;'))
@@ -338,13 +358,13 @@ A(QK('&ldquo;I also discovered that I had never read the Scriptures, to form sen
 A(QK('&ldquo;It was easily perceived <b>the book was to be read like other books</b>&hellip; From that time the Bible was studied as a new book, and oh, what a change it made! It is better remembered and felt than told.&rdquo;',
      'William Hayden, in his own words &middot; ' + BAX + ', pp. 198&ndash;199', 'A new book', 'bax',
      'At a preachers&rsquo; meeting in New Lisbon, on &ldquo;the true principles of interpretation&rdquo;: &ldquo;first, find who speaks, who it is spoken to, what is the subject, what is the object, and what is the context.&rdquo; Then: &ldquo;every diligent student of it could be a self-taught disciple.&rdquo; Campbell&rsquo;s method, in a lay preacher&rsquo;s mouth.'))
+A(ASK(5, 'Last week&rsquo;s question, sharpened: not how did they unite, but how could they? Leave it open. To answer it, a detour, through a Wright.'))
 A(CARD('The accuser at Warren was a<br>' + G('Dr. Wright.'),
   'A small joke on the way. Two centuries later, another Wright is read all over the Churches of Christ, and here, and he reads the Bible the way Scott read it to Raines: as a story, in acts.', 'Another Wright'))
 
 # ---------- VIII. N. T. WRIGHT, AND CAMPBELL (Micah's outline, 2026-11-26) ----------
 A(C('N. T. Wright', 'Bishop of Durham (2003&ndash;2010); New Testament scholar at St Andrews and Oxford. Read across the Churches of Christ, and here at Otter Creek. Held over from Chapter 7: how Wright reads Scripture.', 'Two centuries later'))
-A(CARD('Wright is popular with us.<br>' + G('Why?'),
-  'Otter Creek reads Wright: the sermons, the classes, the books on the shelf. [Micah: examples from Otter Creek.] Four reasons, and Campbell beside each.', 'An observation'))
+A(ASK(6, 'The sub-question, and the storytelling trick: answer this one, and it frames the answer to the others. Otter Creek reads Wright: the sermons, the classes, the books on the shelf. [Micah: examples from Otter Creek.] Four things he does, and Campbell beside each.'))
 
 # 1. A historian, reading the Bible as a story
 A(CARD('Wright is a historian.<br>' + G('He reads the Bible as a story.'), 'The first of four. Wright, then Campbell.', 'Wright'))
@@ -396,6 +416,9 @@ A(QK('&ldquo;<b>The fact, or the thing said to be done, produces the change</b> 
      AC + ', <i>The Christian System</i> (1839), p. 122', 'Campbell: the story does the work', 'cs',
      'His chain: &ldquo;fact, testimony, faith, and feeling&rdquo; (same page), then action. The facts, understood, are &ldquo;a moral seal or archetype&rdquo; that draws the image of God on the soul (p. 116). Raines, 1830: &ldquo;The facts of the New Testament will conquer the world. They have conquered me.&rdquo;'))
 
+A(CARD('Both point us to<br>' + G('the power of the story.'),
+  'The answer to question 6. We are drawn to Wright because he points where Campbell pointed: the story of Scripture, read whole, read as history, with power of its own to change us. Historian and story; past the creeds; past the atonement theories; into the renewal of all things. Campbell&rsquo;s heirs kept his rules and lost his story; Wright gives it back.', 'Why Wright is popular among us'))
+
 # Hidden in the reshape (2026-11-26), kept for reference
 HIDE(QK('&ldquo;<b>The Old Testament has the authority that an earlier act of the play would have, no more, no less.</b>&rdquo;',
      LAING + ', p. 19', 'The two covenants', 'hcba',
@@ -415,6 +438,7 @@ A('<section class="slide"><div class=eyebrow>The quiz, again</div>'
   '<h2 style="max-width:none;font-size:clamp(40px,8vmin,104px)">&ldquo;We speak where the Bible speaks&hellip;&rdquo;</h2>'
   '<div class="sub frag" style="font-size:clamp(26px,5vmin,62px);color:var(--gold)">To whom? In which act? Read whole?</div>'
   '<aside class=notes>One click. Raines had a verse where the Bible spoke, and it spoke wrong until he heard the chapter. Where the Bible is silent (the end of all things, in Raines&rsquo;s case), Campbell&rsquo;s answer was: keep your opinion as private property, and preach the story.</aside></section>')
+A(ASK(0, 'All six, together. One answer serves them.', 'Our questions'))
 # One idea, three ramifications (Micah, 2026-11-26). The four earlier ideas (IDEAS, above) are no longer shown.
 A('<section class="slide idea room"><div class=eyebrow>Today&rsquo;s idea</div>'
   '<h2 style="max-width:none">The story ' + G('does the work.') + '</h2>'
