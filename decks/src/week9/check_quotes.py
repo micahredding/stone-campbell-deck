@@ -24,17 +24,21 @@ SRC = {
 }
 spec = importlib.util.spec_from_file_location('w9', os.path.join(H, 'slides.py')); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
 bad = 0
-for i, s in enumerate(m.S, 1):
+def items(s):
+    # a quote slide (data-chk on the section), or a paired slide (data-chk on each quotation)
+    pairs = re.findall(r'<span class=q data-chk="([^"]+)">(.*?)</span></p>', s, re.S)
+    if pairs: return pairs
     k = re.search(r'data-chk="([^"]+)"', s)
-    if not k: continue
-    k = k.group(1)
-    q = re.search(r'<span class=q>(.*?)</span></p>', s, re.S).group(1)
-    q = html.unescape(re.sub(r'<[^>]+>', '', q)).strip().strip('“”"').replace('…', '...')
-    if k == 'none':
-        print('%3d  SKIP  (checked by eye; see notes)  %s' % (i, q[:70])); continue
-    r = subprocess.run([sys.executable, QC, q, SRC[k], '--context', '8'], capture_output=True, text=True)
-    v = (r.stdout.strip().split('\n') or [''])[0].split(':')[0]
-    ok = v in ('EXACT', 'ELLIPSIS')
-    bad += not ok
-    print('%3d  %-9s %-7s %s' % (i, v, k, q[:70]))
+    if not k: return []
+    return [(k.group(1), re.search(r'<span class=q>(.*?)</span></p>', s, re.S).group(1))]
+for i, s in enumerate(m.S, 1):
+  for k, q in items(s):
+      q = html.unescape(re.sub(r'<[^>]+>', '', q)).strip().strip('“”"').replace('…', '...')
+      if k == 'none':
+          print('%3d  SKIP  (checked by eye; see notes)  %s' % (i, q[:70])); continue
+      r = subprocess.run([sys.executable, QC, q, SRC[k], '--context', '8'], capture_output=True, text=True)
+      v = (r.stdout.strip().split('\n') or [''])[0].split(':')[0]
+      ok = v in ('EXACT', 'ELLIPSIS')
+      bad += not ok
+      print('%3d  %-9s %-7s %s' % (i, v, k, q[:70]))
 print('\n%d not exact' % bad)

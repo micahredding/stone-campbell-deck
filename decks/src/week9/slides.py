@@ -116,6 +116,17 @@ def ASK(k, note, eyebrow='The question'):
             '<div class=litany style="text-align:left;gap:1.2vmin;max-width:90vw">%s</div>'
             '<aside class=notes>%s</aside></section>' % (eyebrow, ''.join(rows), note))
 
+def PAIR(eyebrow, wq, wcite, wkey, cq, ccite, ckey, note, size='clamp(28px,5.4vmin,66px)'):
+    # Wright on the left; one click brings Campbell in on the right. Each quotation carries its own data-chk.
+    def col(who, q, cite, key, frag):
+        return ('<div class="%s" style="flex:1;text-align:left">'
+                '<div class=eyebrow style="text-align:left;margin-bottom:1.2vmin">%s</div>'
+                '<p class=bigquote style="font-size:%s;line-height:1.25;max-width:none;text-align:left"><span class=q data-chk="%s">%s</span></p>'
+                '<div class=cite style="text-align:left">%s</div></div>') % ('frag' if frag else '', who, size, key, q, cite)
+    return ('<section class="slide"><div class=eyebrow>%s</div>'
+            '<div style="display:flex;gap:4.5vw;align-items:flex-start;max-width:92vw;margin-top:2vmin">%s%s</div>'
+            '<aside class=notes>%s</aside></section>') % (eyebrow, col('Wright', wq, wcite, wkey, False), col('Campbell', cq, ccite, ckey, True), note)
+
 S = []
 A = S.append
 def HIDE(slide): pass
@@ -362,16 +373,16 @@ A(ASK(5, 'Last week&rsquo;s question, sharpened: not how did they unite, but how
 A(CARD('The accuser at Warren was a<br>' + G('Dr. Wright.'),
   'A small joke on the way. Two centuries later, another Wright is read all over the Churches of Christ, and here, and he reads the Bible the way Scott read it to Raines: as a story, in acts.', 'Another Wright'))
 
-# ---------- VIII. N. T. WRIGHT, AND CAMPBELL (Micah's outline, 2026-11-26) ----------
+# ---------- VIII. N. T. WRIGHT, AND CAMPBELL (paired slides, Micah, 2026-11-27) ----------
 A(C('N. T. Wright', 'Bishop of Durham (2003&ndash;2010); New Testament scholar at St Andrews and Oxford. Read across the Churches of Christ, and here at Otter Creek. Held over from Chapter 7: how Wright reads Scripture.', 'Two centuries later'))
 A(ASK(6, 'The sub-question, and the storytelling trick: answer this one, and it frames the answer to the others. Otter Creek reads Wright: the sermons, the classes, the books on the shelf. [Micah: examples from Otter Creek.] Four things he does, and Campbell beside each.'))
 
-# 1. A historian, reading the Bible as a story
-A(CARD('Wright is a historian.<br>' + G('He reads the Bible as a story.'), 'The first of four. Wright, then Campbell.', 'Wright'))
-A(QK('&ldquo;<b>The historian has to plunge into the real world</b>, to follow the Jesus of Philippians 2 into the messy and risky sphere of history itself&hellip; in order to find out what it is in fact that God has sovereignly done&hellip;&rdquo;',
-     W18 + ', p. 22', 'Wright, the historian', 'w18',
-     'Then: &ldquo;We do not know this in advance. The first disciples didn&rsquo;t know it in advance.&rdquo; Campbell&rsquo;s word for what God has done is a fact: &ldquo;Fact means something done.&rdquo;'))
-A(w7.NEXT_WEEK[1])   # "Story authority"
+# 1. A historian, reading a story
+A(CARD('Wright is a historian.<br>' + G('He reads the Bible as a story.'), 'The first of four things Wright does that Campbell did. Each pair: Wright, then one click for Campbell.', '1 of 4'))
+A(PAIR('What God has done',
+  '&ldquo;The historian has to plunge into the real world&hellip; in order to find out <b>what it is in fact that God has sovereignly done</b>&hellip;&rdquo;', W18 + ', p. 22', 'w18',
+  '&ldquo;<b>Fact means something done.</b>&rdquo;', AC + ', <i>The Christian System</i> (1839), p. 115', 'cs',
+  'Wright&rsquo;s history and Campbell&rsquo;s fact are the same thing: what God did. Campbell goes on: &ldquo;The work of redemption is a system of works, or deeds, on the part of Heaven&hellip; the most splendid series of moral facts which man or angel ever saw&rdquo; (p. 116). Raines: Scott preached Hebrews 11, faith as a story of deeds, and &ldquo;here I virtually surrendered.&rdquo;'))
 A(QK('&ldquo;Suppose there exists a Shakespeare play <b>whose fifth act had been lost</b>.&rdquo;',
      LAING + ', p. 18', 'Wright&rsquo;s parable', 'hcba',
      'He goes on: the first four acts are so rich that the play ought to be staged; rather than write a fifth act once for all, give the parts to experienced actors &ldquo;who would immerse themselves in the first four acts, and in the language and culture of Shakespeare and his time, and who would then be told to work out a fifth act for themselves.&rdquo; &ldquo;The first four acts, existing as they did, would be the undoubted &lsquo;authority&rsquo; for the task in hand.&rdquo;', size='clamp(44px,9.6vmin,124px)', width='22ch'))
@@ -380,41 +391,35 @@ A(LIST('The five acts', 'Wright&rsquo;s play',
    '<b>5.</b> The church: the New Testament its first scene, and we are on stage.'],
   'Five clicks. Laing Lecture, p. 19: &ldquo;the possibility of seeing the five acts as follows: (1) Creation; (2) Fall; (3) Israel; (4) Jesus. The New Testament would then form the first scene in the fifth act, giving hints as well (Rom 8; 1 Cor 15; parts of the Apocalypse) of how the play is supposed to end.&rdquo; Note 1 Corinthians 15: Raines&rsquo;s chapter. Campbell&rsquo;s acts: the Patriarchal, the Jewish, the Christian ages (<i>Sermon on the Law</i>, 1816; &ldquo;the star-light&hellip; the moonlight&hellip; the sun-light of the moral world,&rdquo; <i>Christian Baptist</i>, 1828).',
   size='clamp(36px,7vmin,88px)', gap='1.6vmin'))
-A(QK('&ldquo;<b>The first act of the great drama closes with the Deluge.</b>&rdquo;',
-     'Alexander Campbell&rsquo;s <i>Christian Baptist</i> 6 (Dec. 1, 1828), &ldquo;The Patriarchal Age.&mdash;No. V,&rdquo; p. 118 (unsigned)', 'Campbell&rsquo;s paper, too, reads in acts', 'cb6',
-     'From Campbell&rsquo;s serial on the ages, running in his paper the very months of the Raines story (1828&ndash;30; this number unsigned, in the editor&rsquo;s series). Babel closes the second act; Abraham begins &ldquo;a new chapter.&rdquo; His ages: starlight, moonlight, twilight, sunlight. And Rule 2: &ldquo;Is he a Patriarch, a Jew, or a Christian?&rdquo;'))
+A(PAIR('In acts',
+  '&ldquo;<b>The Old Testament has the authority that an earlier act of the play would have, no more, no less.</b>&rdquo;', LAING + ', p. 19', 'hcba',
+  '&ldquo;<b>The first act of the great drama closes with the Deluge.</b>&rdquo;', 'Alexander Campbell&rsquo;s <i>Christian Baptist</i> 6 (Dec. 1, 1828), &ldquo;The Patriarchal Age.&mdash;No. V,&rdquo; p. 118 (unsigned)', 'cb6',
+  'Raines&rsquo;s third night: &ldquo;I certainly did not know the difference between the old covenant and the new&hellip; I made of them a chaos.&rdquo; Scott put the acts in order. Campbell&rsquo;s serial on the ages ran in his paper the very months of the Raines story; Babel closes the second act, Abraham begins &ldquo;a new chapter.&rdquo; Rule 2: &ldquo;Is he a Patriarch, a Jew, or a Christian?&rdquo;'))
 
 # 2. Creeds
-A(CARD('He pushes back on the creeds:<br>' + G('they divorce us from the text.'), 'Not that they are false. They are incomplete as narrative.', 'Wright'))
-A(w7.NEXT_WEEK[0])   # "Most of the Bible does not consist of rules... Nor does it consist of creeds"
-A(QK('&ldquo;&hellip;some of Christianity&rsquo;s Great Traditions have <b>slipped their moorings and floated off into the blue sky of speculation</b>&hellip;&rdquo;',
-     W18 + ', p. 20', 'Wright, on the creeds', 'w18',
-     'His example is Chalcedon, through Henry Chadwick: &ldquo;Abstract terms do not do justice to the vivid figure of the four Gospels.&rdquo; And: &ldquo;the ways we have perceived and re-expressed it have indeed introduced mistakes, precisely by not attending to the historical setting and meaning&rdquo; (p. 19). Dogma, tradition and piety &ldquo;all need to submit&hellip; to the original meaning of scripture itself.&rdquo;'))
-A(QK('&ldquo;Some of those dogmas <b>may be metaphysically true, but they are distilled truths.</b> They have come from the Calvinistic or Arminian distillery.&rdquo;',
-     AC + ', <i>Christian Baptist</i> 2 (March 7, 1825), &ldquo;On the Work of the Holy Spirit&hellip; No. VIII,&rdquo; p. 151', 'Campbell, on the creeds', 'cb2',
-     'Not wrong: &ldquo;may be metaphysically true.&rdquo; Distilled: taken out of the grain of the text. The next line: &ldquo;The men who deal in those distilled truths, and those who drink those distilled doctrines, are generally intoxicated.&rdquo; Creeds were never to be tests: &ldquo;Let the bible be substituted for all human creeds; facts, for definitions.&rdquo;'))
+A(CARD('He pushes back on the creeds:<br>' + G('they divorce us from the text.'), 'Not that they are false. They are incomplete as narrative.', '2 of 4'))
+A(PAIR('Distilled',
+  '&ldquo;&hellip;some of Christianity&rsquo;s Great Traditions have <b>slipped their moorings and floated off into the blue sky of speculation</b>&hellip;&rdquo;', W18 + ', p. 20', 'w18',
+  '&ldquo;Some of those dogmas <b>may be metaphysically true, but they are distilled truths.</b> They have come from the Calvinistic or Arminian distillery.&rdquo;', AC + ', <i>Christian Baptist</i> 2 (March 7, 1825), p. 151', 'cb2',
+  'Neither says the creeds are false: Campbell, &ldquo;may be metaphysically true&rdquo;; Wright&rsquo;s example is Chalcedon, whose abstract terms &ldquo;do not do justice to the vivid figure of the four Gospels&rdquo; (Chadwick, quoted p. 20). Wright also: the Bible is not &ldquo;creeds&mdash;lists of things to be believed&rdquo; (Laing Lecture, p. 9). Raines: Scott said his Universalism &ldquo;was a philosophy, as was Calvinism, Arminianism, etc., and no part of Christianity.&rdquo;'))
 
 # 3. Atonement theories
-A(CARD('He pushes back on atonement theories<br>' + G('that leave the story behind.'), 'Wright, then Campbell on his own early sermon.', 'Wright'))
-A(QK('&ldquo;<b>Theories of atonement do not need to be superimposed on an abstract narrative about Jesus</b>, as has so often been attempted. They grow out of the real-life Jesus stories we already have.&rdquo;',
-     NTW + ', <i>The Day the Revolution Began</i> (2016), p. 193', 'Wright, on the atonement', 'none',
-     'Checked in Micah&rsquo;s ebook (2026-11-04), not yet against a text in the database: recheck before class. Also p. 223: the meaning of Jesus&rsquo;s death &ldquo;is not a theological theme to be abstracted from this narrative or superimposed upon it.&rdquo;'))
-A(QK('&ldquo;It was rather a youthful performance&hellip; <b>Its views of the atonement are rather commercial than evangelical.</b>&rdquo;',
-     AC + ', <i>Millennial Harbinger</i> (1846), headnote to the <i>Sermon on the Law</i> (1816), p. 493', 'Campbell, on his own sermon', 'mh1846',
-     'Thirty years on, reprinting the sermon that got him tried for heresy, he left it unchanged and flagged the atonement: a transaction (commercial) rather than the gospel (evangelical). He judged the old view; he did not put a new theory in its place. &ldquo;But this was only casually introduced, and does not affect the object of the discourse.&rdquo;'))
+A(CARD('He pushes back on atonement theories<br>' + G('that leave the story behind.'), 'Wright, then Campbell on his own first great sermon.', '3 of 4'))
+A(PAIR('The atonement',
+  '&ldquo;<b>Theories of atonement do not need to be superimposed on an abstract narrative about Jesus</b>, as has so often been attempted. They grow out of the real-life Jesus stories we already have.&rdquo;', NTW + ', <i>The Day the Revolution Began</i> (2016), p. 193', 'none',
+  '&ldquo;It was rather a youthful performance&hellip; <b>Its views of the atonement are rather commercial than evangelical.</b>&rdquo;', AC + ', <i>Millennial Harbinger</i> (1846), on his <i>Sermon on the Law</i> (1816), p. 493', 'mh1846',
+  'Wright&rsquo;s line: checked in Micah&rsquo;s ebook (2026-11-04), not yet against a text in the database; recheck before class. Campbell reprinted the 1816 sermon thirty years on, unchanged, and flagged its atonement as a transaction (commercial) rather than the gospel (evangelical). That sermon got him tried for heresy by the Redstone Baptists: the young Campbell had his own Warren.'))
 
 # 4. Renewal, and living in the story
-A(CARD('He points us to the renewal of all things,<br>' + G('and invites us to live in that story.'), 'The last of the four.', 'Wright'))
-A(QK('&ldquo;<b>The point about new creation is that it is the renewal of this world</b>, not the substitution of another one.&rdquo;',
-     W18 + ', p. 19', 'Wright, on new creation', 'w18',
-     'Chapter 7&rsquo;s theme: God&rsquo;s future, lived now. Wright: good history, &ldquo;paying attention to the sources and thinking from their point of view,&rdquo; will explain it.'))
-A(QK('&ldquo;The church would then live under the &lsquo;authority&rsquo; of the extant story, being required to offer <b>something between an improvisation and an actual performance of the final act</b>.&rdquo;',
-     LAING + ', p. 19', 'Our part', 'hcba',
-     '&ldquo;Appeal could always be made to the inconsistency of what was being offered with a major theme or characterization in the earlier material.&rdquo; Faithful improvisation: not repeating earlier scenes, not making up a new play.'))
-A(w7.NEXT_WEEK[3])   # "not merely of the professional caste"
-A(QK('&ldquo;<b>The fact, or the thing said to be done, produces the change</b> in the frame of mind.&rdquo;',
-     AC + ', <i>The Christian System</i> (1839), p. 122', 'Campbell: the story does the work', 'cs',
-     'His chain: &ldquo;fact, testimony, faith, and feeling&rdquo; (same page), then action. The facts, understood, are &ldquo;a moral seal or archetype&rdquo; that draws the image of God on the soul (p. 116). Raines, 1830: &ldquo;The facts of the New Testament will conquer the world. They have conquered me.&rdquo;'))
+A(CARD('He points us to the renewal of all things,<br>' + G('and invites us to live in that story.'), 'The last of the four.', '4 of 4'))
+A(PAIR('The renewal of all things',
+  '&ldquo;<b>The point about new creation is that it is the renewal of this world</b>, not the substitution of another one.&rdquo;', W18 + ', p. 19', 'w18',
+  '&ldquo;It shall have for its object the developement, and introduction of that political and religious order of society called <b>THE MILLENNIUM</b>&hellip;&rdquo;', AC + ', <i>Millennial Harbinger</i> 1 (1830), prospectus', 'mh1830',
+  'The Harbinger began in January 1830, the year of Raines&rsquo;s letter. The prospectus goes on: &ldquo;which will be the consummation of that ultimate amelioration of society proposed in the Christian Scriptures.&rdquo; Chapter 7&rsquo;s theme: God&rsquo;s future, lived now.'))
+A(PAIR('Living in the story',
+  '&ldquo;The church would then live under the &lsquo;authority&rsquo; of the extant story, being required to offer <b>something between an improvisation and an actual performance of the final act</b>.&rdquo;', LAING + ', p. 19', 'hcba',
+  '&ldquo;<b>The fact, or the thing said to be done, produces the change</b> in the frame of mind.&rdquo;', AC + ', <i>The Christian System</i> (1839), p. 122', 'cs',
+  'Wright goes on: &ldquo;And that is the task of the whole church. Need I say, not merely of the professional caste within it&rdquo; (p. 27). Campbell&rsquo;s chain: &ldquo;fact, testimony, faith, and feeling&rdquo; (p. 122), then action; the facts are &ldquo;a moral seal or archetype&rdquo; that draws God&rsquo;s image on the soul (p. 116). Raines, 1830: &ldquo;The facts of the New Testament will conquer the world. They have conquered me.&rdquo;'))
 
 A(CARD('Both point us to<br>' + G('the power of the story.'),
   'The answer to question 6. We are drawn to Wright because he points where Campbell pointed: the story of Scripture, read whole, read as history, with power of its own to change us. Historian and story; past the creeds; past the atonement theories; into the renewal of all things. Campbell&rsquo;s heirs kept his rules and lost his story; Wright gives it back.', 'Why Wright is popular among us'))
@@ -432,6 +437,19 @@ HIDE(LIST('Campbell and Wright', 'Where they meet, where they part',
   size='clamp(30px,5.8vmin,72px)', gap='2.4vmin'))
 HIDE(CARD('How Wright-pilled<br>' + G('are we?'),
   'Held over from Chapter 7. Otter Creek reads Wright: Josh Graves, the sermons, the classes, the books on the shelf. Why are we drawn to him? Maybe because he gives back the half of Campbell his heirs dropped: the story. [Micah: examples from Otter Creek.]', 'An observation'))
+# Displaced by the paired slides (2026-11-27)
+HIDE(w7.NEXT_WEEK[1])   # "Story authority"
+HIDE(w7.NEXT_WEEK[0])   # "Most of the Bible does not consist of rules... Nor does it consist of creeds"
+HIDE(w7.NEXT_WEEK[3])   # "not merely of the professional caste"
+HIDE(QK('&ldquo;The church would then live under the &lsquo;authority&rsquo; of the extant story, being required to offer <b>something between an improvisation and an actual performance of the final act</b>.&rdquo;',
+     LAING + ', p. 19', 'Our part', 'hcba',
+     '&ldquo;Appeal could always be made to the inconsistency of what was being offered with a major theme or characterization in the earlier material.&rdquo; Faithful improvisation: not repeating earlier scenes, not making up a new play.'))
+HIDE(QK('&ldquo;&hellip;some of Christianity&rsquo;s Great Traditions have <b>slipped their moorings and floated off into the blue sky of speculation</b>&hellip;&rdquo;',
+     W18 + ', p. 20', 'Wright, on the creeds', 'w18',
+     'His example is Chalcedon, through Henry Chadwick: &ldquo;Abstract terms do not do justice to the vivid figure of the four Gospels.&rdquo; And: &ldquo;the ways we have perceived and re-expressed it have indeed introduced mistakes, precisely by not attending to the historical setting and meaning&rdquo; (p. 19). Dogma, tradition and piety &ldquo;all need to submit&hellip; to the original meaning of scripture itself.&rdquo;'))
+HIDE(QK('&ldquo;<b>The historian has to plunge into the real world</b>, to follow the Jesus of Philippians 2 into the messy and risky sphere of history itself&hellip; in order to find out what it is in fact that God has sovereignly done&hellip;&rdquo;',
+     W18 + ', p. 22', 'Wright, the historian', 'w18',
+     'Then: &ldquo;We do not know this in advance. The first disciples didn&rsquo;t know it in advance.&rdquo; Campbell&rsquo;s word for what God has done is a fact: &ldquo;Fact means something done.&rdquo;'))
 
 # ---------- CLOSE ----------
 A('<section class="slide"><div class=eyebrow>The quiz, again</div>'
