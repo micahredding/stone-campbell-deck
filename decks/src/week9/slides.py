@@ -34,16 +34,16 @@ def SVG(name, note):
     svg = open(os.path.join(_H, 'images', name)).read()
     return '<section class="slide" style="padding:0;background:#0e0b09">' + svg + '<aside class=notes>%s</aside></section>' % note
 
-def PORTRAIT(img, name, line, note, eyebrow='', h='74vh'):
+def PORTRAIT(img, name, line, note, eyebrow='', h='74vh', frame=True):
     # a portrait at the left, the name and one line at the right
     if not have(img):
         return C(name, note + ' [Portrait to come: %s]' % img, eyebrow)
     e = '<div class=eyebrow style="text-align:left">%s</div>' % eyebrow if eyebrow else ''
     return ('<section class="slide" style="flex-direction:row;gap:5vw;align-items:center;justify-content:center">'
-            '<img src="%s" alt="" style="max-height:%s;max-width:38vw;height:auto;border:1px solid rgba(201,162,74,.55);box-shadow:0 6px 24px rgba(0,0,0,.6);filter:sepia(.2)">'
+            '<img src="%s" alt="" style="max-height:%s;max-width:38vw;height:auto;%s">'
             '<div style="text-align:left;max-width:44vw">%s<h2 style="max-width:none;text-align:left">%s</h2>'
             '<div class=sub style="text-align:left;margin-top:2vmin">%s</div></div>'
-            '<aside class=notes>%s</aside></section>' % (b64(img), h, e, name, line, note))
+            '<aside class=notes>%s</aside></section>' % (b64(img), h, ('border:1px solid rgba(201,162,74,.55);box-shadow:0 6px 24px rgba(0,0,0,.6);filter:sepia(.2)' if frame else 'filter:drop-shadow(0 6px 18px rgba(0,0,0,.7))'), e, name, line, note))
 
 def WITHBG(slide, img, dim=.28, pos='center'):
     return w8.WITHBG(slide, img, dim, pos) if have(img) and os.path.dirname(img_path(img)).endswith('week8/images') else (
@@ -196,8 +196,8 @@ HIDE(QK('&ldquo;One grand objection that is very generally made against the doct
      'The charge everyone knew: no hell, no restraint, no social order (<i>Encyclopedia</i>, &ldquo;Universalism&rdquo;). For a Baptist association to receive a Universalist preacher was unheard of.'))
 
 # ---------- II. RAINES, AND WHERE ----------
-A(PORTRAIT('aylett-raines.jpg', 'Aylett Raines', 'Born in Virginia, 1797 or 1798. Five years a Universalist preacher.',
-  'Restorationist: a Universalist who held there is punishment after death, and then all are restored (Winchester&rsquo;s <i>Dialogues</i>, the book that converted him). Hayden: born near Fredericksburg, Spotsylvania County (p. 150, &ldquo;1797&rdquo;; his gravestone, as reported online, 22 Jan. 1798: to check). Christened at four in the Episcopal church, &ldquo;amidst many tears,&rdquo; tears &ldquo;of fear and apprehension&rdquo; (Hayden&rsquo;s words). Skeptical in his teens, after contradictory preaching and Paine&rsquo;s <i>Age of Reason</i>. Teaching school near Fredonia, Indiana, his employers were Universalists; he lost the arguments, and Winchester &ldquo;completed the work.&rdquo; Died at Eminence, Kentucky, 1881 (to check); fifty years a preacher of the gospel in Ohio and Kentucky.', 'Our man', h='56vh'))
+A(PORTRAIT('raines-1828-reconstruction.png', 'Aylett Raines', 'Born in Virginia, 1797 or 1798. Five years a Universalist preacher.<br><span style="font-size:.6em;opacity:.7">A reconstruction: Raines at about thirty, in 1828</span>',
+  'The face is a modern reconstruction of Raines at about thirty, worked from his one known photograph, taken late in life (images/SOURCES.md); not a period likeness, so say so. Restorationist: a Universalist who held there is punishment after death, and then all are restored (Winchester&rsquo;s <i>Dialogues</i>, the book that converted him). Hayden: born near Fredericksburg, Spotsylvania County (p. 150, &ldquo;1797&rdquo;; his gravestone, as reported online, 22 Jan. 1798: to check). Christened at four in the Episcopal church, &ldquo;amidst many tears,&rdquo; tears &ldquo;of fear and apprehension&rdquo; (Hayden&rsquo;s words). Skeptical in his teens, after contradictory preaching and Paine&rsquo;s <i>Age of Reason</i>. Teaching school near Fredonia, Indiana, his employers were Universalists; he lost the arguments, and Winchester &ldquo;completed the work.&rdquo; Died at Eminence, Kentucky, 1881 (to check); fifty years a preacher of the gospel in Ohio and Kentucky.', 'Our man', h='56vh', frame=False))
 A(SVG('map-road.svg', 'His road: Virginia; at fourteen, Jefferson County, Kentucky; teaching near Fredonia, Indiana, where he became a Universalist; then two years preaching &ldquo;at large,&rdquo; which brought him to the Western Reserve in 1828. Map drawn for the class from U.S. Census boundaries; the Reserve is shaded by today&rsquo;s counties.'))
 A(QK('&ldquo;He had, therefore, offered to receive it by the hands of both Baptist and Methodist, but <b>neither would baptize him unless he would renounce his faith in Universal Salvation.</b>&rdquo;',
      'Nathaniel Stacy, on Cornelius G. Person, New York, 1817 &middot; in Eddy, <i>Universalism in America</i>, vol. 2, p. 7', 'Elsewhere, a Universalist asks to be immersed', 'eddy2',
