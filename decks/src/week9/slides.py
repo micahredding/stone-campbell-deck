@@ -193,13 +193,15 @@ A(SVG('map-road.svg', 'His road: Virginia; at fourteen, Jefferson County, Kentuc
 A(QK('&ldquo;I got religion. <b>The sky appeared to be bluer, the leaves looked greener, and the birds sang more sweetly than ever before.</b>&rdquo;',
      RAINES + ', p. 151', 'Raines, on becoming a Universalist', 'hay',
      'He goes on: &ldquo;I underwent a great moral change. There was much of the love of God in it. Shrouded as I was in error, yet there were apertures through which the love of God passed into my heart, and made me inexpressibly happy.&rdquo; Then: &ldquo;I now commenced the study of the Scriptures in good earnest, and after two years commenced preaching.&rdquo; He preached Restorationism &ldquo;five years.&rdquo; A real conversion, in his own telling, to a faith he would later leave.'))
+A(QK('&ldquo;In these, one sectarianism was arrayed against another; and those that came plunging and crashing against mine <b>seemed so very frail, and made so feeble a defense, as rather to confirm me in my errors</b>.&rdquo;',
+     RAINES + ', p. 151', 'His debates', 'hay',
+     'Five years a Universalist preacher, two of them traveling &ldquo;at large&rdquo;: &ldquo;This, of course, provoked great opposition, and I had a number of debates.&rdquo; Argument only confirmed him. Hold that against what Scott does.'))
 A(SVG('map-reserve.svg', 'The Western Reserve: Connecticut&rsquo;s strip of northeast Ohio, kept when it ceded its western claims (1786), sold in 1795, surveyed in 1796, and settled by New Englanders, who brought Universalism with them. Everything in this story happens within about thirty miles: Windham, Ravenna, Shalersville, Sandy Lake, Austintown, Warren. New Lisbon, where Walter Scott first preached the &ldquo;ancient gospel&rdquo; (November 1827), lies south of the Reserve; Bethany, the Campbells&rsquo; home, seventy miles south. The Mahoning Baptist Association had made Scott its evangelist in 1827; by August 1828 nearly a thousand had been added to its churches (Richardson II, p. 244).'))
 A(QK('&ldquo;Misrepresentations&hellip; <b>were as numerous as blackbirds in August</b>&hellip;&rdquo;',
      RAINES + ', p. 152', 'The Reserve in 1828', 'hay',
      'In full: &ldquo;Hundreds were being baptized. Much interest had been awakened in behalf of the gospel, and bitter was the opposition which had been enlisted against it. Misrepresentations &mdash; not to use a harsher term &mdash; were as numerous as blackbirds in August, and these too, very often by those who professed to be &lsquo;embassadors for Christ&rsquo;&rdquo;. The rumor about Scott&rsquo;s preaching: &ldquo;Just say you believe, and let a preacher dip you&rdquo;.', size='clamp(40px,8.6vmin,110px)', width='26ch'))
 
 # ---------- III. WINDHAM ----------
-A(ASK(1, 'Hold the question. The answer comes at the end: he let the story do the work. Each new question widens the circle: one preacher, one leader, one method, a whole people, a movement, and us.'))
 A(PORTRAIT('walter-scott.jpg', 'Walter Scott', 'The evangelist of the Mahoning Association, 1827&ndash;30.',
   'Scott (1796&ndash;1861): Scottish-born, a schoolmaster in Pittsburgh, the Association&rsquo;s evangelist from August 1827. His plan of the gospel in &ldquo;six points&rdquo; (later counted on five fingers): faith, repentance, baptism, remission of sins, the gift of the Holy Spirit, eternal life. He was known to call for objections at the end of a sermon.', 'Windham, 1828'))
 A(QK('&ldquo;&hellip;I had been told that he was a very bold man, and at the close of his discourses he challenged objectors to make known their objections. Here, thought I, will be a good opportunity for me! and hence <b>I let a number of my brethren know that I intended to oppose him</b>.&rdquo;',
@@ -208,6 +210,12 @@ A(QK('&ldquo;&hellip;I had been told that he was a very bold man, and at the clo
 A(QK('&ldquo;&hellip;when he called for objections I was confounded. <b>I could see the heads of my brethren moving to the right and left, in the crowd, expecting to see me rise to my feet. But they didn&rsquo;t see me rise!</b>&rdquo;',
      RAINES + ', p. 152', 'The first night', 'hay',
      'Scott read 1 Corinthians 1 and &ldquo;preached it through, not forgetting to state and defend what he styled the six points of the gospel. I was greatly surprised.&rdquo; Why he kept his seat: &ldquo;I felt certain that if I opposed Bro. Scott I would expose myself. His discourse appeared to me, at every point, invulnerable.&rdquo; Richardson: he was even asked to close the meeting in prayer, and slipped in his favorite petition, for &ldquo;a Pentecostean season&rdquo; and the baptism &ldquo;with fire&rdquo; (II, p. 220).'))
+A(QK('&ldquo;<b>I felt certain that if I opposed Bro. Scott I would expose myself.</b> His discourse appeared to me, at every point, invulnerable.&rdquo;',
+     RAINES + ', pp. 152&ndash;153', 'Why he kept his seat', 'hay',
+     'Scott had not argued with him. He read a chapter and preached it through.'))
+A(QK('&ldquo;&hellip;when called upon to close the meeting, made an excellent prayer, desiring that all might have a spirit of obedience, etc., but <b>taking care to introduce his favorite petition that they might have a Pentecostean season and be baptized with the Holy Ghost and with fire</b>.&rdquo;',
+     RICH + ', p. 220', 'Asked to close in prayer', 'rich2',
+     'Richardson&rsquo;s telling, not Raines&rsquo;s own words. The heckler, asked to pray, got his objection in anyway: the Universalists held to the baptism of fire and the Spirit, not of water. Next day he went back, &ldquo;hoping that he would now be more successful in detecting errors&rdquo; (p. 220).'))
 A(TALK('Outside, in the yard', [
     ('His brethren', '&ldquo;Bro. Raines, what do you think of the discourse?&rdquo;'),
     ('Raines', '&ldquo;I can do nothing against the gospel as preached by Bro. Scott; unless I should live to disgrace it; which may our gracious Lord forbid!&rdquo;')],
@@ -234,6 +242,12 @@ A(QK('&ldquo;<b>Here I virtually surrendered</b> &mdash; not that I was convince
 A(QK('&ldquo;Bro. Scott said nothing on this subject, only that <b>it was a philosophy, as was Calvinism, Arminianism, etc., and no part of Christianity</b>.&rdquo;',
      RAINES + ', p. 154', 'What Scott said about his Universalism', 'hay',
      'Raines goes on: &ldquo;He convinced me that I ought to lay my philosophy aside, and preach the gospel as the apostles preached&hellip; This was, so far, a capital conquest, for it terminated in due time in the conviction, in my mind, that Restorationism itself&hellip; is founded in error.&rdquo; Scott set the opinion to one side and preached the story.'))
+A(QK('&ldquo;<b>He convinced me that I ought to lay my philosophy aside, and preach the gospel as the apostles preached</b>, making their discourses a model to be accurately copied by me in all my ministrations.&rdquo;',
+     RAINES + ', p. 154', 'Lay it aside', 'hay',
+     'Then: &ldquo;This was, so far, a capital conquest, for it terminated in due time in the conviction, in my mind, that Restorationism itself, as much as I had formerly idolized it, is founded in error.&rdquo; Not argued out of the opinion: asked to set it aside, and the opinion faded on its own.'))
+A(QK('&ldquo;<b>I resolved that I would preach as Bro. Scott had done</b>, and as I believed the apostles did, and that <b>at the close of each discourse I would call for objections</b>.&rdquo;',
+     RAINES + ', p. 154', 'The heckler invites hecklers', 'hay',
+     'He had his own preaching tour to finish. &ldquo;And I told my old brethren that I threw myself on their mercy; in other words, that if they believed me to be going astray, in mercy to set me right. This attempt was often made within this tour, but it only served to convince me more satisfactorily that I was right.&rdquo; Richardson: their arguments &ldquo;were so feeble that he became only the more convinced&rdquo; (II, p. 221).'))
 A(QK('&ldquo;My friends, I find myself in a strait; I am shut up in a dilemma; and <b>I can see no way out, with the Word of God in my hand, but through the obedience of faith in baptism.</b> If any of you can see any other, I implore you in the name of my Master to show it to me.&rdquo;',
      'Raines at Austintown, April (1828) &middot; as Hayden reports it, p. 131', 'He tells his own people', 'hay',
      'He kept his old appointments, and told them so: &ldquo;I threw myself on their mercy; in other words, that if they believed me to be going astray, in mercy to set me right&rdquo; (p. 154). At Austintown, word had gone round that he would preach his renunciation of Universalism; the house was full. Hayden: the Universalists &ldquo;jerked up their chairs, started over the benches, and hurried to their homes.&rdquo; (Hayden gives &ldquo;April,&rdquo; no year; 1828 by the order of events.)'))
@@ -242,6 +256,7 @@ A(WITHBG(QK('&ldquo;&hellip;<b>taking hold of each other&rsquo;s hands, we walke
      'Ebenezer Williams, Universalist preacher of Ravenna &middot; in Hayden, p. 157', 'Sandy Lake, May 1828', 'hay',
      'Williams, the minister ordained by the Universalian Association in 1821, had just preached against baptism at Shalersville and could not sleep. Then: &ldquo;a child came and informed me that Bro. Raines was at the house&hellip; Bro. Raines said he had been hearing Walter Scott; that he had got into trouble, and wanted me to help him out&rdquo; (p. 156). Sandy Lake: &ldquo;a beautiful pond in the corners of Brimfield and Rootstown.&rdquo; It cost Williams his salary: &ldquo;Thus I turned my back on the four hundred a year.&rdquo; Raines: &ldquo;within five weeks I immersed fifty persons, three of them, counting Bro. Williams, talented [Universalist] preachers&rdquo; (p. 154).'), 'bg-baptism.jpg', .26))
 
+A(ASK(1, 'The end of the Windham story. Hold the question. The answer comes at the end: he let the story do the work. Each new question widens the circle: one preacher, one leader, one method, a whole people, a movement, and us.'))
 # ---------- IV. THOMAS CAMPBELL ----------
 A(PORTRAIT('tcampbell-oval.jpg', 'Thomas Campbell', 'Sixty-five, a Calvinist all his life.',
   'The author of the <i>Declaration and Address</i> (1809), now on the Western Reserve helping the work. Hayden: &ldquo;probably no man within the reformation who possessed such authority of personal influence; of noble mien and manly form; grave and serene of countenance&rdquo; (p. 149).', 'On the road, summer 1828'))
@@ -256,7 +271,6 @@ A(CARD('A Calvinist and a Universalist,<br>' + G('on the road together.'),
 
 # ---------- V. WARREN ----------
 A(SCENE('bg-warren-1846.jpg', 'The trial', 'Warren, August 1828', 'Public Square, Warren &middot; Henry Howe, <i>Historical Collections of Ohio</i> (1847)', 'The Mahoning Association met at Warren, the seat of Trumbull County, in the last week of August 1828 (exact days to check). Hayden was there &ldquo;from first to last&rdquo; (p. 161). A triumphant meeting: Methodists, Baptists, Universalists, now one body: &ldquo;a grand demonstration of the possibility of the union of Christians on original Bible ground&rdquo; (p. 162). And a worry. Engraving from Howe&rsquo;s drawings of the 1840s, the nearest view we have to the town of 1828.'))
-A(ASK(2, 'The stakes at Warren. Baptists and Methodists elsewhere would not even immerse a Universalist (Stacy and Person, New York, 1817). Hold it: the answer is the same as the first.'))
 # Stacy and Person (Eddy II, 7-8): hidden until Micah places it (2026-11-25). Candidates: before 'The worry' (here), at Sandy Lake, or before Alexander's proposal.
 HIDE(QK('&ldquo;He had, therefore, offered to receive it by the hands of both Baptist and Methodist, but <b>neither would baptize him unless he would renounce his faith in Universal Salvation.</b>&rdquo;',
      'Nathaniel Stacy, on Cornelius G. Person, New York, 1817 &middot; in Eddy, <i>Universalism in America</i>, vol. 2, p. 7', 'Elsewhere, a Universalist asks to be immersed', 'eddy2',
@@ -327,6 +341,7 @@ A(TALK('Sunday, the sunrise prayer meeting', [
     ('Raines', '&ldquo;I second that motion; for <i>by grace are ye saved through faith</i>&hellip; Now, if any member of this association holds any doctrine contradictory to the teaching of this passage, I move that he be immediately disfellowshiped.&rdquo;'),
     ('Raines', '&ldquo;The old Brother who had put the motion, <b>struck a direct line for the door</b>, and the congregation followed him; and there my association troubles ended.&rdquo;')],
   'Three clicks. Hayden p. 169. &ldquo;In a twinkling I was on my feet.&rdquo; Ephesians 2:8&ndash;9. Raines: &ldquo;Affairs, however, would probably have taken a very different turn, had somebody else than myself seconded the old man&rsquo;s motion.&rdquo;', size='clamp(25px,4.5vmin,56px)'))
+A(ASK(2, 'After the vote and the sunrise motion. The stakes were real: Baptists and Methodists elsewhere would not even immerse a Universalist (Stacy and Person, New York, 1817). Hold it: the answer is the same as the first.'))
 A(CARD('The rest<br>' + G('of the story.'),
   'In Raines&rsquo;s own words, forty years on and two years on.', 'Raines'))
 A(QK('&ldquo;<b>Had they attempted to brow-beat me I might have been ruined forever.</b> But treating me kindly, at the same time that they convinced me that my opinion, whether true or false, dwindled into nothingness in comparison with the faith of the gospel, <b>redeemed me</b>.&rdquo;',
@@ -343,7 +358,6 @@ A(QK('&ldquo;Reason and experience unite their testimony in assuring us that, <b
      'He goes on: &ldquo;The greater the emphasis laid upon opinions, the more rapidly they generate. The nearest approaches to a unity of opinion which I have ever witnessed, have appeared in those societies in which no effort was made to be of one opinion; in which they allowed the greatest liberty of opinion, and in which they talked more and boasted more of the glory and majesty of the great facts, the wonderful works of God&rsquo;s loving kindness.&rdquo; Honest notes: the terms were that Raines not teach his opinion; a minority nearly split the Association, and some would-be members walked away (Richardson II, p. 246).'))
 
 # ---------- VII. THE HINGE ----------
-A(ASK(3, 'Back to Windham. Not an argument against Universalism: Scott never made one. Four nights of whole chapters, and a preacher of five years saw the Bible for the first time. What was the method behind it?'))
 A(LIST('Two ways of reading', 'Raines, before and after',
   ['<b>Before:</b> a verse as proof. &ldquo;The scrap.&rdquo; The covenants a &ldquo;hotch-potch,&rdquo; &ldquo;a chaos.&rdquo;',
    '<b>Scott:</b> the whole chapter. The covenants in order. The story of faith.'],
@@ -357,7 +371,7 @@ A(QK('&ldquo;In reading the historical and epistolary parts of the sacred writin
 A(QK('&ldquo;The Bible is a book of facts, not of opinions, theories, abstract generalities, nor of verbal definitions&hellip; <b>History is therefore the plan pursued in both Testaments</b>&hellip;&rdquo;',
      AC + ', <i>The Christian System</i> (1839), p. 19', 'Campbell: a book of facts', 'cs',
      'In full: &ldquo;It is a book of awful facts, grand and sublime beyond description. These facts reveal God and man&hellip; The meaning of the Bible facts is the true biblical doctrine. History is therefore the plan pursued in both Testaments; for testimony has primarily to do with faith, and reasoning with the understanding.&rdquo; History and prophecy &ldquo;make up exactly four-fifths of all the volumes of inspiration.&rdquo; And: &ldquo;Fact means something done&rdquo; (p. 115). A book of deeds, a story; and its facts are received on testimony. That is the Warren sermon.'))
-A(ASK(4, 'Not Campbell now: the farmers, the diarists, the lay preachers. Their own words.'))
+A(ASK(3, 'A rule, a book of facts. But what was the method, really, that made a Universalist preacher see the Bible for the first time? Hold it.'))
 A(QK('&ldquo;His main object was to convince the people <b>that God meant what he said</b> in his Word, which caused great excitement&hellip; <b>many sitting up all night reading the Scriptures to see if they meant what they said</b>&hellip;&rdquo;',
      'Samuel Robbins&rsquo;s diary, Braceville Ridge, February 23, 1828 &middot; ' + HAY + ', p. 143', 'Up all night', 'hay',
      'Scott preaching, the winter before Warren; the excitement ran through &ldquo;Braceville and Windham.&rdquo; Robbins goes on: Scott held up his left hand and counted the five items on his fingers, &ldquo;then contrast it with the five points of Calvinism; and thus he made the Scripture order of the gospel so plain, that little boys could carry it home.&rdquo;'))
@@ -370,13 +384,13 @@ A(QK('&ldquo;I also discovered that I had never read the Scriptures, to form sen
 A(QK('&ldquo;It was easily perceived <b>the book was to be read like other books</b>&hellip; From that time the Bible was studied as a new book, and oh, what a change it made! It is better remembered and felt than told.&rdquo;',
      'William Hayden, in his own words &middot; ' + BAX + ', pp. 198&ndash;199', 'A new book', 'bax',
      'At a preachers&rsquo; meeting in New Lisbon, on &ldquo;the true principles of interpretation&rdquo;: &ldquo;first, find who speaks, who it is spoken to, what is the subject, what is the object, and what is the context.&rdquo; Then: &ldquo;every diligent student of it could be a self-taught disciple.&rdquo; Campbell&rsquo;s method, in a lay preacher&rsquo;s mouth.'))
+A(ASK(4, 'Not Campbell now: the farmers, the diarists, the lay preachers. Their own words.'))
 A(ASK(5, 'Last week&rsquo;s question, sharpened: not how did they unite, but how could they? Leave it open. To answer it, a detour, through a Wright.'))
 A(CARD('The accuser at Warren was a<br>' + G('Dr. Wright.'),
   'A small joke on the way. Two centuries later, another Wright is read all over the Churches of Christ, and here, and he reads the Bible the way Scott read it to Raines: as a story, in acts.', 'Another Wright'))
 
 # ---------- VIII. N. T. WRIGHT, AND CAMPBELL (paired slides, Micah, 2026-11-27) ----------
 A(C('N. T. Wright', 'Bishop of Durham (2003&ndash;2010); New Testament scholar at St Andrews and Oxford. Read across the Churches of Christ, and here at Otter Creek. Held over from Chapter 7: how Wright reads Scripture.', 'Two centuries later'))
-A(ASK(6, 'The sub-question, and the storytelling trick: answer this one, and it frames the answer to the others. Otter Creek reads Wright: the sermons, the classes, the books on the shelf. [Micah: examples from Otter Creek.] Four things he does, and Campbell beside each.'))
 
 # 1. A historian, reading a story
 A(CARD('Wright is a historian.<br>' + G('He reads the Bible as a story.'), 'The first of four things Wright does that Campbell did. Each pair: Wright, then one click for Campbell.', '1 of 4'))
@@ -422,6 +436,7 @@ A(PAIR('Living in the story',
   '&ldquo;<b>The fact, or the thing said to be done, produces the change</b> in the frame of mind.&rdquo;', AC + ', <i>The Christian System</i> (1839), p. 122', 'cs',
   'Wright goes on: &ldquo;And that is the task of the whole church. Need I say, not merely of the professional caste within it&rdquo; (p. 27). Campbell&rsquo;s chain: &ldquo;fact, testimony, faith, and feeling&rdquo; (p. 122), then action; the facts are &ldquo;a moral seal or archetype&rdquo; that draws God&rsquo;s image on the soul (p. 116). Raines, 1830: &ldquo;The facts of the New Testament will conquer the world. They have conquered me.&rdquo;'))
 
+A(ASK(6, 'The sub-question, asked after the pairs, and the storytelling trick: answer this one, and it frames the answer to the others. Answer, next slide. Otter Creek reads Wright: the sermons, the classes, the books on the shelf. [Micah: examples from Otter Creek.] Four things he does, and Campbell beside each.'))
 A(CARD('Both point us to<br>' + G('the power of the story.'),
   'The answer to question 6. We are drawn to Wright because he points where Campbell pointed: the story of Scripture, read whole, read as history, with power of its own to change us. Historian and story; past the creeds; past the atonement theories; into the renewal of all things. Campbell&rsquo;s heirs kept his rules and lost his story; Wright gives it back.', 'Why Wright is popular among us'))
 
