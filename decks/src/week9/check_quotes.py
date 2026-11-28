@@ -11,6 +11,7 @@ SRC = {
     'hay': os.path.join(X, 'Early History of the Disciples in the Western Reserve (A. S. Hayden 1875).txt'),
     'rich2': os.path.join(X, 'Memoirs of Alexander Campbell Volumes 1-2 (Richardson, archive.org memoirsofalexand12rich).txt'),
     'mh1830': os.path.join(P, 'Millennial Harbinger', 'Millennial Harbinger 1830.md'),
+    'mh1832': os.path.join(P, 'Millennial Harbinger', 'Millennial Harbinger 1832.md'),
     'mh1846': os.path.join(P, 'Millennial Harbinger', 'Millennial Harbinger 1846.md'),
     'cs': os.path.join(X, 'The Christian System (Alexander Campbell).md'),
     'eddy2': os.path.join(U, 'universalisminam02eddy.txt'),
