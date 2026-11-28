@@ -96,18 +96,17 @@ def IDEASUM(note):
 
 # The escalating questions (Micah, 2026-11-26): each card shows the ones before it, dimmed.
 QUESTIONS = [
+    'How did they unite <span style="color:var(--gold)">around the Bible?</span>',
     'What made Scott&rsquo;s preaching <span style="color:var(--gold)">so compelling?</span>',
-    'How could Campbell <span style="color:var(--gold)">embrace a Universalist?</span>',
-    'What was Campbell&rsquo;s <span style="color:var(--gold)">Bible method?</span>',
-    'What are these people all <span style="color:var(--gold)">doing with the Bible?</span>',
-    'How could a whole movement <span style="color:var(--gold)">unite on the Bible?</span>',
+    'How could the Campbells <span style="color:var(--gold)">embrace a Universalist?</span>',
+    'What were all these people <span style="color:var(--gold)">doing with the Bible?</span>',
     'Why is Wright <span style="color:var(--gold)">popular among us?</span>',
 ]
-def ASK(k, note, eyebrow='The question'):
+def ASK(k, note, eyebrow='The question', upto=None):
     # k = 1..6: questions 1..k-1 small and dim, question k large; k = 0: all of them, even
     rows = []
     for n, q in enumerate(QUESTIONS, 1):
-        if k and n > k: break
+        if (k and n > k) or (upto and n > upto): break
         if k and n < k: st = 'font-size:clamp(20px,3.3vmin,40px);opacity:.42'
         elif k: st = 'font-size:clamp(40px,7.6vmin,96px);margin-top:1.4vmin'
         else: st = 'font-size:clamp(30px,6.2vmin,78px)'
@@ -190,6 +189,9 @@ HIDE(QK('&ldquo;One grand objection that is very generally made against the doct
 A(PORTRAIT('aylett-raines.jpg', 'Aylett Raines', 'Born in Virginia, 1797 or 1798. Five years a Universalist preacher.',
   'Restorationist: a Universalist who held there is punishment after death, and then all are restored (Winchester&rsquo;s <i>Dialogues</i>, the book that converted him). Hayden: born near Fredericksburg, Spotsylvania County (p. 150, &ldquo;1797&rdquo;; his gravestone, as reported online, 22 Jan. 1798: to check). Christened at four in the Episcopal church, &ldquo;amidst many tears,&rdquo; tears &ldquo;of fear and apprehension&rdquo; (Hayden&rsquo;s words). Skeptical in his teens, after contradictory preaching and Paine&rsquo;s <i>Age of Reason</i>. Teaching school near Fredonia, Indiana, his employers were Universalists; he lost the arguments, and Winchester &ldquo;completed the work.&rdquo; Died at Eminence, Kentucky, 1881 (to check); fifty years a preacher of the gospel in Ohio and Kentucky.', 'Our man', h='56vh'))
 A(SVG('map-road.svg', 'His road: Virginia; at fourteen, Jefferson County, Kentucky; teaching near Fredonia, Indiana, where he became a Universalist; then two years preaching &ldquo;at large,&rdquo; which brought him to the Western Reserve in 1828. Map drawn for the class from U.S. Census boundaries; the Reserve is shaded by today&rsquo;s counties.'))
+A(QK('&ldquo;He had, therefore, offered to receive it by the hands of both Baptist and Methodist, but <b>neither would baptize him unless he would renounce his faith in Universal Salvation.</b>&rdquo;',
+     'Nathaniel Stacy, on Cornelius G. Person, New York, 1817 &middot; in Eddy, <i>Universalism in America</i>, vol. 2, p. 7', 'Elsewhere, a Universalist asks to be immersed', 'eddy2',
+     'Person, a Universalist preacher in Greenfield, N.Y., came to believe he should be immersed; he &ldquo;considered all who named the name of Christ as Christians.&rdquo; Refused by both, he asked Stacy, a fellow Universalist, who came the next February: &ldquo;we had a hole cut in the ice, and I baptized him&rdquo; (Eddy II, 8). The contrast with Warren: the Baptists and Methodists asked him to give up the opinion first; the Mahoning Association, itself still a Baptist association in 1828, received Raines with his opinion kept as private property.'))
 A(QK('&ldquo;I got religion. <b>The sky appeared to be bluer, the leaves looked greener, and the birds sang more sweetly than ever before.</b>&rdquo;',
      RAINES + ', p. 151', 'Raines, on becoming a Universalist', 'hay',
      'He goes on: &ldquo;I underwent a great moral change. There was much of the love of God in it. Shrouded as I was in error, yet there were apertures through which the love of God passed into my heart, and made me inexpressibly happy.&rdquo; Then: &ldquo;I now commenced the study of the Scriptures in good earnest, and after two years commenced preaching.&rdquo; He preached Restorationism &ldquo;five years.&rdquo; A real conversion, in his own telling, to a faith he would later leave.'))
@@ -256,7 +258,7 @@ A(WITHBG(QK('&ldquo;&hellip;<b>taking hold of each other&rsquo;s hands, we walke
      'Ebenezer Williams, Universalist preacher of Ravenna &middot; in Hayden, p. 157', 'Sandy Lake, May 1828', 'hay',
      'Williams, the minister ordained by the Universalian Association in 1821, had just preached against baptism at Shalersville and could not sleep. Then: &ldquo;a child came and informed me that Bro. Raines was at the house&hellip; Bro. Raines said he had been hearing Walter Scott; that he had got into trouble, and wanted me to help him out&rdquo; (p. 156). Sandy Lake: &ldquo;a beautiful pond in the corners of Brimfield and Rootstown.&rdquo; It cost Williams his salary: &ldquo;Thus I turned my back on the four hundred a year.&rdquo; Raines: &ldquo;within five weeks I immersed fifty persons, three of them, counting Bro. Williams, talented [Universalist] preachers&rdquo; (p. 154).'), 'bg-baptism.jpg', .26))
 
-A(ASK(1, 'The end of the Windham story. Hold the question. The answer comes at the end: he let the story do the work. Each new question widens the circle: one preacher, one leader, one method, a whole people, a movement, and us.'))
+A(ASK(2, 'The end of the Windham story. Hold the question: question 1 was last week&rsquo;s, still open.'))
 # ---------- IV. THOMAS CAMPBELL ----------
 A(PORTRAIT('tcampbell-oval.jpg', 'Thomas Campbell', 'Sixty-five, a Calvinist all his life.',
   'The author of the <i>Declaration and Address</i> (1809), now on the Western Reserve helping the work. Hayden: &ldquo;probably no man within the reformation who possessed such authority of personal influence; of noble mien and manly form; grave and serene of countenance&rdquo; (p. 149).', 'On the road, summer 1828'))
@@ -270,32 +272,28 @@ A(CARD('A Calvinist and a Universalist,<br>' + G('on the road together.'),
   'An old Calvinist and a young Universalist, travelling and preaching for months. They disagreed about the end of all things, and Thomas never set out to argue him out of it. Thomas, in Raines&rsquo;s memory: &ldquo;we have mutually unbosomed ourselves to each other.&rdquo;'))
 
 # ---------- V. WARREN ----------
-A(SCENE('bg-warren-1846.jpg', 'The trial', 'Warren, August 1828', 'Public Square, Warren &middot; Henry Howe, <i>Historical Collections of Ohio</i> (1847)', 'The Mahoning Association met at Warren, the seat of Trumbull County, in the last week of August 1828 (exact days to check). Hayden was there &ldquo;from first to last&rdquo; (p. 161). A triumphant meeting: Methodists, Baptists, Universalists, now one body: &ldquo;a grand demonstration of the possibility of the union of Christians on original Bible ground&rdquo; (p. 162). And a worry. Engraving from Howe&rsquo;s drawings of the 1840s, the nearest view we have to the town of 1828.'))
-# Stacy and Person (Eddy II, 7-8): hidden until Micah places it (2026-11-25). Candidates: before 'The worry' (here), at Sandy Lake, or before Alexander's proposal.
-HIDE(QK('&ldquo;He had, therefore, offered to receive it by the hands of both Baptist and Methodist, but <b>neither would baptize him unless he would renounce his faith in Universal Salvation.</b>&rdquo;',
-     'Nathaniel Stacy, on Cornelius G. Person, New York, 1817 &middot; in Eddy, <i>Universalism in America</i>, vol. 2, p. 7', 'Elsewhere, a Universalist asks to be immersed', 'eddy2',
-     'Person, a Universalist preacher in Greenfield, N.Y., came to believe he should be immersed; he &ldquo;considered all who named the name of Christ as Christians.&rdquo; Refused by both, he asked Stacy, a fellow Universalist, who came the next February: &ldquo;we had a hole cut in the ice, and I baptized him&rdquo; (Eddy II, 8). The contrast with Warren: the Baptists and Methodists asked him to give up the opinion first; the Mahoning Association, itself still a Baptist association in 1828, received Raines with his opinion kept as private property.'))
 A(QK('&ldquo;It was feared that they were, after all, <b>merely baptized Universalists</b>. If this was all, it was nothing.&rdquo;',
      HAY + ', p. 158', 'The worry', 'hay',
      'Hayden goes on: &ldquo;Baptized Universalism is Universalism still; not the gospel.&rdquo; There were &ldquo;out-of-door discussions touching the prudence of such a loose proceeding&rdquo; (p. 163). Richardson: some &ldquo;doubted whether under such circumstances Mr. Raines could be received&rdquo; (II, p. 244).'))
+A(TALK('In the street at Warren', [
+    ('Dr. Wright', '&ldquo;I understand that you sometimes tell people that you still believe that all men will finally become holy and happy.&rdquo;'),
+    ('Raines', '&ldquo;I do, sir.&rdquo;'),
+    ('Dr. Wright', '&ldquo;What then will you do with this passage: <i>These shall go away into everlasting punishment</i>&hellip;?&rdquo;'),
+    ('Raines', '&ldquo;I will not do any thing with it. If I argue with you in defense of my opinions I shall make myself a factionist&hellip; and if you get up an argument with me, be careful, you will make yourself a factionist.&rdquo;')],
+  'Saturday morning of the Association, after Campbell&rsquo;s Friday sermon (shown here before it, in the run-through order). Four clicks. Raines, 1868, Hayden pp. 167&ndash;168. Matthew 25:46. Raines will not trade proof-texts: to press an opinion is to make a faction. The doctor&rsquo;s name was Wright. Remember it.', size='clamp(26px,4.8vmin,60px)'))
+A(TALK('In the street at Warren', [
+    ('Dr. Wright', '&ldquo;Well, sir, I&rsquo;ll see whether this association will fellowship men of your views.&rdquo;'),
+    ('Raines', '&ldquo;I will show you that I will have Thomas Campbell, A. Campbell, Walter Scott, Bentley, and a number of others on my side.&rdquo;'),
+    ('Dr. Wright', '&ldquo;It is impossible.&rdquo;'),
+    ('Raines', '&ldquo;Well, try it.&rdquo;')],
+  'Four clicks. Hayden p. 168. Raines (paraphrasing the first line): &ldquo;the Doctor, seeing that I was not in his trap, became excited.&rdquo;'))
+A(SCENE('bg-warren-1846.jpg', 'The trial', 'Warren, August 1828', 'Public Square, Warren &middot; Henry Howe, <i>Historical Collections of Ohio</i> (1847)', 'The Mahoning Association met at Warren, the seat of Trumbull County, in the last week of August 1828 (exact days to check). Hayden was there &ldquo;from first to last&rdquo; (p. 161). A triumphant meeting: Methodists, Baptists, Universalists, now one body: &ldquo;a grand demonstration of the possibility of the union of Christians on original Bible ground&rdquo; (p. 162). And a worry. Engraving from Howe&rsquo;s drawings of the 1840s, the nearest view we have to the town of 1828.'))
 A(QK('&ldquo;I went to that association expecting trouble&hellip; <b>But I resolved to breast the storm.</b>&rdquo;',
      RAINES + ', p. 167', 'Raines', 'hay',
      'In full: &ldquo;for, although I did not preach my [Universalist] opinions, yet I sometimes told such persons as approached me becomingly, that it was still my opinion that all men would, ultimately, in some distant period of eternity, be saved. Out of this the trouble was to grow.&rdquo;', size='clamp(40px,8.6vmin,110px)', width='26ch'))
 A(QK('&ldquo;Him that is weak in the faith receive ye, <b>but without regard to differences of opinion</b>.&rdquo;',
      'Romans 14:1, in Campbell&rsquo;s translation &middot; Alexander Campbell&rsquo;s text at Warren, Friday', 'Friday: the opening sermon', 'hay',
      'Raines heard Alexander Campbell that day for the first time. &ldquo;Bro. Campbell dilated lucidly, showing the difference between faith and opinion&hellip; I felt very much strengthened and comforted, knowing, if my case came up in the association, I would have at least Bro. Campbell on my side&rdquo; (Hayden p. 167). Richardson: &ldquo;As Mr. Campbell was aware of this state of feeling, he took as the subject of his introductory discourse the fourteenth chapter of Romans&rdquo; (II, p. 244). The sermon&rsquo;s substance comes back in a moment.', size='clamp(40px,8.6vmin,110px)', width='26ch'))
-A(TALK('Saturday morning, in the street', [
-    ('Dr. Wright', '&ldquo;I understand that you sometimes tell people that you still believe that all men will finally become holy and happy.&rdquo;'),
-    ('Raines', '&ldquo;I do, sir.&rdquo;'),
-    ('Dr. Wright', '&ldquo;What then will you do with this passage: <i>These shall go away into everlasting punishment</i>&hellip;?&rdquo;'),
-    ('Raines', '&ldquo;I will not do any thing with it. If I argue with you in defense of my opinions I shall make myself a factionist&hellip; and if you get up an argument with me, be careful, you will make yourself a factionist.&rdquo;')],
-  'Four clicks. Raines, 1868, Hayden pp. 167&ndash;168. Matthew 25:46. Raines will not trade proof-texts: to press an opinion is to make a faction. The doctor&rsquo;s name was Wright. Remember it.', size='clamp(26px,4.8vmin,60px)'))
-A(TALK('Saturday morning, in the street', [
-    ('Dr. Wright', '&ldquo;Well, sir, I&rsquo;ll see whether this association will fellowship men of your views.&rdquo;'),
-    ('Raines', '&ldquo;I will show you that I will have Thomas Campbell, A. Campbell, Walter Scott, Bentley, and a number of others on my side.&rdquo;'),
-    ('Dr. Wright', '&ldquo;It is impossible.&rdquo;'),
-    ('Raines', '&ldquo;Well, try it.&rdquo;')],
-  'Four clicks. Hayden p. 168. Raines (paraphrasing the first line): &ldquo;the Doctor, seeing that I was not in his trap, became excited.&rdquo;'))
 A(CARD('Saturday afternoon:<br>' + G('the case is called.'),
   'Not Dr. Wright but Jacob Osborne, &ldquo;very lugubriously&rdquo; (Raines), brought it before the Association. Hayden calls him &ldquo;the careful and judicious Osborne,&rdquo; pressed by others to have the matter settled. Some were for rejecting Raines, many in doubt, &ldquo;the greater number&rdquo; for him (p. 166).'))
 A(WITHBG(QK('&ldquo;<b>The devil has brought this question into this association</b> to sow discord among brethren.&rdquo;',
@@ -311,24 +309,9 @@ A(QK('&ldquo;I think&hellip; that Bro. Raines has been very badly treated, and <
      'Walter Scott, as Raines remembered it &middot; Hayden, p. 168', 'Walter Scott', 'hay',
      'Scott: he &ldquo;concurred with the preceding speakers, and would not have said any thing on the occasion but to give me time for reflection.&rdquo; Scott buying him a minute to cool down.'))
 
-# ---------- VI. ALEXANDER'S PROPOSAL ----------
+# ---------- VI. ALEXANDER'S PROPOSAL (his reasoning moved to the close, 2026-11-28) ----------
 A(PORTRAIT('acyoung-oval.jpg', 'Alexander Campbell', 'Forty years old. His proposal.',
   'Then Alexander rose, and &ldquo;substantially repeated what he had said in his introductory discourse, on the difference between faith and opinion&rdquo; (Raines, Hayden p. 168). What was that discourse?', 'Saturday afternoon'))
-A(LIST('The Friday sermon, as Hayden heard it', 'Three kinds of thing',
-  ['<b>Knowledge:</b> what one has seen and heard for oneself. The apostles knew Jesus.',
-   '<b>Faith:</b> the facts reported to us, received on their testimony.',
-   '<b>Opinion:</b> everything else. &ldquo;The fruitful source of all the schism.&rdquo;'],
-  'Three clicks. Hayden&rsquo;s summary of Campbell&rsquo;s sermon on Romans 14:1, pp. 164&ndash;165: &ldquo;1st. Matters of knowledge &mdash; personal knowledge; 2d. The things of faith, the facts reported to us, which we accept on testimony; 3d. Matters of opinion.&rdquo; &ldquo;The apostles knew the gospel to be true, and none but they stood on this high ground of knowledge.&rdquo; &ldquo;As the facts of the gospel are always one and invariable&hellip; the faith of all persons is a unit. The important conclusion was thus reached, that Christians are not divided on the faith.&rdquo; Opinion &ldquo;was the fruitful source of all the schism which checkers, disgraces, and weakens the Christian profession.&rdquo;',
-  size='clamp(32px,6.2vmin,78px)', gap='3vmin'))
-A(QK('&ldquo;Faith stands on testimony. <b>No testimony, no faith.</b>&rdquo;',
-     'Campbell&rsquo;s Friday sermon, in Hayden&rsquo;s summary, p. 164', 'The rule', 'hay',
-     'Hayden goes on: &ldquo;Testimony is delivered by witnesses. Christ&rsquo;s apostles are his witnesses&hellip; Our faith in Christ is founded on the testimony of his witnesses&hellip; &lsquo;Faith comes by hearing, and hearing by the word of God&rsquo;; Rom. x: 17.&rdquo; Hayden&rsquo;s words, summarizing; not Campbell verbatim.', size='clamp(50px,11vmin,140px)', width='18ch'))
-A(QK('&ldquo;&hellip;<b>It could never be considered a matter of belief, since there was no testimony to render it such.</b>&rdquo;',
-     RICH + ', p. 245 (summarizing Campbell at Warren)', 'Applied to Raines', 'rich2',
-     'Richardson: Raines&rsquo; view &ldquo;could be regarded as nothing but an opinion, since there was not a passage anywhere in the writings of prophets or apostles affirming it.&rdquo; Campbell then proposed that Raines &ldquo;should express his willingness to preach the gospel as the apostles preached it, and to retain his opinions as private property in harmony with the principles of the Reformation.&rdquo;'))
-A(QK('&ldquo;If a person say such is his private opinion, let him have it as his private opinion; but lay no stress upon it; and <b>if it be a wrong private opinion, it will die a natural death much sooner than if you attempt to kill it</b>.&rdquo;',
-     AC + ', ' + MH30 + ', p. 147', 'Alexander Campbell, in his own words', 'mh1830',
-     'Written in 1830, telling this very story. Before it: &ldquo;And will you receive a Universalist too? No; not as a Universalist. If a man, professing Universalist opinions, should apply for admission, we will receive him, if he will consent to use and apply all the Bible phrases in their plain reference to the future state of men and angels.&rdquo; And of the essay&rsquo;s whole argument: &ldquo;We do not ask them to give up their opinions&mdash;we ask them only not to impose them upon others&rdquo; (p. 145).'))
 A(QK('&ldquo;&hellip;Bro. Campbell requested me <b>to stand upon a bench</b>, and proclaim to the large concourse present, my own views of my obligations as a Christian and as a preacher of the gospel.&rdquo;',
      RAINES + ', p. 168', 'On the bench', 'hay',
      'Hayden&rsquo;s footnote: &ldquo;The better to be heard, the house being very full.&rdquo; What Raines said: &ldquo;That my Restorationism was a philosophy. That I would neither preach it nor contend for it, but would preach the whole gospel, and teach the whole truth of Christianity according to my best ability.&rdquo;'))
@@ -341,37 +324,15 @@ A(TALK('Sunday, the sunrise prayer meeting', [
     ('Raines', '&ldquo;I second that motion; for <i>by grace are ye saved through faith</i>&hellip; Now, if any member of this association holds any doctrine contradictory to the teaching of this passage, I move that he be immediately disfellowshiped.&rdquo;'),
     ('Raines', '&ldquo;The old Brother who had put the motion, <b>struck a direct line for the door</b>, and the congregation followed him; and there my association troubles ended.&rdquo;')],
   'Three clicks. Hayden p. 169. &ldquo;In a twinkling I was on my feet.&rdquo; Ephesians 2:8&ndash;9. Raines: &ldquo;Affairs, however, would probably have taken a very different turn, had somebody else than myself seconded the old man&rsquo;s motion.&rdquo;', size='clamp(25px,4.5vmin,56px)'))
-A(ASK(2, 'After the vote and the sunrise motion. The stakes were real: Baptists and Methodists elsewhere would not even immerse a Universalist (Stacy and Person, New York, 1817). Hold it: the answer is the same as the first.'))
-A(CARD('The rest<br>' + G('of the story.'),
-  'In Raines&rsquo;s own words, forty years on and two years on.', 'Raines'))
-A(QK('&ldquo;<b>Had they attempted to brow-beat me I might have been ruined forever.</b> But treating me kindly, at the same time that they convinced me that my opinion, whether true or false, dwindled into nothingness in comparison with the faith of the gospel, <b>redeemed me</b>.&rdquo;',
-     RAINES + ', p. 169', 'Forty years later', 'hay',
-     'Before it: &ldquo;I was dealt with, and my case managed, by Bro. Campbell and all the chief brethren in very great kindness and wisdom.&rdquo; After: &ldquo;I became a day and night preacher of the gospel, and my mind becoming absorbed in this vast work, the opinion faded, and in ten months was numbered with all my former errors&rdquo; (pp. 169&ndash;170; a page break falls in that sentence).'))
-A(QK('&ldquo;<b>The facts of the New Testament will conquer the world. They have conquered me</b>, and are now conquering thousands of others.&rdquo;',
-     'Aylett Raines, letter to Campbell, Cincinnati, April 13, 1830 &middot; ' + MH30 + ', p. 149', 'Two years later', 'none',
-     'Checked by eye in the scan (&ldquo;con quered&rdquo; split across a line). The letter: &ldquo;I wish to inform you that my &lsquo;Restorationist&rsquo; sentiments have been slowly and imperceptibly erased from my mind, by the ministry of Paul and Peter&hellip; After my immersion, I brought my mind, as much as I possibly could, like a blank surface, to the ministry of the New Institution&rdquo; (pp. 148&ndash;149). And: &ldquo;My former associates persecute me, I would say, most cruelly.&rdquo;', size='clamp(38px,8vmin,104px)', width='28ch'))
-A(QK('&ldquo;I am strongly disposed to reciprocate the kindness of that beloved brother, by declaring, that, <b>if I were Timothy, father Campbell should, in preference to any man, be my Paul</b>.&rdquo;',
-     'Aylett Raines, letter, 1830 &middot; ' + MH30 + ', p. 149', 'To Thomas Campbell', 'mh1830',
-     '&ldquo;You will not call this flattery. It is a warm sentimental effusion of my heart.&rdquo; Campbell printed the letter as proof of &ldquo;the wisdom of the course pursued.&rdquo; His own comment on his reasoning at Warren: &ldquo;I urged this course from the conviction that, if these opinions were not agitated nor discussed, the ancient gospel would cause them to wither away. This was my philosophy then&rdquo; (p. 148).'))
-A(QK('&ldquo;Reason and experience unite their testimony in assuring us that, <b>in the same proportion as individuals labor to be of one opinion, they disagree</b>.&rdquo;',
-     AC + ', ' + MH30 + ', p. 149', 'Campbell&rsquo;s lesson', 'mh1830',
-     'He goes on: &ldquo;The greater the emphasis laid upon opinions, the more rapidly they generate. The nearest approaches to a unity of opinion which I have ever witnessed, have appeared in those societies in which no effort was made to be of one opinion; in which they allowed the greatest liberty of opinion, and in which they talked more and boasted more of the glory and majesty of the great facts, the wonderful works of God&rsquo;s loving kindness.&rdquo; Honest notes: the terms were that Raines not teach his opinion; a minority nearly split the Association, and some would-be members walked away (Richardson II, p. 246).'))
+A(QK('&ldquo;&hellip;so much dissatisfied were some who had come to the meeting with a view of uniting with the reformers <b>that they declined doing so</b>.&rdquo;',
+     RICH + ', p. 246', 'Some walked away', 'rich2',
+     'Richardson, on the same page: some of Campbell&rsquo;s own associates &ldquo;thought he had in some measure compromised the principle of the Reformation itself.&rdquo; And the minority stayed so disturbed that &ldquo;nothing but his prudence and careful avoidance of any effort to teach his speculative opinions prevented a schism.&rdquo;'))
+A(QK('&ldquo;It gave an example, however, of <b>a freedom of thought of which the religious community had never dreamed</b>&hellip;&rdquo;',
+     RICH + ', p. 247', 'Richardson&rsquo;s verdict', 'rich2',
+     'The sentence goes on: &ldquo;and presented in a very striking light the liberality of the basis of Christian union advocated by Mr. Campbell.&rdquo; His reasoning just before: Raines believed God &ldquo;would reward the righteous and punish the wicked according to their works&rdquo;; that was the substance of the revelation, and anything beyond it &ldquo;mere opinions or speculations.&rdquo;'))
+A(ASK(3, 'Hold it. Campbell&rsquo;s own reasons come at the end, after Wright.'))
 
 # ---------- VII. THE HINGE ----------
-A(LIST('Two ways of reading', 'Raines, before and after',
-  ['<b>Before:</b> a verse as proof. &ldquo;The scrap.&rdquo; The covenants a &ldquo;hotch-potch,&rdquo; &ldquo;a chaos.&rdquo;',
-   '<b>Scott:</b> the whole chapter. The covenants in order. The story of faith.'],
-  'Two clicks. Same Bible, same man. What changed was the unit of reading: not the verse, the story.', size='clamp(36px,7vmin,88px)', gap='3.4vmin'))
-A(QK('&ldquo;The words and sentences of the Bible are to be translated, interpreted, and understood according to <b>the same code of laws and principles of interpretation by which other ancient writings are translated and understood</b>&hellip;&rdquo;',
-     AC + ', <i>The Christian System</i> (1839), &ldquo;Rules of Interpretation,&rdquo; p. 16', 'Like any other book', 'cs',
-     'He goes on: &ldquo;for when God spoke to man in his own language, he spoke as one person converses with another.&rdquo; Rule 1: &ldquo;consider first the historical circumstances of the book&rdquo;: the order, title, author, date, place and occasion. Rule 2: &ldquo;observe who it is that speaks, and under what dispensation he officiates.&rdquo;'))
-A(QK('&ldquo;In reading the historical and epistolary parts of the sacred writings, begin at the beginning and <b>follow the writer in the train of his own thoughts</b> and reasonings to the end of the subject on which he writes, <b>irrespective of chapters and verses</b>.&rdquo;',
-     AC + ', <i>Millennial Harbinger</i> (1846), &ldquo;Tracts for the People,&rdquo; No. III, p. 22', 'Campbell&rsquo;s rule', 'mh1846',
-     'On the same page: dividing the Bible into chapters and verses has given it &ldquo;the appearance of a book of proverbs.&rdquo; Rule 2 of his rules of interpretation: &ldquo;observe who it is that speaks, and under what dispensation he officiates. Is he a Patriarch, a Jew, or a Christian?&rdquo; (<i>Christian System</i>, p. 16).'))
-A(QK('&ldquo;The Bible is a book of facts, not of opinions, theories, abstract generalities, nor of verbal definitions&hellip; <b>History is therefore the plan pursued in both Testaments</b>&hellip;&rdquo;',
-     AC + ', <i>The Christian System</i> (1839), p. 19', 'Campbell: a book of facts', 'cs',
-     'In full: &ldquo;It is a book of awful facts, grand and sublime beyond description. These facts reveal God and man&hellip; The meaning of the Bible facts is the true biblical doctrine. History is therefore the plan pursued in both Testaments; for testimony has primarily to do with faith, and reasoning with the understanding.&rdquo; History and prophecy &ldquo;make up exactly four-fifths of all the volumes of inspiration.&rdquo; And: &ldquo;Fact means something done&rdquo; (p. 115). A book of deeds, a story; and its facts are received on testimony. That is the Warren sermon.'))
-A(ASK(3, 'A rule, a book of facts. But what was the method, really, that made a Universalist preacher see the Bible for the first time? Hold it.'))
 A(QK('&ldquo;His main object was to convince the people <b>that God meant what he said</b> in his Word, which caused great excitement&hellip; <b>many sitting up all night reading the Scriptures to see if they meant what they said</b>&hellip;&rdquo;',
      'Samuel Robbins&rsquo;s diary, Braceville Ridge, February 23, 1828 &middot; ' + HAY + ', p. 143', 'Up all night', 'hay',
      'Scott preaching, the winter before Warren; the excitement ran through &ldquo;Braceville and Windham.&rdquo; Robbins goes on: Scott held up his left hand and counted the five items on his fingers, &ldquo;then contrast it with the five points of Calvinism; and thus he made the Scripture order of the gospel so plain, that little boys could carry it home.&rdquo;'))
@@ -384,8 +345,8 @@ A(QK('&ldquo;I also discovered that I had never read the Scriptures, to form sen
 A(QK('&ldquo;It was easily perceived <b>the book was to be read like other books</b>&hellip; From that time the Bible was studied as a new book, and oh, what a change it made! It is better remembered and felt than told.&rdquo;',
      'William Hayden, in his own words &middot; ' + BAX + ', pp. 198&ndash;199', 'A new book', 'bax',
      'At a preachers&rsquo; meeting in New Lisbon, on &ldquo;the true principles of interpretation&rdquo;: &ldquo;first, find who speaks, who it is spoken to, what is the subject, what is the object, and what is the context.&rdquo; Then: &ldquo;every diligent student of it could be a self-taught disciple.&rdquo; Campbell&rsquo;s method, in a lay preacher&rsquo;s mouth.'))
-A(ASK(4, 'Not Campbell now: the farmers, the diarists, the lay preachers. Their own words.'))
-A(ASK(5, 'Last week&rsquo;s question, sharpened: not how did they unite, but how could they? Leave it open. To answer it, a detour, through a Wright.'))
+A(ASK(4, 'Farmers, diarists, lay preachers. What were they doing?'))
+A(ASK(0, 'Our questions so far. To answer them, a detour, through a Wright.', 'Our questions', upto=4))
 A(CARD('The accuser at Warren was a<br>' + G('Dr. Wright.'),
   'A small joke on the way. Two centuries later, another Wright is read all over the Churches of Christ, and here, and he reads the Bible the way Scott read it to Raines: as a story, in acts.', 'Another Wright'))
 
@@ -396,7 +357,7 @@ A(C('N. T. Wright', 'Bishop of Durham (2003&ndash;2010); New Testament scholar a
 A(CARD('Wright is a historian.<br>' + G('He reads the Bible as a story.'), 'The first of four things Wright does that Campbell did. Each pair: Wright, then one click for Campbell.', '1 of 4'))
 A(PAIR('What God has done',
   '&ldquo;The historian has to plunge into the real world&hellip; in order to find out <b>what it is in fact that God has sovereignly done</b>&hellip;&rdquo;', W18 + ', p. 22', 'w18',
-  '&ldquo;<b>Fact means something done.</b>&rdquo;', AC + ', <i>The Christian System</i> (1839), p. 115', 'cs',
+  '&ldquo;<b>Fact means something done.</b>&hellip; That God exists, is a truth, but not a fact; <b>that he created the heavens and the earth, is a fact and a truth</b>.&rdquo;', AC + ', <i>The Christian System</i> (1839), p. 115', 'cs',
   'Wright&rsquo;s history and Campbell&rsquo;s fact are the same thing: what God did. Campbell goes on: &ldquo;The work of redemption is a system of works, or deeds, on the part of Heaven&hellip; the most splendid series of moral facts which man or angel ever saw&rdquo; (p. 116). Raines: Scott preached Hebrews 11, faith as a story of deeds, and &ldquo;here I virtually surrendered.&rdquo;'))
 A(QK('&ldquo;Suppose there exists a Shakespeare play <b>whose fifth act had been lost</b>.&rdquo;',
      LAING + ', p. 18', 'Wright&rsquo;s parable', 'hcba',
@@ -436,9 +397,54 @@ A(PAIR('Living in the story',
   '&ldquo;<b>The fact, or the thing said to be done, produces the change</b> in the frame of mind.&rdquo;', AC + ', <i>The Christian System</i> (1839), p. 122', 'cs',
   'Wright goes on: &ldquo;And that is the task of the whole church. Need I say, not merely of the professional caste within it&rdquo; (p. 27). Campbell&rsquo;s chain: &ldquo;fact, testimony, faith, and feeling&rdquo; (p. 122), then action; the facts are &ldquo;a moral seal or archetype&rdquo; that draws God&rsquo;s image on the soul (p. 116). Raines, 1830: &ldquo;The facts of the New Testament will conquer the world. They have conquered me.&rdquo;'))
 
-A(ASK(6, 'The sub-question, asked after the pairs, and the storytelling trick: answer this one, and it frames the answer to the others. Answer, next slide. Otter Creek reads Wright: the sermons, the classes, the books on the shelf. [Micah: examples from Otter Creek.] Four things he does, and Campbell beside each.'))
+A(ASK(5, 'The sub-question, asked after the pairs, and the storytelling trick: answer this one, and it frames the answer to the others. Answer, next slide.'))
 A(CARD('Both point us to<br>' + G('the power of the story.'),
   'The answer to question 6. We are drawn to Wright because he points where Campbell pointed: the story of Scripture, read whole, read as history, with power of its own to change us. Historian and story; past the creeds; past the atonement theories; into the renewal of all things. Campbell&rsquo;s heirs kept his rules and lost his story; Wright gives it back.', 'Why Wright is popular among us'))
+
+# ---------- BACK TO WARREN (moved here 2026-11-28) ----------
+A(CARD('Back to Warren:<br>' + G('what Campbell said.'), 'With Wright&rsquo;s frame in hand: the Friday sermon, and the rule behind the vote.', 'Back to Warren'))
+A(LIST('The Friday sermon, as Hayden heard it', 'Three kinds of thing',
+  ['<b>Knowledge:</b> what one has seen and heard for oneself. The apostles knew Jesus.',
+   '<b>Faith:</b> the facts reported to us, received on their testimony.',
+   '<b>Opinion:</b> everything else. &ldquo;The fruitful source of all the schism.&rdquo;'],
+  'Three clicks. Hayden&rsquo;s summary of Campbell&rsquo;s sermon on Romans 14:1, pp. 164&ndash;165: &ldquo;1st. Matters of knowledge &mdash; personal knowledge; 2d. The things of faith, the facts reported to us, which we accept on testimony; 3d. Matters of opinion.&rdquo; &ldquo;The apostles knew the gospel to be true, and none but they stood on this high ground of knowledge.&rdquo; &ldquo;As the facts of the gospel are always one and invariable&hellip; the faith of all persons is a unit. The important conclusion was thus reached, that Christians are not divided on the faith.&rdquo; Opinion &ldquo;was the fruitful source of all the schism which checkers, disgraces, and weakens the Christian profession.&rdquo;',
+  size='clamp(32px,6.2vmin,78px)', gap='3vmin'))
+A(QK('&ldquo;Faith stands on testimony. <b>No testimony, no faith.</b>&rdquo;',
+     'Campbell&rsquo;s Friday sermon, in Hayden&rsquo;s summary, p. 164', 'The rule', 'hay',
+     'Hayden goes on: &ldquo;Testimony is delivered by witnesses. Christ&rsquo;s apostles are his witnesses&hellip; Our faith in Christ is founded on the testimony of his witnesses&hellip; &lsquo;Faith comes by hearing, and hearing by the word of God&rsquo;; Rom. x: 17.&rdquo; Hayden&rsquo;s words, summarizing; not Campbell verbatim.', size='clamp(50px,11vmin,140px)', width='18ch'))
+A(QK('&ldquo;&hellip;<b>It could never be considered a matter of belief, since there was no testimony to render it such.</b>&rdquo;',
+     RICH + ', p. 245 (summarizing Campbell at Warren)', 'Applied to Raines', 'rich2',
+     'Richardson: Raines&rsquo; view &ldquo;could be regarded as nothing but an opinion, since there was not a passage anywhere in the writings of prophets or apostles affirming it.&rdquo; Campbell then proposed that Raines &ldquo;should express his willingness to preach the gospel as the apostles preached it, and to retain his opinions as private property in harmony with the principles of the Reformation.&rdquo;'))
+A(QK('&ldquo;If a person say such is his private opinion, let him have it as his private opinion; but lay no stress upon it; and <b>if it be a wrong private opinion, it will die a natural death much sooner than if you attempt to kill it</b>.&rdquo;',
+     AC + ', ' + MH30 + ', p. 147', 'Alexander Campbell, in his own words', 'mh1830',
+     'Written in 1830, telling this very story. Before it: &ldquo;And will you receive a Universalist too? No; not as a Universalist. If a man, professing Universalist opinions, should apply for admission, we will receive him, if he will consent to use and apply all the Bible phrases in their plain reference to the future state of men and angels.&rdquo; And of the essay&rsquo;s whole argument: &ldquo;We do not ask them to give up their opinions&mdash;we ask them only not to impose them upon others&rdquo; (p. 145).'))
+A(LIST('Two ways of reading', 'Raines, before and after',
+  ['<b>Before:</b> a verse as proof. &ldquo;The scrap.&rdquo; The covenants a &ldquo;hotch-potch,&rdquo; &ldquo;a chaos.&rdquo;',
+   '<b>Scott:</b> the whole chapter. The covenants in order. The story of faith.'],
+  'Two clicks. Same Bible, same man. What changed was the unit of reading: not the verse, the story.', size='clamp(36px,7vmin,88px)', gap='3.4vmin'))
+A(QK('&ldquo;The words and sentences of the Bible are to be translated, interpreted, and understood according to <b>the same code of laws and principles of interpretation by which other ancient writings are translated and understood</b>&hellip;&rdquo;',
+     AC + ', <i>The Christian System</i> (1839), &ldquo;Rules of Interpretation,&rdquo; p. 16', 'Like any other book', 'cs',
+     'He goes on: &ldquo;for when God spoke to man in his own language, he spoke as one person converses with another.&rdquo; Rule 1: &ldquo;consider first the historical circumstances of the book&rdquo;: the order, title, author, date, place and occasion. Rule 2: &ldquo;observe who it is that speaks, and under what dispensation he officiates.&rdquo;'))
+A(QK('&ldquo;In reading the historical and epistolary parts of the sacred writings, begin at the beginning and <b>follow the writer in the train of his own thoughts</b> and reasonings to the end of the subject on which he writes, <b>irrespective of chapters and verses</b>.&rdquo;',
+     AC + ', <i>Millennial Harbinger</i> (1846), &ldquo;Tracts for the People,&rdquo; No. III, p. 22', 'Campbell&rsquo;s rule', 'mh1846',
+     'On the same page: dividing the Bible into chapters and verses has given it &ldquo;the appearance of a book of proverbs.&rdquo; Rule 2 of his rules of interpretation: &ldquo;observe who it is that speaks, and under what dispensation he officiates. Is he a Patriarch, a Jew, or a Christian?&rdquo; (<i>Christian System</i>, p. 16).'))
+A(QK('&ldquo;The Bible is a book of facts, not of opinions, theories, abstract generalities, nor of verbal definitions&hellip; <b>History is therefore the plan pursued in both Testaments</b>&hellip;&rdquo;',
+     AC + ', <i>The Christian System</i> (1839), p. 19', 'Campbell: a book of facts', 'cs',
+     'In full: &ldquo;It is a book of awful facts, grand and sublime beyond description. These facts reveal God and man&hellip; The meaning of the Bible facts is the true biblical doctrine. History is therefore the plan pursued in both Testaments; for testimony has primarily to do with faith, and reasoning with the understanding.&rdquo; History and prophecy &ldquo;make up exactly four-fifths of all the volumes of inspiration.&rdquo; And: &ldquo;Fact means something done&rdquo; (p. 115). A book of deeds, a story; and its facts are received on testimony. That is the Warren sermon.'))
+A(CARD('The rest<br>' + G('of the story.'),
+  'In Raines&rsquo;s own words, forty years on and two years on.', 'Raines'))
+A(QK('&ldquo;<b>Had they attempted to brow-beat me I might have been ruined forever.</b> But treating me kindly, at the same time that they convinced me that my opinion, whether true or false, dwindled into nothingness in comparison with the faith of the gospel, <b>redeemed me</b>.&rdquo;',
+     RAINES + ', p. 169', 'Forty years later', 'hay',
+     'Before it: &ldquo;I was dealt with, and my case managed, by Bro. Campbell and all the chief brethren in very great kindness and wisdom.&rdquo; After: &ldquo;I became a day and night preacher of the gospel, and my mind becoming absorbed in this vast work, the opinion faded, and in ten months was numbered with all my former errors&rdquo; (pp. 169&ndash;170; a page break falls in that sentence).'))
+A(QK('&ldquo;<b>The facts of the New Testament will conquer the world. They have conquered me</b>, and are now conquering thousands of others.&rdquo;',
+     'Aylett Raines, letter to Campbell, Cincinnati, April 13, 1830 &middot; ' + MH30 + ', p. 149', 'Two years later', 'none',
+     'Checked by eye in the scan (&ldquo;con quered&rdquo; split across a line). The letter: &ldquo;I wish to inform you that my &lsquo;Restorationist&rsquo; sentiments have been slowly and imperceptibly erased from my mind, by the ministry of Paul and Peter&hellip; After my immersion, I brought my mind, as much as I possibly could, like a blank surface, to the ministry of the New Institution&rdquo; (pp. 148&ndash;149). And: &ldquo;My former associates persecute me, I would say, most cruelly.&rdquo;', size='clamp(38px,8vmin,104px)', width='28ch'))
+A(QK('&ldquo;I am strongly disposed to reciprocate the kindness of that beloved brother, by declaring, that, <b>if I were Timothy, father Campbell should, in preference to any man, be my Paul</b>.&rdquo;',
+     'Aylett Raines, letter, 1830 &middot; ' + MH30 + ', p. 149', 'To Thomas Campbell', 'mh1830',
+     '&ldquo;You will not call this flattery. It is a warm sentimental effusion of my heart.&rdquo; Campbell printed the letter as proof of &ldquo;the wisdom of the course pursued.&rdquo; His own comment on his reasoning at Warren: &ldquo;I urged this course from the conviction that, if these opinions were not agitated nor discussed, the ancient gospel would cause them to wither away. This was my philosophy then&rdquo; (p. 148).'))
+A(QK('&ldquo;Reason and experience unite their testimony in assuring us that, <b>in the same proportion as individuals labor to be of one opinion, they disagree</b>.&rdquo;',
+     AC + ', ' + MH30 + ', p. 149', 'Campbell&rsquo;s lesson', 'mh1830',
+     'He goes on: &ldquo;The greater the emphasis laid upon opinions, the more rapidly they generate. The nearest approaches to a unity of opinion which I have ever witnessed, have appeared in those societies in which no effort was made to be of one opinion; in which they allowed the greatest liberty of opinion, and in which they talked more and boasted more of the glory and majesty of the great facts, the wonderful works of God&rsquo;s loving kindness.&rdquo; Honest notes: the terms were that Raines not teach his opinion; a minority nearly split the Association, and some would-be members walked away (Richardson II, p. 246).'))
 
 # Hidden in the reshape (2026-11-26), kept for reference
 HIDE(QK('&ldquo;<b>The Old Testament has the authority that an earlier act of the play would have, no more, no less.</b>&rdquo;',
@@ -472,7 +478,7 @@ A('<section class="slide"><div class=eyebrow>The quiz, again</div>'
   '<h2 style="max-width:none;font-size:clamp(40px,8vmin,104px)">&ldquo;We speak where the Bible speaks&hellip;&rdquo;</h2>'
   '<div class="sub frag" style="font-size:clamp(26px,5vmin,62px);color:var(--gold)">To whom? In which act? Read whole?</div>'
   '<aside class=notes>One click. Raines had a verse where the Bible spoke, and it spoke wrong until he heard the chapter. Where the Bible is silent (the end of all things, in Raines&rsquo;s case), Campbell&rsquo;s answer was: keep your opinion as private property, and preach the story.</aside></section>')
-A(ASK(0, 'All six, together. One answer serves them.', 'Our questions'))
+A(ASK(0, 'All five, together. One answer serves them.', 'Our questions'))
 # One idea, three ramifications (Micah, 2026-11-26). The four earlier ideas (IDEAS, above) are no longer shown.
 A('<section class="slide idea room"><div class=eyebrow>Today&rsquo;s idea</div>'
   '<h2 style="max-width:none">The story ' + G('does the work.') + '</h2>'

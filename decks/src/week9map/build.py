@@ -12,15 +12,14 @@ SIDE = []
 SECTIONS = [
     ('Opening', 'Our Wild Democracy &middot; Chapter 9'),
     ('A young Universalist', 'Fredericksburg, Spotsylvania County'),
-    ('What made Scott compelling?', 'Scottish-born, a schoolmaster in Pittsburgh'),
+    ('Raines and Scott', 'Scottish-born, a schoolmaster in Pittsburgh'),
     ('Thomas Campbell', 'probably no man within the reformation who possessed'),
-    ('The trial', 'Warren, August 1828<'),
+    ('The trial', 'merely baptized Universalists'),
     ('Alexander&rsquo;s proposal', 'substantially repeated what he had said in his introductory discourse'),
-    ('The rest of the story', 'forty years on and two years on'),
-    ('Campbell&rsquo;s method', 'Raines, before and after'),
-    ('Doing with the Bible', 'Up all night'),
+    ('How people heard it', 'Up all night'),
     ('N. T. Wright', 'Two centuries later'),
     ('Wright and Campbell', 'Wright is a historian.'),
+    ('Back to Warren', 'what Campbell said.'),
     ('Close', 'The quiz, again'),
 ]
 def docs(between, clean): return R.docs(between, clean, [])
