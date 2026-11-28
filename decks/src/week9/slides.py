@@ -144,8 +144,9 @@ A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter
   '<div class=sub>Aylett Raines, Walter Scott and the Campbells &middot; 1828</div>'
   '<aside class=notes>Chapter 9. Last week: Lexington, where they united on the Bible and not on their readings of it. This morning: how did they read it? A story about a man who came to argue and could not.</aside></section>')
 
-A(CARD('How did they unite<br>' + G('around the Bible?'),
-  'Recap. Lexington, 1832: Stone&rsquo;s Christians and Campbell&rsquo;s Disciples united on the Bible, not on their readings of it. The answer, next slide.', 'Recap'))
+A(PORTRAIT('cane-ridge-window-lexington-handshake.jpg', 'How did they unite<br>' + G('around the Bible?'),
+  'Lexington, New Year&rsquo;s Eve, 1831.<br><span style="font-size:.7em;opacity:.75">The handshake: stained glass, Cane Ridge Meeting House</span>',
+  'Recap. Stone&rsquo;s Christians and Campbell&rsquo;s Disciples, disagreeing on nearly everything, united on the Bible, not on their readings of it. Smith: &ldquo;While there is but one faith, there may be ten thousand opinions.&rdquo; Stone took his hand. The answer, next slide. Window: photograph from therestorationmovement.com (Chapter 8 images, SOURCES.md); maker and date unknown.', eyebrow='Recap'))
 A(CARD('Scripture, like the table:<br>' + G('shared by all.'),
   'Last week&rsquo;s last idea. They came to Scripture as to a table: not a set of agreed readings, but a shared inheritance. This morning: what kind of reading made it live?', 'Last week'))
 A(CARD('A young<br>' + G('Universalist.'),
