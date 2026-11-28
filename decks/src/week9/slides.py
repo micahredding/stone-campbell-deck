@@ -328,7 +328,7 @@ A(WITHBG(QK('&ldquo;Bro. Raines and I have been much together for the last sever
 A(WITHBG(QK('&ldquo;And if I were Paul, <b>I would have Bro. Raines&hellip; to be my Timothy</b>.&rdquo;',
      'Thomas Campbell, as Raines remembered it &middot; Hayden, p. 168', 'Thomas Campbell', 'hay',
      'Raines answered him two years later, in a letter (coming up): &ldquo;if I were Timothy, father Campbell should&hellip; be my Paul.&rdquo;', size='clamp(38px,8vmin,104px)', width='28ch'), 'tcampbell-oval.jpg', .22, 'center 30%'))
-A(QK('&ldquo;I think&hellip; that Bro. Raines has been very badly treated, and <b>I fear that when he speaks he will speak with too much severity</b>.&rdquo;',
+HIDE(QK('&ldquo;I think&hellip; that Bro. Raines has been very badly treated, and <b>I fear that when he speaks he will speak with too much severity</b>.&rdquo;',
      'Walter Scott, as Raines remembered it &middot; Hayden, p. 168', 'Walter Scott', 'hay',
      'Scott: he &ldquo;concurred with the preceding speakers, and would not have said any thing on the occasion but to give me time for reflection.&rdquo; Scott buying him a minute to cool down.'))
 
