@@ -1,4 +1,4 @@
-# Chapter 9, "The Heckler Who Kept His Seat" (Aylett Raines, 1828; then N. T. Wright), as a map deck:
+# Chapter 9, "Tale of a Young Universalist" (Aylett Raines, 1828; then N. T. Wright), as a map deck:
 # the slides in decks/src/week9/slides.py. Same builder as Chapters 4-8 (decks/src/mapdeck.py).
 #   python3 decks/src/week9map/build.py   ->  decks/chapter9.html
 # Quotations: python3 decks/src/week9/check_quotes.py
@@ -26,8 +26,8 @@ SECTIONS = [
 def docs(between, clean): return R.docs(between, clean, [])
 
 mapdeck.build({
-    'part': '9', 'key': 'w9', 'chapter': 'Chapter 9', 'title': 'Chapter 9 &middot; The Heckler Who Kept His Seat',
-    'page_title': 'Chapter 9 &middot; The Heckler Who Kept His Seat',
+    'part': '9', 'key': 'w9', 'chapter': 'Chapter 9', 'title': 'Chapter 9 &middot; Tale of a Young Universalist',
+    'page_title': 'Chapter 9 &middot; Tale of a Young Universalist',
     'out': 'decks/chapter9.html', 'source': 'decks/src/week9/slides.py', 'built_by': 'decks/src/week9map/build.py',
     'side': SIDE, 'sections': SECTIONS, 'docs': docs, 'short': R.SHORT, 'doc_doors': [], 'doc_order': R.doc_order,
 })
