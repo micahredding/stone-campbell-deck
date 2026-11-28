@@ -3,12 +3,12 @@
 The second slide of each deck is a short quiz drawn from this list (not from the slideshow material). Mark each item when used.
 
 - What are these? Extra points if you can sing this.
-- Finish this sentence: We speak (where the Bible speaks) and we are silent (where the Bible is silent). — *planned for Chapter 4, replaced*
+- Finish this sentence: We speak (where the Bible speaks) and we are silent (where the Bible is silent). — *planned for Chapter 4, replaced; used: Chapter 3b (with "No creed…")*
 - We believe in doing Bible things (the Bible way). — *used: Chapter 3*
 - OR: We call Bible things (by Bible names). — *used: Chapter 3*
 - We are Christians only… (but not the only Christians). — *used: Chapter 2*
 - No creed (but Christ). (Alternative answer: the Bible.) — *planned for Chapter 4, replaced; chosen for Chapter 8 (Micah, 2026-11-18): the class's two answers become part of the story*
-- When someone becomes a Christian, we say they: A) get saved B) accept Christ C) obey the gospel
+- When someone becomes a Christian, we say they: A) get saved B) accept Christ C) obey the gospel — *used: Chapter 9*
 - How often should you go to church? (As often as the doors are open.)
 - What exhortation do you give someone who has a habit of missing worship? (Do not forsake the assembly.)
 - Which is the preferred title for our preacher? A) pastor B) reverend C) brother D) none of the above — *used: Chapter 5*

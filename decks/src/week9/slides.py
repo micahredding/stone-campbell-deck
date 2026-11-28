@@ -134,19 +134,29 @@ def HIDE(slide): pass
 A(w3b.S[0])   # the class title
 
 A('<section class="slide"><div class=eyebrow>Quiz</div>'
-  '<h2 style="max-width:none;font-size:clamp(48px,10vmin,128px)">&ldquo;We speak where the Bible speaks&hellip;&rdquo;</h2>'
-  '<div class="sub frag" style="font-size:clamp(30px,6vmin,76px);color:var(--gold)">&hellip;and we are silent where the Bible is silent.</div>'
-  '<aside class=notes>From <code>quizzes.md</code>. Let them finish it; one click shows the rest. Thomas Campbell, Washington, Pa., 1809. Hold the question in the air: <i>where</i> does the Bible speak, to whom, and how do you know? We come back to it at the end.</aside></section>')
+  '<h2 style="max-width:none;font-size:clamp(40px,7.4vmin,94px)">When someone becomes<br>a Christian, we say they&hellip;</h2>'
+  '<div class="litany" style="text-align:left;gap:1.6vmin;margin-top:4vmin;font-size:clamp(34px,6.6vmin,84px)">'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">A.</span>Get saved</div>'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">B.</span>Accept Christ</div>'
+  '<div class=no style="position:relative"><span style="color:var(--gold);display:inline-block;width:1.6em">C.</span>Obey the gospel</div>'
+  '</div>'
+  '<aside class=notes>From <code>quizzes.md</code>. Answer: C (say it; no click). Let the room argue first. &ldquo;Obey the gospel&rdquo; is Walter Scott&rsquo;s language, and Raines&rsquo;s: &ldquo;I can see no way out, with the Word of God in my hand, but through the obedience of faith in baptism.&rdquo; Hold it: which gospel, and how did they hear it? We come back to it at the end.</aside></section>')
 
 A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 9</div>'
   '<h1>The Tale of a<br>Young Universalist</h1><div class=table-line></div>'
   '<div class=sub>Aylett Raines, Walter Scott and the Campbells &middot; 1828</div>'
   '<aside class=notes>Chapter 9. Last week: Lexington, where they united on the Bible and not on their readings of it. This morning: how did they read it? A story about a man who came to argue and could not.</aside></section>')
 
+# Recap from Chapter 8 (Micah, 2026-11-28): the points of division, the handshake, handshake by handshake, the union spreading
+def W8(anchor):
+    hits = [x for x in w8.S if anchor in x]
+    assert hits, anchor
+    return hits[0]
+for _a in ('Points of contention', 'Stained-glass window, Cane Ridge Meeting House', 'Handshake by', 'The union spreading'): A(W8(_a))
 A(PORTRAIT('cane-ridge-window-lexington-handshake.jpg', 'How did they unite<br>' + G('around the Bible?'),
   'Lexington, New Year&rsquo;s Eve, 1831.<br><span style="font-size:.7em;opacity:.75">The handshake: stained glass, Cane Ridge Meeting House</span>',
   'Recap. Stone&rsquo;s Christians and Campbell&rsquo;s Disciples, disagreeing on nearly everything, united on the Bible, not on their readings of it. Smith: &ldquo;While there is but one faith, there may be ten thousand opinions.&rdquo; Stone took his hand. The answer, next slide. Window: photograph from therestorationmovement.com (Chapter 8 images, SOURCES.md); maker and date unknown.', eyebrow='Recap'))
-A(CARD('Scripture, like the table:<br>' + G('shared by all.'),
+HIDE(CARD('Scripture, like the table:<br>' + G('shared by all.'),
   'Last week&rsquo;s last idea. They came to Scripture as to a table: not a set of agreed readings, but a shared inheritance. This morning: what kind of reading made it live?', 'Last week'))
 A(CARD('A young<br>' + G('Universalist.'),
   'This time: a Universalist preacher comes to heckle Walter Scott, and stays. Aylett Raines, the Western Reserve, 1828.', 'This time'))
@@ -475,9 +485,9 @@ HIDE(QK('&ldquo;<b>The historian has to plunge into the real world</b>, to follo
 
 # ---------- CLOSE ----------
 A('<section class="slide"><div class=eyebrow>The quiz, again</div>'
-  '<h2 style="max-width:none;font-size:clamp(40px,8vmin,104px)">&ldquo;We speak where the Bible speaks&hellip;&rdquo;</h2>'
-  '<div class="sub frag" style="font-size:clamp(26px,5vmin,62px);color:var(--gold)">To whom? In which act? Read whole?</div>'
-  '<aside class=notes>One click. Raines had a verse where the Bible spoke, and it spoke wrong until he heard the chapter. Where the Bible is silent (the end of all things, in Raines&rsquo;s case), Campbell&rsquo;s answer was: keep your opinion as private property, and preach the story.</aside></section>')
+  '<h2 style="max-width:none;font-size:clamp(40px,8vmin,104px)">&ldquo;Obey the gospel&rdquo;</h2>'
+  '<div class="sub frag" style="font-size:clamp(26px,5vmin,62px);color:var(--gold)">Which gospel? The story, read whole.</div>'
+  '<aside class=notes>One click. Scott&rsquo;s gospel was a story with points you could count on five fingers, preached a whole chapter at a time; Raines obeyed it before he had given up his opinion. The gospel to obey is the story, not a system about it.</aside></section>')
 A(ASK(0, 'All five, together. One answer serves them.', 'Our questions'))
 # One idea, three ramifications (Micah, 2026-11-26). The four earlier ideas (IDEAS, above) are no longer shown.
 A('<section class="slide idea room"><div class=eyebrow>Today&rsquo;s idea</div>'
