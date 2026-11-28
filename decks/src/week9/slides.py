@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Chapter 9: Tale of a Young Universalist (Aylett Raines, Walter Scott and the Campbells, 1828), then N. T. Wright.
+# Chapter 9: The Tale of a Young Universalist (Aylett Raines, Walter Scott and the Campbells, 1828), then N. T. Wright.
 # The story as Micah ordered it (2026-11-24; decks/src/week9/RAINES_STORY.md): the geography;
 # (the Universalism backstory is hidden, 2026-11-25); Windham and the conversion (how Scott made the Scriptures come alive); the road with Thomas Campbell;
 # the trial at Warren and Thomas Campbell's intervention; Alexander Campbell's proposal; then the question,
@@ -139,7 +139,7 @@ A('<section class="slide"><div class=eyebrow>Quiz</div>'
   '<aside class=notes>From <code>quizzes.md</code>. Let them finish it; one click shows the rest. Thomas Campbell, Washington, Pa., 1809. Hold the question in the air: <i>where</i> does the Bible speak, to whom, and how do you know? We come back to it at the end.</aside></section>')
 
 A('<section class="slide"><div class=eyebrow>Our Wild Democracy &middot; Chapter 9</div>'
-  '<h1>Tale of a<br>Young Universalist</h1><div class=table-line></div>'
+  '<h1>The Tale of a<br>Young Universalist</h1><div class=table-line></div>'
   '<div class=sub>Aylett Raines, Walter Scott and the Campbells &middot; 1828</div>'
   '<aside class=notes>Chapter 9. Last week: Lexington, where they united on the Bible and not on their readings of it. This morning: how did they read it? A story about a man who came to argue and could not.</aside></section>')
 
