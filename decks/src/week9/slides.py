@@ -304,7 +304,7 @@ A(WITHBG(QK('&ldquo;<b>The devil has brought this question into this association
 A(WITHBG(QK('&ldquo;Bro. Raines and I have been much together for the last several months, and we have mutually unbosomed ourselves to each other. I am a Calvinist, and he a [Universalist]; and, although I am a Calvinist, <b>I would put my right arm into the fire and have it burnt off before I would raise my hand against him.</b>&rdquo;',
      'Thomas Campbell, as Raines remembered it &middot; Hayden, p. 168', 'Thomas Campbell', 'none',
      'Checked by eye: the scan splits &ldquo;Calvin ist&rdquo; across a line. Richardson&rsquo;s version: &ldquo;He is philosophically a [Universalist] and I am a Calvinist, but notwithstanding this difference of opinion between us, I would put my right hand into the fire and have it burnt off before I would hold up my hands against him&rdquo; (II, p. 245). &ldquo;Raise my hand&rdquo;: they voted by show of hands.'), 'tcampbell-oval.jpg', .22, 'center 30%'))
-A(WITHBG(QK('&ldquo;And if I were Paul, <b>I would have Bro. Raines in preference to any other young man&hellip; to be my Timothy</b>.&rdquo;',
+A(WITHBG(QK('&ldquo;And if I were Paul, <b>I would have Bro. Raines&hellip; to be my Timothy</b>.&rdquo;',
      'Thomas Campbell, as Raines remembered it &middot; Hayden, p. 168', 'Thomas Campbell', 'hay',
      'Raines answered him two years later, in a letter (coming up): &ldquo;if I were Timothy, father Campbell should, in preference to any man, be my Paul.&rdquo;', size='clamp(38px,8vmin,104px)', width='28ch'), 'tcampbell-oval.jpg', .22, 'center 30%'))
 A(QK('&ldquo;I think&hellip; that Bro. Raines has been very badly treated, and <b>I fear that when he speaks he will speak with too much severity</b>.&rdquo;',
