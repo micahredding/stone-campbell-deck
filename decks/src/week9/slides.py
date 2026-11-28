@@ -345,7 +345,7 @@ A(TALK('The question', [
     ('Alexander Campbell', '&ldquo;Whether there was any law of Christ by which I could be condemned?&rdquo;'),
     ('The Association', '&ldquo;The vote was in the negative, and in my favor <b>by an overwhelming majority</b>.&rdquo;')],
   'Two clicks. Raines, Hayden p. 169. Richardson: &ldquo;Whether there was any law of Christ by which a brother could be condemned who deported himself as Mr. Raines proposed to do?&rdquo; decided &ldquo;by a very large majority&rdquo; (II, p. 246). Raines: &ldquo;This I took to be quite a triumph; but the end was not yet.&rdquo;', size='clamp(34px,6.4vmin,80px)'))
-A(TALK('Sunday, the sunrise prayer meeting', [
+HIDE(TALK('Sunday, the sunrise prayer meeting', [
     ('An old brother', '&ldquo;Brethren, I understand there are certain persons in the fellowship of this association who deny that sinners are saved by grace&hellip; I move that such persons be disfellowshiped.&rdquo;'),
     ('Raines', '&ldquo;I second that motion; for <i>by grace are ye saved through faith</i>&hellip; Now, if any member of this association holds any doctrine contradictory to the teaching of this passage, I move that he be immediately disfellowshiped.&rdquo;'),
     ('Raines', '&ldquo;The old Brother who had put the motion, <b>struck a direct line for the door</b>, and the congregation followed him; and there my association troubles ended.&rdquo;')],
