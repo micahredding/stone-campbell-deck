@@ -8,7 +8,10 @@ _H = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(_H, '..'))
 import mapdeck, resources as R
 
-SIDE = []
+SIDE = [
+    # (label, first-slide anchor, last-slide anchor)
+    ('The photograph', 'Side path &middot; the photograph', 'Side path &middot; the photograph'),
+]
 SECTIONS = [
     ('Opening', 'Our Wild Democracy &middot; Chapter 9'),
     ('A young Universalist', 'Fredericksburg, Spotsylvania County'),
