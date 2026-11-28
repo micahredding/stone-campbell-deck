@@ -152,7 +152,7 @@ def W8(anchor):
     hits = [x for x in w8.S if anchor in x]
     assert hits, anchor
     return hits[0]
-for _a in ('Points of contention', 'Stained-glass window, Cane Ridge Meeting House', 'Handshake by', 'The union spreading'): A(W8(_a))
+for _a in ('Points of contention', 'Stained-glass window, Cane Ridge Meeting House', 'Handshake by', 'The union spreading', 'One movement, spreading', 'From 1850 to 2000'): A(W8(_a))
 A(PORTRAIT('cane-ridge-window-lexington-handshake.jpg', 'How did they unite<br>' + G('around the Bible?'),
   'Lexington, New Year&rsquo;s Eve, 1831.<br><span style="font-size:.7em;opacity:.75">The handshake: stained glass, Cane Ridge Meeting House</span>',
   'Recap. Stone&rsquo;s Christians and Campbell&rsquo;s Disciples, disagreeing on nearly everything, united on the Bible, not on their readings of it. Smith: &ldquo;While there is but one faith, there may be ten thousand opinions.&rdquo; Stone took his hand. The answer, next slide. Window: photograph from therestorationmovement.com (Chapter 8 images, SOURCES.md); maker and date unknown.', eyebrow='Recap'))
